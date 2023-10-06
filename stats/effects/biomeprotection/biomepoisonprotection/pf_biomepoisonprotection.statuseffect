@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomepoisonprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomepoisonprotection.lua"
+  ],
+
+  "label" : "Toxic Immunity - Immunity to Deadly Toxicity, Slight Resistance To Poison",
+  "icon" : "/interface/statuses/pf_advpoisonprotection.png"
+}

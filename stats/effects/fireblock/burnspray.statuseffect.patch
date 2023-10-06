@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/icon",
+        "value": "/interface/statuses/pf_lavablock.png"
+    },
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Fire Immunity - Blocks Fire and Lava"
+    },
+    {
+        "op": "replace",
+        "path": "/scripts/0",
+        "value": "pf_burnspray.lua"
+    }
+]

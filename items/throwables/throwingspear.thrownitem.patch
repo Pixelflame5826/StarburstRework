@@ -1,0 +1,42 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.3
+    },
+	{
+        "op": "replace",
+        "path": "/cooldown",
+        "value": 1.2
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 2
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "pf_throwingspearbig.png"
+    },
+	{
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "throwingspearicon.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A well weighted metal spear made for throwing. Suitable for hunting creatures."
+    }
+]

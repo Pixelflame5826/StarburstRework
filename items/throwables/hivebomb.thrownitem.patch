@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.2
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 2
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "hivebomb.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A hive that lets out lots of bees! Bee careful, the swarms are known to attack anything."
+    }
+]

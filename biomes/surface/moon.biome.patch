@@ -1,0 +1,12 @@
+[
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_moonsafe"
+    },
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_moonradioactive"
+    }
+]

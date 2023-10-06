@@ -1,0 +1,41 @@
+[	
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:pf_pgiChest",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiSnowChest"
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "ceiling",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredSmall",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "ceilingicicle",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_biomecoldmild"
+        ]
+    }
+]

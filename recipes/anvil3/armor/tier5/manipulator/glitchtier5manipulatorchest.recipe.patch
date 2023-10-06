@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/2/item",
+        "value": "silk"
+    },
+    {
+        "op": "replace",
+        "path": "/input/1/count",
+        "value": 5
+    },
+    {
+        "op": "replace",
+        "path": "/input/1/item",
+        "value": "refinedferozium"
+    },
+    {
+        "op": "replace",
+        "path": "/input/0/item",
+        "value": "refinedaegisalt"
+    }
+]

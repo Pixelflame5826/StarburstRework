@@ -1,0 +1,72 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_volcaniccavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_volcaniccavefrontfullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.1999999999,
+      "repeatY" : true,
+	  "unlit" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_volcaniclavafall",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_volcaniclavafallfullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.34999999999,
+      "repeatY" : true,
+	  "unlit" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_volcaniccavemid",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_volcaniccavemidfullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.4999999999,
+      "repeatY" : true,
+	  "unlit" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/lavafall",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.699999999,
+      "repeatY" : true,
+	  "unlit" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/lavacavern",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.7,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    }
+  ]
+}

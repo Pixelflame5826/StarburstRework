@@ -1,0 +1,36 @@
+{
+  "itemName" : "pf_erebiumkunai",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "level" : 6,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_erebiumkunaiicon.png",
+  "image" : "pf_erebiumkunai.png",
+  "largeImage" : "pf_erebiumkunai.png",
+  "shortdescription" : "Erebium Kunai",
+  "description" : "An offputting kunai made of erebium. Its shadowy power homes in on life nearby.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 0.3,
+
+  "projectileType" : "pf_erebiumkunai",
+  "projectileConfig" : {
+    "speed" : 90,
+    "power" : 40,
+	"statusEffects" : [ "pf_entropicdarkness" ],
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

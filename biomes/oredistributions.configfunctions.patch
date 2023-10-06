@@ -1,0 +1,890 @@
+[
+	//TIER 5-6 REWORKS
+	{
+        "op": "replace",
+        "path": "/core/5/1/13/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/core/5/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/core/5/1/11/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/core/4/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/core/4/1/11/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth3/5/1/13/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth3/5/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth3/5/1/11/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth3/4/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth3/4/1/11/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth2/5/1/13/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth2/5/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth2/5/1/11/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth2/5/1/10/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth2/4/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth2/4/1/11/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth1/5/1/13/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth1/5/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth1/5/1/11/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth1/4/1/12/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/depth1/4/1/11/1",
+        "value": 0
+    },
+	
+	//LEAD
+	{
+        "op": "add",
+        "path": "/core/5/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/core/4/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/core/3/1/-",
+        "value": [
+            "lead",
+            0.8
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/core/2/1/-",
+        "value": [
+            "lead",
+            0.7
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/core/1/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/core/0/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth3/5/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth3/4/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth3/3/1/-",
+        "value": [
+            "lead",
+            0.8
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth3/2/1/-",
+        "value": [
+            "lead",
+            0.6
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth3/1/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth3/0/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth2/5/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth2/4/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth2/3/1/-",
+        "value": [
+            "lead",
+            0.7
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth2/2/1/-",
+        "value": [
+            "lead",
+            0.6
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth2/1/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth2/0/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth1/5/1/-",
+        "value": [
+            "lead",
+            0.4
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth1/4/1/-",
+        "value": [
+            "lead",
+            0.4
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth1/3/1/-",
+        "value": [
+            "lead",
+            0.6
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth1/2/1/-",
+        "value": [
+            "lead",
+            0.5
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth1/1/1/-",
+        "value": [
+            "lead",
+            0.4
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/depth1/0/1/-",
+        "value": [
+            "lead",
+            0.4
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/surface/3/1/-",
+        "value": [
+            "lead",
+            0.4
+        ]
+    },
+	
+	//CHRONIUM
+	{
+        "op": "add",
+        "path": "/depth1/5/1/-",
+        "value": [
+            "pf_chronium",
+            0.75
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/depth2/5/1/-",
+        "value": [
+            "pf_chronium",
+            0.90
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/depth3/5/1/-",
+        "value": [
+            "pf_chronium",
+            1.0
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/core/5/1/-",
+        "value": [
+            "pf_chronium",
+            1.0
+        ]
+    },
+	
+	//Biome Unique
+    {
+        "op": "add",
+        "path": "/pf_gardendepth1",
+        "value": [
+            [
+                0.5,
+                [
+                    [
+                        "coal",
+                        1
+                    ],
+                    [
+                        "copper",
+                        0.9
+                    ],
+                    [
+                        "silver",
+                        0.6
+                    ],
+                    [
+                        "gold",
+                        0
+                    ],
+                    [
+                        "diamond",
+                        0
+                    ],
+                    [
+                        "corefragment",
+                        0
+                    ],
+                    [
+                        "iron",
+                        0.75
+                    ],
+                    [
+                        "tungsten",
+                        0
+                    ],
+                    [
+                        "titanium",
+                        0
+                    ],
+                    [
+                        "durasteel",
+                        0
+                    ],
+                    [
+                        "aegisalt",
+                        0
+                    ],
+                    [
+                        "ferozium",
+                        0
+                    ],
+                    [
+                        "violium",
+                        0
+                    ],
+                    [
+                        "solarium",
+                        0
+                    ],
+                    [
+                        "lead",
+                        0.3
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_gardendepth2",
+        "value": [
+            [
+                0.5,
+                [
+                    [
+                        "coal",
+                        0.9
+                    ],
+                    [
+                        "copper",
+                        0.75
+                    ],
+                    [
+                        "silver",
+                        0.9
+                    ],
+                    [
+                        "gold",
+                        0.6
+                    ],
+                    [
+                        "diamond",
+                        0
+                    ],
+                    [
+                        "corefragment",
+                        0
+                    ],
+                    [
+                        "iron",
+                        0.9
+                    ],
+                    [
+                        "tungsten",
+                        0
+                    ],
+                    [
+                        "titanium",
+                        0
+                    ],
+                    [
+                        "durasteel",
+                        0
+                    ],
+                    [
+                        "aegisalt",
+                        0
+                    ],
+                    [
+                        "ferozium",
+                        0
+                    ],
+                    [
+                        "violium",
+                        0
+                    ],
+                    [
+                        "solarium",
+                        0
+                    ],
+                    [
+                        "lead",
+                        0.4
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_gardendepth3",
+        "value": [
+            [
+                0.5,
+                [
+                    [
+                        "coal",
+                        0.9
+                    ],
+                    [
+                        "copper",
+                        0
+                    ],
+                    [
+                        "silver",
+                        0.75
+                    ],
+                    [
+                        "gold",
+                        0.9
+                    ],
+                    [
+                        "diamond",
+                        0.1
+                    ],
+                    [
+                        "corefragment",
+                        0.4
+                    ],
+                    [
+                        "iron",
+                        1
+                    ],
+                    [
+                        "tungsten",
+                        0
+                    ],
+                    [
+                        "titanium",
+                        0
+                    ],
+                    [
+                        "durasteel",
+                        0
+                    ],
+                    [
+                        "aegisalt",
+                        0
+                    ],
+                    [
+                        "ferozium",
+                        0
+                    ],
+                    [
+                        "violium",
+                        0
+                    ],
+                    [
+                        "solarium",
+                        0
+                    ],
+                    [
+                        "lead",
+                        0.4
+                    ]
+                ]
+            ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_forestdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.75 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.40 ], [ "pf_heartwood", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_forestdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.65 ], [ "tungsten", 0.90 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_heartwood", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_forestdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.80 ], [ "tungsten", 1.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_heartwood", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_savannahdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.75 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.40 ], [ "pf_aurium", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_savannahdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.65 ], [ "tungsten", 0.90 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_aurium", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_savannahdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.80 ], [ "tungsten", 1.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_aurium", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_snowdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.50 ], [ "titanium", 0.75 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_blueice", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_snowdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.65 ], [ "titanium", 0.90 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_blueice", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_snowdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.80 ], [ "titanium", 1.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_blueice", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_desertdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.50 ], [ "titanium", 0.75 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_rubite", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_desertdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.65 ], [ "titanium", 0.90 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_rubite", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_desertdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.80 ], [ "titanium", 1.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_rubite", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_oceandepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.50 ], [ "titanium", 0.75 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_aquari", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_oceandepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.90 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.65 ], [ "titanium", 1.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_aquari", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_oceandepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.90 ], [ "silver", 0.90 ], [ "gold", 0.90 ], [ "diamond", 0.30 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.80 ], [ "titanium", 1.50 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_aquari", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_aliendepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.50 ], [ "durasteel", 0.75 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_xenocyte", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_aliendepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.65 ], [ "durasteel", 0.90 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.70 ], [ "pf_xenocyte", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_aliendepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.80 ], [ "durasteel", 1.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.70 ], [ "pf_xenocyte", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_jungledepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.50 ], [ "durasteel", 0.75 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_vermillium", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_jungledepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.65 ], [ "durasteel", 0.90 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.70 ], [ "pf_vermillium", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_jungledepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.80 ], [ "durasteel", 1.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.70 ], [ "pf_vermillium", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_volcanicdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.75 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.75 ], [ "lead", 0.50 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_volcanicdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.65 ], [ "aegisalt", 0.90 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.90 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_volcanicdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.80 ], [ "aegisalt", 1.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 1.00 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_magmadepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.90 ], [ "gold", 0.90 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.75 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.75 ], [ "lead", 0.50 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_magmadepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 1.50 ], [ "silver", 1.50 ], [ "gold", 1.50 ], [ "diamond", 0.20 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.65 ], [ "aegisalt", 1.00 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 1.00 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_magmadepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 2.00 ], [ "silver", 2.00 ], [ "gold", 2.00 ], [ "diamond", 0.30 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.80 ], [ "aegisalt", 1.50 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 1.50 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_tundradepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.75 ], [ "ferozium", 0.75 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.50 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_tundradepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.65 ], [ "aegisalt", 0.90 ], [ "ferozium", 0.90 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_tundradepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.80 ], [ "aegisalt", 1.00 ], [ "ferozium", 1.0 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_arcticdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.75 ], [ "ferozium", 0.75 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.50 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_arcticdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.90 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.65 ], [ "aegisalt", 1.00 ], [ "ferozium", 1.00 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_arcticdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.90 ], [ "silver", 0.90 ], [ "gold", 0.90 ], [ "diamond", 0.30 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.80 ], [ "aegisalt", 1.50 ], [ "ferozium", 1.50 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_scorchedcitydepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_chronium", 0.75], [ "pf_promethium", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_scorchedcitydepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.70 ], [ "pf_chronium", 0.9], [ "pf_promethium", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_scorchedcitydepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.70 ], [ "pf_chronium", 1.0], [ "pf_promethium", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_toxicdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_chronium", 0.75], [ "uranium", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_toxicdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.90 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_chronium", 1.0], [ "uranium", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_toxicdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.90 ], [ "silver", 0.90 ], [ "gold", 0.90 ], [ "diamond", 0.30 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.70 ], [ "pf_chronium", 1.5], [ "uranium", 0.8] ] ]
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_midnightdepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.50 ], [ "pf_chronium", 0.75], [ "pf_erebium", 0.6] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_midnightdepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.0 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_chronium", 0.9], [ "pf_erebium", 0.7] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_midnightdepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.80 ], [ "ferozium", 0.0 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], [ "lead", 0.60 ], [ "pf_chronium", 1.00], [ "pf_erebium", 0.8] ] ]
+        ]
+    },
+	
+	//NEW PLANETS
+	{
+        "op": "add",
+        "path": "/pf_stormydepth1",
+        "value": [
+            [0.5, [ [ "coal", 1.00 ], [ "copper", 0.90 ], [ "silver", 0.60 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.75 ], [ "ferozium", 0.0 ], [ "violium", 0.75 ], [ "solarium", 0.0 ], [ "lead", 0.50 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_stormydepth2",
+        "value": [
+            [0.5, [ [ "coal", 0.90 ], [ "copper", 0.75 ], [ "silver", 0.90 ], [ "gold", 0.60 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.65 ], [ "aegisalt", 0.90 ], [ "ferozium", 0.0 ], [ "violium", 0.90 ], [ "solarium", 0.0 ], [ "lead", 0.60 ] ] ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_stormydepth3",
+        "value": [
+			[0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.75 ], [ "gold", 0.90 ], [ "diamond", 0.10 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.80 ], [ "aegisalt", 1.00 ], [ "ferozium", 0.00 ], [ "violium", 1.00 ], [ "solarium", 0.0 ], [ "lead", 0.60 ] ] ]
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "name" : "pf_kluexaura",
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "pf_kluexaura.lua"
+  ],
+  "effectConfig" : {
+  },
+
+  "animationConfig" : "pf_kluexaura.animation"
+}

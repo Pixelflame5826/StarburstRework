@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_chroniumbar",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_chroniumbar.png",
+  "description" : "A mysterious dark metal primarily found on planets orbiting Bleak Stars.",
+  "shortdescription" : "Chronium Bar",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.3
+    },
+	{
+        "op": "replace",
+        "path": "/cooldown",
+        "value": 0.7
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 3
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "throwingaxe.png"
+    },
+	{
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "throwingaxeicon.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A battle axe made to be thrown. Hits incredibly hard, and purges monsters who don't belong."
+    }
+]

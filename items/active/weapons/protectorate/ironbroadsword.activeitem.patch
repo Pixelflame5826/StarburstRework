@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A simple broadsword made out of iron and held together by rope. Crude, yet very sturdy."
+    }
+]

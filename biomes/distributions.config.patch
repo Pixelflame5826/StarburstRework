@@ -1,0 +1,10 @@
+[
+    {
+        "op": "add",
+        "path": "/pf_pgiChest",
+        "value": {
+            "type": "random",
+            "blockProbability": 0.0002
+        }
+    }
+]

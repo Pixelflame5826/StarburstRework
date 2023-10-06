@@ -1,0 +1,193 @@
+[
+	
+	{
+        "op": "replace",
+        "path": "/skyOptions/0/nightLightColor/2",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightLightColor/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightLightColor/0",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningLightColor/2",
+        "value": 60
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningLightColor/1",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningLightColor/0",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/morningLightColor/2",
+        "value": 60
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/morningLightColor/1",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/morningLightColor/0",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightColors/1/2",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightColors/1/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightColors/1/0",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightColors/0/2",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightColors/0/1",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/nightColors/0/0",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningColors/1/3",
+        "value": 80
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningColors/1/2",
+        "value": 29
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningColors/1/1",
+        "value": 29
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningColors/1/0",
+        "value": 29
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/eveningColors/0/2",
+        "value": 60
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/dayColors/1/3",
+        "value": 80
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/dayColors/1/2",
+        "value": 55
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/dayColors/1/1",
+        "value": 55
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/dayColors/1/0",
+        "value": 55
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/morningColors/1/3",
+        "value": 80
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/morningColors/1/2",
+        "value": 29
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/morningColors/1/1",
+        "value": 29
+    },
+    {
+        "op": "replace",
+        "path": "/skyOptions/0/morningColors/1/0",
+        "value": 29
+    },
+	
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:ultraRare",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiDefaultChest"
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:overgroundChests",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_midnightChest"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:overgroundChests",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_midnightChest"
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/statusEffects/1",
+        "value": "pf_biomelightning"
+    }
+]

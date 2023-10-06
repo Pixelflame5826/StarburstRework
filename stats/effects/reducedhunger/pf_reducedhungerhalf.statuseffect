@@ -1,0 +1,12 @@
+{
+  "name" : "pf_reducedhungerhalf",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_reducedhungerhalf.lua"
+  ],
+
+  "label" : "Saturation - 1/2 Hunger Drain",
+  "icon" : "/interface/statuses/pf_reducedhunger.png"
+}

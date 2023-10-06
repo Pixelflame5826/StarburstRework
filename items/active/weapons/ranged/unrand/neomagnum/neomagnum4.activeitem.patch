@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A true handgun for keeping the peace. A masterwork of Peacekeeper tech and Noble's need for flair."
+	}
+]

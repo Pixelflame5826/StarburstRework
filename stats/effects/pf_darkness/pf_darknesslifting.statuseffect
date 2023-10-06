@@ -1,0 +1,13 @@
+{
+  "name" : "pf_darknesslifting",
+  "blockingStat" : "pf_currentlyDark",
+  "defaultDuration" : 0.4,
+
+  "scripts" : [
+    "pf_darknesslifting.lua"
+  ],
+  "effectConfig" : {
+  },
+  
+  "animationConfig" : "pf_darknesslifting.animation"
+}

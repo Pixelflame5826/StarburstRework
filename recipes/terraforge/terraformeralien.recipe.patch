@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/0/count",
+        "value": 20
+    },
+	{
+        "op": "replace",
+        "path": "/input/0/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "add",
+        "path": "/input/1",
+        "value": {
+            "item": "pf_alienorb",
+            "count": 10
+        }
+    }
+]

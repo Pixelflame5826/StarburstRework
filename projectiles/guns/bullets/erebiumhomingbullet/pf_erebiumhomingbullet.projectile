@@ -1,0 +1,24 @@
+{
+  "projectileName" : "pf_erebiumhomingbullet",
+  "image" : "pf_erebiumhomingbullet.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "emitters" : [ "rocketsmoke" ],
+  "power" : 10.0,
+  "speed" : 100.0,
+  "physics" : "laser",
+  "damageKind" : "plasma",
+  "statusEffects" : [ "pf_entropicdarkness" ],
+
+  "scripts" : [ "pf_erebiumhomingbullet.lua" ],
+  "controlForce" : 800,
+  "maxSpeed" : 100
+}

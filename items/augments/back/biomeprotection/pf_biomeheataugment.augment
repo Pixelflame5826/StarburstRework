@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_biomeheataugment",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_biomeheataugment.png",
+  "description" : "An EPP module that makes you immune to Mild Planet Heat.",
+  "shortdescription" : "Heat Resist Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_mildbiomeheatprotection",
+    "displayName" : "Heat Resist",
+    "displayIcon" : "/items/augments/back/biomeprotection/pf_biomeheataugment.png",
+    "effects" : [ "pf_mildbiomeheatprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

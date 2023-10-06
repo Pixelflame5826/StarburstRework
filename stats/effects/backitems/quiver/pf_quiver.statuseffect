@@ -1,0 +1,12 @@
+{
+  "name" : "pf_quiver",
+  "effectConfig" : {
+    "energyAmount" : 20,
+	"damage" : 1.1
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_quiver.lua"
+  ]
+}

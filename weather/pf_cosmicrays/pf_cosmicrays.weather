@@ -1,0 +1,37 @@
+{
+  "name" : "pf_cosmicrays",
+  
+  "particles" : [
+	{
+      "density" : 0.025,
+      "particle" : {
+        "type" : "animated",
+        "image" : "/animations/poisoncharge/poisoncharge.animation",
+        "velocity" : [0, -6],
+        "angularVelocity" : 180,
+        "timeToLive" : 20,
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    }
+  ],
+  
+  "projectiles" : [
+    {
+      "projectile" : "pf_glowingradiation",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.05,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+  
+  "statusEffects" : ["pf_biomeradiationmild"],
+  "duration" : [50, 400],
+  "maximumWind" : 10.0
+}

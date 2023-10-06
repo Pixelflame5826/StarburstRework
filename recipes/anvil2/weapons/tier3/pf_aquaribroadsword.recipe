@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_oceancrystal", "count" : 7 },
+    { "item" : "titaniumbar", "count" : 5 }
+  ],
+  "output" : { "item" : "pf_aquaribroadsword", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

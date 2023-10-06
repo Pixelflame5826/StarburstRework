@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/1/count",
+        "value": 2
+    },
+    {
+        "op": "replace",
+        "path": "/input/0/count",
+        "value": 4
+    },
+    {
+        "op": "add",
+        "path": "/input/2",
+        "value": {
+            "item": "refinedaegisalt",
+            "count": 4
+        }
+    }
+]

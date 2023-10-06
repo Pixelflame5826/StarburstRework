@@ -1,0 +1,62 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_oceancavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_oceancavefrontfullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.1999999999999,
+      "repeatY" : true,
+      "unlit" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/cavernlightsfront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.3,
+      "repeatY" : true,
+      "unlit" : true
+    },
+	{
+      "kind" : "tile/pf_oceancavemidfullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.3499999,
+      "repeatY" : true,
+      "unlit" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/pf_oceancavemid",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/cavernlights",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.9999999,
+      "repeatY" : true,
+      "unlit" : true
+    },
+    {
+      "kind" : "tile/cavern",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 2,
+      "repeatY" : true,
+      "unlit" : false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "op": "replace",
+        "path": "/contentPages/0",
+        "value": "Human history dates back thousands of years, so most of our records of space travel have been lost. Old tales speak of our ancestors somehow venturing into space without the aid of warp travel. 
+
+Based on some old technological records, it was likely a very primitive form of space travel that used lots of energy for not a lot of payload. It would be safe to say that humanity didn't make it very far using this method, until a miraculous discovery was found."
+    },
+    {
+        "op": "add",
+        "path": "/contentPages/1",
+        "value": "Sometime long ago, our moon that is now called Luna, was discovered with the strange compound now known as Erchius. This kickstarted a boom in Humanity where starships were eventually created with the first human made FTL drives. 
+
+This launched humanity into space to a degree never seen before. This sudden boost in technology and culture sent us into the age of peace and prosperity we know today."
+    }
+]

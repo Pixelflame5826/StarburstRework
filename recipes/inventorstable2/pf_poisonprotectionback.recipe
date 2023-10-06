@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 6 },
+	{ "item" : "biosample", "count" : 10 },
+    { "item" : "coalore", "count" : 25 },
+    { "item" : "venomsample", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_poisonprotectionback", "count" : 1 },
+  "groups" : [ "pf_craftingplanetresist2", "hazardgear", "all" ]
+}

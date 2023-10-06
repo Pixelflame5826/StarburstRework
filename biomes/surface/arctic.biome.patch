@@ -1,0 +1,16 @@
+[
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:pf_pgiChest",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiDefaultChest"
+            ]
+        }
+    }
+]

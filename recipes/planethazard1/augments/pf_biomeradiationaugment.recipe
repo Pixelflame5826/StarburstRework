@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "stickofram", "count" : 1 },
+	{ "item" : "lead", "count" : 15 },
+	{ "item" : "hardenedcarapace", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pf_biomeradiationaugment",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "augments" ]
+}

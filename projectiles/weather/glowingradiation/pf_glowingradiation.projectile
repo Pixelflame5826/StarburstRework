@@ -1,0 +1,13 @@
+{
+  "projectileName" : "pf_glowingradiation",
+  "image" : "pf_glowingradiation.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 0.0,
+  "lightColor" : [184, 254, 169],
+  "emitters" : [ "pf_radsparks" ],
+  "onlyHitTerrain" : true,
+  "hydrophobic" : true
+}

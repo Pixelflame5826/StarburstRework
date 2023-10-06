@@ -1,0 +1,35 @@
+{
+  "itemName" : "pf_xenojavelin",
+  "price" : 20,
+  "rarity" : "Uncommon",
+  "level" : 4,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_xenojavelinicon.png",
+  "image" : "pf_xenojavelin.png",
+  "largeImage" : "pf_xenojavelinbig.png",
+  "shortdescription" : "Xenocyte Javelin",
+  "description" : "An alien javelin made out of xenocyte. Releases penetrating alien energy.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.3,
+  "cooldown" : 1,
+
+  "projectileType" : "pf_xenojavelin",
+  "projectileConfig" : {
+    "speed" : 70,
+    "power" : 50,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

@@ -1,0 +1,36 @@
+{
+  "itemName" : "pf_blueicehatchet",
+  "price" : 15,
+  "rarity" : "Uncommon",
+  "level" : 3,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_blueicehatcheticon.png",
+  "image" : "pf_blueicehatchet.png",
+  "largeImage" : "pf_blueicehatchet.png",
+  "shortdescription" : "Blue Ice Hatchet",
+  "description" : "A strong hatchet made from blue ice. Really heavy but hits hard and slows targets.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.3,
+  "cooldown" : 1.0,
+
+  "projectileType" : "pf_blueicehatchet",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 35.5,
+	"statusEffects" : [ "frostslow" ],
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

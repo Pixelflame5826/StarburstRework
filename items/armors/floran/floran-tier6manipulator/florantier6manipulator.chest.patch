@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Chronium is woven into chainmail to form the lower half of this resilient chestguard. "
+    }
+]

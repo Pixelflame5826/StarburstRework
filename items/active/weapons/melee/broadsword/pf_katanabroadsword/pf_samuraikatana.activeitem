@@ -1,0 +1,51 @@
+{
+  "itemName" : "pf_samuraikatana",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A graceful katana.",
+  "shortdescription" : "Samurai Katana",
+  "tooltipKind" : "pf_randomsword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : [0.75, 0.83],
+    "baseDps" : [10.75, 11.5]
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "pf_katananames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "blade/<variant>.png",
+        "variants" : 3,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "handle/<variant>.png",
+        "variants" : 13,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "parry",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/pf_samuraikatana.weaponcolors",
+    "iconDrawables" : [ "blade", "handle" ]
+  }]
+}

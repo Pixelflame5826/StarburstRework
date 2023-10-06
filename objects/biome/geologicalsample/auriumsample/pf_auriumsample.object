@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_auriumsample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of an aurium ore.\"",
+  "shortdescription" : "Aurium Sample",
+  
+  "apexDescription" : "This stuff is still unexplained, apparently its some sort of gold compound.",
+  "avianDescription" : "Some Avians have a soft spot for this strong yet shiny metal.",
+  "floranDescription" : "Ssshiny golden metal.",
+  "glitchDescription" : "Surprised. While this looks like gold, Aurium appears to be very flexible and strong.",
+  "humanDescription" : "Apparently Aurium is useful in tech, though most people who use it are quite... violent.",
+  "hylotlDescription" : "I wonder what a traditional katana made of this stuff would look like...",
+  "novakidDescription" : "Whoa, fancy stuff. Just imagine the firearms that could be made with this.",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_auriumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_auriumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

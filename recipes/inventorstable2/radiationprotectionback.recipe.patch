@@ -1,0 +1,29 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/input",
+		"value" : [
+			{
+				"item": "durasteelbar",
+				"count": 6
+			},
+			{
+				"item": "siliconboard",
+				"count": 3
+			},
+			{
+				"item": "lead",
+				"count": 25
+			},
+			{
+				"item": "hardenedcarapace",
+				"count": 3
+			}
+		]
+	},
+    {
+        "op": "replace",
+        "path": "/groups/0",
+        "value": "pf_craftingplanetresist2"
+    }
+]

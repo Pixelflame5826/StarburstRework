@@ -1,0 +1,12 @@
+{
+  "name" : "pf_toxicflower",
+  "effectConfig" : {
+    "regenBonusAmount" : 1.1
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_toxicflower.lua"
+  ],
+  "scriptDelta" : 0
+}

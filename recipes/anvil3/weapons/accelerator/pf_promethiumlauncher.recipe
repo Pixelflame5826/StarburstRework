@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_scorchedrod", "count" : 8 },
+    { "item" : "pf_chroniumbar", "count" : 7 },
+    { "item" : "refinedviolium", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_promethiumlauncher", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

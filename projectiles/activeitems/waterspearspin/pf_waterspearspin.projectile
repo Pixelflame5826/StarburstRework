@@ -1,0 +1,35 @@
+{
+  "projectileName" : "pf_waterspearspin",
+  "image" : "pf_waterspearspin.png",
+  "animationCycle" : 0.067,
+  "timeToLive" : 0.8,
+  "frameNumber" : 4,
+  "damageKindImage" : "/assetmissing.png",
+  "speed" : 30,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-30, 14], [-14, 30], [14, 30], [30, 14], [30, -14], [14, -30], [-14, -30], [-30, -14] ],
+  "animationLoops" : true,
+  "piercing" : true,
+  "bounces" : 0,
+  "flippable" : true,
+  "emitters" : [ ],
+  "damageKind" : "spear",
+  "statusEffects" : [
+    "wet"
+  ],
+  "lightColor" : [191, 103, 2],
+  "pointLight" : true,
+  "knockback" : 2,
+  "knockbackDirectional" : true,
+  
+  "physicsForces" : {
+    "pull" : {
+      "type" : "RadialForceRegion",
+      "categoryWhitelist" : ["monster", "npc"],
+      "outerRadius" : 7,
+      "innerRadius" : 3,
+      "targetRadialVelocity" : -40,
+      "controlForce" : 300
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_snowore",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_snowore.png",
+  "description" : "A cold ice crystal that doesn't seem to melt very easily.",
+  "shortdescription" : "Blue Ice Shard",
+  "itemTags" : [ "reagent" ]
+}

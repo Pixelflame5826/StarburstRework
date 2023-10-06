@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_pocketfreezer",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_pocketfreezer.png",
+  "description" : "A freezing cooling unit. Resists Deadly Planet Heat and blocks Burning.",
+  "shortdescription" : "Portable Cooling Unit",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_biomeheatprotection",
+        "duration" : 240
+      },
+	  {
+        "effect" : "fireblock",
+        "duration" : 60
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "pf_techconsumable" ]
+}

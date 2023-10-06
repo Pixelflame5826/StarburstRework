@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/contentPages/0",
+        "value": "Humans must organise to overcome the menace that plagues the universe!
+
+We must fight against the evil races that infest our universe!
+
+Whilst the Protectorate sits complacent, these vile creatures corrupt the galaxy!
+
+We shall bring justice and due punishment to this corruption!"
+    },
+	{
+        "op": "add",
+        "path": "/contentPages/1",
+        "value": "Humans unite.
+Join the Occasus.
+Ruin shall fall upon the unworthy. <|>"
+    }
+]

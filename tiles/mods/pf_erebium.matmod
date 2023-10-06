@@ -1,0 +1,20 @@
+{
+  "modId" : 29473,
+  "modName" : "pf_erebium",
+  "itemDrop" : "pf_shadowore",
+  "description" : "Erebium.",
+  "health" : 20,
+  "breaksWithTile" : true,
+  "harvestLevel" : 3,
+  
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "shadowshard",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_erebium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

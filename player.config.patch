@@ -1,0 +1,760 @@
+[
+	//|-----RECIPES-----|
+	
+	//OBJECTS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_craftingplanetresist"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_temperingforge"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_airregulator"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_toxinregulator"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_radiationregulator"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_heatregulator"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_coldregulator"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_staticregulator"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_environmentregulator"
+        }
+    },
+	
+	//MATERIALS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_chroniumbar"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_desertcrystal"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_junglebar"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_oceancrystal"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_savannahbar"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_scorchedrod"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "uraniumrod"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_alienorb"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_forestdisk"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_snowcrystal"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_shadowstar"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "stickofram"
+        }
+    },
+    
+	//CONSUMABLE HAZARD BLOCKERS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_carbonpowder"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_clothpadding"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_emergencyoxygen"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_handwarmer"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_icywaterbottle"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_leadpadding"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_pocketfreezer"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_pocketheater"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_radiationshield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_staticgenerator"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "antidote"
+        }
+    },
+	
+	//HAZARD BLOCKING AUGMENTS
+	
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_biomeheataugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_biomecoldaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_biomepoisonaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_biomeradiationaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_biomestaticaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_biomeoxygenaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "electricblockaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "fireblockaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "iceblockaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "poisonblockaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_radiationblockaugment"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_envprotectionaugment"
+        }
+    },
+	
+	//EPPS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_poisonprotectionback"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_lightningprotectionback"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_universalprotectionback"
+        }
+    },
+	
+	//NOVAKID WEAPONS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "ironassaultrifle"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "ironrevolver"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "tungstenshotgun"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "tungstenmagnum"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "titaniumsniperrifle"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "titaniummachinepistol"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "durasteelassaultrifle"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "durasteelrevolver"
+        }
+    },
+	
+	//WEAPONS
+	
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_aquaribroadsword"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_aquaripistol"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_auriumdagger"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_auriumsniper"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_blueiceaxe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_blueiceshotgun"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_erebiumdagger"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_erebiumsniper"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_erebiumwand"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_heartwoodspear"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_heartwoodrifle"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_promethiumhammer"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_promethiumlauncher"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_promethiumstaff"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_rubiteshortsword"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_rubiterifle"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_uraniumspear"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_uraniumgrenadecrossbow"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_uraniumstaff"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_vermilliumdagger"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_vermilliummachinepistol"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_xenobroadsword"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_xenogrenadelauncher"
+        }
+    },
+	
+	//THROWING WEAPONS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_auriumkukri"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_heartwoodtomahawk"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_aquarishuriken"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_blueiceaxe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_rubitemambele"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_vermilliumgrenade"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_xenojavelin"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_throwingenergyknife"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_erebiumkunai"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_promethiumgrenade"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_uraniumgrenade"
+        }
+    },
+	
+	//SHIELDS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_ironshield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_tungstenlargeshield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_tungstensmallshield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_titaniumlargeshield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_durasteellargeshield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_durasteelsmallshield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_violiumtier5shield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_solariumtier5shield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_feroziumtier5shield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_violiumtier6shield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_solariumtier6shield"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_feroziumtier6shield"
+        }
+    },
+	
+	//TOOLS
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_flaregun"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_ironpickaxe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_durasteelpickaxe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_chroniumpickaxe"
+        }
+    }
+]

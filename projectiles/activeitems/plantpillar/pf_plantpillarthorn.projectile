@@ -1,0 +1,21 @@
+{
+  "projectileName" : "pf_plantpillarthorn",
+  "image" : "pf_plantpillarthorn.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "power" : 5.0,
+  "speed" : 80,
+  "damageKind" : "poisondagger",
+  "statusEffects" : [ "weakpoison" ],
+  
+  "periodicActions" : [
+    {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/gun/needler1.ogg" ]
+    }
+  ]
+}

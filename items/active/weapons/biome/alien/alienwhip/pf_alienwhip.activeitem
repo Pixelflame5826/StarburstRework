@@ -1,0 +1,96 @@
+{
+  "itemName" : "pf_alienwhip",
+  "price" : 1000,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A whip made from a helical cord of a toxic alien material. When it unravels during travel, it looks like DNA.",
+  "shortdescription" : "Gene Whip",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "whip",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_alienwhip.png:idle",
+  "animation" : "/items/active/weapons/whip/whip.animation",
+  "animationParts" : {
+    "weapon" : "pf_alienwhip.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : {
+      "burstCount" : 3,
+      "particles" : [{"particle" : "poisonswoosh1"}]
+    }},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0],
+    "length" : [3, 15],
+    "segmentImage" : "/items/active/weapons/biome/alien/alienwhip/pf_alienwhiplink.png",
+    "endSegmentImage" : "/items/active/weapons/biome/alien/alienwhip/pf_alienwhipend.png",
+    "segmentSize" : 1.5
+  },
+
+  "scripts" : [ "/items/active/weapons/whip/whip.lua" ],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "chainDps" : 1.5,
+    "crackDps" : 4.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "poisonlash"
+    },
+
+    "projectileType" : "pf_whipcrackalien"
+  },
+  
+  "altAbilityType" : "energyorb",
+  "altAbility" : {
+    "name" : "Genesis Spiral",
+    "projectileOffset" : [6, 0],
+    "projectileType" : "pf_alienspiralwhipstartup",
+	"baseDamage" : 5
+  },
+
+  "builder" : "/items/buildscripts/pf_buildwhip.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_alienwhip_l5.png:idle",
+      "animationParts" : {
+        "weapon" : "pf_alienwhip_l5.png",
+		"weaponFullbright" : "pf_alienwhip_l5fullbright.png"
+      },
+      "shortdescription" : "Nucleic Whip"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_alienwhip_l6.png:idle",
+      "animationParts" : {
+        "weapon" : "pf_alienwhip_l6.png",
+		"weaponFullbright" : "pf_alienwhip_l5fullbright.png"
+      },
+      "shortdescription" : "Chromosomal Whip",
+      "description" : "A whip made of a bundle of twisted alien material taking the shape of DNA. It snaps with toxic alien energy.",
+	  "primaryAbility" : {
+		"chainDps" : 2.0,
+		"crackDps" : 5.5
+	  },
+	  "chain" : {
+		"segmentImage" : "/items/active/weapons/biome/alien/alienwhip/pf_alienwhiplink_l6.png",
+		"endSegmentImage" : "/items/active/weapons/biome/alien/alienwhip/pf_alienwhipend_l6.png"
+	  },
+	  "altAbility" : {
+		"projectileType" : "pf_alienspiralwhipstartupl6"
+	  }
+	}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "stickofram", "count" : 1 },
+	{ "item" : "scorchedcore", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pf_biomecoldaugment",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "augments" ]
+}

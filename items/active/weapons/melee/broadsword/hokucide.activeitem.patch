@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A blade once wielded by a feared Hylotl warlord. It has been passed through the generations, and now to you."
+    }
+]

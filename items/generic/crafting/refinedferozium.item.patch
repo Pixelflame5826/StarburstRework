@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A channelling crystal that is primarily found on heavily frozen planets."
+    },
+	{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Ferozium Prism"
+    }
+]

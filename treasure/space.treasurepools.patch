@@ -1,0 +1,66 @@
+[
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 1,
+            "item": "pf_mechhornalert"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_mechhornancient"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 0.75,
+            "item": "pf_mechhornfart"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 1,
+            "item": "pf_mechhorngong"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 1,
+            "item": "pf_mechhornmetal"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 1,
+            "item": "pf_mechhornmusicbox"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 0.75,
+            "item": "pf_mechhornpipe"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/mechHorn/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_mechhornruin"
+        }
+    }
+]

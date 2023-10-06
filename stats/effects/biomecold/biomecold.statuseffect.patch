@@ -1,0 +1,36 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Deadly Chill - Energy Loss Then Major Health Loss, Low Movement Speed | When Mitigated: Minor Health Loss And No Energy Loss"
+    },
+    {
+        "op": "replace",
+        "path": "/effectConfig/movementModifiers/airJumpModifier",
+        "value": 0.8
+    },
+    {
+        "op": "replace",
+        "path": "/effectConfig/movementModifiers/speedModifier",
+        "value": 0.7
+    },
+    {
+        "op": "remove",
+        "path": "/effectConfig/directives"
+    },
+	{
+        "op": "replace",
+        "path": "/effectConfig/energyCost",
+        "value": 3
+    },
+	{
+        "op": "replace",
+        "path": "/effectConfig/healthDamage",
+        "value": 1
+    },
+	{
+        "op": "replace",
+        "path": "/effectConfig/tickRate",
+        "value": 40
+    }
+]

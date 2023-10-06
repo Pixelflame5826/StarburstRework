@@ -1,0 +1,35 @@
+{
+  "itemName" : "pf_uraniumgrenade",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "level" : 6,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_uraniumgrenadeicon.png",
+  "image" : "pf_uraniumgrenade.png",
+  "largeImage" : "pf_uraniumgrenadebig.png",
+  "shortdescription" : "Uranium Grenuke",
+  "description" : "A nuclear grenade powered by uranium. Explodes with extreme force and releases toxins.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.15,
+  "cooldown" : 1.5,
+
+  "projectileType" : "pf_uraniumgrenade",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 90,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

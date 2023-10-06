@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A plasma SMG made by Letheia. Uses a large battery to hold a ton of energy for this gun's firing speed."
+	}
+]

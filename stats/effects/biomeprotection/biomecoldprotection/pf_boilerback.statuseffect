@@ -1,0 +1,9 @@
+{
+  "name" : "pf_boilerback",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_mildbiomecoldprotection.lua"
+  ]
+}

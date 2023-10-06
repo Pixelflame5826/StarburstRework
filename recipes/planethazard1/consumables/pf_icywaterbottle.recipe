@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bottledwater", "count" : 1 },
+    { "item" : "ice", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "pf_icywaterbottle",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "consumables" ]
+}

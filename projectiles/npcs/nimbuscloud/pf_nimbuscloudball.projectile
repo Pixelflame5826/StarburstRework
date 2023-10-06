@@ -1,0 +1,23 @@
+{
+  "projectileName" : "pf_nimbuscloudball",
+  "physics" : "laser",
+  "bounces" : 0,
+  "timeToLive" : 0.5,
+  "speed" : 30,
+  "image" : "pf_nimbuscloudball.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "pf_nimbuscloud",
+      "inheritDamageFactor" : 0.25,
+      "inheritSpeedFactor" : 0,
+	  "angle" : 0
+    }
+  ],
+  "emitters" : [ "pf_stormsmoke" ],
+  "power" : 10,
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage"
+}

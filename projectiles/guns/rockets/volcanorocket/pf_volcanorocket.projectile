@@ -1,0 +1,72 @@
+{
+  "projectileName" : "pf_volcanorocket",
+  "image" : "pf_volcanorocket.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/melee/astraltear2.ogg" ]
+    },
+	{
+      "time" : 0.15,
+      "repeat" : true,
+      "action" : "sound",
+      "options" : [ "/sfx/gun/fireblast.ogg" ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockbackstatus.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "rocketsmoke", "fireflames" ],
+  "flippable" : true,
+  "power" : 10.0,
+  "speed" : 1.0,
+  "acceleration" : 170,
+  "physics" : "stickybullet",
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "piercing" : true,
+  
+  "scripts" : [ "/scripts/projectiles/pf_timedactionprojectile.lua" ],
+  "scriptDelta" : 1,
+  
+  "timedActions" : [
+    {
+      "delayTime" : 0.0,
+      "loopTime" : 0.45,
+      "action" : "projectile",
+      "type" : "crabcanoball",
+      "config" : {},
+      "inheritDamageFactor" : 0.1,
+	  "angleAdjust" : 170
+    },
+    {
+      "delayTime" : 0.15,
+      "loopTime" : 0.45,
+      "action" : "projectile",
+      "type" : "crabcanoball",
+      "config" : {},
+      "inheritDamageFactor" : 0.1,
+	  "angleAdjust" : 190
+    },
+	{
+      "delayTime" : 0.30,
+      "loopTime" : 0.45,
+      "action" : "projectile",
+      "type" : "crabcanoball",
+      "config" : {},
+      "inheritDamageFactor" : 0.1,
+	  "angleAdjust" : 180
+    }
+  ]
+}

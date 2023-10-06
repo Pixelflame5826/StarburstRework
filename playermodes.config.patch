@@ -1,0 +1,8 @@
+[
+	{ "op": "test", "value": "consumable", "path": "/survival/deathDropItemTypes/3" },
+	
+    {
+        "op": "remove",
+        "path": "/survival/deathDropItemTypes/3"
+    }
+]

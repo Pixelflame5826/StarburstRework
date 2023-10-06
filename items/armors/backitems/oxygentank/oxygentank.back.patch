@@ -1,0 +1,48 @@
+[
+	
+	{
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_airtank"
+        ]
+    },
+	
+	{
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+	
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An oxygen tank that stores air during downtime for subsequent breathing. Increases your breath capacity."
+    },
+	
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+			"subtitle": "Enhancement Pack",
+
+            "pf_status1Image": "/interface/statuses/pf_breath.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "+100"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+	
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    }
+]

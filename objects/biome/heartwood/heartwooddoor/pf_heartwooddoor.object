@@ -1,0 +1,60 @@
+{
+  "objectName" : "pf_heartwooddoor",
+  "colonyTags" : ["door", "natural"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+
+  "category" : "door",
+  "price" : 50,
+  "description" : "A natural looking wood door with a bark layer.",
+  "shortdescription" : "Heartwood Door",
+  "race" : "generic",
+
+  "apexDescription" : "Could this door perhaps be made from the bark of a large tree?",
+  "avianDescription" : "This door looks like it'd go right into the side of a tree.",
+  "floranDescription" : "Thisss door would go nice with sssecret hiding place.",
+  "glitchDescription" : "Cheerful. This door is like something a gnome would use for a tree home.",
+  "humanDescription" : "A door that would truely be something for a dog to bark at.",
+  "hylotlDescription" : "Ah, quite the design choice, making it look like bark.",
+  "novakidDescription" : "Huh, I ain't never seen a door this crude before.",
+
+  "inventoryIcon" : "pf_heartwooddooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "pf_heartwooddoor.png:right",
+
+  "orientations" : [
+    {
+      "dualImage" : "pf_heartwooddoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/woodendoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/woodendoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "pf_heartwooddoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

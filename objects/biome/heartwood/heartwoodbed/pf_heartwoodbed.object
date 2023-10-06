@@ -1,0 +1,46 @@
+{
+  "objectName" : "pf_heartwoodbed",
+  "colonyTags" : ["nature"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "A leafy bed made from the trunk of a long dead tree.",
+  "shortdescription" : "Heartwood Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 100,
+
+  "apexDescription" : "Sleeping in a bed of leaves on a branch, guess our lineage doesn't change much.",
+  "avianDescription" : "A nice and comfortable nesting perch of my own, how wonderful!",
+  "floranDescription" : "Remindsss floran of times ssleeping in treess during hunt.",
+  "glitchDescription" : "Concerned. While this bed looks sturdy, is sleeping in a pile of leaves that great.",
+  "humanDescription" : "This is my bed, if you don't like it, leaf.",
+  "hylotlDescription" : "I've never tried sleeping in a tree before, new things I suppose.",
+  "novakidDescription" : "Well, guess a bed of leaves is better than nothin'.",
+
+  "inventoryIcon" : "pf_heartwoodbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_heartwoodbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 14],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/heartwood/heartwoodbed/pf_heartwoodbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed2"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

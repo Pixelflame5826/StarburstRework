@@ -1,0 +1,27 @@
+[
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/6f2919",
+        "value": "320c40"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/a85636",
+        "value": "6a2284"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/e0975c",
+        "value": "a451c4"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/ffca8a",
+        "value": "d29ce7"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A fabric chestguard woven of violium that provides protection and allows stealthy movement."
+    }
+]

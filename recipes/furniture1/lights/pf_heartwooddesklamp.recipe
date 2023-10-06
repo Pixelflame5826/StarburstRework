@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_forestdisk", "count" : 2 },
+	{ "item" : "plantmatter", "count" : 5 },
+    { "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_heartwooddesklamp", "count" : 1 },
+  "groups" : [ "craftingfurniture", "lights", "all" ]
+}

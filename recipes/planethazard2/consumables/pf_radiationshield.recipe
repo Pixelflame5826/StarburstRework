@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "pf_radioactiveremains", "count" : 1 },
+    { "item" : "lead", "count" : 2 },
+	{ "item" : "hardenedcarapace", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_radiationshield",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist2", "consumables" ]
+}

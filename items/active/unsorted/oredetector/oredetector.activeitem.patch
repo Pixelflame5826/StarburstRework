@@ -1,0 +1,102 @@
+[
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_chronium",
+        "value": [
+            85,
+            85,
+            94,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_aquari",
+        "value": [
+            0,
+            0,
+            97,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_aurium",
+        "value": [
+            255,
+            255,
+            167,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_blueice",
+        "value": [
+            84,
+            158,
+            194,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_erebium",
+        "value": [
+            68,
+            68,
+            68,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_heartwood",
+        "value": [
+            137,
+            124,
+            76,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_promethium",
+        "value": [
+            253,
+            143,
+            77,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_rubite",
+        "value": [
+            255,
+            0,
+            0,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_vermillium",
+        "value": [
+            72,
+            131,
+            47,
+            255
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pingDetectConfig/colors/pf_xenocyte",
+        "value": [
+            211,
+            94,
+            174,
+            255
+        ]
+    }
+]

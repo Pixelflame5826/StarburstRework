@@ -1,0 +1,553 @@
+[[
+	//PLANET DESCRIPTIONS
+	{
+        "op": "replace",
+        "path": "/visitableTypeDescription/scorchedcity/2",
+        "value": "The landing site is ^#b24301;scorched^white; by the ^#c70000;intense heat and radioactivity of the planet's surface^white;. Only some sentient beings remain, possibly out of desperation."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/scorchedcity/1",
+        "value": "The beam site is a ^#b24301;scorched^white; and desolate city. Little is capable of surviving here as the ^#c70000;temperature and radiation level is fatally high^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/scorchedcity/0",
+        "value": "The landing location is a ^#b24301;scorched^white; wasteland, though it was once prosperous. The atmosphere ^#c70000;dangerously hot and radioactive^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/midnight/2",
+        "value": "Scans show that the surface is ^#e11212;unnervingly dark^white;. In fact, scans show little else. However, I surmise that the surface is ^#c70000;dangerously cold and electrfied^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/midnight/1",
+        "value": "This ^#e11212;dark^white; world is ^#c70000;perilously cold and very electrified^white;. Strange shadowy figures dwell here, hidden in the unremitting night, said to be older than all else."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/midnight/0",
+        "value": "This is a ^#e11212;dark^white; world where the sun never rises. The surface is ^#c70000;dangerously cold and static^white;. You should prepare yourself both mentally and physically for exploration."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/jungle/2",
+        "value": "^red;High levels of toxicity^white; render this ^#12a003;jungle^white; location an extremely hostile environment and local fauna is similarly unwelcoming."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/jungle/1",
+        "value": "A ^#12a003;jungle^white; landing site densely inhabited by flora and fauna of many kinds. The area is rich with resources but ^red;phenomenally high in toxic substances^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/jungle/0",
+        "value": "The landing site is in a dense ^#12a003;jungle^white;. A menagerie of astounding creatures live amongst the lush flora. It is a shame about the ^red;lethally high levels of toxins^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/toxic/2",
+        "value": "This is a ^#06ff00;toxic^white; planet replete with ^#c70000;radiation and poison^white;. The noxious oceans are lethally poisonous due to it's previous inhabitants actions."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/toxic/1",
+        "value": "This ^#c70000;highly toxic and radioactive^white; planet is a poisonous wasteland once inhabited by sentient life. This oceanic planet is ^#06ff00;toxic^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/toxic/0",
+        "value": "This planet is ^#06ff00;toxic^white; - the air is putrefied and the oceans are polluted. ^#c70000;Radiation and toxins in the air exceeds safe levels^white; by a factor of thousands."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/snow/2",
+        "value": "This location is ^#ff9900;moderately cold^white;, and ^#69f1fd;snow^white; lies thickly on the ground. My sensors indicate that life is still prominent in the snowy blankets."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/snow/1",
+        "value": "The landing location is ^#ff9900;cold, but not perilously so^white;. ^#69f1fd;Snow^white; covers the area and blizzards are a possibility. A hat and gloves may be advisable."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/snow/0",
+        "value": "This ^#ff9900;mildly cold^white; landing site is laden with ^#69f1fd;snow^white;. Sundry trees grow here and various animals also thrive in the cold conditions."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/desert/2",
+        "value": "Sand. Readings indicate sand. Also some cacti... but predominantly sand. Given the ^#ff9900;mildly hot^white; climate I speculate that the landing site is situated in a ^#e6c801;desert^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/desert/1",
+        "value": "A ^#e6c801;desert^white; area populated by cacti, as well as various animal life. A relatively safe landing site, so long as you can withstand the ^#ff9900;mild heat levels^white;."
+    },
+    {
+        "op": "replace",
+        "path": "/visitableTypeDescription/desert/0",
+        "value": "There is limited flora here due to the ^#ff9900;moderately hot atmosphere^white;. There is also an abundance of sand. Simply put, it is a ^#e6c801;desert^white;."
+    },
+	
+	//ORES
+    {
+        "op": "add",
+        "path": "/displayOres/lead",
+        "value": {
+            "displayName": "Lead",
+            "icon": "/items/generic/crafting/lead.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/uranium",
+        "value": {
+            "displayName": "Uranium",
+            "icon": "/items/generic/crafting/uraniumore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_chronium",
+        "value": {
+            "displayName": "Chronium",
+            "icon": "/items/generic/crafting/pf_chroniumore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_aquari",
+        "value": {
+            "displayName": "Aquari",
+            "icon": "/items/generic/crafting/biomematerials/pf_oceanore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_aurium",
+        "value": {
+            "displayName": "Aurium",
+            "icon": "/items/generic/crafting/biomematerials/pf_savannahore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_blueice",
+        "value": {
+            "displayName": "Blue Ice Crystal",
+            "icon": "/items/generic/crafting/biomematerials/pf_snowore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_erebium",
+        "value": {
+            "displayName": "Erebium",
+            "icon": "/items/generic/crafting/biomematerials/pf_shadowore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_heartwood",
+        "value": {
+            "displayName": "Petrified Heartwood",
+            "icon": "/items/generic/crafting/biomematerials/pf_forestore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_promethium",
+        "value": {
+            "displayName": "Promethium",
+            "icon": "/items/generic/crafting/biomematerials/pf_scorchedore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_rubite",
+        "value": {
+            "displayName": "Rubite",
+            "icon": "/items/generic/crafting/biomematerials/pf_desertore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_vermillium",
+        "value": {
+            "displayName": "Vermillium",
+            "icon": "/items/generic/crafting/biomematerials/pf_jungleore.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayOres/pf_xenocyte",
+        "value": {
+            "displayName": "Xenocyte",
+            "icon": "/items/generic/crafting/biomematerials/pf_alienore.png"
+        }
+    },
+	
+	//STARS
+    {
+        "op": "replace",
+        "path": "/starTypeNames/redstar",
+        "value": "Bleak Star"
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeNames/bluestar",
+        "value": "Chaotic Star"
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeNames/yellowstar",
+        "value": "Hazardous Star"
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/redstar/1",
+        "value": 150
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/orangestar/1",
+        "value": 255
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/yellowstar/2",
+        "value": 255
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/yellowstar/1",
+        "value": 100
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/yellowstar/0",
+        "value": 100
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/bluestar/2",
+        "value": 50
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/bluestar/1",
+        "value": 50
+    },
+    {
+        "op": "replace",
+        "path": "/starTypeColors/bluestar/0",
+        "value": 255
+    },
+	
+	//WEATHER
+	{
+        "op": "replace",
+        "path": "/displayWeathers/acidrain/displayName",
+        "value": "Acid Rain ^red;!Toxic Warning!^reset;"
+    },
+    {
+        "op": "replace",
+        "path": "/displayWeathers/icestorm/displayName",
+        "value": "Ice Storms ^red;!Cold Warning!^reset;"
+    },
+    {
+        "op": "replace",
+        "path": "/displayWeathers/snowstorm/displayName",
+        "value": "Blizzards ^red;!Cold Warning!^reset;"
+    },
+    {
+        "op": "replace",
+        "path": "/displayWeathers/hailstones/displayName",
+        "value": "Freezing Rain ^red;!Cold Warning!^reset;"
+    },
+    {
+        "op": "replace",
+        "path": "/displayWeathers/snow/displayName",
+        "value": "Snow ^red;!Cold Warning!^reset;"
+    },
+    {
+        "op": "replace",
+        "path": "/displayWeathers/ember/displayName",
+        "value": "Cinder Showers ^red;!Heat Warning!^reset;"
+    },
+    {
+        "op": "replace",
+        "path": "/displayWeathers/storm/displayName",
+        "value": "Thunderstorms ^red;!Static Warning!^reset;"
+    },
+	
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_heatwave",
+        "value": {
+            "displayName": "Heatwave ^red;!Heat Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_heatwave.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_heatedrain",
+        "value": {
+            "displayName": "Superheated Storms ^red;!Heat Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_heatedrain.png"
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_coldfront",
+        "value": {
+            "displayName": "Cold Front ^red;!Cold Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_coldfront.png"
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_poisoncloud",
+        "value": {
+            "displayName": "Poisonous Fog ^red;!Toxic Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_poisonclouds.png"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/displayWeathers/pf_thundersnow",
+        "value": {
+            "displayName": "Thundersnow Storms ^red;!Static Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_thundersnow.png"
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_radstorm",
+        "value": {
+            "displayName": "Radiation Storms ^red;!Radiation Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_radstorm.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_radioactivefallout",
+        "value": {
+            "displayName": "Nuclear Fallout ^red;!Radiation Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_radioactivefallout.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_radioactiverain",
+        "value": {
+            "displayName": "Fallout Rain ^red;!Radiation Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_radioactiverain.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_cosmicrays",
+        "value": {
+            "displayName": "Cosmic Rays ^red;!Radiation Warning!^reset;",
+            "icon": "/interface/cockpit/weather/pf_cosmicrays.png"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/displayWeathers/pf_heavyrain",
+        "value": {
+            "displayName": "Storms",
+            "icon": "/interface/cockpit/weather/heavyrain.png"
+        }
+    },
+	
+	//NEW PLANETS
+	{
+        "op": "add",
+        "path": "/planetTypeColors/pf_stormy",
+        "value": [
+            89,
+            42,
+            110
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/planetTypeNames/pf_stormy",
+        "value": "Anabatic"
+    },
+	{
+        "op": "add",
+        "path": "/visitableTypeDescription/pf_stormy",
+        "value": [
+            "The beam site is ^#9166a5;stormy^white; and mountainous. The constant storms leave the atmosphere ^red;lethally charged with electricity^white;. Do not wear metal on this planet.",
+            "Winds that blow across the mountainous surface leave this planet permanently ^#9166a5;stormy^white;. Planet wide lightning storms ^red;lethally electrify the atmosphere^white;.",
+            "It's a wonder how plant life evolved on this constantly ^#9166a5;stormy^white; planet. The atmosphere is ^red;deathly electrified^white; due to the constant thunderstorms."
+        ]
+    }
+],
+
+//MORE PLANET INFO PATCHES
+[
+	{ "op": "test", "path": "/weatherThreatValues/snow" },
+	
+	//WEATHER VALUES
+	{
+        "op": "replace",
+        "path": "/weatherThreatValues/snow",
+        "value": 1
+    },
+    {
+        "op": "replace",
+        "path": "/weatherThreatValues/ember",
+        "value": 2
+    },
+    {
+        "op": "replace",
+        "path": "/weatherThreatValues/storm",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_coldfront",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_cosmicrays",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_heatedrain",
+        "value": 1.25
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_heatwave",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_poisoncloud",
+        "value": 1.25
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_radioactivefallout",
+        "value": 1.2
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_radioactiverain",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_radstorm",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_thundersnow",
+        "value": 2
+    },
+	
+	//NEW DUNGEONS
+    {
+        "op": "add",
+        "path": "/displayDungeons/pf_novakidsnowvillage",
+        "value": {
+            "description": "Novakid energy signatures detected with steam. Its an industrial village.",
+            "icon": "/interface/cockpit/dungeons/novakid.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayDungeons/pf_occupiedhylotlcastle",
+        "value": {
+            "description": "A Hylotl structure. A castle apparently. Radio signals coming from it mean it is occupied.",
+            "icon": "/interface/cockpit/dungeons/hylotl.png"
+        }
+    },
+	
+	//HAZARDS
+    {
+        "op": "replace",
+        "path": "/displayEnvironmentStatusEffects/biomeradiation/displayName",
+        "value": "Deadly Radiation"
+    },
+    {
+        "op": "replace",
+        "path": "/displayEnvironmentStatusEffects/biomeheat/displayName",
+        "value": "Deadly Heat"
+    },
+    {
+        "op": "replace",
+        "path": "/displayEnvironmentStatusEffects/biomecold/displayName",
+        "value": "Deadly Chill"
+    },
+    {
+        "op": "add",
+        "path": "/displayEnvironmentStatusEffects/pf_biomecoldmild",
+        "value": {
+            "displayName": "Mild Chill",
+            "icon": "/interface/cockpit/hazards/cold.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayEnvironmentStatusEffects/pf_biomeheatmild",
+        "value": {
+            "displayName": "Mild Heat",
+            "icon": "/interface/cockpit/hazards/heat.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayEnvironmentStatusEffects/pf_biomeradiationmild",
+        "value": {
+            "displayName": "Mild Radiation",
+            "icon": "/interface/cockpit/hazards/radiation.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayEnvironmentStatusEffects/pf_biomelightningmild",
+        "value": {
+            "displayName": "Mild Static",
+            "icon": "/interface/cockpit/hazards/pf_lightning.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayEnvironmentStatusEffects/pf_biomelightning",
+        "value": {
+            "displayName": "Deadly Static",
+            "icon": "/interface/cockpit/hazards/pf_lightning.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayEnvironmentStatusEffects/pf_biomepoisonmild",
+        "value": {
+            "displayName": "Mild Toxicity",
+            "icon": "/interface/cockpit/hazards/pf_poison.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayEnvironmentStatusEffects/pf_biomepoison",
+        "value": {
+            "displayName": "Deadly Toxicity",
+            "icon": "/interface/cockpit/hazards/pf_poison.png"
+        }
+    }
+]]

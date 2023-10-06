@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "titaniumbar", "count" : 10 },
+    { "item" : "copperbar", "count" : 5 },
+	{ "item" : "livingroot", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pf_airregulator",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "hazardobjects" ]
+}

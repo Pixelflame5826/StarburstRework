@@ -1,0 +1,44 @@
+{
+  "type" : "pf_novasnowvillager",
+  "baseType" : "villager",
+  
+  "items" : {
+    "novakid" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "novakidfancychest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "snowinfantrychest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "neckruffle" }
+            ],
+
+            "legs" : [
+              { "name" : "snowinfantrypants", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "steamgreylegs" },
+              { "name" : "novakidblackpants", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+            ]
+          },
+		  {
+		    "head" : [
+			  { "name" : "pilothead" },
+			  { "name" : "pf_stormgearhead" },
+			  { "name" : "scarfhead" },
+			  { "name" : "steampunkhead" }
+            ],
+			
+            "chest" : [
+              { "name" : "novakidfancychest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "snowinfantrychest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "neckruffle" }
+            ],
+
+            "legs" : [
+              { "name" : "snowinfantrypants", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "steamgreylegs" },
+              { "name" : "novakidblackpants", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

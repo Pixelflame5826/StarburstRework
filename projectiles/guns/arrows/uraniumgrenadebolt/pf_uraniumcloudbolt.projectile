@@ -1,0 +1,53 @@
+{
+  "projectileName" : "pf_uraniumcloudbolt",
+  "physics" : "arrownosticky",
+  "bounces" : 0,
+  "image" : "pf_uraniumgrenadebolt.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "emitters" : [ "poisonplasma" ],
+  "timeToLive" : 30,
+  "pointLight" : true,
+  "lightColor" : [2, 213, 2],
+  "power" : 5.0,
+  "knockback" : 20,
+  "knockbackDirectional" : true,
+  "speed" : 100,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosionknockback.config"
+    },
+	{
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "largepoisoncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "largepoisoncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "largepoisoncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "largepoisoncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 270
+    }
+  ]
+}

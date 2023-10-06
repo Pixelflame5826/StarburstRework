@@ -1,0 +1,37 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.1
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "bombicon.png"
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 1
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "bomb.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A core powder bomb, a great way to blow stuff up. Be careful where you throw them, they're destructive!"
+    }
+]

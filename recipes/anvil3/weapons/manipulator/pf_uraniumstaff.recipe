@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "uraniumrod", "count" : 8 },
+    { "item" : "pf_chroniumbar", "count" : 4 },
+    { "item" : "refinedferozium", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_uraniumstaff", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

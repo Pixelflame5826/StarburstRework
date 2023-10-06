@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "uraniumrod", "count" : 1 },
+	{ "item" : "pf_chroniumbar", "count" : 1 },
+	{ "item" : "pf_radioactiveremains", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_uraniumgrenade", "count" : 10 },
+  "groups" : [ "craftingmanipulator", "craftingseparator", "craftingaccelerator", "consumables", "all" ]
+}

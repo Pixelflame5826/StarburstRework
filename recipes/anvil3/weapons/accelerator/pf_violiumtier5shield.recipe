@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 5 },
+    { "item" : "refinedviolium", "count" : 5 },
+    { "item" : "hardenedcarapace", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_violiumtier5shield", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

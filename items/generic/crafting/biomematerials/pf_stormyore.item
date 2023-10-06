@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_stormyore",
+  "price" : 30,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_stormyore.png",
+  "description" : "A heavily charged piece of fulgurite composed of iron and carbon.",
+  "shortdescription" : "Thorite Chunk",
+  "itemTags" : [ "reagent" ]
+}

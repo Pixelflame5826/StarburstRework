@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_forestdisk", "count" : 7 },
+	{ "item" : "plantmatter", "count" : 15 },
+    { "item" : "copperbar", "count" : 5 }
+  ],
+  "output" : { "item" : "pf_heartwoodclock", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "pf_biomeheatmild",
+  "blockingStat" : "pf_mildBiomeHeatImmunity",
+
+  "effectConfig" : {
+    "tickRate" : 460
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "pf_biomeheatmild.lua"
+  ],
+
+  "animationConfig" : "pf_biomeheatmild.animation",
+
+  "label" : "Mild Heat - Minor Compounding Health Loss, Less Energy, Slowed Energy Regen",
+  "icon" : "/interface/statuses/biomeheat.png"
+}

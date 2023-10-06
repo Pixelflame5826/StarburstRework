@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_snowcrystal", "count" : 5 },
+    { "item" : "titaniumbar", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_blueiceaxe", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

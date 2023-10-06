@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_junglebar",
+  "price" : 150,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_junglebar.png",
+  "description" : "A very poisonous plant based material, commonly found in toxic, plant heavy climates.",
+  "shortdescription" : "Vermillium Blossom",
+  "itemTags" : [ "reagent" ]
+}

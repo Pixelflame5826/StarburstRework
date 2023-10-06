@@ -1,0 +1,33 @@
+{
+  "objectName" : "pf_climbingequipment",
+  "colonyTags" : ["traveller", "pf_weather"],
+  "rarity" : "Uncommon",
+  "description" : "A rack of climbing equipment, comes in handy when scaling mountains.",
+  "shortdescription" : "Climbing Equipment",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "Some basic climbing equipment, nothing too special here.",
+  "avianDescription" : "Climbing equipment, it's almost like flying but on walls.",
+  "floranDescription" : "Floran likesss hitting thingsss with ice axe.",
+  "glitchDescription" : "Adventurous. Time to find a mountain to climb.",
+  "humanDescription" : "Climbing equipment? Who needs that, when I can horse my way up things!",
+  "hylotlDescription" : "Some pretty decent climbing gear, though I'm not too familiar with climbing.",
+  "novakidDescription" : "Some good ol' rugged equipment, just my style!",
+  "nostosDescription" : "Some useful climbing gear, very good when you need altitude measurements.",
+
+  "inventoryIcon" : "pf_climbingequipmenticon.png",
+  "orientations" : [
+    {
+      "image" : "pf_climbingequipment.png:<color>",
+      "imagePosition" : [-8, -10],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

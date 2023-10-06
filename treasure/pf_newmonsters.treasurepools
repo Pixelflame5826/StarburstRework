@@ -1,0 +1,38 @@
+{
+  // UNIQUE MONSTERS
+  "pf_nimbuspriteTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.699, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.200, "item" : "staticcell"},
+		{"weight" : 0.100, "item" : [ "cloudblock", 5 ]},
+        {"weight" : 0.001, "item" : "pf_nimbuspriteaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "pf_nimbuspriteHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.699, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.200, "item" : "staticcell"},
+		{"weight" : 0.100, "item" : [ "cloudblock", 5 ]},
+        {"weight" : 0.001, "item" : "pf_nimbuspriteaf"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  // BUGS
+  "pf_thunderfly" : [
+    [0, {
+      "fill" : [
+        {"item" : "pf_thunderfly"}
+      ]
+    }]
+  ]
+}

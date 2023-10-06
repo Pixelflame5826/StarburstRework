@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An SMG made out of titanium. Able to send out volleys of bullets, kills enemies through death of a 1000 10mm rounds."
+    }
+]

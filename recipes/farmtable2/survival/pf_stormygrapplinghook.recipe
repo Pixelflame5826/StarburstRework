@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "grapplinghook", "count" : 1 },
+    { "item" : "refinedviolium", "count" : 7 },
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "wire", "count" : 4 },
+    { "item" : "smallbattery", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_stormygrapplinghook", "count" : 1 },
+  "groups" : [ "craftingfarm2", "survival" ]
+}

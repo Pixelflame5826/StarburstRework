@@ -1,0 +1,11 @@
+{
+  "name" : "pf_hazardairtank",
+  "effectConfig" : {
+    "breathAmount" : 75
+  },
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "pf_airtank.lua"
+  ]
+}

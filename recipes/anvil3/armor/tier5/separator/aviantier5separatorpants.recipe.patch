@@ -1,0 +1,25 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/1/count",
+        "value": 2
+    },
+    {
+        "op": "replace",
+        "path": "/input/1/item",
+        "value": "solariumstar"
+    },
+    {
+        "op": "replace",
+        "path": "/input/0/item",
+        "value": "refinedaegisalt"
+    },
+    {
+        "op": "add",
+        "path": "/input/2",
+        "value": {
+            "item": "canvas",
+            "count": 1
+        }
+    }
+]

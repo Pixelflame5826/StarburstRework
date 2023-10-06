@@ -1,0 +1,22 @@
+[
+	{
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildboomerang.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueboomerang"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An icy cold boomerang infused with a frozen core. Leaves behind a cold trail of ice as it travels."
+    },
+	{
+        "op": "add",
+        "path": "/elementalType",
+        "value": "ice"
+    }
+]

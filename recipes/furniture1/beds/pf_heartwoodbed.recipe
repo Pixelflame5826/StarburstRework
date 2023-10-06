@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_forestdisk", "count" : 7 },
+	{ "item" : "plantmatter", "count" : 15 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : { "item" : "pf_heartwoodbed", "count" : 1 },
+  "groups" : [ "craftingfurniture", "beds", "all" ]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:pf_pgiChest",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiDefaultChest"
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "ceiling",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredSmall",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "ceilingicepolys",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                },
+                {
+                    "name": "ceilingicicle",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/12/grasses/1",
+        "value": "geometricflower"
+    },
+	
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_tundraradioactive"
+    }
+]

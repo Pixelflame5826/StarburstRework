@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_tooltiptest",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_tooltiptest.png",
+  "tooltipKind" : "pf_randomsword",
+  "description" : "Tool tip test",
+  "shortdescription" : "Tool Tip Test",
+  "itemTags" : [ "reagent" ]
+}

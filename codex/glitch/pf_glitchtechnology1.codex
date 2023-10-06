@@ -1,0 +1,17 @@
+{
+  "id" : "pf_glitchtechnology1",
+  "species" : "glitch",
+  "title" : "Excerpts from an Artificer",
+  "description" : "A sturdy looking journal written by a self-aware Glitch mechanic.",
+  "icon" : "pf_glitchcoverextra2.png",
+  "contentPages" : [
+    "I was ultimately terrified of the world as a whole when I realized the situation I was in. The kingsmen were after me for becoming mad, it was only when I came across a vessel captained by the member of the Protectorate did I ever find peace off that planet. I didn't know much about human life but it was more welcoming than ours is. So primitive they are, stuck in a simulation that never progresses...",
+	"I found some refuge and I was enthralled by technology, I mean, how I could I not be. The tech felt so familiar to me, and I immediately went to work becoming a mechanic. Those starships that everyone flies around are my pride and joy. Such beautiful vessels that travel through the stars through such carefully engineered mechanical parts. I remember seeing these fly by every so often and I looked in awe, especially when the king took a ride in one to some far off place.",
+	"Eventually I got quite the interesting letter, it was from a Duke from a place I've never heard of. Apparently he wanted to commission me for a starship, it was clear he didn't really understand what they were but he had some idea. He didn't treat me like a madman though, he saw me as some kind of wizard. An artificer of magical artifacts that travel through the void between worlds. I took the job, then I learned that many of my kind are hired by such powerful people.",
+	"It took awhile to build one to his specifications and when I delivered it to him, I got paid handsomely in pure gold and treasures. I felt like a king myself! Of course he seems to have hired a pilot similar to I, they seemed just as surprised. Guess people like us are only really thrown out in public and when we're useless. Guess its when we can give them the power they require, is the only time we're respected. Though hey, I'll take it..."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pf_oceancrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_aquarishuriken", "count" : 10 },
+  "groups" : [ "craftinganvil2", "consumables", "all" ]
+}

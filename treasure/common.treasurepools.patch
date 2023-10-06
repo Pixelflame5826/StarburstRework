@@ -1,0 +1,247 @@
+[	
+	//----BASIC TREASURE----
+	//Changing the basic treasurepools to add in tech treasure, while making ores less common
+	{
+        "op": "replace",
+        "path": "/basicTreasure/0/1/pool/2/weight",
+        "value": 0.11
+    },
+    {
+        "op": "add",
+        "path": "/basicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.05,
+            "pool": "techTreasure"
+        }
+    },
+	
+	//Adding in new ore samples to the geode treasure pool, to match with the biome materials
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_aquarisample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_auriumsample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_blueicesample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_chroniumsample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_erebiumsample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_heartwoodsample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_promethiumsample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_rubitesample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_vermilliumsample"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/geodeRewards/0/1/pool/-",
+        "value": {
+            "weight": 0.0025,
+            "item": "pf_xenocytesample"
+        }
+    },
+	
+	//----AUGMENTS----
+	//Removing Ice Block, Fire Block, Poison Block, and Electric Block 
+    {
+        "op": "remove",
+        "path": "/augments/1/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/1/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/1/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/1/1/pool/5"
+    },
+
+    {
+        "op": "remove",
+        "path": "/augments/2/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/2/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/2/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/2/1/pool/5"
+    },
+
+    {
+        "op": "remove",
+        "path": "/augments/3/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/3/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/3/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/3/1/pool/5"
+    },
+
+    {
+        "op": "remove",
+        "path": "/augments/4/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/4/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/4/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/4/1/pool/5"
+    },
+
+    {
+        "op": "remove",
+        "path": "/augments/5/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/5/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/5/1/pool/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augments/5/1/pool/5"
+    },
+
+	//Adding in the hazard augments.
+    {
+        "op": "add",
+        "path": "/augments/1/1/pool/-",
+        "value": {
+            "weight": 0.75,
+            "pool": "pf_hazardAugments"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/2/1/pool/-",
+        "value": {
+            "weight": 1.0,
+            "pool": "pf_hazardAugments"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/3/1/pool/-",
+        "value": {
+            "weight": 1.75,
+            "pool": "pf_hazardAugments"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/4/1/pool/-",
+        "value": {
+            "weight": 2.25,
+            "pool": "pf_hazardAugments"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/5/1/pool/-",
+        "value": {
+            "weight": 2.75,
+            "pool": "pf_hazardAugments"
+        }
+    },
+	//----UNIQUE WEAPONS----
+	//Removal of Doomcannon and Ex Machina, to be reused in the PGI chests.
+    {
+        "op": "remove",
+        "path": "/uniqueWeapon/2/1/pool/10"
+    },
+    {
+        "op": "remove",
+        "path": "/uniqueWeapon/2/1/pool/6"
+    },
+	//NEW UNIQUE WEAPONS
+	{
+        "op": "add",
+        "path": "/uniqueWeapon/2/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_mastersbroadsword"
+        }
+    }
+]

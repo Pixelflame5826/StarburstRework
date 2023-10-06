@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A sniper rifle made out of titanium. This can blow off limbs from miles away, at least if you know physics."
+    }
+]

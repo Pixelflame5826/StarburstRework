@@ -1,0 +1,19 @@
+{
+  "id" : "pf_hylotlreligion1",
+  "species" : "hylotl",
+  "title" : "The Shinen Religion",
+  "description" : "A scroll that details the Hylotl's spiritual beliefs.",
+  "icon" : "pf_hylotlcoverextra2.png",
+  "contentPages" : [
+    "\"Everything as it is, there is no malice nor love from nature.\" That idea is the core tenet of our religion. Shinenism is as its known, is a religion based around nature itself. The Shinen religion worships the spirits of nature we call Fuchi. They are depicted as deep sea animals. Some look like large fish, some jellyfish, and serpents as well; many even look like hominids. Many though, are alien to many basic forms of sea life.",
+
+	"Fuchi are the very forces of nature themselves, or more so the embodiments of them. They can bring us prosperity as much as they can bring us disaster. We as a species spend so much time protecting and respecting nature is due to this, by appeasing and protecting nature, the Fuchi feel safe, so they bring prosperity. It is said that if a Fuchi feels threatened, it will bring disaster. They are much like animals, as varied and chaotic as nature itself, however, willful.",
+	
+	"Fuchi inhabit every part of the universe, including space. Just living as an animal does, only really caring about survival. We believe that all life has descended from these beings. It is said that the Fuchi are the simplest form of life, closest to the universe, that is why they exist on a different spectrum as us. As such, they're made from the most basic parts of the universe and have such a connection to the natural order."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

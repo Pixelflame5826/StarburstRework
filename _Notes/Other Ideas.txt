@@ -1,0 +1,40 @@
+----TIERS AND HAZARDS----
+-Tier System is no longer tied to the hazards, all hazards can be on any tier of planet through weather. Except Tier 1.
+
+-Out of Tier hazards will be weaker, and easier to block.
+
+-All Tiers will be themed around certain hazards, rather than just a single one.
+	*Tier 1: None
+	*Tier 2: Hazards Come From Weather Only
+	*Tier 3: No Oxygen, Constant Minor Hazards
+	*Tier 4: Bio-Hazards (Radioactivity/Poison)
+	*Tier 5: Energy (Cold/Hot/Electricity)
+	*Tier 6: ???
+
+-All planets have a primary and 1 or more secondary hazards, secondary hazards come through via weather, forcing players to leave, bunker underground, or add more hazard protection.
+
+
+----EPP CHANGES----
+-Before EPPs, there will be consumables and augments that give buffs that allow blocking weaker forms of the hazards.
+
+-Normal EPPs require exploration of a planet's resources to make.
+
+-Tiered EPPs, ones that can block an entire tier's hazards, can only be made via materials from all hazards, making them rewards for surviving the Tier so they don't take up resources or inventory slots.
+
+-EPPs are optional, as powerful hazard blockers can be made in the tier before and on the planets themselves.
+
+
+----MATERIALS----
+-Every Tier has it's own material based on hazards, which will help with other hazards. The materials can be found on other planets, just much more rarely.
+
+-Every differing hazard can be blocked by the same materials, which will make similar hazards easier to block. 
+
+-You can only have the materials from one hazard and still move forward, allowing for people to speedrun the game tier by tier, but those who need more options have them.
+
+-Violium, Ferozium, and Solarium (Replacing Aegisalt, Will Be Used As The Overall Material For Tier 5) are now found on Electric, Ice, and Fire worlds respectively. Giving them each a class, but can be crossed over in order to get more interesting weapons.
+
+-Aegisalt's Lore is changed to be more like a battery catalyst, releasing and absorbing energy very quickly. The backing of all of the weapons, that are based around energy.
+
+-Solarium is now tier 5, as it is now part of the respective tier. Might cause some problems in terms of other mods, but that isn't really being accounted for here.
+
+-Old tiers of elements can be used in order to make more interesting weapons.

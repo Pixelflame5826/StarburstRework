@@ -1,0 +1,25 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/input",
+		"value" : [
+			{
+				"item": "titaniumbar",
+				"count": 6
+			},
+			{
+				"item": "glass",
+				"count": 10
+			},
+			{
+				"item": "livingroot",
+				"count": 5
+			}
+		]
+	},
+    {
+        "op": "replace",
+        "path": "/groups/0",
+        "value": "pf_craftingplanetresist"
+    }
+]

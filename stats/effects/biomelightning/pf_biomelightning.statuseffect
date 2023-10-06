@@ -1,0 +1,19 @@
+{
+  "name" : "pf_biomelightning",
+  "blockingStat" : "pf_biomelightningImmunity",
+
+  "effectConfig" : {
+    "tickRate" : 20,
+    "healthDamage" : 2
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "pf_biomelightning.lua"
+  ],
+
+  "animationConfig" : "pf_biomelightning.animation",
+
+  "label" : "Deadly Static - 50% Max Energy, No Energy Regen, Running Out Loses Health | When Mitigated: Energy Regen Now 10%",
+  "icon" : "/interface/statuses/pf_biomelightning.png"
+}

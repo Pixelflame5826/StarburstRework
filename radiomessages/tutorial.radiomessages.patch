@@ -1,0 +1,52 @@
+[
+    {
+        "op": "replace",
+        "path": "/pickupinventorstable/text",
+        "value": "I see you've made an inventor's table. This is a very important facility that will allow you to make other crafting stations. If you find something you can't do, I recommend using it to find solutions."
+    },
+	{
+        "op": "replace",
+        "path": "/fuel/text",
+        "value": "Now with a functioning ship, you can explore the galaxy. Erchius fuel for your FTL drive can be mined from moons or sold at certain vendors. As well, planets will be more hazardous from here on out, so building a ^orange;Hazard Lab Table^white; is recommended."
+    },
+	{
+        "op": "replace",
+        "path": "/pickupplantfibre/text",
+        "value": "You discovered some plant fibre. This useful material can be woven into many useful things, such as platforms, climbing rope, and even fabrics when used at a ^orange;Spinning Wheel^white;."
+    },
+	{
+        "op": "replace",
+        "path": "/pickupaugment/text",
+        "value": "You obtained an augment. These modules can provide a wide range of benefits from stat increases to hazard protection. Install them to an Enviro Protection Pack (EPP) or Enhancement Pack with a right-click."
+    },
+	{
+        "op": "replace",
+        "path": "/pickupore/text",
+        "value": "You discovered some ore. Ore can be turned into bars using a ^orange;Furnace^white;, bars are useful for crafting a wide range of equipment that will increase your strength and survivability."
+    },
+	{
+        "op": "replace",
+        "path": "/pickupcampfire/text",
+        "value": "Ah, brilliant it appears you've made fire. Your training has taught you well. You can used controlled sources of heating like this to cook food, increasing their nutrient gain."
+    },
+	{
+        "op": "replace",
+        "path": "/pickupseed/text",
+        "value": "I see that you've found some seeds, great! Farming is a very useful skill for food and materials. You should plant them in some tilled soil, and water them until they grow. A ^orange;Foraging Table^white; should have the tools you need."
+    },
+	{
+        "op": "replace",
+        "path": "/pickupbow/text",
+        "value": "You obtained a bow. While primitive and slow, overcoming a monster with one of these significantly increases your chances of getting meat and rare crafting ingredients from them. Happy hunting."
+    },
+	{
+        "op": "replace",
+        "path": "/pickupcorefrag/text",
+        "value": "I see you've found a core fragment. These strange hot crystals are used in explosives and guns, so I recommend getting a lot. They can also power some things."
+    },
+	{
+        "op": "replace",
+        "path": "/pickuplogblock/text",
+        "value": "I see you have found some logs. Wood is a useful material used in almost everything. I suggest you kill additional trees and look in your crafting menu. Also remember to follow Protectorate Environmental Protection Guidelines."
+    }
+]

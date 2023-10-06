@@ -1,0 +1,22 @@
+[
+	{
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildboomerang.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueboomerang"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A ghostly boomerang modelled after a moon. It shatters into many smaller Lunarangs after impact."
+    },
+	{
+        "op": "replace",
+        "path": "/cooldownTime",
+        "value": 1.0
+    }
+]

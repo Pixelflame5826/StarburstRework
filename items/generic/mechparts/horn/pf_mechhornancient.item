@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhornancient",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhornancient.png",
+  "description" : "Lets out a sound that is in harmony with the universe.",
+  "shortdescription" : "Ancient Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_ancient"]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "pf_heartwoodtable",
+  "colonyTags" : ["commerce", "natural"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "A natural wood table that looks like a giant stump.",
+  "shortdescription" : "Heartwood Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 50,
+
+  "apexDescription" : "A very natural looking table, it looks like it was made from a tree.",
+  "avianDescription" : "This table looks like it was directly cut from a tree, amazing.",
+  "floranDescription" : "Ssstump table.",
+  "glitchDescription" : "Intrigued. This table looks like it was directly grown...",
+  "humanDescription" : "Looks like the fey are about to give me a luncheon I won't forget.",
+  "hylotlDescription" : "Such a natural looking table, I wonder how it was made.",
+  "novakidDescription" : "Well ain't this just a giant stump.",
+
+  "inventoryIcon" : "pf_heartwoodtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_heartwoodtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

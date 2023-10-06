@@ -1,0 +1,12 @@
+{
+  "name" : "pf_mildbiomepoisonprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_mildbiomepoisonprotection.lua"
+  ],
+
+  "label" : "Toxic Protection - Immunity to Minor Toxicity and Mitigates Deadly Toxicity, Slight Resistance To Poison",
+  "icon" : "/interface/statuses/pf_poisonprotection.png"
+}

@@ -1,0 +1,84 @@
+{
+  "type" : "pf_arcademerchant",
+  "baseType" : "merchant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : {
+        "default" : [ "pf_arcademerchant" ],
+        "human" : ["pf_arcademerchant" ],
+        "apex" : ["pf_arcademerchant" ],
+        "hylotl" : ["pf_arcademerchant" ],
+        "floran" : ["pf_arcademerchant" ],
+        "glitch" : ["pf_arcademerchant" ],
+        "avian" : ["pf_arcademerchant" ],
+        "novakid" : ["pf_arcademerchant" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 10,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Arcade Owner",
+          "subtitle" : "  Sells prizes and games!"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "I got all sorts of prizes and gaming supplies!",
+			  "Need your gaming fix or want some cuddly plushies, I got em here!",
+			  "Fun stuff to buy!",
+			  "I got all things from plushies to games! Take a look.",
+			  "Need some fun in your life? Come take a look!"
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Come back anytime!",
+			  "Have fun with your new items.",
+			  "Come back again for all your geeky needs.",
+			  "Try our games again!",
+			  "Come again soon, the prizes will be waiting!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "fedorahead", "glasses3eyes" ],
+            "chest" : [ "hoodiechest" ],
+            "legs" : [ { "name" : "workoutlegs", "parameters" : { "colorIndex" : 3 } } ]
+          },
+          {
+            "head" : [ { "name" : "kathoodhead", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "conceptchest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ "workoutlegs" ]
+          },
+		  {
+            "head" : [ { "name" : "visorhead", "parameters" : { "colorIndex" : 10 } } ],
+            "chest" : [ { "name" : "copperarmorchest", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "copperarmorpants", "parameters" : { "colorIndex" : 3 } } ]
+          }
+        ]
+	  ]
+    ]
+  }
+}

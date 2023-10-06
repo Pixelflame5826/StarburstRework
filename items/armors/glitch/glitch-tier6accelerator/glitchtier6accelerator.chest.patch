@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A near impervium chestpiece, formed of polished chronium plating. It's certainly a +3 armor piece."
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "particleEmitters" : {
+    "sweat" : {
+      "enabled" : true,
+      "emissionRate" : 5.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "ember",
+			"size" : 1.0,
+			"color" : [0, 255, 255, 200],
+			"fade" : 0.9,
+			"initialVelocity" : [0.0, -1],
+			"finalVelocity" : [0.0, -20],
+			"approach" : [0, 5],
+			"timeToLive" : 0.75,
+			"layer" : "front"
+          }
+        }
+      ]
+    }
+  }
+}

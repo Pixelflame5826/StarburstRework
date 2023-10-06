@@ -1,0 +1,19 @@
+{
+  "particleEmitters" : {
+    "sparks" : {
+      "enabled" : true,
+      "emissionRate" : 5.0,
+      "particles" : [
+        {
+          "particle" : "electricswoosh1"
+        },
+        {
+          "particle" : "electricswoosh2"
+        }
+      ]
+    }
+  },
+  "sounds" : {
+    "bolt" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ]
+  }
+}

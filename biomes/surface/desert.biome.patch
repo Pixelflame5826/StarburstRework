@@ -1,0 +1,56 @@
+[	
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:pf_pgiChest",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiDefaultChest"
+            ]
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/surfacePlaceables/items/9/distribution",
+        "value": "/biomes/distributions.config:moderateClumps"
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/12",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredLarge",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "cactus2",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                }
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/surfacePlaceables/grassMod/-",
+        "value": "sand"
+    },
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_desertscorching"
+    },
+	{
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_biomeheatmild"
+        ]
+    }
+]

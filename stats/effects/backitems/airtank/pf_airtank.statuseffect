@@ -1,0 +1,11 @@
+{
+  "name" : "pf_airtank",
+  "effectConfig" : {
+    "breathAmount" : 100
+  },
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "pf_airtank.lua"
+  ]
+}

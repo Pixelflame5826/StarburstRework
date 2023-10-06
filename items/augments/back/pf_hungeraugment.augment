@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_hungeraugment",
+  "price" : 10000,
+  "rarity" : "Rare",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_hungeraugment.png",
+  "description" : "An EPP module that reduces hunger drain by a third.",
+  "shortdescription" : "Metabolism Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_hunger",
+    "displayName" : "Metabolism",
+    "displayIcon" : "/items/augments/back/pf_hungeraugment.png",
+    "effects" : [ "pf_reducedhungeraugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

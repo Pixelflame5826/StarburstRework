@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 3 },
+    { "item" : "lead", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_leadpadding",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "consumables" ]
+}

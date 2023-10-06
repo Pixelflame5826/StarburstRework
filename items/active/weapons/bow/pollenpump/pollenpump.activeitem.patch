@@ -1,0 +1,33 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildbow.lua"
+    },
+	
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquebow"
+    },
+    {
+        "op": "add",
+        "path": "/largeImage",
+        "value": "pollenpump.png:0"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A hand operated air pump that shoots out poisonous vapors. Wear a mask with this thing, or else."
+    },
+	{
+        "op": "add",
+        "path": "/upgradeParameters/largeImage",
+        "value": "pollenpump_l6.png:0"
+    },
+	{
+        "op": "add",
+        "path": "/elementalType",
+        "value": "poison"
+    }
+]

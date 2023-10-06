@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/tileDamage",
+        "value": 1.8
+    }
+]

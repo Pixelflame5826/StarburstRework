@@ -1,0 +1,45 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A portable boiler, able to generate energy through heat. Slightly increases energy regen and protects against Mild Cold."
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_boiler"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+            "subtitle": "Enhancement Pack",
+			
+            "pf_status1Image": "/interface/statuses/biomecold.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "Resistant",
+            "pf_status2Image": "/interface/stats/energyregen.png",
+            "pf_status2BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status2Label": "+5%"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    }
+]

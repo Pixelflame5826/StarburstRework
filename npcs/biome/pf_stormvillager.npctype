@@ -1,0 +1,85 @@
+{
+  "type" : "pf_stormvillager",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I've always enjoyed bad weather, the rain and thunder is so calming.",
+            "It's nice to see others out in this vast stormy wilderness. Stay a bit.",
+            "Need to get new equipment, my climbing axe is getting rusty.",
+			"Nothing is more satisfying than setting up camp in a dry alcove.",
+			"Want a weather report from an expert? It's cloudy with a chance of rain... for all of eternity.",
+			"So the creature that destroyed Earth was planet sized... I wonder what weather on that thing is like.",
+			"This is my setup, if you don't like it, leaf."
+          ]
+        },
+        "apex" : {
+          "default" : [
+            "My barometers are going crazy here, really straining my equipment with these conditions.",
+            "Fur is very useful up in these high altitudes, perfect for me.",
+            "Why does the Miniknog test on others? I mean, Meteorology is nice, and doesn't require deaths.",
+			"The freedom out here is palpable, every mountain is my own to go up. A far cry from my old life.",
+			"I feel right at home in these alpine mountains, not as cold, but just right.",
+			"Wandering is a freedom not many of us get, at least, without authorities on your trail.",
+			"Ah! Oh sorry, still a bit jumpy at people in fog. Dang authorities were on my back all the time.",
+			"It's crazy how easy it is to hide in a stormy place like this. Other Apex should try it."
+          ]
+        },
+		"hylotl" : {
+          "default" : [
+            "The landscapes here are truly something to behold. Perfect inspiration.",
+			"I enjoy coming out here, there's no weather in the ocean, so it feels very new.",
+			"Meditating in the rain is perhaps the most calming sensation, just let it wash away your thoughts.",
+			"I don't exactly take to kindly to lightning, thunder is a lot better.",
+			"Who needs the ocean honestly, the air is so humid it might as well be the ocean.",
+			"I don't think my friends really see the beauty of storms. It's a wonderful aesthetic.",
+			"Sadly they didn't really sell safety goggles for my biology. I have to keep my top eye closed all the time.",
+			"Storms are such a beautiful thing, sadly we as a species don't really see it very often."
+          ]
+        },
+        "novakid" : {
+          "default" : [
+            "Who needs fog lights? I am my own fog light!",
+            "Many of my cousins are out livin' in the plains, I don't get them. Mountains are great.",
+            "Gave up Ranching for this life, best decision I ever did make. Besides, can't graze any Mooshi 'round here.",
+			"Feels kinda awkward just seein' the rain turn to steam when it falls on me.",
+			"So another one comes from the fog. How are ya partner?",
+			"I feel at peace wanderin' nature. It's very cathartic in it's own way.",
+			"Hey there partner. Want a nice cup of joe?",
+			"Sometimes it feels like I'm the only sun on this planet.",
+			"I'm out here to find myself, don't think I found anythin' yet."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "pf_stormgearhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "pf_stormgearchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "back" : [
+              { "name" : "pf_stormgearback", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "" }
+            ],
+            "legs" : [
+              { "name" : "pf_stormgearlegs", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_savannahbar", "count" : 3 },
+    { "item" : "tungstenbar", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_auriumdagger", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

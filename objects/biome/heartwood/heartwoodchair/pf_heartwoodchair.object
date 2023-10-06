@@ -1,0 +1,38 @@
+{
+  "objectName" : "pf_heartwoodchair",
+  "colonyTags" : ["misc","natural"],
+  "rarity" : "Uncommon",
+  "description" : "A natural looking chair made from a stump, has leafy padding.",
+  "shortdescription" : "Heartwood Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "Well I suppose its a bit more comfortable than sitting on a stump.",
+  "avianDescription" : "Ah a nice log chair, natural and easy to rest your feathers on.",
+  "floranDescription" : "Floran likesss stumpss, thiss is sstump with extra bitss.",
+  "glitchDescription" : "Amused. Its like they took a stump and added a backboard.",
+  "humanDescription" : "How is this thing so comfortable? I'm stumped.",
+  "hylotlDescription" : "A natural looking stump, with a backboard. Interesting design.",
+  "novakidDescription" : "Ain't this perfect for just sittin' around a campfire.",
+
+  "inventoryIcon" : "pf_heartwoodchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_heartwoodchair.png:<color>",
+
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 23]
+
+}

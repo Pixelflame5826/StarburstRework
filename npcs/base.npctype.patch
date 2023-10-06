@@ -1,0 +1,37 @@
+[
+    {
+        "op": "add",
+        "path": "/statusControllerSettings/stats/pf_mildBiomeHeatImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/statusControllerSettings/stats/pf_mildBiomeColdImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/statusControllerSettings/stats/pf_mildBiomeRadiationImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/statusControllerSettings/stats/pf_mildBiomePoisonImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/statusControllerSettings/stats/pf_mildBiomeLightningImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    }
+]

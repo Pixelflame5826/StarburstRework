@@ -1,0 +1,116 @@
+{
+  "itemName" : "pf_uraniumstaff",
+  "price" : 1440,
+  "maxStack" : 1,
+  "level" : 6,
+  "rarity" : "Legendary",
+  "description" : "The uranium core of this staff has the energy to create nuclear generators. For combat, of course.",
+  "shortdescription" : "Uranium Staff",
+  "category" : "staff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff"],
+  "tooltipKind" : "pf_uniquestaff",
+
+  "animation" : "/items/active/weapons/staff/staff.animation",
+  "animationParts" : {
+    "staff" : "pf_uraniumstaff.png",
+    "stone" : "pf_stone.png",
+    "chargeEffect" : "pf_staffglow.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "glow" : {
+        "color" : [84, 255, 0]
+      }
+    }
+  },
+
+  "inventoryIcon" : "pf_uraniumstaff.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.4,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "elementportal",
+  "primaryAbility" : {
+    "name" : "Nuclear Generator",
+  
+    "projectileType" : "pf_uraniumportal",
+
+    "projectileParameters" : {
+      "baseDamage" : 7
+    },
+
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [-0.125, -0.5]
+      },
+      "charge" : {
+        "weaponOffset" : [0.125, 0.75]
+      },
+      "charged" : {
+        "weaponOffset" : [0.125, 0.75]
+      },
+      "discharge" : {
+        "weaponOffset" : [0.125, 0.75]
+      },
+      "cooldown" : {
+        "weaponOffset" : [0, -0.25]
+      }
+    }
+  },
+
+  "altAbilityType" : "kluexzone",
+  "altAbility" : {
+    "name" : "Power Zone",
+    "projectileType" : "pf_advancedenergyzone"
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

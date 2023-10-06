@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/contentPages/0",
+        "value": "The Avolite crystals, regarded as the divine gift from Kluex in Avian society, only occur naturally on the Avian homeworld of Avos. Avian high priests, known as Stargazers, have the sole rights to mine them, and to trespass into their mines is a crime punishable by death."
+    },
+    {
+        "op": "add",
+        "path": "/contentPages/1",
+        "value": "It is said that imbued spiritual energy within Avolite gives the crystals their own conciousness, allowing them to communicate with each other and even store data. As well, this power can be used to project energy for holograms and even energy weaponry. These properties have made our designs rival other races."
+    },
+	{
+        "op": "add",
+        "path": "/contentPages/2",
+        "value": "The impact of these crystals in our technology has let our culture to rise to the levels of the other starfaring races. Truly a miraculous material to call our own."
+    }
+]

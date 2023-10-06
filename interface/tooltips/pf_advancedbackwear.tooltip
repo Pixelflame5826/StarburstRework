@@ -1,0 +1,179 @@
+{
+	//---TEMPLATE---
+	//To keep visual clarity, make sure to add them in descending order, and to keep unused slots empty.
+	
+	//"tooltipFields" : {
+    //  "pf_status1Image" : "/interface/statuses/glow.png",
+	//  "pf_status1BackgroundImage" : "/interface/tooltips/statlistback.png",
+	//  "pf_status1Label" : "Glow",
+	
+	//  "pf_status2Image" : "/interface/statuses/glow.png",
+	//  "pf_status2BackgroundImage" : "/interface/tooltips/statlistback.png",
+	//  "pf_status2Label" : "Glow",
+	
+	//  "pf_status3Image" : "/interface/statuses/glow.png",
+	//  "pf_status3BackgroundImage" : "/interface/tooltips/statlistback.png",
+	//  "pf_status3Label" : "Glow",
+	
+	//  "pf_status4Image" : "/interface/statuses/glow.png",
+	//  "pf_status4BackgroundImage" : "/interface/tooltips/statlistback.png",
+	//  "pf_status4Label" : "Glow"
+    //}
+
+
+	"background": {
+		"type": "background",
+		"fileHeader": "/interface/tooltips/header.png",
+		"fileBody": "/interface/tooltips/pf_advarmor.png",
+		"fileFooter": "/interface/tooltips/footer.png"
+	},
+	"rarityLabel": {
+		"type": "label",
+		"position": [7, 23],
+		"hAnchor": "left",
+		"centered": true,
+		"wrapWidth": 126
+	},
+	"moneyIcon": {
+		"type": "image",
+		"position": [97, 23],
+		"file": "/interface/money.png"
+	},
+	"priceLabel": {
+		"type": "label",
+		"position": [110, 23],
+		"hAnchor": "left",
+		"value": "0"
+	},
+	"objectImage": {
+		"type": "image",
+		"position": [30, 157],
+		"file": "",
+		"centered": true,
+		"scale": 2,
+		"maxSize": [46, 59],
+		"minSize": [46, 59]
+	},
+	"descriptionLabel": {
+		"type": "label",
+		"position" : [9, 115],
+		"wrapWidth": 120,
+		"hAnchor": "left",
+		"vAnchor": "top"
+	},
+
+	"pf_status1Label": {
+		"type": "label",
+		"position": [105, 176],
+		"hAnchor" : "mid",
+		"zlevel" : 1,
+		"centered": true,
+		"wrapWidth": 126
+	},
+	"pf_status1Image": {
+		"type": "image",
+		"position": [70, 181],
+		"zlevel": 2,
+		"centered": true,
+		"maxSize": [16, 16],
+		"minSize": [16, 16]
+	},
+	"pf_status1BackgroundImage": {
+		"type": "image",
+		"position": [96, 180],
+		"centered": true,
+		"maxSize": [70, 12],
+		"minSize": [70, 12]
+	},
+	
+	"pf_status2Label": {
+		"type": "label",
+		"position": [105, 158],
+		"hAnchor" : "mid",
+		"zlevel" : 1,
+		"centered": true,
+		"wrapWidth": 126
+	},
+	"pf_status2Image": {
+		"type": "image",
+		"position": [70, 163],
+		"zlevel": 2,
+		"centered": true,
+		"maxSize": [16, 16],
+		"minSize": [16, 16]
+	},
+	"pf_status2BackgroundImage": {
+		"type": "image",
+		"position": [96, 162],
+		"centered": true,
+		"maxSize": [70, 12],
+		"minSize": [70, 12]
+	},
+	
+	"pf_status3Label": {
+		"type": "label",
+		"position": [105, 140],
+		"hAnchor" : "mid",
+		"zlevel" : 1,
+		"centered": true,
+		"wrapWidth": 126
+	},
+	"pf_status3Image": {
+		"type": "image",
+		"position": [70, 145],
+		"zlevel": 2,
+		"centered": true,
+		"maxSize": [16, 16],
+		"minSize": [16, 16]
+	},
+	"pf_status3BackgroundImage": {
+		"type": "image",
+		"position": [96, 144],
+		"centered": true,
+		"maxSize": [70, 12],
+		"minSize": [70, 12]
+	},
+	
+	"pf_status4Label": {
+		"type": "label",
+		"position": [105, 122],
+		"hAnchor" : "mid",
+		"zlevel" : 1,
+		"centered": true,
+		"wrapWidth": 126
+	},
+	"pf_status4Image": {
+		"type": "image",
+		"position": [70, 127],
+		"zlevel": 2,
+		"centered": true,
+		"maxSize": [16, 16],
+		"minSize": [16, 16]
+	},
+	"pf_status4BackgroundImage": {
+		"type": "image",
+		"position": [96, 126],
+		"centered": true,
+		"maxSize": [70, 12],
+		"minSize": [70, 12]
+	},
+
+
+	"augmentIconImageBackground": {
+		"type": "image",
+		"position": [11, 166],
+		"zlevel": 2,
+		"file": "/interface/tooltips/augment.png"
+	},
+	"augmentIconImage": {
+		"type": "image",
+		"position": [6, 38],
+		"zlevel": 3,
+		"file": ""
+	},
+	"augmentNameLabel": {
+		"type": "label",
+		"position": [30, 42],
+		"value": ""
+	}
+}

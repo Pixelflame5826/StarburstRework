@@ -1,0 +1,18 @@
+{
+  "itemName" : "pf_leadpadding",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_leadpadding.png",
+  "description" : "Temporary Lead plating. Resists Minor Planet Radiation.",
+  "shortdescription" : "Lead Shielding",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_mildbiomeradiationprotection",
+        "duration" : 240
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "pf_equipconsumable" ]
+}

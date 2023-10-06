@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_chroniumore",
+  "price" : 30,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_chroniumore.png",
+  "description" : "A mysterious dark metal that's used in many tech applications.",
+  "shortdescription" : "Chronium Ore",
+  "itemTags" : [ "reagent" ]
+}

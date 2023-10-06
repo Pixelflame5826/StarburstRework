@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/0/count",
+        "value": 4
+    },
+    {
+        "op": "replace",
+        "path": "/input/0/item",
+        "value": "refinedviolium"
+    },
+    {
+        "op": "add",
+        "path": "/input/2",
+        "value": {
+            "item": "refinedaegisalt",
+            "count": 3
+        }
+    }
+]

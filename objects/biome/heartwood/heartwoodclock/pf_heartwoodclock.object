@@ -1,0 +1,37 @@
+{
+  "objectName" : "pf_heartwoodclock",
+  "colonyTags" : ["pretty", "nature"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 120,
+
+  "description" : "A natural looking grandfather clock, a low wooden ticking can be heard from inside.",
+  "shortdescription" : "Heartwood Clock",
+  "race" : "novakid",
+
+  "apexDescription" : "Is this perhaps a visual metaphor for how ancient trees are?",
+  "avianDescription" : "Ah, a clock made from a tree. Does it perhaps have a bird in it's perch?",
+  "floranDescription" : "Floran could sstare at ssswinging vine forever.",
+  "glitchDescription" : "Charmed. Quite the natural looking clock, I wonder how its mechanisms got put in.",
+  "humanDescription" : "A timer on how long it'll take for nature to consume me.",
+  "hylotlDescription" : "A clock built into a tree, looks like it could tick further into the future than I will live.",
+  "novakidDescription" : "This here clock is just tickin' away the decades.",
+
+  "inventoryIcon" : "pf_heartwoodclockicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "pf_heartwoodclock.png:<color>.<frame>",
+      "imagePosition" : [-13, 0],
+      "frames" : 4,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/clock_loop.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+
+}

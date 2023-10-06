@@ -1,0 +1,22 @@
+[
+	{
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildfist.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquefist"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A gauntlet with a taser attached to it. In case you ever wanted to really jab in those volts to any attackers."
+    },
+	{
+        "op": "add",
+        "path": "/elementalType",
+        "value": "electric"
+    }
+]

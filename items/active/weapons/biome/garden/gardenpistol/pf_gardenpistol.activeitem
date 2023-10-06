@@ -1,0 +1,146 @@
+{
+  "itemName" : "pf_gardenpistol",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An ancient plasma pistol created by a race long past. It is quite primitive for a plasma weapon.",
+  "shortdescription" : "Proto Pistol",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
+  "level" : 1,
+
+  "inventoryIcon" : "pf_gardenpistol.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_gardenpistol.png",
+	"middleFullbright" : "pf_gardenpistolfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/unrand/spaceplasmarifle/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>",
+            "offset" : [0.8, 0.25],
+            "transformationGroups" : ["weapon"],
+            "fullbright" : true,
+            "zLevel" : 1
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_pistol3.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.8, 0.25],
+  "muzzleOffset" : [0.7, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.35,
+    "baseDps" : 6.75,
+    "energyUsage" : 15.75,
+    "inaccuracy" : 0.035,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "neotommygunbullet",
+    "projectileParameters" : {
+      "knockback" : 6
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+    "level2" : {
+	  "inventoryIcon" : "pf_gardenpistol_l2.png",
+      "animationParts" : {
+        "middle" : "pf_gardenpistol_l2.png",
+		"middleFullbright" : "pf_gardenpistolfullbright.png"
+      },
+      "shortdescription" : "Proto Zapper"
+	},
+	"level3" : {
+	  "inventoryIcon" : "pf_gardenpistol_l3.png",
+      "animationParts" : {
+        "middle" : "pf_gardenpistol_l3.png",
+		"middleFullbright" : "pf_gardenpistolfullbright.png"
+      },
+      "shortdescription" : "Proto Blaster"
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_gardenpistol_l4.png",
+      "animationParts" : {
+        "middle" : "pf_gardenpistol_l4.png",
+		"middleFullbright" : "pf_gardenpistolfullbright.png"
+      },
+      "shortdescription" : "Super Blaster"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_gardenpistol_l5.png",
+      "animationParts" : {
+        "middle" : "pf_gardenpistol_l5.png",
+		"middleFullbright" : "pf_gardenpistol_l5fullbright.png"
+      },
+      "shortdescription" : "Master Blaster"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_gardenpistol_l6.png",
+      "animationParts" : {
+        "middle" : "pf_gardenpistol_l6.png",
+		"middleFullbright" : "pf_gardenpistol_l6fullbright.png"
+      },
+      "shortdescription" : "Valiant Blaster",
+      "description" : "An ancient handgun once wielded by heroes of a time long past. Needs no courage, only valiance.",
+	  "primaryAbility" : {
+		"fireTime" : 0.25,
+		"baseDps" : 7.25
+      }
+	}
+  }
+}

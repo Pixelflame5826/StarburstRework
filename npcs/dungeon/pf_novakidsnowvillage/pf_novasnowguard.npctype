@@ -1,0 +1,55 @@
+{
+  "type" : "pf_novasnowguard",
+  "baseType" : "villageguard",
+  
+  "items" : {
+    "novakid" : [
+      [0, [
+          {
+            "head" : [ { "name" : "novatier3head" } ],
+            "chest" : [ { "name" : "novatier3chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "novatier3pants" } ],
+            "primary" : [
+              "pf_cowboyrevolver"
+            ],
+            "sheathedprimary" : [
+              "npcdagger"
+            ]
+          },
+          {
+            "head" : [ { "name" : "novatier1head" } ],
+            "chest" : [ { "name" : "novatier3chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "novatier3pants" } ],
+            "primary" : [
+              "pf_cowboyrevolver"
+            ],
+            "sheathedprimary" : [
+              "npcdagger"
+            ]
+          },
+          {
+            "head" : [ { "name" : "winterscarfhead" } ],
+            "chest" : [ { "name" : "novatier2chest", "parameters" : { "colorIndex" : 7 } } ],
+            "legs" : [ { "name" : "novatier3pants" } ],
+            "primary" : [
+              "pf_cowboyrevolver"
+            ],
+            "sheathedprimary" : [
+              "npcdagger"
+            ]
+          },
+          {
+            "head" : [ { "name" : "novatier2head" } ],
+            "chest" : [ { "name" : "novatier3chest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "novatier3pants" } ],
+            "primary" : [
+              "pf_cowboyrevolver"
+            ],
+            "sheathedprimary" : [
+              "npcdagger"
+            ]
+          }
+      ] ]
+    ]
+  }
+}

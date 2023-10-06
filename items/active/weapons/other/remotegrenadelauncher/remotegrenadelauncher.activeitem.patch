@@ -1,0 +1,24 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+		    "levelLabel" : "6",
+            "damagePerShotLabel": "28",
+            "speedLabel": "0.8",
+            "energyPerShotLabel": "32",
+			"altAbilityTitleLabel" : "Special",
+			"altAbilityLabel" : "Trigger Grenades"
+        }
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "Fires grenades that can be manually triggered to explode. At least they aren't anti-personnel mines."
+    }
+]

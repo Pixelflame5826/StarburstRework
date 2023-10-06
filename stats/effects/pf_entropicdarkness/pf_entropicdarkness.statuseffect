@@ -1,0 +1,22 @@
+{
+  "name" : "pf_entropicdarkness",
+  "blockingStat" : "",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 0.8,
+      "airJumpModifier" : 0.8
+    },
+    "tickRate" : 5
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "pf_entropicdarkness.lua"
+  ],
+
+  "animationConfig" : "pf_entropicdarkness.animation",
+
+  "label" : "Corrupting Abyss - Health Loss, Reduced Movement, Less Energy",
+  "icon" : "/interface/statuses/pf_entropicdarkness.png"
+}

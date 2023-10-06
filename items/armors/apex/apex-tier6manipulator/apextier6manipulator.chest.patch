@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A chronium laced jacket that offers far greater protection than the average observer might suspect."
+    }
+]

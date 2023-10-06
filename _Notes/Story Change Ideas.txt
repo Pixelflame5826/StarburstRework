@@ -1,0 +1,16 @@
+New Structure.
+1. Find the most important location of the race and teleport there.
+2. Find an expert who might have the knowledge to help on the quest.
+3. Find clues as to where the artifact might be. (Scan stuff, only the clue objects tho)
+4. Follow up on the leads by going through a dungeon of some kind, touching on the race's inner conflicts.
+5. Find the actual race's artifact spot.
+
+Floran Quests
+
+Hylotl Quests
+
+Avian Quests
+
+Apex Quests
+
+Glitch Quests

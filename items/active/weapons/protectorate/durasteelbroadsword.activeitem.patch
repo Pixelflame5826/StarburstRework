@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A blade forged from durasteel. It includes micro-thrusters to make its swings faster."
+    }
+]

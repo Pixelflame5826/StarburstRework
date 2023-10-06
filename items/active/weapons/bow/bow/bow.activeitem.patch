@@ -1,0 +1,23 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildbow.lua"
+    },
+	
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquebow"
+    },
+    {
+        "op": "add",
+        "path": "/largeImage",
+        "value": "bowfull.png:0"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A primitive bow made from wood, basic, yet effective. It more easily harvests goods from monsters."
+    }
+]

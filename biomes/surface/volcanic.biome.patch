@@ -1,0 +1,147 @@
+[
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:pf_pgiChest",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiVolcanicChest"
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/11/bushes/-",
+        "value": {
+            "name": "moltenbones",
+            "baseHueShiftMax": 0,
+            "modHueShiftMax": 0
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredLarge",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "moltenrock",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                },
+				{
+					"name": "lavabowl",
+					"baseHueShiftMax": 0,
+					"modHueShiftMax": 0
+				}
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredLarge",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "magmapitcher",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                }
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredLarge",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "moltenrock",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                },
+				{
+					"name": "lavabowl",
+					"baseHueShiftMax": 0,
+					"modHueShiftMax": 0
+				}
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "ceiling",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredLarge",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "ceilingmagmapods",
+                    "baseHueShiftMax": 0,
+                    "modHueShiftMax": 0
+                }
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:overgroundChests",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_volcanicChest"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:overgroundChests",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_volcanicChest"
+            ]
+        }
+    },
+	
+	{
+        "op": "replace",
+        "path": "/surfacePlaceables/items/12/distribution",
+        "value": "/biomes/distributions.config:moderateClumps"
+    }
+]

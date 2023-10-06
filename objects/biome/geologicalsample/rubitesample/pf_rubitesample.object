@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_rubitesample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of a rubite crystal.\"",
+  "shortdescription" : "Rubite Sample",
+  
+  "apexDescription" : "Looks very similar to Avolite, no wonder the Miniknog is interested...",
+  "avianDescription" : "Such a beautiful crystal, closest thing you can get to Avolite.",
+  "floranDescription" : "Ssshiny red crysstal.",
+  "glitchDescription" : "Curious. Rubite looks like Avolite, is there some connection?",
+  "humanDescription" : "This crystal is blood red, fitting I suppose.",
+  "hylotlDescription" : "Rubite is so violent looking, almost like a gem made of blood.",
+  "novakidDescription" : "Hoo wee, this crystal looks sharp. I could fire this out of a shotgun...",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_rubitesample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_rubitesample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

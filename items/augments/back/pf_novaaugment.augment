@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_novaaugment",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_novaaugment.png",
+  "description" : "An EPP module that creates a fiery explosion whenever you're damaged.",
+  "shortdescription" : "Nova Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_nova",
+    "displayName" : "Nova",
+    "displayIcon" : "/items/augments/back/pf_fallaugment.png",
+    "effects" : [ "pf_novaaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

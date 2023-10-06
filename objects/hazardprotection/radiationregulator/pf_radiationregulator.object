@@ -1,0 +1,76 @@
+{
+  "objectName" : "pf_radiationregulator",
+  "colonyTags" : ["pf_weather"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "An atmospheric control system that deionizes the air. Protecting against radioactive areas.",
+  "shortdescription" : "Radiation Regulator",
+  "race" : "generic",
+
+  "apexDescription" : "An advanced ECS, I don't think I'll need to worry about the radiation with this.",
+  "avianDescription" : "A nice breeze from this ruffles my feathers. I think the air is less radioactive.",
+  "floranDescription" : "Floran feels less warm, nice.",
+  "glitchDescription" : "Relaxed. This system should keep me safe from izonizing radiation.",
+  "humanDescription" : "No rads are going to get past this. What is this? A bunker.",
+  "hylotlDescription" : "Ah, pure air flows through this vent. I doubt radiation will bother me here.",
+  "novakidDescription" : "I don't feel anythin', is this meant to purify the air from somethin'?",
+
+  "category" : "furniture",
+  "price" : 3000,
+
+  "inventoryIcon" : "pf_radiationregulatoricon.png",
+  "orientations" : [
+    {
+      "image" : "pf_radiationregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_radiationregulator.png",
+        "fg" : "pf_radiationregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "pf_radiationregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      "direction" : "right",
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_radiationregulator.png",
+        "fg" : "pf_radiationregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/scripts/pf_statuseffectobject.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/hazardprotection/pf_regulator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/bunkervent.ogg",
+  
+  "detectEntityTypes" : [ "player" ],
+  "statusArea" : [ [-100, -100], [100, 100] ],
+  
+  "statusEffect": "pf_biomeradiationaugment",
+  "effectDuration" : 10,
+  
+  "radioMessagesOnPickup" : [ "pf_pickupregulator" ]
+}

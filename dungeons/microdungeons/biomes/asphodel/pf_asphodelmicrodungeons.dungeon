@@ -1,0 +1,147 @@
+{
+  "metadata" : {
+    "name" : "pf_asphodelmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "pf_asphodelgrove1", "pf_asphodelgrove2", "pf_asphodelgrove3", "pf_asphodelgrove4", 
+	"pf_asphodelhouse1", "pf_asphodelhouse2", "pf_asphodelhouse3", "pf_asphodelhouse4",
+	"pf_asphodelpillar1", "pf_asphodelpillar2", "pf_asphodelpillar3",
+	"pf_asphodelruin1", "pf_asphodelruin2", "pf_asphodelruin3",
+	"pf_asphodelshrine1", "pf_asphodelshrine2",
+	"pf_asphodeltemple1"  ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "pf_asphodelgrove1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelgrove1.json" ]
+    },
+	{
+      "name" : "pf_asphodelgrove2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelgrove2.json" ]
+    },
+	{
+      "name" : "pf_asphodelgrove3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelgrove3.json" ]
+    },
+	{
+      "name" : "pf_asphodelgrove4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelgrove4.json" ]
+    },
+	
+	{
+      "name" : "pf_asphodelhouse1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelhouse1.json" ]
+    },
+	{
+      "name" : "pf_asphodelhouse2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelhouse2.json" ]
+    },
+	{
+      "name" : "pf_asphodelhouse3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelhouse3.json" ]
+    },
+	{
+      "name" : "pf_asphodelhouse4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelhouse4.json" ]
+    },
+	
+	{
+      "name" : "pf_asphodelpillar1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelpillar1.json" ]
+    },
+	{
+      "name" : "pf_asphodelpillar2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelpillar2.json" ]
+    },
+	{
+      "name" : "pf_asphodelpillar3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelpillar3.json" ]
+    },
+	
+	{
+      "name" : "pf_asphodelruin1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelruin1.json" ]
+    },
+	{
+      "name" : "pf_asphodelruin2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelruin2.json" ]
+    },
+	{
+      "name" : "pf_asphodelruin3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelruin3.json" ]
+    },
+	
+	{
+      "name" : "pf_asphodelshrine1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelshrine1.json" ]
+    },
+	{
+      "name" : "pf_asphodelshrine2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodelshrine2.json" ]
+    },
+	
+	{
+      "name" : "pf_asphodeltemple1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_asphodeltemple1.json" ]
+    }
+  ]
+}

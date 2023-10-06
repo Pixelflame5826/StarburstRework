@@ -1,0 +1,697 @@
+[
+    {
+        "op": "replace",
+        "path": "/swaps/24/60b9ff",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/24/2992bc",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/24/0964a0",
+        "value": "932625"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/24/ff7060",
+        "value": "ffff82"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/24/e5323b",
+        "value": "e2c344"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/24/890900",
+        "value": "642f00"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/24/b81a22",
+        "value": "a46e06"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/24/053d6e",
+        "value": "601119"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/23/60b9ff",
+        "value": "61b9ff"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/23/2992bc",
+        "value": "5588d4"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/23/0964a0",
+        "value": "344495"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/23/ff7060",
+        "value": "ff7160"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/23/e5323b",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/23/890900",
+        "value": "601119"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/23/b81a22",
+        "value": "932625"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/23/053d6e",
+        "value": "1a1c51"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/22/60b9ff",
+        "value": "96cbe7"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/22/2992bc",
+        "value": "5588d4"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/22/0964a0",
+        "value": "344495"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/22/ff7060",
+        "value": "e6e6e6"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/22/e5323b",
+        "value": "9e9e9e"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/22/890900",
+        "value": "383838"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/22/b81a22",
+        "value": "616161"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/22/053d6e",
+        "value": "1a1c51"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/21/60b9ff",
+        "value": "b2e89d"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/21/2992bc",
+        "value": "51bd3b"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/21/0964a0",
+        "value": "144216"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/21/ff7060",
+        "value": "e7c474"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/21/e5323b",
+        "value": "c88b28"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/21/890900",
+        "value": "663b14"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/21/b81a22",
+        "value": "a46e06"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/21/053d6e",
+        "value": "144216"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/20/890900",
+        "value": "232f26"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/20/b81a22",
+        "value": "39483b"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/20/053d6e",
+        "value": "253c4f"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/19/60b9ff",
+        "value": "ffc167"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/19/2992bc",
+        "value": "ea9931"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/19/0964a0",
+        "value": "af4e00"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/19/890900",
+        "value": "232f26"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/19/b81a22",
+        "value": "39483b"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/19/053d6e",
+        "value": "6e2900"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/18/890900",
+        "value": "232f26"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/18/b81a22",
+        "value": "39483b"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/18/053d6e",
+        "value": "320c40"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/17/890900",
+        "value": "232f26"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/17/b81a22",
+        "value": "39483b"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/17/053d6e",
+        "value": "4f0008"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/16/60b9ff",
+        "value": "e7c474"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/16/2992bc",
+        "value": "c88b28"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/16/0964a0",
+        "value": "a46e06"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/16/890900",
+        "value": "232f26"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/16/b81a22",
+        "value": "39483b"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/16/053d6e",
+        "value": "663b14"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/15/60b9ff",
+        "value": "61b9ff"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/15/2992bc",
+        "value": "5588d4"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/15/0964a0",
+        "value": "344495"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/15/890900",
+        "value": "31123c"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/15/b81a22",
+        "value": "512e61"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/15/053d6e",
+        "value": "1a1c51"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/14/60b9ff",
+        "value": "ffc167"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/14/2992bc",
+        "value": "ea9931"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/14/0964a0",
+        "value": "af4e00"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/14/890900",
+        "value": "31123c"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/14/b81a22",
+        "value": "512e61"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/14/053d6e",
+        "value": "642f00"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/13/890900",
+        "value": "31123c"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/13/b81a22",
+        "value": "512e61"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/13/053d6e",
+        "value": "144216"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/12/890900",
+        "value": "31123c"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/12/b81a22",
+        "value": "512e61"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/12/053d6e",
+        "value": "59163f"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/11/60b9ff",
+        "value": "ff7160"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/11/2992bc",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/11/0964a0",
+        "value": "932625"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/11/b81a22",
+        "value": "522926"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/11/053d6e",
+        "value": "601119"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/10/b81a22",
+        "value": "522926"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/10/053d6e",
+        "value": "1b2f21"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/9/60b9ff",
+        "value": "8da6b0"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/9/2992bc",
+        "value": "657988"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/9/ff7060",
+        "value": "61b9ff"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/9/e5323b",
+        "value": "5588d4"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/9/890900",
+        "value": "1a1c51"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/9/b81a22",
+        "value": "344495"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/9/053d6e",
+        "value": "313247"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/8/60b9ff",
+        "value": "8da6b0"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/8/2992bc",
+        "value": "657988"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/8/b81a22",
+        "value": "522926"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/8/053d6e",
+        "value": "313247"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/7/60b9ff",
+        "value": "a8e6e2"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/7/2992bc",
+        "value": "4facb2"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/7/0964a0",
+        "value": "30636c"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/7/b81a22",
+        "value": "522926"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/7/053d6e",
+        "value": "233c43"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/6/ff7060",
+        "value": "ff7160"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/6/e5323b",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/6/890900",
+        "value": "601119"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/6/b81a22",
+        "value": "932625"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/6/053d6e",
+        "value": "3b4047"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/5/0964a0",
+        "value": "416391"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/5/890900",
+        "value": "233c43"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/5/b81a22",
+        "value": "30636c"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/5/053d6e",
+        "value": "343e6e"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/4/60b9ff",
+        "value": "ffff82"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/4/2992bc",
+        "value": "e2c344"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/4/0964a0",
+        "value": "a46e06"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/4/890900",
+        "value": "24232f"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/4/b81a22",
+        "value": "3d3d51"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/4/053d6e",
+        "value": "642f00"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/3/60b9ff",
+        "value": "ff7160"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/3/2992bc",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/3/0964a0",
+        "value": "932625"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/3/ff7060",
+        "value": "61b9ff"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/3/e5323b",
+        "value": "5588d4"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/3/890900",
+        "value": "1a1c51"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/3/b81a22",
+        "value": "1a1c51"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/3/053d6e",
+        "value": "601119"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/2/60b9ff",
+        "value": "ff7160"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/2/2992bc",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/2/0964a0",
+        "value": "932625"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/2/890900",
+        "value": "24232f"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/2/b81a22",
+        "value": "3d3d51"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/2/053d6e",
+        "value": "601119"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/1/60b9ff",
+        "value": "ffc167"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/1/2992bc",
+        "value": "ea9931"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/1/0964a0",
+        "value": "af4e00"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/1/ff7060",
+        "value": "ff7160"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/1/e5323b",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/1/890900",
+        "value": "601119"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/1/b81a22",
+        "value": "932625"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/1/053d6e",
+        "value": "6e2900"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/0/60b9ff",
+        "value": "ffff82"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/0/2992bc",
+        "value": "e2c344"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/0/0964a0",
+        "value": "a46e06"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/0/ff7060",
+        "value": "ff7160"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/0/e5323b",
+        "value": "d93a3a"
+    },
+    {
+        "op": "replace",
+        "path": "/swaps/0/890900",
+        "value": "601119"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/0/b81a22",
+        "value": "932625"
+    },
+    {
+        "op": "add",
+        "path": "/swaps/0/053d6e",
+        "value": "642f00"
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "itemName" : "pf_mazebound64portable",
+  "level" : 1,
+  "price" : 1000,
+  "rarity" : "Legendary",
+  "category" : "pf_game",
+  "description" : "A portable gaming console that plays a version of the well known Mazebound64.",
+  "shortdescription" : "Mazebound64 Handheld",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "pf_mazebound64portableicon.png",
+  "animation" : "pf_mazebound64portable.animation",
+  "animationParts" : {
+    "transponder" : "pf_mazebound64portable.png"
+  },
+  "scripts" : ["/scripts/vec2.lua", "pf_mazebound64portable.lua"],
+  "scriptDelta" : 1,
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/objects/generic/arcadegame/arcadegamegui.config"
+}

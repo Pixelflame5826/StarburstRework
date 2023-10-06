@@ -1,0 +1,35 @@
+{
+  "itemName" : "pf_vermilliumgrenade",
+  "price" : 20,
+  "rarity" : "Uncommon",
+  "level" : 4,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_vermilliumgrenadeicon.png",
+  "image" : "pf_vermilliumgrenade.png",
+  "largeImage" : "pf_vermilliumgrenade.png",
+  "shortdescription" : "Vermillium Gas Grenade",
+  "description" : "A toxic grenade filled with vermillium gas. It sprays toxic gas everywhere for some time.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 1.25,
+
+  "projectileType" : "pf_vermilliumgrenade",
+  "projectileConfig" : {
+    "speed" : 20,
+    "power" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

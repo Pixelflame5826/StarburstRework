@@ -1,0 +1,32 @@
+{
+  "projectileName" : "pf_promethiumswarmer",
+  "physics" : "laser",
+  "timeToLive" : 3,
+  "image" : "pf_promethiumswarmer.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [120, 60, 30],
+  "frameNumber" : 4,
+  "periodicActions" : [ ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/burstexplosion/fireburstexplosion.config"
+    }
+  ],
+  "speed" : 10,
+  "power" : 30,
+  "damageKind" : "fire",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "statusEffects" : [ "burning" ],
+
+  "emitters" : [ "fireplasma" ],
+
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "controlMovement" : {
+    "maxSpeed" : 60,
+    "controlForce" : 40
+  }
+}

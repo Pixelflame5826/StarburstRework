@@ -1,0 +1,612 @@
+{
+  "metadata" : {
+    "name" : "pf_novakidsnowvillage",
+    "species" : "novakid",
+    "rules" : [
+    ],
+    "anchor" : [ "pf_townhall1", "pf_saloonbase1", "pf_saloonbase2" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 14,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+
+    // SALOON LAYOUTS
+    {
+      "name" : "pf_saloonbase1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_saloonbase1", "pf_saloonbase2" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloonbase1.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_saloonbase2",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_saloonbase1", "pf_saloonbase2" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloonbase2.json" ],
+      "chance" : 1
+    },
+
+    // SALOON BARS
+    {
+      "name" : "pf_saloon_bar1_left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar1_left.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bar1_right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar1_right.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bar2_left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar2_left.json" ],
+      "chance" : 0
+	},
+    {
+      "name" : "pf_saloon_bar2_right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar2_right.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bar3_left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar3_left.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bar3_right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar3_right.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bar4_left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar4_left.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bar4_right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_bar1_left", "pf_saloon_bar1_right", "pf_saloon_bar2_left", "pf_saloon_bar2_right", "pf_saloon_bar3_left", "pf_saloon_bar3_right", "pf_saloon_bar4_left", "pf_saloon_bar4_right" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bar4_right.json" ],
+      "chance" : 0
+    },
+
+    // SALOON BEDROOMS
+    {
+      "name" : "pf_saloon_bedroom1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bedroom1.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bedroom2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bedroom2.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bedroom3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bedroom3.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_bedroom4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_bedroom4.json" ],
+      "chance" : 0
+    },
+
+    // SALOON STAIRWELLS
+    {
+      "name" : "pf_saloon_stairwell1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_stairwell1.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_stairwell2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_stairwell2.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_stairwell3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_stairwell3.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_stairwell4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_saloon_stairwell4.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_stairwell5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_stairwell5", "pf_saloon_stairwell6" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_stairwell5.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_stairwell6",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_stairwell5", "pf_saloon_stairwell6" ] ]
+      ],
+
+      "def" : [ "tmx", "pf_saloon_stairwell6.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_stairwell7",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_stairwell7", "pf_saloon_stairwell8" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_stairwell7.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_stairwell8",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_stairwell7", "pf_saloon_stairwell8" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_stairwell8.json" ],
+      "chance" : 0
+    },
+
+    // SALOON BALCONY AREAS
+    {
+      "name" : "pf_saloon_balcony1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony1", "pf_saloon_balcony2" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony1.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_balcony2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony1", "pf_saloon_balcony2" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony2.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_balcony3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony3", "pf_saloon_balcony4" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony3.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_balcony4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony3", "pf_saloon_balcony4" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony4.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_balcony5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony5", "pf_saloon_balcony6" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony5.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_saloon_balcony6",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony5", "pf_saloon_balcony6" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony6.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "saloon_balcony7",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony7", "pf_saloon_balcony8" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony7.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "saloon_balcony8",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_saloon_balcony7", "pf_saloon_balcony8" ] ]
+      ],
+      "def" : [ "tmx", "pf_saloon_balcony8.json" ],
+      "chance" : 0
+    },
+
+    // BLACKSMITH
+    {
+      "name" : "pf_blacksmith1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_blacksmith1" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_blacksmith1.json" ],
+      "chance" : 1
+    },
+
+    // SHERIFF'S OFFICE / PRISON
+
+    {
+      "name" : "pf_sheriff1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_sheriff1", "pf_sheriff2" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_sheriff1.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_sheriff2",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_sheriff1", "pf_sheriff2" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_sheriff2.json" ],
+      "chance" : 1
+    },
+
+    // TOWN HALL
+
+    {
+      "name" : "pf_townhall1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_townhall1" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_townhall1.json" ],
+      "chance" : 0.75
+    },
+
+    // WATER TOWER
+
+    {
+      "name" : "pf_watertower1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_watertower1" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_watertower1.json" ],
+      "chance" : 1
+    },
+
+    // STREET SEPARATORS
+
+    {
+      "name" : "pf_street_lamp_wide",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_lamp_wide.json" ],
+      "chance" : 0.1
+    },
+
+    {
+      "name" : "pf_street_lamp",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_lamp.json" ],
+      "chance" : 0.1
+    },
+
+    {
+      "name" : "pf_street_crates1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_crates1.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_street_outhouse1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_street_outhouse1" ] ],
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_outhouse1.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_street_stand1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_street_stand1" ] ],
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_stand1.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_street_wagon1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_wagon1.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_street_windmill1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_street_windmill1" ] ],
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_windmill1.json" ],
+      "chance" : 1
+    },
+	
+	{
+      "name" : "pf_street_snow1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_snow1.json" ],
+      "chance" : 1
+    },
+	
+	{
+      "name" : "pf_street_boiler1",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_boiler1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_street_boiler2",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_boiler2.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_street_boiler3",
+      "rules" : [
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3" ] ]
+      ],
+      "def" : [ "tmx", "pf_street_boiler3.json" ],
+      "chance" : 1
+    },
+
+    // SHACKS
+
+    {
+      "name" : "pf_shack1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_shack1" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_shack1.json" ],
+      "chance" : 0.5
+    },
+
+    {
+      "name" : "pf_shack2",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_shack2" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_shack2.json" ],
+      "chance" : 0.5
+    },
+
+    {
+      "name" : "pf_shack3",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_shack3" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_shack3.json" ],
+      "chance" : 0.5
+    },
+
+    {
+      "name" : "pf_shack4",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_shack4" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_shack4.json" ],
+      "chance" : 0.5
+    },
+
+    {
+      "name" : "pf_shack5",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_shack5" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_shack5.json" ],
+      "chance" : 0.5
+    },
+
+    // END CAPS
+
+    {
+      "name" : "pf_endcap_left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3", "pf_snowfield1", "pf_ranch1" ] ]
+      ],
+      "def" : [ "tmx", "pf_endcap_left.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_endcap_right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+,        [ "doNotConnectToPart", [ "pf_street_lamp", "pf_street_crates1","pf_street_outhouse1", "pf_street_stand1", "pf_street_wagon1", "pf_street_windmill1", "pf_street_snow1", "pf_street_boiler1", "pf_street_boiler2", "pf_street_boiler3", "pf_snowfield1", "pf_ranch1" ] ]
+      ],
+      "def" : [ "tmx", "pf_endcap_right.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_endcap_street_left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2", "pf_street_snow1", "pf_street_windmill1" ] ]
+      ],
+      "def" : [ "tmx", "pf_endcap_street_left.json" ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "pf_endcap_street_right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2", "pf_street_snow1", "pf_street_windmill1" ] ]
+      ],
+      "def" : [ "tmx", "pf_endcap_street_right.json" ],
+      "chance" : 0
+    },
+	
+	//BRIDGES
+	
+	{
+      "name" : "pf_bridge1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_bridge1", "pf_bridge2" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_bridge1.json" ],
+      "chance" : 0.75
+    },
+	{
+      "name" : "pf_bridge2",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_bridge1", "pf_bridge2" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_bridge2.json" ],
+      "chance" : 0.75
+    },
+	
+	//SNOW
+	{
+      "name" : "pf_snowfield1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_snowfield1" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_snowfield1.json" ],
+      "chance" : 0.75
+    },
+	
+    // FLUFFALO PADDOCKS
+	{
+      "name" : "pf_ranch1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_ranch1" ] ],
+        [ "doNotConnectToPart", [ "pf_blacksmith1", "pf_sheriff1", "pf_sheriff2", "pf_saloonbase1", "pf_saloonbase2", "pf_shack1", "pf_shack2", "pf_shack3", "pf_shack4", "pf_shack5", "pf_townhall1", "pf_watertower1", "pf_ranch1", "pf_snowfield1", "pf_bridge1", "pf_bridge2" ] ]
+      ],
+      "def" : [ "tmx", "pf_snowfield1.json" ],
+      "chance" : 0.75
+    }
+	
+	// BANK + VAULT TO ROB?
+  ]
+}

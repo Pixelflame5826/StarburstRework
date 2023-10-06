@@ -1,0 +1,37 @@
+{
+  "itemName" : "pf_rubiteshortsword",
+  "price" : 580,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "The Rubite blade on this shortsword is brutally sharp, making nearly anything bleed.",
+  "shortdescription" : "Rubite Shortsword",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "pf_rubiteshortsword.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "pf_rubiteshortsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.25,
+	"damageConfig" : {
+      "statusEffects" : [ "pf_bleedingdeep" ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,20 @@
+{
+  "modId" : 29474,
+  "modName" : "pf_heartwood",
+  "itemDrop" : "pf_forestore",
+  "description" : "Petrified Heartwood.",
+  "health" : 12,
+  "breaksWithTile" : true,
+  "harvestLevel" : 3,
+  
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "defaultbrown",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_heartwood.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

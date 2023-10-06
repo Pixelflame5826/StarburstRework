@@ -1,0 +1,10 @@
+{
+  "offset" : [10, 10],
+  "animation" : {
+    "frames" : "/cursors/pf_m1000cursor.png:charging.<index>",
+    "frameNumber" : 4,
+    "animationCycle" : 0.5,
+    "centered" : false,
+    "mode" : "loopforever"
+  }
+}

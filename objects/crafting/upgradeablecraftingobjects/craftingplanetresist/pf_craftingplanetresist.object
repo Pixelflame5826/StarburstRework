@@ -1,0 +1,198 @@
+{
+  "objectName" : "pf_craftingplanetresist",
+  "colonyTags" : ["crafting", "pf_weather", "science"],
+  "rarity" : "Uncommon",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "radioMessagesOnPickup" : [ "pf_pickuphazardtable" ],
+  //this is handled by the lua
+  "breakDropOptions" : [],
+
+  "price" : 75,
+  "printable" : false,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "pf_craftingplanetresist.animation",
+  "animationPosition" : [0, 19],
+  
+  "inventoryIcon" : "icon1.png",
+  "placementImage" : "pf_craftingplanetresist.png:default.default",
+  "placementImagePosition" : [-24, 0],    
+
+  "description" : "Used to create items that stave off Planet Hazards.",
+  "shortdescription" : "^orange;Hazard Lab Table^white;",
+
+  "apexDescription" : "A table with a bunch of scientific and medical tools.",
+  "avianDescription" : "A chance to utilise one's survival skills.",
+  "floranDescription" : "Floran ussse table. Resssist hazardouss places.",
+  "glitchDescription" : "Careful. Certain planets are dangerous, better use this table.",
+  "humanDescription" : "I can use materials I've found here to make hazard blocking items.",
+  "hylotlDescription" : "This gives me the ability to stave off any planetary hazard that comes my way.",
+  "novakidDescription" : "This table looks good for protectin' me from dangerous places.",
+
+  "learnBlueprintsOnPickup" : [],
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 3,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "craftingmedical",
+      
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon1.png",
+        "placementImage" : "pf_craftingplanetresist.png:default.default",
+        "placementImagePosition" : [-24, 0],    
+
+        "description" : "A station used to create items that stave off Planet Hazards.",
+        "shortdescription" : "^orange;Hazard Lab Table^white;",
+
+        "apexDescription" : "A table with a bunch of scientific and medical tools.",
+		"avianDescription" : "A chance to utilise one's survival skills.",
+		"floranDescription" : "Floran ussse table. Resssist hazardouss places.",
+		"glitchDescription" : "Careful. Certain planets are dangerous, better use this table.",
+		"humanDescription" : "I can use materials I've found here to make hazard blocking items.",
+		"hylotlDescription" : "This gives me the ability to stave off any planetary hazard that comes my way.",
+		"novakidDescription" : "This table looks good for protectin' me from dangerous places."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/pf_craftingplanetresist.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Hazard Lab Table",
+            "subtitle" : " ^#b9b5b2;Planetary hazard blocking",
+            "icon" : {
+              "file" : "/interface/crafting/pf_craftingplanetresist.png"
+            }
+          }
+        },
+
+        "filter" : [ "pf_craftingplanetresist" ],
+        "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "titaniumbar", "count" : 7 },
+		  { "item" : "silverbar", "count" : 3 },
+          { "item" : "siliconboard", "count" : 3 },
+          { "item" : "wire", "count" : 4 },
+          { "item" : "battery", "count" : 1 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "craftingmedical2",
+      
+      "itemSpawnParameters" : {
+        "price" : 750,
+        "inventoryIcon" : "icon2.png",
+        "placementImage" : "pf_craftingplanetresist2.png:default.default",
+        "placementImagePosition" : [-24, 0],    
+
+        "description" : "A station used to create items that stave off Planet Hazards.",
+        "shortdescription" : "^orange;Hazard Research Station^white;",
+
+        "apexDescription" : "A table with a bunch of scientific and medical tools.",
+		"avianDescription" : "A chance to utilise one's survival skills.",
+		"floranDescription" : "Floran ussse table. Resssist hazardouss places.",
+		"glitchDescription" : "Careful. Certain planets are dangerous, better use this table.",
+		"humanDescription" : "I can use materials I've found here to make hazard blocking items.",
+		"hylotlDescription" : "This gives me the ability to stave off any planetary hazard that comes my way.",
+		"novakidDescription" : "This table looks good for protectin' me from dangerous places."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/pf_craftingplanetresist.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Hazard Research Station",
+            "subtitle" : " ^#b9b5b2;Planetary hazard blocking",
+            "icon" : {
+              "file" : "/interface/crafting/pf_craftingplanetresist2.png"
+            }
+          }
+        },
+        "filter" : [ "pf_craftingplanetresist", "pf_craftingplanetresist2" ],
+        "initialRecipeUnlocks" : [],
+		"upgradeMaterials" : [
+          { "item" : "pf_chroniumbar", "count" : 15 },
+		  { "item" : "refinedaegisalt", "count" : 3 },
+          { "item" : "stickofram", "count" : 3 },
+          { "item" : "wire", "count" : 7 },
+          { "item" : "battery", "count" : 1 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+	{
+      "animationState" : "craftingmedical3",
+      
+      "itemSpawnParameters" : {
+        "price" : 1250,
+        "inventoryIcon" : "icon3.png",
+        "placementImage" : "pf_craftingplanetresist3.png:default.default",
+        "placementImagePosition" : [-24, 0],    
+
+        "description" : "A station used to create items that stave off Planet Hazards.",
+        "shortdescription" : "^orange;Climate Research Station^white;",
+
+        "apexDescription" : "A table with a bunch of scientific and medical tools.",
+		"avianDescription" : "A chance to utilise one's survival skills.",
+		"floranDescription" : "Floran ussse table. Resssist hazardouss places.",
+		"glitchDescription" : "Careful. Certain planets are dangerous, better use this table.",
+		"humanDescription" : "I can use materials I've found here to make hazard blocking items.",
+		"hylotlDescription" : "This gives me the ability to stave off any planetary hazard that comes my way.",
+		"novakidDescription" : "This table looks good for protectin' me from dangerous places."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/pf_craftingplanetresist.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Climate Research Station",
+            "subtitle" : " ^#b9b5b2;Planetary hazard blocking",
+            "icon" : {
+              "file" : "/interface/crafting/pf_craftingplanetresist3.png"
+            }
+          }
+        },
+        "filter" : [ "pf_craftingplanetresist", "pf_craftingplanetresist2", "pf_craftingplanetresist3" ],
+        "initialRecipeUnlocks" : []
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare2",
+      "upgradeParticleEffect" : "dust"
+    }
+  ],
+
+  "orientations" : [
+    {
+      "image" : "pf_craftingplanetresist.png:default.<frame>",
+      "imagePosition" : [-20, 0],    
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_craftingplanetresist.png:default.<frame>",
+      "imagePosition" : [-20, 0],    
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

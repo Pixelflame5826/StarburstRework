@@ -1,0 +1,17 @@
+[
+	{
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildfist.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquefist"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A basic glove commonly used in boxing. Not too strong, but it protects your hands and is satisfying to hit with."
+    }
+]

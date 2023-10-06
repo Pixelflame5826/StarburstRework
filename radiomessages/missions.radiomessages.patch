@@ -1,0 +1,147 @@
+[
+    {
+        "op": "replace",
+        "path": "/tentaclemission-bottom/text",
+        "value": "Readings show that there is a vast chasm beneath you that extends fathoms deep. Electrochemical activity is obscuring my readings, be careful to not fall."
+    },
+    {
+        "op": "replace",
+        "path": "/tentaclemission-arrived2/text",
+        "value": "The Ark appears to have sent you directly to the Ruin's pocket dimension, dear. You can't do much damage on its surface - you'll have to work your way down into it."
+    },
+    {
+        "op": "replace",
+        "path": "/tentaclemission-arrived/text",
+        "value": "The new environment you find yourself on has the same energy readings as on Earth, albeit, a lot more powerful."
+    },
+    {
+        "op": "replace",
+        "path": "/hylotlmission05/text",
+        "value": "I can detect high energy levels from the person behind this door. They're likely hostile, be prepared to fight for your life."
+    },
+    {
+        "op": "replace",
+        "path": "/hylotlmission03a/text",
+        "value": "I've heard of these cultists, they're... not too fond of others. Hmm... Reminds me of..."
+    },
+    {
+        "op": "replace",
+        "path": "/hylotlmission03/text",
+        "value": "You are now approaching the basement level. More life-signs are detected, but the depth obscures my readings. Caution is advised."
+    },
+    {
+        "op": "replace",
+        "path": "/hylotlmission02/text",
+        "value": "The high pressure that this grand structure can withstand is quite impressive for its age. Chance of collapse is minimal."
+    },
+    {
+        "op": "replace",
+        "path": "/hylotlmission01/text",
+        "value": "This island is home to the \"Grand Pagoda Library\" entrance, the architecture here seems to date to the Imperial Era of the Hylotl."
+    },
+    {
+        "op": "replace",
+        "path": "/avianmission03/text",
+        "value": "Path split detected. One appears to be filled with water and the other, fire. Both are dangerous, pick your poison, Captain."
+    },
+    {
+        "op": "replace",
+        "path": "/avianmission02/text",
+        "value": "The Avolite readings within this temple are higher than anything I have sensed, likely the reason as to how this ancient temple has a powerful security system."
+    },
+    {
+        "op": "replace",
+        "path": "/apexmission06a/text",
+        "value": "Big Ape is a profoundly dangerous enemy, and whatever he has concocted is likely just as dangerous."
+    },
+    {
+        "op": "replace",
+        "path": "/apexmission05/text",
+        "value": "There are strange life signs down here in the depths of the lab. They appear to be Apex, though heavily altered."
+    },
+    {
+        "op": "replace",
+        "path": "/apexmission04a/text",
+        "value": "Their communications are growing louder, the guards seem to be noticing your presence more. Prepare for more of them."
+    },
+    {
+        "op": "replace",
+        "path": "/apexmission03/text",
+        "value": "This is a linked circuit: lowering this barricade has lowered a corresponding one above ground. Likely there as a security room."
+    },
+    {
+        "op": "replace",
+        "path": "/apexmission02a/text",
+        "value": "My scanners have just detected another guard... And another one. There's a high likelihood that you'll have to fight, prepare yourself."
+    },
+    {
+        "op": "replace",
+        "path": "/apexmission02/text",
+        "value": "Scans show this facility is densely defended by heavily armed guards, patrolling on every level. Their comm signals appear to be very active."
+    },
+    {
+        "op": "replace",
+        "path": "/floranmission106/text",
+        "value": "Evidence indicates these arthropods are not yet fully mature; there is a high likelihood that they are only freshly hatched. You appear to have stumbled into a nest."
+    },
+    {
+        "op": "replace",
+        "path": "/floranmission105/text",
+        "value": "This substance is organic, similar to a spider thread. Analysis is inconclusive, but it would take a fairly large creature to produce this much matter."
+    },
+    {
+        "op": "replace",
+        "path": "/floranmission102/text",
+        "value": "Bio readings show many lifesigns in these tunnels. Multiple arthropods and Florans detected, likely hostile on all accounts. Caution is advised."
+    },
+    {
+        "op": "replace",
+        "path": "/floranmission101/text",
+        "value": "These ruins are ancient and appear to be sacred to the Floran. Many of the plants here appear to be extremely old and well kept."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase08a/text",
+        "value": "There is enough Erchius here to fully repair the ship. I should've had more faith in your survivability... this has been noted for future reference."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase07/text",
+        "value": "The crystal surrounding this entity has incredible strength, ^red;no normal weapon can breach it^white;. However, there appears to be a mining laser below, it should have enough energy to blast through it."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase06/text",
+        "value": "Erchius readings have reached critical levels! Staying much longer may cause potentially fatal health risks."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase05/text",
+        "value": "Look at them; I've heard stories but... it seems that the Erchius Crystals here have denatured their very being! The poor workers have lost themselves completely."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase04a/text",
+        "value": "Sorry about the AI, dear. You must push onwards."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase04/text",
+        "value": "Erchius readings are skyrocketing, they are quickly reaching dangerous levels. Please consider retreating."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase03/text",
+        "value": "I detect both Erchius chemical signatures and human DNA in these entities. They appear to be hostile, prepare for a fight."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase02/text",
+        "value": "It appears lockdown has been instigated. You must locate a breaker to restore full power, the lower levels should be opened once it has been lifted."
+    },
+    {
+        "op": "replace",
+        "path": "/lunarbase01/text",
+        "value": "All life readings emanate from a great depth below the surface. The readings are... Difficult to define and anomalous. Take extreme caution."
+    }
+]

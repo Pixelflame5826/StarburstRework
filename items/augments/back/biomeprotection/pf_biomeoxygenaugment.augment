@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_biomeoxygenaugment",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_biomeoxygenaugment.png",
+  "description" : "An EPP module that makes you immune to Airless environments.",
+  "shortdescription" : "Oxygen Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_mildbiomeairlessprotection",
+    "displayName" : "Oxygen Generation",
+    "displayIcon" : "/items/augments/back/biomeprotection/pf_biomeoxygenaugment.png",
+    "effects" : [ "pf_biomeairlessprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "pf_aabattery",
+  "effectConfig" : {
+    "energyAmount" : 50
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "maxenergyboost.lua"
+  ]
+}

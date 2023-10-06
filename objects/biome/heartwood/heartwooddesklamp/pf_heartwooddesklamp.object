@@ -1,0 +1,64 @@
+{
+  "objectName" : "pf_heartwooddesklamp",
+  "colonyTags" : ["light", "natural"],
+  "rarity" : "Uncommon",
+  "description" : "A natural looking tree lantern with fruit that gives off light.",
+  "shortdescription" : "Heartwood Desk Lamp",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 30,
+
+  "apexDescription" : "I wonder what sort of bioluminescence these things run off of.",
+  "avianDescription" : "A very pretty lantern, makes the space so much more inviting.",
+  "floranDescription" : "Floran enjoysss natural tree lamp.",
+  "glitchDescription" : "Serene. Such a pretty looking lantern.",
+  "humanDescription" : "I've heard of lantern fruit, but this is a bit extreme.",
+  "hylotlDescription" : "Quite the aesthetically pleasing lamp, sure to bring a nice glow.",
+  "novakidDescription" : "This tree is glowin', what in tarnation...",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [135, 102, 26],
+
+  "inventoryIcon" : "pf_heartwooddesklampicon.png",
+  "orientations" : [
+    {
+      "image" : "pf_heartwooddesklamp.png:<color>.<frame>",
+      "imagePosition" : [-9, 0],
+      "animationPosition" : [-9, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_heartwooddesklamp.png:<color>.<frame>",
+      "imagePosition" : [-9, 0],
+      "animationPosition" : [-9, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "pf_heartwooddesklamp.animation",
+  "animationParts" : {
+    "bg" : "pf_heartwooddesklamp.png",
+    "fg" : "pf_heartwooddesklamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  // "interactive" : false,
+
+  "inputNodes" : [ [0, 2] ]
+}

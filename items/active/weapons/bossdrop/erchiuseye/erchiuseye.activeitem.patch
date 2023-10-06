@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "The preserved eye of the Erchius Horror. Its erchius infused gaze is very striking and powerful."
+    }
+]

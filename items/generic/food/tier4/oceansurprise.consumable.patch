@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/effects/0/0/duration",
+        "value": 315
+    },
+    {
+        "op": "add",
+        "path": "/effects/0/1",
+        "value": {
+            "effect": "swimboost",
+            "duration": 315
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A Hylotl dish, filled with food from all across the ocean wrapped in dried seaweed."
+    }
+]

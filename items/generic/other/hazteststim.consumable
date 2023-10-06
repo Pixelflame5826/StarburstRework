@@ -1,0 +1,19 @@
+{
+  "itemName" : "pf_hazteststim",
+  "rarity" : "Legendary",
+  "price" : 1000,
+  "category" : "medicine",
+  "inventoryIcon" : "hazteststim.png",
+  "description" : "Test for planet hazards.",
+  "shortdescription" : "Hazard Test",
+  "effects" : [ [
+      {
+        "effect" : "pf_biomeradiationmild",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "blockingEffects" : [
+  ]
+}

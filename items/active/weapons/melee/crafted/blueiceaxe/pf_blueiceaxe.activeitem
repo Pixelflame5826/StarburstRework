@@ -1,0 +1,44 @@
+{
+  "itemName" : "pf_blueiceaxe",
+  "level" : 3,
+  "price" : 580,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An axe made from blue ice, its head gives off an icy chill. Probably shouldn't use for wood.",
+  "shortdescription" : "Icy Battle-axe",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "pf_blueiceaxe.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "pf_blueiceaxe.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe_ice1.ogg", "/sfx/melee/swing_axe_ice2.ogg", "/sfx/melee/swing_axe_ice3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 9.5,
+    "damageConfig" : {
+      "knockback" : 15,
+	  "statusEffects" : [ "frostslow" ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

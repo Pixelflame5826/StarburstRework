@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A hefty axe made from Tungsten. The material of this axe gives it a strong swing, limbs or logs, your choice."
+    }
+]

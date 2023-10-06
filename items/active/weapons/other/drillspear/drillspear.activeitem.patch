@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Pierce the heavens, or at least the earth. The 12 Angels probably wouldn't like the former."
+    }
+]

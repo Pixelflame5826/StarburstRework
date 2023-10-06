@@ -1,0 +1,60 @@
+{
+  "pf_hazardAugments" : [
+    [1.9, {
+      "pool" : [
+        {"weight" : 0.35, "item" : "pf_biomeheataugment"},
+        {"weight" : 0.35, "item" : "pf_biomecoldaugment"},
+        {"weight" : 0.35, "item" : "pf_biomestaticaugment"},
+        {"weight" : 0.35, "item" : "pf_biomepoisonaugment"},
+		{"weight" : 0.35, "item" : "pf_biomeradiationaugment"}
+      ]
+    }],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.35, "item" : "pf_biomeheataugment"},
+        {"weight" : 0.35, "item" : "pf_biomecoldaugment"},
+        {"weight" : 0.35, "item" : "pf_biomestaticaugment"},
+        {"weight" : 0.35, "item" : "pf_biomepoisonaugment"},
+		{"weight" : 0.35, "item" : "pf_biomeradiationaugment"},
+		{"weight" : 0.35, "item" : "pf_biomeoxygenaugment"}
+      ]
+    }],
+    [3.9, {
+      "pool" : [
+        {"weight" : 0.20, "item" : "pf_biomeheataugment"},
+        {"weight" : 0.20, "item" : "pf_biomecoldaugment"},
+        {"weight" : 0.20, "item" : "pf_biomestaticaugment"},
+        {"weight" : 0.1, "item" : "pf_biomepoisonaugment"},
+		{"weight" : 0.1, "item" : "pf_biomeradiationaugment"},
+		{"weight" : 0.1, "item" : "pf_biomeoxygenaugment"},
+		
+		{"weight" : 0.35, "item" : "poisonblockaugment"},
+		{"weight" : 0.35, "item" : "pf_radiationblockaugment"}
+      ]
+    }],
+    [4.9, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "pf_biomeheataugment"},
+        {"weight" : 0.1, "item" : "pf_biomecoldaugment"},
+        {"weight" : 0.1, "item" : "pf_biomestaticaugment"},
+        {"weight" : 0.1, "item" : "pf_biomepoisonaugment"},
+		{"weight" : 0.1, "item" : "pf_biomeradiationaugment"},
+		
+		{"weight" : 0.35, "item" : "fireblockaugment"},
+		{"weight" : 0.35, "item" : "iceblockaugment"},
+		{"weight" : 0.35, "item" : "electricblockaugment"},
+		{"weight" : 0.35, "item" : "poisonblockaugment"},
+		{"weight" : 0.35, "item" : "pf_radiationblockaugment"}
+      ]
+    }],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.35, "item" : "fireblockaugment"},
+		{"weight" : 0.35, "item" : "iceblockaugment"},
+		{"weight" : 0.35, "item" : "electricblockaugment"},
+		{"weight" : 0.35, "item" : "poisonblockaugment"},
+		{"weight" : 0.35, "item" : "pf_radiationblockaugment"}
+      ]
+    }]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "aura" : {
+        "default" : "off",
+        "states" : {
+		  "off" : {},
+          "on" : {}
+        }
+      }
+    },
+    "parts" : {
+      "aura" : {
+        "properties" : {
+          "zLevel" : 10
+        },
+        "partStates" : {
+          "aura" : {
+            "on" : {
+              "properties" : {
+                "image" : "pf_deepdarkness.png"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

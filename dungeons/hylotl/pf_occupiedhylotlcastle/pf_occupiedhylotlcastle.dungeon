@@ -1,0 +1,324 @@
+{
+  "metadata" : {
+    "name" : "pf_occupiedhylotlcastle",
+    "species" : "hylotl",
+    "rules" : [
+    ],
+    "anchor" : [ "pf_modernhylotlcastlebase1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+
+    // CASTLE LAYOUTS
+    {
+      "name" : "pf_modernhylotlcastlebase1",
+      "rules" : [
+        [ "doNotCombineWith", [ "pf_modernhylotlcastlebase1" ] ]
+      ],
+      "def" : [ "tmx", "pf_modernhylotlcastlebase1.json" ],
+      "chance" : 1
+    },
+
+    // FLOORBOARDS
+    {
+      "name" : "pf_floorboards_chestleft",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_floorboards_chestleft", "pf_floorboards_chestright" ] ]
+      ],
+      "def" : [ "tmx", "pf_floorboards_chestleft.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_floorboards_chestright",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_floorboards_chestleft", "pf_floorboards_chestright" ] ]
+      ],
+      "def" : [ "tmx", "pf_floorboards_chestright.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_floorboards",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_floorboards.json" ],
+      "chance" : 1
+    },
+
+    // ROOMS (1 UNIT WIDE)
+    {
+      "name" : "pf_roombedroom1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roombedroom1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roombedroom2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roombedroom2.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roombedroom3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roombedroom3.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomdining1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "pf_roomdining1", "pf_roomdining2" ] ]
+      ],
+      "def" : [ "tmx", "pf_roomdining1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomdining2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "pf_roomdining1", "pf_roomdining2" ] ]
+      ],
+      "def" : [ "tmx", "pf_roomdining2.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomdisplay1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roomdisplay1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomdisplay2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roomdisplay2.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomdojo1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roomdisplay1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roompassage1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roompassage1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roompassage2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roompassage2.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomscreen1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roomscreen1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomshrine1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roomshrine1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomstorage1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "pf_roomstorage1", "pf_roomstorage2" ] ]
+      ],
+      "def" : [ "tmx", "pf_roomstorage1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomstorage2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotCombineWith", [ "pf_roomstorage1", "pf_roomstorage2" ] ]
+      ],
+      "def" : [ "tmx", "pf_roomstorage2.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomstudy1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roomstudy1.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roomstudy2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_roomstudy2.json" ],
+      "chance" : 1
+    },
+
+    // LOWER TUNNELS
+    {
+      "name" : "pf_lowertunnel",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_lowertunnel.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_lowertunnelGuarded",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_lowertunnelGuarded1", "pf_lowertunnelGuarded2" ] ]
+      ],
+      "def" : [ "tmx", "pf_lowertunnelGuarded.json" ],
+      "chance" : 1
+    },
+
+    {
+      "name" : "pf_lowertunnelGuarded2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "pf_lowertunnelGuarded1", "pf_lowertunnelGuarded2" ] ]
+      ],
+      "def" : [ "tmx", "pf_lowertunnelGuarded2.json" ],
+      "chance" : 1
+    },
+	
+    // CASTLE TOP
+    {
+      "name" : "pf_castletop1",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "pf_castletop1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_castletop2",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "pf_castletop2.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_castletop3",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "pf_castletop3.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_castletop4",
+      "rules" : [
+      ],
+      "def" : [ "tmx", "pf_castletop4.json" ],
+      "chance" : 1
+    },
+
+    // ROOFING
+    {
+      "name" : "pf_roof",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roof.json" ],
+      "chance" : 5
+    },
+
+    {
+      "name" : "pf_roofedge0left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge0left.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_roofedge0right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge0right.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roofedge1left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge1left.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_roofedge1right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge1right.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roofedge2left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge2left.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_roofedge2right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge2right.json" ],
+      "chance" : 1
+    },
+	{
+      "name" : "pf_roofedge3left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge3left.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "pf_roofedge3right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "pf_roofedge3right.json" ],
+      "chance" : 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Reinforced with pure chronium, this beautiful work of wearable art can invoke joy or fear in the beholder."
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A backpack containing equipment that treats wounds in battle. Increases max health and heals over time."
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_medicback"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+            "subtitle": "Enhancement Pack",
+
+            "pf_status1Image": "/interface/statuses/maxhealth.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "+20%",
+            "pf_status2Image": "/interface/statuses/heal.png",
+            "pf_status2BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status2Label": "+1.35%"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    }
+]

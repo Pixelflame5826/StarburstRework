@@ -1,0 +1,27 @@
+{
+  "objectName" : "pf_thunderfly",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "This fluttering bug collects static in the air to protect itself.",
+  "shortdescription" : "Thunderfly",
+  "race" : "generic",
+  "category" : "bug",
+  // "collectablesOnPickup" : { "bugs" : "pf_thunderfly" },
+
+  "itemTags" : [ "bug" ],
+
+  "inventoryIcon" : "pf_thunderflyicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_thunderfly.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

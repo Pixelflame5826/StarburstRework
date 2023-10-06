@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Deadly Heat - Heavy Health Loss, Halved Energy Regen | When Mitigated: Medium Health Loss"
+    },
+    {
+        "op": "replace",
+        "path": "/effectConfig/tickDamage",
+        "value": 4
+    },
+	{
+        "op": "replace",
+        "path": "/effectConfig/tickRate",
+        "value": 5
+    }
+]

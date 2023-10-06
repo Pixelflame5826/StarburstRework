@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_fallaugment",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_fallaugment.png",
+  "description" : "An EPP module that makes you take half damage when falling from great heights.",
+  "shortdescription" : "Light Fall Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_fall",
+    "displayName" : "Light Fall",
+    "displayIcon" : "/items/augments/back/pf_fallaugment.png",
+    "effects" : [ "pf_halvedfalldamage" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

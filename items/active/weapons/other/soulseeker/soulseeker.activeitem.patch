@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A sword of extraordinary dark power, once used by a powerful soul. Totally won't corrupt your soul."
+    }
+]

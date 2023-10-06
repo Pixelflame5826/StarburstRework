@@ -1,0 +1,12 @@
+{
+  "name" : "pf_boiler",
+  "effectConfig" : {
+    "regenBonusAmount" : 1.05
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_boiler.lua"
+  ],
+  "scriptDelta" : 0
+}

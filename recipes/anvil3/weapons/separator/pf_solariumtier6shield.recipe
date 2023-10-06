@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_solariumtier5shield", "count" : 1 },
+    { "item" : "pf_chroniumbar", "count" : 5 },
+    { "item" : "manipulatormodule", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_solariumtier6shield", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

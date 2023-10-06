@@ -1,0 +1,46 @@
+[
+    {
+        "op": "add",
+        "path": "/layers/-",
+        "value": {
+            "kind": "midnightclouds",
+            "baseCount": 2,
+            "offset": [
+                0,
+                580
+            ],
+            "parallax": [15, 1.5],
+            "directives": "brightness=50"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/layers/-",
+        "value": {
+            "kind": "midnightclouds",
+            "baseCount": 2,
+            "offset": [
+                0,
+                580
+            ],
+            "parallax": [15, 1.5],
+            "directives": "brightness=50"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/layers/-",
+        "value": {
+            "kind": "pf_oceandistantislands",
+            "offset": [
+                0,
+                268
+            ],
+            "parallax": [
+                7.9,
+                1.23
+            ],
+			"fadePercent" : 0.3
+        }
+    }
+]

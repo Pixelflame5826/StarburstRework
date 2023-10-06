@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A tool that sprays glue foam to slow down enemies. Called the \"Runner Extinguisher\" by the Peacekeepers."
+    }
+]

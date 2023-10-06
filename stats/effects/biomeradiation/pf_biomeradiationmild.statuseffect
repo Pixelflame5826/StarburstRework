@@ -1,0 +1,19 @@
+{
+  "name" : "pf_biomeradiationmild",
+  "blockingStat" : "pf_mildBiomeRadiationImmunity",
+
+  "effectConfig" : {
+    "healthPercentage" : 0.50,
+	"directives" : "border=2;AAFF8822;00000000"
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "pf_biomeradiationmild.lua"
+  ],
+
+  "animationConfig" : "biomeradiation.animation",
+
+  "label" : "Minor Radiation - 50% Max Health",
+  "icon" : "/interface/statuses/biomeradioactive.png"
+}

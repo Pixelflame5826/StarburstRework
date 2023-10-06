@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Solarium Broadsword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "This chronium-plated hilt houses an energy blade. It cuts through anything like an energy knife through butter."
+    },
+	{
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    }
+]

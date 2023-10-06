@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_savannahore",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_savannahore.png",
+  "description" : "A strange golden material that is used in technology and alloys.",
+  "shortdescription" : "Aurium Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

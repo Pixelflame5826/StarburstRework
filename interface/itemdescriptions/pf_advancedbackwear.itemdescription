@@ -1,0 +1,153 @@
+{
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [102, 30],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [115, 30],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [40, 127],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [ 46, 59 ],
+    "minSize" : [ 46, 59 ]
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [16, 90],
+    "wrapWidth" : 122,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },
+  "title" : {
+    "type" : "label",
+    "position" : [35, 179],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "subTitle" : {
+    "type" : "label",
+    "position" : [35, 169],
+    "hAnchor" : "left",
+    "color" : [185, 181, 178],
+    "value" : ""
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [12, 30],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [9, 167],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png",
+    "showRarity" : false,
+    "showBackingImageWhenFull" : true
+  },
+  
+  "pf_status1Label": {
+	"type": "label",
+	"position": [111, 147],
+	"hAnchor" : "mid",
+	"zlevel" : 1,
+	"centered": true,
+	"wrapWidth": 126
+  },
+  "pf_status1Image": {
+	"type": "image",
+	"position": [76, 152],
+	"zlevel": 2,
+	"centered": true,
+	"maxSize": [16, 16],
+	"minSize": [16, 16]
+  },
+  "pf_status1BackgroundImage": {
+	"type": "image",
+	"position": [102, 151],
+	"centered": true,
+	"maxSize": [70, 12],
+	"minSize": [70, 12]
+  },
+  
+  "pf_status2Label": {
+	"type": "label",
+	"position": [111, 131],
+	"hAnchor" : "mid",
+	"zlevel" : 1,
+	"centered": true,
+	"wrapWidth": 126
+  },
+  "pf_status2Image": {
+	"type": "image",
+	"position": [76, 136],
+	"zlevel": 2,
+	"centered": true,
+	"maxSize": [16, 16],
+	"minSize": [16, 16]
+  },
+  "pf_status2BackgroundImage": {
+	"type": "image",
+	"position": [102, 135],
+	"centered": true,
+	"maxSize": [70, 12],
+	"minSize": [70, 12]
+  },
+  
+  "pf_status3Label": {
+	"type": "label",
+	"position": [111, 115],
+	"hAnchor" : "mid",
+	"zlevel" : 1,
+	"centered": true,
+	"wrapWidth": 126
+  },
+  "pf_status3Image": {
+	"type": "image",
+	"position": [76, 120],
+	"zlevel": 2,
+	"centered": true,
+	"maxSize": [16, 16],
+	"minSize": [16, 16]
+  },
+  "pf_status3BackgroundImage": {
+	"type": "image",
+	"position": [102, 119],
+	"centered": true,
+	"maxSize": [70, 12],
+	"minSize": [70, 12]
+  },
+  
+  "pf_status4Label": {
+	"type": "label",
+	"position": [111, 99],
+	"hAnchor" : "mid",
+	"zlevel" : 1,
+	"centered": true,
+	"wrapWidth": 126
+  },
+  "pf_status4Image": {
+	"type": "image",
+	"position": [76, 104],
+	"zlevel": 2,
+	"centered": true,
+	"maxSize": [16, 16],
+	"minSize": [16, 16]
+  },
+  "pf_status4BackgroundImage": {
+	"type": "image",
+	"position": [102, 103],
+	"centered": true,
+	"maxSize": [70, 12],
+	"minSize": [70, 12]
+  }
+}

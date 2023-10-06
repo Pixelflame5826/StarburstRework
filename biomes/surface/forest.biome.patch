@@ -1,0 +1,30 @@
+[
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_forestcold"
+    },
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_forestpoisonous"
+    },
+	{
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:scatteredLarge",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [0.5, "fireflybush" ], [0.5, "butterflybush" ] ],
+					"parameters" : { }
+				}
+			]
+        }
+    }
+]

@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_shadowore",
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_shadowore.png",
+  "description" : "A vortex shaped shard of obsidian, it's unnaturally dark as it absorbs light.",
+  "shortdescription" : "Erebium Remnant",
+  "itemTags" : [ "reagent" ]
+}

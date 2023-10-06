@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_jungleore",
+  "price" : 30,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_jungleore.png",
+  "description" : "A plant based material that filters and stores toxins in the atmosphere.",
+  "shortdescription" : "Vermillium Spice",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

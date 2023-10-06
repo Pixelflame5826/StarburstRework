@@ -1,0 +1,20 @@
+{
+  "id" : "pf_aviancrystal1",
+  "species" : "avian",
+  "title" : "Technology Paid For In Blood",
+  "description" : "An excerpt made by a Grounded Avian researcher, who learned a big secret.",
+  "icon" : "pf_aviancoverextra1.png",
+  "contentPages" : [
+    "Avolite, a well known material, born from Avos, it powers our culture as much as it does our technology. However, I have discovered something insidious about this \"miracle gem\".",
+	"It is well known amongst our culture that Avolite is mined from the many holy sites around Avos. Though due to a particular series of events, I have come across a strange object: a non-infused chunk of Avolite.",
+	"Now, being intrigued, I took readings from this gem and have learned something interesting. This gem is not special at all, it's merely a pure form of Rubite. So, where did all of the powers come from? Well, I'll tell you.",
+	"Through some snooping of my own, looking at the practices of the religion, and I found it. All of the wars and sacrifices that the Kluex religion is known for are the cause. Through some ritual, the Stargazers are able to use blood to infuse these gems with \"spiritual energy\".",
+	"Our race's success has been built on the lives of those felled by our hands. The Stargazers have been hiding this under our beaks the entire time... How did we as a race figure out this ritual? Well, I don't know for sure.",
+	"Some sort of relic, some divine inspiration perhaps. Though what I do know, is either that this must've been some divine prank gone wrong or something above us cares not for the weak."
+	
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An experimental blade used by the Protectorate. Its hilt is a symbol of hope, unity, and plasma infused death."
+    }
+]

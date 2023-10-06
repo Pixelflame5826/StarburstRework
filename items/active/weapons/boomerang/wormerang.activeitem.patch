@@ -1,0 +1,22 @@
+[
+	{
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildboomerang.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueboomerang"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A boomerang-type weapon fashioned after a giant worm. It squirms in the air and leaves trail behind it."
+    },
+	{
+        "op": "replace",
+        "path": "/cooldownTime",
+        "value": 1.2
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_erebiumsample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A ^red;perfect^white; sample of an erebium shard.\"",
+  "shortdescription" : "Erebium Sample",
+  
+  "apexDescription" : "...I don't think anyone knows what this material is. Creepy.",
+  "avianDescription" : "I feel a very... empty aura coming from this tablet.",
+  "floranDescription" : "Floran doesss not like thiss tablet.",
+  "glitchDescription" : "Unnerved. Is this manmade? Is this natural? Both?!",
+  "humanDescription" : "A dark material formed into tablets. I'm getting cosmic vibes from this.",
+  "hylotlDescription" : "An unknowable obsidian material found in the depths... unnerving.",
+  "novakidDescription" : "Somethin' tells me that I shouldn't like this stuff",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_erebiumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_erebiumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

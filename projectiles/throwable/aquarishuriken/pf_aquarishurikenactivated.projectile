@@ -1,0 +1,30 @@
+{
+  "projectileName" : "pf_aquarishurikenactivated",
+  "image" : "pf_aquarishurikenactivated.png",
+  "animationCycle" : 0.05,
+  "physics" : "bullet",
+  "frameNumber" : 2,
+  "pointLight" : false,
+  "speed" : 75,
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/melee/swing_broadsword_water4.ogg" ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 100.0,
+  "knockback" : 10,
+  "damageKind" : "dagger",
+  "statusEffects" : [ "wet" ],
+  "damagePoly" : [ [-16, 0], [-10, -10], [0, -16], [10, -10], [16, 0], [10, 10], [0, 16], [-10, 10] ]
+}
+
+

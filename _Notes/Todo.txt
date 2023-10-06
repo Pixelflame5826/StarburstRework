@@ -1,0 +1,38 @@
+----Ideas----
+
+-De-homogenize every planet type with matching biomes and dungeons.
+
+-Make new dungeons for all 7 races, maybe 1 each right now.
+	*Volcanic needs new dungeons, include non-flammable buildings.
+
+-Limit microdungeons on every planet?
+
+-Ocean minibiomes?
+	*Aquatic Versions of existing minibiomes.
+
+-Make land versions of ocean biomes?
+
+-Give oceans landmasses via biomes?
+	*Need to test.
+
+-Implement more underground biomes?
+	*Every planet needs at least 6, 4 for the ocean planets.
+	*Use one 5 times max, out of 15 planets, I'd need to make 6 underground biomes to break even.
+
+-New ship encounters?
+
+-More encounter dungeons.
+
+
+---Potential Ideas---
+
+-Biome Specific Weapons/Materials
+
+
+----Probably Not----
+
+-Make instanceworlds that represent every race.
+
+-More pengiun stuff.
+
+-Overhaul the outpost into a living city. (Maybe Later, patches would be rediculous.)

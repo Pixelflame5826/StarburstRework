@@ -1,0 +1,9 @@
+{
+  "name" : "pf_radioactiveevolution",
+  "category" : "pf_radioactivefluffalo",
+  "type" : "spawn",
+
+  "frames" : {
+    "spawn" : "evolution.png"
+  }
+}

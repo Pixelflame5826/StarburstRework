@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_carbonpowder",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_carbonpowder.png",
+  "description" : "Activated carbon to purge toxins. Resists Minor Planet Toxicity and cures Poison.",
+  "shortdescription" : "Carbon Powder",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_mildbiomepoisonprotection",
+        "duration" : 240
+      },
+      {
+        "effect" : "poisonblock",
+        "duration" : 2
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

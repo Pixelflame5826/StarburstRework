@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A large proton cannon, for those special criminals. Called the \"Judge\" because of its sheer power."
+	}
+]

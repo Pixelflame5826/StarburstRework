@@ -1,0 +1,46 @@
+{
+
+  "pf_mildbiomeradiation" : {
+    "unique" : false,
+    "text" : "Warning! Unsafe levels of radiation in the atmosphere!\nYour overall health is being reduced, I recommend getting proper equipment. Tread lightly!",
+    "textSpeed" : 70
+  },
+
+  "pf_mildbiomecold" : {
+    "unique" : false,
+    "text" : "Warning! Air temperature is moderately low!\nYour health levels are decreasing slowly and your movement is being hampered, I recommend getting proper equipment. Don't stay too long!",
+    "textSpeed" : 70
+  },
+
+  "pf_mildbiomeheat" : {
+    "unique" : false,
+    "text" : "Warning! Air temperature is moderately high!\nYour health levels are decreasing slowly and your energy reserves are low, I recommend getting proper equipment. Don't stay too long!",
+    "textSpeed" : 70
+  },
+  
+  "pf_mildbiomelightning" : {
+    "unique" : false,
+    "text" : "Warning! Air static is at damaging levels!\nYour energy supply is the only thing keeping you alive right now, I recommend getting proper equipment. Be careful!",
+    "textSpeed" : 70
+  },
+  
+  "pf_mildbiomepoison" : {
+    "unique" : false,
+    "text" : "Warning! The air is filled with toxins!\nYour health levels are dropping, I recommend getting proper equipment. Stay healthy!",
+    "textSpeed" : 70
+  },
+
+  "pf_biomelightning" : {
+    "unique" : false,
+    "text" : "WARNING! STATIC LEVELS ON THIS PLANET ARE DANGEROUSLY HIGH!\nYour energy supply is being sabotaged, I do not recommend exploration without proper equipment!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  
+  "pf_biomepoison" : {
+    "unique" : false,
+    "text" : "WARNING! POISON LEVELS ON THIS PLANET ARE DANGEROUSLY HIGH!\nYour overall health is dropping over time, I do not recommend exploration without proper equipment!",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  }
+}

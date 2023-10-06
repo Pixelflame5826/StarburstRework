@@ -1,0 +1,113 @@
+{
+  "itemName" : "pf_jungleshotgun",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An overgrown double barrel shotgun that fires toxic thorns. Pretty, but deadly.",
+  "shortdescription" : "Rosen Boomstick",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun","pf_anvilUpgradeableWeapon"],
+  "level" : 4,
+
+  "inventoryIcon" : "pf_jungleshotgun.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_jungleshotgun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/shotgun1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.9, 0.25],
+  "muzzleOffset" : [2, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.2,
+    "baseDps" : 10.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.13,
+
+    "projectileCount" : 8,
+    "fireType" : "auto",
+
+    "projectileType" : "fruitthorn",
+    "projectileParameters" : {
+      "damageKind" : "poisonbullet",
+      "knockback" : 30
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "grenadelauncher",
+  "altAbility" : {
+    "name" : "Rose Grenade",
+    "elementalConfig" : {
+      "poison" : { "projectileType" : "pf_flowergrenade" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_jungleshotgun_l5.png",
+      "animationParts" : {
+        "middle" : "pf_jungleshotgun_l5.png"
+      },
+      "shortdescription" : "Suberecta Shotgun"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_jungleshotgun_l6.png",
+      "animationParts" : {
+        "middle" : "pf_jungleshotgun_l6.png"
+      },
+      "shortdescription" : "Crimson Rose",
+      "description" : "A flowering double barrel shotgun. Even a beautiful rose has thorns, especially this one.",
+	  "primaryAbility" : {
+		"baseDps" : 11.25
+      }
+	}
+  }
+}

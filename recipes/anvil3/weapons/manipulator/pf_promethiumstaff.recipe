@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_scorchedrod", "count" : 7 },
+    { "item" : "pf_chroniumbar", "count" : 4 },
+    { "item" : "refinedferozium", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_promethiumstaff", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

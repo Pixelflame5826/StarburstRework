@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomelightningprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomelightningprotection.lua"
+  ],
+
+  "label" : "Static Immunity - Immunity to Deadly Static, Slight Resistance To Electricity",
+  "icon" : "/interface/statuses/pf_advlightningprotection.png"
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomeairlessprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomeairlessprotection.lua"
+  ],
+
+  "label" : "No Oxygen Immunity - Immune to Airless Environments",
+  "icon" : "/interface/statuses/pf_advbreathprotection.png"
+}

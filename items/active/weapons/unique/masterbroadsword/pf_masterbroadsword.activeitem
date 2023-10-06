@@ -1,0 +1,108 @@
+{
+  "itemName" : "pf_mastersbroadsword",
+  "price" : 2500,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An ancient energy blade. Its creator is unknown, but it shares design aspects with many powerful swords.",
+  "shortdescription" : "Master's Beamsword EX",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "pf_masterbroadswordicon.png",
+
+  "animation" : "pf_masterbroadsword.animation",
+  "animationParts" : {
+    "handle" : "pf_handle.png",
+    "handleFullbright" : "pf_handlefullbright.png",
+    "blade" : "pf_blade.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 14,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Master Spin Ѡ",
+    "scripts" : ["/items/active/weapons/unique/masterbroadsword/pf_masterspin.lua"],
+    "class" : "pf_MasterSpin",
+
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ ],
+      "baseDamage" : 6,
+      "knockback" : [0, -35],
+      "timeout" : 0.2,
+      "timeoutGroup" : "alt"
+    },
+
+    "flipMovementParameters" : {
+      "collisionPoly" : [ [-2.0, -1.0], [-1.0, -2.0], [1.0, -2.0], [2.0, -1.0], [2.0, 1.0], [1.0, 2.0], [-1.0, 2.0], [-2.0, 1.0] ]
+    },
+	
+    "rotations" : 5,
+    "rotationTime" : 0.1,
+
+    "jumpVelocity" : [0, 50],
+    "jumpDuration" : 0.1,
+	
+	"stallDuration" : 0.05,
+	
+	"projectileDelay" : 0.025,
+	
+	"energyUsage" : 90.0,
+    "cooldownTime" : 0.5,
+	
+	"projectileCount" : 4,
+    "projectileDistance" : 3.5,
+    "projectileType" : "pf_masterspinswordstart",
+    "projectileParameters" : {
+      "baseDamage" : 9
+    },
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.2,
+        "armRotation" : 30,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "flip" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

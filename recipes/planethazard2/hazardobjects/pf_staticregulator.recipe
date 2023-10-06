@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "refinedaegisalt", "count" : 7 },
+	{ "item" : "refinedviolium", "count" : 3 },
+    { "item" : "goldbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "pf_staticregulator",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist2", "hazardobjects" ]
+}

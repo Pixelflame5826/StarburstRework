@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Cryo Burn Spray"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A powerful cryogenic spray that protects your body from burns and even lava."
+    }
+]

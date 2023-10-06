@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "This no-frills shirt is interwoven with pure chronium nanotubes. A deft mix of strength and style."
+    }
+]

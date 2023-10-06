@@ -1,0 +1,34 @@
+{
+  "objectName" : "pf_barometer",
+  "colonyTags" : ["science", "pf_weather"],
+  "rarity" : "Uncommon",
+  "description" : "A device used to measure air pressure. Can predict the weather, if you know what Pa or atm means.",
+  "shortdescription" : "Barometer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "apexDescription" : "Interesting how mercury is used in so many weather instruments, including Barometers.",
+  "avianDescription" : "Ah this should be useful, I don't really like unexpectedly wet feathers.",
+  "floranDescription" : "Floran can ussually tell rain by looking at cloudsss.",
+  "glitchDescription" : "Joyful. A simple device that is the friend to farmers everywhere, good to know when it will rain.",
+  "humanDescription" : "Huh, a device used to predict rain. Yea, like seeing clouds above you doesn't tell you already.",
+  "hylotlDescription" : "Quite useful for us on land, you can never tell when it's going to rain next to Oceans.",
+  "novakidDescription" : "Always gotta take a look at this to see if the Mooshi need to be brought in.",
+  "nostosDescription" : "This is quite a big barometer, is it to potentially get more digits on the measurements?",
+
+  "inventoryIcon" : "pf_barometericon.png",
+  "orientations" : [
+    {
+      "image" : "pf_barometer.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

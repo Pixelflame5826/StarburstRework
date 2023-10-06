@@ -1,0 +1,30 @@
+{
+  "itemName" : "pf_bottledpoison",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_bottledpoisonicon.png",
+  "image" : "pf_bottledpoison.png",
+  "shortdescription" : "Bottled Poison",
+  "description" : "A bottle of poison that can be thrown at enemies. Not for consumption!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "pf_bottledpoison",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 20,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

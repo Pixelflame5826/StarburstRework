@@ -1,0 +1,199 @@
+{
+  "metadata" : {
+    "name" : "pf_stormymicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "pf_stormycabin1", "pf_stormycabin2", "pf_stormycliffleftbuilding1", "pf_stormycliffleftbuilding2", "pf_stormycliffrightbuilding1", "pf_stormycliffrightbuilding2", "pf_stormyfulgur1", "pf_stormyfulgur2", "pf_stormyfulgur3", "pf_stormyhill1", "pf_stormyhill2", "pf_stormyhill3", "pf_stormyhill4", "pf_stormypit1", "pf_stormyruinedcabin1", "pf_stormyruinedcabin2", "pf_stormyruinedtower1", "pf_stormytower1", "pf_stormytower2", "pf_stormytower3", "pf_stormytunnel1", "pf_stormytunnel2", "pf_stormyweatherstation1" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "pf_stormycabin1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormycabin1.json" ]
+    },
+	{
+      "name" : "pf_stormycabin2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormycabin2.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormycliffleftbuilding1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormycliffleftbuilding1.json" ]
+    },
+    {
+      "name" : "pf_stormycliffleftbuilding2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormycliffleftbuilding2.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormycliffrightbuilding1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormycliffrightbuilding1.json" ]
+    },
+	{
+      "name" : "pf_stormycliffrightbuilding2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormycliffrightbuilding2.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormyfulgur1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyfulgur1.json" ]
+    },
+	{
+      "name" : "pf_stormyfulgur2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyfulgur2.json" ]
+    },
+	{
+      "name" : "pf_stormyfulgur3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyfulgur3.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormyhill1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyhill1.json" ]
+    },
+	{
+      "name" : "pf_stormyhill2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyhill2.json" ]
+    },
+	{
+      "name" : "pf_stormyhill3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyhill3.json" ]
+    },
+	{
+      "name" : "pf_stormyhill4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyhill4.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormypit1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormypit1.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormyruinedcabin1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyruinedcabin1.json" ]
+    },
+	{
+      "name" : "pf_stormyruinedcabin2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyruinedcabin2.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormyruinedtower1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyruinedtower1.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormytower1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormytower1.json" ]
+    },
+	{
+      "name" : "pf_stormytower2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormytower2.json" ]
+    },
+	{
+      "name" : "pf_stormytower3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormytower3.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormytunnel1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormytunnel1.json" ]
+    },
+	{
+      "name" : "pf_stormytunnel2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormytunnel2.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_stormyweatherstation1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_stormyweatherstation1.json" ]
+    }
+  ]
+}

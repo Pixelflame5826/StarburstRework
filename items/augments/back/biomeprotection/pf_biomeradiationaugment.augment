@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_biomeradiationaugment",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_biomeradiationaugment.png",
+  "description" : "An EPP module that makes you immune to Mild Planet Radiation.",
+  "shortdescription" : "Radiation Resist Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_mildbiomeradiationprotection",
+    "displayName" : "Radiation Resist",
+    "displayIcon" : "/items/augments/back/biomeprotection/pf_biomeradiationaugment.png",
+    "effects" : [ "pf_mildbiomeradiationprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A horrifying hybrid of flesh and steel. Ah yes, manmade horrors beyond our comprehension."
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "input" : [
+	{ "item" : "stickofram", "count" : 6 },
+	{ "item" : "essence", "count" : 200 },
+	{ "item" : "livingroot", "count" : 2 },
+	{ "item" : "scorchedcore", "count" : 2 },
+	{ "item" : "cryonicextract", "count" : 2 },
+	{ "item" : "staticcell", "count" : 2 },
+	{ "item" : "venomsample", "count" : 2 },
+	{ "item" : "pf_radioactiveremains", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pf_envprotectionaugment",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist3", "augments" ]
+}

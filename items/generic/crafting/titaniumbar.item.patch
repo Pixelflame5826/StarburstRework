@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A very strong metal primarily found on planets orbiting Temperate Stars."
+    }
+]

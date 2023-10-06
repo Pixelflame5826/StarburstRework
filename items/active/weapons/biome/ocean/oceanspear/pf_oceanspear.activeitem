@@ -1,0 +1,129 @@
+{
+  "itemName" : "pf_oceanspear",
+  "price" : 960,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An old naginata, once wielded by Hylotl warriors who even the Florans feared. A weapon said to be inescapable.",
+  "shortdescription" : "Vortex Naginata",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_oceanspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_oceanspear.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { 
+	  "parts" : { 
+	    "swoosh" : { 
+		  "partStates" : { 
+		    "swoosh" : {
+              "fire" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh3/waterswoosh.png:<frame>" }}
+            }
+	      }
+	    },
+	    "spinSwoosh" : {
+          "partStates" : {
+            "spinSwoosh" : {
+              "spin" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/biome/ocean/oceanspear/pf_waterspinswoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+	  }
+	},
+    "particleEmitters" : { 
+	  "physicalswoosh" : {
+        "active" : false,
+        "transformationGroups" : ["swoosh"],
+        "burstCount" : 6,
+        "particles" : [
+          { "particle" : "waterdrip" }
+        ]
+      },
+	  "physicalSpin" : {
+        "active" : false,
+        "emissionRate" : 12,
+        "offsetRegion" : [-3.5, -3.5, 3.5, 3.5],
+        "particles" : [
+          { "particle" : "waterdrip"},
+          { "particle" : "waterdrip"},
+          { "particle" : "waterdrip"},
+          { "particle" : "waterdrip"},
+          { "particle" : "waterdrip"},
+          { "particle" : "waterdrip"}
+        ]
+      }
+	},
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg" ],
+	  "physicalSpin" : ["/sfx/melee/elemental_spin_ice.ogg" ],
+      "physicalSpinFire" : ["/sfx/melee/swing_broadsword_water4.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "elementalspin",
+  "altAbility" : {
+    "name" : "Torrential Whirlpool",
+    "elementalConfig" : {
+      "physical" : {
+        "projectileType" : "pf_waterspearspin",
+        "damageConfig" : { "statusEffects" : [ "wet" ] }
+      }
+	},
+	"damageConfig" : {
+      "damageSourceKind" : "spear"
+	}
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_oceanspear_l4.png",
+      "animationParts" : {
+        "blade" : "pf_oceanspear_l4.png"
+      },
+      "shortdescription" : "Uzu-no-Yari"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_oceanspear_l5.png",
+      "animationParts" : {
+        "blade" : "pf_oceanspear_l5.png"
+      },
+      "shortdescription" : "Umibozu"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_oceanspear_l6.png",
+      "animationParts" : {
+        "blade" : "pf_oceanspear_l6.png"
+      },
+      "shortdescription" : "Ame-no-Uzumaki",
+	  "description" : "A naginata wielded by the most elegant and strong Hylotl warriors. Said to sink ships through its power alone.",
+	  "primaryAbility" : {
+		"baseDps" : 11.5
+      }
+	}
+  }
+}

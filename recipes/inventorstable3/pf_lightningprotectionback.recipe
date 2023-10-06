@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 6 },
+    { "item" : "siliconboard", "count" : 2 },
+    { "item" : "battery", "count" : 1 },
+    { "item" : "refinedviolium", "count" : 4 },
+    { "item" : "staticcell", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_lightningprotectionback", "count" : 1 },
+  "groups" : [ "pf_craftingplanetresist2", "hazardgear", "all" ]
+}

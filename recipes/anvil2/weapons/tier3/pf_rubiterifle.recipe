@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_desertcrystal", "count" : 6 },
+    { "item" : "titaniumbar", "count" : 4 },
+	{ "item" : "volatilepowder", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_rubiterifle", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

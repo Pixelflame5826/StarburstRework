@@ -1,0 +1,18 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/lavacavernhollow",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/pf_magmacaveback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    }
+  ]
+}

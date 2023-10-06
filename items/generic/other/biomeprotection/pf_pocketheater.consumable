@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_pocketheater",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_pocketheater.png",
+  "description" : "A core-infused heater. Resists Deadly Planet Cold and blocks Frost.",
+  "shortdescription" : "Portable Heater",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_biomecoldprotection",
+        "duration" : 240
+      },
+	  {
+        "effect" : "iceblock",
+        "duration" : 60
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "pf_techconsumable" ]
+}

@@ -1,0 +1,17 @@
+[
+	{
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildfist.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquefist"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A wooden gauntlet ingrained with plant life. Uses a vine to send punches flying forwards, hitting from afar."
+    }
+]

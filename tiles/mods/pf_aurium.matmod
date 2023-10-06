@@ -1,0 +1,20 @@
+{
+  "modId" : 29471,
+  "modName" : "pf_aurium",
+  "itemDrop" : "pf_savannahore",
+  "description" : "Aurium.",
+  "health" : 20,
+  "harvestLevel" : 2,
+  "breaksWithTile" : true,
+  
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_aurium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

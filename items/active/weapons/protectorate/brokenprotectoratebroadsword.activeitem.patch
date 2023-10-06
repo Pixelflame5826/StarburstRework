@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An experimental blade used by the Protectorate, but you found it in poor condition. ^green;Perhaps it can be repaired.^white;"
+    }
+]

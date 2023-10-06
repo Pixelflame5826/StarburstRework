@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/effects/0/0/duration",
+        "value": 240
+    },
+    {
+        "op": "add",
+        "path": "/effects/0/1",
+        "value": {
+            "effect": "swimboost",
+            "duration": 240
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Coralcreep, reefpod and pearlpea make for a salty, crunchy salad that tastes like the sea."
+    }
+]

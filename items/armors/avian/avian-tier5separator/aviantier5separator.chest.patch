@@ -1,0 +1,27 @@
+[
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/6f2919",
+        "value": "6e2900"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/a85636",
+        "value": "af4e00"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/e0975c",
+        "value": "ea9931"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/ffca8a",
+        "value": "ffd495"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "The solarium plating on this chestpiece makes it near-impenetrable by conventional weapons. "
+    }
+]

@@ -1,0 +1,10 @@
+{
+  // CREATURES
+  "pf_radioactiveFluffaloHarvest" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_radioactiveremains"}
+      ]
+    }]
+  ]
+}

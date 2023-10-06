@@ -1,0 +1,18 @@
+{
+  "itemName" : "pf_radiationshield",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_radiationshield.png",
+  "description" : "A strong gamma-ray blocker. Resists Deadly Planet Radiation.",
+  "shortdescription" : "Radiation Shielding",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_biomeradiationprotection",
+        "duration" : 240
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "pf_techconsumable" ]
+}

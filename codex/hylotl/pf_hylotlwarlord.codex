@@ -1,0 +1,23 @@
+{
+  "id" : "pf_hylotlwarlord",
+  "species" : "hylotl",
+  "title" : "The Blue Blade",
+  "description" : "A Hylotl historian's recount on a legendary Hylotl warlord.",
+  "icon" : "pf_hylotlcoverextra1.png",
+  "contentPages" : [
+    "The warlord Seishin Mizuo have been imprinted into Hylotl legend for generations. The Blue Blade as many called him, was a powerful warlord who was both skilled in naval and ground combat. He is a very skilled artist as well, painting many of his trusted soldiers in their prime form. You can even find some of his paintings to this day hung up in many Hylotl cities. Truely a man who lives up to his title of \"Warlord\".",
+
+	"In battles he has fought many Florans on the ocean and in the forests, even taking the fight back to them, using superior strategy to take many a tribe. His blade has been said to push enemies back with waves from the very water itself, only for them to be rushed and sliced in twain. 
+
+In the Battle of the Black Sea, he fought back Floran boats with nothing but his own infantry and his ships. He sent them all plummeting to the waters below as each ship got blown apart with gunfire.",
+
+	"During said war he was sent to meet the other warlords for the protection of Hylotl knowledge. His knowledge of the enemy created the plans for a library that the Florans wouldn't be able to topple. There the tomes of our history would be safe. 
+
+The library itself has been lost to history, only seen in old Hylotl iconography. But his exploits live on in Hylotl legend for the man who protected our people and its history. Truly, a Hylotl that deserves respect till the end of time."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

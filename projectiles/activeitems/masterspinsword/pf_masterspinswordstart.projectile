@@ -1,0 +1,42 @@
+{
+  "projectileName" : "pf_masterspinswordstart",
+  "image" : "pf_masterspinsword.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [168, 229, 255],
+  "frameNumber" : 4,
+  "fullbright" : true,
+  "damageKindImage" : "icon.png",
+  "physics" : "default",
+  "emitters" : [ ],
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/melee/giantsword_charge_full.ogg" ]
+    }
+  ],
+  
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/elemental_lance.ogg" ]
+    }
+  ],
+
+  "onlyHitTerrain" : true,
+  "damagePoly" : [],
+  "damageKind" : "plasma",
+
+  "speed" : 0,
+  "timeToLive" : 1.5,
+
+  "scripts" : [ "pf_masterspinsword.lua" ],
+  "scriptDelta" : 1,
+
+  "controlRotation" : {
+    "maxSpeed" : 50,
+    "controlForce" : 140,
+    "friction" : 5
+  }
+}

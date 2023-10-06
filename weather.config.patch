@@ -1,0 +1,812 @@
+[
+	//**NEW OPTIONS**
+	// pf_coldfront
+	// pf_cosmicrays
+	// pf_heatedrain
+	// pf_heatwave
+	// pf_heavyrain
+	// pf_leafstorm
+	// pf_poisoncloud
+	// pf_radioactivefallout
+	// pf_radioactiverain
+	// pf_radstorm
+	// pf_thundersnow
+
+	//EXISTING CHANGES
+	{
+        "op": "replace",
+        "path": "/moon",
+        "value": [
+			[
+				0.7,
+				"clear"
+			],
+			[
+				0.07,
+				"glowingrain"
+			],
+			[
+				0.03,
+				"meteorshower"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/garden",
+        "value": [
+			[
+				0.55,
+				"clear"
+			],
+			[
+				0.05,
+				"rain"
+			],
+			[
+				0.05,
+				"glowingrain"
+			],
+			[
+				0.1,
+				"drizzle"
+			],
+			[
+				0.1,
+				"windstorm"
+			],
+			[
+				0.05,
+				"pf_heavyrain"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/desert",
+        "value": [
+			[
+				0.96,
+				"clear"
+			],
+			[
+				0.03,
+				"sandstorm"
+			],
+			[
+				0.01,
+				"pf_radstorm"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/forest",
+        "value": [
+			[
+				0.6,
+				"clear"
+			],
+			[
+				0.07,
+				"rain"
+			],
+			[
+				0.05,
+				"pf_heavyrain"
+			],
+			[
+				0.13,
+				"drizzle"
+			],
+			[
+				0.1,
+				"pf_leafstorm"
+			],
+			[
+				0.04,
+				"storm"
+			],
+			[
+				0.02,
+				"snow"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/savannah",
+        "value": [
+			[
+				0.7,
+				"clear"
+			],
+			[
+				0.15,
+				"rain"
+			],
+			[
+				0.1,
+				"windstorm"
+			],
+			[
+				0.05,
+				"pf_heatwave"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/snow",
+        "value": [
+			[
+				0.45,
+				"clear"
+			],
+			[
+				0.4,
+				"snow"
+			],
+			[
+				0.1,
+				"snowstorm"
+			],
+			[
+				0.05,
+				"pf_thundersnow"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/ocean",
+        "value": [
+			[
+				0.75,
+				"clear"
+			],
+			[
+				0.1,
+				"pf_heavyrain"
+			],
+			[
+				0.1,
+				"rain"
+			],
+			[
+				0.05,
+				"storm"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/jungle",
+        "value": [
+			[
+				0.5,
+				"clear"
+			],
+			[
+				0.25,
+				"pf_heavyrain"
+			],
+			[
+				0.1,
+				"pf_poisoncloud"
+			],
+			[
+				0.05,
+				"storm"
+			],
+			[
+				0.05,
+				"pf_cosmicrays"
+			],
+			[
+				0.05,
+				"pf_heatedrain"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/toxic",
+        "value": [
+			[
+				0.2,
+				"clear"
+			],
+			[
+				0.3,
+				"acidrain"
+			],
+			[
+				0.2,
+				"pf_radioactiverain"
+			],
+			[
+				0.2,
+				"pf_radioactivefallout"
+			],
+			[
+				0.1,
+				"pf_heatwave"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/alien",
+        "value": [
+			[
+				0.7,
+				"clear"
+			],
+			[
+				0.15,
+				"pf_cosmicrays"
+			],
+			[
+				0.05,
+				"acidrain"
+			],
+			[
+				0.05,
+				"pf_poisoncloud"
+			],
+			[
+				0.05,
+				"pf_heatwave"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/arctic",
+        "value": [
+			[
+				0.2,
+				"clear"
+			],
+			[
+				0.35,
+				"snow"
+			],
+			[
+				0.3,
+				"snowstorm"
+			],
+			[
+				0.1,
+				"hailstones"
+			],
+			[
+				0.05,
+				"pf_thundersnow"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/tundra",
+        "value": [
+			[
+				0.3,
+				"clear"
+			],
+			[
+				0.4,
+				"snowstorm"
+			],
+			[
+				0.25,
+				"hailstones"
+			],
+			[
+				0.05,
+				"pf_thundersnow"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/midnight",
+        "value": [
+			[
+				0.4,
+				"duststorm"
+			],
+			[
+				0.2,
+				"lightash"
+			],
+			[
+				0.1,
+				"snowstorm"
+			],
+			[
+				0.1,
+				"storm"
+			],
+			[
+				0.05,
+				"pf_radioactivefallout"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/volcanic",
+        "value": [
+			[
+				0.6,
+				"clear"
+			],
+			[
+				0.1,
+				"ember"
+			],
+			[
+				0.2,
+				"lightash"
+			],
+			[
+				0.05,
+				"pf_radioactivefallout"
+			],
+			[
+				0.05,
+				"pf_poisoncloud"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/scorchedcity",
+        "value": [
+			[
+				0.65,
+				"junkstorm"
+			],
+			[
+				0.1,
+				"sandstorm"
+			],
+			[
+				0.15,
+				"lightash"
+			],
+			[
+				0.05,
+				"acidrain"
+			],
+			[
+				0.05,
+				"ember"
+			]
+		]
+    },
+	{
+        "op": "replace",
+        "path": "/scorchedcityMeteor",
+        "value": [
+			[
+				0.75,
+				"junkstorm"
+			],
+			[
+				0.15,
+				"lightash"
+			],
+			[
+				0.07,
+				"acidrain"
+			],
+			[
+				0.03,
+				"spacejunk"
+			]
+		]
+    },
+	
+	//NEW WEATHER PATTERNS
+    {
+        "op": "add",
+        "path": "/pf_forestpoisonous",
+        "value": [
+            [
+                0.6,
+                "clear"
+            ],
+			[
+                0.1,
+                "pf_leafstorm"
+            ],
+            [
+                0.12,
+                "rain"
+            ],
+            [
+                0.04,
+                "storm"
+            ],
+            [
+                0.02,
+                "pf_poisoncloud"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_forestcold",
+        "value": [
+            [
+                0.6,
+                "clear"
+            ],
+			[
+                0.1,
+                "pf_leafstorm"
+            ],
+            [
+                0.12,
+                "rain"
+            ],
+            [
+                0.1,
+                "drizzle"
+            ],
+            [
+                0.06,
+                "pf_coldfront"
+            ],
+            [
+                0.02,
+                "snow"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_savannahelectric",
+        "value": [
+            [
+                0.65,
+                "clear"
+            ],
+            [
+                0.15,
+                "rain"
+            ],
+            [
+                0.1,
+                "sandstorm"
+            ],
+            [
+                0.05,
+                "pf_heatwave"
+            ],
+            [
+                0.05,
+                "storm"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_savannahstormy",
+        "value": [
+            [
+                0.6,
+                "clear"
+            ],
+            [
+                0.25,
+                "rain"
+            ],
+            [
+                0.05,
+                "storm"
+            ],
+            [
+                0.05,
+                "pf_heatwave"
+            ],
+            [
+                0.05,
+                "hailstones"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_tundraradioactive",
+        "value": [
+            [
+                0.3,
+                "clear"
+            ],
+            [
+                0.4,
+                "snowstorm"
+            ],
+            [
+                0.2,
+                "hailstones"
+            ],
+            [
+                0.05,
+                "pf_thundersnow"
+            ],
+            [
+                0.05,
+                "pf_radioactivefallout"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_aliencold",
+        "value": [
+            [
+                0.7,
+                "clear"
+            ],
+            [
+                0.15,
+                "pf_cosmicrays"
+            ],
+            [
+                0.05,
+                "acidrain"
+            ],
+            [
+                0.05,
+                "pf_poisoncloud"
+            ],
+            [
+                0.05,
+                "pf_coldfront"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_oceanstormy",
+        "value": [
+            [
+                0.65,
+                "rain"
+            ],
+			[
+                0.2,
+                "pf_heavyrain"
+            ],
+            [
+                0.05,
+                "storm"
+            ],
+            [
+                0.05,
+                "hailstones"
+            ],
+            [
+                0.05,
+                "pf_heatedrain"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_oceancontaminated",
+        "value": [
+            [
+                0.7,
+                "clear"
+            ],
+            [
+                0.15,
+                "rain"
+            ],
+            [
+                0.05,
+                "storm"
+            ],
+            [
+                0.05,
+                "acidrain"
+            ],
+            [
+                0.05,
+                "pf_radioactiverain"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_moonsafe",
+        "value": [
+            [
+                0.7,
+                "clear"
+            ],
+            [
+                0.3,
+                "glowingrain"
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/pf_moonradioactive",
+        "value": [
+            [
+                0.7,
+                "clear"
+            ],
+            [
+                0.25,
+                "glowingrain"
+            ],
+            [
+                0.05,
+                "pf_cosmicrays"
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/pf_desertscorching",
+        "value": [
+            [0.8, "clear"],
+            [0.1, "sandstorm"],
+			[0.05, "pf_radstorm"],
+			[0.05, "ember"]
+        ]
+    },
+	
+	//NEW PLANET WEATHER
+	{
+        "op": "add",
+        "path": "/pf_stormy",
+        "value": [
+			[
+                0.35,
+                "windstorm"
+            ],
+            [
+                0.2,
+                "rain"
+            ],
+			[
+                0.2,
+                "pf_heavyrain"
+            ],
+            [
+                0.1,
+                "storm"
+            ],
+			[
+                0.05,
+                "snow"
+            ],
+            [
+                0.05,
+                "hailstones"
+            ],
+            [
+                0.05,
+                "pf_heatedrain"
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/pf_stormycold",
+        "value": [
+			[
+                0.35,
+                "windstorm"
+            ],
+            [
+                0.4,
+                "rain"
+            ],
+            [
+                0.1,
+                "pf_thundersnow"
+            ],
+			[
+                0.05,
+                "snow"
+            ],
+            [
+                0.05,
+                "hailstones"
+            ],
+            [
+                0.05,
+                "snowstorm"
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/pf_stormyextreme",
+        "value": [
+            [
+                0.4,
+                "rain"
+            ],
+			[
+                0.3,
+                "pf_heavyrain"
+            ],
+            [
+                0.1,
+                "storm"
+            ],
+			[
+                0.05,
+                "snow"
+            ],
+			[
+                0.05,
+                "snowstorm"
+            ],
+            [
+                0.05,
+                "hailstones"
+            ],
+            [
+                0.05,
+                "pf_heatedrain"
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/pf_stormycontaminated",
+        "value": [
+			[
+                0.35,
+                "windstorm"
+            ],
+            [
+                0.4,
+                "rain"
+            ],
+			[
+                0.2,
+                "pf_heavyrain"
+            ],
+            [
+                0.1,
+                "storm"
+            ],
+			[
+                0.05,
+                "pf_radioactiverain"
+            ],
+            [
+                0.05,
+                "hailstones"
+            ],
+            [
+                0.05,
+                "acidrain"
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/pf_atmosphere",
+        "value": [
+			[
+                1.0,
+                "windstorm"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+{
+  "projectileName" : "pf_petalshot",
+  "physics" : "paperplane",
+  "image" : "pf_petalshot.png",
+  "fullbright" : true,
+  "animationCycle" : 0.15,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 50,
+  "timeToLive" : 10,
+  "damageKind" : "dagger",
+  "knockback" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/poisonstickyspikes_break3.ogg" ]
+    },
+    {
+      "action" : "loop",
+      "count" : 4,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : {
+            "animation" : "/animations/petals/petals.animation",
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          }
+        }
+      ]
+    }
+  ],
+
+  "scripts" : ["/scripts/projectiles/sinewaveprojectile.lua"],
+  "scriptDelta" : 1,
+
+  "wavePeriod" : 1.0,
+  "waveAmplitude" : 0.15
+}

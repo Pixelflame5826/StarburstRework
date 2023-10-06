@@ -1,0 +1,73 @@
+[
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:pf_pgiChest",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiDefaultChest"
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:denseMedium",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "bioroots",
+                    "baseHueShiftMax": 180,
+                    "modHueShiftMax": 180
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:denseMedium",
+            "type": "bush",
+            "bushes": [
+                {
+                    "name": "bioroots",
+                    "baseHueShiftMax": 180,
+                    "modHueShiftMax": 180
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:scatteredSmall",
+            "type": "grass",
+            "grasses": [
+                "strange"
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_aliencold"
+    }
+]

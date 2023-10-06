@@ -1,0 +1,19 @@
+{
+  "id" : "pf_glitchpolitics1",
+  "species" : "glitch",
+  "title" : "The Rulings of the Glitch",
+  "description" : "A fancy book made for rulers in training, it details the politics of the Glitch.",
+  "icon" : "pf_glitchcoverextra1.png",
+  "contentPages" : [
+    "The politics of our culture are vast and complex, many of us can barely comprehend its webs of intrigue and relations. Over distances we as a people can not even fathom. I hope to shed some light on this in this tome about the inner workings of this vast political climate we are ruled over, as one who has travelled the void between our worlds and cultures many times over my life.",
+	"Our culture is dominated by many houses surrounded by one member, titled the Holy Glitch Empire. A political entity that spans over many worlds, its emperor is said to be the smartest and strongest Glitch in all the realms. Born to rule until he expires, then a new leader is elected in their place by the court. Though his actual power is quite small, especially over distance. Leaving them dominated by the kingdoms that surround it.",
+	"There are 2 major houses that fight over control of this political entity: House Steamcrow and House Circuitblade. They control the most land in the empire and are held in high regard by the court of the Holy Glitch Empire. Each are varied and contain many kingdoms within. They all have their own ways of ruling over their land and their differences can be a bit staggering for some.",
+	"House Circuitblade is a more open faction than most, they usually treat outsiders with some respect. Many of the other races they come across are even invited to some of their events out of respect. Though this is generally looked down upon by many, but it has given them more insight into what the worlds have to offer, and made them more resource efficient than many of its rivals. They're said to even be allies with the mysterious Protectorate.",
+	"House Steamcrow is what you'd expect of us, they're very insistent on keeping the Glitch way of life as pure as possible. This usually leads to higher security and making sure that outsiders are cast out before they corrupt the culture they so heavily want to protect. Many of the subjects are more held together and are generally more happy in many cases. Though many of their towns can't help but let outsiders in due to their curiosity.",
+	"There are many other houses amongst the ranks of the empire, though putting them into focus would likely fry your memory. Those are the main two you need know about if you wish to keep up with the happenings of those in power. Our influence is vast, spanning over many realms and interacting with many strange peoples. I hope this helped explain the workings of our cultures."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

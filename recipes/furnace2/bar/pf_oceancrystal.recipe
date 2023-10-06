@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "pf_oceanore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pf_oceancrystal",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace2", "bars", "all" ]
+}

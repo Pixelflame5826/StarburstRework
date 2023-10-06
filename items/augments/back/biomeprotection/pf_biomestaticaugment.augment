@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_biomestaticaugment",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_biomestaticaugment.png",
+  "description" : "An EPP module that makes you immune to Mild Planet Static.",
+  "shortdescription" : "Static Resist Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_mildbiomelightningprotection",
+    "displayName" : "Static Resist",
+    "displayIcon" : "/items/augments/back/biomeprotection/pf_biomestaticaugment.png",
+    "effects" : [ "pf_mildbiomelightningprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

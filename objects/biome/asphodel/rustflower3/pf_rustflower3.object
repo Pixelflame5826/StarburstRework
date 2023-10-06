@@ -1,0 +1,38 @@
+{
+  "objectName" : "pf_rustflower3",
+  "colonyTags" : ["rust"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "pot",
+
+  "description" : "A rusty bush. Watch out for sharp edges.",
+  "shortdescription" : "Rust Bush",
+  "race" : "generic",
+
+  "apexDescription" : "This bush is flaking and covered in rust.",
+  "avianDescription" : "A corroded, rusty bush.",
+  "floranDescription" : "Floran not like ssstinky rusting bush.",
+  "glitchDescription" : "Nervous. The sight of rust makes me feel faint.",
+  "humanDescription" : "A rusty bush. Now I've seen everything.",
+  "hylotlDescription" : "This bush is rusty, and unpleasant to observe.",
+
+  "inventoryIcon" : "capsulebigicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_rustflower3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "metallic", 1, { } ], [ "metallic", 1, { } ], [ "metallic", 1, { } ] ]
+  ]
+}

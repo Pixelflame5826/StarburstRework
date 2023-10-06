@@ -1,0 +1,21 @@
+{
+  "modId" : 29475,
+  "modName" : "pf_promethium",
+  "itemDrop" : "pf_scorchedore",
+  "description" : "Promethium.",
+  "health" : 10,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "burningdust",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_promethium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [115, 44, 0]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_desertore",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_desertore.png",
+  "description" : "A red crystal suspected to be a degenerate form of Avolite.",
+  "shortdescription" : "Rubite Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

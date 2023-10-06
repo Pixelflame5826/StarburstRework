@@ -1,0 +1,16 @@
+{
+  "name" : "pf_biomepoisonmild",
+  "blockingStat" : "pf_mildBiomePoisonImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_biomepoisonmild.lua"
+  ],
+
+  "animationConfig" : "pf_biomepoisonmild.animation",
+
+  "label" : "Weak Toxicity - Slowly Lose Health",
+  "icon" : "/interface/statuses/pf_biomepoison.png"
+}

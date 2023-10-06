@@ -1,0 +1,42 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A large back-mounted battery charged full of energy. Increases Max Energy by a flat amount."
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_aabattery"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+            "subtitle": "Enhancement Pack",
+			
+            "pf_status1Image": "/interface/statuses/energy.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "+50"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/category",
+        "value": "pf_referenceWeapon"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A Model No. 0451 Missile Launcher, sure to make your enemies die in rotten ways. Certainly a shame."
+    }
+]

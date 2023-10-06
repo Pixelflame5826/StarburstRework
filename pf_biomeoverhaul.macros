@@ -1,0 +1,44 @@
+{
+  "pf_mildhazardconsumables" : [
+    "/spawnitem pf_carbonpowder 10",
+    "/spawnitem pf_clothpadding 10",
+    "/spawnitem pf_handwarmer 10",
+    "/spawnitem pf_icywaterbottle 10",
+    "/spawnitem pf_leadpadding 10",
+    "/spawnitem pf_emergencyoxygen 10"
+  ],
+
+  "pf_deadlyhazardconsumables" : [
+    "/spawnitem antidote 10",
+    "/spawnitem pf_pocketfreezer 10",
+    "/spawnitem pf_pocketheater 10",
+    "/spawnitem pf_radiationshield 10",
+    "/spawnitem pf_staticgenerator 10"
+  ],
+
+  "pf_mildhazardaugments" : [
+    "/spawnitem pf_biomecoldaugment",
+    "/spawnitem pf_biomeheataugment",
+    "/spawnitem pf_biomeoxygenaugment",
+    "/spawnitem pf_biomepoisonaugment",
+    "/spawnitem pf_biomeradiationaugment",
+    "/spawnitem pf_pf_biomestaticaugment"
+  ],
+
+  "pf_deadlyhazardaugments" : [
+    "/spawnitem electricblockaugment",
+    "/spawnitem fireblockaugment",
+    "/spawnitem iceblockaugment",
+    "/spawnitem poisonblockaugment",
+    "/spawnitem pf_radiationblockaugment"
+  ],
+
+  "pf_epps" : [
+    "/spawnitem breathprotectionback",
+    "/spawnitem radiationprotectionback",
+    "/spawnitem coldprotectionback",
+    "/spawnitem heatprotectionback",
+    "/spawnitem pf_poisonprotectionback",
+    "/spawnitem pf_lightningprotectionback"
+  ]
+}

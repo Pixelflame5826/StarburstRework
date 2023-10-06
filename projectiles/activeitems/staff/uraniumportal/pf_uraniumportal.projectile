@@ -1,0 +1,51 @@
+{
+  "projectileName" : "pf_uraniumportal",
+  "physics" : "hover",
+  "timeToLive" : 8,
+  "image" : "pf_uraniumportal.png",
+  "animationCycle" : 0.35,
+  "lightColor" : [80, 110, 30],
+  "frameNumber" : 4,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/tech/mech_activate4.ogg" ]
+    },
+    {
+      "time" : 7.45,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/tech/mech_explosion_windup.ogg" ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "speed" : 0,
+  "power" : 10,
+  "damagePoly" : [],
+
+  "fullbright" : true,
+  "emitters" : [],
+
+  "renderLayer" : "Projectile-1",
+  "orientationLocked" : true,
+
+  "bounces" : -1,
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "/projectiles/activeitems/staff/elementportal/elementportal.lua" ],
+
+  "projectileType" : "pf_uraniumswarmer",
+  "projectileParameters" : {},
+  "spawnRate" : 0.3,
+
+  "persistentAudio" : "/sfx/projectiles/poisonorb_loop1.ogg"
+}

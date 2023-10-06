@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomelightningaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomelightningaugment.lua"
+  ],
+
+  "label" : "Static Immunity - Immunity to Deadly Static",
+  "icon" : "/interface/statuses/pf_advlightningprotection.png"
+}

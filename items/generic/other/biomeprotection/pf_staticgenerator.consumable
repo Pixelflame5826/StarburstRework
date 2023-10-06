@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_staticgenerator",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_staticgenerator.png",
+  "description" : "A static blocking generator. Resists Deadly Planet Static and blocks Electrified.",
+  "shortdescription" : "Tesla Counter-Generator",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_biomelightningprotection",
+        "duration" : 240
+      },
+      {
+        "effect" : "electricblock",
+        "duration" : 60
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "pf_techconsumable" ]
+}

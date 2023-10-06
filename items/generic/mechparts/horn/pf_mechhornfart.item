@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhornfart",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhornfart.png",
+  "description" : "Come on, it can't be that funny... pfffft!",
+  "shortdescription" : "Fart Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_fart"]
+}

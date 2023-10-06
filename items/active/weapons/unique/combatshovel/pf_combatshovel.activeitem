@@ -1,0 +1,80 @@
+{
+  "itemName" : "pf_combatshovel",
+  "price" : 960,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A powerful and skillful weapon for only the most shovelrous combatants. Strike the Earth!",
+  "shortdescription" : "Chivalrous Shovel",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "pf_referenceWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_combatshovel.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_combatshovel.png"
+  },
+  "animationCustom" : { 
+    "sounds" : {
+      "fire" : [ "/sfx/melee/retro_swing.ogg" ],
+      "fire2" : [ "/sfx/melee/retro_swing.ogg" ],
+      "fire3" : [ "/sfx/melee/retro_hit.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5,
+	"damageConfig" : {
+      "damageSourceKind" : "fryingpan"
+    }
+  },
+
+  "altAbilityType" : "downstab",
+  "altAbility" : {
+    "name" : "Shovel Drop",
+    "holdAirControl" : 80,
+    "stabVelocity" : -7,
+    "bounceYVelocity" : 60
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_combatshovel_l4.png",
+      "animationParts" : {
+        "blade" : "pf_combatshovel_l4.png"
+      },
+      "shortdescription" : "Protective Shovel"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_combatshovel_l5.png",
+      "animationParts" : {
+        "blade" : "pf_combatshovel_l5.png"
+      },
+      "shortdescription" : "Dynamic Shovel"
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_combatshovel_l6.png",
+      "animationParts" : {
+        "blade" : "pf_combatshovel_l6.png"
+      },
+      "shortdescription" : "Unyielding Shovel",
+      "description" : "A combat shovel wielded by a warrior who fought to save his lover. A true practitioner of shovelry.",
+	  "primaryAbility" : {
+		"baseDps" : 12.75
+      }
+	}
+  }
+}

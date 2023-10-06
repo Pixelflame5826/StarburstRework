@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildunrandshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueshield"
+    },
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Wooden Buckler"
+    },
+	{
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "images/pf_ironsmall.png:nearidle"
+    },
+	{
+        "op": "replace",
+        "path": "/animationParts/shield",
+        "value": "images/pf_ironsmall.png"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A small wooden shield reinforced with iron. Not very durable, but can still defend and parry pretty well."
+    }
+]

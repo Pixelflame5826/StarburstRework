@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "One of the legs of the great Ixodoom. Its sharpness and weight is a testament to the danger of the beast."
+    },
+	{
+        "op": "add",
+        "path": "/altAbility/name",
+        "value": "Ixodoom's Web"
+    }
+]

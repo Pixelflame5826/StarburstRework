@@ -1,0 +1,16 @@
+{
+  "name" : "pf_scorchedfire",
+  "blockingStat" : "",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10.0,
+
+  "scripts" : [
+    "pf_scorchedfire.lua"
+  ],
+
+  "animationConfig" : "pf_scorchedfire.animation",
+
+  "label" : "Promethius's Fire - Lose Health That Compounds Over Time",
+  "icon" : "/interface/statuses/pf_scorchedfire.png"
+}

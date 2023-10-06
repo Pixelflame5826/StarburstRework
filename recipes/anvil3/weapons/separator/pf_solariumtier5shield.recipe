@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 6 },
+    { "item" : "solariumstar", "count" : 4 },
+    { "item" : "hardenedcarapace", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_solariumtier5shield", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

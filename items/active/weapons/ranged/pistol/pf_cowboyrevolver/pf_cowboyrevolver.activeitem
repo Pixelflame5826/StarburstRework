@@ -1,0 +1,94 @@
+{
+  "itemName" : "pf_cowboyrevolver",
+  "price" : 720,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The ol' reliable.",
+  "shortdescription" : "Cowboy Revolver",
+  "tooltipKind" : "pf_randomgun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 1,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-0.5, 0.25],
+  "muzzleOffset" : [0,0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : [0.75, 1.25],
+    "baseDps" : [6.25, 6.75],
+    "energyUsage" : [17.25, 18.75],
+    "inaccuracy" : 0.02,
+	
+	"projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockbackRange" : [4,8]
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "fireSounds" : [ "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "pf_revolvernames.config:nameGen",
+    "animationParts" : {
+      "butt" : {
+        "path" : "/items/active/weapons/ranged/pistol/pf_cowboyrevolver/butt/<variant>.png",
+        "variants" : 24,
+        "paletteSwap" : true
+      },
+      "middle" : {
+        "path" : "/items/active/weapons/ranged/pistol/pf_cowboyrevolver/middle/<variant>.png",
+        "variants" : 9,
+        "paletteSwap" : true
+      },
+      "barrel" : {
+        "path" : "/items/active/weapons/ranged/pistol/pf_cowboyrevolver/barrel/<variant>.png",
+        "variants" : 11,
+        "paletteSwap" : true
+      },
+      "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    },
+    "gunParts" : ["butt", "middle", "barrel"],
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/pf_cowboyrevolver.weaponcolors",
+    "iconDrawables" : ["butt", "middle", "barrel"]
+  }]
+}

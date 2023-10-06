@@ -1,0 +1,91 @@
+{
+  // ==============================================================================================
+  //                                        MAIN BIOMES
+  // ==============================================================================================
+  // ================================
+  //         ANABATIC/STORMY
+  // ================================
+
+  "pf_stormyChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "pf_stormyTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "pf_stormyTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["liquidwater", 10]},
+		{"weight" : 1.0, "item" : "staticcell"},
+		{"weight" : 0.3, "item" : "pf_stormgearhead"},
+		{"weight" : 0.3, "item" : "pf_stormgearchest"},
+		{"weight" : 0.3, "item" : "pf_stormgearlegs"},
+		{"weight" : 0.15, "item" : "pf_stormgearback"},
+		{"weight" : 0.2, "item" : "pf_stormygrapplinghook-recipe"},
+		{"weight" : 0.5, "item" : "pf_anemometer"},
+		{"weight" : 0.5, "item" : "pf_barometer"},
+		{"weight" : 0.5, "item" : "pf_thermometer"},
+		{"weight" : 0.5, "item" : "pf_raindoll"},
+		{"weight" : 0.5, "item" : "pf_climbingequipment"},
+		{"weight" : 0.2, "item" : "pf_stormyaxe"},
+		{"weight" : 0.2, "item" : "pf_stormypistol"}
+      ]
+    }]
+  ],
+  
+  // ==============================================================================================
+  //                                        MINI BIOMES
+  // ==============================================================================================
+  // ================================
+  //       ASPHODELIAN FIELDS
+  // ================================
+  
+  "pf_asphodelChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "pf_asphodelTreasure"}
+      ],
+      "poolRounds" : [
+        [0.05, 1],
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.10, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "pf_asphodelTreasure" : [
+    [1, {
+      "pool" : [
+		{"weight" : 0.5, "item" : "rustbed-recipe"},
+		{"weight" : 0.5, "item" : "rustchair-recipe"},
+		{"weight" : 0.5, "item" : "rustchest-recipe"},
+		{"weight" : 0.5, "item" : "rustdoor-recipe"},
+		{"weight" : 0.5, "item" : "rusttable-recipe"},
+		{"weight" : 0.2, "item" : "rustymetalskul"},
+		{"weight" : 0.2, "item" : "gladiatiorhead"},
+		{"weight" : 0.2, "item" : "arenabruiserchest"}
+      ]
+    }]
+  ]
+}

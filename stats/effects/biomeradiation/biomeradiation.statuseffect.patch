@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Deadly Radiation - 25% Max Health | When Mitigated: 50% Max Health"
+    },
+    {
+        "op": "replace",
+        "path": "/effectConfig/directives",
+        "value": "border=2;AAFF8822;00000000"
+    },
+    {
+        "op": "replace",
+        "path": "/effectConfig/healthPercentage",
+        "value": 0.25
+    }
+]

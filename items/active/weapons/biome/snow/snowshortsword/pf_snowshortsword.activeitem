@@ -1,0 +1,66 @@
+{
+  "itemName" : "pf_snowshortsword",
+  "price" : 480,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A Blue Icicle forged onto a handle. Very easy to poke someone's eye out with, hopefully not yours.",
+  "shortdescription" : "Icicle Shortsword",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_snowshortsword.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "pf_snowshortsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 6.5,
+	"damageConfig" : { 
+	  "statusEffects" : [ "frostslow", "pf_bleeding" ],
+	  "damageSourceKind" : "iceshortsword"
+	}
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_snowshortsword_l4.png",
+      "animationParts" : {
+        "blade" : "pf_snowshortsword_l4.png"
+      },
+      "shortdescription" : "Sharpened Icicle"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_snowshortsword_l5.png",
+      "animationParts" : {
+        "blade" : "pf_snowshortsword_l5.png"
+      },
+      "shortdescription" : "Refined Icicle"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_snowshortsword_l6.png",
+      "animationParts" : {
+	    "blade" : "pf_snowshortsword_l6.png"
+      },
+      "shortdescription" : "The Icicorde",
+      "description" : "An icicle sharpened to perfection, it can stab with chill and pierce with incredible force. Eyes beware.",
+	  "primaryAbility" : {
+		"baseDps" : 6.75
+      }
+	}
+  }
+}

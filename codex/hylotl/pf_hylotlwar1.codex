@@ -1,0 +1,19 @@
+{
+  "id" : "pf_hylotlwar1",
+  "species" : "hylotl",
+  "title" : "End of Reasoning",
+  "description" : "An old Hylotl haiku, a recount of an ancient battle written by a warrior.",
+  "icon" : "pf_hylotlcoverextra4.png",
+  "contentPages" : [
+    "The Clashing Blades Sing,
+
+As Blood Melts Into The Rain,
+
+Feral Dominance"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

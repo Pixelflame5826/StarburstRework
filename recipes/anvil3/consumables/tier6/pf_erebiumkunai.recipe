@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pf_shadowstar", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_erebiumkunai", "count" : 10 },
+  "groups" : [ "craftingmanipulator", "craftingseparator", "craftingaccelerator", "consumables", "all" ]
+}

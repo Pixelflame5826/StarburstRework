@@ -1,0 +1,12 @@
+{
+  "name" : "pf_mildbiomecoldprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_mildbiomecoldprotection.lua"
+  ],
+
+  "label" : "Cold Protection - Immunity to Mild Chill and Mitigates Deadly Chill, Slight Resistance To Ice",
+  "icon" : "/interface/statuses/pf_coldprotection.png"
+}

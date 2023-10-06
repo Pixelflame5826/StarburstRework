@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A conductive crystal that is primarily found on electrically charged planets."
+    },
+	{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Violium Core"
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "durasteelbar", "count" : 10 },
+    { "item" : "pf_radioactiveremains", "count" : 3 },
+	{ "item" : "lead", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pf_radiationregulator",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist2", "hazardobjects" ]
+}

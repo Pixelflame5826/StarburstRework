@@ -1,0 +1,9 @@
+{
+  "name" : "pf_radioactivefluffalo",
+  "category" : "pf_radioactivefluffalo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

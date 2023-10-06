@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "stickofram", "count" : 2 },
+	{ "item" : "cryonicextract", "count" : 5 },
+	{ "item" : "refinedferozium", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "fireblockaugment",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist2", "augments" ]
+}

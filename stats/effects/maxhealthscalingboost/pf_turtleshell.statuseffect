@@ -1,0 +1,11 @@
+{
+  "name" : "pf_turtleshell",
+  "effectConfig" : {
+    "healthModifier" : 1.10
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "maxhealthscalingboost.lua"
+  ]
+}

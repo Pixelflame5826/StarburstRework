@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Chronium body armour, accented with bone. Sure to send chills down spines."
+    }
+]

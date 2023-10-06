@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_oceancrystal", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 },
+	{ "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_aquaripistol", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

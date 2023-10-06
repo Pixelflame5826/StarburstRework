@@ -1,0 +1,15 @@
+{
+  "name" : "pf_dungeondarkness",
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "pf_dungeondarkness.lua"
+  ],
+  "effectConfig" : {
+  },
+  
+  "animationConfig" : "pf_darkness.animation",
+  
+  "label" : "Looming Darkness - Reduced Visibility And Light Effectiveness",
+  "icon" : "/interface/statuses/pf_dungeondarkness.png"
+}

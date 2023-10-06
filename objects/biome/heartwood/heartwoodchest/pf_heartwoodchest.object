@@ -1,0 +1,40 @@
+{
+  "objectName" : "pf_heartwoodchest",
+  "colonyTags" : ["storage", "nature"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A natural looking wood chest, its overgrown in vines.",
+  "shortdescription" : "Heartwood Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "Quite the overgrown chest, whatever's in this might be old.",
+  "avianDescription" : "Such an old looking chest, what could be inside!?",
+  "floranDescription" : "Overgrown chesst, ssure to be valuable",
+  "glitchDescription" : "Excited. This chest looks ancient, might hold lots of valuables",
+  "humanDescription" : "Old chests like this usually contain something of great value.",
+  "hylotlDescription" : "Such a natural chest, quite the find to be sure.",
+  "novakidDescription" : "It's always a thrill to find an unopened chest, 'specially one like this!",
+
+  "inventoryIcon" : "pf_heartwoodchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_heartwoodchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

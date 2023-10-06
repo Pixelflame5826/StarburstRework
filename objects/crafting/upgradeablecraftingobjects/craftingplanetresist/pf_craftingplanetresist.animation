@@ -1,0 +1,144 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "craftingmedical",
+        "states" : {
+          "craftingmedical" : {
+            "frames" : 11,
+            "cycle" : 2.4,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "med1glow" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.25
+            }
+          },
+          "craftingmedical2" : {
+            "frames" : 11,
+            "cycle" : 2.4,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOff" : [ "med1glow" ],
+              "lightsOn" : [ "med2glow" ],
+			  "immediateSoundRangeMultiplier" : 0.25
+            },
+			
+            "frameProperties" : {
+              "immediateSound" : [ "", "", "", "", "", "", "/sfx/objects/penguin_welding1.ogg", "", "", "", "", "" ]
+            }
+          },
+		  "craftingmedical3" : {
+            "frames" : 16,
+            "cycle" : 2.4,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "med2glow" ],
+			  "immediateSoundRangeMultiplier" : 0.1
+            },
+			
+            "frameProperties" : {
+              "immediateSound" : [ "", "", "/sfx/melee/elemental_aura_activate.ogg", "", "", "", "", "", "", "", "", "" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "chassis" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "craftingmedical" : {
+              "properties" : {
+                "image" : "pf_craftingplanetresistlit.png:<color>.<frame>"
+              }
+            },
+
+            "craftingmedical2" : {
+              "properties" : {
+                "image" : "pf_craftingplanetresist2lit.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingmedical3" : {
+              "properties" : {
+                "image" : "pf_craftingplanetresist3lit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "fire" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "craftingmedical" : {
+              "properties" : {
+                "image" : "pf_craftingplanetresist.png:<color>.<frame>"
+              }
+            },
+
+            "craftingmedical2" : {
+              "properties" : {
+                "image" : "pf_craftingplanetresist2.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingmedical3" : {
+              "properties" : {
+                "image" : "pf_craftingplanetresist3.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/cinematics/mission_unlock_event.ogg"],
+    "fanfare2" : ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+
+  "lights" : {
+
+    "med1glow" : {
+      "active" : true,
+      "position" : [0, 1],
+      "color" : [40, 75, 112],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    },
+
+    "med2glow" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [38, 64, 38],
+      "flickerPeriod" : 1.0,
+      "flickerMinIntensity" : 0.9,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "itemName" : "pf_savannahbow",
+  "price" : 960,
+  "inventoryIcon" : "pf_savannahbowicon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "pf_uniquebow",
+  "category" : "bow",
+  "description" : "A powerful recurve bow made for huntin'. Fires golden arrows that can pierce the toughest hides.",
+  "shortdescription" : "The Golden Huntah",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow", "pf_anvilUpgradeableWeapon"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 2,
+  
+  "largeImage" : "pf_savannahbow.png:0",
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "pf_savannahbow.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "pf_goldarrow",
+    "powerProjectileType" : "pf_chargedgoldarrow",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+
+  "altAbilityType" : "bowshot",
+  "altAbility" : {
+    "fireOffset" : [1.75, 0.125],
+	"name" : "Crit Arrow",
+    "projectileType" : "pf_goldarrow",
+    "powerProjectileType" : "pf_chargedgoldarrow",
+    "projectileParameters" : {
+      "power" : 9.5,
+	  "emitters" : [ "sparks" ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/pf_buildbow.lua",
+  
+  "upgradeParameters" : {
+	"level3" : {
+	  "inventoryIcon" : "pf_savannahbow_l3icon.png",
+	  "largeImage" : "pf_savannahbow_l3.png:0",
+      "animationParts" : {
+        "bow" : "pf_savannahbow_l3.png"
+      },
+      "shortdescription" : "The Plated Huntah"
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_savannahbow_l4icon.png",
+	  "largeImage" : "pf_savannahbow_l4.png:0",
+      "animationParts" : {
+        "bow" : "pf_savannahbow_l4.png"
+      },
+      "shortdescription" : "The Gilded Huntah"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_savannahbow_l5icon.png",
+	  "largeImage" : "pf_savannahbow_l5.png:0",
+      "animationParts" : {
+        "bow" : "pf_savannahbow_l5.png"
+      },
+      "shortdescription" : "The Auric Huntah"
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_savannahbow_l6icon.png",
+	  "largeImage" : "pf_savannahbow_l6.png:0",
+      "animationParts" : {
+        "bow" : "pf_savannahbow_l6.png"
+      },
+      "shortdescription" : "The Gilded Compound",
+      "description" : "A masterful compound bow that will take the loights out of ya. Fires powerful golden arrows.",
+	  "primaryAbility" : {
+	    "drawFrameSelector" : "poisonBowImageSelector",
+        "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+        "projectileType" : "pf_goldcompoundarrow",
+		"powerProjectileType" : "pf_chargedgoldcompoundarrow",
+		"projectileParameters" : {
+		  "power" : 7.5
+		}
+      },
+	  "altAbility" : {
+	    "drawFrameSelector" : "poisonBowImageSelector",
+        "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+        "projectileType" : "pf_goldcompoundarrow",
+		"powerProjectileType" : "pf_chargedgoldcompoundarrow",
+		"projectileParameters" : {
+		  "power" : 10.5,
+		  "emitters" : [ "sparks" ]
+		}
+      }
+	}
+  }
+}

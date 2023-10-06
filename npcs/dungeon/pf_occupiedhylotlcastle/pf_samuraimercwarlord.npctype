@@ -1,0 +1,78 @@
+{
+  "type" : "pf_samuraimercwarlord",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "pf_samuraiwarlordTreasure" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" :  {
+	    "default" : {
+          "default" : [
+            "You made it up here? Impressive, a worthy challenger!",
+			"My ancestors guide my strikes true. Be ready!",
+			"Your strength is commendable, sadly none shall know of our operations.",
+			"Don't worry, your strength and tenacity will be spoken about for years after I kill you!",
+			"Its been awhile since I've faced a worthy opponent. Come at me!",
+			"I must thank you for giving my men such honorable deaths, sadly that's as far as you'll get.",
+			"My men were simply the impending front, I am the storm that proceeds it!",
+			"So you were the one who invaded this fortress? Hmph, well I'm afraid you won't see the fruits of it.",
+			"Its been awhile since I've fought someone who's gotten through my men. Have at you!",
+			"A strong challenger comes through my door. I've been waiting for this moment!",
+			"This fight shall be legendary!"
+          ]
+        },
+        "floran" : {
+          "default" : [
+            "So a Floran has stormed my fortress? Hmph, I thought I trained my men better. No matter, die!",
+            "My blade strikes like a hurricane and it will blow you over barbarian!",
+            "I feel my ancestor's anger, you've ransacked everything. No matter, you won't get past me!",
+			"For a Floran you seem quite skilled without many other allies, perhaps you'll actually be a challenge.",
+			"You Florans have no honor do you. Well, you're lucky that I'm kind enough to give you an honorable death.",
+			"Have at you beast! There's no turning back now!",
+			"The Blue Blade will guide me and defeat you, barbarian!",
+			"I will bring honor to my family by destroying you Floran!"
+          ]
+        }
+	  }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "valoroushead" } ],
+            "chest" : [ { "name" : "valorouschest" } ],
+            "legs" : [ { "name" : "valorouspants" } ],
+            "primary" : [ "npcpetcapturepod" ],
+            "sheathedprimary" : [ "pf_samuraikatana" ],
+            "alt" : [ "pf_oceansniper" ]
+          },
+		  {
+            "head" : [ { "name" : "valoroushead" } ],
+            "chest" : [ { "name" : "valorouschest" } ],
+            "legs" : [ { "name" : "valorouspants" } ],
+            "primary" : [ "npcpetcapturepod" ],
+            "sheathedprimary" : [ "pf_oceanspear" ],
+            "alt" : [ "pf_oceansniper" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {    
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

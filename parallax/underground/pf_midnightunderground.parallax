@@ -1,0 +1,28 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_midnightcavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/pf_midnightcavemid",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/pf_midnightcaveback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true,
+      "unlit" : false
+    }
+  ]
+}

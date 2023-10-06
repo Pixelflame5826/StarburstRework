@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_arcticrod",
+  "price" : 170,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_arcticrod.png",
+  "description" : "A really cold metal that is found in areas of extreme cold.",
+  "shortdescription" : "Cryonix Rod",
+  "itemTags" : [ "reagent" ]
+}

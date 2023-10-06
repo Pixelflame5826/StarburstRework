@@ -1,0 +1,21 @@
+{
+  "modId" : 29476,
+  "modName" : "pf_rubite",
+  "itemDrop" : "pf_desertore",
+  "description" : "Rubite.",
+  "health" : 10,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "pf_avianenergy",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_rubite.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [16, 0, 0]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_aquarisample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of an aquari crystal.\"",
+  "shortdescription" : "Aquari Sample",
+  
+  "apexDescription" : "Apparently Aquari crystals are sapphires that are infused with water.",
+  "avianDescription" : "A beautiful yet sharp Aquari crystal.",
+  "floranDescription" : "Water cryssstal.",
+  "glitchDescription" : "Curious. I wonder why water seems to condense on Aquari so well.",
+  "humanDescription" : "Some call these things \"Arquari\" crystals, odd dialect.",
+  "hylotlDescription" : "Ah, Aquari, the shining jewel that could make even an Emperor impressed.",
+  "novakidDescription" : "I feel like I could get wet by just holdin' this thing.",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_aquarisample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_aquarisample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

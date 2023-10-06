@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An upgraded version of the Neo Magnum. The barrel has been reinforced to handle more heat from firing."
+	}
+]

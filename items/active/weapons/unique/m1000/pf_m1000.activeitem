@@ -1,0 +1,144 @@
+{
+  "itemName" : "pf_m1000",
+  "price" : 1460,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Good choice... If precision is your thing. Its charge shots deal massive damage and can fire reasonably fast.",
+  "shortdescription" : "M-1000",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "pf_referenceWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sniperrifle","pf_anvilUpgradeableWeapon"],
+  "level" : 4,
+  
+  "inventoryIcon" : "pf_m1000.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_m1000.png",
+	"middleFullbright" : "pf_m1000fullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>",
+            "offset" : [1.2, 0.3],
+            "transformationGroups" : ["weapon"],
+            "fullbright" : true,
+            "zLevel" : 1
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/gun/sniper3.ogg"],
+	  "chargedfire" : ["/sfx/gun/pf_m1000_chargeshot.ogg"],
+	  "charging" : ["/sfx/melee/timepierce_windup.ogg"]
+    }
+  },
+
+  "baseOffset" : [1.2, 0.3],
+  "muzzleOffset" : [2.425, 0.1],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/unique/m1000/pf_chargeshot.lua"],
+    "class" : "pf_ChargeShot",
+	
+	"fireTime" : 0.4,
+    "baseDps" : 10,
+	"energyUsage" : 25,
+    
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 10,
+        "cooldown" : 0.4,
+        "projectileType" : "standardbullet",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0.01,
+        "baseDamage" : 4,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.5,
+        "energyCost" : 20,
+        "cooldown" : 0.6,
+        "projectileType" : "piercingbullet",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 7,
+        "fireSound" : "chargedfire"
+      }
+    ],
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+	  "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_m1000_l5.png",
+      "animationParts" : {
+        "middle" : "pf_m1000_l5.png",
+		"middleFullbright" : "pf_m1000_l5fullbright.png"
+      },
+      "shortdescription" : "M-1000 CE"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_m1000_l6.png",
+      "animationParts" : {
+        "middle" : "pf_m1000_l6.png",
+		"middleFullbright" : "pf_m1000_l6fullbright.png"
+      },
+      "shortdescription" : "M-1000 4R",
+      "description" : "A precise weapon used by scouts of an unknown world. Its internal coils allow for powerful charge shot."
+	}
+  }
+}

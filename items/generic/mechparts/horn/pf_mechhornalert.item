@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhornalert",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhornalert.png",
+  "description" : "Might as well alert the enemies before you burst in.",
+  "shortdescription" : "Red Alert Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_alert"]
+}

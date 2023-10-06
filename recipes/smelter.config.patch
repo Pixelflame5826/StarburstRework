@@ -1,0 +1,15 @@
+[
+  { "op" : "add", "path" : "/-", "value" : [ "pf_chroniumore", [ [ 1.00, "pf_chroniumbar" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_alienore", [ [ 1.00, "pf_alienorb" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_arcticore", [ [ 1.00, "pf_arcticrod" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_desertore", [ [ 1.00, "pf_desertcrystal" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_forestore", [ [ 1.00, "pf_forestdisk" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_jungleore", [ [ 1.00, "pf_junglebar" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_magmaore", [ [ 1.00, "pf_magmarod" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_oceanore", [ [ 1.00, "pf_oceancrystal" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_savannahore", [ [ 1.00, "pf_savannahbar" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_scorchedore", [ [ 1.00, "pf_scorchedrod" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_shadowore", [ [ 1.00, "pf_shadowstar" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_snowore", [ [ 1.00, "pf_snowcrystal" ] ] ] },
+  { "op" : "add", "path" : "/-", "value" : [ "pf_stormyore", [ [ 1.00, "pf_stormyrod" ] ] ] }
+]

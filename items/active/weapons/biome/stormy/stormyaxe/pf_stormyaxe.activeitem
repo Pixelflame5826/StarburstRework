@@ -1,0 +1,103 @@
+{
+  "itemName" : "pf_stormyaxe",
+  "level" : 5,
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A sharp Ice Pick that is meant to be used for climbing. Though it is an effective weapon.",
+  "shortdescription" : "Violium Ice Pick",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_stormyaxe.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "pf_stormyaxe.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 10.5,
+    "damageConfig" : {
+      "knockback" : 25
+    },
+	"stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0.25, 2.0],
+        "twoHanded" : false,
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.2,
+        "armRotation" : 90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0.25, 2.5],
+        "twoHanded" : false,
+
+        "allowFlip" : true,
+        "allowRotate" : true,
+
+        "bounceTime" : 0.12,
+        "bounceWeaponAngle" : [
+          [0.75, "linear", 20, 60],
+          [0.875, "sin", 60, 55],
+          [1.0, "cos", 60, 55]
+        ],
+
+        "weaponAngle" : [
+          [1.0, "linear", -20, 20]
+        ],
+
+        "armAngle" : [
+          [1.0, "sin", -90, 50]
+        ]
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -45,
+        "weaponOffset" : [0.25, 2.75],
+        "twoHanded" : false,
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level6" : {
+	  "inventoryIcon" : "pf_stormyaxe_l6.png",
+      "animationParts" : {
+        "blade" : "pf_stormyaxe_l6.png"
+      },
+      "shortdescription" : "Valley Cliffhanger",
+      "description" : "An incredibly sharp Ice Pick that can lodge itself even into slate. Quite an effective weapon",
+	  "primaryAbility" : {
+		"baseDps" : 11.75
+      }
+	}
+  }
+}

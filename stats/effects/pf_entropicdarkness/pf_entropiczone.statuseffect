@@ -1,0 +1,20 @@
+{
+  "name" : "pf_entropiczone",
+  "blockingStat" : "",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 0.7,
+      "airJumpModifier" : 0.7
+    }
+  },
+
+  "scripts" : [
+    "pf_entropiczone.lua"
+  ],
+
+  "animationConfig" : "pf_entropicdarkness.animation",
+
+  "label" : "Entropic Void - Reduced Defense, Attack, and Movement, Regeneration Blocked",
+  "icon" : "/interface/statuses/pf_entropicdarkness.png"
+}

@@ -1,0 +1,72 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_aliencavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_aliencavefrontfullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.1999999999999,
+      "repeatY" : true,
+      "unlit" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_aliencavefoliagefullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.299999,
+      "repeatY" : true,
+      "unlit" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_aliencavefoliage",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.3,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+	{
+      "kind" : "tile/pf_aliencavehollowfullbright",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.3499999,
+      "repeatY" : true,
+      "unlit" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/pf_aliencavehollow",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true,
+	  "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/cavernlights",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.9999999,
+      "repeatY" : true,
+      "unlit" : true
+    },
+    {
+      "kind" : "tile/cavern",
+      "nohueshift" : false,
+	  "directives" : "?hueshift=-112",
+      "lightMapped" : true,
+      "parallax" : 2,
+      "repeatY" : true,
+      "unlit" : false
+    }
+  ]
+}

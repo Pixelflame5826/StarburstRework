@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_scorchedore",
+  "price" : 80,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_scorchedore.png",
+  "description" : "A radioactive isotope that is constantly going critical, very hot.",
+  "shortdescription" : "Promethium Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

@@ -1,0 +1,57 @@
+{
+  "itemName" : "pf_xenobroadsword",
+  "price" : 960,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A strange double-helix blade formed from xenocyte and durasteel, very sharp and toxic. ",
+  "shortdescription" : "Xenocyte Coilsword",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "pf_xenobroadsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_xenobroadsword.png",
+	"bladeFullbright" : "pf_xenobroadswordfullbright.png"
+  },
+  "animationCustom" : { 
+    "animatedParts" : {
+      "parts" : {
+	    "bladeFullbright" : {
+          "properties" : {
+            "zLevel" : 0.1,
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0],
+			"offset" : [0, 1.875],
+			"fullbright" : true
+          }
+        }
+	  }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.93,
+    "baseDps" : 11.75,
+	
+	"damageConfig" : {
+      "damageSourceKind" : "poisonbroadsword"
+    }
+  },
+
+  "altAbilityType" : "giantsword",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

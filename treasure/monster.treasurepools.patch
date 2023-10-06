@@ -1,0 +1,168 @@
+[
+    {
+        "op": "replace",
+        "path": "/yokatVaultTreasure/0/1/pool/0/weight",
+        "value": 0.497
+    },
+    {
+        "op": "add",
+        "path": "/yokatVaultTreasure/0/1/pool/2",
+        "value": {
+            "weight": 0.497,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/voltipVaultTreasure/0/1/pool/0/weight",
+        "value": 0.497
+    },
+    {
+        "op": "add",
+        "path": "/voltipVaultTreasure/0/1/pool/2",
+        "value": {
+            "weight": 0.497,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/petricubVaultTreasure/0/1/pool/0/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/oculobVaultTreasure/0/1/pool/0/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/crutterVaultTreasure/0/1/pool/0/weight",
+        "value": 0.497
+    },
+    {
+        "op": "add",
+        "path": "/crutterVaultTreasure/0/1/pool/2",
+        "value": {
+            "weight": 0.497,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/yokatTreasure/0/1/pool/1/weight",
+        "value": 0.1
+    },
+    {
+        "op": "add",
+        "path": "/yokatTreasure/0/1/pool/3",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/voltipTreasure/0/1/pool/1/weight",
+        "value": 0.1
+    },
+    {
+        "op": "add",
+        "path": "/voltipTreasure/0/1/pool/3",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/petricubTreasure/0/1/pool/2/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/petricubTreasure/0/1/pool/2/weight",
+        "value": 0.2
+    },
+    {
+        "op": "replace",
+        "path": "/petricubTreasure/0/1/pool/1/item",
+        "value": "petricubaf"
+    },
+    {
+        "op": "replace",
+        "path": "/petricubTreasure/0/1/pool/1/weight",
+        "value": 0.001
+    },
+    {
+        "op": "replace",
+        "path": "/cosmicintruderTreasure/0/1/pool/1/weight",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/cosmicintruderTreasure/0/1/pool/0/weight",
+        "value": 0.79
+    },
+    {
+        "op": "add",
+        "path": "/cosmicintruderTreasure/0/1/pool/2",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/paraspriteTreasure/0/1/pool/2/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/paraspriteTreasure/0/1/pool/2/weight",
+        "value": 0.2
+    },
+    {
+        "op": "replace",
+        "path": "/paraspriteTreasure/0/1/pool/1/item",
+        "value": "paraspriteaf"
+    },
+    {
+        "op": "replace",
+        "path": "/paraspriteTreasure/0/1/pool/1/weight",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/oculobTreasure/0/1/pool/2/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/oculobTreasure/0/1/pool/2/weight",
+        "value": 0.2
+    },
+    {
+        "op": "replace",
+        "path": "/oculobTreasure/0/1/pool/1/item",
+        "value": "oculobaf"
+    },
+    {
+        "op": "replace",
+        "path": "/oculobTreasure/0/1/pool/1/weight",
+        "value": 0.001
+    },
+    {
+        "op": "replace",
+        "path": "/crutterTreasure/0/1/pool/1/weight",
+        "value": 0.1
+    },
+    {
+        "op": "add",
+        "path": "/crutterTreasure/0/1/pool/3",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_radioactiveremains"
+        }
+    }
+]

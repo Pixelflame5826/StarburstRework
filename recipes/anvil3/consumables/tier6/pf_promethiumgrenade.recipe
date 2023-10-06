@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_scorchedrod", "count" : 1 },
+	{ "item" : "pf_chroniumbar", "count" : 1 },
+	{ "item" : "scorchedcore", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_promethiumgrenade", "count" : 15 },
+  "groups" : [ "craftingmanipulator", "craftingseparator", "craftingaccelerator", "consumables", "all" ]
+}

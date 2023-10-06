@@ -1,0 +1,20 @@
+{
+  "modId" : 29478,
+  "modName" : "pf_xenocyte",
+  "itemDrop" : "pf_alienore",
+  "description" : "Xenocyte.",
+  "health" : 10,
+  "breaksWithTile" : true,
+  "harvestLevel" : 3,
+  
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "defaultmagenta",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_xenocyte.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

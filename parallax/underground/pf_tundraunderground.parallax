@@ -1,0 +1,40 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_tundracavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/pf_tundracavegodrays",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true,
+	  "unlit" : true
+    },
+    {
+      "kind" : "tile/pf_basicwaterfall",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.4,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/pf_tundracavespikes",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/pf_tundracaveback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.7,
+      "repeatY" : true
+    }
+  ]
+}

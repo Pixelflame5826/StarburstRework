@@ -1,0 +1,43 @@
+{
+  "objectName" : "pf_pgichest",
+  "colonyTags" : ["storage", "misc"],
+  "rarity" : "Rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 150,
+  "description" : "A strange, out of place green chest. It's contents must be otherworldly.",
+  "shortdescription" : "Generic Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A strange cubic chest, my curiosity is piqued.",
+  "avianDescription" : "This chest doesn't feel like it's from this world.",
+  "floranDescription" : "Floran unssettled by chesst.",
+  "glitchDescription" : "Wary. I don't think the contents of this chest are your normal treasures.",
+  "humanDescription" : "What the hell is this? Did it come from another dimension or something?",
+  "hylotlDescription" : "The perfect edges of this chest don't denote any normal craftsmanship.",
+  "novakidDescription" : "Now what in tarnation is this? It sure ain't any chest I've seen.",
+  "nostosDescription" : "This chest reminds me of those green cubes... hm... could it've been created through similar means?",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_pgichest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  
+  "learnBlueprintsOnPickup" : [ "pf_pgichest" ]
+}

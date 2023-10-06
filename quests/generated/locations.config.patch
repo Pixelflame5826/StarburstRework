@@ -1,0 +1,111 @@
+[
+    {
+        "op": "add",
+        "path": "/pf_stormy",
+        "value": {
+            "house1": {
+                "name": "inside a small cabin",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "house2": {
+                "name": "inside a large cabin",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "cliffside1": {
+                "name": "modern scaffolding",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "cliffside2": {
+                "name": "old cliffside watching station",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "fulgur1": {
+                "name": "lightning struck cabin ruins",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "ruinedhouse1": {
+                "name": "overgrown cabin ruins",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "ruinedhouse2": {
+                "name": "above a cabin ruin's basement",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "tower1": {
+                "name": "short radio tower",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "tower2": {
+                "name": "tall radio tower",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "tower3": {
+                "name": "cluster of radio towers",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            },
+            "tunnel1": {
+                "name": "tunnel-shielded encampment",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
+            }
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/pf_occupiedhylotlcastle",
+        "value": {
+            "castletop": {
+                "name": "top of the occupied Hylotl castle",
+                "tags": [
+                    "hylotl",
+                    "friendly"
+                ],
+                "range": 600
+            }
+        }
+    }
+]

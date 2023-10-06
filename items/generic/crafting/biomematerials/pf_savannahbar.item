@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_savannahbar",
+  "price" : 120,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_savannahbar.png",
+  "description" : "A strange golden material primarily found in arid climates.",
+  "shortdescription" : "Aurium Bar",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "op": "remove",
+        "path": "/orientations/0/fgAnchors"
+    },
+    {
+        "op": "add",
+        "path": "/orientations/0/anchors",
+        "value": [
+            "bottom"
+        ]
+    }
+]

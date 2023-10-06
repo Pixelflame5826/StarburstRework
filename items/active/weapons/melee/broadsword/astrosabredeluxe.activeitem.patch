@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An aesthetic sword that cuts space and rends gods. Congrats, you found the sword of plot progression."
+    }
+]

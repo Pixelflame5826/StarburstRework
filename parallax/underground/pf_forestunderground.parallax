@@ -1,0 +1,46 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_forestcavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/plants",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/pf_cavernlargetree",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.3500000001,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/smoothgap",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.4,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/pf_cavernsmalltree",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/pf_forestcaveback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.6,
+      "repeatY" : true
+    }
+  ]
+}

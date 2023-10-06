@@ -1,0 +1,66 @@
+{
+  "projectileName" : "pf_stormygrapplehook",
+  "image" : "pf_stormygrapplehook.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "flippable" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "power" : 0.0,
+  "speed" : 100,
+  "damageKind" : "default",
+  "physics" : "grapplehook",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "grapplehook.lua" ],
+
+  "breakOnSlipperyCollision" : true,
+  
+  "periodicActions" : [
+    {
+	  "time" : 0,
+      "repeat" : false,
+      "action" : "loop",
+      "count" : 2,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "electricswoosh1",
+          "time" : 0.01,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "electricalburn",
+          "time" : 0.01,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/ropehook_impact1.ogg",
+        "/sfx/projectiles/ropehook_impact2.ogg",
+        "/sfx/projectiles/ropehook_impact3.ogg",
+        "/sfx/projectiles/ropehook_impact4.ogg",
+        "/sfx/projectiles/ropehook_impact5.ogg",
+        "/sfx/projectiles/ropehook_impact6.ogg",
+        "/sfx/projectiles/ropehook_impact7.ogg",
+        "/sfx/projectiles/ropehook_impact8.ogg",
+        "/sfx/projectiles/ropehook_impact9.ogg",
+        "/sfx/projectiles/ropehook_impact10.ogg",
+        "/sfx/projectiles/ropehook_impact11.ogg",
+        "/sfx/projectiles/ropehook_impact12.ogg"
+      ]
+    }
+  ]
+}

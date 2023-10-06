@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/biomeairless/text",
+        "value": "Warning! This planet has no atmosphere!\nYou will suffocate quicky, I highly recommend finding ways to retain air before exploring."
+    },
+    {
+        "op": "replace",
+        "path": "/biomeheat/text",
+        "value": "WARNING! TEMPERATURES ON THIS PLANET ARE DANGEROUSLY HIGH!\nYou are losing life and being slowed, I do not recommend exploration without proper equipment!"
+    },
+    {
+        "op": "replace",
+        "path": "/biomecold/text",
+        "value": "WARNING! TEMPERATURES ON THIS PLANET ARE DANGEROUSLY LOW!\nYou are losing life fast, I do not recommend exploration without proper equipment!"
+    },
+    {
+        "op": "replace",
+        "path": "/biomeradiation/text",
+        "value": "WARNING! RADIATION LEVELS ON THIS PLANET ARE DEADLY!\nYour overall health is at risk, I do not recommend exploration without proper equipment!"
+    }
+]

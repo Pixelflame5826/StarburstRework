@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_forestdisk", "count" : 1 },
+    { "item" : "logblock", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_heartwoodtomahawk", "count" : 15 },
+  "groups" : [ "craftinganvil", "consumables", "all" ]
+}

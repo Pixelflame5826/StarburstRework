@@ -1,0 +1,104 @@
+{
+  "type" : "pf_stormy",
+  "baseType" : "merchanttenant",
+  
+  "damageTeam" : 1,
+
+  "disableWornArmor" : true,
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant"]
+    },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "human" : ["pf_stormymerchant" ]
+      },
+      "buyFactorRange" : [ 9.0, 9.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 10,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Stormchaser",
+          "subtitle" : "  Sells hazard supplies!"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "human" : {
+            "default" : [
+              "Out exploring?! Get some hazard blocking materials here!",
+              "Hazard supplies over here!",
+              "Greetings! I have some hazard blocking equipment for sale."
+            ]
+          }  
+        },
+        "welcome" : {
+          "human" : {
+            "default" : [
+              "Welcome to my store! It may not be much, but it protects from the elements.",
+              "And here we are! I have hazard blockers and basic storm supplies for sale.",
+              "Welcome! I'm sure you need a resupply after your travels."
+            ]
+          }  
+        },
+        "end" : {
+          "human" : {
+            "default" : [
+              "Don't let the weather get ya!",
+              "May the skies be clear for you... and mine be dreadful. Hehehe...",
+              "Come back anytime you need some survival gear!"
+            ]
+          }
+        },
+        "follow" : "/dialog/merchant.config:follow",
+        "tout" : "/dialog/merchant.config:tout"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/merchant.config:tagCriteria",
+          "enclosedArea" : "/dialog/merchant.config:enclosedArea",
+          "otherDeed" : "/dialog/merchant.config:otherDeed",
+          "severe" : "/dialog/merchant.config:severe",
+          "final" : "/dialog/merchant.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/merchant.config:beacon",
+          "rent" : "/dialog/merchant.config:rent"
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "pf_stormgearhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "pf_stormgearchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "back" : [
+              { "name" : "pf_stormgearback", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "pf_stormgearlegs", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}
+

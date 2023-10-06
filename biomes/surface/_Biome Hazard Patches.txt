@@ -1,0 +1,61 @@
+Existing monster stat parameters
+    {
+        "op": "add",
+        "path": "/spawnProfile/monsterParameters/statusSettings/stats/pf_mildBiomeHeatImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/spawnProfile/monsterParameters/statusSettings/stats/pf_mildBiomeColdImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/spawnProfile/monsterParameters/statusSettings/stats/pf_mildBiomeRadiationImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/spawnProfile/monsterParameters/statusSettings/stats/pf_mildBiomePoisonImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+    {
+        "op": "add",
+        "path": "/spawnProfile/monsterParameters/statusSettings/stats/pf_mildBiomeLightningImmunity",
+        "value": {
+            "baseValue": 1
+        }
+    },
+
+New monster stat parameters
+    {
+        "op": "add",
+        "path": "/spawnProfile/monsterParameters/statusSettings",
+        "value": {
+            "stats": {
+                "pf_mildBiomeHeatImmunity": {
+                  "baseValue": 1
+                },
+                "pf_mildBiomeColdImmunity": {
+                    "baseValue": 1
+                },
+                "pf_mildBiomeRadiationImmunity": {
+                    "baseValue": 1
+                },
+               "pf_mildBiomePoisonImmunity": {
+                    "baseValue": 1
+                },
+                "pf_mildBiomeLightningImmunity": {
+                    "baseValue": 1
+                }
+            }
+        }
+    },

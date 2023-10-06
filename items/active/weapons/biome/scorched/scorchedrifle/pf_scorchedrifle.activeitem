@@ -1,0 +1,103 @@
+{
+  "itemName" : "pf_scorchedrifle",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An assault rifle that burns everything in its sights. This gun would've been illegal in the Terran Government...",
+  "shortdescription" : "Tartarus",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 4,
+
+  "inventoryIcon" : "pf_scorchedrifle.png",
+
+  "animation" : "/items/active/weapons/ranged/pf_fullbrightgun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_scorchedrifle.png",
+	"middleFullbright" : "pf_scorchedriflefullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+  
+    "animatedParts" : { "parts" : {
+      "grenadelauncher" : {
+        "properties" : {
+          "offset" : [-1.55, -0.385],
+          "firePosition" : [1.55, -0.135],
+		  "image" : "/items/active/weapons/biome/scorched/scorchedrifle/pf_grenadelauncher.png"
+        }
+      }
+    }},
+    "sounds" : {
+      "fire" : ["/sfx/gun/rifle2.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.7, 0.15],
+  "muzzleOffset" : [2.1, 0.15],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.11,
+    "baseDps" : 10.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "fireplasma",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "grenadelauncher",
+  "altAbility" : {
+    "elementalConfig" : {
+      "fire" : { "projectileType" : "pf_scorchedgrenade" }
+    },
+	"name" : "Prometheus Cluster",
+	"fireTime" : 10.0
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

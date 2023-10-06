@@ -1,0 +1,51 @@
+{
+  "objectName" : "pf_raindoll",
+  "colonyTags" : ["hylotl", "pretty", "pf_weather"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "A traditional paper doll that is hung up on windows to ward off bad weather.",
+  "shortdescription" : "Teru Teru Bozu",
+  "race" : "hylotl",
+
+
+  "apexDescription" : "This paper doll is meant to ward off rain? Interesting tradition.",
+  "avianDescription" : "Interesting to see how other traditions ward off bad weather, we usually just do dances for it.",
+  "floranDescription" : "Floran charmed by little ghosst.",
+  "glitchDescription" : "Charmed. This is a cute paper doll. Wonder what it's used for.",
+  "humanDescription" : "Ah yes, a paper doll meant to ward off rain. The first drops of it will destroy it though",
+  "hylotlDescription" : "Ah, a beautiful tradition. Keeping bad weather away with cute paper dolls.",
+  "novakidDescription" : "Ain't this a cute lil' weather changer.",
+  "nostosDescription" : "While it's effectiveness at changing the weather is debatable, it certainly is cute.",
+
+
+  "inventoryIcon" : "pf_raindollicon.png",
+  "orientations" : [
+    {
+      "image" : "pf_raindoll.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 5,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "pf_raindoll.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 5,
+      "animationCycle" : 3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+
+}

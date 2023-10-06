@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_customgun.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A pistol created from the Bone Dragon. Its shots can be charged to blast enemies. Here be dragons!"
+    },
+    {
+        "op": "add",
+        "path": "/shotDamage",
+        "value": 1.5
+    },
+    {
+        "op": "add",
+        "path": "/energyCost",
+        "value": 5
+    },
+    {
+        "op": "add",
+        "path": "/fireTime",
+        "value": 0.1
+    }
+]

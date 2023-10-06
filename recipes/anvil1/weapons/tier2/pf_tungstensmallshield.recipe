@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 5 },
+    { "item" : "darkwoodmaterial", "count" : 5 },
+    { "item" : "fabric", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_tungstensmallshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

@@ -1,0 +1,62 @@
+{
+  "objectName" : "pf_temperingforge",
+  "colonyTags" : [ "crafting", "light" ],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "This forge can be used to improve many kinds of weapons, at the cost of strong enough materials.",
+  "shortdescription" : "^orange;Tempering Forge^white;",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 500,
+  
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "A tempering forge, I can reforge weapons with this.",
+  "avianDescription" : "A hot forge, I can now temper weapons",
+  "floranDescription" : "Forge flamess hissss, burn. Makesss better weaponss.",
+  "glitchDescription" : "Excited. I can show off my smithing skills and make weapons better.",
+  "humanDescription" : "A tempering forge. Upgrades people, upgrades!",
+  "hylotlDescription" : "The weapons I remake with this will be works of art.",
+  "novakidDescription" : "Stronger weapons, easier kills. Jus' that simple.",
+
+  "inventoryIcon" : "pf_temperinganvil2icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "pf_temperinganvil2.png:<frame>" }, { "image" : "pf_temperinganvil2fullbright.png:<frame>", "fullbright" : true } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-23, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "pf_temperinganvil2.png:<frame>" }, { "image" : "pf_temperinganvil2fullbright.png:<frame>", "fullbright" : true } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-23, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/furnace.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradebargui.config"
+}

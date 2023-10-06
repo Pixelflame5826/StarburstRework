@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomecoldaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomecoldaugment.lua"
+  ],
+
+  "label" : "Cold Immunity - Immunity to Deadly Cold",
+  "icon" : "/interface/statuses/pf_advcoldprotection.png"
+}

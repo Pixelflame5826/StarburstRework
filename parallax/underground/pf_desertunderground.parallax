@@ -1,0 +1,32 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_desertcavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/pf_desertcavefalls",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/pf_desertcavemid",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/boneback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.6,
+      "repeatY" : true
+    }
+  ]
+}

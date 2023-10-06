@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_alienore",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_alienore.png",
+  "description" : "A biological alien material that is able to merge with metals easily.",
+  "shortdescription" : "Xenocyte Colony",
+  "itemTags" : [ "reagent" ]
+}

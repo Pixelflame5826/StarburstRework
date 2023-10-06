@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/groups/1",
+        "value": "hazardgear"
+    },
+    {
+        "op": "replace",
+        "path": "/groups/0",
+        "value": "craftinganvil3"
+    }
+]

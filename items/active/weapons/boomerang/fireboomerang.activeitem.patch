@@ -1,0 +1,27 @@
+[
+	{
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildboomerang.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueboomerang"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A fiery hot boomerang infused with a molten core. Packs one hell of a punch, even if it doesn't travel far."
+    },
+	{
+        "op": "replace",
+        "path": "/cooldownTime",
+        "value": 0.8
+    },
+	{
+        "op": "add",
+        "path": "/elementalType",
+        "value": "fire"
+    }
+]

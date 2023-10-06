@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "pf_thunderfly",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "pf_thunderfly",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  }
+]

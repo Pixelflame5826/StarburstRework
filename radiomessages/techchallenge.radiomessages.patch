@@ -1,0 +1,82 @@
+[
+    {
+        "op": "replace",
+        "path": "/techchallenge_morphball2/text",
+        "value": "This tech can also be used midair to reach high gaps. ^#71f2f6;Activate your ^orange;Distortion Sphere ^#71f2f6;mid-jump^white; to get into this passageway successfully."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_morphball2/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/techchallenge_morphball1/text",
+        "value": "Elliot again, this new tech is very simple, but shows lots of promise. ^#71f2f6;Press F to make activate ^orange;Distortion Sphere^white;, to transform in and out of a ball form."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_morphball1/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/techchallenge_dash4/text",
+        "value": "The Dash is not only able to move fast, but it can dodge things as well. These are ^orange;cryogenic blasters^white;. They are not lethal, but any contact will slow you down, ^#71f2f6;dodge them^white;."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_dash4/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/techchallenge_dash3/text",
+        "value": "This section's doors are on a ^orange;very limited timer^white;. It might take you some tries, but this is to make sure you've mastered the tech."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_dash3/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/techchallenge_dash2/text",
+        "value": "These doors only open very briefly, good thing this tech gives you bursts of speed. You should ^#71f2f6;operate the switch and dash through it in the short window you have.^white;."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_dash2/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/techchallenge_dash1/text",
+        "value": "Elliot here. This obstacle course requires the use of the ^orange;Dash^white; I've given you. To use it ^#71f2f6;double tap A or D to quickly dash left or right^white;."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_dash1/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/techchallenge_doublejump2/text",
+        "value": "This tech can give you air distance as well. ^#71f2f6;Delay using ^orange;Pulse Jump^white; until you are level with the target platform's edge."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_doublejump2/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/techchallenge_doublejump1/text",
+        "value": "Hey, its Elliot, I'm here to guide you through the course. So first off, to activate ^orange;Pulse Jump^white;, ^#71f2f6;press spacebar while in the air^white;. Doing so will give you a small upwards boost."
+    },
+    {
+        "op": "add",
+        "path": "/techchallenge_doublejump1/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    }
+]

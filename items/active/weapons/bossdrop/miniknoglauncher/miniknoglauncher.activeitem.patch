@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A rocket launcher developed for the \"Oz-987 Big Ape\" system. It's able to fire bursts of rockets at once."
+    }
+]

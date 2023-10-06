@@ -1,0 +1,49 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An airtank that filters out toxins in the air through carbon. Increases air capacity and protects against Mild Toxicity."
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_hazardairtank"
+        ]
+    },
+    {
+        "op": "replace",
+        "path": "/category",
+        "value": "enviroProtectionPack"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+			
+			"pf_status1Image": "/interface/statuses/pf_biomepoison.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "Resistant",
+            "pf_status2Image": "/interface/statuses/pf_breath.png",
+            "pf_status2BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status2Label": "+75"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pickupepp"
+        ]
+    }
+]

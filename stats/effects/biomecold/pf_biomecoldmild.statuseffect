@@ -1,0 +1,22 @@
+{
+  "name" : "pf_biomecoldmild",
+  "blockingStat" : "pf_mildBiomeColdImmunity",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 0.9,
+      "airJumpModifier" : 0.9
+    },
+    "tickRate" : 460
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "pf_biomecoldmild.lua"
+  ],
+
+  "animationConfig" : "biomecold.animation",
+
+  "label" : "Mild Chill - Minor Compounding Health Loss, Slower Movement ",
+  "icon" : "/interface/statuses/biomecold.png"
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_heartwoodsample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of a heartwood core.\"",
+  "shortdescription" : "Heartwood Sample",
+  
+  "apexDescription" : "Ancient trees petrified into a strong material, curious.",
+  "avianDescription" : "Time has not worn down this wood, it made it stronger.",
+  "floranDescription" : "Floran likesss making spearss out of heartwood.",
+  "glitchDescription" : "Fascinated. Most petrified woods are fairly brittle, this isn't.",
+  "humanDescription" : "I thought weapons made from wood were meant to be bottom tier.",
+  "hylotlDescription" : "The flow of time seems to have looked fondly upon this wood.",
+  "novakidDescription" : "Workin' quite well despite its age, makes for good furniture too.",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_heartwoodsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_heartwoodsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

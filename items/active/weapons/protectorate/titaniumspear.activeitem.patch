@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A hefty spear forged from titanium. Keeps your enemies at a safe distance, not closer, sadly."
+    }
+]

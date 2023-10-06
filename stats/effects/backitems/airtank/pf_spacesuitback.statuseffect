@@ -1,0 +1,11 @@
+{
+  "name" : "pf_spacesuitback",
+  "effectConfig" : {
+	"breathRate" : 0.75
+  },
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "pf_airtank.lua"
+  ]
+}

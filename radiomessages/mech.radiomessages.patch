@@ -1,0 +1,72 @@
+[
+    {
+        "op": "replace",
+        "path": "/testdrive07/text",
+        "value": "^green;Congrats! You completed my test course!^white; I think you've earned yourself a Mech License. Remember though, many places in space are like this one, but won't give you room to breathe."
+    },
+    {
+        "op": "add",
+        "path": "/testdrive07/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/testdrive06/text",
+        "value": "The mech is too large to continue through this area. ^#71f2f6;Press E to enter and exit the mech^white;, continue on foot. Remember, your mech can't enter some spaces."
+    },
+    {
+        "op": "add",
+        "path": "/testdrive06/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/testdrive05/text",
+        "value": "Now, lets put your piloting skills to the test. If you wish to explore certain space anomalies, you will encounter hostile enemies. Don't worry though, as they may drop Energy Cells, which recharge your mech."
+    },
+    {
+        "op": "add",
+        "path": "/testdrive05/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/testdrive04/text",
+        "value": "Please be aware of your mech's energy reserves, visualised as the ^#60b8ea;blue bar^white; you can see on your HUD. Your mech's energy will deplete over time or when the vehicle takes damage, so be careful."
+    },
+    {
+        "op": "add",
+        "path": "/testdrive04/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/testdrive03/text",
+        "value": "Your mech automatically changes to walking mode when in a gravitational field. It reduces mobility but can be faster. Proceed onwards with this new control scheme."
+    },
+    {
+        "op": "add",
+        "path": "/testdrive03/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/testdrive02/text",
+        "value": "Lets test your weapon abilities, aim at the targets and fire your primary weapon at them, which should be the Spike Fist. Destroy them all and you may proceed to the next room."
+    },
+    {
+        "op": "add",
+        "path": "/testdrive02/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    },
+    {
+        "op": "replace",
+        "path": "/testdrive01/text",
+        "value": "Hey, Dr. Akaggy here. Welcome to the training course for your mech license. Currently you are suspended in zero-gravity, I would recommend to not leave the mech at the moment."
+    },
+    {
+        "op": "add",
+        "path": "/testdrive01/portraitImage",
+        "value": "/interface/chatbubbles/soundonly.png:<frame>"
+    }
+]

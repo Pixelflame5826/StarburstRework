@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_alienorb", "count" : 1 },
+	{ "item" : "alienstripedwood", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_xenojavelin", "count" : 10 },
+  "groups" : [ "craftinganvil3", "consumables", "all" ]
+}

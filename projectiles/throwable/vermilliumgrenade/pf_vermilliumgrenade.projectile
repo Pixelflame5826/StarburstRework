@@ -1,0 +1,33 @@
+{
+  "projectileName" : "pf_vermilliumgrenade",
+  "physics" : "grenade",
+  "timeToLive" : 2,
+  "damageKindImage" : "icon.png",
+  "image" : "pf_vermilliumgrenade.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "bounces" : -1,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/snowball_hit_organic2.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "pf_vermilliumgrenadeactive",
+	  "inheritDamageFactor" : 1.0,
+      "inheritSpeedFactor" : 1
+    },
+	{
+	  "action" : "sound",
+      "options" : [
+        "/sfx/gun/reload/pistol_reload_clip1.ogg"
+      ]
+	}
+  ],
+  "power" : 5
+}

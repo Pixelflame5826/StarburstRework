@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "pf_sasquachcritter",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "pf_sasquachcritter",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  }
+]

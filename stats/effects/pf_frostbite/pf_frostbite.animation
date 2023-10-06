@@ -1,0 +1,19 @@
+{
+  "particleEmitters" : {
+    "frost" : {
+      "enabled" : true,
+      "emissionRate" : 7.0,
+      "particles" : [
+        {
+          "particle" : "iceswoosh1"
+        },
+		{
+          "particle" : "iceswoosh2"
+        },
+		{
+          "particle" : "iceswoosh3"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type" : "pf_samuraimerc",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "pf_samuraimercTreasure" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/pf_samuraimerc.config:attack"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "hylotltier2head" } ],
+            "chest" : [ { "name" : "hylotltier2chest" } ],
+            "legs" : [ { "name" : "hylotltier2pants" } ],
+            "primary" : [ "pf_samuraikatana" ],
+            "sheathedprimary" : [ "npcpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

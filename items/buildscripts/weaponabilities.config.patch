@@ -1,0 +1,7 @@
+[
+    {
+        "op": "add",
+        "path": "/pf_elementalparry",
+        "value": "/items/active/weapons/melee/abilities/broadsword/elementalparry/pf_elementalparry.weaponability"
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "input" : [
+	{ "item" : "pf_chroniumbar", "count" : 10 },
+	{ "item" : "essence", "count" : 100 },
+	{ "item" : "livingroot", "count" : 1 },
+	{ "item" : "scorchedcore", "count" : 1 },
+	{ "item" : "cryonicextract", "count" : 1 },
+	{ "item" : "staticcell", "count" : 1 },
+	{ "item" : "venomsample", "count" : 1 },
+	{ "item" : "pf_radioactiveremains", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_environmentregulator",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist3", "hazardobjects" ]
+}

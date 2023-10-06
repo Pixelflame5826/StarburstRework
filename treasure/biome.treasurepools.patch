@@ -1,0 +1,382 @@
+[
+    {
+        "op": "add",
+        "path": "/gardenTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.035,
+            "item": "pf_gardenbroadsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/gardenTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.035,
+            "item": "pf_gardenpistol"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_forestbroadsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_forestleafgun"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwoodchair-recipe"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwoodtable-recipe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwoodlamp-recipe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwooddesklamp-recipe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwooddoor-recipe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwoodclock-recipe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwoodbed-recipe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_heartwoodchest-recipe"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/desertTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_deserthammer"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/desertTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_desertpistol"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/savannahTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_savannahsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/savannahTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_savannahbow"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/snowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.11,
+            "item": "pf_snowshortsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/snowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.11,
+            "item": "pf_snowgrenadelauncher"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/oceanFloorTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_oceanspear"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/oceanFloorTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_oceansniper"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/jungleTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "venomsample"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/jungleTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_junglebroadsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/jungleTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_jungleshotgun"
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/alienTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_alienraygun"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/alienTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_alienwhip"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/alienTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "pf_radioactiveremains"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/toxicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_toxicmachinepistol"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/toxicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_toxicbroadsword"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/shadowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": ["shadowblock", 5]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/shadowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": ["shadowspikeblock", 5]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/shadowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": ["shadowwallblock", 5]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/shadowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "shadowchimes"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/shadowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "shadowmarker"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/shadowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.09,
+            "item": "pf_midnightshortsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/shadowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.06,
+            "item": "pf_midnightstaff"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/iceTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "cryonicextract"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/iceTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.175,
+            "item": "pf_tundrabroadsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/iceTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.175,
+            "item": "pf_tundraboomerangaxe"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/volcanicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "scorchedcore"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/volcanicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.35,
+            "item": "diamonddrill"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/volcanicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.35,
+            "item": "diamondpickaxe"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/volcanicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.4,
+            "item": "miningdrone"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/volcanicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.175,
+            "item": "pf_volcanicbroadsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/volcanicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.075,
+            "item": "pf_volcaniclauncher"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/scorchedcityTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_scorcheddagger"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/scorchedcityTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.15,
+            "item": "pf_scorchedrifle"
+        }
+    }
+]

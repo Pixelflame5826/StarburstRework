@@ -1,0 +1,66 @@
+[
+    {
+        "op": "replace",
+        "path": "/yokatHunting/0/1/pool/1/weight",
+        "value": 0.2
+    },
+    {
+        "op": "add",
+        "path": "/yokatHunting/0/1/pool/3",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/voltipHunting/0/1/pool/0/weight",
+        "value": 0.497
+    },
+    {
+        "op": "add",
+        "path": "/voltipHunting/0/1/pool/2",
+        "value": {
+            "weight": 0.497,
+            "item": "pf_radioactiveremains"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/petricubHunting/0/1/pool/1/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/paraspriteHunting/0/1/pool/1/weight",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/paraspriteHunting/0/1/pool/0/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/paraspriteHunting/0/1/pool/0/weight",
+        "value": 0.99
+    },
+    {
+        "op": "replace",
+        "path": "/oculobHunting/0/1/pool/0/item",
+        "value": "pf_radioactiveremains"
+    },
+    {
+        "op": "replace",
+        "path": "/crutterHunting/0/1/pool/1/weight",
+        "value": 0.2
+    },
+    {
+        "op": "add",
+        "path": "/crutterHunting/0/1/pool/3",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_radioactiveremains"
+        }
+    }
+]

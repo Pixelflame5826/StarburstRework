@@ -1,0 +1,23 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueboomerang"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+		    "levelLabel" : "6",
+            "damagePerShotLabel": "7.875",
+			"speedLabel" : "0",
+			"altAbilityTitleLabel" : "Special",
+			"altAbilityLabel" : "Magnet Shield"
+        }
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A specialized magnetic bracer that launches ferrous orbs at high speeds. The juggler will have his revenge."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/6f2919",
+        "value": "885100"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/a85636",
+        "value": "b59209"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/e0975c",
+        "value": "e2c344"
+    },
+    {
+        "op": "replace",
+        "path": "/colorOptions/0/ffca8a",
+        "value": "ffffa7"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Forged of solarium; strong armour to defend a strong heart. "
+    }
+]

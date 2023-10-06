@@ -1,0 +1,9 @@
+{
+  "name" : "pf_thunderfly",
+  "category" : "pf_thunderfly",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pf_thunderfly.png"
+  }
+}

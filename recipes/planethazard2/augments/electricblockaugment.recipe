@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "stickofram", "count" : 2 },
+	{ "item" : "staticcell", "count" : 5 },
+	{ "item" : "refinedviolium", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "electricblockaugment",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist2", "augments" ]
+}

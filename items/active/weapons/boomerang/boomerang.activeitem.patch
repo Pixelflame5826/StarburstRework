@@ -1,0 +1,17 @@
+[
+	{
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildboomerang.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueboomerang"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A hi-tech boomerang that uses microthrusters to make sure it comes back. Though, all it can do is bonk things."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Asra Nox built this katana to rend and burn anything it touches. Its design is very elegant, yet menacing."
+    }
+]

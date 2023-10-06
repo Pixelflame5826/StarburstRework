@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_handwarmer",
+  "price" : 20,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_handwarmer.png",
+  "description" : "A nice hot hand warmer. Resists Mild Planet Cold and cures Frost.",
+  "shortdescription" : "Hand Warmer",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_mildbiomecoldprotection",
+        "duration" : 240
+      },
+      {
+        "effect" : "iceblock",
+        "duration" : 2
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

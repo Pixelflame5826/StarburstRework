@@ -1,0 +1,45 @@
+{
+  "itemName" : "pf_stormygrapplinghook",
+  "price" : 4000,
+  "inventoryIcon" : "pf_stormygrapplehookicon.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "description" : "A magnetic powered grappling hook catapult. Perfect for high places.",
+  "shortdescription" : "Rail-Grappler",
+  "largeImage" : "pf_stormygrapplehookbig.png",
+  "category" : "Tool",
+  "fireTime" : 0,
+  "twoHanded" : false,
+  "tooltipKind" : "tool",
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "pf_stormygrapplinghook.animation",
+
+  "fireOffset" : [0, 0.3],
+  "ropeOffset" : [-1.75, 0.3],
+  "ropeVisualOffset" : [0.75, 0.3],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "pf_stormygrapplehook",
+  "projectileParameters" : {
+    "speed" : 105,
+    "timeToLive" : 0.25
+  },
+
+  "ropeWidth" : 1.0,
+  "ropeColor" : [36, 36, 36, 255],
+
+  "reelInDistance" : 3.5,
+  "reelOutLength" : 70,
+  "breakLength" : 80,
+
+  "minSwingDistance" : 1.75,
+
+  "reelSpeed" : 20,
+  "controlForce" : 1000,
+
+  "groundLagTime" : 0.2
+}

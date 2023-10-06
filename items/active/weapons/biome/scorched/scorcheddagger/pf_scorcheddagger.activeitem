@@ -1,0 +1,91 @@
+{
+  "itemName" : "pf_scorcheddagger",
+  "price" : 560,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A brutal combat knife that rends enemies and sets them ablaze. Not many things can survive a slice from this.",
+  "shortdescription" : "Apollyon",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+  "inventoryIcon" : "pf_scorcheddagger.png",
+
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "pf_scorcheddagger.png",
+	"bladeFullbright" : "pf_scorcheddaggerfullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "bladeFullbright" : {
+          "properties" : {
+            "zLevel" : 1,
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>",
+		    "fullbright" : true,
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          }
+        }
+      }
+	},
+	"sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_fire1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "aimOffset" : 0.0,
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : 0.35,
+    "baseDps" : 9.0,
+    "damageConfig" : {
+      "damageSourceKind" : "firedagger",
+      "statusEffects" : [ "pf_scorchedfire", "pf_bleeding" ],
+      "knockbackMode" : "aim",
+      "knockback" : 10,
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : -20,
+        "weaponRotation" : -20,
+        "weaponOffset" : [0, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -135,
+        "weaponRotation" : 40,
+        "weaponOffset" : [0, 2.5],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

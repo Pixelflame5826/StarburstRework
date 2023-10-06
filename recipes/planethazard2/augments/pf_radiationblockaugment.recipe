@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "stickofram", "count" : 2 },
+	{ "item" : "pf_radioactiveremains", "count" : 3 },
+	{ "item" : "lead", "count" : 10 },
+	{ "item" : "durasteelbar", "count" : 7 }
+  ],
+  "output" : {
+    "item" : "pf_radiationblockaugment",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist2", "augments" ]
+}

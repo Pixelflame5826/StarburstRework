@@ -1,0 +1,32 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_snowcavernfront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/pf_snowcaverntrees",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/transparentice",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.4,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/icecavern",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    }
+  ]
+}

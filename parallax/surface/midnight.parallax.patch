@@ -1,0 +1,16 @@
+[
+    {
+        "op": "add",
+        "path": "/layers/-",
+        "value": {
+            "kind": "pf_cloudyskies",
+            "offset": [
+                0,
+                260
+            ],
+            "parallax": 50,
+            "repeatY": true,
+            "directives": "brightness=-10"
+        }
+    }
+]

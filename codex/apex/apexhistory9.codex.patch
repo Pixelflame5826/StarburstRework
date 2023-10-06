@@ -1,0 +1,23 @@
+[
+    {
+        "op": "replace",
+        "path": "/contentPages/0",
+        "value": "THIS IS AN APEX PUBLIC SERVICE ANNOUNCEMENT! 
+
+All water sources have been discovered to contain a deadly pathogen that we have dubbed DWNV (Deady Waterborne Neurological Virus) // 
+
+However, through hard scientific study, the hard-working doctors of the Miniknog have already discovered a cure // "
+    },
+    {
+        "op": "add",
+        "path": "/contentPages/1",
+        "value": "Side effects may cause changes to the genetic structure of the vaccinated, however this has not been proven to be detrimental//
+		
+		Citizens must report to their local town hall immediately for vaccination. Do not delay, protect yourself and your fellow Apex! //"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A transcript of an ancient Miniknog PSA. The virus mentioned hasn't been documented."
+    }
+]

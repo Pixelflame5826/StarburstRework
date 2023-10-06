@@ -1,0 +1,45 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Imposing wings, made from sharp blades shaped like feathers. Boosts damage output and jump height"
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_bladedwings"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+            "subtitle": "Enhancement Pack",
+
+            "pf_status1Image": "/interface/statuses/rage.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "+15%",
+            "pf_status2Image": "/interface/statuses/jumpboost.png",
+            "pf_status2BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status2Label": "+10%"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    }
+]

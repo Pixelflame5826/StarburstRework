@@ -1,0 +1,122 @@
+{
+  "itemName" : "pf_gardenbroadsword",
+  "price" : 960,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A broadsword once wielded by knights of a lost civilization. They've been lost to history, not much remains.",
+  "shortdescription" : "Proto Broadsword",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_gardenbroadsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_gardenbroadsword.png",
+	"bladeFullbright" : "pf_gardenbroadswordfullbright.png"
+  },
+  "animationCustom" : { 
+    "animatedParts" : {
+      "parts" : {
+	    "bladeFullbright" : {
+          "properties" : {
+            "zLevel" : 0.1,
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0],
+			"offset" : [0, 1.875],
+			"fullbright" : true
+          }
+        }
+	  }
+	},
+    "sounds" : {
+	  "physicalTravelSlash" : [ "/sfx/projectiles/plasma2.ogg" ]
+	}
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 12.5
+  },
+
+  "altAbilityType" : "travelingslash",
+  "altAbility" : {
+    "name" : "Energy Wave",
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "energytravelingswoosh" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+    "level2" : {
+	  "inventoryIcon" : "pf_gardenbroadsword_l2.png",
+      "animationParts" : {
+        "blade" : "pf_gardenbroadsword_l2.png",
+		"bladeFullbright" : "pf_gardenbroadsword_l2fullbright.png"
+      },
+      "shortdescription" : "Proto Calibur"
+	},
+	"level3" : {
+	  "inventoryIcon" : "pf_gardenbroadsword_l3.png",
+      "animationParts" : {
+        "blade" : "pf_gardenbroadsword_l3.png",
+		"bladeFullbright" : "pf_gardenbroadsword_l3fullbright.png"
+      },
+      "shortdescription" : "Tempered Calibur"
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_gardenbroadsword_l4.png",
+      "animationParts" : {
+        "blade" : "pf_gardenbroadsword_l4.png",
+		"bladeFullbright" : "pf_gardenbroadsword_l4fullbright.png"
+      },
+      "shortdescription" : "Empowered Calibur"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_gardenbroadsword_l5.png",
+      "animationParts" : {
+        "blade" : "pf_gardenbroadsword_l5.png",
+		"bladeFullbright" : "pf_gardenbroadsword_l5fullbright.png"
+      },
+      "shortdescription" : "Ascended Calibur"
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_gardenbroadsword_l6.png",
+      "animationParts" : {
+        "blade" : "pf_gardenbroadsword_l6.png",
+		"bladeFullbright" : "pf_gardenbroadsword_l6fullbright.png"
+      },
+	  "animationCustom" : {
+        "animatedParts" : { "parts" : { "swoosh" : { "partStates" : { "swoosh" : {
+          "fire" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh/protectorswoosh.png:<frame>" }},
+          "fire2" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh2/protectorswoosh.png:<frame>" }},
+          "fire3" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh3/protectorswoosh.png:<frame>" }}
+        }}}}},
+		"sounds" : {
+		  "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		  "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		  "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+		}
+      },
+      "shortdescription" : "Proto Leviathan",
+      "description" : "An ancient weapon once wielded by heroes of a time long past. Said to hit like a leviathan.",
+	  "primaryAbility" : {
+		"baseDps" : 13.5
+      }
+	}
+  }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A tribal ornamentation that is said to improve the wearer's luck while hunting. Boosts damage output."
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_predatoryback"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+            "subtitle": "Enhancement Pack",
+			
+            "pf_status1Image": "/interface/statuses/rage.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "+10%"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    }
+]

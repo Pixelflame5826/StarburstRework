@@ -1,0 +1,76 @@
+{
+  "objectName" : "pf_heatregulator",
+  "colonyTags" : ["pf_weather"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "An atmospheric control system that cools the area around it. Protecting against hot areas.",
+  "shortdescription" : "Cooling Regulator",
+  "race" : "generic",
+
+  "apexDescription" : "An advanced ECS, I don't think I'll need to worry about the heat with this.",
+  "avianDescription" : "A nice breeze from this ruffles my feathers. Feels cool, the heat won't bother me.",
+  "floranDescription" : "Floran feels cool, nice.",
+  "glitchDescription" : "Relaxed. This system should keep me safe from the heat.",
+  "humanDescription" : "No heat is going to get past this. Where were you in summer?!",
+  "hylotlDescription" : "Ah, cool air flows through this vent. I doubt the heat will bother me here.",
+  "novakidDescription" : "This feels like an ice box for the air.",
+
+  "category" : "furniture",
+  "price" : 3000,
+
+  "inventoryIcon" : "pf_heatregulatoricon.png",
+  "orientations" : [
+    {
+      "image" : "pf_heatregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_heatregulator.png",
+        "fg" : "pf_heatregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "pf_heatregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      "direction" : "right",
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_heatregulator.png",
+        "fg" : "pf_heatregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/scripts/pf_statuseffectobject.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/hazardprotection/pf_regulator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/bunkervent.ogg",
+  
+  "detectEntityTypes" : [ "player" ],
+  "statusArea" : [ [-100, -100], [100, 100] ],
+  
+  "statusEffect": "pf_biomeheataugment",
+  "effectDuration" : 10,
+  
+  "radioMessagesOnPickup" : [ "pf_pickupregulator" ]
+}

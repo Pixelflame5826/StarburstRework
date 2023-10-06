@@ -1,0 +1,32 @@
+[
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_savannahelectric"
+    },
+	{
+        "op": "add",
+        "path": "/weather/0/1/-",
+        "value": "/weather.config:pf_savannahstormy"
+    },
+	
+	{
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 1,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:rare",
+            "type": "tree",
+            "treeFoliageHueShiftMax": 0,
+            "treeStemHueShiftMax": 15,
+            "treeStemList": [
+                "baobab"
+            ],
+            "treeFoliageList": [
+                "baobab"
+            ]
+        }
+    }
+]

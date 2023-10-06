@@ -1,0 +1,11 @@
+{
+  "name" : "pf_biomelightningregenblock",
+  "blockingStat" : "",
+
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "pf_biomelightningregenblock.lua"
+  ]
+}

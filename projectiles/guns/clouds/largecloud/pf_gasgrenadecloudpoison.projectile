@@ -1,0 +1,16 @@
+{
+  "projectileName" : "pf_gasgrenadecloudpoison",
+  "image" : "largepoisoncloud.png",
+  "physics" : "bouncygas",
+  "frameNumber" : 13,
+  "animationCycle" : 2,
+  "power" : 1,
+  "speed" : 30,
+  "timeToLive" : 2,
+  "bounces" : -1,
+  "damagePoly" : [ [-16, 0], [-12, -12], [0, -16], [12, -12], [16, 0], [12, 12], [0, 16], [-12, 12] ],
+  "piercing" : true,
+  "emitters" : [ ],
+  "damageKind" : "poison",
+  "statusEffects" : [ "weakpoison" ]
+}

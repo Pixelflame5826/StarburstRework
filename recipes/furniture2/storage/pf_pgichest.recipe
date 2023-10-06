@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pf_pgichest",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "storage", "all" ]
+}

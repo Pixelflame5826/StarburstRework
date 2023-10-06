@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_scorchedrod", "count" : 8 },
+    { "item" : "pf_chroniumbar", "count" : 7 },
+    { "item" : "solariumstar", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_promethiumhammer", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

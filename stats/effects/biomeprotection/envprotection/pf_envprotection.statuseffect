@@ -1,0 +1,12 @@
+{
+  "name" : "pf_envprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_envprotection.lua"
+  ],
+
+  "label" : "Atmospheric Stabilization - Immunity to all environmental hazards.",
+  "icon" : "/interface/statuses/pf_envprotection.png"
+}

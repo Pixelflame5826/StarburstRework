@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_clothpadding",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_clothpadding.png",
+  "description" : "Temporary cloth wrappings. Resists Minor Planet Static and cures Electrified.",
+  "shortdescription" : "Insulated Cloth Padding",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_mildbiomelightningprotection",
+        "duration" : 240
+      },
+      {
+        "effect" : "electricblock",
+        "duration" : 2
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "pf_equipconsumable" ]
+}

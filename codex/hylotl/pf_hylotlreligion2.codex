@@ -1,0 +1,17 @@
+{
+  "id" : "pf_hylotlreligion2",
+  "species" : "hylotl",
+  "title" : "From The Water, Returned",
+  "description" : "A codex detailing the Hylotl beliefs about their origins.",
+  "icon" : "pf_hylotlcoverextra3.png",
+  "contentPages" : [
+    "Back when we were still spirits in the beginning, we were once said to be like tadpoles. However, our ancestors rose out of the Elemental Waters to grow beyond their potential like a Frog leaping out of the lake it was born in. Our culture has given such importance to such symbolism to remember our origins, and to venerate our ancestors. However, our hubris after that point must've angered the Fushi, as the Florans sent us back to the waters.",
+
+	"Our young are much like our ancestors in that sense, ever since we were cast down back into the depths, though we still retained our sapience instead of returning to the spiritual rivers. Those who live above water do so with humility, respecting nature above all else, and never overstepping their bounds with the Fuchi. Perhaps through their practices, the Florans became more docile as nature accepted us again."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

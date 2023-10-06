@@ -1,0 +1,27 @@
+{
+  "projectileName" : "pf_aquarishuriken",
+  "image" : "pf_aquarishuriken.png",
+  "animationCycle" : 0.05,
+  "physics" : "bullet",
+  "frameNumber" : 2,
+  "winddownFrames" : 4,
+  "pointLight" : false,
+  "speed" : 100,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 100.0,
+  "knockback" : 10,
+  "damageKind" : "dagger",
+  "statusEffects" : [ ],
+  "damagePoly" : [ [-5, 0], [-3.3, -3.3], [0, -5], [3.3, -3.3], [5, 0], [3.3, 3.3], [0, 5], [-3.3, 3.3] ],
+  
+  "scripts" : [ "/scripts/projectiles/pf_chargingprojectile.lua" ],
+  "chargedProjectile" : "pf_aquarishurikenactivated",
+  "activationTime" : 0.2
+}
+
+

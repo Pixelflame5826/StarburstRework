@@ -1,0 +1,160 @@
+{
+  "itemName" : "pf_savannahsword",
+  "price" : 640,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A large sword fashioned after a Bowie Knife. Very impressive, and very effective. Now, this is a knife!",
+  "shortdescription" : "Bush Knoife",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "shortsword", "pf_anvilUpgradeableWeapon" ],
+
+  "inventoryIcon" : "pf_savannahsword.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "pf_savannahsword.png",
+    "blade" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "swoosh" : { 
+		  "states" : { 
+		    "fire2" : {
+              "cycle" : 0.15
+            }
+		  }
+		}
+      },
+      "parts" : {
+        "swoosh" : { 
+		  "partStates" : { 
+		    "swoosh" : {
+              "fire" : { 
+			    "properties" : {
+                  "image" : "/items/active/weapons/melee/shortsword/swoosh/physicalswoosh.png:<frame>"
+                }
+		      },
+              "fire2" : { 
+			    "properties" : {
+                  "image" : "/items/active/weapons/melee/broadsword/swoosh/physicalswoosh.png:<frame>",
+                  "offset" : [-3.625, 2.25],
+                  "damageArea" : [[1, 3], [4, 1.75], [5, -0.25], [5, -2.25], [4, -3.25], [0, -2.5]]
+                }
+		      }
+            }
+		  }
+		}
+      }
+    },
+    "particleEmitters" : {
+      "physicalswoosh" : {
+        "active" : false,
+        "transformationGroups" : ["swoosh"],
+        "emissionRate" : 50,
+        "burstCount" : 4,
+        "particles" : [
+		  { "particle" : "orespark"}
+		]
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/melee/swing_shortsword.ogg"],
+      "fire2" : ["/sfx/melee/swing_shortsword.ogg"]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 6.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "shortsword",
+      "statusEffects" : [ ]
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "weaponOffset" : [-0.25, 2.85]
+      },
+      "windup1" : {
+        "duration" : 0.1,
+        "armRotation" : -15,
+        "weaponRotation" : -60,
+        "weaponOffset" : [-0.25, 2.85]
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "armRotation" : -135,
+        "weaponRotation" : 30,
+        "weaponOffset" : [-0.25, 2.85]
+      },
+      "wait1" : {
+        "duration" : 0.3,
+        "armRotation" : -135,
+        "weaponRotation" : 30,
+        "weaponOffset" : [-0.25, 2.85]
+      },
+      "windup2" : {
+        "duration" : 0.15,
+        "armRotation" : 30,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.25, 2.85]
+      },
+      "fire2" : {
+        "duration" : 0.3,
+        "armRotation" : -40,
+        "weaponRotation" : -80,
+        "weaponOffset" : [-0.25, 2.85]
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level3" : {
+	  "inventoryIcon" : "pf_savannahsword_l3.png",
+      "animationParts" : {
+        "handle" : "pf_savannahsword_l3.png"
+      },
+      "shortdescription" : "Bush Whackah"
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_savannahsword_l4.png",
+      "animationParts" : {
+        "handle" : "pf_savannahsword_l4.png"
+      },
+      "shortdescription" : "Bush Messah"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_savannahsword_l5.png",
+      "animationParts" : {
+        "handle" : "pf_savannahsword_l5.png"
+      },
+      "shortdescription" : "Bush Razah"
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_savannahsword_l6.png",
+      "animationParts" : {
+        "handle" : "pf_savannahsword_l6.png"
+      },
+      "shortdescription" : "Bush Brand",
+      "description" : "A large eccentric looking sword sharpened to a razors edge. A weapon for a true outbacker, a knife of legend.",
+	  "primaryAbility" : {
+		"baseDps" : 7.25
+      }
+	}
+  }
+}

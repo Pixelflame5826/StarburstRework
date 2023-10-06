@@ -1,0 +1,48 @@
+{
+  "projectileName" : "pf_waterenergyshard",
+  "image" : "pf_waterenergyshard.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [0, 7, 56],
+  "frameNumber" : 1,
+  "flippable" : false,
+  "fullbright" : false,
+  "damageKindImage" : "icon.png",
+  "physics" : "sticky",
+  "emitters" : [ ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/watersplash/watersplash.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.066,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "textured",
+        "image" : "/projectiles/activeitems/waterenergyshard/pf_waterenergyshard.png",
+        "position" : [0, 0],
+        "layer" : "back",
+        "timeToLive" : 0.0,
+        "destructionTime" : 0.2,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  
+  "statusEffects" : [
+    "wet"
+  ],
+  "damagePoly" : [ [-8, 0], [2, 3], [8, 0], [2, -3] ],
+  "damageKind" : "slash",
+
+  "speed" : 50,
+  "timeToLive" : 2.5,
+
+  "scripts" : [ "/projectiles/tracksourcestatus.lua" ],
+  "scriptDelta" : 1
+}

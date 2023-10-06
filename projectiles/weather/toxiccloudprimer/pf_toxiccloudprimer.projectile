@@ -1,0 +1,26 @@
+{
+  "projectileName" : "pf_toxiccloudprimer",
+  "image" : "pf_toxiccloudprimer.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "pf_toxicfog",
+          "time" : 0.1,
+          "repeat" : false
+        }
+      ]
+    }
+  ],
+
+  "onlyHitTerrain" : true,
+  "power" : 0.0,
+  "damageKind" : "default"
+}

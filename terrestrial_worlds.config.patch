@@ -1,0 +1,4542 @@
+[[	
+    //{
+    //    "op": "replace",
+    //    "path": "/useSecondaryEnvironmentBiomeIndex",
+    //    "value": true
+    //},
+	
+	//------PLANET CHANGES------//
+	
+	//CHANGES TO PLANET HEIGHT
+	
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/underground3/baseHeight",
+        "value": 500
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/underground2/layerLevel",
+        "value": 600
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/underground2/baseHeight",
+        "value": 900
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/underground1/layerLevel",
+        "value": 1000
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/underground1/baseHeight",
+        "value": 1300
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/subsurface/layerLevel",
+        "value": 1400
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/subsurface/baseHeight",
+        "value": 1500
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/surface/layerLevel",
+        "value": 1600
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/surface/baseHeight",
+        "value": 1700
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/atmosphere/layerLevel",
+        "value": 2100
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/atmosphere/baseHeight",
+        "value": 2500
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/space/layerLevel",
+        "value": 2800
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/large/layers/space/baseHeight",
+        "value": 3300
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/underground3/baseHeight",
+        "value": 400
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/underground2/layerLevel",
+        "value": 500
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/underground2/baseHeight",
+        "value": 700
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/underground1/layerLevel",
+        "value": 700
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/underground1/baseHeight",
+        "value": 900
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/subsurface/layerLevel",
+        "value": 900
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/subsurface/baseHeight",
+        "value": 1000
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/surface/layerLevel",
+        "value": 1100
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/medium/layers/surface/baseHeight",
+        "value": 1200
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/underground3/baseHeight",
+        "value": 300
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/underground2/layerLevel",
+        "value": 350
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/underground2/baseHeight",
+        "value": 450
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/underground1/layerLevel",
+        "value": 450
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/underground1/baseHeight",
+        "value": 550
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/subsurface/layerLevel",
+        "value": 600
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/subsurface/baseHeight",
+        "value": 700
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/surface/layerLevel",
+        "value": 800
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/small/layers/surface/baseHeight",
+        "value": 900
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/underground3/baseHeight",
+        "value": 300
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/underground2/layerLevel",
+        "value": 350
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/underground2/baseHeight",
+        "value": 450
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/underground1/layerLevel",
+        "value": 450
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/underground1/baseHeight",
+        "value": 550
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/subsurface/layerLevel",
+        "value": 600
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/subsurface/baseHeight",
+        "value": 700
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/surface/layerLevel",
+        "value": 800
+    },
+    {
+        "op": "replace",
+        "path": "/planetSizes/verysmall/layers/surface/baseHeight",
+        "value": 875
+    },
+	
+	//GARDEN/LUSH
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_gardenunderground",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_gardenunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_gardenunderground2",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_gardenunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_gardenunderground3",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_gardenunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_gardenshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground0a",
+                        "underground0b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "mushroomunderground",
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_gardenmid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "luminouscaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_gardendeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5b",
+                        "underground5c"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/planetTypes/garden/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_gardenunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/garden/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_gardenunderground"
+            ],
+            "secondaryRegions": [
+                "pf_gardenshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/garden/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_gardenunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_gardenmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/garden/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_gardenunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_gardendeep"
+            ]
+        }
+    },
+	
+	//FOREST
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_forestunderground",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_forestunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_forestunderground2",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_forestunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_forestunderground3",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_forestunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_forestshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground0a",
+                        "underground1b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "mushroomunderground",
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_forestmid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3a",
+						"underground1c",
+						"underground0c"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "minivillageunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_forestdeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0d",
+                        "underground5c"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"cellcaves",
+				"slimecaves"
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/forest/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_forestunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_forestunderground"
+            ],
+            "secondaryRegions": [
+                "pf_forestshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_forestunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_forestmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_forestunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_forestdeep"
+            ]
+        }
+    },
+	
+	//SAVANNAH
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_savannahunderground",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_savannahunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_savannahunderground2",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_savannahunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_savannahunderground3",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_savannahunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_savannahshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground0b",
+                        "underground1b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "tarunderground",
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_savannahmid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0c",
+						"underground1d",
+						"underground3b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "bonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_savannahdeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5a",
+                        "underground5d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"fleshcaves",
+				"slimecaves"
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/planetTypes/savannah/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_savannahunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/savannah/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_savannahunderground"
+            ],
+            "secondaryRegions": [
+                "pf_savannahshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/savannah/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_savannahunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_savannahmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/savannah/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_savannahunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_savannahdeep"
+            ]
+        }
+    },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/threatRange/1",
+        "value": 2
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/threatRange/0",
+        "value": 2
+    },
+	
+	//DESERT
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_desertunderground",
+        "value": {
+            "caveLiquid": [
+                "tarliquid"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_desertunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_desertunderground2",
+        "value": {
+            "caveLiquid": [
+                "tarliquid", "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_desertunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_desertunderground3",
+        "value": {
+            "caveLiquid": [
+                "tarliquid"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_desertunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_desertshallow",
+        "value": {
+            "caveLiquid": [
+                "water", "tarliquid"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground0b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "tarunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_desertmid",
+        "value": {
+            "caveLiquid": [
+                "water", "tarliquid"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0c",
+						"underground1d",
+						"underground3b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_desertdeep",
+        "value": {
+            "caveLiquid": [
+                "water", "tarliquid"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5a",
+                        "underground5d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"fleshcaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/desert/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_desertunderground"
+            ],
+            "secondaryRegions": [
+                "pf_desertshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/desert/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_desertunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_desertmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/desert/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_desertunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_desertdeep"
+            ]
+        }
+    },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/threatRange/1",
+        "value": 3
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/threatRange/0",
+        "value": 3
+    },
+	
+	//OCEAN
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_oceanunderground",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_oceanunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_oceanunderground2",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_oceanunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_oceanunderground3",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_oceanunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_oceanshallow",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0a",
+						"underground1a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "tarunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_oceanmid",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0c",
+						"underground3d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_oceandeep",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0d",
+                        "underground5c"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "slimecaves",
+                "cellcaves"
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_oceanunderground"
+            ],
+            "secondaryRegions": [
+                "pf_oceanshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_oceanunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_oceanmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_oceanunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_oceandeep"
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/ocean/subRegion",
+        "value": [
+            "pf_forestislands"
+        ]
+    },
+
+	
+	//SNOW
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_snowunderground",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_snowunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_snowunderground2",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_snowunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_snowunderground3",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_snowunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_snowshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground1a",
+						"underground1b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "wildernessunderground",
+				"minivillageunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_snowmid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3a",
+						"underground3c",
+						"underground3d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "icecaves",
+				"stonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_snowdeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5c",
+                        "underground5b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"cellcaves"
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/snow/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_snowunderground"
+            ],
+            "secondaryRegions": [ ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/snow/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_snowunderground"
+            ],
+            "secondaryRegions": [
+                "pf_snowshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/snow/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_snowunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_snowmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/snow/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_snowunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_snowdeep"
+            ]
+        }
+    },
+	
+	//JUNGLE
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_jungleunderground",
+        "value": {
+            "caveLiquid": [
+                "healingliquid"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_jungleunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_jungleunderground2",
+        "value": {
+            "caveLiquid": [
+                "healingliquid"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_jungleunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_jungleunderground3",
+        "value": {
+            "caveLiquid": [
+                "healingliquid"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_jungleunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_jungleshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground1a",
+                        "underground1b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "mushroomunderground",
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_junglemid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3d",
+						"underground1c",
+						"underground0c"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "minivillageunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_jungledeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0d",
+                        "underground5c",
+						"underground5a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"cellcaves",
+				"slimecaves"
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_jungleunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_jungleunderground"
+            ],
+            "secondaryRegions": [
+                "pf_jungleshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_jungleunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_junglemid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_jungleunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_jungledeep"
+            ]
+        }
+    },
+	
+	//ALIEN
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_alienunderground",
+        "value": {
+            "caveLiquid": [
+                "poison", "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_alienunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_alienunderground2",
+        "value": {
+            "caveLiquid": [
+                "poison", "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_alienunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_alienunderground3",
+        "value": {
+            "caveLiquid": [
+                "poison", "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_alienunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_alienshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground1a",
+                        "underground1b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "mushroomunderground",
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_alienmid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3b",
+						"underground1c",
+						"underground0c"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "luminouscaves",
+                "bonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_aliendeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0d",
+                        "underground5c",
+						"underground5d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"cellcaves",
+				"fleshcaves"
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/alien/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_alienunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/alien/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_alienunderground"
+            ],
+            "secondaryRegions": [
+                "pf_alienshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/alien/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_alienunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_alienmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/alien/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_alienunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_aliendeep"
+            ]
+        }
+    },
+	
+	//---VOLCANIC---//
+	
+	//Biome Changes
+	{
+        "op": "add",
+        "path": "/regionTypes/volcanic/subRegion/-",
+        "value": "pf_asphodel"
+    },
+	
+	//Underground Caverns
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_volcanicunderground",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_volcanicunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_volcanicunderground2",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_volcanicunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_volcanicunderground3",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_volcanicunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_volcanicshallow",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground0b",
+						"underground1a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "tarunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_volcanicmid",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3d",
+						"underground1d",
+						"underground3b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bonecaves",
+				"stonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_volcanicdeep",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5b",
+                        "underground5d",
+						"underground5a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"fleshcaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/volcanic/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_volcanicunderground"
+            ],
+            "secondaryRegions": [
+                "pf_volcanicshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/volcanic/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_volcanicunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_volcanicmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/volcanic/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_volcanicunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_volcanicdeep"
+            ]
+        }
+    },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/threatRange/1",
+        "value": 5
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/threatRange/0",
+        "value": 5
+    },
+	
+	//MAGMA
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_magmaunderground",
+        "value": {
+            "oceanLiquid" : [ "lava" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_magmaunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_magmaunderground2",
+        "value": {
+            "oceanLiquid" : [ "lava" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_magmaunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_magmaunderground3",
+        "value": {
+            "oceanLiquid" : [ "lava" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_magmaunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/planetTypes/magma/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_magmaunderground"
+            ],
+            "secondaryRegions": [
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/magma/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_magmaunderground2"
+            ],
+            "secondaryRegions": [
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/magma/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_magmaunderground3"
+            ],
+            "secondaryRegions": [
+            ]
+        }
+    },
+	{
+        "op": "replace",
+        "path": "/planetTypes/magma/threatRange/1",
+        "value": 5
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/magma/threatRange/0",
+        "value": 5
+    },
+	
+	//---TUNDRA---//
+	//Biome Changes
+    {
+        "op": "replace",
+        "path": "/regionTypes/tundra/blockSelector/0",
+        "value": "remixedSpikesSurface"
+    },
+	
+	//Underground Biomes
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_tundraunderground",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [2, 3],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_tundraunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_tundraunderground2",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [2, 3],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_tundraunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_tundraunderground3",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [2, 3],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_tundraunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_tundrashallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground1a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_tundramid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3a",
+						"underground3c",
+						"underground3d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "icecaves",
+				"stonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_tundradeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5c",
+                        "underground5b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_tundraunderground"
+            ],
+            "secondaryRegions": [ ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_tundraunderground"
+            ],
+            "secondaryRegions": [
+                "pf_tundrashallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_tundraunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_tundramid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_tundraunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_tundradeep"
+            ]
+        }
+    },
+	
+	//ARCTIC
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_arcticunderground",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_arcticunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_arcticunderground2",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_arcticunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_arcticunderground3",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_arcticunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_arcticshallow",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+						"underground1a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "luminouscaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_arcticmid",
+        "value": {
+            "oceanLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3c",
+						"underground3a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "luminouscaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_arcticdeep",
+        "value": {
+            "caveLiquid" : [ "water" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0d",
+                        "underground5c"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "slimecaves"
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/planetTypes/arctic/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_arcticunderground"
+            ],
+            "secondaryRegions": [
+                "pf_arcticshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/arctic/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_arcticunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_arcticmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/arctic/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_arcticunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_arcticdeep"
+            ]
+        }
+    },
+	
+	//TOXIC
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_toxicunderground",
+        "value": {
+            "oceanLiquid" : [ "poison" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_toxicunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_toxicunderground2",
+        "value": {
+            "oceanLiquid" : [ "poison" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_toxicunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_toxicunderground3",
+        "value": {
+            "oceanLiquid" : [ "poison" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_toxicunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_toxicshallow",
+        "value": {
+            "oceanLiquid" : [ "poison" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+            "biome": [
+                [
+                    0,
+                    [
+						"underground1a",
+						"underground0a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "luminouscaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_toxicmid",
+        "value": {
+            "oceanLiquid" : [ "poison" ],
+			"oceanLevelOffset" : 1500,
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+			
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground1c",
+						"underground3b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "luminouscaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_toxicdeep",
+        "value": {
+            "caveLiquid" : [ "poison" ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+			"fgCaveSelector" : [ "moonCaves" ],
+			"bgCaveSelector" : [ "moonCaves" ],
+			"fillMicrodungeons" : true,
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0d",
+                        "underground5b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "slimecaves",
+				"cellcaves"
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_toxicunderground"
+            ],
+            "secondaryRegions": [
+                "pf_toxicshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_toxicunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_toxicmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_toxicunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_toxicdeep"
+            ]
+        }
+    },
+	
+	{
+        "op": "replace",
+        "path": "/planetTypes/toxic/threatRange/1",
+        "value": 6
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/toxic/threatRange/0",
+        "value": 6
+    },
+	
+	//SCORCHED
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_scorchedunderground",
+        "value": {
+            "caveLiquid": [
+                "lava", "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_scorchedunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_scorchedunderground2",
+        "value": {
+            "caveLiquid": [
+                "lava", "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_scorchedunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_scorchedunderground3",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_scorchedunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_scorchedshallow",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground0a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "tarunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_scorchedmid",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3d",
+						"underground1d",
+						"underground3b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bonecaves",
+				"stonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_scorcheddeep",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5b",
+                        "underground5d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+				"fleshcaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/scorchedcity/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_scorchedunderground"
+            ],
+            "secondaryRegions": [
+                "pf_scorchedshallow"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/scorchedcity/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_scorchedunderground2"
+            ],
+            "secondaryRegions": [
+                "pf_scorchedmid"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/scorchedcity/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_scorchedunderground3"
+            ],
+            "secondaryRegions": [
+                "pf_scorcheddeep"
+            ]
+        }
+    },
+	
+	//MIDNIGHT
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_midnightunderground",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_midnightunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_midnightunderground2",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_midnightunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_midnightunderground3",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_midnightunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+	
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_midnightshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground1a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_midnightmid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground3a",
+						"underground3c",
+						"underground3d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "icecaves",
+				"stonecaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_midnightdeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground5c",
+                        "underground5b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/midnight/layers/subsurface",
+        "value": {
+            "primaryRegion": [
+                "pf_midnightunderground"
+            ],
+            "secondaryRegions": [ ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/midnight/layers/underground1",
+        "value": {
+            "primaryRegion": [
+                "pf_midnightunderground"
+            ],
+            "secondaryRegions": [
+             
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/midnight/layers/underground2",
+        "value": {
+            "primaryRegion": [
+                "pf_midnightunderground2"
+            ],
+            "secondaryRegions": [
+             
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/midnight/layers/underground3",
+        "value": {
+            "primaryRegion": [
+                "pf_midnightunderground3"
+            ],
+            "secondaryRegions": [
+             
+            ]
+        }
+    },
+	
+	{
+        "op": "replace",
+        "path": "/planetTypes/midnight/threatRange/1",
+        "value": 6
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/threatRange/0",
+        "value": 6
+    },
+	
+	//SECONDARY BIOME CHANGES
+	{
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/secondaryRegions/1",
+        "value": "barren"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/volcanic/layers/surface/secondaryRegions/3"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/secondaryRegions/2",
+        "value": "barren"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/4"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/3"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/2"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/1",
+        "value": "barren"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/0",
+        "value": "tundra"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/4"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/3"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/2"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/1",
+        "value": "snow"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/0",
+        "value": "forest"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/alien/layers/surface/secondaryRegions/2"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/secondaryRegions/1",
+        "value": "forest"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/3"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/2"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/1",
+        "value": "alien"
+    },
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/0",
+        "value": "forest"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/savannah/layers/surface/secondaryRegions/3"
+    },
+	
+	//------NEW DUNGEONS-----//
+	//NOVAKID STEAM VILLAGE
+	{
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/-",
+        "value": [
+            1,
+            "pf_novakidsnowvillage"
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/snow/layers/surface/dungeons/-",
+        "value": [
+            1,
+            "pf_novakidsnowvillage"
+        ]
+    },
+	
+	//HYLOTL OCCUPIED CASTLE
+	{
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/-",
+        "value": [
+            1,
+            "pf_occupiedhylotlcastle"
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/planetTypes/snow/layers/surface/dungeons/-",
+        "value": [
+            1,
+            "pf_occupiedhylotlcastle"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/surface/dungeons/-",
+        "value": [
+            1,
+            "pf_occupiedhylotlcastle"
+        ]
+    },
+	
+	//------NEW PLANETS------//
+	//STORMY/ANABATIC
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_stormy",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "mountainsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_stormy"
+                    ]
+                ]
+            ],
+            "subRegion": [
+			  "alpine",
+			  "mushroom",
+			  "swamp",
+			  "spring"
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_stormyunderground",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_stormyunderground"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_stormyunderground2",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_stormyunderground2"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_stormyunderground3",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_stormyunderground3"
+                    ]
+                ]
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_stormyshallow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+						"underground0a",
+                        "underground1a",
+						"underground1b"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "mushroomunderground",
+                "wildernessunderground"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_stormymid",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0c",
+						"underground3a",
+						"underground3d"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "stonecaves",
+                "luminouscaves"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_stormydeep",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "biome": [
+                [
+                    0,
+                    [
+                        "underground0d",
+                        "underground5a"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "slimecaves"
+            ]
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/planetTypes/pf_stormy",
+        "value": {
+            "threatRange": [
+                5,
+                5
+            ],
+			"caveLiquidSeedDensityRange" : [5, 5],
+            "layers": {
+                "surface": {
+					"primaryRegion": ["pf_stormy"],
+					"secondaryRegions": ["garden", "forest", "snow"],
+					"dungeons": [
+						[1.0, "apextestfacility"],
+						[0.0, "apexbase"],
+						[1.0, "apexcamp"],
+						[0.0, "apexcity"],
+						[0.0, "aviantemple"],
+						[0.0, "aviantomb"],
+						[1.0, "avianvillage"],
+						[0.0, "aviannativevillage"],
+						[0.0, "avianairship"],
+						[0.0, "floranhuntinggrounds"],
+						[1.0, "florancanyon"],
+						[0.0, "floranvillagetower"],
+						[1.0, "floranhutvillage"],
+						[1.0, "dungeoncrawler"],
+						[0.0, "evilfortress"],
+						[0.0, "glitchcastle"],
+						[1.0, "glitchvillage"],
+						[1.0, "hylotlruinedcastle"],
+						[1.0, "hylotlcity"],
+						[1.0, "humanprison"],
+						[1.0, "humancamp"],
+						[0.0, "glitchsewer"],
+						[1.0, "novakidvillage"],
+						[1.0, "pf_novakidsnowvillage"],
+						[1.0, "pf_occupiedhylotlcastle"]
+					]
+                },
+                "subsurface": {
+                    "primaryRegion": [
+                        "pf_stormyunderground"
+                    ]
+                },
+                "underground1": {
+                    "primaryRegion": [
+                        "pf_stormyunderground"
+                    ],
+                    "secondaryRegions": ["pf_stormyshallow"]
+                },
+                "underground2": {
+                    "primaryRegion": [
+                        "pf_stormyunderground2"
+                    ],
+                    "secondaryRegions": ["pf_stormymid"]
+                },
+                "underground3": {
+                    "primaryRegion": [
+                        "pf_stormyunderground3"
+                    ],
+                    "secondaryRegions": ["pf_stormydeep"]
+                }
+            }
+        }
+    },
+	
+	//------NEW MINIBIOMES------//
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_asphodel",
+        "value": {
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_asphodel"
+                    ]
+                ]
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/regionTypes/pf_forestislands",
+        "value": {
+            "oceanLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedIslandsSurface"
+            ],
+            "fgCaveSelector": [
+                "empty"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_forestislands"
+                    ]
+                ]
+            ]
+        }
+    }
+],
+
+//REMOVAL OF FIXED LAYER HEIGHTS
+[
+	{ "op": "test", "path": "/planetTypes/toxic/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/toxic/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/toxic/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/arctic/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/arctic/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/arctic/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/magma/layers/surface/layerLevel" },
+
+	{
+        "op": "remove",
+        "path": "/planetTypes/magma/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/magma/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/ocean/layers/surface/layerLevel" },
+
+	{
+        "op": "remove",
+        "path": "/planetTypes/ocean/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/ocean/layers/surface/baseHeight"
+    }
+],
+
+//DUNGEON DEHOMOGENIZATION
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/22/0" },
+	
+	{
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/22/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/21/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/21/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/20/0" },
+
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/20/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/19/0" },
+
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/19/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/18/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/18/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/17/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/17/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/16/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/16/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/15/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/15/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/14/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/14/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/13/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/13/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/12/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/12/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/11/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/11/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/10/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/10/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/9/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/9/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/8/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/8/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/7/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/7/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/6/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/6/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/5/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/5/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/4/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/3/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/3/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/2/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/2/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/1/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/1/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/scorchedcity/layers/surface/dungeons/0/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/dungeons/0/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/22/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/22/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/21/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/21/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/20/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/20/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/18/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/18/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/17/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/17/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/16/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/16/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/15/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/15/0",
+        "value": 1
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/14/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/14/0",
+        "value": 1
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/13/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/13/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/12/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/12/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/11/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/11/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/10/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/10/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/9/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/9/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/8/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/8/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/7/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/7/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/6/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/6/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/5/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/5/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/4/0",
+        "value": 0
+    }	
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/3/0" },
+	
+
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/3/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/volcanic/layers/surface/dungeons/2/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/dungeons/2/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/22/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/22/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/21/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/21/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/18/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/18/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/17/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/17/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/16/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/16/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/15/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/15/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/14/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/14/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/13/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/13/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/8/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/8/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/7/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/7/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/6/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/6/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/5/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/5/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/4/0",
+        "value": 0
+    }
+],
+[
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/3/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/3/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/0/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/0/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/12/0" },
+	
+	{
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/12/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/11/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/11/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/midnight/layers/surface/dungeons/9/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/midnight/layers/surface/dungeons/9/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/22/0" },
+	
+	{
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/22/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/18/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/18/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/17/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/17/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/16/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/16/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/15/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/15/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/13/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/13/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/12/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/12/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/11/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/11/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/10/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/10/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/9/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/9/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/8/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/8/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/7/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/7/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/6/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/6/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/5/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/5/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/4/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/3/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/3/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/2/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/2/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/1/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/1/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/tundra/layers/surface/dungeons/0/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/tundra/layers/surface/dungeons/0/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/21/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/21/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/17/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/17/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/15/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/15/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/14/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/14/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/13/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/13/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/12/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/12/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/11/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/11/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/8/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/8/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/7/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/7/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/6/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/6/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/5/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/5/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/4/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/alien/layers/surface/dungeons/3/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/alien/layers/surface/dungeons/3/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/22/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/22/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/21/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/21/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/19/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/19/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/16/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/16/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/8/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/8/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/7/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/7/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/6/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/6/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/5/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/5/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/jungle/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/dungeons/4/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/22/0" },
+	
+	{
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/22/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/21/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/21/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/18/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/18/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/17/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/17/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/11/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/11/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/10/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/10/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/9/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/9/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/8/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/8/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/7/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/7/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/6/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/6/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/snow/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/snow/layers/surface/dungeons/4/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/19/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/19/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/18/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/18/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/16/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/16/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/15/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/15/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/14/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/14/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/9/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/9/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/5/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/5/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/4/0" },
+	
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/4/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/3/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/3/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/2/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/2/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/savannah/layers/surface/dungeons/1/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/savannah/layers/surface/dungeons/1/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/21/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/21/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/18/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/18/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/17/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/17/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/16/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/16/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/15/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/15/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/14/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/14/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/13/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/13/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/12/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/12/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/11/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/11/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/10/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/10/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/9/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/9/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/3/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/3/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/2/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/2/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/1/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/1/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/desert/layers/surface/dungeons/0/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/dungeons/0/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/19/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/19/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/12/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/12/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/11/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/11/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/10/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/10/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/9/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/9/0",
+        "value": 1
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/7/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/7/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/5/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/5/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/4/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/4/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/1/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/1/0",
+        "value": 0
+    }
+],
+[	
+	{ "op": "test", "value": 1, "path": "/planetTypes/forest/layers/surface/dungeons/0/0" },
+    {
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/dungeons/0/0",
+        "value": 0
+    }
+],
+
+//OCEAN UNDERGROUND COMPATIBILITY
+//Mod overrides the old generation but adds it back as a secondary main layer to find.
+[
+	{ "op": "test", "path": "/regionTypes/oceanUnderground" },
+	
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/underground3/primaryRegion/-",
+        "value": "oceanUnderground"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/underground2/primaryRegion/-",
+        "value": "oceanUnderground"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/underground1/primaryRegion/-",
+        "value": "oceanUnderground"
+    },
+	
+	{
+        "op": "add",
+        "path": "/planetTypes/arctic/layers/underground3/primaryRegion/-",
+        "value": "articUnderground"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/arctic/layers/underground2/primaryRegion/-",
+        "value": "articUnderground"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/arctic/layers/underground1/primaryRegion/-",
+        "value": "articUnderground"
+    },
+
+	{
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/underground3/primaryRegion/-",
+        "value": "toxicUnderground"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/underground2/primaryRegion/-",
+        "value": "toxicUnderground"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/underground1/primaryRegion/-",
+        "value": "toxicUnderground"
+    }
+]]

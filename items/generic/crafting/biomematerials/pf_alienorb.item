@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_alienorb",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_alienorb.png",
+  "description" : "A strange biological material primarily found in heavily mutated climates.",
+  "shortdescription" : "Xenocyte Biofilm",
+  "itemTags" : [ "reagent" ]
+}

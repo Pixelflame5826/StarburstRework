@@ -1,0 +1,57 @@
+{
+  "name" : "pf_heatwave",
+
+  "particles" : [
+        {
+      "density" : 0.005,
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/windstorm/windstorm1.animation",
+        "velocity" : [0, 0],
+        "fade" : 0.5,
+        "looping" : true,
+        "destructionTime" : 20,
+        "timeToLive" : 20,
+        "collidesForeground" : false,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.005,
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/windstorm/windstorm2.animation",
+        "velocity" : [0, 0],
+        "fade" : 0.5,
+        "looping" : true,
+        "destructionTime" : 20,
+        "timeToLive" : 20,
+        "collidesForeground" : false,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+
+      "density" : 0.005,
+      "particle" : {
+        "type" : "ember",
+        "color" : [218, 83, 2],
+		"size" : 1.0,
+        "velocity" : [0, 0],
+        "timeToLive" : 20,
+        "collidesForeground" : false,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    }
+  ],
+  
+  "statusEffects" : ["pf_biomeheatmild"],
+  "duration" : [50, 400],
+  "maximumWind" : 35.0,
+  "weatherNoises" : [ "/sfx/weather/blizzard.ogg" ]
+
+
+}

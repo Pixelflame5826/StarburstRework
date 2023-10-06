@@ -1,0 +1,25 @@
+{
+  "projectileName" : "pf_tundraboomerangaxe",
+  "image" : "pf_tundraboomerangaxe.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "flippable" : false,
+  "orientationLocked" : true,
+  "emitters" : [ "iceswoosh" ],
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "damagePoly" : [ [-37, 0], [-28, -28], [0, -37], [28, -28], [37, 0], [28, 28], [0, 37], [-28, 28] ],
+  "power" : 5.0,
+  "speed" : 90,
+  "damageKind" : "iceaxe",
+  "physics" : "laser",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+
+  "scripts" : [ "/projectiles/activeitems/chakram/hoverchakramprojectile.lua" ]
+}

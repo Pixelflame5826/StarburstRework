@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquestaff"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A staff spoken about in Avian scripture. Once wielded by a Prophet who was said to be undefeated in combat."
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Adorned with the horns and jawbone of a once-worthy prey, and lined with chronium plate."
+    }
+]

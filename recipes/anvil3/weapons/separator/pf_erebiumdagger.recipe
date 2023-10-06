@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_shadowstar", "count" : 4 },
+    { "item" : "pf_chroniumbar", "count" : 5 },
+    { "item" : "solariumstar", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_erebiumdagger", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

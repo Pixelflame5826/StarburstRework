@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A staple Letheia firearm. A cheap, military grade plasma rifle that is built to thrive in the vacuum of space."
+	}
+]

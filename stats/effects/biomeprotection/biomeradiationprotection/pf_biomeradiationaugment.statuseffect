@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomeradiationaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomeradiationaugment.lua"
+  ],
+
+  "label" : "Radiation Immunity - Immunity to Deadly Radiation",
+  "icon" : "/interface/statuses/pf_advradiationprotection.png"
+}

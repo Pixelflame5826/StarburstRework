@@ -1,0 +1,76 @@
+{
+  "objectName" : "pf_environmentregulator",
+  "colonyTags" : ["pf_weather"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "An atmospheric control system that protects the area around it from all planetary hazards.",
+  "shortdescription" : "Environmental Regulator",
+  "race" : "generic",
+
+  "apexDescription" : "An advanced ECS, I don't think I'll need to worry about the climate with this.",
+  "avianDescription" : "A nice breeze from this ruffles my feathers. No hazards are making it past this.",
+  "floranDescription" : "Floran not feel any hazardousss air, nice.",
+  "glitchDescription" : "Relaxed. This system should keep me safe from the planetary climate.",
+  "humanDescription" : "No climate is going to get past this. I'm sure ancient humans would've loved this.",
+  "hylotlDescription" : "Ah, a nice air flows through this vent. I doubt no climate will bother me here.",
+  "novakidDescription" : "Ain't no atmospheric hazards gettin' through this!",
+
+  "category" : "furniture",
+  "price" : 3000,
+
+  "inventoryIcon" : "pf_environmentregulatoricon.png",
+  "orientations" : [
+    {
+      "image" : "pf_environmentregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_environmentregulator.png",
+        "fg" : "pf_environmentregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "pf_environmentregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      "direction" : "right",
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_environmentregulator.png",
+        "fg" : "pf_environmentregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/scripts/pf_statuseffectobject.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/hazardprotection/pf_regulator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/bunkervent.ogg",
+  
+  "detectEntityTypes" : [ "player" ],
+  "statusArea" : [ [-100, -100], [100, 100] ],
+  
+  "statusEffect": "pf_envprotection",
+  "effectDuration" : 10,
+  
+  "radioMessagesOnPickup" : [ "pf_pickupregulator" ]
+}

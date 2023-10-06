@@ -1,0 +1,22 @@
+[
+	{
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildboomerang.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueboomerang"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A sharp throwing weapon that is designed to return to the user. Be sure to not lose fingers on the way back."
+    },
+	{
+        "op": "replace",
+        "path": "/cooldownTime",
+        "value": 0.2
+    }
+]

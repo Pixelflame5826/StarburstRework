@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_feroziumtier5shield", "count" : 1 },
+    { "item" : "pf_chroniumbar", "count" : 6 },
+    { "item" : "upgrademodule", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_feroziumtier6shield", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

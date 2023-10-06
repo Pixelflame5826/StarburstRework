@@ -1,0 +1,20 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/1/count",
+        "value": 8
+    },
+    {
+        "op": "replace",
+        "path": "/input/1/item",
+        "value": "pf_chroniumbar"
+    },
+    {
+        "op": "add",
+        "path": "/input/-",
+        "value": {
+            "item": "diamond",
+            "count": 1
+        }
+    }
+]

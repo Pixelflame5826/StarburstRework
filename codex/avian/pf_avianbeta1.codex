@@ -1,0 +1,33 @@
+{
+  "id" : "pf_avianbeta1",
+  "species" : "avian",
+  "title" : "Flying And Plundering",
+  "description" : "An Avian Grounded air shanty, it seems they don't like religion.",
+  "icon" : "pf_avianbetacover1.png",
+  "contentPages" : [
+  	"Florans live in trees
+Hylotl swim the seas
+But we are the Avians
+And the air is where we'll be!
+
+Our wings they work no more
+But in our ships we soar
+And if the Avosians come aboard
+We'll toss them to the floor!",
+
+"We'll sail across the skies
+Shoot down our elders' lies
+Cos when you face the Grounded
+We will take you by surprise!
+
+Our ships don't make a sound
+Our feet don't touch the ground
+We'll fly our boats right into the aether
+Showing their god who's really better!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

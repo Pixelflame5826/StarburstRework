@@ -1,0 +1,66 @@
+{
+  "projectileName" : "pf_vermilliumgrenadeactive",
+  "physics" : "grenade",
+  "timeToLive" : 5,
+  "damageKindImage" : "icon.png",
+  "image" : "pf_vermilliumgrenade.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "bounces" : -1,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/snowball_hit_organic2.ogg"
+      ]
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.1,
+      "repeat" : true,
+      "action" : "projectile",
+      "type" : "pf_gasgrenadecloudpoison",
+      "inheritDamageFactor" : 0.05,
+      "angle" : 0,
+	  "fuzzAngle" : 50
+    },
+	{
+      "time" : 0.1,
+      "repeat" : true,
+      "action" : "projectile",
+      "type" : "pf_gasgrenadecloudpoison",
+      "inheritDamageFactor" : 0.05,
+      "angle" : 120,
+	  "fuzzAngle" : 50
+    },
+	{
+      "time" : 0.1,
+      "repeat" : true,
+      "action" : "projectile",
+      "type" : "pf_gasgrenadecloudpoison",
+      "inheritDamageFactor" : 0.05,
+      "angle" : 240,
+	  "fuzzAngle" : 50
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/poisonsmoke/poisonsmoke.config"
+    },
+	{
+      "action" : "loop",
+      "count" : 3,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "steelshard",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+  "power" : 5
+}

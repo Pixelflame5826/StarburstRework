@@ -1,0 +1,35 @@
+{
+  "itemName" : "pf_heartwoodtomahawk",
+  "price" : 10,
+  "rarity" : "Uncommon",
+  "level" : 2,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_heartwoodtomahawkicon.png",
+  "image" : "pf_heartwoodtomahawk.png",
+  "largeImage" : "pf_heartwoodtomahawk.png",
+  "shortdescription" : "Heartwood Tomahawk",
+  "description" : "A brutal tomahawk made from heartwood. Fairly hard to throw but hits enemies hard.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.3,
+  "cooldown" : 0.6,
+
+  "projectileType" : "pf_heartwoodtomahawk",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 23.5,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

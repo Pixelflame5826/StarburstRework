@@ -1,0 +1,15 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/0/count",
+        "value": 20
+    },
+    {
+        "op": "add",
+        "path": "/input/1",
+        "value": {
+            "item": "pf_desertcrystal",
+            "count": 10
+        }
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomecoldprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomecoldprotection.lua"
+  ],
+
+  "label" : "Cold Immunity - Immunity to Deadly Cold, Slight Resistance To Ice",
+  "icon" : "/interface/statuses/pf_advcoldprotection.png"
+}

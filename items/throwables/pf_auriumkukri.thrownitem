@@ -1,0 +1,36 @@
+{
+  "itemName" : "pf_auriumkukri",
+  "price" : 10,
+  "rarity" : "Uncommon",
+  "level" : 2,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_auriumkukriicon.png",
+  "image" : "pf_auriumkukri.png",
+  "largeImage" : "pf_auriumkukri.png",
+  "shortdescription" : "Aurium Kukri",
+  "description" : "A sharp throwing kukri made from aurium. Slices through enemies and leaves them bleeding.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.2,
+  "cooldown" : 0.5,
+
+  "projectileType" : "pf_auriumkukri",
+  "projectileConfig" : {
+    "speed" : 70,
+    "power" : 20,
+	"statusEffects" : [ "pf_bleeding" ],
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

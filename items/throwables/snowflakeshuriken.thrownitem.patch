@@ -1,0 +1,37 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.05
+    },
+	{
+        "op": "replace",
+        "path": "/cooldown",
+        "value": 0.25
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 5
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "snowflakeshuriken.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A shuriken fashioned from large snowflakes. Capable of taking eyes out from long range."
+    }
+]

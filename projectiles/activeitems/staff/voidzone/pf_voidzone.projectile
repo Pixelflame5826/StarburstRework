@@ -1,0 +1,37 @@
+{
+  "projectileName" : "pf_voidzone",
+  "physics" : "laser",
+  "timeToLive" : 10,
+  "image" : "pf_voidzone.png",
+  "animationCycle" : 0.8,
+  "frameNumber" : 12,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "periodicActions" : [
+    {
+      "time" : 9.8,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/melee/retro_swing.ogg" ]
+    }
+  ],
+  "actionOnReap" : [],
+  "speed" : 0,
+  "power" : 0,
+
+  "onlyHitTerrain" : true,
+  "persistentStatusEffects" : ["pf_entropiczone"],
+  "statusEffectArea" : [ [-6.0, 0], [-4.0, -4.0], [0, -6.0], [4.0, -4.0], [6.0, 0], [4.0, 4.0], [0, 6.0], [-4.0, 4.0] ],
+
+  "renderLayer" : "Player+1",
+  "orientationLocked" : true,
+  "fullbright" : true,
+  "emitters" : [],
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : ["/projectiles/activeitems/staff/staffprojectile.lua"],
+  
+  "persistentAudio" : "/sfx/objects/tv_static.ogg"
+}

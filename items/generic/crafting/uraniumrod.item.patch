@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A toxic and radioactive material primarily found near heavily polluted climates."
+    },
+	{
+        "op": "replace",
+        "path": "/rarity",
+        "value": "Legendary"
+    }
+]

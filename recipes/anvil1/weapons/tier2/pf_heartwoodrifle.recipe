@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_forestdisk", "count" : 4 },
+    { "item" : "tungstenbar", "count" : 4 },
+	{ "item" : "volatilepowder", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_heartwoodrifle", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

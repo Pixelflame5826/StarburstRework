@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_snowcrystal",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_snowcrystal.png",
+  "description" : "A very cold ice crystal primarily found in cold, wooded climates.",
+  "shortdescription" : "Blue Ice Crystal",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,36 @@
+{
+  "itemName" : "pf_toxicbroadsword",
+  "price" : 1110,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An ornate saber. It was likely once a prestigious symbol for its finesse, though it is now laid abandoned.",
+  "shortdescription" : "Souiller",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "pf_toxicbroadsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_toxicbroadsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.45,
+    "baseDps" : 13.5
+  },
+
+  "altAbilityType" : "pf_elementalparry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

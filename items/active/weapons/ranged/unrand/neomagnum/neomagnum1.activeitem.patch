@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A Peacekeeper standard issue plasma revolver. Uses a cylinder of plasma charges to fire bolts of energy."
+	}
+]

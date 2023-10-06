@@ -1,0 +1,76 @@
+{
+  "objectName" : "pf_airregulator",
+  "colonyTags" : ["pf_weather"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "An atmospheric control system that fills the area around it with O2. Protecting against airless areas.",
+  "shortdescription" : "Atmosphere Regulator",
+  "race" : "generic",
+
+  "apexDescription" : "An advanced ECS, I don't think I'll need to worry about oxygen with this.",
+  "avianDescription" : "A nice breeze from this ruffles my feathers. It seems it fills the area with air.",
+  "floranDescription" : "Floran can actually breathe, nice.",
+  "glitchDescription" : "Relaxed. This system should help me breathe.",
+  "humanDescription" : "A pretty primitive machine filling the air with oxygen. Works either way.",
+  "hylotlDescription" : "Ah, a nice air flows through this vent. Keeps the place full of oxygen.",
+  "novakidDescription" : "I can breathe!",
+
+  "category" : "furniture",
+  "price" : 3000,
+
+  "inventoryIcon" : "pf_airregulatoricon.png",
+  "orientations" : [
+    {
+      "image" : "pf_airregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_airregulator.png",
+        "fg" : "pf_airregulator.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "pf_airregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      "direction" : "right",
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_airregulator.png",
+        "fg" : "pf_airregulator.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/scripts/pf_statuseffectobject.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/hazardprotection/pf_regulator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/bunkervent.ogg",
+  
+  "detectEntityTypes" : [ "player" ],
+  "statusArea" : [ [-100, -100], [100, 100] ],
+  
+  "statusEffect": "pf_biomeairlessprotection",
+  "effectDuration" : 10,
+  
+  "radioMessagesOnPickup" : [ "pf_pickupregulator" ]
+}

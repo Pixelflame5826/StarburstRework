@@ -1,0 +1,11 @@
+{
+  "name" : "pf_stormback",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_stormback.lua"
+  ],
+
+  "animationConfig" : "pf_stormback.animation"
+}

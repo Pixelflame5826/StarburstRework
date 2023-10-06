@@ -1,0 +1,37 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.1
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "thorngrenadeicon.png"
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 2
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "thorngrenade.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A grenade created from the shell of a thorn fruit, it fires out thorns in all directions."
+    }
+]

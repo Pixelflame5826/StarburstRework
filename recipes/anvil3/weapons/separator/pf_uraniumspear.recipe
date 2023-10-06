@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "uraniumrod", "count" : 6 },
+    { "item" : "pf_chroniumbar", "count" : 6 },
+    { "item" : "solariumstar", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_uraniumspear", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

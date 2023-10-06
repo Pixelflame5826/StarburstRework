@@ -1,0 +1,145 @@
+[
+	//LORE
+    {
+        "op": "add",
+        "path": "/hylotlcityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_hylotlwarlord-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlcityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_hylotlreligion1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlcityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_hylotlreligion2-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotloceancityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_hylotlwarlord-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlruinedcastleLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_hylotlreligion1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlruinedcastleLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_hylotlwar1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlruinedcityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_hylotlreligion1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlruinedcityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_hylotlreligion2-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/glitchvillageLore/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_glitchtechnology1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/glitchcastleLore/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_glitchpolitics1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/evilfortressLore/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "pf_glitchpolitics1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/avianairshipLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_aviancrystal1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/avianairshipLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_avianbeta1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/avianvillageLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_aviancrystal1-codex"
+        }
+    },
+	
+	//HYLOTL CASTLE
+    {
+        "op": "replace",
+        "path": "/hylotlruinedcastleChestTreasure/0/1/pool/0/weight",
+        "value": 0.72
+    },
+    {
+        "op": "add",
+        "path": "/hylotlruinedcastleChestTreasure/0/1/pool/6",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_samuraikatana"
+        }
+    },
+	
+	//NOVAKID VILLAGE
+	{
+        "op": "replace",
+        "path": "/novakidvillageChestTreasure/0/1/pool/1/weight",
+        "value": 0.17
+    },
+    {
+        "op": "add",
+        "path": "/novakidvillageChestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_cowboyrevolver"
+        }
+    }
+]

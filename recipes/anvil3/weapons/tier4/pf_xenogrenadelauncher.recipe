@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_alienorb", "count" : 5 },
+    { "item" : "durasteelbar", "count" : 4 },
+	{ "item" : "volatilepowder", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_xenogrenadelauncher", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

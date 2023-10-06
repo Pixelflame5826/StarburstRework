@@ -1,0 +1,111 @@
+{
+  "itemName" : "pf_alienraygun",
+  "level" : 4,
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An experimental weapon made by the Apex which fires spiraling orbs of toxic alien energy.",
+  "shortdescription" : "Helix Ray",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_alienraygun.png",
+
+  "animation" : "/items/active/weapons/ranged/pf_fullbrightgun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "/items/active/weapons/biome/alien/alienraygun/pf_alienraygun.png",
+	"middleFullbright" : "/items/active/weapons/biome/alien/alienraygun/pf_alienraygunfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/biome/alien/alienraygun/pf_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "active" : false,
+        "position" : [0, 0],
+        "color" : [90, 90, 90]
+      }
+    },
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_pistol4.ogg"]
+    }
+  },
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [1.0, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.3,
+    "baseDps" : 6.75,
+    "energyUsage" : 17,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.01,
+    "fireType" : "auto",
+
+    "projectileType" : "pf_alienwobbleshotstartup",
+    "projectileParameters" : {},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_alienraygun_l5.png",
+      "animationParts" : {
+        "middle" : "pf_alienraygun_l5.png",
+		"middleFullbright" : "pf_alienraygun_l5fullbright.png"
+      },
+      "shortdescription" : "Genesis Ray"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_alienraygun_l6.png",
+      "animationParts" : {
+        "middle" : "pf_alienraygun_l6.png",
+		"middleFullbright" : "pf_alienraygun_l6fullbright.png"
+      },
+      "shortdescription" : "Di-Nuclear Alien Ray",
+      "description" : "A weapon made by the Miniknog to harness the power within a mutated metal. Fires deadly spiraling orbs.",
+	  "primaryAbility" : {
+		"baseDps" :7.25
+      }
+	}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_savannahbar", "count" : 7 },
+    { "item" : "tungstenbar", "count" : 4 },
+	{ "item" : "volatilepowder", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_auriumsniper", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

@@ -1,0 +1,34 @@
+{
+  "projectileName" : "pf_xenojavelin",
+  "image" : "pf_xenojavelin.png",
+  "animationCycle" : 0.25,
+  "physics" : "arrow",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 110,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_arrow.ogg"
+      ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_alienshotjavelin1",
+      "inheritDamageFactor" : 0.1
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_alienshotjavelin2",
+      "inheritDamageFactor" : 0.1
+    }
+  ],
+  "power" : 200.0,
+  "knockback" : 10,
+  "damageKind" : "bow",
+  "emitters" : [ "daggerblue" ],
+  "damagePoly" : [ [-12, -1], [14, -1], [14, 3], [-12, 3] ]
+}
+
+

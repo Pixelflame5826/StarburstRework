@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/augment/effects/-",
+        "value": "pf_biomelightningaugment"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An EPP module that makes you immune to Deadly Planet Static and resists Electricity."
+    }
+]

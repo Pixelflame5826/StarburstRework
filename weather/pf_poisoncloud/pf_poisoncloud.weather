@@ -1,0 +1,21 @@
+{
+  "name" : "pf_poisoncloud",
+
+  "projectiles" : [
+    {
+      "projectile" : "pf_toxiccloudprimer",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.0075,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+  
+  "statusEffects" : ["pf_biomepoisonmild"],
+  "duration" : [40, 100],
+  "maximumWind" : 0.0
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "pf_predatoryback",
+  "effectConfig" : {
+    "powerModifier" : 1.05
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_predatoryback.lua"
+  ]
+}

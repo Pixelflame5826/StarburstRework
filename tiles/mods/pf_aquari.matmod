@@ -1,0 +1,21 @@
+{
+  "modId" : 29470,
+  "modName" : "pf_aquari",
+  "itemDrop" : "pf_oceanore",
+  "description" : "Aquari.",
+  "health" : 10,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "waterdrip",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_aquari.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [0, 7, 56]
+  }
+}

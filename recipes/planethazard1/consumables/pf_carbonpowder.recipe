@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 15 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_carbonpowder",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "consumables" ]
+}

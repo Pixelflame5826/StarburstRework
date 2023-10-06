@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An old Terran hunting rifle, a relic of an ancient time. Its scope still holds up in magnification to this day."
+    }
+]

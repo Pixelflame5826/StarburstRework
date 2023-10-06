@@ -1,0 +1,43 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.2
+    },
+	{
+        "op": "replace",
+        "path": "/cooldown",
+        "value": 1.0
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 2
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "molotov.png"
+    },
+	
+	{
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "molotovicon.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A makeshift firebomb made from flammable fluids. Useful for both insurrectionists and challenge runners."
+    }
+]

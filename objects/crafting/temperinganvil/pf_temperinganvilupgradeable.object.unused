@@ -1,0 +1,266 @@
+{
+  "objectName" : "pf_temperinganvil",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Uncommon",
+  "race" : "generic",
+  "category" : "crafting",
+
+  //this is handled by the lua
+  "breakDropOptions" : [],
+
+  "price" : 50,
+  "printable" : false,
+
+  "scripts" : [
+    "/objects/crafting/upgradeablecraftingobjects/pf_upgradeablescriptobject.lua"
+  ],
+
+  "animation" : "pf_temperinganvil.animation",
+  "animationPosition" : [0, 20],
+
+  "inventoryIcon" : "pf_temperinganvilicon.png",
+  "placementImage" : "pf_temperinganvil.png:default.default",
+  "placementImagePosition" : [-23, 0],    
+
+  "description" : "Used to turn ores and other materials into crafting ingredients.",
+  "shortdescription" : "^orange;Tempering Anvil^white;",
+
+  "apexDescription" : "A primitive furnace. I can smelt things here.",
+  "avianDescription" : "A basic furnace perfect for smelting ore.",
+  "floranDescription" : "Furnace flamess hisss, burn. Floran brave it.",
+  "glitchDescription" : "Impressed. This furnace is the perfect temperature for smelting basic ores",
+  "humanDescription" : "A smelting furnace. Looks hot.",
+  "hylotlDescription" : "A hot, imposing furnace.",
+  "novakidDescription" : "Basic lookin' furnace, for smeltin' ore.",
+
+  "learnBlueprintsOnPickup" : [],
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 5,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "tungsten",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "pf_temperinganvilicon.png",
+        "placementImage" : "pf_temperinganvil.png:default.default",
+        "placementImagePosition" : [-23, 0],    
+
+        "description" : "A forge that is able to reforge many unique weapons into stronger counterparts.",
+        "shortdescription" : "^orange;Tempering Anvil^white;",
+
+       "apexDescription" : "A tempering forge, I can reforge weapons with this.",
+       "avianDescription" : "A hot forge, I can now temper weapons",
+       "floranDescription" : "Forge flamess hissss, burn. Makesss better weaponss.",
+       "glitchDescription" : "Excited. I can show off my tempering skills with this anvil.",
+       "humanDescription" : "A tempering forge. Upgrades people, upgrades!",
+       "hylotlDescription" : "The weapons I remake with this will be works of art.",
+       "novakidDescription" : "Stronger weapons, easier kills. Jus' that simple."
+      },
+	  
+	  "interactAction" : "ScriptPane",
+      "interactData" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradegui.config",
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "titanium",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "pf_temperinganvil2icon.png",
+        "placementImage" : "pf_temperinganvil2.png:default.default",
+        "placementImagePosition" : [-23, 0],    
+
+        "description" : "A forge that is able to reforge many unique weapons into stronger counterparts.",
+        "shortdescription" : "^orange;Tempering Forge^white;",
+
+       "apexDescription" : "A tempering forge, I can reforge weapons with this.",
+       "avianDescription" : "A hot forge, I can now temper weapons",
+       "floranDescription" : "Forge flamess hissss, burn. Makesss better weaponss.",
+       "glitchDescription" : "Excited. I can show off my tempering skills with this forge.",
+       "humanDescription" : "A tempering forge. Upgrades people, upgrades!",
+       "hylotlDescription" : "The weapons I remake with this will be works of art.",
+       "novakidDescription" : "Stronger weapons, easier kills. Jus' that simple."
+      },
+	  
+	  "interactAction" : "ScriptPane",
+      "interactData" : {
+        "config" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradegui.config",
+        "guiOverride" : {
+          "windowtitle" : {
+            "title" : " Tempering Forge ^green;[Tier 3]",
+            "subtitle" : " ^#b9b5b2;Reforge unique equipment",
+            "icon" : {
+              "file" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradeicon.png"
+            }
+          }
+        },
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 6 },
+          { "item" : "volatilepowder", "count" : 10 },
+          { "item" : "siliconboard", "count" : 3 }
+        ],
+		"upgradeLevel" : 3
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "durasteel",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "pf_temperinganvil3icon.png",
+        "placementImage" : "pf_temperinganvil3.png:default.default",
+        "placementImagePosition" : [-23, 0],    
+
+        "description" : "A forge that is able to reforge many unique weapons into stronger counterparts.",
+        "shortdescription" : "^orange;Refining Forge^white;",
+
+       "apexDescription" : "A refining forge, I can reforge weapons with this.",
+       "avianDescription" : "A hot forge, I can now temper weapons",
+       "floranDescription" : "Forge flamess hissss, burn. Makesss better weaponss.",
+       "glitchDescription" : "Excited. I can show off my tempering skills with this forge.",
+       "humanDescription" : "A refining forge. Upgrades people, upgrades!",
+       "hylotlDescription" : "The weapons I remake with this will be works of art.",
+       "novakidDescription" : "Stronger weapons, easier kills. Jus' that simple."
+      },
+	  
+	  "interactAction" : "ScriptPane",
+      "interactData" : {
+        "config" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradegui.config",
+        "guiOverride" : {
+          "windowtitle" : {
+            "title" : " Refining Forge ^green;[Tier 4]",
+            "subtitle" : " ^#b9b5b2;Reforge unique equipment",
+            "icon" : {
+              "file" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradeicon.png"
+            }
+          }
+        },
+        "upgradeMaterials" : [
+          { "item" : "refinedaegisalt", "count" : 6 },
+          { "item" : "siliconboard", "count" : 3 },
+          { "item" : "battery", "count" : 1 }
+        ],
+		"upgradeLevel" : 4
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+	{
+      "animationState" : "aegisalt",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "pf_temperinganvil4icon.png",
+        "placementImage" : "pf_temperinganvil4.png:default.default",
+        "placementImagePosition" : [-23, 0],    
+
+        "description" : "A forge that is able to reforge many unique weapons into stronger counterparts.",
+        "shortdescription" : "^orange;Mending Forge^white;",
+
+       "apexDescription" : "A mending forge, I can reforge weapons with this.",
+       "avianDescription" : "A hot forge, I can now temper weapons",
+       "floranDescription" : "Forge containsss plasma, hot. Makesss better weaponss.",
+       "glitchDescription" : "Excited. I can show off my tempering skills with this forge.",
+       "humanDescription" : "A mending forge. Upgrades people, upgrades!",
+       "hylotlDescription" : "The weapons I remake with this will be works of art.",
+       "novakidDescription" : "Stronger weapons, easier kills. Jus' that simple."
+      },
+	  
+	  "interactAction" : "ScriptPane",
+      "interactData" : {
+        "config" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradegui.config",
+        "guiOverride" : {
+          "windowtitle" : {
+            "title" : " Mending Forge ^green;[Tier 5]",
+            "subtitle" : " ^#b9b5b2;Reforge unique equipment",
+            "icon" : {
+              "file" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradeicon.png"
+            }
+          }
+        },
+        "upgradeMaterials" : [
+          { "item" : "pf_chroniumbar", "count" : 6 },
+          { "item" : "refinedviolium", "count" : 4 },
+		  { "item" : "refinedferozium", "count" : 4 },
+		  { "item" : "refinedsolarium", "count" : 4 }
+        ],
+		"upgradeLevel" : 5
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare2",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+	{
+      "animationState" : "chronium",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "pf_temperinganvil5icon.png",
+        "placementImage" : "pf_temperinganvil5.png:default.default",
+        "placementImagePosition" : [-23, 0],    
+
+        "description" : "A forge that is able to reforge many unique weapons into stronger counterparts.",
+        "shortdescription" : "^orange;Purification Forge ^white;",
+
+       "apexDescription" : "A purification forge, I can reforge weapons with this.",
+       "avianDescription" : "A hot forge, I can now temper weapons",
+       "floranDescription" : "Forge containsss plasma, hot. Makesss better weaponss.",
+       "glitchDescription" : "Excited. I can show off my tempering skills with this console.",
+       "humanDescription" : "A purification forge. I don't think I can upgrade any further.",
+       "hylotlDescription" : "The weapons I remake with this will be works of art.",
+       "novakidDescription" : "Stronger weapons, easier kills. Jus' that simple."
+      },
+	  
+	  "interactAction" : "ScriptPane",
+      "interactData" : {
+        "config" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradegui.config",
+        "guiOverride" : {
+          "windowtitle" : {
+            "title" : " Purification Forge ^green;[Tier 6]",
+            "subtitle" : " ^#b9b5b2;Reforge unique equipment",
+            "icon" : {
+              "file" : "/interface/scripted/pf_anvilweaponupgrade/pf_anvilweaponupgradeicon.png"
+            }
+          }
+        },
+		"upgradeLevel" : 6
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "image" : "pf_temperinganvil.png:default.<frame>",
+      "imagePosition" : [-23, 0],    
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_temperinganvil.png:default.<frame>",
+      "imagePosition" : [-23, 0],    
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

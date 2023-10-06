@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_promethiumsample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of a promethium ore.\"",
+  "shortdescription" : "Promethium Sample",
+  
+  "apexDescription" : "Extremely volatile, don't want to stand near a nuke made from this stuff...",
+  "avianDescription" : "Promethium, I've heard it glows like the sun and burns all in its wake.",
+  "floranDescription" : "Fire metal! Floran ssshould stay away!",
+  "glitchDescription" : "Reflective. I wonder how many civilizations were razed with this metal...",
+  "humanDescription" : "Promethium, the great purger. So glad humanity didn't have access to this...",
+  "hylotlDescription" : "Ah Promethium, I've heard it be called the \"All Consuming Flame\"...",
+  "novakidDescription" : "What in the goddamn, this stuff glows hotter than I do!",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_promethiumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_promethiumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

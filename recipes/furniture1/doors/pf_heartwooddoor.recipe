@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_forestdisk", "count" : 7 },
+    { "item" : "plantfibre", "count" : 5 }
+  ],
+  "output" : { "item" : "pf_heartwooddoor", "count" : 1 },
+  "groups" : [ "craftingfurniture", "doors", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhorngong",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhorngong.png",
+  "description" : "A very traditional sound for a large industrial machine of death.",
+  "shortdescription" : "Gong Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_gong"]
+}

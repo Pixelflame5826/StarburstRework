@@ -1,0 +1,194 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "tungsten",
+        "states" : {
+          "tungsten" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          },
+		  "titanium" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          },
+          "durasteel" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOff" : [ "fireglow" ],
+              "lightsOn" : [ "bluefireglow" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          },
+		  "aegisalt" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOff" : [ "bluefireglow" ],
+              "lightsOn" : [ "scifiglow" ],
+              "persistentSound" : "/sfx/objects/scififurnace.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          },
+          "chronium" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "scifiglow" ],
+              "persistentSound" : "/sfx/objects/scififurnace.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "chassis" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "tungsten" : {
+              "properties" : {
+                "image" : "pf_temperinganvil.png:<color>.<frame>"
+              }
+            },
+
+            "titanium" : {
+              "properties" : {
+                "image" : "pf_temperinganvil2.png:<color>.<frame>"
+              }
+            },
+
+            "durasteel" : {
+              "properties" : {
+                "image" : "pf_temperinganvil3.png:<color>.<frame>"
+              }
+            },
+			
+			"aegisalt" : {
+              "properties" : {
+                "image" : "pf_temperinganvil4.png:<color>.<frame>"
+              }
+            },
+			
+			"chronium" : {
+              "properties" : {
+                "image" : "pf_temperinganvil5.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "fire" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true,
+		  "zLevel" : 1.5
+        },
+        "partStates" : {
+          "stage" : {
+            "tungsten" : {
+              "properties" : {
+                "image" : "pf_temperinganvilfullbright.png:<color>.<frame>"
+              }
+            },
+
+            "titanium" : {
+              "properties" : {
+                "image" : "pf_temperinganvil2fullbright.png:<color>.<frame>"
+              }
+            },
+
+            "durasteel" : {
+              "properties" : {
+                "image" : "pf_temperinganvil3fullbright.png:<color>.<frame>"
+              }
+            },
+			
+			"aegisalt" : {
+              "properties" : {
+                "image" : "pf_temperinganvil4fullbright.png:<color>.<frame>"
+              }
+            },
+			
+			"chronium" : {
+              "properties" : {
+                "image" : "pf_temperinganvil5fullbright.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/cinematics/mission_unlock_event.ogg"],
+    "fanfare2" : ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+
+  "lights" : {
+    "fireglow" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [96, 184, 92],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    },
+	
+	"bluefireglow" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [153, 128, 234],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    },
+
+    "scifiglow" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [42, 82, 128],
+      "flickerPeriod" : 0.5,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1.0,
+      "flickerPeriodVariance" : 0.0,
+      "flickerIntensityVariance" : 0.0
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

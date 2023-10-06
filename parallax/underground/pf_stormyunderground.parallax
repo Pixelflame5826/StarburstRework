@@ -1,0 +1,43 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/lakecavern",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/waterfall",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/cavernhollow",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true,
+	  "directives" : "?saturation=-100"
+    },
+	{
+      "kind" : "tile/pf_cavernclouds",
+	  "baseCount" : 2,
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.75,
+      "repeatY" : true,
+	  "minSpeed" : -10000,
+      "maxSpeed" : -10000
+    },
+    {
+      "kind" : "tile/lakeback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 2,
+      "repeatY" : true
+    }
+  ]
+}

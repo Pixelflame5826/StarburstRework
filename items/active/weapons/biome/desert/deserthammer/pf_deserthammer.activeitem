@@ -1,0 +1,175 @@
+{
+  "itemName" : "pf_deserthammer",
+  "price" : 960,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A hammer once used by holy guard of Avos. Its design favors both melee and mystical combat.",
+  "shortdescription" : "Avolite Hammer",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_deserthammer.png",
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_deserthammer.png",
+	"bladeFullbright" : "pf_deserthammerfullbright.png"
+  },
+  "animationCustom" : {
+  
+    "animatedParts" : {
+      "parts" : {
+	    "bladeFullbright" : {
+          "properties" : {
+            "centered" : true,
+            "zLevel" : 1,
+            "image" : "<partImage><paletteSwaps><directives>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0],
+			"fullbright" : true
+          }
+        },
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/hammer/swoosh/pf_kluexswoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+	"particleEmitters" : {
+      "physicalCharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 25,
+        "offsetRegion" : [-1.0, -2.5, 1.0, 1.5],
+        "particles" : [
+          { "particle" : "pf_avianenergy"},
+          { "particle" : "pf_avianenergy"}
+        ]
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ],
+	  "physicalcharge" : [ "/sfx/melee/staff_charge4.ogg" ],
+      "physicalfull" : [ "/sfx/melee/charge_full_hold1.ogg" ],
+      "physicalactivate" : [ "/sfx/melee/elemental_aura_activate.ogg" ],
+	  "physicalactive" : [ "/sfx/gun/mech_shielddrone_loop1.ogg" ],
+	  "physicaldeactivate" : [ "/sfx/gun/impact_plasma.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "baseDps" : 11.5
+  },
+  
+  "altAbility" : {
+    "name" : "Kluex Protect Me",
+    "scripts" : ["/items/active/weapons/biome/desert/deserthammer/pf_kluexaura.lua"],
+	"type" : "pf_kluexaura",
+    "class" : "pf_KluexAura",
+	
+	"projectileCount" : 4,
+    "projectileDistance" : 3.5,
+    "projectileType" : "kluexstaffplasma",
+    "projectileParameters" : {
+      "baseDamage" : 9
+    },
+    "triggerSound" : ["/sfx/projectiles/plasma1.ogg"],
+
+    "projectileDelay" : 2.0,
+	
+	"energyUsage" : 120.0,
+    "cooldownTime" : 0.5,
+
+    "duration" : 8.0,
+
+    "chargeTime" : 1.5,
+    "minChargeTime" : 0.5,
+
+    "damagePoly" : [[0,3.75], [2.66, 2.66], [3.75,0], [2.66, -2.66], [0,-3.75], [-2.66, -2.66], [-3.75, 0], [-2.66, 2.66]],
+    "damageConfig" : {
+      "damageSourceKind" : "plasma",
+      "baseDamage" : 4,
+      "knockbackMode" : "none",
+      "knockback" : 0,
+      "timeout" : 0.5,
+      "timeoutGroup" : "alt"
+    },
+	
+	"stances" : {
+      "windup" : {
+        "armRotation" : 0,
+        "endArmRotation" : 50,
+        "weaponRotation" : 0,
+        "endWeaponRotation" : -50,
+        "weaponOffset" : [0, 0.75],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 0.75],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_deserthammer_l4.png",
+      "animationParts" : {
+        "blade" : "pf_deserthammer_l4.png",
+		"bladeFullbright" : "pf_deserthammerfullbright.png"
+      },
+      "shortdescription" : "Avolian Hammer"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_deserthammer_l5.png",
+      "animationParts" : {
+        "blade" : "pf_deserthammer_l5.png",
+		"bladeFullbright" : "pf_deserthammer_l5fullbright.png"
+      },
+      "shortdescription" : "Guardian Hammer"
+	},
+	"level6" : {
+	  "inventoryIcon" : "pf_deserthammer_l6.png",
+      "animationParts" : {
+        "blade" : "pf_deserthammer_l6.png",
+		"bladeFullbright" : "pf_deserthammer_l6fullbright.png"
+      },
+      "shortdescription" : "Maul of Kluex",
+	  "description" : "A legendary hammer wielded by the strongest Avian Guardians. Protects eternally with spiritual power.",
+	  "primaryAbility" : {
+		"baseDps" : 12.25
+      },
+	  "altAbility" : {
+	    "projectileCount" : 6
+	  }
+	}
+  }
+}

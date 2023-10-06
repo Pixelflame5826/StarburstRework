@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_icywaterbottle",
+  "price" : 20,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_icywaterbottle.png",
+  "description" : "A water bottle with cold ice. Resists Mild Planet Heat and cures Burning.",
+  "shortdescription" : "Cold Water Bottle",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_mildbiomeheatprotection",
+        "duration" : 240
+      },
+      {
+        "effect" : "fireblock",
+        "duration" : 2
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

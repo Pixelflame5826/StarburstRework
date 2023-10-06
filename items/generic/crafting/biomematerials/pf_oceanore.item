@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_oceanore",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_oceanore.png",
+  "description" : "A dark blue crystal that is said to invoke the deep sea.",
+  "shortdescription" : "Aquari Shard",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

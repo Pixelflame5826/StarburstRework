@@ -1,0 +1,32 @@
+[
+    {
+        "op": "replace",
+        "path": "/protectorateShipPlatform/text",
+        "value": "I have bypassed the preflight checks, there's no time. Get aboard, Captain!"
+    },
+    {
+        "op": "replace",
+        "path": "/protectorateTentacleBarrier/text",
+        "value": "You will need to destroy that tentacle in order to reach the shuttle. You require a weapon of some kind to get past it."
+    },
+    {
+        "op": "replace",
+        "path": "/protectorateGetWeapon/text",
+        "value": "The chest sitting on that security checkpoint has a weapon, arm yourself with it and continue forwards!"
+    },
+    {
+        "op": "replace",
+        "path": "/protectorateRooftop/text",
+        "value": "Protectorate communications are sending distress signals from all across the planet. The scale of this disaster is unheard of. You must leave at once!"
+    },
+    {
+        "op": "replace",
+        "path": "/protectorateStage5/text",
+        "value": "It is not safe to remain here! ^#71f2f6;Please take the Matter Manipulator^white;. I have detected a functioning ship on the shuttle pad nearby."
+    },
+    {
+        "op": "replace",
+        "path": "/protectorateLoungeTutorial/text",
+        "value": "Your uniform is available to collect from your personal locker... Remember that it is a requirement to show up in your uniform, don't want to look bad on your first day as a Protector."
+    }
+]

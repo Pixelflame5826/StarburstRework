@@ -1,0 +1,12 @@
+{
+  "name" : "pf_mildbiomeheatprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_mildbiomeheatprotection.lua"
+  ],
+
+  "label" : "Heat Protection - Immunity to Mild Heat and Mitigates Deadly Heat, Slight Resistance To Fire",
+  "icon" : "/interface/statuses/pf_heatprotection.png"
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "pf_thermometer",
+  "colonyTags" : ["science", "pf_weather"],
+  "rarity" : "Uncommon",
+  "description" : "A nice basic thermometer, albeit large. Be sure to not break this one.",
+  "shortdescription" : "Thermometer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+  "printable" : false,
+
+  "apexDescription" : "This thermometer is quite big, though I suppose it's accuracy is better.",
+  "avianDescription" : "Many Avolite thermometers were this big. They were quite ornate though...",
+  "floranDescription" : "Floran cannot carry thermometer. Usselesss!",
+  "glitchDescription" : "Surprised. This thermometer is quite big, perhaps used as decoration or for far away viewers.",
+  "humanDescription" : "Bigger thermometer to take bigger measurements.",
+  "hylotlDescription" : "This is quite the large thermometer, could it perhaps double as wall decor?",
+  "novakidDescription" : "Well you know what they say \"Everythin' is bigger with Novakids.\".",
+  "nostosDescription" : "I've heard of larger measuring devices, but this is ridiculous.",
+
+  "inventoryIcon" : "pf_thermometericon.png",
+  "orientations" : [
+    {
+      "image" : "pf_thermometer.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

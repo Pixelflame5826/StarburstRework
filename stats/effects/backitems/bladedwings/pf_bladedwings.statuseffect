@@ -1,0 +1,11 @@
+{
+  "name" : "pf_bladedwings",
+  "effectConfig" : {
+    "powerModifier" : 1.15
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_bladedwings.lua"
+  ]
+}

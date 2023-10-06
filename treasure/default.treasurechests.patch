@@ -1,0 +1,97 @@
+[
+    {
+        "op": "add",
+        "path": "/iceChest/0/containers/-",
+        "value": "icespherechest"
+    },
+    {
+        "op": "add",
+        "path": "/toxicChest/0/containers/-",
+        "value": "scorchedcitychest"
+    },
+    {
+        "op": "replace",
+        "path": "/jungleChest/0/containers/0",
+        "value": "chestavian1"
+    },
+    {
+        "op": "add",
+        "path": "/jungleChest/0/containers/-",
+        "value": "junglechest"
+    },
+    {
+        "op": "add",
+        "path": "/jungleChest/0/containers/-",
+        "value": "chestplant1"
+    },
+    {
+        "op": "add",
+        "path": "/oceanFloorChest/0/containers/-",
+        "value": "chestfloran1"
+    },
+    {
+        "op": "replace",
+        "path": "/oceanChest/0/containers/1",
+        "value": "junglechest"
+    },
+    {
+        "op": "replace",
+        "path": "/oceanChest/0/containers/0",
+        "value": "chestavian2"
+    },
+    {
+        "op": "replace",
+        "path": "/snowChest/0/containers/0",
+        "value": "icechest"
+    },
+    {
+        "op": "add",
+        "path": "/snowChest/0/containers/-",
+        "value": "chestavian2"
+    },
+    {
+        "op": "replace",
+        "path": "/savannahChest/0/containers/0",
+        "value": "chestfloran1"
+    },
+    {
+        "op": "add",
+        "path": "/savannahChest/0/containers/-",
+        "value": "bonechest"
+    },
+    {
+        "op": "replace",
+        "path": "/desertChest/0/containers/1",
+        "value": "chestavian1"
+    },
+    {
+        "op": "replace",
+        "path": "/desertChest/0/containers/0",
+        "value": "sandstonechest"
+    },
+    {
+        "op": "replace",
+        "path": "/forestChest/0/containers/0",
+        "value": "medievalchest"
+    },
+    {
+        "op": "add",
+        "path": "/forestChest/0/containers/-",
+        "value": "chestplant1"
+    },
+    {
+        "op": "replace",
+        "path": "/gardenChest/0/containers/0",
+        "value": "chestavian2"
+    },
+    {
+        "op": "add",
+        "path": "/gardenChest/0/containers/-",
+        "value": "medievalchest"
+    },
+	{
+        "op": "replace",
+        "path": "/techChest/0/containers/0",
+        "value": "techchest"
+    }
+]

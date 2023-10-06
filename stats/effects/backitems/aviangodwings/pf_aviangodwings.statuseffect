@@ -1,0 +1,12 @@
+{
+  "name" : "pf_aviangodwings",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_aviangodwings.lua"
+  ],
+  
+  "label" : "-25% Fall Damage",
+  "icon" : "/interface/statuses/nofalldamage.png"
+}

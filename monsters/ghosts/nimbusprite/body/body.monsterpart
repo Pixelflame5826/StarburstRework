@@ -1,0 +1,10 @@
+{
+  "name" : "pf_nimbusprite",
+  "category" : "pf_nimbusprite",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pf_nimbusprite.png",
+    "bodynobright" : "pf_nimbuspritenobright.png"
+  }
+}

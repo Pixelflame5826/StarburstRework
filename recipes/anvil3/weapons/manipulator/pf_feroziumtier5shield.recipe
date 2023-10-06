@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 4 },
+    { "item" : "refinedferozium", "count" : 6 },
+    { "item" : "hardenedcarapace", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_feroziumtier5shield", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

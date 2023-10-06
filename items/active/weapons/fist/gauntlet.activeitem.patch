@@ -1,0 +1,17 @@
+[
+	{
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildfist.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquefist"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A metal gauntlet that is built to punch. Quite a heavy hitter and will cause some damage, even if a bit uninspired."
+    }
+]

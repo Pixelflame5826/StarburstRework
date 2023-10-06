@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquestaff"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A wand powered by ferozium. Destroys things faster than you can say random latin words at the enemy."
+    }
+]

@@ -1,0 +1,107 @@
+{
+  "itemName" : "pf_promethiumstaff",
+  "price" : 1440,
+  "maxStack" : 1,
+  "level" : 6,
+  "rarity" : "Legendary",
+  "description" : "An explosive staff with a promethium core. Magic? Who needs magic when you have explosions!?",
+  "shortdescription" : "Promethium Staff",
+  "category" : "staff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff"],
+  "tooltipKind" : "pf_uniquestaff",
+
+  "animation" : "/items/active/weapons/staff/staff.animation",
+  "animationParts" : {
+    "staff" : "pf_promethiumstaff.png",
+    "stone" : "pf_stone.png",
+    "chargeEffect" : "pf_staffglow.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "glow" : {
+        "color" : [120, 60, 30]
+      }
+    },
+
+    "sounds" : {
+      "zoneactivate" : ["/sfx/interface/rocket_lockon.ogg"]
+    }
+  },
+
+  "inventoryIcon" : "pf_promethiumstaff.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.4,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "elementswarm",
+  "primaryAbility" : {
+    "name" : "Bomber Swarm",
+    
+	"projectileType" : "pf_promethiumswarmer",
+    "projectileParameters" : {
+      "baseDamage" : 40
+    }
+  },
+
+  "altAbilityType" : "elementswarm",
+  "altAbility" : {
+    "name" : "Summon Explosion",
+    "maxCastRange" : 30,
+	
+	"projectileDistance" : 2.5,
+	"projectileType" : "pf_promethiumbomb",
+    "projectileParameters" : {
+      "baseDamage" : 40
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

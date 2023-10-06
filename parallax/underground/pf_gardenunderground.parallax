@@ -1,0 +1,33 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_gardenminecavern",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/plants",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/artifactcavern",
+      "nohueshift" : false,
+	  "offset" : [0, 25],
+      "lightMapped" : true,
+      "parallax" : 1.4,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/mineback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    }
+  ]
+}

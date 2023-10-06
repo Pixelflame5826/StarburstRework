@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_junglebar", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 1 },
+	{ "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_vermilliumgrenade", "count" : 10 },
+  "groups" : [ "craftinganvil3", "consumables", "all" ]
+}

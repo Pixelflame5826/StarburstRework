@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A plasma shotgun created by Letheia. Has a double barreled design that uses plasma charges for reliability."
+	}
+]

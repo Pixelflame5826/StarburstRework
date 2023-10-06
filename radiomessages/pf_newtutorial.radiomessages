@@ -1,0 +1,17 @@
+{
+
+// on picking up various items
+
+  "pf_pickuphazardtable" : {
+    "type" : "tutorial",
+    "text" : "I see you have made a Hazard Lab Table. This station will allow you to craft planet hazard blocking consumables, augments, EPPs, and even regulators. A must-have for any adventurer."
+  },
+  "pf_pickupenhancementpack" : {
+    "type" : "tutorial",
+    "text" : "You obtained an Enhancement Pack. These pieces of equipment will give you a variety of effects to boost your effectiveness in certain ways. You can also enhance these packs with augments."
+  },
+  "pf_pickupregulator" : {
+    "type" : "tutorial",
+    "text" : "You've created a regulator! These objects allow you to protect a large area around it from certain planetary hazards. A perfect addition to any base found on a hazardous planet."
+  }
+}

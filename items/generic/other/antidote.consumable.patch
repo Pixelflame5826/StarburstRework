@@ -1,0 +1,37 @@
+[
+    {
+        "op": "remove",
+        "path": "/blockingEffects"
+    },
+	{
+        "op": "replace",
+        "path": "/rarity",
+        "value": "Uncommon"
+    },
+    {
+        "op": "replace",
+        "path": "/effects/0/0",
+        "value": {
+            "effect": "pf_biomepoisonprotection",
+            "duration": 240
+        }
+    },
+    {
+        "op": "add",
+        "path": "/effects/0/1",
+        "value": {
+            "effect": "poisonblock",
+            "duration": 120
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An all-purpose antidote. Resists Deadly Planet Toxicity and blocks Poison."
+    },
+	{
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "antidote.png"
+    }
+]

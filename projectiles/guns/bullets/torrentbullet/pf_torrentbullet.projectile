@@ -1,0 +1,19 @@
+{
+  "projectileName" : "pf_torrentbullet",
+  "image" : "pf_torrentbullet.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 8,
+  "damageKindImage" : "icon.png",
+  "piercing" : true,
+  "physics" : "bullet",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 100,
+  "damageKind" : "standardbullet"
+}

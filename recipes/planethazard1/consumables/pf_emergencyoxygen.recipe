@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+	{ "item" : "livingroot", "count" : 1 },
+    { "item" : "liquidwater", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "pf_emergencyoxygen",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "consumables" ]
+}

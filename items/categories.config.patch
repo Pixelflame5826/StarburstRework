@@ -1,0 +1,22 @@
+[
+    {
+        "op": "add",
+        "path": "/labels/pf_advBackwear",
+        "value": "Enhancement Pack"
+    },
+    {
+        "op": "add",
+        "path": "/labels/pf_hazardBlocker",
+        "value": "Protective Item"
+    },
+    {
+        "op": "add",
+        "path": "/labels/pf_referenceWeapon",
+        "value": "Otherworldly Weapon"
+    },
+	{
+        "op": "add",
+        "path": "/labels/pf_game",
+        "value": "Portable Game"
+    }
+]

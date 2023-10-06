@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_magmarod",
+  "price" : 160,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_magmarod.png",
+  "description" : "An exothermic metal commonly found on extremely volcanic planets.",
+  "shortdescription" : "Pyronix Rod",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

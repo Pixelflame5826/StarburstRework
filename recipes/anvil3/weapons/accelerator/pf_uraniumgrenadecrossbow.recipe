@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "uraniumrod", "count" : 7 },
+    { "item" : "pf_chroniumbar", "count" : 7 },
+    { "item" : "refinedviolium", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_uraniumgrenadecrossbow", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

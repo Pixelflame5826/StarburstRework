@@ -1,0 +1,93 @@
+{
+  "itemName" : "pf_tundraboomerangaxe",
+  "level" : 5,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "boomerang",
+  "description" : "A mystical, icy battle-axe that always returns when thrown. It has strange runes engraved onto its head.",
+  "shortdescription" : "Tuagh Dhìleas",
+  "tooltipKind" : "pf_uniqueboomerang",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_tundraboomerangaxeicon.png",
+  "animation" : "/items/active/weapons/boomerang/boomerang.animation",
+  "animationParts" : {
+    "boomerang" : "pf_tundraboomerangaxe.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/boomerang/boomerang.lua"],
+  "fireOffset" : [1.25, 0.5],
+
+  "cooldownTime" : 0.6,
+  
+  "elementalType" : "ice",
+
+  "projectileType" : "pf_tundraboomerangaxe",
+  "projectileParameters" : {
+    "power" : 5,
+    "knockback" : 20,
+
+    "returnOnHit" : false,
+    "pickupDistance" : 1.0,
+
+    "hoverMaxDistance" : 25,
+    "hoverTime" : 0.25
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transition" : "throw",
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/pf_buildboomerang.lua",
+  
+  "upgradeParameters" : {
+	"level6" : {
+	  "inventoryIcon" : "pf_tundraboomerangaxe_l6icon.png",
+      "animationParts" : {
+        "boomerang" : "pf_tundraboomerangaxe_l6.png"
+      },
+      "shortdescription" : "Inholdæx",
+      "description" : "A throwing axe once wielded by a skilled warrior. The runes on its head always make sure it comes back.",
+	  
+	  "projectileType" : "pf_tundraboomerangaxel6"
+	}
+  }
+}

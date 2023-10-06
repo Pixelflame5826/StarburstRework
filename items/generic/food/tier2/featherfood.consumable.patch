@@ -1,0 +1,27 @@
+[
+    {
+        "op": "replace",
+        "path": "/effects/0/1/duration",
+        "value": 210
+    },
+    {
+        "op": "replace",
+        "path": "/effects/0/0/duration",
+        "value": 210
+    },
+    {
+        "op": "replace",
+        "path": "/effects/0/0/effect",
+        "value": "nofalldamage"
+    },
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Winged Cake"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A traditional Avian food eaten at celebrations. Said to grant the blessing of Kluex to whoever eats it."
+    }
+]

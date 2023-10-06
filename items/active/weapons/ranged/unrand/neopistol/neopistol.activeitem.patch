@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A plasma pistol created and sold by Letheia. Commonly used by outlaws due to its low price and strength."
+	}
+]

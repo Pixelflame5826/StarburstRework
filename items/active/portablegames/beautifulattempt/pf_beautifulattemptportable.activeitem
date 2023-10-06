@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_beautifulattemptportable",
+  "level" : 1,
+  "price" : 1000,
+  "rarity" : "Legendary",
+  "category" : "pf_game",
+  "description" : "A portable gaming console that plays the popular visual novel, Beautiful Attempt!",
+  "shortdescription" : "BA!:SSMH+ Handheld",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "pf_beautifulattemptportableicon.png",
+  "animation" : "pf_beautifulattemptportable.animation",
+  "animationParts" : {
+    "transponder" : "pf_beautifulattemptportable.png"
+  },
+  "scripts" : ["/interface/scripted/sbvn/sbvnobject.lua", "pf_beautifulattemptportable.lua"],
+  "scriptDelta" : 0,
+
+  "interactAction" : "ScriptPane",
+  "interactData" : {
+    "baseConfig" : "/interface/scripted/sbvn/sbvngui.config",
+    "gameFile" : "/interface/scripted/sbvn/games/beautifulattempt/beautifulattempt.sbvn"
+  }
+}

@@ -1,0 +1,276 @@
+[[
+	//PLANET GEN CHANGES
+    {
+        "op": "replace",
+        "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/0",
+        "value": "toxic"
+    },
+    {
+        "op": "add",
+        "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+        "value": "midnight"
+    },
+    {
+        "op": "replace",
+        "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/1",
+        "value": "arctic"
+    },
+    {
+        "op": "add",
+        "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+        "value": "volcanic"
+    },
+    {
+        "op": "add",
+        "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+        "value": "magma"
+    },
+    {
+        "op": "replace",
+        "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/0",
+        "value": "desert"
+    },
+    {
+        "op": "add",
+        "path": "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+        "value": "ocean"
+    },
+    {
+        "op": "replace",
+        "path": "/satelliteTypes/Tier2/baseParameters/terrestrialType/1",
+        "value": "savannah"
+    },
+    {
+        "op": "replace",
+        "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/2",
+        "value": "midnight"
+    },
+    {
+        "op": "replace",
+        "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/0",
+        "value": "toxic"
+    },
+    {
+        "op": "replace",
+        "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/2",
+        "value": "volcanic"
+    },
+    {
+        "op": "add",
+        "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+        "value": "magma"
+    },
+    {
+        "op": "remove",
+        "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/2"
+    },
+    {
+        "op": "replace",
+        "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/1",
+        "value": "jungle"
+    },
+    {
+        "op": "replace",
+        "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/0",
+        "value": "alien"
+    },
+    {
+        "op": "replace",
+        "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/0",
+        "value": "desert"
+    },
+    {
+        "op": "replace",
+        "path": "/planetaryTypes/Tier2/baseParameters/terrestrialType/1",
+        "value": "savannah"
+    },
+	
+	//STAR CHANGES
+	{
+        "op": "replace",
+        "path": "/systemTypes/Red/variationParameters/2/twinkleFrames",
+        "value": "/celestial/stars/star17pxOrange.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Red/variationParameters/2/description",
+        "value": "Large Dim Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Red/variationParameters/1/twinkleFrames",
+        "value": "/celestial/stars/star13pxOrange.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Red/variationParameters/1/description",
+        "value": "Medium Dim Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Red/variationParameters/0/twinkleFrames",
+        "value": "/celestial/stars/star7pxOrange.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Red/variationParameters/0/description",
+        "value": "Small Dim Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Red/baseParameters/image",
+        "value": "/celestial/system/pf_browndwarf.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Blue/variationParameters/2/twinkleFrames",
+        "value": "/celestial/stars/star17pxRed.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Blue/variationParameters/2/description",
+        "value": "Large Red Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Blue/variationParameters/1/twinkleFrames",
+        "value": "/celestial/stars/star13pxRed.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Blue/variationParameters/1/description",
+        "value": "Medium Red Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Blue/variationParameters/0/twinkleFrames",
+        "value": "/celestial/stars/star7pxRed.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Blue/variationParameters/0/description",
+        "value": "Small Red Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Blue/baseParameters/image",
+        "value": "/celestial/system/redstar.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Yellow/variationParameters/2/twinkleFrames",
+        "value": "/celestial/stars/star17pxLightBlue.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Yellow/variationParameters/1/twinkleFrames",
+        "value": "/celestial/stars/star13pxLightBlue.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Yellow/variationParameters/0/twinkleFrames",
+        "value": "/celestial/stars/star7pxLightBlue.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Yellow/baseParameters/image",
+        "value": "/celestial/system/pf_lightbluestar.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Orange/variationParameters/2/twinkleFrames",
+        "value": "/celestial/stars/star17pxYellow.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Orange/variationParameters/2/description",
+        "value": "Large Yellow Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Orange/variationParameters/1/twinkleFrames",
+        "value": "/celestial/stars/star13pxYellow.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Orange/variationParameters/1/description",
+        "value": "Medium Yellow Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Orange/variationParameters/0/twinkleFrames",
+        "value": "/celestial/stars/star7pxYellow.png"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Orange/variationParameters/0/description",
+        "value": "Small Yellow Star"
+    },
+    {
+        "op": "replace",
+        "path": "/systemTypes/Orange/baseParameters/image",
+        "value": "/celestial/system/yellowstar.png"
+    },
+	
+	//----NEW PLANETS----//
+	{
+        "op": "add",
+        "path": "/terrestrialGraphics/pf_stormy",
+        "value": {
+            "baseImages": "/celestial/system/terrestrial/biomes/pf_stormy/maskie<num>.png",
+            "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+            "dynamicsRange": [
+                1,
+                20
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/terrestrialHorizonGraphics/pf_stormy",
+        "value": {
+            "baseImages": "/celestial/system/terrestrial/horizon/textures/pf_stormy_<selector>.png",
+            "maskPerPlanetRange": [
+                3,
+                3
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+        "value": "pf_stormy"
+    }
+],
+
+//TRUE SPACE PATCHES
+//Adding in new planets to the belt types within True Space
+[
+	{ "op": "test", "path": "/systemTypes/ClassAStar" },
+	
+	{
+        "op": "add",
+        "path": "/satelliteTypes/MildNSat/baseParameters/terrestrialType/-",
+        "value": "pf_stormy"
+    },
+    {
+        "op": "add",
+        "path": "/satelliteTypes/WarmNSat/baseParameters/terrestrialType/-",
+        "value": "pf_stormy"
+    },
+    {
+        "op": "add",
+        "path": "/planetaryTypes/CoolPlanet/baseParameters/terrestrialType/-",
+        "value": "pf_stormy"
+    },
+    {
+        "op": "add",
+        "path": "/planetaryTypes/MildPlanet/baseParameters/terrestrialType/-",
+        "value": "pf_stormy"
+    },
+    {
+        "op": "add",
+        "path": "/planetaryTypes/WarmPlanet/baseParameters/terrestrialType/-",
+        "value": "pf_stormy"
+    }
+]]

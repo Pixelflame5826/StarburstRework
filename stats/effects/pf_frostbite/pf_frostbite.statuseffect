@@ -1,0 +1,16 @@
+{
+  "name" : "pf_frostbite",
+  "blockingStat" : "iceStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_frostbite.lua"
+  ],
+
+  "animationConfig" : "pf_frostbite.animation",
+
+  "label" : "Frost Bite - Damage Over Time, Reduced Defense",
+  "icon" : "/interface/statuses/frost.png"
+}

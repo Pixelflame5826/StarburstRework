@@ -1,0 +1,14 @@
+{
+  "name" : "pf_medicback",
+  "blockingStat" : "healingStatusImmunity",
+
+  "effectConfig" : {
+    "healTime" : 135,
+	"healthModifier" : 1.20
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_medicback.lua"
+  ]
+}

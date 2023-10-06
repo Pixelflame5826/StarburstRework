@@ -1,0 +1,18 @@
+{
+  "itemName" : "pf_emergencyoxygen",
+  "price" : 30,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_emergencyoxygen.png",
+  "description" : "A quick-use O2 tank for emergencies. Immune to Airless areas.",
+  "shortdescription" : "Emergency O2 Tank",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+        "effect" : "pf_biomeairlessprotection",
+        "duration" : 120
+      }
+  ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquestaff"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A staff powered by ferozium. Its great if you want to throw energy swords rather than wield them."
+    }
+]

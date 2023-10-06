@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_scorchedrod",
+  "price" : 180,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_scorchedrod.png",
+  "description" : "A hot radioactive isotope commonly found near nuked wastelands.",
+  "shortdescription" : "Promethium Rod",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,24 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "rope" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "pf_stormygrapplegun.png",
+          "offset" : [-0.6, -0.5]
+        }
+      },
+	  "ropeFullbright" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "pf_stormygrapplegunfullbright.png",
+          "offset" : [-0.6, -0.5]
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fire" : ["/sfx/gun/electricrailgun1.ogg"]
+  }
+}

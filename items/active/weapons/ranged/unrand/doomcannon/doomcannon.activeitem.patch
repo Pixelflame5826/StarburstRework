@@ -1,0 +1,32 @@
+[
+    {
+        "op": "add",
+        "path": "/altAbility/name",
+        "value": "Doom Grenade"
+    },
+    {
+        "op": "replace",
+        "path": "/baseOffset/1",
+        "value": -0.5
+    },
+    {
+        "op": "replace",
+        "path": "/baseOffset/0",
+        "value": 0.75
+    },
+    {
+        "op": "replace",
+        "path": "/category",
+        "value": "pf_referenceWeapon"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "The biggest damn gun known to man, blows up enemies in extreme fashion. How's that for cartoon violence?"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    }
+]

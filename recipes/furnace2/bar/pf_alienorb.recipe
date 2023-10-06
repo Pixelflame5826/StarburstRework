@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "pf_alienore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pf_alienorb",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace2", "bars", "all" ]
+}

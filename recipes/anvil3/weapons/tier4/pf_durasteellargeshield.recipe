@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 8 },
+    { "item" : "goldbar", "count" : 4 },
+    { "item" : "hardenedcarapace", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_durasteellargeshield", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

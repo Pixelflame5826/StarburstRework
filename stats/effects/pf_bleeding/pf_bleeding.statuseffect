@@ -1,0 +1,16 @@
+{
+  "name" : "pf_bleeding",
+  "blockingStat" : "",
+
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_bleeding.lua"
+  ],
+
+  "animationConfig" : "pf_bleeding.animation",
+
+  "label" : "Blood Loss - Damage Over Time, All Regen is Blocked",
+  "icon" : "/interface/statuses/pf_bleeding.png"
+}

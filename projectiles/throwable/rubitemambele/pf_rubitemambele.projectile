@@ -1,0 +1,23 @@
+{
+  "projectileName" : "pf_rubitemambele",
+  "image" : "pf_rubitemambele.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 180,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 120.0,
+  "knockback" : 10,
+  "piercing" : true,
+  "damageKind" : "dagger",
+  "emitters" : [ "pf_aviantrail" ],
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ]
+}
+
+

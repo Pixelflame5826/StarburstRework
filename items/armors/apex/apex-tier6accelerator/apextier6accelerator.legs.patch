@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A set of leg armour with chronium-reinforced greaves that little can pierce."
+    }
+]

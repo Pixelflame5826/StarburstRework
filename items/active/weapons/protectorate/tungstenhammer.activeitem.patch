@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A massive hammer made from Tungsten. Sends enemies flying from weight alone, well... if you can wield it."
+    }
+]

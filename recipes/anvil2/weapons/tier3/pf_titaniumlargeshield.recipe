@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "copperbar", "count" : 5 },
+    { "item" : "leather", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_titaniumlargeshield", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

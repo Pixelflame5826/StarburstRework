@@ -1,0 +1,12 @@
+{
+  "name" : "pf_mildbiomelightningprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_mildbiomelightningprotection.lua"
+  ],
+
+  "label" : "Static Protection - Immunity to Minor Static and Mitigates Deadly Static, Slight Resistance To Electricity",
+  "icon" : "/interface/statuses/pf_lightningprotection.png"
+}

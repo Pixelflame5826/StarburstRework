@@ -1,0 +1,37 @@
+{
+  "itemName" : "pf_throwingenergyknife",
+  "rarity" : "Uncommon",
+  "price" : 30,
+  "level" : 5,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_throwingenergyknifeicon.png",
+  "image" : "pf_throwingenergyknife.png",
+  "largeImage" : "pf_throwingenergyknife.png",
+  "shortdescription" : "Throwing Energy Knife",
+  "description" : "A small energy knife powered by aegisalt, flies far and easy to throw from less weight.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.05,
+  "cooldown" : 0.15,
+
+  "projectileType" : "pf_throwingenergyknife",
+  "projectileConfig" : {
+    "speed" : 75,
+    "power" : 10,
+    "knockback" : 10,
+
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

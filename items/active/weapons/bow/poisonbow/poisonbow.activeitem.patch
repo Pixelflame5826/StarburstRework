@@ -1,0 +1,28 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildbow.lua"
+    },
+	
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquebow"
+    },
+    {
+        "op": "add",
+        "path": "/largeImage",
+        "value": "poisonbowfull.png:0"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A modified compound bow with a powerful kick to it. It fires arrows dipped in poison."
+    },
+	{
+        "op": "add",
+        "path": "/upgradeParameters/largeImage",
+        "value": "poisonbowfull_l6.png:0"
+    }
+]

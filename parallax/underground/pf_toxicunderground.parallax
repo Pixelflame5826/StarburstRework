@@ -1,0 +1,39 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pipecavern",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "noRandomOffset" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/industrial",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "noRandomOffset" : true,
+      "offset": [0, 20],
+      "parallax" : 1.5,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/pf_toxicindustrialfullbright",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "noRandomOffset" : true,
+      "parallax" : 1.49999999,
+      "repeatY" : true,
+      "offset": [0, 20],
+      "unlit" : true
+    },
+    {
+      "kind" : "tile/pf_toxiccaveback",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "noRandomOffset" : true,
+      "parallax" : 1.6,
+      "repeatY" : true
+    }
+  ]
+}

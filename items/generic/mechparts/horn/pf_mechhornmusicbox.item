@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhornmusicbox",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhornmusicbox.png",
+  "description" : "A nice short melody to lull your enemies into an endless sleep.",
+  "shortdescription" : "Music Box Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_musicbox"]
+}

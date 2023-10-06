@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhornruin",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhornruin.png",
+  "description" : "There's nothing better than the most feared noise in all of existence.",
+  "shortdescription" : "Ruin Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_ruin"]
+}

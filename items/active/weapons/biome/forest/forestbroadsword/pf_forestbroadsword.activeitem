@@ -1,0 +1,114 @@
+{
+  "itemName" : "pf_forestbroadsword",
+  "price" : 960,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A wooden broadsword that was made by a Greenfinger's hand. It is as brutal as it is beautiful.",
+  "shortdescription" : "Floral Blade",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_forestbroadsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_forestbroadsword.png"
+  },
+  "animationCustom" : { 
+    "sounds" : {
+      "fireKunai" : [ "/sfx/melee/bouquet_hit_organic.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 12.5
+  },
+
+  "altAbilityType" : "kunaiblast",
+  "altAbility" : {
+    "name" : "Petal Blast",
+	
+    "projectileTimesAndAngles" : [
+      [0.02, -15],
+      [0.10, 0],
+      [0.18, 15],
+	  [0.26, 0],
+	  [0.34, -15],
+	  [0.42, 0],
+	  [0.5, -15]
+    ],
+	
+	"projectileOffset" : [1.75, 0],
+	
+	"projectileType" : "pf_petalshot",
+	
+	"stances" : {
+      "windup" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+        "weaponOffset" : [0, 0],
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "fire" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level3" : {
+	  "inventoryIcon" : "pf_forestbroadsword_l3.png",
+      "animationParts" : {
+        "blade" : "pf_forestbroadsword_l3.png"
+      },
+      "shortdescription" : "Blooming Blade"
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_forestbroadsword_l4.png",
+      "animationParts" : {
+        "blade" : "pf_forestbroadsword_l4.png"
+      },
+      "shortdescription" : "Wreathed Blade"
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_forestbroadsword_l5.png",
+      "animationParts" : {
+        "blade" : "pf_forestbroadsword_l5.png"
+      },
+      "shortdescription" : "Cherry Blossom"
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_forestbroadsword_l6.png",
+      "animationParts" : {
+        "blade" : "pf_forestbroadsword_l6.png"
+      },
+      "shortdescription" : "Sakura",
+      "description" : "A deadly sword made by a Greenfinger who was inspired by the beauty and prowess that the Hylotl admired.",
+	  "primaryAbility" : {
+		"baseDps" : 12.75
+      }
+	}
+  }
+}

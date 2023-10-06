@@ -1,0 +1,32 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pf_savannahcavefront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/pf_savannahcavetrees",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.35,
+      "repeatY" : true
+    },
+	{
+      "kind" : "tile/pf_savannahcavemid",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/boneback",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.6,
+      "repeatY" : true
+    }
+  ]
+}

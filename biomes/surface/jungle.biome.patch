@@ -1,0 +1,40 @@
+[	
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 0,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:pf_pgiChest",
+            "type": "treasureBox",
+            "treasureBoxSets": [
+                "pf_pgiDefaultChest"
+            ]
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/statusEffects/0",
+        "value": "pf_biomepoison"
+    },
+	
+	{
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode" : "floor",
+			"priority" : 1.0,
+			"variants" : 1,
+			"distribution" : "/biomes/distributions.config:scatteredLarge",
+
+			"type" : "object",
+			"objectSets" : [
+				{
+					"pool" : [ [0.5, "fireflybush" ], [0.5, "butterflybush" ] ],
+					"parameters" : { }
+				}
+			]
+        }
+    }
+]

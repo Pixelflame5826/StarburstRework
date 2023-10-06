@@ -1,0 +1,32 @@
+[
+	{
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+	
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+			"subtitle": "Enhancement Pack",
+
+            "pf_status1Image": "/items/armors/backitems/xenonpack/pf_xenonglow.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "Xenon Glow"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "projectileName" : "pf_electricparticleprimer",
+  "image" : "pf_electricparticleprimer.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "emitters" : [ "electricplasma" ],
+  "onlyHitTerrain" : true,
+  "power" : 0.0,
+  "damageKind" : "default"
+}

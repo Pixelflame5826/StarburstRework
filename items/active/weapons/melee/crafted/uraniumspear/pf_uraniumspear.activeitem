@@ -1,0 +1,61 @@
+{
+  "itemName" : "pf_uraniumspear",
+  "price" : 960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The dense Uranium head on this spear makes it a hard hitter and very toxic.",
+  "shortdescription" : "Uranium Partisan",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "pf_uraniumspear.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_uraniumspear.png",
+	"bladeFullbright" : "pf_uraniumspearfullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "bladeFullbright" : {
+          "properties" : {
+            "zLevel" : 2,
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>",
+            "offset" : [0.0, 0.0],
+            "transformationGroups" : ["weapon"],
+			"fullbright" : true
+          }
+        }
+      }
+	},
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear_poison1.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10.5,
+	
+	"damageConfig" : {
+      "damageSourceKind" : "poisonspear"
+    }
+  },
+
+  "altAbilityType" : "rocketspear",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_xenocytesample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of a xenocyte cluster.\"",
+  "shortdescription" : "Xenocyte Sample",
+  
+  "apexDescription" : "A mineral made of still alive microorganisms, fascinating.",
+  "avianDescription" : "Quite a creepy and organic material...",
+  "floranDescription" : "Would thisss need to be hunted or mined?",
+  "glitchDescription" : "Dumbfounded. I've never heard of an organic alloy creator.",
+  "humanDescription" : "Is this alive? Will it be alive when forged?",
+  "hylotlDescription" : "Mutated beyond belief... its almost frightening.",
+  "novakidDescription" : "Can I make an organic gun out of this? That'd be neat.",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_xenocytesample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_xenocytesample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

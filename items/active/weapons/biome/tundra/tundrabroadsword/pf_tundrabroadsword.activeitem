@@ -1,0 +1,81 @@
+{
+  "itemName" : "pf_tundrabroadsword",
+  "price" : 980,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A big, icy claymore with strange runes on it. The blade has a biting chill that will freeze combatants.",
+  "shortdescription" : "Claidheamh Reòta",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_tundrabroadsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "pf_handle.png",
+    "blade" : "pf_blade.png"
+  },
+  "animationCustom" : { 
+    "particleEmitters" : {
+      "bladeCharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 30,
+        "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+        "particles" : [
+          { "particle" : "pf_icecharge1"},
+          { "particle" : "pf_icecharge2"},
+          { "particle" : "pf_icecharge3"}
+        ]
+      }
+    },
+	"sounds" : {
+	  "fire" : [ "/sfx/melee/swing_broadsword_ice1.ogg", "/sfx/melee/swing_broadsword_ice2.ogg", "/sfx/melee/swing_broadsword_ice3.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_shortsword_ice1.ogg", "/sfx/melee/swing_shortsword_ice2.ogg", "/sfx/melee/swing_shortsword_ice3.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_spear_ice1.ogg", "/sfx/melee/swing_spear_ice2.ogg", "/sfx/melee/swing_spear_ice3.ogg" ]
+	}
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5,
+	"damageConfig" : {
+      "damageSourceKind" : "icebroadsword"
+    }
+  },
+
+  "altAbilityType" : "bladecharge",
+  "altAbility" : {
+    "chargeBorder" : "BEFFFF",
+	"damageConfig" : {
+      "damageSourceKind" : "icebroadsword",
+      "statusEffects" : [ "pf_frostbite" ]
+    },
+	"name" : "Freezing Blade"
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level6" : {
+	  "inventoryIcon" : "pf_tundrabroadsword_l6.png",
+      "animationParts" : {
+        "handle" : "pf_handle_l6.png",
+		"blade" : "pf_blade_l6.png"
+      },
+      "shortdescription" : "Gicelgebrand",
+      "description" : "An old greatsword wielded by an Alpaca, the runes that line it imbue the blade with a biting chill.",
+	  "primaryAbility" : {
+		"baseDps" : 11.75
+      }
+	}
+  }
+}

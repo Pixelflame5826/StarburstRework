@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_vermilliumsample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of a vermillium clump.\"",
+  "shortdescription" : "Vermillium Sample",
+  
+  "apexDescription" : "It seems the plants that make this filter toxins... are they trying to purify the soil?",
+  "avianDescription" : "A deadly organic material, menacing when tipped on a spearhead.",
+  "floranDescription" : "Poissson, perfect for hunting.",
+  "glitchDescription" : "Surprised. The toxins in this sample are insanely pure.",
+  "humanDescription" : "Ah yes, my best friend, deadly neurotoxins.",
+  "hylotlDescription" : "A purest form of nature's capacity to contain corruption.",
+  "novakidDescription" : "I ain't even organic and feel ill by just lookin' at it.",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_vermilliumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_vermilliumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

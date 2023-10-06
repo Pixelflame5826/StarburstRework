@@ -1,0 +1,63 @@
+[
+    {
+        "op": "replace",
+        "path": "/items/hylotl/3/1/0/primary/0",
+        "value": "pf_samuraikatana"
+    },
+    {
+        "op": "replace",
+        "path": "/items/hylotl/2/1/0/primary/0",
+        "value": "pf_samuraikatana"
+    },
+    {
+        "op": "replace",
+        "path": "/items/hylotl/1/1/0/primary/0",
+        "value": "pf_samuraikatana"
+    },
+    {
+        "op": "replace",
+        "path": "/items/hylotl/0/1/0/primary/0",
+        "value": "pf_samuraikatana"
+    },
+	
+	{
+        "op": "replace",
+        "path": "/items/novakid/3/1/0/sheathedprimary/0",
+        "value": "npcdagger"
+    },
+    {
+        "op": "replace",
+        "path": "/items/novakid/3/1/0/primary/0",
+        "value": "pf_cowboyrevolver"
+    },
+    {
+        "op": "replace",
+        "path": "/items/novakid/2/1/0/sheathedprimary/0",
+        "value": "npcdagger"
+    },
+    {
+        "op": "replace",
+        "path": "/items/novakid/2/1/0/primary/0",
+        "value": "pf_cowboyrevolver"
+    },
+    {
+        "op": "replace",
+        "path": "/items/novakid/1/1/0/sheathedprimary/0",
+        "value": "npcdagger"
+    },
+    {
+        "op": "replace",
+        "path": "/items/novakid/1/1/0/primary/0",
+        "value": "pf_cowboyrevolver"
+    },
+    {
+        "op": "replace",
+        "path": "/items/novakid/0/1/0/sheathedprimary/0",
+        "value": "npcdagger"
+    },
+    {
+        "op": "replace",
+        "path": "/items/novakid/0/1/0/primary/0",
+        "value": "pf_cowboyrevolver"
+    }
+]

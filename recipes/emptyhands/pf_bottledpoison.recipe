@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidpoison", "count" : 10 },    
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_bottledpoison",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

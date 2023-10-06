@@ -1,0 +1,19 @@
+[
+  {
+    "name" : "pf_nimbusprite",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.015,
+    "monsterType" : [
+      [0.99, "pf_nimbusprite"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "op": "replace",
+        "path": "/rarityLabel/position/1",
+        "value": 30
+    },
+    {
+        "op": "replace",
+        "path": "/rarityLabel/position/0",
+        "value": 12
+    },
+    {
+        "op": "replace",
+        "path": "/descriptionLabel/wrapWidth",
+        "value": 122
+    },
+    {
+        "op": "remove",
+        "path": "/descriptionLabel/lineSpacing"
+    },
+    {
+        "op": "replace",
+        "path": "/descriptionLabel/position/1",
+        "value": 91
+    },
+    {
+        "op": "replace",
+        "path": "/descriptionLabel/position/0",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/priceLabel/position/1",
+        "value": 30
+    },
+    {
+        "op": "replace",
+        "path": "/priceLabel/position/0",
+        "value": 115
+    },
+    {
+        "op": "replace",
+        "path": "/moneyIcon/position/1",
+        "value": 30
+    },
+    {
+        "op": "replace",
+        "path": "/moneyIcon/position/0",
+        "value": 102
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_blueicesample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of an blue ice crystal.\"",
+  "shortdescription" : "Blue Ice Sample",
+  
+  "apexDescription" : "Blue Ice likely has some insulating properties to keep itself cold.",
+  "avianDescription" : "Blue Ice is perfect for any hot desert morning, won't even melt.",
+  "floranDescription" : "Cold icce.",
+  "glitchDescription" : "Astonished. Even had high temperatures, this material won't melt.",
+  "humanDescription" : "So slippery, that if you had a sled of some kind on Blue Ice, you might outspeed most cars.",
+  "hylotlDescription" : "I've heard some drinks made with this stuff can keep you cool for days.",
+  "novakidDescription" : "So cold that its perfect to keep yer tumblers cool.",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_blueicesample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_blueicesample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "pf_biomelightningmild",
+  "blockingStat" : "pf_mildBiomeLightningImmunity",
+
+  "effectConfig" : {
+    "tickRate" : 20,
+    "healthDamage" : 5
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "pf_biomelightningmild.lua"
+  ],
+
+  "animationConfig" : "pf_biomelightning.animation",
+
+  "label" : "Mild Static - Reduced Max Energy and Energy Regen, Running Out Deals Damage",
+  "icon" : "/interface/statuses/pf_biomelightning.png"
+}

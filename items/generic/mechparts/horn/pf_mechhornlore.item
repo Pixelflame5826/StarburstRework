@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhornlore",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhornlore.png",
+  "description" : "How does this exist? Why does this exist? WHAT DOES IT ALL MEAN?!",
+  "shortdescription" : "The Lore Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_lore"]
+}

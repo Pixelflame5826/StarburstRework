@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_forestdisk",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_forestdisk.png",
+  "description" : "A fossilized type of wood primarily found in heavily forested climates.",
+  "shortdescription" : "Heartwood Core",
+  "itemTags" : [ "reagent" ]
+}

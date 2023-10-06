@@ -1,0 +1,23 @@
+[
+    {
+        "op": "replace",
+        "path": "/contentPages/0",
+        "value": "MINIKNOG DAILY CITIZEN SUPPLY INVENTORY
+
+Miniknog Easy-Make Frozen Meals x 3
+Sterilized Bottled Water x 5
+Copy of the Daily Peel x 1
+Big Ape's Favorite Banana Smoothie Pack x 1
+Apex's Best Friend Pet Food x 1 (Requires Application)
+3 Hour Television Pass x 1
+
+Note: Rations can be reduced or revoked if you cause trouble."
+    },
+    {
+        "op": "add",
+        "path": "/contentPages/1",
+        "value": "Additional Luxuries are obtainable in return for extra work, volunteering for the Miniknog's scientific studies, and information on rebel activities.
+
+Remember, Big Ape is watching you! Good behavior will be rewarded in equal size."
+    }
+]

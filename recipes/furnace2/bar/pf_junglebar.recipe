@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "pf_jungleore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pf_junglebar",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace2", "bars", "all" ]
+}

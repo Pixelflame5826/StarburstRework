@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pf_desertcrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_rubitemambele", "count" : 10 },
+  "groups" : [ "craftinganvil2", "consumables", "all" ]
+}

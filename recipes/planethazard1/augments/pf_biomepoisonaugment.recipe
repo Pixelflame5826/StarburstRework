@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "stickofram", "count" : 1 },
+	{ "item" : "venomsample", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pf_biomepoisonaugment",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist", "augments" ]
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomeheatprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomeheatprotection.lua"
+  ],
+
+  "label" : "Heat Immunity - Immunity to Deadly Heat, Slight Resistance To Fire",
+  "icon" : "/interface/statuses/pf_advheatprotection.png"
+}

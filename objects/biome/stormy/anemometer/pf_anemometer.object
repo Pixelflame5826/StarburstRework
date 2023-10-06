@@ -1,0 +1,48 @@
+{
+  "objectName" : "pf_anemometer",
+  "colonyTags" : ["science", "pf_weather"],
+  "printable" : true,
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 270,
+  
+  "description" : "A spinning device used to measure wind speeds. Quite hypnotic isn't it?",
+  "shortdescription" : "Anemometer",
+  "race" : "generic",
+
+  "apexDescription" : "This device is used to measure wind speed, though it's pretty primitive.",
+  "avianDescription" : "Quite an industrial way to measure the winds, we usually use specialized banners.",
+  "floranDescription" : "Floran like watching device ssspin.",
+  "glitchDescription" : "Intrigued. Quite the method to measure wind speeds, definitely something we could make.",
+  "humanDescription" : "What does this thing say? It's windy. Wow, who would've guessed!",
+  "hylotlDescription" : "A less pretty method of measuring wind speeds, though it is pleasing to watch.",
+  "novakidDescription" : "This sure is a complex weather vane. Why do ya need all these sensors?",
+  "nostosDescription" : "An Anemometer, quite an old way to measure the winds, but it does work.",
+
+  "inventoryIcon" : "pf_anemometericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "pf_anemometer.png:<color>.<frame>", "fullbright" : true }, { "image" : "pf_anemometerlit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "pf_anemometer.png:<color>.<frame>", "fullbright" : true }, { "image" : "pf_anemometerlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/sewergear.ogg"
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.05
+    },
+	{
+        "op": "replace",
+        "path": "/cooldown",
+        "value": 0.3
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildthrowingweapon.lua"
+    },
+    {
+        "op": "add",
+        "path": "/level",
+        "value": 5
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "throwingstar.png"
+    },
+	{
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "throwingstaricon.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingweapon"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A proficient throwing weapon used for exposed targets. Able to be thrown quickly."
+    },
+	{
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Shuriken"
+    }
+]

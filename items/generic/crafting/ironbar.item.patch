@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A very basic, yet useful metal primarily found on planets orbiting Gentle Stars."
+    }
+]

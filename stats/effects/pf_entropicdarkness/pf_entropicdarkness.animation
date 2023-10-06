@@ -1,0 +1,16 @@
+{
+  "particleEmitters" : {
+    "shadow" : {
+      "enabled" : true,
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "shadowshard"
+        },
+		{
+          "particle" : "shadowsmoke"
+        }
+      ]
+    }
+  }
+}

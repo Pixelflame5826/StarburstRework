@@ -1,0 +1,42 @@
+[
+    {
+        "op": "replace",
+        "path": "/lights/separatorglow/color/2",
+        "value": 68
+    },
+    {
+        "op": "replace",
+        "path": "/lights/separatorglow/color/1",
+        "value": 195
+    },
+    {
+        "op": "replace",
+        "path": "/lights/separatorglow/color/0",
+        "value": 226
+    },
+    {
+        "op": "replace",
+        "path": "/lights/acceleratorglow/color/2",
+        "value": 196
+    },
+    {
+        "op": "replace",
+        "path": "/lights/acceleratorglow/color/1",
+        "value": 81
+    },
+    {
+        "op": "replace",
+        "path": "/lights/acceleratorglow/color/0",
+        "value": 164
+    },
+    {
+        "op": "replace",
+        "path": "/animatedParts/parts/lights/partStates/stage/separator/properties/image",
+        "value": "craftinganvil3.png:<color>.accelerator"
+    },
+    {
+        "op": "replace",
+        "path": "/animatedParts/parts/lights/partStates/stage/accelerator/properties/image",
+        "value": "craftinganvil3.png:<color>.separator"
+    }
+]

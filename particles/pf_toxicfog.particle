@@ -1,0 +1,15 @@
+{
+  "kind" : "pf_toxicfog",
+  "definition" : {
+    "type" : "textured",
+    "image" : "/animations/toxicfog/toxicfog.png",
+    "size" : 1.0,
+    "destructionAction" : "fade",
+    "destructionTime" : 3,
+    "initialVelocity" : [0.1, 0],
+    "timeToLive" : 15,
+    "layer" : "front",
+    "position" : [-1, 0],
+    "collidesForeground" : false
+  }
+}

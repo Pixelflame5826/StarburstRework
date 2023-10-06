@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An unassuming radioactive element that is actually quite dangerous to life."
+    },
+	{
+        "op": "replace",
+        "path": "/rarity",
+        "value": "Legendary"
+    }
+]

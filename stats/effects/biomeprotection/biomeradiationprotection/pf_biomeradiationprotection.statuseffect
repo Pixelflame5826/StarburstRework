@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomeradiationprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomeradiationprotection.lua"
+  ],
+
+  "label" : "Radiation Immunity - Immunity to Deadly Radiation, Slight Resistance To Fire",
+  "icon" : "/interface/statuses/pf_advradiationprotection.png"
+}

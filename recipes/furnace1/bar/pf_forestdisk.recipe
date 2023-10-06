@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_forestore", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_forestdisk", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace", "bars", "all" ]
+}

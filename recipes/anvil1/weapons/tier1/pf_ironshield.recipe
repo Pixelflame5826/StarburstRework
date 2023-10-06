@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 },
+    { "item" : "darkwoodmaterial", "count" : 25 },
+    { "item" : "string", "count" : 4 }
+  ],
+  "output" : { "item" : "pf_ironshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

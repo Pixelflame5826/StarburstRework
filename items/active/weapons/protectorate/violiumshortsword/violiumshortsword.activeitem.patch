@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Solarium Shortsword"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "This solarium hilt houses the projector for an energy blade. Keep hands away from the blade... yours, not theirs."
+    },
+	{
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquesword"
+    }
+]

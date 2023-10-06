@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "essence", "count" : 500 },
+    { "item" : "pf_chroniumbar", "count" : 15 },
+    { "item" : "breathprotectionback", "count" : 1 },
+	{ "item" : "radiationprotectionback", "count" : 1 },
+	{ "item" : "pf_poisonprotectionback", "count" : 1 },
+	{ "item" : "coldprotectionback", "count" : 1 },
+	{ "item" : "heatprotectionback", "count" : 1 },
+	{ "item" : "pf_lightningprotectionback", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_universalprotectionback", "count" : 1 },
+  "groups" : [ "pf_craftingplanetresist3", "hazardgear", "all" ]
+}

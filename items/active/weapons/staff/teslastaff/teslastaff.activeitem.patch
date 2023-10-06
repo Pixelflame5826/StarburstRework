@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquestaff"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Don't touch the electrical parts of this controllable Tesla Coil. They will kill you before you hit the floor."
+    }
+]

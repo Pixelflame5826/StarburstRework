@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_shadowstar",
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_shadowstar.png",
+  "description" : "A shadowy material found primarily in lightless climates. ^red;What kind of star is this?^white;",
+  "shortdescription" : "Erebium Star",
+  "itemTags" : [ "reagent" ]
+}

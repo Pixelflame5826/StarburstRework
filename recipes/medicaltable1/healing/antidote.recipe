@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "venomsample", "count" : 1 },
+	{ "item" : "coalore", "count" : 5 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "antidote",
+    "count" : 1
+  },
+  "groups" : [ "pf_craftingplanetresist2", "consumables" ]
+}

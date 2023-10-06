@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_throwingenergyknife", "count" : 30 },
+  "groups" : [ "craftingmanipulator", "craftingseparator", "craftingaccelerator", "consumables", "all" ]
+}

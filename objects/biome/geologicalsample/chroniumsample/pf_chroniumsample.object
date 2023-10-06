@@ -1,0 +1,39 @@
+{
+  "objectName" : "pf_chroniumsample",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"A perfect sample of a chronium ore.\"",
+  "shortdescription" : "Chronium Sample",
+  
+  "apexDescription" : "A very mysterious metal, though it is very useful in protective plating.",
+  "avianDescription" : "Such a dark metal... almost like a compressed brick of smoke.",
+  "floranDescription" : "Mysssterious metal.",
+  "glitchDescription" : "Curious. Such a strong metal... I wonder what makes it so dark.",
+  "humanDescription" : "Chronium is never corroding, never weathering. Until someone mines it.",
+  "hylotlDescription" : "A metal said to be timeless. How poetic.",
+  "novakidDescription" : "A timeless metal, eh? Well, suppose I can relate to that.",
+
+  "inventoryIcon" : "pf_icon.png",
+  "orientations" : [
+    {
+      "image" : "pf_chroniumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_chroniumsample.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

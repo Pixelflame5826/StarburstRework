@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A hi-tech rifle made from durasteel. Microthrusters on its barrel reduce the recoil from its powerful bullets."
+    }
+]

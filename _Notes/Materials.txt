@@ -1,0 +1,57 @@
+------TIERED------
+---Tier 1---
+-Overall-
+Iron
+
+-Planet Specific-
+None
+
+---Tier 2---
+-Overall-
+Tungsten
+
+-Planet Specific-
+Forest: Heartwood, petrified wood that's a strong material for stuff.
+Savannah: Aurium, a gold-like material that can bind with metals.
+
+---Tier 3---
+-Overall-
+Titanium
+
+-Planet Specific-
+Ocean: Aquari, dense blue crystals that condense water around them.
+Desert: Rubite, a primitive form of Avolite that generates heat.
+Snow: Blue Ice, an incredibly cold form of ice that almost never melts.
+
+---Tier 4---
+-Overall-
+Durasteel, a natural form of steel made from radioactive iron.
+
+-Planet Specific-
+Alien: Xenocyte, an alien biological material that can fuse with minerals.
+Jungle: Vermillum, an organic byproduct that is made by plants, very toxic.
+
+---Tier 5---
+-Overall-
+Aegisalt, a salt that can contain and release vast amounts of energy in a safe manner.
+
+-Planet Specific-
+Volcanic/Magma: Pyronix, a compound that is constantly creating strong exothermic reactions.
+Tundra/Arctic: Cryonix, a strange material that is so non-reactive that it is constantly cold always.
+
+---Tier 6---
+-Overall-
+Chronium, a dark yet very strong metal used in many applications.
+
+-Planet Specific
+Scorched: Promethium, a radioactive isotope of Plutonium that is constantly going critical.
+Midnight: Erebium, a cold and dead form of Obsidian that is uncannily black.
+Toxic: Uranium, a radioactive and toxic material. Used to power stuff and make dense things.
+
+------HAZARD------
+Oxygen: Water, Living Root
+Radiation: Lead, Hardened Carapace
+Toxic: Coal, Venom Sample
+Cold: Core Fragments, Scorched Core
+Hot: Ice, Cryonic Extract
+Electric: Fabric, Static Cell

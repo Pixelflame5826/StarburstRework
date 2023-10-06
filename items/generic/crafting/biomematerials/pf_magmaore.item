@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_magmaore",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_magmaore.png",
+  "description" : "A metal that is constantly reacting with itself exothermically.",
+  "shortdescription" : "Pyronix Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

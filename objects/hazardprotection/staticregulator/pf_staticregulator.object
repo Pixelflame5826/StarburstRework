@@ -1,0 +1,76 @@
+{
+  "objectName" : "pf_staticregulator",
+  "colonyTags" : ["pf_weather"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "An atmospheric control system that grounds the area around it. Protecting against static areas.",
+  "shortdescription" : "Antistatic Regulator",
+  "race" : "generic",
+
+  "apexDescription" : "An advanced ECS, I don't think I'll need to worry about static electricity with this.",
+  "avianDescription" : "A nice breeze from this ruffles my feathers. Feels less tingly, electricity won't bother me.",
+  "floranDescription" : "Floran feels lesss tingly, nice.",
+  "glitchDescription" : "Relaxed. This system should keep me safe from electricity.",
+  "humanDescription" : "No electricity is going to get past this. Such a grounded piece of tech.",
+  "hylotlDescription" : "Ah, uncharged air flows through this vent. I doubt static electricity will bother me here.",
+  "novakidDescription" : "Well this makes me feel a lot better, not as interfered.",
+
+  "category" : "furniture",
+  "price" : 3000,
+
+  "inventoryIcon" : "pf_staticregulatoricon.png",
+  "orientations" : [
+    {
+      "image" : "pf_staticregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_staticregulator.png",
+        "fg" : "pf_staticregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "pf_staticregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      "direction" : "right",
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_staticregulator.png",
+        "fg" : "pf_staticregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/scripts/pf_statuseffectobject.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/hazardprotection/pf_regulator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/bunkervent.ogg",
+  
+  "detectEntityTypes" : [ "player" ],
+  "statusArea" : [ [-100, -100], [100, 100] ],
+  
+  "statusEffect": "pf_biomelightningaugment",
+  "effectDuration" : 10,
+  
+  "radioMessagesOnPickup" : [ "pf_pickupregulator" ]
+}

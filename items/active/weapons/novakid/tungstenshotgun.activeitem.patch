@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquegun"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A shotgun made out of tungsten. Sends out dense shells of pellets at whatever you want gone within 10 feet."
+    }
+]

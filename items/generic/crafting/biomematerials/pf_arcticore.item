@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_arcticore",
+  "price" : 30,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_arcticore.png",
+  "description" : "A cold metal that is so inert, it can almost never rise in temperature.",
+  "shortdescription" : "Cryonix Ore",
+  "itemTags" : [ "reagent" ]
+}

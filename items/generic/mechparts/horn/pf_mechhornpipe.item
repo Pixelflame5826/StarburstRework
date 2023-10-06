@@ -1,0 +1,13 @@
+{
+  "itemName" : "pf_mechhornpipe",
+  "price" : 2500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "inventoryIcon" : "pf_mechhornpipe.png",
+  "description" : "Very loud, very violent, and somehow very amusing.",
+  "shortdescription" : "Falling Pipe Mech Horn",
+  "itemTags" : [ ],
+
+  "mechPart" : ["horn", "pf_pipe"]
+}

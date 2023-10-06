@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "These slim-cut leggings are interwoven with chronium nanotubes for added durability."
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "op": "remove",
+        "path": "/augmentmerchant/0/1/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augmentmerchant/0/1/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augmentmerchant/0/1/5"
+    },
+    {
+        "op": "remove",
+        "path": "/augmentmerchant/0/1/5"
+    },
+    {
+        "op": "add",
+        "path": "/pf_stormymerchant",
+        "value": [
+            [
+                0,
+                [
+                    {
+                        "item": {
+                            "name": "pf_carbonpowder"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "pf_clothpadding"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "pf_emergencyoxygen"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "pf_handwarmer"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "pf_icywaterbottle"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "pf_leadpadding"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "medkit"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "pf_raindoll"
+                        }
+                    },
+                    {
+                        "item": {
+                            "name": "shadowchimes"
+                        }
+                    }
+                ]
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/pf_novakidguns",
+        "value": [
+            [
+                0,
+                [
+                    { "item" : { "name" : "rarepistol" }, "rarity" : 0.02, "useSeed" : true },
+					{ "item" : { "name" : "raremachinepistol" }, "rarity" : 0.02, "useSeed" : true },
+					{ "item" : { "name" : "pf_cowboyrevolver" }, "rarity" : 0.02, "useSeed" : true }
+                ]
+            ]
+        ]
+    },
+	{
+        "op": "add",
+        "path": "/pf_arcademerchant",
+        "value": [
+            [
+                0,
+                [
+                    { "item" : { "name" : "pf_mazebound64portable" } },
+					{ "item" : { "name" : "pf_beautifulattemptportable" } },
+					{ "item" : { "name" : "bearplush" }, "rarity" : 0.3 },
+					{ "item" : { "name" : "badgooplush" }, "rarity" : 0.2 },
+					{ "item" : { "name" : "football" }, "rarity" : 0.2 },
+					{ "item" : { "name" : "mindwurmplush" }, "rarity" : 0.2 },
+					{ "item" : { "name" : "neonhylotlhead" }, "rarity" : 0.2 },
+					{ "item" : { "name" : "numiplush" }, "rarity" : 0.3 },
+					{ "item" : { "name" : "plainorbplush" }, "rarity" : 0.2 },
+					{ "item" : { "name" : "turtleplush" }, "rarity" : 0.2 },
+					{ "item" : { "name" : "arcadeblue" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "arcadedance" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "arcadegreen" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "arcadeorange" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "arcadepurple" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "arcadered" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "arcadestarbound" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "arcadeyellow" }, "rarity" : 0.1 },
+					{ "item" : { "name" : "gangbroadsword", "parameters" : {"inventoryIcon" : "/items/active/weapons/melee/broadsword/gangbroadsword/9.png", "animationParts" : { "blade" : "/items/active/weapons/melee/broadsword/gangbroadsword/9.png" }} }, "rarity" : 0.1, "useSeed" : true },
+					{ "item" : { "name" : "arcadegame" }, "rarity" : 0.075},
+					{ "item" : { "name" : "beautifulattempt" }, "rarity" : 0.075}
+                ]
+            ]
+        ]
+    }
+]

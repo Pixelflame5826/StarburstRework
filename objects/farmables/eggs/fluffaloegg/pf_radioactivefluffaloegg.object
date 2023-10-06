@@ -1,0 +1,48 @@
+{
+  "objectName" : "pf_radioactivefluffaloegg",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "farmBeastEgg",
+  "price" : 2500,
+
+  "description" : "Hatches into a vulnerable radioactive fluffalo calf - a good source of radioactive remnants once fully grown.",
+  "shortdescription" : "Radioactive Fluffalo Egg",
+  "race" : "generic",
+
+  "apexDescription" : "A 'radioactive fluffalo egg'. I wouldn't recommend standing near it.",
+  "avianDescription" : "This is a radioactive fluffalo egg. While fluffy, its a bit dangerous to pet.",
+  "floranDescription" : "Big radioactive fluffalo egg with little radioactive fluffalo inside.",
+  "glitchDescription" : "Enchanted. I hope the little radioactive fluffalo calf hatches soon.",
+  "humanDescription" : "I-is it safe to stand near? My geiger counter doesn't like this.",
+  "hylotlDescription" : "This nearly glowing egg will hatch into a radioactive fluffalo.",
+  "novakidDescription" : "It's a radioactive fluffalo egg. I've heard herds of these things can irradiate an entire prairies.",
+
+  "inventoryIcon" : "pf_radioactivefluffaloegg.png:idle.1",
+  "orientations" : [
+    {
+      "image" : "pf_radioactivefluffaloegg.png:idle.1",
+      "imagePosition" : [-7, -3],
+
+      "spaces" : [ [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/farmables/eggs/farmableegg.animation",
+  "animationPosition" : [-7, -3],
+  "animationParts" : {
+    "egg" : "pf_radioactivefluffaloegg.png"
+  },
+
+  "scripts" : ["/objects/farmables/eggs/farmableegg.lua"],
+  "scriptDelta" : 60,
+
+  "hatchTime" : 40,
+  "forceHatchTime" : 80,
+
+  "spawnMonster" : "pf_radioactivefluffalobaby",
+  "spawnOffset" : [0.5, 0.5]
+}

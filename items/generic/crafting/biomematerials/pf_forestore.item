@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_forestore",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_forestore.png",
+  "description" : "A petrified piece of Heartwood, very sturdy and holds a mean edge.",
+  "shortdescription" : "Ancient Heartwood",
+  "itemTags" : [ "reagent" ]
+}

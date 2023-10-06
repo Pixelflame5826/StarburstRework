@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_biomecoldaugment",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_biomecoldaugment.png",
+  "description" : "An EPP module that makes you immune to Mild Planet Cold.",
+  "shortdescription" : "Cold Resist Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_mildbiomecoldprotection",
+    "displayName" : "Cold Resist",
+    "displayIcon" : "/items/augments/back/biomeprotection/pf_biomecoldaugment.png",
+    "effects" : [ "pf_mildbiomecoldprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

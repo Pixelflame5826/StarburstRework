@@ -1,0 +1,27 @@
+{
+  "projectileName" : "pf_masterspinsword",
+  "image" : "pf_masterspinsword.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [168, 229, 255],
+  "frameNumber" : 4,
+  "fullbright" : true,
+  "damageKindImage" : "icon.png",
+  "physics" : "boomerang",
+  "emitters" : [ ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "damageKind" : "plasma",
+  
+
+  "speed" : 0,
+  "timeToLive" : 1.5,
+
+  "scripts" : [ "/projectiles/tracksourcestatus.lua" ],
+  "scriptDelta" : 1
+}

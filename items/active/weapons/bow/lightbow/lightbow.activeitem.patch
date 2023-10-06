@@ -1,0 +1,24 @@
+[
+	
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildbow.lua"
+    },
+	
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniquebow"
+    },
+    {
+        "op": "add",
+        "path": "/largeImage",
+        "value": "lightbowfull.png:0"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A bow fashined from strong bioluminescent fibers. It fires bright glowing arrows that can light things up."
+    }
+]

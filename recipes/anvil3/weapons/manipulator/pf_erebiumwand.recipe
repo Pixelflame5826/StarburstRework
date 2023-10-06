@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_shadowstar", "count" : 5 },
+    { "item" : "pf_chroniumbar", "count" : 3 },
+    { "item" : "refinedferozium", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_erebiumwand", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

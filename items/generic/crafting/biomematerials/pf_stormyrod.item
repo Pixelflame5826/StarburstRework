@@ -1,0 +1,10 @@
+{
+  "itemName" : "pf_stormyrod",
+  "price" : 170,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_stormyrod.png",
+  "description" : "A highly charged form of fulgurite primarily found in mountainous, stormy climates.",
+  "shortdescription" : "Thorite Rod",
+  "itemTags" : [ "reagent" ]
+}

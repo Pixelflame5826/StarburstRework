@@ -1,0 +1,20 @@
+{
+  "modId" : 29472,
+  "modName" : "pf_blueice",
+  "itemDrop" : "pf_snowcrystal",
+  "description" : "Blue Ice Crystal.",
+  "health" : 10,
+  "breaksWithTile" : true,
+  "harvestLevel" : 3,
+  
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "waterdrip",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_blueice.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

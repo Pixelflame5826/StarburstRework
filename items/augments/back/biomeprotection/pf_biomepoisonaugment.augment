@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_biomepoisonaugment",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_biomepoisonaugment.png",
+  "description" : "An EPP module that makes you immune to Mild Planet Toxicity.",
+  "shortdescription" : "Toxic Resist Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_mildbiomepoisonprotection",
+    "displayName" : "Toxic Resist",
+    "displayIcon" : "/items/augments/back/biomeprotection/pf_biomepoisonaugment.png",
+    "effects" : [ "pf_mildbiomepoisonprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

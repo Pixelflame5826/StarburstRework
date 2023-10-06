@@ -1,0 +1,25 @@
+[
+    {
+        "op": "add",
+        "path": "/statusEffects/1",
+        "value": "pf_biomelightningmild"
+    },
+	{
+        "op": "add",
+        "path": "/projectiles/-",
+        "value": {
+            "projectile": "pf_electricparticleprimer",
+            "parameters": {
+                "power": 0
+            },
+            "velocity": [
+                0,
+                -60
+            ],
+            "ratePerX": 0.05,
+            "spawnAboveRegion": 10,
+            "spawnHorizontalPad": 10,
+            "windAffectAmount": 0.15
+        }
+    }
+]

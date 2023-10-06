@@ -1,0 +1,81 @@
+{
+  // BASIC BIOMES
+  "pf_midnightChest" : [
+    {
+      "containers" : [ "shadowchest" ],
+      "treasurePool" : "shadowChestTreasure",
+      "minimumLevel" : 0
+    }
+  ],
+  
+  "pf_volcanicChest" : [
+    {
+      "containers" : [ "volcanicchest" ],
+      "treasurePool" : "volcanicChestTreasure",
+      "minimumLevel" : 0
+    }
+  ],
+  
+  
+  // NEW BIOMES
+  "pf_stormyChest" : [
+    {
+      "containers" : [ "techchest2", "stonechest", "chestavian2" ],
+      "treasurePool" : "pf_stormyChestTreasure",
+      "minimumLevel" : 0
+    }
+  ],
+  
+  "pf_asphodelChest" : [
+    {
+      "containers" : [ "rustchest" ],
+      "treasurePool" : "pf_asphodelChestTreasure",
+      "minimumLevel" : 0
+    }
+  ],
+  
+  
+  // PGI CHESTS
+  "pf_pgiDefaultChest" : [
+    {
+      "containers" : [ "pf_pgichest" ],
+      "treasurePool" : "pf_pgiDefaultChest",
+      "minimumLevel" : 0
+    }
+  ],
+  "pf_pgiAlienChest" : [
+    {
+      "containers" : [ "pf_pgichest" ],
+      "treasurePool" : "pf_pgiAlienChest",
+      "minimumLevel" : 0
+    }
+  ],
+  "pf_pgiScorchedChest" : [
+    {
+      "containers" : [ "pf_pgichest" ],
+      "treasurePool" : "pf_pgiScorchedChest",
+      "minimumLevel" : 0
+    }
+  ],
+  "pf_pgiSnowChest" : [
+    {
+      "containers" : [ "pf_pgichest" ],
+      "treasurePool" : "pf_pgiSnowChest",
+      "minimumLevel" : 0
+    }
+  ],
+  "pf_pgiToxicChest" : [
+    {
+      "containers" : [ "pf_pgichest" ],
+      "treasurePool" : "pf_pgiToxicChest",
+      "minimumLevel" : 0
+    }
+  ],
+  "pf_pgiVolcanicChest" : [
+    {
+      "containers" : [ "pf_pgichest" ],
+      "treasurePool" : "pf_pgiVolcanicChest",
+      "minimumLevel" : 0
+    }
+  ]
+}

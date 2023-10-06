@@ -1,0 +1,33 @@
+[
+    {
+		"op" : "replace",
+		"path" : "/input",
+		"value" : [
+			{
+				"item": "refinedaegisalt",
+				"count": 6
+			},
+			{
+				"item": "siliconboard",
+				"count": 2
+			},
+			{
+				"item": "battery",
+				"count": 1
+			},
+			{
+				"item": "solariumstar",
+				"count": 4
+			},
+			{
+				"item": "scorchedcore",
+				"count": 1
+			}
+		]
+	},
+    {
+        "op": "replace",
+        "path": "/groups/0",
+        "value": "pf_craftingplanetresist2"
+    }
+]

@@ -1,0 +1,76 @@
+{
+  "objectName" : "pf_toxinregulator",
+  "colonyTags" : ["pf_weather"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "An atmospheric control system that purifies the air. Protecting against toxic areas.",
+  "shortdescription" : "Contaminant Regulator",
+  "race" : "generic",
+
+  "apexDescription" : "An advanced ECS, I don't think I'll need to worry about airborne toxins with this.",
+  "avianDescription" : "A nice breeze from this ruffles my feathers. Feels pure, toxins won't bother me.",
+  "floranDescription" : "Floran feels healthy, nice.",
+  "glitchDescription" : "Relaxed. This system should keep me safe from airborne toxins.",
+  "humanDescription" : "No toxins are going to get past this. An air purifier that feels like it does something!",
+  "hylotlDescription" : "Ah, pure air flows through this vent. I doubt airborne toxins will bother me here.",
+  "novakidDescription" : "I don't feel anythin', is this meant to purify the air from somethin'?",
+
+  "category" : "furniture",
+  "price" : 3000,
+
+  "inventoryIcon" : "pf_toxinregulatoricon.png",
+  "orientations" : [
+    {
+      "image" : "pf_toxinregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_toxinregulator.png",
+        "fg" : "pf_toxinregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "pf_toxinregulator.png:<color>.<frame>",
+      "imagePosition" : [-14, -7],
+      "direction" : "right",
+      
+      "animationPosition" : [-14, -7],
+      "animationParts" : {
+        "bg" : "pf_toxinregulator.png",
+        "fg" : "pf_toxinregulatorlit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/scripts/pf_statuseffectobject.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/hazardprotection/pf_regulator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/bunkervent.ogg",
+  
+  "detectEntityTypes" : [ "player" ],
+  "statusArea" : [ [-100, -100], [100, 100] ],
+  
+  "statusEffect": "pf_biomepoisonaugment",
+  "effectDuration" : 10,
+  
+  "radioMessagesOnPickup" : [ "pf_pickupregulator" ]
+}

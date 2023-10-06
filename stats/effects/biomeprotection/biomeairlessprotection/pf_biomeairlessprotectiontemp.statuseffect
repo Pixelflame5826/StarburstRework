@@ -1,0 +1,12 @@
+{
+  "name" : "pf_biomeairlessprotectiontemp",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "pf_biomeairlessprotectiontemp.lua"
+  ],
+
+  "label" : "Temporary Air - No Breath Depleted, Air Regenerates Much Faster",
+  "icon" : "/interface/statuses/pf_breathprotection.png"
+}

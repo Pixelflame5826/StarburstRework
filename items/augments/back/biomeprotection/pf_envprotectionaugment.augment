@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_envprotectionaugment",
+  "price" : 5000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_envprotectionaugment.png",
+  "description" : "An EPP module that makes you immune to all planet hazards.",
+  "shortdescription" : "Universal Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_envprotection",
+    "displayName" : "Environmental Immunity",
+    "displayIcon" : "/items/augments/back/biomeprotection/pf_envprotectionaugment.png",
+    "effects" : [ "pf_envprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

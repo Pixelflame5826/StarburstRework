@@ -1,0 +1,23 @@
+[
+    {
+        "op": "replace",
+        "path": "/input/0/count",
+        "value": 10
+    },
+    {
+        "op": "add",
+        "path": "/input/1",
+        "value": {
+            "item": "staticcell",
+            "count": 10
+        }
+    },
+    {
+        "op": "add",
+        "path": "/input/2",
+        "value": {
+            "item": "pf_shadowstar",
+            "count": 10
+        }
+    }
+]
