@@ -172,5 +172,25 @@
       ],
       "allowDuplication" : false
     }]
+  ],
+  "pf_pgiStormyChest" : [
+    [1, {
+      "fill" : [
+		{"item" : "pf_galaxysword" },
+        {"pool" : "pf_pgiTreasure"}
+      ],
+      "pool" : [
+	    {"weight" : 0.45, "pool" : "valuableTreasure"},
+        {"weight" : 0.35, "pool" : "valuableTechTreasure"},
+	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.20, 5]
+      ],
+      "allowDuplication" : false
+    }]
   ]
 }

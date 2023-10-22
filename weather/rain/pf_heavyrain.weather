@@ -72,7 +72,7 @@
     }
   ],
 
-  "statusEffects" : ["wet"],
+  "statusEffects" : ["pf_damp"],
 
   "duration" : [50, 400],
   "maximumWind" : 60.0,

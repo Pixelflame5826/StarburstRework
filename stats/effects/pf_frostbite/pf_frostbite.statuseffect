@@ -3,7 +3,7 @@
   "blockingStat" : "iceStatusImmunity",
 
   "effectConfig" : {},
-  "defaultDuration" : 5,
+  "defaultDuration" : 10,
 
   "scripts" : [
     "pf_frostbite.lua"
@@ -11,6 +11,6 @@
 
   "animationConfig" : "pf_frostbite.animation",
 
-  "label" : "Frost Bite - Damage Over Time, Reduced Defense",
-  "icon" : "/interface/statuses/frost.png"
+  "label" : "^red;Frostbite - Incredibly slow movement and reduced defense. Incoming fire damage is increased drastically.",
+  "icon" : "/interface/statuses/pf_frostbite.png"
 }

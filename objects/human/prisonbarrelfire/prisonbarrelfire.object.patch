@@ -1,0 +1,44 @@
+[
+    {
+        "op": "add",
+        "path": "/scripts",
+        "value": [ "/objects/scripts/pf_statuseffectobject.lua" ]
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "Fire in a rusted-out barrel. The poor man's way of keeping the cold away."
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -10,
+                -10
+            ],
+            [
+                10,
+                10
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_campfire"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "^red;Doomed - Explode when a certain amount of damage is taken."
+    }
+]

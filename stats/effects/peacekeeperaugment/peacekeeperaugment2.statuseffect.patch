@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Peacekeeper Augment II - Increases defense by 4 and emits some light."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/pf_peacekeeperaugment.png"
+    }
+]

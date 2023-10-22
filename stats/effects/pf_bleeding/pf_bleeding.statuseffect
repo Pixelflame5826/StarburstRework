@@ -11,6 +11,6 @@
 
   "animationConfig" : "pf_bleeding.animation",
 
-  "label" : "Blood Loss - Damage Over Time, All Regen is Blocked",
+  "label" : "^red;Blood Loss - Damage over time. All regeneration is blocked.",
   "icon" : "/interface/statuses/pf_bleeding.png"
 }

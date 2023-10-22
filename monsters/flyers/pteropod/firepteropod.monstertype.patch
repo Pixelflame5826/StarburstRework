@@ -1,0 +1,9 @@
+[
+    {
+        "op": "add",
+        "path": "/baseParameters/behaviorConfig/hostileActions/0/parameters/projectileParameters/statusEffects",
+        "value": [
+            "pf_oilfire"
+        ]
+    }
+]

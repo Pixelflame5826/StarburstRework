@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "^red;Frost - Decreased mobility. Becomes stronger when also Wet."
+    }
+]

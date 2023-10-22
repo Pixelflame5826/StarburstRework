@@ -7,6 +7,6 @@
     "pf_biomeairlessprotectiontemp.lua"
   ],
 
-  "label" : "Temporary Air - No Breath Depleted, Air Regenerates Much Faster",
+  "label" : "Temporary Air - No breath depletion, breath regenerates quickly once in air.",
   "icon" : "/interface/statuses/pf_breathprotection.png"
 }

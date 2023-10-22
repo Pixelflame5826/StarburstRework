@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Electric Resistance - Resist electric damage, immune to Electrified."
+    }
+]

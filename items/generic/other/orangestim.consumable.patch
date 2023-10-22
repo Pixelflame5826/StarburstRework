@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/effects/0/0/effect",
+        "value": "pf_stimrage"
+    }
+]

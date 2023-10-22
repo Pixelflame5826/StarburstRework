@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "^red;Melting - Quickly compounding fire damage. Leaves causes Burning after."
+    },
+    {
+        "op": "replace",
+        "path": "/icon",
+        "value": "/interface/statuses/pf_melting.png"
+    }
+]

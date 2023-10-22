@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/sitStatusEffects/0",
+        "value": "bed2"
+    },
+    {
+        "op": "add",
+        "path": "/sitStatusEffects/-",
+        "value": "pf_tentprotection"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A basic yellow tent that allows you to rest away from the elements. Watch out for spacebears!"
+    }
+]

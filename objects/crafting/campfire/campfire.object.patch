@@ -1,0 +1,44 @@
+[
+    {
+        "op": "add",
+        "path": "/scripts/1",
+        "value": "/objects/scripts/pf_statuseffectobject.lua"
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "Embers dance away from the campfire, warming the air. The heat can be used for cooking and staying warm."
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -10,
+                -10
+            ],
+            [
+                10,
+                10
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_campfire"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+]

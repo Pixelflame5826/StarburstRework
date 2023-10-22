@@ -7,6 +7,6 @@
     "pf_biomelightningprotection.lua"
   ],
 
-  "label" : "Static Immunity - Immunity to Deadly Static, Slight Resistance To Electricity",
+  "label" : "Static Immunity - Immunity to Deadly Static. Slight resistance to electric damage.",
   "icon" : "/interface/statuses/pf_advlightningprotection.png"
 }

@@ -2,8 +2,8 @@
   "name" : "pf_stormyunderground",
   "friendlyName" : "Flowstone Caverns",
   
-  "mainBlock" : "rock04",
-  "subBlocks" : [ "stonerubble", "clay", "mud" ],
+  "mainBlock" : "rock02",
+  "subBlocks" : [ "stonerubble", "rock03", "clay" ],
   "ores" : "pf_stormydepth1",
   
   "spawnProfile" : {
@@ -50,6 +50,9 @@
   },
 
   "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ],
+    "grassModDensity" : 0.3,
+	
     "items" : [
       {
         "mode" : "floor",
@@ -180,7 +183,7 @@
         "distribution" : "/biomes/distributions.config:pf_pgiChest",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "pf_pgiDefaultChest" ]
+        "treasureBoxSets" : [ "pf_pgiStormyChest" ]
       },
 	  
       {
@@ -256,6 +259,101 @@
 
         "type" : "grass",
         "grasses" : [ "pebbles" ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingwicked",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 5.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "ceilingspiralrocks",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "crystals",
+            "baseHueShiftMax" : 40,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "grass",
+        "grasses" : [ "ceilingweeds" ]
+      },
+	  {
+        "mode" : "ceiling",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "grass",
+        "grasses" : [ "ceilingcrystalflower" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "grass",
+        "grasses" : [ "crystalflower" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "diamond" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 4.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.2, "bioshroom1" ], [0.2, "bioshroom2" ], [0.2, "bioshroom3" ], [0.2, "bioshroom4" ], [0.2, "bioshroom4" ]  ],
+            "parameters" : { }
+          }
+        ]
       }
     ]
   }

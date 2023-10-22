@@ -14,6 +14,6 @@
 
   "animationConfig" : "pf_biomelightning.animation",
 
-  "label" : "Mild Static - Reduced Max Energy and Energy Regen, Running Out Deals Damage",
+  "label" : "^red;Mild Static - -25% Max Energy, -25% Energy Regen, no Energy causes damage over time.",
   "icon" : "/interface/statuses/pf_biomelightning.png"
 }

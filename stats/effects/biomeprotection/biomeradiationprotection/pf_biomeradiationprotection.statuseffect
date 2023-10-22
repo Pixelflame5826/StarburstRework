@@ -7,6 +7,6 @@
     "pf_biomeradiationprotection.lua"
   ],
 
-  "label" : "Radiation Immunity - Immunity to Deadly Radiation, Slight Resistance To Fire",
+  "label" : "Radiation Immunity - Immunity to Deadly Radiation. Slight resistance to fire damage.",
   "icon" : "/interface/statuses/pf_advradiationprotection.png"
 }

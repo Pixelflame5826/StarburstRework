@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Red Stim - Regenerate 3% health per second."
+    },
+    {
+        "op": "replace",
+        "path": "/icon",
+        "value": "/interface/statuses/stimpack/pf_redstim.png"
+    }
+]

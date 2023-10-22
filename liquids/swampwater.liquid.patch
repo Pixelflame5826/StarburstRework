@@ -1,0 +1,7 @@
+[
+    {
+        "op": "add",
+        "path": "/statusEffects/1",
+        "value": "pf_swampwet"
+    }
+]

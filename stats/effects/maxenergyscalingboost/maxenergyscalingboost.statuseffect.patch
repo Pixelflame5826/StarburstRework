@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Large Energy Boost - Max Energy is increased by 50%."
+    }
+]

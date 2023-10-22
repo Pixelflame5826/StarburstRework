@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Ice Resistance - Resist ice damage, immune to ice status effects."
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "op": "replace",
+        "path": "/scripts/0",
+        "value": "/objects/scripts/pf_togglestatuseffectobject.lua"
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -20,
+                -20
+            ],
+            [
+                20,
+                20
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_campfire"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 15
+    }
+]

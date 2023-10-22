@@ -15,6 +15,6 @@
 
   "animationConfig" : "pf_entropicdarkness.animation",
 
-  "label" : "Entropic Void - Reduced Defense, Attack, and Movement, Regeneration Blocked",
+  "label" : "^red;Entropic Void - Reduced defense, attack, and mobility. All regeneration is blocked.",
   "icon" : "/interface/statuses/pf_entropicdarkness.png"
 }

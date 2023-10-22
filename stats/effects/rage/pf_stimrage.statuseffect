@@ -1,0 +1,16 @@
+{
+  "name" : "pf_stimrage",
+  "effectConfig" : {
+    "powerModifier" : 1.30
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "rage.lua"
+  ],
+
+  "animationConfig" : "rage.animation",
+
+  "label" : "Orange Stim - Damage output is 30% stronger.",
+  "icon" : "/interface/statuses/stimpack/pf_orangestim.png"
+}

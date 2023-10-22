@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "liquidoil", "count" : 10 },    
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_flaskoil",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

@@ -1,0 +1,37 @@
+{
+  "id" : "pf_tutorialcombat1",
+  "species" : "hylotl",
+  "title" : "The Elements of Nature",
+  "description" : "A Hylotl combat manual about the elements and how to strengthen their potency.",
+  "icon" : "pf_combatcover1.png",
+  "contentPages" : [
+    "A Hylotl warrior must be as cunning as they are swift and deadly. Using everything they have to their own advantage, including the environment. The elements of nature are just as deadly, if not more so than your own blade, and using them to their fullest extent is what differentiates a Tadpole from a Master. 
+
+Fire, Ice, Electricity, Poison, all of them strong in their own way. In this training regiment, I shall teach you how you can use the elements to their fullest.",
+
+	"Fire is a ferocious and destructive element. While it won't go wrong, it does have its own weaknesses, such as water suffocating it. However, when sufficiently fueled, it will rage beyond these constraints and become even more deadly. 
+
+Coating an enemy in Oil for instance will cause a roaring flame that not even water can stop. Once they've been burnt, using this element's counterpart, Ice, it will cause a shock and deal potentially fatal blows.",
+	
+	"Ice is a cold, creeping, and weakening force. It will slow anything to a crawl, though it can't do much on its own. While often a warrior can take advantage of this, it can be honed to an even stronger, colder state. 
+
+Dousing them with Water will cause the frost to freeze over, causing blows to be shattering to the opponent with any element. Using Fire will cause your blows to be even more crippling. The cold is a creeping killer to be sure, but a potent one.",
+	
+	"Electricity is a fast, leaping, and spreads quite easily for an element. A shocked target will shock its nearby allies. 
+
+Though when charged with Water, its abilities are boundless. Leaping from foe to foe like an ever expanding ripple, all the while shocking the affected foe like its brethren. Electricity will not go wrong when your foes are many, with it you can clear an entire battlefield with one swift blow and a little bit of patience.",
+	
+	"Poison is a lethal and potent element that weakens an opponent from within. A poisoned target will be weakened and slowly perish from within, unless they have an antidote, there will be no saving them from their fate unless it runs its course. 
+
+Though with contaminants like Swamp Water can cause the poison to strengthen, weakening the enemy until they can barely fight back. No need for defense when this occurs, go all out and they will fall.",
+	
+	"Know which one is effective where and how to strengthen it and nature's strength is yours to command. With this knowledge of the natural world and your own wisdom, you can strike down any foe with ease. 
+
+Remember Tadpole, your skill with your brain is just as important as your skill holding a blade. Soon, you shall be a master warrior, fit to protect nature and your kin."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

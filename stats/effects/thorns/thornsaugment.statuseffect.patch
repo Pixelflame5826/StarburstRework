@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Thorns Augment - Deal damage to nearby enemies when hit."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/thorns.png"
+    }
+]

@@ -3,7 +3,7 @@
   "baseType" : "villageguard",
   
   "items" : {
-    "novakid" : [
+    "override" : [
       [0, [
           {
             "head" : [ { "name" : "novatier3head" } ],

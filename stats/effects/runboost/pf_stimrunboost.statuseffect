@@ -1,0 +1,14 @@
+{
+  "name" : "pf_stimrunboost",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "runboost.lua"
+  ],
+
+  "animationConfig" : "runboost.animation",
+
+  "label" : "Green Stim - Large boost in run speed.",
+  "icon" : "/interface/statuses/stimpack/pf_greenstim.png"
+}

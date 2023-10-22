@@ -24,12 +24,28 @@
             "item": "pf_hylotlreligion2-codex"
         }
     },
+	{
+        "op": "add",
+        "path": "/hylotlcityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_tutorialcombat1-codex"
+        }
+    },
     {
         "op": "add",
         "path": "/hylotloceancityLore/0/1/pool/-",
         "value": {
             "weight": 0.5,
             "item": "pf_hylotlwarlord-codex"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/hylotloceancityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_tutorialcombat1-codex"
         }
     },
     {
@@ -48,6 +64,14 @@
             "item": "pf_hylotlwar1-codex"
         }
     },
+	{
+        "op": "add",
+        "path": "/hylotlruinedcastleLore/0/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_tutorialcombat1-codex"
+        }
+    },
     {
         "op": "add",
         "path": "/hylotlruinedcityLore/0/1/pool/-",
@@ -62,6 +86,14 @@
         "value": {
             "weight": 0.25,
             "item": "pf_hylotlreligion2-codex"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/hylotlruinedcityLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_tutorialcombat1-codex"
         }
     },
     {

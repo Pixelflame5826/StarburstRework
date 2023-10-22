@@ -1,0 +1,15 @@
+{
+  "name" : "pf_fountain",
+
+  "effectConfig" : {
+    "healTime" : 120
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_fountain.lua"
+  ],
+
+  "label" : "Relaxing Fountain - Immunity to Mild Heat and Slowly Regenerate Health",
+  "icon" : "/interface/statuses/pf_fountain.png"
+}

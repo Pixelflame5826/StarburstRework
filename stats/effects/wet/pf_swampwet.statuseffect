@@ -1,0 +1,15 @@
+{
+  "name" : "pf_swampwet",
+  "blockingStat" : "wetImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "pf_swampwet.lua"
+  ],
+
+  "animationConfig" : "pf_swampwet.animation",
+
+  "label" : "^yellow;Swamped - Increased ice resistance and poison susceptibility. Can strengthen certain status effects.",
+  "icon" : "/interface/statuses/pf_swampwater.png"
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "^red;Glued - Drastically reduced movement."
+    }
+]

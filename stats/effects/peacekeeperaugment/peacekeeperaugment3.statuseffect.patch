@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Peacekeeper Augment III - Increases defense by 6 and emits some light."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/pf_peacekeeperaugment.png"
+    }
+]

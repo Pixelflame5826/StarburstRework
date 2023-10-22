@@ -5,13 +5,15 @@
   "category" : "throwableItem",
   "inventoryIcon" : "pf_bottledpoisonicon.png",
   "image" : "pf_bottledpoison.png",
-  "shortdescription" : "Bottled Poison",
-  "description" : "A bottle of poison that can be thrown at enemies. Not for consumption!",
+  "largeImage" : "pf_bottledpoison.png",
+  "shortdescription" : "Poison Flask",
+  "description" : "A flask of poison that can be thrown at enemies. Poisons them with toxic fluids. Not for consumption!",
+  "tooltipKind" : "pf_throwingweapon",
 
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,
-  "windupTime" : 0.0,
+  "windupTime" : 0.1,
   "cooldown" : 0.4,
 
   "projectileType" : "pf_bottledpoison",
@@ -26,5 +28,7 @@
         "options" : [ "/sfx/projectiles/throw_item.ogg" ]
       }
     ]
-  }
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
 }

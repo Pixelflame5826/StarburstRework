@@ -1,0 +1,44 @@
+[
+	{
+        "op": "add",
+        "path": "/scripts",
+        "value": [ "/objects/scripts/pf_statuseffectobject.lua" ]
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A beautiful stone fountain with a floral centerpiece. The water looks pure, should cool the air around it."
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -20,
+                -20
+            ],
+            [
+                20,
+                20
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_fountain"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+]

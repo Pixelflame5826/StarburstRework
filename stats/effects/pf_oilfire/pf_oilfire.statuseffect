@@ -1,0 +1,16 @@
+{
+  "name" : "pf_oilfire",
+  "blockingStat" : "fireStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_oilfire.lua"
+  ],
+
+  "animationConfig" : "pf_oilfire.animation",
+
+  "label" : "^red;Burning Oil - Fast damage over time. Incoming ice damage is increased drastically.",
+  "icon" : "/interface/statuses/pf_burningoil.png"
+}

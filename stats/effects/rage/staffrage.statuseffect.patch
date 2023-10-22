@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Wrathful Zone - Damage output is 30% stronger."
+    },
+	{
+        "op": "replace",
+        "path": "/icon",
+        "value": "/interface/statuses/pf_kluexrage.png"
+    }
+]

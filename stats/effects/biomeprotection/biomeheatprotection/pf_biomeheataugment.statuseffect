@@ -7,6 +7,6 @@
     "pf_biomeheataugment.lua"
   ],
 
-  "label" : "Heat Immunity - Immunity to Deadly Heat",
+  "label" : "Heat Immunity - Immunity to Deadly Heat.",
   "icon" : "/interface/statuses/pf_advheatprotection.png"
 }

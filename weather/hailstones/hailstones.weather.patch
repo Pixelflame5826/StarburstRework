@@ -3,7 +3,7 @@
         "op": "add",
         "path": "/statusEffects",
         "value": [
-            "pf_biomecoldmild"
+            "pf_biomecoldmild", "pf_damp"
         ]
     }
 ]

@@ -7,6 +7,6 @@
     "pf_biomepoisonprotection.lua"
   ],
 
-  "label" : "Toxic Immunity - Immunity to Deadly Toxicity, Slight Resistance To Poison",
+  "label" : "Toxic Immunity - Immunity to Deadly Toxicity. Slight resistance to poison damage.",
   "icon" : "/interface/statuses/pf_advpoisonprotection.png"
 }

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Gravity Augment - Ambient gravity is moderately weaker."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/lowgrav.png"
+    }
+]

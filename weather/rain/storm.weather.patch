@@ -5,6 +5,11 @@
         "value": "pf_biomelightningmild"
     },
 	{
+        "op": "replace",
+        "path": "/statusEffects/0",
+        "value": "pf_damp"
+    },
+	{
         "op": "add",
         "path": "/projectiles/-",
         "value": {

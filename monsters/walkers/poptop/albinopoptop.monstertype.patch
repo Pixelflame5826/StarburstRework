@@ -1,0 +1,7 @@
+[
+    {
+        "op": "add",
+        "path": "/baseParameters/touchDamage/statusEffects/0",
+        "value": "pf_bleeding"
+    }
+]

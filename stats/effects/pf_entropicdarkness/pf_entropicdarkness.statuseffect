@@ -17,6 +17,6 @@
 
   "animationConfig" : "pf_entropicdarkness.animation",
 
-  "label" : "Corrupting Abyss - Health Loss, Reduced Movement, Less Energy",
+  "label" : "^red;Corrupting Abyss - Moderate damage over time, reduced max energy and mobility.",
   "icon" : "/interface/statuses/pf_entropicdarkness.png"
 }

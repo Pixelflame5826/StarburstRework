@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Energy Augment II - Max Energy is increased by 40."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/maxenergy.png"
+    }
+]

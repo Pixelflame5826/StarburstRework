@@ -7,6 +7,6 @@
     "pf_mildbiomeheatprotection.lua"
   ],
 
-  "label" : "Heat Protection - Immunity to Mild Heat and Mitigates Deadly Heat, Slight Resistance To Fire",
+  "label" : "Heat Protection - Immunity to Mild Heat and mitigates Deadly Heat. Slight resistance to fire damage.",
   "icon" : "/interface/statuses/pf_heatprotection.png"
 }

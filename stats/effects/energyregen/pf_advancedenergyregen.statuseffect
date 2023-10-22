@@ -13,6 +13,6 @@
 
   "animationConfig" : "energyregen.animation",
 
-  "label" : "Energy Recharge - Faster Energy Regen, No Energy Regen Downtime",
+  "label" : "Energy Recharge - Faster Energy Regen and no Energy Regen downtime.",
   "icon" : "/interface/statuses/pf_advancedenergy.png"
 }

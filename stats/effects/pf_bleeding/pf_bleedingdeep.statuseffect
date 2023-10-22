@@ -13,6 +13,6 @@
 
   "animationConfig" : "pf_bleeding.animation",
 
-  "label" : "Major Blood Loss - Medium Damage Over Time, All Regen is Blocked",
+  "label" : "^red;Major Blood Loss - Moderate damage over time. All regeneration is blocked.",
   "icon" : "/interface/statuses/pf_bleedingdeep.png"
 }

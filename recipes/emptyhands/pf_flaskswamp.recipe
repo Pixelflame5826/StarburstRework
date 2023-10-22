@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "swampwater", "count" : 10 },    
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_flaskswamp",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

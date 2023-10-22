@@ -1,0 +1,12 @@
+{
+  "name" : "pf_tentprotection",
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "pf_mildenvprotection.lua"
+  ],
+
+  "label" : "Sheltered - Immunity to all mild environmental hazards and mitigates all deadly hazards.",
+  "icon" : "/interface/statuses/pf_tentprotection.png"
+}

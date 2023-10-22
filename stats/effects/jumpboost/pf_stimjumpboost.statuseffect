@@ -1,0 +1,14 @@
+{
+  "name" : "pf_stimjumpboost",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "jumpboost.lua"
+  ],
+
+  "animationConfig" : "jumpboost.animation",
+
+  "label" : "Blue Stim  - Large boost in jump height.",
+  "icon" : "/interface/statuses/stimpack/pf_bluestim.png"
+}

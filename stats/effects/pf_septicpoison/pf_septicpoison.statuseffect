@@ -1,0 +1,16 @@
+{
+  "name" : "pf_septicpoison",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "pf_septicpoison.lua"
+  ],
+
+  "animationConfig" : "pf_septicpoison.animation",
+
+  "label" : "Septic Shock - Moderate damage over time, halved damage output.",
+  "icon" : "/interface/statuses/pf_toxicpoison.png"
+}

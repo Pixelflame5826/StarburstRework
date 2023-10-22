@@ -14,6 +14,6 @@
 
   "animationConfig" : "pf_biomelightning.animation",
 
-  "label" : "Deadly Static - 50% Max Energy, No Energy Regen, Running Out Loses Health | When Mitigated: Energy Regen Now 10%",
+  "label" : "^red;Deadly Static - -50% Max Energy, no Energy Regen, no Energy causes damage over time. | When Mitigated: Energy Regen increased to 10%.",
   "icon" : "/interface/statuses/pf_biomelightning.png"
 }

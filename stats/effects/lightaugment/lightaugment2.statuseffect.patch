@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Light Augment II - Emitting a moderate amount of light."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/glow.png"
+    }
+]

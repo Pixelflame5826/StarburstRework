@@ -7,6 +7,6 @@
     "pf_biomeheatprotection.lua"
   ],
 
-  "label" : "Heat Immunity - Immunity to Deadly Heat, Slight Resistance To Fire",
+  "label" : "Heat Immunity - Immunity to Deadly Heat. Slight resistance to fire damage.",
   "icon" : "/interface/statuses/pf_advheatprotection.png"
 }

@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "Remedied - Regain 50 health over 10 seconds."
+    }
+]

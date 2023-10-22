@@ -3,7 +3,7 @@
   "baseType" : "villager",
   
   "items" : {
-    "novakid" : [
+    "override" : [
       [0, [
           {
             "chest" : [
@@ -22,7 +22,7 @@
 		    "head" : [
 			  { "name" : "pilothead" },
 			  { "name" : "pf_stormgearhead" },
-			  { "name" : "scarfhead" },
+			  { "name" : "winterscarfhead" },
 			  { "name" : "steampunkhead" }
             ],
 			

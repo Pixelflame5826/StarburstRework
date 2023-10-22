@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":18,
  "infinite":false,
  "layers":[
@@ -467,8 +474,8 @@
                  "name":"",
                  "properties":
                     {
-                     "npc":"pf_novasnowvillager",
-                     "typeName":"villager"
+                     "npc":"novakid",
+                     "typeName":"pf_novasnowvillager"
                     },
                  "propertytypes":
                     {

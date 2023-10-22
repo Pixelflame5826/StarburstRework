@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "^red;Poisoned - Moderate damage over time. Becomes stronger when also Swamped."
+    }
+]

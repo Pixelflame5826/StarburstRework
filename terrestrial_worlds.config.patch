@@ -378,8 +378,9 @@
         "path": "/regionTypes/pf_forestunderground",
         "value": {
             "caveLiquid": [
-                "water"
+                "water", "swampwater"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -395,8 +396,9 @@
         "path": "/regionTypes/pf_forestunderground2",
         "value": {
             "caveLiquid": [
-                "water"
+                "water", "swampwater"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -412,8 +414,9 @@
         "path": "/regionTypes/pf_forestunderground3",
         "value": {
             "caveLiquid": [
-                "water"
+                "water", "swampwater"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -1291,7 +1294,7 @@
         "path": "/regionTypes/pf_jungleshallow",
         "value": {
             "caveLiquid": [
-                "water"
+                "water", "swampwater"
             ],
             "biome": [
                 [
@@ -1313,7 +1316,7 @@
         "path": "/regionTypes/pf_junglemid",
         "value": {
             "caveLiquid": [
-                "water"
+                "water", "swampwater"
             ],
             "biome": [
                 [
@@ -1336,7 +1339,7 @@
         "path": "/regionTypes/pf_jungledeep",
         "value": {
             "caveLiquid": [
-                "water"
+                "water", "swampwater"
             ],
             "biome": [
                 [
@@ -1585,8 +1588,9 @@
         "path": "/regionTypes/pf_volcanicunderground",
         "value": {
             "caveLiquid": [
-                "lava"
+                "lava", "tarliquid"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -1602,8 +1606,9 @@
         "path": "/regionTypes/pf_volcanicunderground2",
         "value": {
             "caveLiquid": [
-                "lava"
+                "lava", "tarliquid"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -1619,8 +1624,9 @@
         "path": "/regionTypes/pf_volcanicunderground3",
         "value": {
             "caveLiquid": [
-                "lava"
+                "lava", "tarliquid"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -2381,8 +2387,9 @@
         "path": "/regionTypes/pf_scorchedunderground",
         "value": {
             "caveLiquid": [
-                "lava", "water"
+                "lava", "water", "tarliquid"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -2398,8 +2405,9 @@
         "path": "/regionTypes/pf_scorchedunderground2",
         "value": {
             "caveLiquid": [
-                "lava", "water"
+                "lava", "water", "tarliquid"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -2417,6 +2425,7 @@
             "caveLiquid": [
                 "lava"
             ],
+			"caveLiquidSeedDensityRange" : [2, 3],
             "biome": [
                 [
                     0,
@@ -2433,7 +2442,7 @@
         "path": "/regionTypes/pf_scorchedshallow",
         "value": {
             "caveLiquid": [
-                "lava"
+                "lava", "water", "tarliquid"
             ],
             "biome": [
                 [
@@ -2453,7 +2462,7 @@
         "path": "/regionTypes/pf_scorchedmid",
         "value": {
             "caveLiquid": [
-                "lava"
+                "lava", "water", "tarliquid"
             ],
             "biome": [
                 [
@@ -2476,7 +2485,7 @@
         "path": "/regionTypes/pf_scorcheddeep",
         "value": {
             "caveLiquid": [
-                "lava"
+                "lava", "water", "tarliquid"
             ],
             "biome": [
                 [

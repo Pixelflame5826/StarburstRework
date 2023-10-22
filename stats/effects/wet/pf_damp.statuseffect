@@ -1,0 +1,15 @@
+{
+  "name" : "pf_damp",
+  "blockingStat" : "wetImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "pf_damp.lua"
+  ],
+
+  "animationConfig" : "wet.animation",
+
+  "label" : "^yellow;Damp - Increased fire resistance and electric susceptibility.",
+  "icon" : "/interface/statuses/pf_damp.png"
+}

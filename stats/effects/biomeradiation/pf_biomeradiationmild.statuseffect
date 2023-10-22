@@ -14,6 +14,6 @@
 
   "animationConfig" : "biomeradiation.animation",
 
-  "label" : "Minor Radiation - 50% Max Health",
+  "label" : "^red;Minor Radiation - Max health reduced by 50%.",
   "icon" : "/interface/statuses/biomeradioactive.png"
 }

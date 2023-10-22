@@ -1,0 +1,9 @@
+[
+    {
+        "op": "add",
+        "path": "/actionOnReap/0/config/statusEffects",
+        "value": [
+            "pf_septicpoison"
+        ]
+    }
+]

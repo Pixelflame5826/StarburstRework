@@ -1,6 +1,6 @@
 {
   "name" : "pf_scorchedfire",
-  "blockingStat" : "",
+  "blockingStat" : "fireStatusImmunity",
 
   "effectConfig" : {},
   "defaultDuration" : 10.0,
@@ -11,6 +11,6 @@
 
   "animationConfig" : "pf_scorchedfire.animation",
 
-  "label" : "Promethius's Fire - Lose Health That Compounds Over Time",
+  "label" : "^red;Promethius's Fire - Damage over time that slowly compounds.",
   "icon" : "/interface/statuses/pf_scorchedfire.png"
 }

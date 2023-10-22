@@ -11,6 +11,6 @@
 
   "animationConfig" : "pf_biomepoisonmild.animation",
 
-  "label" : "Weak Toxicity - Slowly Lose Health",
+  "label" : "^red;Weak Toxicity - Slow damage over time.",
   "icon" : "/interface/statuses/pf_biomepoison.png"
 }

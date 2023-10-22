@@ -2,7 +2,7 @@
     {
         "op": "replace",
         "path": "/label",
-        "value": "Deadly Radiation - 25% Max Health | When Mitigated: 50% Max Health"
+        "value": "^red;Deadly Radiation - Max health reduced by 75%. | When Mitigated: Max health increased to 50%."
     },
     {
         "op": "replace",

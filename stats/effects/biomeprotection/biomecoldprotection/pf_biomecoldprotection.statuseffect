@@ -7,6 +7,6 @@
     "pf_biomecoldprotection.lua"
   ],
 
-  "label" : "Cold Immunity - Immunity to Deadly Cold, Slight Resistance To Ice",
+  "label" : "Cold Immunity - Immunity to Deadly Chill. Slight resistance to ice damage.",
   "icon" : "/interface/statuses/pf_advcoldprotection.png"
 }

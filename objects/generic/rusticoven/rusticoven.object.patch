@@ -1,0 +1,44 @@
+[
+    {
+        "op": "add",
+        "path": "/scripts",
+        "value": [ "/objects/scripts/pf_statuseffectobject.lua" ]
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "Crackling quietly, the smell of hickory smoke is delightful and the fire inside is warm."
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -15,
+                -15
+            ],
+            [
+                15,
+                15
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_campfire"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+]

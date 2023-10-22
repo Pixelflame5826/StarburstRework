@@ -11,6 +11,6 @@
 
   "animationConfig" : "pf_biomepoisonmild.animation",
 
-  "label" : "Deadly Toxicity - Health Loss, Max Health Loss Over Time | When Mitigated: No Max Health Loss",
+  "label" : "^red;Deadly Toxicity - Slow damage over time, slowly reduces max health. | When Mitigated: No max health loss.",
   "icon" : "/interface/statuses/pf_biomepoison.png"
 }

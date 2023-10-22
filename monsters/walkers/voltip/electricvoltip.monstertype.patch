@@ -1,0 +1,11 @@
+[
+    {
+        "op": "add",
+        "path": "/baseParameters/behaviorConfig/hostileActions/0/parameters/projectileParameters",
+        "value": {
+            "statusEffects": [
+                "pf_electricshock"
+            ]
+        }
+    }
+]

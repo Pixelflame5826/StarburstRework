@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Health Augment III - Max Health is increased by 60."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/maxhealth.png"
+    }
+]

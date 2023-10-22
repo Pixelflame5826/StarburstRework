@@ -1,0 +1,21 @@
+{
+  "name" : "pf_wetcold",
+  "blockingStat" : "biomecoldImmunity",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 0.9,
+      "airJumpModifier" : 0.9
+    },
+    "tickRate" : 20,
+    "energyCost" : 1.0
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "pf_wetcold.lua"
+  ],
+
+  "label" : "^red;Freezing Water - Slightly lowered mobility and lose energy over time. Blocked by Deadly Chill Immunity.",
+  "icon" : "/interface/statuses/pf_freezingwater.png"
+}

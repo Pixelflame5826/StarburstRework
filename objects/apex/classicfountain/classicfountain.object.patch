@@ -1,0 +1,44 @@
+[
+	{
+        "op": "add",
+        "path": "/scripts",
+        "value": [ "/objects/scripts/pf_statuseffectobject.lua" ]
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A small ornate fountain. Seems to spill water out, though it should cool the air."
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -20,
+                -20
+            ],
+            [
+                20,
+                20
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_fountain"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+]

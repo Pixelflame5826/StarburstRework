@@ -1,0 +1,14 @@
+{
+  "name" : "pf_stimglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "glow.lua"
+  ],
+
+  "animationConfig" : "pf_stimglow.animation",
+
+  "label" : "Yellow Stim - Giving off a bright light.",
+  "icon" : "/interface/statuses/stimpack/pf_yellowstim.png"
+}

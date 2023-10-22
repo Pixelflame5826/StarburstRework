@@ -7,6 +7,6 @@
     "pf_biomeairlessprotection.lua"
   ],
 
-  "label" : "No Oxygen Immunity - Immune to Airless Environments",
+  "label" : "Breath Immunity - Immune to Airless Environments.",
   "icon" : "/interface/statuses/pf_advbreathprotection.png"
 }

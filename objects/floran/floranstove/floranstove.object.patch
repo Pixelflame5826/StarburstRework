@@ -1,0 +1,44 @@
+[
+    {
+        "op": "add",
+        "path": "/scripts",
+        "value": [ "/objects/scripts/pf_statuseffectobject.lua" ]
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A very basic cooking pot suspended over a campfire. It cooks basic meals and keeps the air warm."
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -10,
+                -10
+            ],
+            [
+                10,
+                10
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_campfire"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+]

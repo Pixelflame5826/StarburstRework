@@ -13,6 +13,6 @@
 
   "animationConfig" : "pf_biomeheatmild.animation",
 
-  "label" : "Mild Heat - Minor Compounding Health Loss, Less Energy, Slowed Energy Regen",
+  "label" : "^red;Mild Heat - Slow health loss that compounds over time. Reduced Energy and Energy Regen.",
   "icon" : "/interface/statuses/biomeheat.png"
 }

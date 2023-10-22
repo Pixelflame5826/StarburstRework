@@ -63,7 +63,7 @@
 
   "projectiles" : [],
 
-  "statusEffects" : ["pf_biomeradiationmild"],
+  "statusEffects" : ["pf_biomeradiationmild", "pf_damp"],
 
   "duration" : [50, 400],
   "maximumWind" : 15.0,

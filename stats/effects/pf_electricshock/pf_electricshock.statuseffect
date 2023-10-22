@@ -1,0 +1,21 @@
+{
+  "name" : "pf_electricshock",
+  "blockingStat" : "electricStatusImmunity",
+
+  "effectConfig" : {
+    "boltInterval" : 0.5,
+    "jumpDistance" : 10,
+    "healthDamageFactor" : 0.05,
+    "damageClampRange" : [2, 20]
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "pf_electricshock.lua"
+  ],
+
+  "animationConfig" : "pf_electricshock.animation",
+
+  "label" : "^red;Static Discharge - Moderate damage over time, electrifying bolts jump to nearby allies.",
+  "icon" : "/interface/statuses/pf_electricburst.png"
+}

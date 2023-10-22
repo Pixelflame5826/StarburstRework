@@ -1,140 +1,115 @@
+--- ENVIRONMENTAL SURVIVAL UPDATE ---
+
 --- NEW ADDTIONS
-+ Hazard Lab Table Overhaul!: The Hazard Lab Table has been given a little face lift to better suit the new additions. Including a new tier of hazard protection only seen with the Universal EPP, also some new additions as well.
---- Changes
-+ Hazard Lab Table now has a level 3 version, the Climate Research Station, allowing you to make Universal Hazard items.
-+ All EPPs are now crafted at the Hazard Lab Table and its upgrades, rather than the anvil. The anvil will still keep the Enhancement Packs however.
-+ New Augment: Universal Augment, to go along with the Universal EPP. You can now have complete hazard protection with an Enhancement Pack and this augment.
-+ Hazard Lab Table's crafting UI now has 4 tabs: Consumables, Augments, EPPs, and Regulators.
-
-+ Environment Regulators!: Tired of having to put on your EPPs when in your base on a hazardous world. Set up an environment regulator, it'll protect an area around it from planetary hazards. You can craft it at the Hazard Lab Table and its upgrades.
---- Regulators
-+ Atmosphere Regulator (Airless)
-+ Radiation Regulator (Radioactive)
-+ Contaminant Regulator (Toxic)
-+ Heating Regulator (Cold)
-+ Cooling Regulator (Heat)
-+ Antistatic Regulator (Static)
-+ Environmental Regulator (All Of Them)
-
-+ Throwing Weapon Overhaul!: All of the main throwing weapons have been given an overhaul sure to make you want to use them more often.	+ New tooltip that details the stats and description of thrown weapons.
---- Changes
-+ New sprites for the less visually good throwing weapons.
-+ Throwing weapons now use windup, to make them more distinct.
-+ New unique tooltip for the throwing weapons, detailing damage, cooldown, and windup.
-+ Many updates to the projectiles to make them visually better.
---- Affected Weapons
-+ Throwing Dart
-+ Hunting Spear
-+ Bomb
-+ Ball of Gnomes
-+ Iron Hunting Spear
-+ Throwing Dagger
-+ Thorn Grenade
-+ Bug Hive
-+ Throwing Knife
-+ Throwing Axe
-+ Javelin
-+ Throwing Kunai
-+ Throwing Star (Now called Shuriken)
-+ Snowflake Shuriken
-+ Energy Javelin
-
-+ New Throwing Weapons!: To give more uses to the biome materials, each one has been given their own throwing weapon you can craft at an anvil. Each one having its own unique effect!
---- New Throwing Weapons
-+ Aurium Kukri
-+ Heartwood Tomahawk
-+ Aquari Shuriken
-+ Blue Ice Hatchet
-+ Rubite Mambele
-+ Vermillium Gas Grenade
-+ Xenocyte Javelin
-+ Throwing Energy Knife
-+ Erebium Kunai
-+ Promethium Grenade
-+ Uranium Grenuke
-
-+ New Furniture!: Heartwood furniture, a new set of furniture made from Heartwood, looks very natural. Blueprints can be found in Forest chests.
---- Furniture Types
-+ Heartwood Chair
-+ Heartwood Table
-+ Heartwood Door
-+ Heartwood Lamp
-+ Heartwood Desk Lamp
-+ Heartwood Bed
-+ Heartwood Clock
-+ Heartwood Chest
-	
-+ New alt-ability to Elemental Broadswords: Energy Riposte, a more powerful Parry that can severely damage enemies if you time it correctly.
-
-+ New NPC: Arcade Merchant, found in Hylotl Underwater Cities. Sells many types of arcade related stuff. Including plushies, toys, arcade machines, minigame arcade machines, and even...
-
-+ Portable Minigames!: Adds 2 new items that allow you to access Mazebound 64 and Beautiful Attempt! anywhere. Sold by the new Arcade Owner merchant.
++ Status Effect Overhaul!: As a major quality of life addition, all visible status effects have been given a new coat of paint. Making them more readable on what they do and what from.
+---Changes
++ Status effects now have descriptions on the ends of their titles describing their properties.
++ Changed some status effect names to better suit their strength, source, and giving them more flavor.
++ New icons for some of the status effects.
++ All debuffs are now labelled in red and any mixed effects are labelled in yellow.
++ All augment buffs are now visible on the status bar for better clarity.
 
 
---- ITEM CHANGES
-= Compressed Vermillium rebranded to Vermillium Blossom
-
-= Resprited Vermillium weapons.
-
-+ Added new name parts to the Samurai Katana and Cowboy Revolver generated weapons.
-
-+ Added new recipe for Volatile Powder that uses Ember Coral Shards
-
-+ The Gene Whip's alt-fire now does twice the damage it did before.
-
-- Anvils can no longer craft EPPs, only Enhancement Packs. EPPs have been moved over to the Hazard Lab Table.
++ Overhauled Fluid Status Effects!: To add some spice to the environments and how you interact with them, now fluids can haave more in-depth effects on how you interact with the world.
+---Changes
++ Wet: Now reduces fire damage but increases incoming electric damage. Gives you immunity to Mild Heat, though also drains energy on Deadly Cold planets.
++ Tarred: Now reduces electric damage but increases incoming fire damage. Still reduces movement speed, albeit to a lesser extent.
+---New Effect
++ Swamped, given by Swamp Water: Reduces movement speed, as well as reducing ice damage but increasing incoming poison damage.
++ Damp, given by Rain: Same effects as wet, except reduced in strength, also doesn't give you any of the environmental effects or any of the combo effects.
 
 
---- BIOME CHANGES
---- Biome Gen Overhauls
-+ Forest, Jungle, and Lush planets now spawn Firefly and Butterfly bushes, for that extra bit of flavor.
++ Environmental Combo Effects!: To add a little more depth to the element system and making them more attuned to the environment, I've added new effects when combined with fluid effects.
+---New Status effects
++ Burning Oil (Burning + Tarred): Deals even more fire damage and can no longer be put out by fluids. Incoming ice attacks do massive damage now.
++ Frostbite (Frosted + Wet): Slows the enemy even more and reduces the afflicted's defense against all elements. Incoming fire attacks do even more damage.
++ Static Discharge (Electrified + Wet): Sends out more tesla bolts than before, which can now electrify enemies as well. Also deals damage over time to the afflicted.
++ Septic Shock (Poisoned + Swamped): Does even more poison damage and reduces the attack power of the afflicted.
 
-+ Tundra planets now have new spiky terrain to better suit its angular style.
 
-+ Volcanic planets have more objects and trees spawn more frequently.
++ Fluid Flasks!: To help with using these new combos, I've added flasks. With 10 units of fluid and a bottle in your hand crafting menu, you can make throwable flasks that give enemies fluid statuses to use in conjunction with your weapons.
+---Flasks
++ Water Flask (Wet)
++ Oil Flask (Tarred)
++ Contaminated Flask (Swamped)
 
-+ Desert planets have a secondary kind of cactus and the surfaces can be covered in sand rather than arid grass.
 
-+ Perfectly Generic Chests now spawn on Anabatic planets. I forgot to add them before.
++ Status Effect Objects!: Certain objects now have the unique property of giving status effects to things nearby, sometimes blocking hazards.
+---Object Changes
++ Heating objects now give Mild Cold resistance and small amounts of regeneration to an area around it.
+---Heating Objects
++ Campfire
++ Medieval Fireplace
++ Rustic Oven
++ Barrel Fire
++ Cabin Stove
++ Space Heater
++ Primitive Stove
 
-- Perfectly Generic Chests spawn a bit less.
++ Fountains now give Mild Heat resistance and small amounts of regeneration to an area around it.
+---Fountains
++ Outdoor Fountain
++ Stone Fountain
++ Tiered Stone Fountain
++ Water Fountain
++ Petal Fountain
++ Traditional Water Feature
 
---- Cave Gen Overhauls
-+ Biome materials spawn a bit more often on the higher levels. Though the lower levels still contain the most ores.
++ Tents now give you immunity to all mild hazards when sleeping in them and have been buffed in their recovery capacity.
+---Tents
++ Blue Sleeping Bag (Level 1)
++ Red Sleeping Bag (Level 1)
++ Green Sleeping Bag (Level 1)
++ Green Dome Tent (Level 2)
++ Green Basic Tent (Level 2)
++ Red Dome Tent (Level 2)
++ Blue Dome Tent (Level 2)
++ Yellow Basic Tent (Level 2)
++ Military Tent (Level 3)
 
-+ Lush caves now contain more object variety, with larger objects as well.
 
-+ Volcanic caves have been given vines and extra objects.
++ New Codex: The Elements of Nature, a codex detailing the workings of the elements and the new combos. You can find these at any large Hylotl structure.
 
-+ Forest caves have been given new bushes and breakables. Trees spawn more frequently.
++ A new Otherworldly Weapon can now be found on Anabatic Planets.
 
-+ Jungle caves have a few more objects, and now have water drips.
+--- ITEM CHANGES 
+= Changed sprite for the Static Resist Augment to be less visually similar to the Electric Block augment, make it look like one is stronger than the other.
 
-+ Snow caves now have falling snow and new objects to populate the ground. Trees have been added as well.
++ Stims now give their own status effects, with their own icons. They have the same effects, just with more info on where the status effect came from.
 
-+ Tundra caves now have falling snow and water drips.
+= Bottled Poison now called Poison Flask and given the Throwable Weapon tooltip.
 
-+ Ocean caves now have geyser objects and ember coral.
+--- BIOME CHANGES 
++ Forest Caves and Jungle sub-caves can now contain Swamp Water.
 
-+ Scorched caves have more objects to choose from, now including landmines.
++ Volcanic and Scorched Caves can now contain Oil.
 
-+ Savannah caves now have a few more bush types and bones.
++ Forest, Volcanic, and Scorched caves can now spawn more liquid pools.
 
-+ Desert caves now have more ceiling objects and another type of cactus.
++ Anabatic planets now have a few new objects and plants spawning on them.
 
---- Weather Changes
-= Changes to the weather patches, now completely replacing the lists with the mod's own.
++ Anabatic caves now have a more crystalline aesthetic, with new plants, objects, and crystal blocks appearing near the bottom.
 
-+ New Storm weather, heavy rain without the static debuff.
+--- MONSTER CHANGES 
++ Fire Taroni balls and Fire Pteropod breath now inflict Burning Oil.
 
-= Previous Storm weather renamed to Thunderstorms.
++ Ice Orbides and Ice Narfins now inflict Frostbite. Watch out for these guys.
 
-+ Thunderstorms now have lightning effects to differentiate it from Storms.
++ Poison Pulpins, Poison Scaverans, and Poison Sporgus now inflict Septic Shock.
 
-+ New weather for Forest planets that drop leaves everywhere.
++ Electric Voltips and Electric Skimbus now inflict Static Discharge.
 
-+ Lush planets now have windstorms.
++ Adult Poptops now inflict Blood Loss.
 
----FIXES/COMPATIBILITY
-+ Added compatibility for Processors courtesy of JamesTheMaker
++ Albino Adult Poptops now inflict Major Blood Loss.
 
++ Albino Poptops now inflict Blood Loss.
+
+--- FIXES/COMPATIBILITY
++ Fixed a boot to ship due to an improperly set npc in the Novakid Snow Village.
+
++ Fixed a boot to ship due to an incorrect itemID with the Novakid Snow Villager NPC.
+
++ Fixed a boot to ship due to an incorrectly spelled treasure pool on one of the Anabatic planet structures.
+
++ Snow Novakid Guards now correctly have their unique armor.

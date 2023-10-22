@@ -2,7 +2,7 @@
     {
         "op": "replace",
         "path": "/label",
-        "value": "Deadly Heat - Heavy Health Loss, Halved Energy Regen | When Mitigated: Medium Health Loss"
+        "value": "^red;Deadly Heat - Slow damage over time. Energy Regen reduced by 50%. | When Mitigated: Compounding health loss."
     },
     {
         "op": "replace",

@@ -10,22 +10,23 @@ function init()
   self.tickTimer = self.tickTime
   
   effect.addStatModifierGroup({
-    {stat = "protection", effectiveMultiplier = 0.9}
+    {stat = "protection", effectiveMultiplier = 0.6},
+	{stat = "physicalResistance", amount = -0.5},
+	{stat = "fireResistance", amount = -1.5},
+	{stat = "poisonResistance", amount = -0.5},
+	{stat = "iceResistance", amount = -0.5},
+	{stat = "electricResistance", amount = -0.5},
+	{stat = "fireStatusImmunity", amount = 1.0}
   })
 end
 
 function update(dt)
-
-  self.tickTimer = self.tickTimer - dt
-  if self.tickTimer <= 0 then
-    self.tickTimer = self.tickTime
-    status.applySelfDamageRequest({
-        damageType = "IgnoresDef",
-        damage = math.floor(status.resourceMax("health") * self.tickDamagePercentage) + 1,
-        damageSourceKind = "ice",
-        sourceEntityId = entity.id()
-      })
-  end
+  mcontroller.controlModifiers({
+      groundMovementModifier = 0.4,
+      speedModifier = 0.75,
+      airJumpModifier = 0.9
+    })
+  status.removeEphemeralEffect("frostslow")
 end
 
 function uninit()

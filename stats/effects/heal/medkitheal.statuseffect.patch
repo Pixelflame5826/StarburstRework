@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "First Aid - Regain 100 health over 10 seconds."
+    }
+]

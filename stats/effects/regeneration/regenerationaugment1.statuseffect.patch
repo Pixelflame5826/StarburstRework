@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Healing Augment I - Regenerate a miniscule percentage of health per second."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/heal.png"
+    }
+]

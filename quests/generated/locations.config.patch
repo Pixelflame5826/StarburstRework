@@ -90,6 +90,14 @@
                     "friendly"
                 ],
                 "range": 600
+            },
+			"hill1": {
+                "name": "atop a cavern laden hill",
+                "tags": [
+                    "generic",
+                    "friendly"
+                ],
+                "range": 600
             }
         }
     },

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Damage Augment III - Damage output is 30% stronger."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/rage.png"
+    }
+]

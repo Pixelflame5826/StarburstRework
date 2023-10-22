@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Speed Augment - Moderate boost in run speed."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/haste20.png"
+    }
+]

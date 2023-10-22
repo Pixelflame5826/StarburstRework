@@ -1,0 +1,29 @@
+{
+  "kind" : "pf_swampcloud",
+  "definition" : {
+    "duration" : 0.03,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "pf_swampclouddrip", "pf_swampclouddrip", "pf_swampclouddrip", "pf_swampclouddrip" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "pf_swampclouddrip", "pf_swampclouddrip", "pf_swampclouddrip" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "pf_swampclouddrip", "pf_swampclouddrip", "pf_swampclouddrip", "pf_swampclouddrip", "pf_swampclouddrip", "pf_swampclouddrip" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

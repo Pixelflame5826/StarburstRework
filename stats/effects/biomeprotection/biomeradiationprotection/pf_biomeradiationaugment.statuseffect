@@ -7,6 +7,6 @@
     "pf_biomeradiationaugment.lua"
   ],
 
-  "label" : "Radiation Immunity - Immunity to Deadly Radiation",
+  "label" : "Radiation Immunity - Immunity to Deadly Radiation.",
   "icon" : "/interface/statuses/pf_advradiationprotection.png"
 }

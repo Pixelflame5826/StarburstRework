@@ -83,7 +83,7 @@
     }
   ],
 
-  "statusEffects" : ["wet", "pf_biomeheatmild"],
+  "statusEffects" : ["pf_damp", "pf_biomeheatmild"],
 
   "duration" : [50, 400],
   "maximumWind" : 60.0,

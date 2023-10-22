@@ -1,0 +1,15 @@
+{
+  "name" : "pf_campfire",
+
+  "effectConfig" : {
+    "healTime" : 120
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_campfire.lua"
+  ],
+
+  "label" : "Cozy Fire - Immunity to Mild Chill and Slowly Regenerate Health",
+  "icon" : "/interface/statuses/pf_campfire.png"
+}

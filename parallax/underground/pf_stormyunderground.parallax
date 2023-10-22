@@ -1,7 +1,7 @@
 {
   "layers" : [
     {
-      "kind" : "tile/lakecavern",
+      "kind" : "tile/pf_stormycavefront",
       "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 1.2,
@@ -33,7 +33,7 @@
       "maxSpeed" : -10000
     },
     {
-      "kind" : "tile/lakeback",
+      "kind" : "tile/pf_stormycaveback",
       "nohueshift" : false,
       "lightMapped" : true,
       "parallax" : 2,

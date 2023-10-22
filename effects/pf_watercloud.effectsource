@@ -1,0 +1,29 @@
+{
+  "kind" : "pf_watercloud",
+  "definition" : {
+    "duration" : 0.03,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "pf_waterclouddrip", "pf_waterclouddrip", "pf_waterclouddrip", "pf_waterclouddrip" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "pf_waterclouddrip", "pf_waterclouddrip", "pf_waterclouddrip" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "pf_waterclouddrip", "pf_waterclouddrip", "pf_waterclouddrip", "pf_waterclouddrip", "pf_waterclouddrip", "pf_waterclouddrip" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

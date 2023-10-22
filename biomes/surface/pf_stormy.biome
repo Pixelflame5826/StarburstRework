@@ -90,7 +90,7 @@
   ],
 
   "mainBlock" : "dirt",
-  "subBlocks" : [ "rock04", "mud", "gravel" ],
+  "subBlocks" : [ "rock04", "mud", "grassyrock" ],
   "ores" : "surface",
 
   "parallax" : "/parallax/surface/pf_stormy.parallax",
@@ -177,7 +177,7 @@
         "mode" : "floor",
         "priority" : 1,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+        "distribution" : "/biomes/distributions.config:everywhere",
 
         "type" : "microdungeon",
         "microdungeons" : [ "pf_stormymicrodungeons" ]
@@ -249,7 +249,17 @@
         "distribution" : "/biomes/distributions.config:scatteredLarge",
 
         "type" : "grass",
-        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower6", "testflower7", "circles", "fireflower" ]
+        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower6", "testflower7" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "period" : 5,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "grass",
+        "grasses" : [ "circles", "fireflower" ]
       },
       {
         "mode" : "floor",
@@ -269,7 +279,7 @@
         "mode" : "floor",
         "priority" : 2.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+        "distribution" : "/biomes/distributions.config:moderateClumps",
 
         "type" : "bush",
         "bushes" : [
@@ -279,6 +289,35 @@
             "modHueShiftMax" : 180
           }
         ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "wicked",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+		"priority" : 1.0,
+		"variants" : 1,
+		"distribution" : "/biomes/distributions.config:potsRare",
+
+		"type" : "object",
+		"objectSets" : [
+		  {
+			"pool" : [ [0.5, "fireflybush" ] ],
+			"parameters" : { }
+		  }
+		]
       },
 
       // CROPS
@@ -341,6 +380,15 @@
     "ceilingGrassModDensity" : 0.3,
 
     "items" : [
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:pf_pgiChest",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "pf_pgiStormyChest" ]
+      },
       {
         "mode" : "floor",
         "priority" : 0.0,

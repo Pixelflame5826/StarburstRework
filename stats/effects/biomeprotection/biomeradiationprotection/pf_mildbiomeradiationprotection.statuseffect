@@ -7,6 +7,6 @@
     "pf_mildbiomeradiationprotection.lua"
   ],
 
-  "label" : "Radiation Protection - Immunity to Minor Radiation and Mitigates Deadly Radiation",
+  "label" : "Radiation Protection - Immunity to Minor Radiation and mitigates Deadly Radiation.",
   "icon" : "/interface/statuses/pf_radiationprotection.png"
 }

@@ -290,7 +290,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"pf_stormChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"pf_stormyChestTreasure\"]}"
                     },
                  "propertytypes":
                     {

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/label",
+        "value": "^yellow;Tarred - Slightly reduced movement, increased electric resistance and fire susceptibility. Can strengthen certain status effects."
+    },
+	{
+        "op": "replace",
+        "path": "/defaultDuration",
+        "value": 10
+    }
+]
