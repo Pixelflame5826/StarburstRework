@@ -1,7 +1,7 @@
 [
     {
         "op": "add",
-        "path": "/interactData/items/9",
+        "path": "/interactData/items/-",
         "value": { "item": "pf_radioactivefluffaloegg" }
     }
 ]

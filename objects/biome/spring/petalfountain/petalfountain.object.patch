@@ -1,8 +1,21 @@
 [
+  [
+    {
+        "op" : "test",
+        "path" : "/scripts",
+        "inverse" : true
+    },
+    {
+        "op" : "add",
+        "path" : "/scripts",
+        "value" : [ ]
+    }
+  ],
+  [
 	{
         "op": "add",
-        "path": "/scripts",
-        "value": [ "/objects/scripts/pf_statuseffectobject.lua" ]
+        "path": "/scripts/-",
+        "value": "/objects/scripts/pf_statuseffectobject.lua"
     },
     {
         "op": "replace",
@@ -41,4 +54,5 @@
         "path": "/effectDuration",
         "value": 10
     }
+  ]
 ]

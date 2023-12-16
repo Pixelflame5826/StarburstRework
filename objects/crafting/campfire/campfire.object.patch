@@ -1,7 +1,7 @@
 [
     {
         "op": "add",
-        "path": "/scripts/1",
+        "path": "/scripts/-",
         "value": "/objects/scripts/pf_statuseffectobject.lua"
     },
     {
