@@ -1,8 +1,7 @@
 [
     {
         "op": "add",
-        "path": "/interactData/items/-", 
-        // that would have erased an other mod's item from terramart!
+        "path": "/interactData/items/-",
         "value": { "item": "pf_radioactivefluffaloegg" }
     }
 ]
