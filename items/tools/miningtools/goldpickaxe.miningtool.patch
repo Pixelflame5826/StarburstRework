@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_miningtool"
+    },
+    {
+        "op": "add",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildminingtool.lua"
+    },
+    {
+        "op": "add",
+        "path": "/itemAgingScripts",
+        "value": [ "/scripts/items/pf_miningtoolupdate.lua" ]
+    }
+]

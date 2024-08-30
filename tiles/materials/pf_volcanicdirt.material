@@ -1,0 +1,26 @@
+{
+  "materialId" : 38414,
+  "materialName" : "pf_volcanicdirt",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "pf_volcanicdirt",
+  "description" : "Dirt made from volcanic ash.",
+  "shortdescription" : "Andisol",
+  "glitchDescription" : "Curious. I wonder if the ash makes crops any healthier.",
+  "floranDescription" : "Floransss love assshy dirt! Perfect for plantssss.",
+  "novakidDescription" : "Some fancy lookin' dirt.",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
+  "tillableMod" : 32,
+  "soil" : true,
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_volcanicdirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1919
+  }
+}

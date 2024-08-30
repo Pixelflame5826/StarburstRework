@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/layers/10/parallax",
+        "value": 4
+    },
+    {
+        "op": "replace",
+        "path": "/layers/6/parallax",
+        "value": 6
+    },
+    {
+        "op": "replace",
+        "path": "/layers/5/parallax",
+        "value": 8
+    },
+    {
+        "op": "replace",
+        "path": "/layers/4/parallax",
+        "value": 10
+    }
+]

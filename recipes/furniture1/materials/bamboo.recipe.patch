@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/output/count",
+        "value": 10
+    },
+    {
+        "op": "replace",
+        "path": "/input",
+        "value": [ { "item" : "pf_bamboolog", "count" : 1 } ]
+    }
+]

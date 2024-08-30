@@ -8,7 +8,6 @@
     "visualProjectileSpeed" : 6.66,
     "visualProjectileTime" : 0.75,
     "visualDuration" : 0,
-    "border" : "1;FF550099;00000000",
 
     "damageMultiplier" : 0.0,
     "damageProjectileType" : "novadamage",

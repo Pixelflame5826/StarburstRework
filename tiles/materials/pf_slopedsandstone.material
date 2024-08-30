@@ -1,0 +1,24 @@
+{
+  "materialId" : 38409,
+  "materialName" : "pf_slopedsandstone",
+  "particleColor" : [215, 204, 137, 255],
+  "itemDrop" : "pf_slopedsandstone",
+  "description" : "Tough, natural, and smooth sandstone.",
+  "shortdescription" : "Smooth Sandstone",
+  "glitchDescription" : "Observant. This smooth sandstone has been carved by erosion.",
+  "floranDescription" : "Sssmoooth layered rockss.",
+  "novakidDescription" : "Some sandy lookin' rocks. The entire wall is like a layer cake!",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 5,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_slopedsandstone.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

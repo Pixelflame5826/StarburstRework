@@ -8,7 +8,7 @@
   "tooltipKind" : "pf_uniquegun",
   "category" : "pistol",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","pistol"],
+  "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
   "level" : 3,
 
   "inventoryIcon" : "pf_aquaripistol.png",
@@ -31,7 +31,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_water",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
@@ -80,5 +80,28 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_aquaripistol_l4.png",
+      "animationParts" : {
+        "middle" : "pf_aquaripistol_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_aquaripistol_l5.png",
+      "animationParts" : {
+        "middle" : "pf_aquaripistol_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_aquaripistol_l6.png",
+      "animationParts" : {
+        "middle" : "pf_aquaripistol_l6.png"
+      },
+      "shortdescription" : "Sametanju"
+	}
+  }
 }

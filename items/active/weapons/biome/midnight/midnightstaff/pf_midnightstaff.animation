@@ -104,7 +104,7 @@
   },
 
   "particleEmitters" : {
-    "physicalcharge" : {
+    "pf_shadowcharge" : {
       "active" : false,
       "transformationGroups" : ["weapon"],
       "emissionRate" : 10,
@@ -117,11 +117,11 @@
   },
 
   "sounds" : {
-    "physicalfullcharge" : ["/sfx/melee/elemental_aura_activate.ogg"],
-    "physicalchargedloop" : ["/sfx/melee/charge_full_hold1.ogg"],
-    "physicaldischarge" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],
-	"physicalcharge" : ["/sfx/melee/charge_up12.ogg"],
-    "physicalactivate" : ["/sfx/instruments/musicbox/a0.ogg"],
+    "pf_shadowfullcharge" : ["/sfx/melee/elemental_aura_activate.ogg"],
+    "pf_shadowchargedloop" : ["/sfx/melee/charge_full_hold1.ogg"],
+    "pf_shadowdischarge" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],
+	"pf_shadowcharge" : ["/sfx/melee/charge_up12.ogg"],
+    "pf_shadowactivate" : ["/sfx/instruments/musicbox/a0.ogg"],
     "zoneactivate" : ["/sfx/melee/giantsword_charge_full.ogg"]
   }
 }

@@ -1,0 +1,18 @@
+{
+  "itemName" : "pf_curedfish",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "inventoryIcon" : "pf_curedfish.png",
+  "description" : "A tasty and less slimy fillet of fish. The fish met an even saltier fate.",
+  "shortdescription" : "Cured Fish",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

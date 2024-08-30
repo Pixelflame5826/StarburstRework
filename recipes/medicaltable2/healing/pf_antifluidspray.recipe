@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "hardenedcarapace", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "pf_antifluidspray",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical2", "healing" ]
+}

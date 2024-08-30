@@ -370,6 +370,106 @@
             ]
         }
     },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_coldgarden",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_coldgarden"
+                    ]
+                ]
+            ],
+            "subRegion": []
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_mountaingarden",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "medHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_mountaingarden"
+                    ]
+                ]
+            ],
+            "subRegion": []
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_flatgarden",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "lowHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_flatgarden"
+                    ]
+                ]
+            ],
+            "subRegion": []
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/garden/layers/surface/primaryRegion/-",
+        "value": "pf_coldgarden"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/garden/layers/surface/primaryRegion/-",
+        "value": "pf_mountaingarden"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/garden/layers/surface/primaryRegion/-",
+        "value": "pf_flatgarden"
+    },
 	
 	//FOREST
 	
@@ -538,6 +638,116 @@
                 "pf_forestdeep"
             ]
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_floralforest",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "lowHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_floralforest"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "spring",
+                "giantflowers"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_fungalforest",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_fungalforest"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "swamp",
+                "mushroom"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_woodlandsforest",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "medHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_woodlandsforest"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "swamp",
+                "mushroom",
+                "spring"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/surface/primaryRegion/-",
+        "value": "pf_floralforest"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/surface/primaryRegion/-",
+        "value": "pf_fungalforest"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/surface/primaryRegion/-",
+        "value": "pf_woodlandsforest"
     },
 	
 	//SAVANNAH
@@ -718,6 +928,115 @@
         "path": "/planetTypes/savannah/threatRange/0",
         "value": 2
     },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_floodplainsavannah",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "caveLiquidSeedDensityRange" : [10, 10],
+            "blockSelector": [
+                "remixedPoolsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_floodplainsavannah"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "swamp",
+                "spring",
+                "colourful"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_mountainsavannah",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMountainsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_mountainsavannah"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bones",
+                "tar"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_veldsavannah",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedFlatsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_veldsavannah"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bones",
+                "tar"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/savannah/layers/surface/primaryRegion/-",
+        "value": "pf_floodplainsavannah"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/savannah/layers/surface/primaryRegion/-",
+        "value": "pf_mountainsavannah"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/savannah/layers/surface/primaryRegion/-",
+        "value": "pf_veldsavannah"
+    },
 	
 	//DESERT
 	
@@ -882,6 +1201,116 @@
         "op": "replace",
         "path": "/planetTypes/desert/threatRange/0",
         "value": 3
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_harshdesert",
+        "value": {
+            "caveLiquid": [
+                "water", "tarliquid"
+            ],
+            "caveLiquidSeedDensityRange" : [1, 1],
+            "blockSelector": [
+                "medHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_harshdesert"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bones",
+                "tar"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_lushdesert",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "caveLiquidSeedDensityRange" : [3, 3],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_lushdesert"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "oasis",
+                "colourful"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_mountaindesert",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "mesasSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_mountaindesert"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "oasis",
+                "bones",
+                "tar"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/desert/layers/surface/primaryRegion/-",
+        "value": "pf_lushdesert"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/desert/layers/surface/primaryRegion/-",
+        "value": "pf_mountaindesert"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/desert/layers/surface/primaryRegion/-",
+        "value": "pf_harshdesert"
     },
 	
 	//OCEAN
@@ -1065,6 +1494,107 @@
         ]
     },
 
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_lushocean",
+        "value": {
+            "oceanLiquid" : [ 
+                "water" 
+            ],
+            "blockSelector": [
+                "remixedIslandsSurface"
+            ],
+            "fgCaveSelector": [
+                "empty"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_lushocean"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "pf_forestislands"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_reefocean",
+        "value": {
+            "oceanLiquid" : [ 
+                "water" 
+            ],
+            "blockSelector": [
+                "flatDeepIslandsSurface"
+            ],
+            "fgCaveSelector": [
+                "empty"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_reefocean"
+                    ]
+                ]
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_stormyocean",
+        "value": {
+            "oceanLiquid" : [ 
+                "water" 
+            ],
+            "blockSelector": [
+                "remixedIslandsSurface"
+            ],
+            "fgCaveSelector": [
+                "empty"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_stormyocean"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "pf_forestislands"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/surface/primaryRegion/-",
+        "value": "pf_lushocean"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/surface/primaryRegion/-",
+        "value": "pf_reefocean"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/ocean/layers/surface/primaryRegion/-",
+        "value": "pf_stormyocean"
+    },
+
 	
 	//SNOW
 	
@@ -1231,6 +1761,113 @@
                 "pf_snowdeep"
             ]
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_grassysnow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "medHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_grassysnow"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "alpine"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_mountainsnow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "mountainsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_mountainsnow"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "alpine",
+                "bioluminescence"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_springsnow",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_springsnow"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "spring",
+                "bioluminescence",
+                "giantflowers"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/snow/layers/surface/primaryRegion/-",
+        "value": "pf_grassysnow"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/snow/layers/surface/primaryRegion/-",
+        "value": "pf_mountainsnow"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/snow/layers/surface/primaryRegion/-",
+        "value": "pf_springsnow"
     },
 	
 	//JUNGLE
@@ -1402,6 +2039,120 @@
             ]
         }
     },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_primordialjungle",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "caveLiquidSeedDensityRange" : [3, 3],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_primordialjungle"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "swamp",
+                "giantflowers",
+                "mushroom",
+                "hive"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_stormyjungle",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "caveLiquidSeedDensityRange" : [5, 5],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_stormyjungle"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "swamp",
+                "mushroom",
+                "spring"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_volcanicjungle",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "caveLiquidSeedDensityRange" : [5, 5],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_volcanicjungle"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "swamp",
+                "tar",
+                "spring"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/surface/primaryRegion/-",
+        "value": "pf_primordialjungle"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/surface/primaryRegion/-",
+        "value": "pf_stormyjungle"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/jungle/layers/surface/primaryRegion/-",
+        "value": "pf_volcanicjungle"
+    },
 	
 	//ALIEN
 	
@@ -1571,6 +2322,117 @@
                 "pf_aliendeep"
             ]
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_arborealalien",
+        "value": {
+            "caveLiquid": [
+                "water", "poison"
+            ],
+            "caveLiquidSeedDensityRange" : [5, 5],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_arborealalien"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "eyepatch",
+                "flesh"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_crystalalien",
+        "value": {
+            "caveLiquid": [
+                "water", "poison"
+            ],
+            "caveLiquidSeedDensityRange" : [5, 5],
+            "blockSelector": [
+                "remixedSpikesSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_crystalalien"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "eyepatch",
+                "flesh",
+                "geode"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_radstormalien",
+        "value": {
+            "caveLiquid": [
+                "poison"
+            ],
+            "caveLiquidSeedDensityRange" : [5, 5],
+            "blockSelector": [
+                "remixedSpikesSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_radstormalien"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "eyepatch",
+                "flesh"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/alien/layers/surface/primaryRegion/-",
+        "value": "pf_arborealalien"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/alien/layers/surface/primaryRegion/-",
+        "value": "pf_crystalalien"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/alien/layers/surface/primaryRegion/-",
+        "value": "pf_radstormalien"
     },
 	
 	//---VOLCANIC---//
@@ -1750,6 +2612,116 @@
         "op": "replace",
         "path": "/planetTypes/volcanic/threatRange/0",
         "value": 5
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_ashyvolcanic",
+        "value": {
+            "caveLiquid": [
+                "water", "lava"
+            ],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_ashyvolcanic"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "geode",
+                "bones",
+                "pf_asphodel"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_felsicvolcanic",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "caveLiquidSeedDensityRange" : [2, 2],
+            "blockSelector": [
+                "mountainsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_felsicvolcanic"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "geode",
+                "rust"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_flowvolcanic",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "caveLiquidSeedDensityRange" : [5, 5],
+            "blockSelector": [
+                "lowHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_flowvolcanic"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "geode",
+                "tar"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/volcanic/layers/surface/primaryRegion/-",
+        "value": "pf_ashyvolcanic"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/volcanic/layers/surface/primaryRegion/-",
+        "value": "pf_felsicvolcanic"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/volcanic/layers/surface/primaryRegion/-",
+        "value": "pf_flowvolcanic"
     },
 	
 	//MAGMA
@@ -2025,6 +2997,114 @@
                 "pf_tundradeep"
             ]
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_deserttundra",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "medHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_deserttundra"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "steamspring",
+                "bioluminescence",
+                "prism"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_frosttundra",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_frosttundra"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "alpine",
+                "bioluminescence"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_lighttundra",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedSpikesSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_lighttundra"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bioluminescence",
+                "prism"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/surface/primaryRegion/-",
+        "value": "pf_deserttundra"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/surface/primaryRegion/-",
+        "value": "pf_frosttundra"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/tundra/layers/surface/primaryRegion/-",
+        "value": "pf_lighttundra"
     },
 	
 	//ARCTIC
@@ -2379,6 +3459,102 @@
         "path": "/planetTypes/toxic/threatRange/0",
         "value": 6
     },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_industrialtoxic",
+        "value": {
+            "oceanLiquid" : [ 
+                "poison" 
+            ],
+            "blockSelector": [
+                "remixedIslandsSurface"
+            ],
+            "fgCaveSelector": [
+                "empty"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_industrialtoxic"
+                    ]
+                ]
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_urbantoxic",
+        "value": {
+            "oceanLiquid" : [ 
+                "poison" 
+            ],
+            "blockSelector": [
+                "remixedIslandsSurface"
+            ],
+            "fgCaveSelector": [
+                "empty"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_urbantoxic"
+                    ]
+                ]
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_lushtoxic",
+        "value": {
+            "oceanLiquid" : [ 
+                "poison" 
+            ],
+            "blockSelector": [
+                "remixedIslandsSurface"
+            ],
+            "fgCaveSelector": [
+                "empty"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_lushtoxic"
+                    ]
+                ]
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/surface/primaryRegion/-",
+        "value": "pf_industrialtoxic"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/surface/primaryRegion/-",
+        "value": "pf_urbantoxic"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/toxic/layers/surface/primaryRegion/-",
+        "value": "pf_lushtoxic"
+    },
 	
 	//SCORCHED
 	
@@ -2536,6 +3712,109 @@
                 "pf_scorcheddeep"
             ]
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_buriedscorchedcity",
+        "value": {
+            "caveLiquid": [
+                "tarliquid"
+            ],
+            "blockSelector": [
+                "medHillsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_buriedscorchedcity"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bones",
+                "tar"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_glassedscorchedcity",
+        "value": {
+            "caveLiquid": [
+                "tarliquid", "lava"
+            ],
+            "blockSelector": [
+                "remixedMildCanyonsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_glassedscorchedcity"
+                    ]
+                ]
+            ],
+            "subRegion": [
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_warscorchedcity",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_warscorchedcity"
+                    ]
+                ]
+            ],
+            "subRegion": [
+            ]
+        }
+    },
+    
+    {
+        "op": "add",
+        "path": "/planetTypes/scorchedcity/layers/surface/primaryRegion/-",
+        "value": "pf_buriedscorchedcity"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/scorchedcity/layers/surface/primaryRegion/-",
+        "value": "pf_glassedscorchedcity"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/scorchedcity/layers/surface/primaryRegion/-",
+        "value": "pf_warscorchedcity"
     },
 	
 	//MIDNIGHT
@@ -2711,6 +3990,114 @@
         "op": "replace",
         "path": "/planetTypes/midnight/threatRange/0",
         "value": 6
+    },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_lightmidnight",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildCanyonsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_lightmidnight"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "hive"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_plutonicmidnight",
+        "value": {
+            "caveLiquid": [
+                "lava"
+            ],
+            "blockSelector": [
+                "remixedMildCanyonsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_plutonicmidnight"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "geode",
+                "hive",
+                "tar"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_snowmidnight",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildCanyonsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_snowmidnight"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "bioluminescence",
+                "prism",
+                "hive"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/planetTypes/midnight/layers/surface/primaryRegion/-",
+        "value": "pf_lightmidnight"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/midnight/layers/surface/primaryRegion/-",
+        "value": "pf_plutonicmidnight"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/midnight/layers/surface/primaryRegion/-",
+        "value": "pf_snowmidnight"
     },
 	
 	//SECONDARY BIOME CHANGES
@@ -3009,6 +4396,99 @@
             ]
         }
     },
+
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_autumnstormy",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "mountainsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_autumnstormy"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "alpine",
+                "mushroom"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_fogstormy",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "mountainsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_fogstormy"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "alpine",
+                "mushroom",
+                "swamp"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/regionTypes/pf_snowystormy",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "mountainsSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_snowystormy"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "alpine",
+                "bioluminescence",
+                "prism"
+            ]
+        }
+    },
 	
 	{
         "op": "add",
@@ -3021,8 +4501,8 @@
 			"caveLiquidSeedDensityRange" : [5, 5],
             "layers": {
                 "surface": {
-					"primaryRegion": ["pf_stormy"],
-					"secondaryRegions": ["garden", "forest", "snow"],
+					"primaryRegion": ["pf_stormy", "pf_autumnstormy", "pf_fogstormy", "pf_snowystormy" ],
+					"secondaryRegions": ["pf_coldgarden", "forest", "snow"],
 					"dungeons": [
 						[1.0, "apextestfacility"],
 						[0.0, "apexbase"],

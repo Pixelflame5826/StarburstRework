@@ -173,5 +173,29 @@
             "weight": 0.1,
             "item": "pf_cowboyrevolver"
         }
+    },
+
+    //HUMAN CAMPSITE
+    {
+        "op": "add",
+        "path": "/humancampTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.01,
+            "item": [
+                "pf_newhorizonspainting",
+                1
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/humancampChestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.01,
+            "item": [
+                "pf_newhorizonspainting",
+                1
+            ]
+        }
     }
 ]

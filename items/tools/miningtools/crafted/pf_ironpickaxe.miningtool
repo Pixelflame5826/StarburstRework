@@ -5,7 +5,7 @@
   "inventoryIcon" : "pf_ironpickaxeicon.png",
   "maxStack" : 1,
   "rarity" : "Common",
-  "tooltipKind" : "tool",
+  "tooltipKind" : "pf_miningtool",
   "description" : "A handcrafted pickaxe made from Iron. Should last fairly long and mine quickly.",
   "shortdescription" : "Iron Pickaxe",
   "largeImage" : "pf_ironpickaxebig.png",
@@ -23,5 +23,7 @@
   "durabilityPerUse" : 1,
   "tileDamage" : 2,
   "harvestLevel" : 99,
-  "tileDamageBlunted" : 0.6
+  "tileDamageBlunted" : 0.6,
+  "builder" : "/items/buildscripts/pf_buildminingtool.lua",
+  "itemAgingScripts" : ["/scripts/items/pf_miningtoolupdate.lua"]
 }

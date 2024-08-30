@@ -1,0 +1,33 @@
+{
+  "objectName" : "pf_slateplate",
+  "colonyTags" : [ ],
+  "rarity" : "Common",
+  "description" : "A plate made of pure slate.",
+  "shortdescription" : "Slate Plate",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 30,
+
+  "apexDescription" : "A little stone plate.",
+  "avianDescription" : "A rock dish on which food is served.",
+  "floranDescription" : "Stone needss food. Floran hungry.",
+  "glitchDescription" : "Amused. A slate plate. It rhymes.",
+  "humanDescription" : "A plate made of slate. Slate plate.",
+  "hylotlDescription" : "A square slate plate... I could write a poem with that.",
+  "novakidDescription" : "Small slate plate. Hehe.",
+
+  "inventoryIcon" : "pf_slateplateicon.png",
+  "orientations" : [
+    {
+      "image" : "pf_slateplate.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

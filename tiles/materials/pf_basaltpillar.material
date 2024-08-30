@@ -1,0 +1,24 @@
+{
+  "materialId" : 38402,
+  "materialName" : "pf_basaltpillar",
+  "particleColor" : [92, 90, 87, 255],
+  "itemDrop" : "pf_basaltpillar",
+  "shortdescription" : "Basalt Pillar",
+  "description" : "A hexagonal pillar of polished basalt.",
+  "glitchDescription" : "Curious. It is said giants once used Basalt for bridges.",
+  "floranDescription" : "Sstone pillar iss very dark.",
+  "novakidDescription" : "Well ain't this a sight. How did the rock form this way?",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 7,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_basaltpillar.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2771
+  }
+}

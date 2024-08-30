@@ -1,0 +1,16 @@
+{
+  "itemName" : "pf_saltblock",
+  "price" : 1,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_saltblock.png",
+  "shortdescription" : "Halite",
+  "description" : "A chunk of unrefined rock salt, created by oceans new and ancient.",
+
+  "materialId" : 38406,
+  "learnBlueprintsOnPickup" : [
+    "pf_saltbricks",
+    "pf_saltbrickslight",
+    "pf_saltlamp"
+  ]
+}

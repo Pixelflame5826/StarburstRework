@@ -1,7 +1,7 @@
 {
   "itemName" : "pf_fallaugment",
-  "price" : 15000,
-  "rarity" : "Legendary",
+  "price" : 10000,
+  "rarity" : "Rare",
   "tooltipKind" : "eppaugment",
   "category" : "eppAugment",
   "inventoryIcon" : "pf_fallaugment.png",
@@ -13,7 +13,7 @@
     "name" : "pf_fall",
     "displayName" : "Light Fall",
     "displayIcon" : "/items/augments/back/pf_fallaugment.png",
-    "effects" : [ "pf_halvedfalldamage" ]
+    "effects" : [ "pf_fallaugment" ]
   },
 
   "radioMessagesOnPickup" : [ "pickupaugment" ],

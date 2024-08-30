@@ -82,5 +82,5 @@
   "power" : 20,
   "knockback" : 20,
   "knockbackDirectional" : true,
-  "damageKind" : "bow"
+  "damageKind" : "pf_piercingbow"
 }

@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_saltbrickslight",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_saltbrickslight.png",
+  "shortdescription" : "Glowing Salt Bricks",
+  "description" : "A block of rock salt bricks. Embedded lights make the bricks glow.",
+
+  "materialId" : 38408
+}

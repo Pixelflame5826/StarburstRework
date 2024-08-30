@@ -18,5 +18,13 @@
         "op": "add",
         "path": "/statusEffects/1",
         "value": "biomeradiation"
+    },
+    {
+        "op": "add",
+        "path": "/spawnProfile/groups/0/pool/-",
+        "value": [
+            2,
+            "pf_robotank"
+        ]
     }
 ]

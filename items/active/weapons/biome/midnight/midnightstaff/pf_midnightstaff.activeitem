@@ -69,7 +69,7 @@
     }
   },
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_shadow",
 
   "primaryAbilityType" : "plasmabladebarrage",
   "primaryAbility" : {

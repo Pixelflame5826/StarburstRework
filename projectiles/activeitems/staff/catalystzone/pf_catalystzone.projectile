@@ -1,0 +1,61 @@
+{
+  "projectileName" : "pf_catalystzone",
+  "physics" : "laser",
+  "timeToLive" : 10,
+  "image" : "pf_catalystzone.png",
+  "animationCycle" : 0.05,
+  "frameNumber" : 1,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "periodicActions" : [
+    {
+      "time" : 9.7,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/tech/vehicle_disappear1.ogg" ]
+    },
+	{
+      "time" : 9.9,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/ice_break1.ogg" ]
+    },
+    {
+      "action" : "particle",
+      "specification" : "astraltearsparkle1",
+      "time" : 0.1,
+      "repeat" : true
+    },
+    {
+      "action" : "particle",
+      "specification" : "astraltearsparkle2",
+      "time" : 0.1,
+      "repeat" : true
+    },
+    {
+      "action" : "particle",
+      "specification" : "astraltearsparkle3",
+      "time" : 0.1,
+      "repeat" : true
+    }
+  ],
+  "actionOnReap" : [],
+  "speed" : 0,
+  "power" : 0,
+  "renderLayer" : "Player-1",
+
+  "onlyHitTerrain" : true,
+  "persistentStatusEffects" : ["pf_catalyst"],
+  "statusEffectArea" : [ [-6.0, 0], [-4.0, -4.0], [0, -6.0], [4.0, -4.0], [6.0, 0], [4.0, 4.0], [0, 6.0], [-4.0, 4.0] ],
+
+  "orientationLocked" : true,
+  "fullbright" : true,
+  "emitters" : [ ],
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+  
+  "persistentAudio" : "/sfx/objects/windchimes1.ogg"
+}

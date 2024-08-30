@@ -1,0 +1,31 @@
+[
+    {
+        "op": "replace",
+        "path": "/layers/8/offset/1",
+        "value": 405
+    },
+    {
+        "op": "replace",
+        "path": "/layers/7/offset/1",
+        "value": 425
+    },
+    {
+        "op": "replace",
+        "path": "/layers/2/offset/1",
+        "value": 175
+    },
+    {
+        "op": "add",
+        "path": "/layers/27",
+        "value": {
+            "kind": "iceshelf",
+            "baseCount": 1,
+            "offset": [
+                0,
+                400
+            ],
+            "parallax": 5,
+            "fadePercent": 0.15
+        }
+    }
+]

@@ -1,0 +1,35 @@
+{
+  "objectName" : "pf_slatechair",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A geometric chair overlaid with slate. No cushions here.",
+  "shortdescription" : "Slate Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "Maybe sitting in this would help keep my back straight.",
+  "avianDescription" : "Not too different from sitting on sandstone. Though less of a design I like.",
+  "floranDescription" : "Firm sstone seat lookss uncomfortable.",
+  "glitchDescription" : "Disapointed. For a modern chair, why still use rock?.",
+  "humanDescription" : "While the modern design is neat, its still slate.",
+  "hylotlDescription" : "Interesting aesthetic, less interesting material choice.",
+  "novakidDescription" : "This here chair is pretty solid, it hurts my foot when I kick it.",
+
+  "inventoryIcon" : "pf_slatechairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_slatechair.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 24]
+
+}

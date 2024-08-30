@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pf_slatepolished", "count" : 5 }
+  ],
+  "output" : { "item" : "pf_slateplate", "count" : 2 },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

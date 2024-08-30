@@ -1,0 +1,18 @@
+{
+  "itemName" : "pf_antifluidspray",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "medicine",
+  "inventoryIcon" : "pf_antifluidspray.png",
+  "description" : "A spray that makes all fluids just roll off! Does not work against lava or poison.",
+  "shortdescription" : "Hydrophobic Spray",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+    "pf_fluidspray"
+  ] ],
+  "blockingEffects" : [
+    "pf_fluidspray"
+  ],
+  "emote" : "",
+  "emitters" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_pirateaugment2",
+  "price" : 10000,
+  "rarity" : "Rare",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_pirateaugment.png",
+  "description" : "A contraband EPP module that increases your stats by 15% at the cost of 30% defense.",
+  "shortdescription" : "Outlaw Augment II",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_pirateaugment2",
+    "displayName" : "Outlaw II",
+    "displayIcon" : "/items/augments/back/pf_pirateaugment.png",
+    "effects" : [ "pf_pirateaugment2" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

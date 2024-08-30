@@ -9,7 +9,7 @@
   "tooltipKind" : "pf_uniquesword",
   "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword"],
+  "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
 
   "inventoryIcon" : "pf_xenobroadsword.png",
 
@@ -31,9 +31,34 @@
             "rotationCenter" : [0, 0],
 			"offset" : [0, 1.875],
 			"fullbright" : true
+	      }
+		},
+        "giantblade" : {
+          "properties" : {
+            "offset" : [0, 4.125],
+			"zLevel" : 1
+          },
+          "partStates" : {
+            "giantBlade" : {
+              "fullwindup" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/crafted/xenobroadsword/pf_giantblade.png:charge.<frame>"
+                }
+              },
+              "full" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/crafted/xenobroadsword/pf_giantblade.png:full.<frame>"
+                }
+              }
+            }
           }
         }
-	  }
+      }
+	},
+	"sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword_poison1.ogg", "/sfx/melee/swing_broadsword_poison2.ogg", "/sfx/melee/swing_broadsword_poison3.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_shortsword_poison1.ogg", "/sfx/melee/swing_shortsword_poison2.ogg", "/sfx/melee/swing_shortsword_poison3.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_spear_poison1.ogg", "/sfx/melee/swing_spear_poison2.ogg", "/sfx/melee/swing_spear_poison3.ogg" ]
     }
   },
 
@@ -53,5 +78,24 @@
 
   "altAbilityType" : "giantsword",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_xenobroadsword_l5.png",
+      "animationParts" : {
+        "blade" : "pf_xenobroadsword_l5.png",
+	"bladeFullbright" : "pf_xenobroadsword_l5fullbright.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_xenobroadsword_l6.png",
+      "animationParts" : {
+        "blade" : "pf_xenobroadsword_l6.png",
+	"bladeFullbright" : "pf_xenobroadsword_l6fullbright.png"
+      },
+      "shortdescription" : "Zweindelschwert"
+	}
+  }
 }

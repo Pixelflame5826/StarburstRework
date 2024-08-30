@@ -1,0 +1,20 @@
+{
+  "itemName" : "pf_slate",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_slate.png",
+  "shortdescription" : "Slate",
+  "description" : "A chunk of strong and flat slate.",
+
+  "materialId" : 38413,
+  "learnBlueprintsOnPickup" : [
+    "pf_slatepolished",
+    "pf_slatetable",
+    "pf_slatechair",
+    "pf_slatedesk",
+    "pf_slatebed",
+    "pf_slatecounter",
+    "pf_slateplate"
+  ]
+}

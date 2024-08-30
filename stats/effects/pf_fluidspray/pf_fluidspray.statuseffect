@@ -1,0 +1,12 @@
+{
+  "name" : "pf_fluidspray",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "pf_fluidspray.lua"
+  ],
+
+  "label" : "Hydrophobic Spray - Immune to Wet, Swamped, and Tarred.",
+  "icon" : "/interface/statuses/pf_wetblock.png"
+}

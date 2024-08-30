@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "A powerful rocket launcher that sends out incendiary nuclear payloads. Scorched earth much?",
-  "shortdescription" : "Promethium Bazooka",
-  "level" : 5,
+  "shortdescription" : "Prometheus's Endgame",
+  "level" : 6,
   "tooltipKind" : "pf_uniquegun",
   "category" : "rocketLauncher",
   "itemTags" : ["weapon","ranged","rocketlauncher"],
@@ -54,7 +54,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "fire",
+  "elementalType" : "pf_scorchingfire",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
@@ -104,8 +104,9 @@
   },
   "altAbilityType" : "rocketburst",
   "altAbility" : {
-    "name" : "Carpet Fire",
-    "projectileType" : "pf_promethiumrocketfire"
+    "name" : "MIRV Burst",
+    "projectileType" : "pf_promethiumrocketfire",
+    "fireTime" : 2.5
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

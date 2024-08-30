@@ -367,6 +367,49 @@
             "icon": "/interface/cockpit/weather/heavyrain.png"
         }
     },
+
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_lightsnow",
+        "value": {
+            "displayName": "Snow Dust",
+            "icon": "/interface/cockpit/weather/pf_lightsnow.png"
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_leafstorm",
+        "value": {
+            "displayName": "Breeze",
+            "icon": "/interface/cockpit/weather/pf_leafstorm.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_leafstormautumn",
+        "value": {
+            "displayName": "Autumn Breeze",
+            "icon": "/interface/cockpit/weather/pf_leafstormautumn.png"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_petalstorm",
+        "value": {
+            "displayName": "Spring Breeze",
+            "icon": "/interface/cockpit/weather/pf_petalstorm.png"
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/displayWeathers/pf_missilestorm",
+        "value": {
+            "displayName": "Missile Barrage",
+            "icon": "/interface/cockpit/weather/pf_missilestorm.png"
+        }
+    },
 	
 	//NEW PLANETS
 	{
@@ -550,4 +593,138 @@
             "icon": "/interface/cockpit/hazards/pf_poison.png"
         }
     }
+],
+[
+    { "op": "test", "path": "/planetSearch_ignore" },
+    
+    //Ignore Underground Biomes
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_gardenunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_gardenunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_gardenunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_forestunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_forestunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_forestunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_savannahunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_savannahunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_savannahunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_oceanunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_oceanunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_oceanunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_snowunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_snowunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_snowunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_desertunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_desertunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_desertunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_jungleunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_jungleunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_jungleunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_alienunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_alienunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_alienunderground3" },
+    
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_volcanicunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_volcanicunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_volcanicunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_tundraunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_tundraunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_tundraunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_stormyunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_stormyunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_stormyunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_arcticunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_arcticunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_arcticunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_magmaunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_magmaunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_magmaunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_scorchedunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_scorchedunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_scorchedunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_midnightunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_midnightunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_midnightunderground3" },
+
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_toxicunderground" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_toxicunderground2" },
+    { "op": "add", "path": "/planetSearch_ignore/biomes/-", "value": "pf_toxicunderground3" },
+
+    //Biomes
+    { "op": "add", "path": "/displayBiomes/pf_asphodel", "value": { "name": "Asphodelian Fields", "icon": "/objects/glitch/medievalsworddisplay/medievalsworddisplayicon.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_forestislands", "value": { "name": "Arboreal Islands", "icon": "/items/materials/wetdirt.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_coldgarden", "value": { "name": "Lush Taiga", "icon": "/interface/bookmarks/icons/garden.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_mountaingarden", "value": { "name": "Lush Foothills", "icon": "/interface/bookmarks/icons/garden.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_flatgarden", "value": { "name": "Lush Grasslands", "icon": "/interface/bookmarks/icons/garden.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_floralforest", "value": { "name": "Botanical Forest", "icon": "/interface/bookmarks/icons/forest.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_fungalforest", "value": { "name": "Fungal Forest", "icon": "/interface/bookmarks/icons/forest.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_woodlandsforest", "value": { "name": "Arid Forest", "icon": "/interface/bookmarks/icons/forest.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_floodplainsavannah", "value": { "name": "Floodplain Savannah", "icon": "/interface/bookmarks/icons/savannah.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_mountainsavannah", "value": { "name": "Plateau Savannah", "icon": "/interface/bookmarks/icons/savannah.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_veldsavannah", "value": { "name": "Veld Savannah", "icon": "/interface/bookmarks/icons/savannah.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_lushocean", "value": { "name": "Lively Ocean", "icon": "/interface/bookmarks/icons/ocean.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_reefocean", "value": { "name": "Reef Ocean", "icon": "/interface/bookmarks/icons/ocean.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_stormyocean", "value": { "name": "Tropical Ocean", "icon": "/interface/bookmarks/icons/ocean.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_grassysnow", "value": { "name": "Snowy Steppe", "icon": "/interface/bookmarks/icons/snow.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_mountainsnow", "value": { "name": "Snowy Mountains", "icon": "/interface/bookmarks/icons/snow.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_springsnow", "value": { "name": "Snowy Spring", "icon": "/interface/bookmarks/icons/snow.png" } },
+    
+    { "op": "add", "path": "/displayBiomes/pf_harshdesert", "value": { "name": "Harsh Desert", "icon": "/interface/bookmarks/icons/desert.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_lushdesert", "value": { "name": "Lush Desert", "icon": "/interface/bookmarks/icons/desert.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_mountaindesert", "value": { "name": "Desert Mesas", "icon": "/interface/bookmarks/icons/desert.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_stormyjungle", "value": { "name": "Typhoon Jungle", "icon": "/interface/bookmarks/icons/jungle.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_primordialjungle", "value": { "name": "Primordial Jungle", "icon": "/interface/bookmarks/icons/jungle.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_volcanicjungle", "value": { "name": "Volcanic Jungle", "icon": "/interface/bookmarks/icons/jungle.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_arborealalien", "value": { "name": "Alien Weald", "icon": "/interface/bookmarks/icons/alien.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_crystalalien", "value": { "name": "Crystalline Alien", "icon": "/interface/bookmarks/icons/alien.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_radstormalien", "value": { "name": "Radiostorm Alien", "icon": "/interface/bookmarks/icons/alien.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_ashyvolcanic", "value": { "name": "Ashen Volcanic", "icon": "/interface/bookmarks/icons/volcanic.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_felsicvolcanic", "value": { "name": "Cinder Volcanic", "icon": "/interface/bookmarks/icons/volcanic.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_flowvolcanic", "value": { "name": "Basaltic Volcanic", "icon": "/interface/bookmarks/icons/volcanic.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_deserttundra", "value": { "name": "Desert Tundra", "icon": "/interface/bookmarks/icons/tundra.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_frosttundra", "value": { "name": "Frosted Tundra", "icon": "/interface/bookmarks/icons/tundra.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_lighttundra", "value": { "name": "Luminous Tundra", "icon": "/interface/bookmarks/icons/tundra.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_autumnstormy", "value": { "name": "Autumnal Anabatic", "icon": "/interface/bookmarks/icons/pf_stormy.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_snowystormy", "value": { "name": "Glacial Anabatic", "icon": "/interface/bookmarks/icons/pf_stormy.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_fogstormy", "value": { "name": "Clouded Anabatic", "icon": "/interface/bookmarks/icons/pf_stormy.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_buriedscorchedcity", "value": { "name": "Buried Scorched City", "icon": "/interface/bookmarks/icons/scorchedcity.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_glassedscorchedcity", "value": { "name": "Glassed Scorched City", "icon": "/interface/bookmarks/icons/scorchedcity.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_warscorchedcity", "value": { "name": "Active Scorched City", "icon": "/interface/bookmarks/icons/scorchedcity.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_lightmidnight", "value": { "name": "Infested Midnight", "icon": "/interface/bookmarks/icons/midnight.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_plutonicmidnight", "value": { "name": "Plutonic Midnight", "icon": "/interface/bookmarks/icons/midnight.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_snowmidnight", "value": { "name": "Snowdrift Midnight", "icon": "/interface/bookmarks/icons/midnight.png" } },
+
+    { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Oil Fields", "icon": "/interface/bookmarks/icons/toxic.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Ports", "icon": "/interface/bookmarks/icons/toxic.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Archipelago", "icon": "/interface/bookmarks/icons/toxic.png" } },
+
+    //Dungeons
+    { "op": "add", "path": "/displayDungeons/pf_occupiedhylotlcastle/ps_icon", "value": "/objects/hylotl/hylotluniformstand/hylotluniformstandicon.png" },
+	{ "op": "add", "path": "/displayDungeons/pf_occupiedhylotlcastle/ps_name", "value": "Occupied Hylotl Castle" },
+    { "op": "add", "path": "/displayDungeons/pf_novakidsnowvillage/ps_icon", "value": "/objects/biome/steamspring/brasslamppost1/brasslamppost1icon.png" },
+	{ "op": "add", "path": "/displayDungeons/pf_novakidsnowvillage/ps_name", "value": "Novakid Steam Village" }
 ]]

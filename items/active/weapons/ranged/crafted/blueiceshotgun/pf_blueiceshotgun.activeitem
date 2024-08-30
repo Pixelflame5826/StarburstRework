@@ -8,8 +8,8 @@
   "tooltipKind" : "pf_uniquegun",
   "category" : "shotgun",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","shotgun"],
-  "level" : 2,
+  "itemTags" : ["weapon","ranged","shotgun","pf_anvilUpgradeableWeapon"],
+  "level" : 3,
 
   "inventoryIcon" : "pf_blueiceshotgun.png",
 
@@ -124,5 +124,28 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_blueiceshotgun_l4.png",
+      "animationParts" : {
+        "middle" : "pf_blueiceshotgun_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_blueiceshotgun_l5.png",
+      "animationParts" : {
+        "middle" : "pf_blueiceshotgun_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_blueiceshotgun_l6.png",
+      "animationParts" : {
+        "middle" : "pf_blueiceshotgun_l6.png"
+      },
+      "shortdescription" : "Moulin Puntgun"
+	}
+  }
 }

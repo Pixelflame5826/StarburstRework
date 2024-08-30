@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_layeredsandstone", "count" : 5 }
+  ],
+  "output" : { "item" : "pf_layeredsandstonepolished", "count" : 5 },
+  "duration" : 0.1,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

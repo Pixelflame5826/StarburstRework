@@ -1,0 +1,55 @@
+{
+  "objectName" : "pf_slatebed",
+  "colonyTags" : [ ],
+  "rarity" : "Common",
+  "description" : "A geometric bed underlaid with slate, at least it has a mattress.",
+  "shortdescription" : "Slate Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 195,
+  "printable" : false,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/mineral/slate/slatebed/pf_slatebedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed2"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "apexDescription" : "Well... at least I won't have to sleep on the slate.",
+  "avianDescription" : "Doesn't look the most warm for a bed...",
+  "floranDescription" : "Floran hasss sslept on worsse.",
+  "glitchDescription" : "Relaxed. This bed reminds me of a castle wall, sturdy and homey.",
+  "humanDescription" : "You'd think this would be a horrible idea, but its nice and cool.",
+  "hylotlDescription" : "Well, its not too different from a futon with that foundation.",
+  "novakidDescription" : "Hard surfaces ain't nothin'. I can sleep on it.",
+
+  "inventoryIcon" : "pf_slatebedicon.png",
+  "orientations" : [
+    {
+      "image" : "pf_slatebed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [2, 15],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pf_slatebed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-22, 15],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

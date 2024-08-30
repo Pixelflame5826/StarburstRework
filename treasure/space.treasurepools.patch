@@ -1,4 +1,17 @@
 [
+    //Augments
+    {
+        "op": "replace",
+        "path": "/rareSpaceItem/1/1/pool/7/pool",
+        "value": "pf_spaceAugments"
+    },
+    {
+        "op": "replace",
+        "path": "/rareSpaceItem/1/1/pool/7/weight",
+        "value": 0.04
+    },
+
+    //Mech Horns
     {
         "op": "add",
         "path": "/mechHorn/0/1/pool/-",

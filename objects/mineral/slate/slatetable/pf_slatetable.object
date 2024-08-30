@@ -1,0 +1,42 @@
+{
+  "objectName" : "pf_slatetable",
+  "colonyTags" : ["commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A geometric table with a slate surface.",
+  "shortdescription" : "Slate Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 40,
+
+  "apexDescription" : "Oddly modern for a table made of stone.",
+  "avianDescription" : "A sturdy table, what more could you want?",
+  "floranDescription" : "Table great for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. You could do anything on this table.",
+  "humanDescription" : "Well, guess I will have to wipe the slate clean.",
+  "hylotlDescription" : "Not too keen on the geometric design, but its practicality works.",
+  "novakidDescription" : "Perfect for cover in a gun fight, ain't no bullets gonna shatter this.",
+
+  "inventoryIcon" : "pf_slatetableicon.png",
+  "orientations" : [
+    {
+      "image" : "pf_slatetable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "pf_slatetable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

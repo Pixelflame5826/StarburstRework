@@ -13,7 +13,7 @@
   "bounces" : 0,
   "flippable" : true,
   "emitters" : [ ],
-  "damageKind" : "spear",
+  "damageKind" : "pf_waterspear",
   "statusEffects" : [
     "wet"
   ],

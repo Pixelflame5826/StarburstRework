@@ -1,0 +1,24 @@
+{
+  "materialId" : 38407,
+  "materialName" : "pf_saltbricks",
+  "particleColor" : [230, 230, 230, 255],
+  "itemDrop" : "pf_saltbricks",
+  "shortdescription" : "Salt Bricks",
+  "description" : "Small but well put together bricks made from translucent salt.",
+  "glitchDescription" : "Confused. A simple rainstorm would cause your walls to dissolve.",
+  "floranDescription" : "Sssalty bricksss.",
+  "novakidDescription" : "Never leave your horse next to these, it'll be gone by morn'.",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_saltbricks.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

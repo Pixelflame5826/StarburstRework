@@ -9,7 +9,7 @@
   "tooltipKind" : "pf_uniquesword",
   "category" : "dagger",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","dagger"],
+  "itemTags" : ["weapon","melee","dagger","pf_anvilUpgradeableWeapon"],
 
   "inventoryIcon" : "pf_vermilliumdagger.png",
 
@@ -72,5 +72,22 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_vermilliumdagger_l5.png",
+      "animationParts" : {
+        "blade" : "pf_vermilliumdagger_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_vermilliumdagger_l6.png",
+      "animationParts" : {
+        "blade" : "pf_vermilliumdagger_l6.png"
+      },
+      "shortdescription" : "Sykvateinn"
+	}
+  }
 }

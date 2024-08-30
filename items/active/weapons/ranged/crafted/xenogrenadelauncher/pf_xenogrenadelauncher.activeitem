@@ -8,8 +8,8 @@
   "tooltipKind" : "pf_uniquegun",
   "category" : "grenadeLauncher",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","grenadelauncher"],
-  "level" : 3,
+  "itemTags" : ["weapon","ranged","grenadelauncher","pf_anvilUpgradeableWeapon"],
+  "level" : 4,
 
   "inventoryIcon" : "pf_xenogrenadelauncher.png",
 
@@ -89,5 +89,28 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_xenogrenadelauncher_l5.png",
+      "animationParts" : {
+        "middle" : "pf_xenogrenadelauncher_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_xenogrenadelauncher_l6.png",
+      "animationParts" : {
+        "middle" : "pf_xenogrenadelauncher_l6.png"
+      },
+	  "shortdescription" : "Xelenoid Cannon",
+	  "primaryAbility" : {
+        "projectileParameters" : { 
+          "knockback" : 40,
+		  "speed" : 60
+        }
+	  }
+	}
+  }
 }

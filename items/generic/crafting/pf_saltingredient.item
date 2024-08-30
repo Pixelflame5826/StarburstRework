@@ -1,0 +1,17 @@
+{
+  "itemName" : "pf_saltingredient",
+  "price" : 5,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pf_saltingredient.png",
+  "description" : "Pure sodium chloride, or salt for the uninformed. Used in cooking and curing meat.",
+  "shortdescription" : "Salt",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "pf_curedalienmeat",
+    "pf_curedbacon",
+    "pf_curedfish",
+    "pf_curedpoultry",
+    "pf_curedribmeat"
+  ]
+}

@@ -3,7 +3,7 @@
   "friendlyName" : "Snow-filled Crags",
   
   "mainBlock" : "snow",
-  "subBlocks" : [ "slush", "ice", "frozendirt" ],
+  "subBlocks" : [ "slush", "ice", "pf_slate" ],
   "ores" : "pf_snowdepth1",
   
   "spawnProfile" : {

@@ -1,0 +1,19 @@
+{
+  "itemName" : "pf_curedalienmeat",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "inventoryIcon" : "pf_curedalienmeat.png",
+  "description" : "A slab of delicious cooked alien meat preserved with salt.",
+  "shortdescription" : "Cured Steak",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.1,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "meatdumplings" ]
+}

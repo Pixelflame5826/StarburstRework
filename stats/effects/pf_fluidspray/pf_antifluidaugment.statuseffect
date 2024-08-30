@@ -1,0 +1,12 @@
+{
+  "name" : "pf_antifluidaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "pf_fluidspray.lua"
+  ],
+
+  "label" : "Hydrophobic Augment - Immune to Wet, Swamped, and Tarred.",
+  "icon" : "/interface/statuses/pf_wetblock.png"
+}

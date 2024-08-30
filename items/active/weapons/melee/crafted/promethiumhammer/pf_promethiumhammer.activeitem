@@ -4,8 +4,8 @@
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "This hammer can hit enemies with gigatons of force and burn with promethium flames.",
-  "shortdescription" : "Promethium Hammer",
+  "description" : "This hammer can hit enemies with gigatons of force. Its head is imbued with radioactive flames.",
+  "shortdescription" : "Prometheus's Power",
   "tooltipKind" : "pf_uniquesword",
   "category" : "hammer",
   "twoHanded" : true,
@@ -35,14 +35,31 @@
       }
 	},
 	
+	"particleEmitters" : {
+      "pf_scorchingfireCharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 30,
+        "offsetRegion" : [-1.0, 0.5, 1.0, 2.5],
+        "particles" : [
+          { "particle" : "fireswoosh1"},
+          { "particle" : "fireswoosh2"},
+          { "particle" : "fireswoosh2"}
+        ]
+      }
+	},
+	
     "sounds" : {
-      "fire" : [ "/sfx/melee/swing_hammer_fire1.ogg" ]
+      "fire" : [ "/sfx/melee/swing_hammer_fire1.ogg" ],
+      "pf_scorchingfirecharge" : [ "/sfx/melee/shockwave_charge_fire.ogg" ],
+      "pf_scorchingfirefull" : [ "/sfx/melee/shockwave_full_fire.ogg" ],
+      "pf_scorchingfireimpact" : [ "/sfx/gun/grenadeblast_fire2.ogg" ]
     }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "fire",
+  "elementalType" : "pf_scorchingfire",
 
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
@@ -55,6 +72,12 @@
   },
 
   "altAbilityType" : "shockwave",
+  "altAbility" : {
+    "elementalConfig" : {
+      "pf_scorchingfire" : { "projectileType" : "pf_scorchedshockwave" }
+    },
+	"name" : "Nuclear Shock"
+  },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

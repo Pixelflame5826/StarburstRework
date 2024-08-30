@@ -5,7 +5,7 @@
   "inventoryIcon" : "pf_chroniumpickaxeicon.png",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "tooltipKind" : "tool",
+  "tooltipKind" : "pf_miningtool",
   "description" : "A powerful pickaxe made from Chronium. Lasts a long while and digs incredibly fast.",
   "shortdescription" : "Chronium Pickaxe",
   "largeImage" : "pf_chroniumpickaxebig.png",
@@ -23,5 +23,7 @@
   "durabilityPerUse" : 1,
   "tileDamage" : 16,
   "harvestLevel" : 99,
-  "tileDamageBlunted" : 0.6
+  "tileDamageBlunted" : 0.6,
+  "builder" : "/items/buildscripts/pf_buildminingtool.lua",
+  "itemAgingScripts" : ["/scripts/items/pf_miningtoolupdate.lua"]
 }

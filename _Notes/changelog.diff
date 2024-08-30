@@ -1,115 +1,250 @@
---- ENVIRONMENTAL SURVIVAL UPDATE ---
+--- COMPOUND CLIMATES UPDATE ---
+An update all about making the biomes varied, improving the old biomes, and adding more substance to what you can get out of them.
 
 --- NEW ADDTIONS
-+ Status Effect Overhaul!: As a major quality of life addition, all visible status effects have been given a new coat of paint. Making them more readable on what they do and what from.
----Changes
-+ Status effects now have descriptions on the ends of their titles describing their properties.
-+ Changed some status effect names to better suit their strength, source, and giving them more flavor.
-+ New icons for some of the status effects.
-+ All debuffs are now labelled in red and any mixed effects are labelled in yellow.
-+ All augment buffs are now visible on the status bar for better clarity.
++ PLANETARY VARIANTS!: The biggest change to the game since planetary cave systems. Explore 3 new variants for every planet, including the originals! They can include variance in terrain, objects, tiles, sub-biomes, weather, monsters, and most importantly, aesthetics.
+--- Lush 
++ Lush Taiga
++ Lush Foothills
++ Lush Grasslands
+--- Forest
++ Arid Forest
++ Fungal Forest
++ Botanical Forest
+--- Savannah
++ Floodplain Savannah
++ Plateau Savannah
++ Veld Savannah
+--- Desert
++ Harsh Desert
++ Lush Desert
++ Mesa Desert
+--- Snow
++ Snowy Mountains 
++ Snowy Steppe
++ False Spring
+--- Ocean 
++ Tropical Depression
++ Reef Archipelago
++ Lively Seas
+--- Jungle
++ Primordial Jungle
++ Typhoon Jungle
++ Volcanic Jungle
+--- Alien
++ Crystalline Alien
++ Fallout Alien
++ Alien Weald
+--- Volcanic
++ Ashen Groves
++ Basaltic Floods
++ Cinder Volcanic
+--- Tundra
++ Luminous Tundra
++ Arid Tundra
++ Frosted Tundra
+--- Anabatic
++ Autumnal Anabatic
++ Clouded Anabatic
++ Glacial Anabatic
+--- Midnight
++ Plutonic Midnight
++ Infested Midnight
++ Snowdrift Midnight
+--- Scorched City 
++ Buried City
++ Warscorched City
++ Glassed City
+--- Toxic
++ Polluted Docks
++ Polluted Oil Field
++ Toxic Archipelago
 
++ New Tiles!:With more environments, tiles are needed for some variancy. Many new tiles have been added, some of them being able to be shaped into new blocks.
+--- New Natural Blocks
++ Basalt
++ Halite
++ Layered Sandstone
++ Smooth Sandstone
++ Fossil Limestone
++ Bamboo Stalk
++ Slate
++ Andisol
+--- New Crafted Blocks
++ Polished Sandstone
++ Polished Slate
++ Basalt Pillar
++ Salt Bricks
++ Glowing Salt Bricks
++ Dried Bamboo Panel
++ Bamboo Roofing
 
-+ Overhauled Fluid Status Effects!: To add some spice to the environments and how you interact with them, now fluids can haave more in-depth effects on how you interact with the world.
----Changes
-+ Wet: Now reduces fire damage but increases incoming electric damage. Gives you immunity to Mild Heat, though also drains energy on Deadly Cold planets.
-+ Tarred: Now reduces electric damage but increases incoming fire damage. Still reduces movement speed, albeit to a lesser extent.
----New Effect
-+ Swamped, given by Swamp Water: Reduces movement speed, as well as reducing ice damage but increasing incoming poison damage.
-+ Damp, given by Rain: Same effects as wet, except reduced in strength, also doesn't give you any of the environmental effects or any of the combo effects.
++ New Weather!: To add more flavor to some of the new biomes, there are now unique weather patterns that can be found on a few of them.
+--- New Weather Patterns
++ Light Snow
++ Autumn Breeze
++ Spring Breeze
++ Missile Barrage
 
++ New Monster!: Autotank, spawns exclusively on Scorched City planets. Can be captured, if you wanted a tank friend. Has a rare variant that spreads fire using incindiary shells.
+--- Autotanks
++ Autotank
++ Promethium Autotank
+--- Autotank Related Items
++ Scrapped Autotank (Object)
++ Autotank Helmet (Decorative Armor)
++ Autotank Figurine (Action Figure)
 
-+ Environmental Combo Effects!: To add a little more depth to the element system and making them more attuned to the environment, I've added new effects when combined with fluid effects.
----New Status effects
-+ Burning Oil (Burning + Tarred): Deals even more fire damage and can no longer be put out by fluids. Incoming ice attacks do massive damage now.
-+ Frostbite (Frosted + Wet): Slows the enemy even more and reduces the afflicted's defense against all elements. Incoming fire attacks do even more damage.
-+ Static Discharge (Electrified + Wet): Sends out more tesla bolts than before, which can now electrify enemies as well. Also deals damage over time to the afflicted.
-+ Septic Shock (Poisoned + Swamped): Does even more poison damage and reduces the attack power of the afflicted.
++ Monster Spawn Changes!: Certain rare monsters can now spawn commonly on some later tier biomes. Be ready for stronger monsters like the Fire Pteropod and the Poison Pulpin later in the game.
+--- Monster Spawns 
++ Fire Gleap
++ Fire Pteropod
++ Fire Spookit
++ Fire Wisper
++ Ice Peblit
++ Ice Fennix
++ Ice Crabcano
++ Electric Ignome
++ Electric Skimbus
++ Poison Nutmidge
++ Poison Pulpin
++ Poison Snuffish
 
++ Salt!: Using Halite, you can create Salt at the furnace. Salt can be used to make newly made cured foods at a campfire or cooking station. Some old food recipes have been changed to include it.
+--- Salted Food Additions
++ Cured Steak
++ Cured Bacon Strips
++ Cured Fish
++ Cured Poultry
++ Cured Ribs 
+--- Changed Foodstuffs
++ Fish Fingers
++ Fish and Chips
++ Ocean Rissoto
++ Ocean Surprise
++ Omelette
++ Porridge
++ Sticky Ribs
++ Cheese
++ Salt Salad
++ Sweet Popcorn
++ Brineapple
++ Relish
 
-+ Fluid Flasks!: To help with using these new combos, I've added flasks. With 10 units of fluid and a bottle in your hand crafting menu, you can make throwable flasks that give enemies fluid statuses to use in conjunction with your weapons.
----Flasks
-+ Water Flask (Wet)
-+ Oil Flask (Tarred)
-+ Contaminated Flask (Swamped)
++ New Objects!: Using the minerals you find around the place, you can make new objects as well, a few objects can be found randomly around the world.
+--- Halite
++ Salt Lamp
+--- Slate
++ Slate Table
++ Slate Counter
++ Slate Chair
++ Slate Desk
++ Slate Plate
++ Slate Bed
+--- Found
++ New Horizons Painting
 
++ Bamboo!: Found in specific planets, these plants should have many aesthetic uses, dropping saplings, and build uses with the Bamboo Stalk. Also used in a few other things. Comes in a few foliage types and 2 stem types.
 
-+ Status Effect Objects!: Certain objects now have the unique property of giving status effects to things nearby, sometimes blocking hazards.
----Object Changes
-+ Heating objects now give Mild Cold resistance and small amounts of regeneration to an area around it.
----Heating Objects
-+ Campfire
-+ Medieval Fireplace
-+ Rustic Oven
-+ Barrel Fire
-+ Cabin Stove
-+ Space Heater
-+ Primitive Stove
++ New Weapon!: Grasscutter, a very early game weapon found at the Foraging Station. Simply requires some Bamboo and 2 bars of iron. Just so you have something better than a broken broadsword.
 
-+ Fountains now give Mild Heat resistance and small amounts of regeneration to an area around it.
----Fountains
-+ Outdoor Fountain
-+ Stone Fountain
-+ Tiered Stone Fountain
-+ Water Fountain
-+ Petal Fountain
-+ Traditional Water Feature
++ Hydrophobic Spray!: Makes you completely immune to the Wet, Swamped, and Tarred status effects. Crafted at a Medical Station using Titanium and Carapaces. Don't get caught off guard by a combo effect again!
 
-+ Tents now give you immunity to all mild hazards when sleeping in them and have been buffed in their recovery capacity.
----Tents
-+ Blue Sleeping Bag (Level 1)
-+ Red Sleeping Bag (Level 1)
-+ Green Sleeping Bag (Level 1)
-+ Green Dome Tent (Level 2)
-+ Green Basic Tent (Level 2)
-+ Red Dome Tent (Level 2)
-+ Blue Dome Tent (Level 2)
-+ Yellow Basic Tent (Level 2)
-+ Military Tent (Level 3)
++ Augment Additions!: Added a few new augments that can be found around the world. Also upgraded the sprites of all of the augments themselves! Vanilla or in the mod already.
+--- New Augments
++ Hydrophobic Augment: Makes you immune to Wet, Swamped, and Tarred.
++ Lava Augment: Makes you immune to Melting, and subsequently Burning.
++ Light Fall Augment: Reduces fall damage.
++ Nova Augment: Gives you the benefits of Nova.
++ Outlaw Augment I, II & III: Increases health, energy, and damage, also a red glow, but reduces your defense. Found in space encounters.
 
++ New Weapon Visual Updates!: Updated the sprites of some of the earlier weapons.
+--- Changed Weapons
++ Broken Broadsword 
++ Iron Broadsword 
++ Iron Shortsword
++ Tungsten Hammer 
++ Tungsten Axe
++ Titanium Spear 
++ Titanium Dagger
++ Durasteel Broadsword
++ Durasteel Shortsword
++ Ferozium Staff 
++ Ferozium Wand
 
-+ New Codex: The Elements of Nature, a codex detailing the workings of the elements and the new combos. You can find these at any large Hylotl structure.
-
-+ A new Otherworldly Weapon can now be found on Anabatic Planets.
 
 --- ITEM CHANGES 
-= Changed sprite for the Static Resist Augment to be less visually similar to the Electric Block augment, make it look like one is stronger than the other.
++ Vanilla Sandstone renamed to Rough Sandstone.
 
-+ Stims now give their own status effects, with their own icons. They have the same effects, just with more info on where the status effect came from.
++ Many cooking recipes changed to add in the new Salt item.
 
-= Bottled Poison now called Poison Flask and given the Throwable Weapon tooltip.
++ Bamboo block renamed to Bamboo Panel and sprite improved to match new bamboo.
+
++ Changed Bamboo Panel Recipe to only include Bamboo Stalk.
+
++ Slightly changed the Crystal Block default color to look a bit more like quartz, and fit the backround more. The blue is still there when painted.
+
++ Sprites for the Biome Augments have been updated with the other augments.
+
++ Flipped sprite for the Chronium Bar, because it looked wierd alongside the other tiered ores.
+
+
+--- OBJECT CHANGES
++ Bamboo Door now given a new and improved sprite.
+
++ Art pieces can now be randomly found in normal chests.
+
+- Art pieces no longer show up in Perfectly Generic Chests.
+
+- Reduced item spawns inside Perfectly Generic Chests. Otherworldly Weapons are untouched.
+
 
 --- BIOME CHANGES 
-+ Forest Caves and Jungle sub-caves can now contain Swamp Water.
++ Lush planets now have new weather patterns, some variants even have snow!
 
-+ Volcanic and Scorched Caves can now contain Oil.
++ Bamboo now spawns in Forest, Jungle, and sometimes Ocean worlds.
 
-+ Forest, Volcanic, and Scorched caves can now spawn more liquid pools.
++ Halite can be found in underground deserts and ocean biomes.
 
-+ Anabatic planets now have a few new objects and plants spawning on them.
++ Basalt can be found on the surface of Volcanic planets.
 
-+ Anabatic caves now have a more crystalline aesthetic, with new plants, objects, and crystal blocks appearing near the bottom.
++ Slate can be found in underground Snow biomes.
 
---- MONSTER CHANGES 
-+ Fire Taroni balls and Fire Pteropod breath now inflict Burning Oil.
++ Changed underground deserts to contain Smooth Sandstone rather than normal sandstone.
 
-+ Ice Orbides and Ice Narfins now inflict Frostbite. Watch out for these guys.
++ Added the Autotank Helmet to the item pool of Scorched City chests.
 
-+ Poison Pulpins, Poison Scaverans, and Poison Sporgus now inflict Septic Shock.
++ Changed some variants of Desert planets to contain the new Layered Sandstone block rather than the normal.
 
-+ Electric Voltips and Electric Skimbus now inflict Static Discharge.
++ Forest and Jungle parallaxes have been raised to give more of a sense of height.
 
-+ Adult Poptops now inflict Blood Loss.
++ Tundra and Snow parallaxes have been improved based on the Luminous Tundra.
 
-+ Albino Adult Poptops now inflict Major Blood Loss.
++ Made the far buildings in the Scorched City parallax even further away.
 
-+ Albino Poptops now inflict Blood Loss.
++ Updated the visuals and changed the positioning of the Oil Rigs on Toxic planets.
+
++ Changed a few of the "below color" parallax images to fit better aesthetically.
+
+
+--- STATUS EFFECT CHANGES
++ Poison Liquid has been given its own status effect for clarity.
+
++ The Cryo Burn Spray status effect now shares its name with the item.
+
++ Mild Heat and Chill can now mitigate Deadly Chill and Heat respectively, and are made immune to the effects by Deadly Chill and Heat. This is to make some rare weather events make sense in making cold and hot cancel out slightly.
+
+
+--- MONSTER CHANGES
++ Rare elemental monsters can now spawn commonly on select planets.
+
+
+--- NPC CHANGES 
++ Some Deadbeat NPCs can now spawn with an Autotank Helmet.
+
+
+--- DUNGEON CHANGES
++ The New Horizons Painting can now be rarely found in Human Camps.
 
 --- FIXES/COMPATIBILITY
-+ Fixed a boot to ship due to an improperly set npc in the Novakid Snow Village.
-
-+ Fixed a boot to ship due to an incorrect itemID with the Novakid Snow Villager NPC.
-
-+ Fixed a boot to ship due to an incorrectly spelled treasure pool on one of the Anabatic planet structures.
-
-+ Snow Novakid Guards now correctly have their unique armor.
++ Attempted to add in Planet Search compatibility, but it is incomplete. Will have to be fixed at a later date. The dungeons work fine and a few planet variants do show.

@@ -1,0 +1,42 @@
+{
+  "objectName" : "pf_slatecounter",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A geometric counter with a slate top. Has built in storage.",
+  "shortdescription" : "Slate Counter",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 110,
+
+  "apexDescription" : "Did they have to make the drawers slate too?",
+  "avianDescription" : "I could cook so many beautiful meals on this.",
+  "floranDescription" : "Perfect for preparing meatsss.",
+  "glitchDescription" : "Curious. Does slate provide any benefits over granite or marble?",
+  "humanDescription" : "Well, this is a fancy kitchen counter. How did I afford this?",
+  "hylotlDescription" : "Such sturdy design, Hylotl chefs would love this as a cutting surface.",
+  "novakidDescription" : "Not a counter I'd use, but seems usable.",
+
+  "inventoryIcon" : "pf_slatecountericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_slatecounter.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

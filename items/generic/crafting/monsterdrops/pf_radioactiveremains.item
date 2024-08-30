@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "category" : "craftingMaterial",
   "inventoryIcon" : "pf_radioactiveremains.png",
-  "description" : "The remains of organic radioactive matter. Can be used for crafting.",
+  "description" : "The remains of decaying radioactive matter. Can be used for crafting.",
   "shortdescription" : "Radioactive Remains",
   "itemTags" : [ "reagent" ]
 }

@@ -143,5 +143,11 @@
         "op": "replace",
         "path": "/surfacePlaceables/items/12/distribution",
         "value": "/biomes/distributions.config:moderateClumps"
+    },
+
+    {
+        "op": "add",
+        "path": "/subBlocks/-",
+        "value": "pf_basalt"
     }
 ]

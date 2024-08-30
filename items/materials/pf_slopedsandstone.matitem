@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_slopedsandstone",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_slopedsandstone.png",
+  "shortdescription" : "Smooth Sandstone",
+  "description" : "Extremly smooth sandstone made from centuries of weathering.",
+
+  "materialId" : 38409
+}

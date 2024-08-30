@@ -1,0 +1,124 @@
+Garden
+
+Cold Garden: A garden planet characterized by more darker grass, very light snowfall to be expected. Not enough to be hazardous though.
+
+Foothill Garden: A more hilly form of garden planet, terrain is different and mountains can be seen in the parallax.
+
+Flat Garden: A flatter form of grasslands, the parallax is very flat and so is the terrain. Crops are a lot more common.
+
+
+Forest
+
+Fungal Forest: A forest containing mushrooms in its foreground and background, poisonous weather becomes more common.
+
+Fir Forest: A forest containing nothing but fir trees, more hilly terrain and much more rocky. Cold weather is more common.
+
+Woodlands Forest: A forest with less dense trees and more grass. Rain is less common.
+
+
+Savannah
+
+Plateau Savannah: A more perilous form of Savannah with shelf terrain.
+
+Veld Savannah: A really flat form of savannah where trees are a lot more rare, but bushes are a lot more common.
+
+Floodplain Savannah: A flat savannah with lots of water, reeds commonly spawn and crops become more prevalent.  
+
+
+Ocean
+
+Storm Ocean: Oceans characterized by constant rain and forever stormy skies.
+
+Lush Ocean: Islands are not desert, they are mostly soil and have trees. Ocean floor contains much more plantlife.
+
+Reef Ocean: Even the islands are covered in coral. Ocean floor is a lot more hilly and volcanic microdungeons spawn under.
+
+
+Desert
+
+Mesa Desert: A desert with shelf terrain, rocks are a lot more prevalent in the tileset and background.
+
+Harsh Desert: A desert with little plantlife, trees and a lot of cacti are nonexistent, leaving only very few shrubs.
+
+Mojave Desert: A mountainous type of desert full of plantlife, rainstorms are more common but are often incredibly powerful.'
+
+
+Snow
+
+Taiga Snow: A more rocky snow planet with lots of piney trees. Mountains in the background.
+
+Steppe Snow: A flatter snow biome that is predominantly grasslands similar to a Garden, though extremely snowy.
+
+False Snow: A snowy planet that is paradoxically covered in lush plants like flowers.
+
+
+Jungle
+
+Volcanic Jungle: A jungle with magma rocks and obsidian. Volcanoes can be seen in the very distance. Fire and ash storms can happen.
+
+Primordial Jungle: A foggy jungle containing many forms of life, and lots of them. Bug and reptilian type enemies seem to spawn more frequently.
+
+Typhoon Jungle: A jungle that is constantly cloudy, it has the most active weather patterns out of any jungle planet, a lot of them being hazardous.
+
+
+Alien
+
+Crystalline Alien: Large spikes protrude from the ground and purple crystals line the ground, where they come from, who knows?
+
+Arboreal Alien: An alien planet absolutely covered in wood and roots. Trees are much more common.
+
+Fallout Alien: An alien planet with common radiation storms bringing down toxic rain and radioactive fallout. Its cloudy skies glow a dim green.
+
+
+Volcanic
+
+Shield Volcanic: A very flat volcanic planet, containing almost no elevation besides the few volcanoes made predominantly out of obsidian.
+
+Ashen Volcanic: A volcanic planet with vast plains of compacted ash and obsidian. Molten trees and plants can be found here living off of the minerals in the soil. 
+
+Felsic Volcanic: Incredibly mountainous terrain with metal trees being common. Things get a lot more extreme with meteoric weather and common fire storms.
+
+
+Tundra
+
+Desert Tundra: A tundra containing nothing but snowdrifts and the very few plant life thats there.
+
+Lux Tundra: A tundra covered with small patches of bioluminescent plantlife and prisms. Aurora borealis is brighter and light rain is an occurance.
+
+Permafrost Tundra: A more lush form of tundra but still unimaginably icy. Frozen dirt and ice pines are the main stays of this.
+
+
+Anabatic
+
+Glacial Anabatic: Anabatic worlds with ice and more commonly, snow and blizzards.
+
+Clouded Anabatic: Anabatic worlds with lots of fog and clouds. The background is barely visible
+
+Autumnal Anabatic: Anabatic with colorful deciduous trees rather than fir trees, includes leafy weather.
+
+
+Midnight
+
+Infested Midnight: Midnight planets that have areas relating to orbide nests and lots of bioluminescence.
+
+Cold Midnight: Snow and ice are a common sight on these midnight planets. 
+
+Plutonic Midnight: The only lights in the darkness are the streams of lava that still flow from the volcanic terrain.
+
+
+Scorched
+
+Buried Scorched: Scorched planets that are covered in sandy dunes, completely overtaking a lot of the cities. Dust storms become more common.
+
+Warzone Scorched: Sometimes, things never really settle down. Robotic enemies and hostiles are more common. Missiles sometimes rain from above.
+
+Cataclysm Scorched: This place barely exists anymore, obsidian lines the glassed areas, nobody is left. Only life left is underground.
+
+
+Toxic
+
+Industrial Toxic: The ground is lined with junk and rusted metal, the background shows industrial buildings, the sea floor is similarly trashed.
+
+Urban Toxic: Covered in old residential areas, the islands are covered in asphalt and the backgrounds have residential towers. Hylotl ruins can spawn underwater.
+
+Lush Toxic: Life has learned to survive in these toxic places. Plantlife covers the ruins below and above. Sea floor has more biodiversity.

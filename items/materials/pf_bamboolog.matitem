@@ -1,0 +1,16 @@
+{
+  "itemName" : "pf_bamboolog",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_bamboolog.png",
+  "shortdescription" : "Bamboo Stalks",
+  "description" : "Bound stalks of freshly cut bamboo. Can hold a ton.",
+
+  "materialId" : 38411,
+  "learnBlueprintsOnPickup" : [
+    "bamboo",
+    "pf_bamboodried",
+    "pf_bambooroofing"
+  ]
+}

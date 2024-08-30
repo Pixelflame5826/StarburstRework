@@ -15,5 +15,5 @@
   ],
   "power" : 5.0,
   "speed" : 100,
-  "damageKind" : "standardbullet"
+  "damageKind" : "pf_water"
 }

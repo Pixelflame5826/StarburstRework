@@ -1,0 +1,87 @@
+{
+  "itemName" : "pf_executioneraxe",
+  "price" : 960,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "While a little old, this axe is probably the best method of giving haircuts. Though only one: all off the top.",
+  "shortdescription" : "The Ol' Lopper",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "pf_executioneraxe.png",
+
+  "animation" : "/items/active/weapons/unique/executioneraxe/pf_executioneraxe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_executioneraxe.png"
+  },
+  "animationCustom" : { 
+    "particleEmitters" : {
+      "bladeCharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 30,
+        "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+        "particles" : [
+          { "particle" : "blood"},
+		  { "particle" : "blood"},
+		  { "particle" : "blood"},
+		  { "particle" : "blood"}
+        ]
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "pf_piercing",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "baseDps" : 11.5,
+	
+	"damageConfig" : {
+      "damageSourceKind" : "pf_piercingaxe",
+	  "statusEffects" : [ "pf_bleeding" ]
+    }
+  },
+
+  "altAbilityType" : "bladecharge",
+  "altAbility" : {
+    "chargeBorder" : "932625",
+	"damageConfig" : {
+      "damageSourceKind" : "axe",
+      "statusEffects" : [ "pf_decapitation" ],
+	  "baseDamage" : 7.5
+    },
+	"name" : "Finishing Execution",
+	"baseDps" : 5.5,
+	"stances" : {
+      "windup" : {
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+		"weaponOffset" : [0, 2.0],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "slash" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+		"weaponOffset" : [0, 2.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

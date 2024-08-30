@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_antifluidaugment",
+  "price" : 10000,
+  "rarity" : "Rare",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_antifluidaugment.png",
+  "description" : "An EPP module that makes you immune to all fluids except lava and poison.",
+  "shortdescription" : "Hydrophobic Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_antifluid",
+    "displayName" : "Hydrophobic",
+    "displayIcon" : "/items/augments/back/pf_antifluidaugment.png",
+    "effects" : [ "pf_antifluidaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

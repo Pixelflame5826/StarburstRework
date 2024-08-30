@@ -1,0 +1,30 @@
+{
+  "objectName" : "pf_newhorizonspainting",
+  "colonyTags" : ["human","pretty","pf_weather"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 900,
+  "description" : "A detailed painting of a landscape with a sunrise on the horizon.",
+  "shortdescription" : "New Horizons Painting",
+  "race" : "human",
+
+  "apexDescription" : "A painting of a rather picturesque landscape. Nice planets.",
+  "avianDescription" : "The other celestial bodies call for adventure, its almost like we painted it.",
+  "floranDescription" : "Floran sssees tiny world. Floran can't go in tiny world. Floran disssappointed.",
+  "glitchDescription" : "Inspired. What a beautiful landscape.",
+  "humanDescription" : "Ah, this painting. Its said this was a painting of the first world humans ever ventured to.",
+  "hylotlDescription" : "Hm, such an interesting landscape. Many don't usually put emphasis on the celestial bodies surrounding a planet.",
+  "novakidDescription" : "This is a mighty fine paintin'. I just wanna explore it!",
+
+  "inventoryIcon" : "pf_newhorizonspaintingicon.png",
+  "orientations" : [
+    {
+      "image" : "pf_newhorizonspainting.png:<color>",
+      "imagePosition" : [-24, -24],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

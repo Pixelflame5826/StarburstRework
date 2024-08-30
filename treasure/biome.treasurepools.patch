@@ -3,33 +3,16 @@
         "op": "add",
         "path": "/gardenTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.035,
-            "item": "pf_gardenbroadsword"
+            "weight": 0.07,
+            "pool": "pf_gardenWeaponTreasure"
         }
     },
-    {
-        "op": "add",
-        "path": "/gardenTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.035,
-            "item": "pf_gardenpistol"
-        }
-    },
-	
 	{
         "op": "add",
         "path": "/forestTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.15,
-            "item": "pf_forestbroadsword"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/forestTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.15,
-            "item": "pf_forestleafgun"
+            "weight": 0.3,
+            "pool": "pf_forestWeaponTreasure"
         }
     },
 	{
@@ -101,16 +84,8 @@
         "op": "add",
         "path": "/desertTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.1,
-            "item": "pf_deserthammer"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/desertTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.1,
-            "item": "pf_desertpistol"
+            "weight": 0.2,
+            "pool": "pf_desertWeaponTreasure"
         }
     },
 	
@@ -118,16 +93,8 @@
         "op": "add",
         "path": "/savannahTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.1,
-            "item": "pf_savannahsword"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/savannahTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.1,
-            "item": "pf_savannahbow"
+            "weight": 0.2,
+            "pool": "pf_savannahWeaponTreasure"
         }
     },
 	
@@ -135,16 +102,8 @@
         "op": "add",
         "path": "/snowTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.11,
-            "item": "pf_snowshortsword"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/snowTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.11,
-            "item": "pf_snowgrenadelauncher"
+            "weight": 0.2,
+            "pool": "pf_snowWeaponTreasure"
         }
     },
 	
@@ -152,16 +111,8 @@
         "op": "add",
         "path": "/oceanFloorTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.15,
-            "item": "pf_oceanspear"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/oceanFloorTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.15,
-            "item": "pf_oceansniper"
+            "weight": 0.3,
+            "pool": "pf_oceanWeaponTreasure"
         }
     },
 	
@@ -169,7 +120,7 @@
         "op": "add",
         "path": "/jungleTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.3,
+            "weight": 0.4,
             "item": "venomsample"
         }
     },
@@ -177,16 +128,8 @@
         "op": "add",
         "path": "/jungleTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.15,
-            "item": "pf_junglebroadsword"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/jungleTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.15,
-            "item": "pf_jungleshotgun"
+            "weight": 0.3,
+            "pool": "pf_jungleWeaponTreasure"
         }
     },
 	
@@ -194,23 +137,15 @@
         "op": "add",
         "path": "/alienTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.15,
-            "item": "pf_alienraygun"
-        }
-    },
-	{
-        "op": "add",
-        "path": "/alienTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.15,
-            "item": "pf_alienwhip"
-        }
-    },
-	{
-        "op": "add",
-        "path": "/alienTreasure/0/1/pool/-",
-        "value": {
             "weight": 0.3,
+            "pool": "pf_alienWeaponTreasure"
+        }
+    },
+	{
+        "op": "add",
+        "path": "/alienTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.4,
             "item": "pf_radioactiveremains"
         }
     },
@@ -219,16 +154,8 @@
         "op": "add",
         "path": "/toxicTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.2,
-            "item": "pf_toxicmachinepistol"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/toxicTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.2,
-            "item": "pf_toxicbroadsword"
+            "weight": 0.4,
+            "pool": "pf_toxicWeaponTreasure"
         }
     },
 	
@@ -276,16 +203,8 @@
         "op": "add",
         "path": "/shadowTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.09,
-            "item": "pf_midnightshortsword"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/shadowTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.06,
-            "item": "pf_midnightstaff"
+            "weight": 0.15,
+            "pool": "pf_midnightWeaponTreasure"
         }
     },
 	
@@ -293,7 +212,7 @@
         "op": "add",
         "path": "/iceTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.3,
+            "weight": 0.4,
             "item": "cryonicextract"
         }
     },
@@ -301,16 +220,8 @@
         "op": "add",
         "path": "/iceTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.175,
-            "item": "pf_tundrabroadsword"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/iceTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.175,
-            "item": "pf_tundraboomerangaxe"
+            "weight": 0.3,
+            "pool": "pf_tundraWeaponTreasure"
         }
     },
 	
@@ -343,23 +254,15 @@
         "path": "/volcanicTreasure/0/1/pool/-",
         "value": {
             "weight": 0.4,
-            "item": "miningdrone"
+            "item": ["miningdrone", 2]
         }
     },
 	{
         "op": "add",
         "path": "/volcanicTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.175,
-            "item": "pf_volcanicbroadsword"
-        }
-    },
-    {
-        "op": "add",
-        "path": "/volcanicTreasure/0/1/pool/-",
-        "value": {
-            "weight": 0.075,
-            "item": "pf_volcaniclauncher"
+            "weight": 0.25,
+            "pool": "pf_volcanicWeaponTreasure"
         }
     },
 	
@@ -367,16 +270,26 @@
         "op": "add",
         "path": "/scorchedcityTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.15,
-            "item": "pf_scorcheddagger"
+            "weight": 0.35,
+            "pool": "pf_scorchedWeaponTreasure"
         }
     },
+
     {
         "op": "add",
         "path": "/scorchedcityTreasure/0/1/pool/-",
         "value": {
-            "weight": 0.15,
-            "item": "pf_scorchedrifle"
+            "weight": 0.1,
+            "item": "pf_robotankhat"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/prismTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.4,
+            "pool": "pf_prismWeaponTreasure"
         }
     }
 ]

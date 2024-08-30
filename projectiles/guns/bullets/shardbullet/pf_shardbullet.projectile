@@ -1,0 +1,56 @@
+{
+  "projectileName" : "pf_shardbullet",
+  "image" : "pf_shardbullet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "pf_bulletshrapnel",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 100,
+      "angleAdjust" : 0
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_bulletshrapnel",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 100,
+      "angleAdjust" : 90
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_bulletshrapnel",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 100,
+      "angleAdjust" : 180
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_bulletshrapnel",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 100,
+      "angleAdjust" : 270
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_bulletshrapnel",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 100,
+      "angleAdjust" : 120
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_bulletshrapnel",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 100,
+      "angleAdjust" : 250
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 75,
+  "damageKind" : "shotgunbullet"
+}

@@ -13,5 +13,5 @@
   ],
   "power" : 5.0,
   "speed" : 85,
-  "damageKind" : "default"
+  "damageKind" : "pf_piercing"
 }

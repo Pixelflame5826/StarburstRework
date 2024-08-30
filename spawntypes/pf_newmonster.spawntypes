@@ -15,5 +15,23 @@
     "monsterParameters" : {
       "aggressive" : true
     }
+  },
+  {
+    "name" : "pf_robotank",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.1,
+    "monsterType" : [
+      [0.9, "pf_robotank"],
+      [0.1, "pf_firerobotank"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
   }
 ]

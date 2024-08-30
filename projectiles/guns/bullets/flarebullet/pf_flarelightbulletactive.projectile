@@ -1,0 +1,33 @@
+{
+  "projectileName" : "pf_flarelightbulletactive",
+  "physics" : "sticky",
+  "bounces" : -1,
+  "damageKindImage" : "icon.png",
+  "image" : "pf_flarelightbulletactive.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "power" : 0,
+  "speed" : 0,
+  "timeToLive" : 20,
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/objects/torch_on2.ogg" ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [255, 255, 255],
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  
+  "orientationLocked" : true
+}

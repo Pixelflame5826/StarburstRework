@@ -8,8 +8,8 @@
   "tooltipKind" : "pf_uniquegun",
   "category" : "assaultRifle",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","assaultrifle"],
-  "level" : 4,
+  "itemTags" : ["weapon","ranged","assaultrifle","pf_anvilUpgradeableWeapon"],
+  "level" : 3,
 
   "inventoryIcon" : "pf_rubiterifle.png",
 
@@ -21,6 +21,15 @@
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "grenadelauncher" : {
+        "properties" : {
+		  "offset" : [-1.0, -0.375],
+		  "firePosition" : [0.5, -0.125],
+		  "image" : "/items/active/weapons/ranged/crafted/rubiterifle/pf_grenadelauncher.png"
+        }
+      }
+    }},
     "sounds" : {
       "fire" : ["/sfx/gun/ar4.ogg"]
     }
@@ -31,7 +40,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_rending",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
@@ -82,9 +91,41 @@
   "altAbilityType" : "grenadelauncher",
   "altAbility" : {
     "elementalConfig" : {
-      "physical" : { "projectileType" : "pf_rubitegrenade" }
+      "pf_rending" : { "projectileType" : "pf_rubitegrenade" }
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_rubiterifle_l4.png",
+      "animationParts" : {
+        "middle" : "pf_rubiterifle_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_rubiterifle_l5.png",
+      "animationParts" : {
+        "middle" : "pf_rubiterifle_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_rubiterifle_l6.png",
+      "animationParts" : {
+        "middle" : "pf_rubiterifle_l6.png"
+      },
+      "shortdescription" : "Rail of the False Wings",
+	  "animationCustom" : {
+        "animatedParts" : { "parts" : {
+          "grenadelauncher" : {
+            "properties" : {
+		      "image" : "/items/active/weapons/ranged/crafted/rubiterifle/pf_grenadelauncher_l6.png"
+            }
+          }
+        }}
+      }
+	}
+  }
 }

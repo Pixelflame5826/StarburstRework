@@ -80,13 +80,14 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_shadow",
 
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.625,
     "baseDps" : 7.5,
 	"damageConfig" : {
+      "damageSourceKind" : "pf_piercingshortsword",
 	  "statusEffects" : [ "pf_entropicdarkness" ]
 	}
   },

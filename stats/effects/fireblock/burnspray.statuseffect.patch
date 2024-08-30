@@ -7,7 +7,7 @@
     {
         "op": "replace",
         "path": "/label",
-        "value": "Fire Immunity - Blocks Fire and Lava"
+        "value": "Cryo Burn Spray - Immune to Melting and Burning."
     },
     {
         "op": "replace",

@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_fossilstone",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_fossilstone.png",
+  "shortdescription" : "Fossil Limestone",
+  "description" : "A chunk of limestone made of many fossils of marine life.",
+
+  "materialId" : 38403
+}

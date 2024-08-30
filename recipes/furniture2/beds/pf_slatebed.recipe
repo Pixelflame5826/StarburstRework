@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_slatepolished", "count" : 20 },
+  	{ "item" : "ironbar", "count" : 5 },
+    { "item" : "cottonwool", "count" : 10 }
+  ],
+  "output" : { "item" : "pf_slatebed", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "beds", "all" ]
+}

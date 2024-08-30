@@ -1,0 +1,19 @@
+{
+  "name" : "pf_pirateaugment1",
+  "effectConfig" : {
+    "healthBoost" : 1.1,
+    "energyBoost" : 1.1,
+    "powerBoost" : 1.1,
+    "protection" : 0.8
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_pirateaugment.lua"
+  ],
+
+  "animationConfig" : "pf_pirateaugment.animation",
+
+  "label" : "Outlaw Augment I - +10% Health, Energy and Damage, -20% Defense. Emits a red light.",
+  "icon" : "/interface/statuses/pf_pirateaugment.png"
+}

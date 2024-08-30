@@ -1,0 +1,26 @@
+{
+  "projectileName" : "pf_flarebullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "pf_flarebullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 100,
+  "emitters" : [ "flames" ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "statusEffects" : [ "burning" ],
+  "lightColor" : [115, 119, 38],
+  "damageKind" : "fireplasmabullet"
+}

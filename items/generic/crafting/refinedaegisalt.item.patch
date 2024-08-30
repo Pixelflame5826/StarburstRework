@@ -2,6 +2,6 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "An energetic material that is primarily found on planets orbiting Chaotic Stars."
+        "value": "An energy storing mineral that is primarily found on planets orbiting Chaotic Stars."
     }
 ]

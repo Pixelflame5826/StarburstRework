@@ -14,42 +14,42 @@
 	
     {
       "action" : "projectile",
-      "type" : "molotovflame",
+      "type" : "pf_scorchingmolotovflame",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -35
     },
     {
       "action" : "projectile",
-      "type" : "molotovflame",
+      "type" : "pf_scorchingmolotovflame",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 1
     },
     {
       "action" : "projectile",
-      "type" : "molotovflame",
+      "type" : "pf_scorchingmolotovflame",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -18
     },
     {
       "action" : "projectile",
-      "type" : "molotovflame",
+      "type" : "pf_scorchingmolotovflame",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 18
     },
     {
       "action" : "projectile",
-      "type" : "molotovflame",
+      "type" : "pf_scorchingmolotovflame",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -55
     },
     {
       "action" : "projectile",
-      "type" : "molotovflame",
+      "type" : "pf_scorchingmolotovflame",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 65
@@ -67,5 +67,5 @@
   
   "scripts" : [ "/projectiles/guns/rockets/minirocket/minirocket.lua" ],
   "maxSpeed" : 75,
-  "controlForce" : 100
+  "controlForce" : 200
 }

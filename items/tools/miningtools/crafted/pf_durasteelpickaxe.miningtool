@@ -5,7 +5,7 @@
   "inventoryIcon" : "pf_durasteelpickaxeicon.png",
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "tooltipKind" : "tool",
+  "tooltipKind" : "pf_miningtool",
   "description" : "A handcrafted pickaxe made from Durasteel. Should last fairly long and mine quickly.",
   "shortdescription" : "Durasteel Pickaxe",
   "largeImage" : "pf_durasteelpickaxebig.png",
@@ -23,5 +23,7 @@
   "durabilityPerUse" : 1,
   "tileDamage" : 4.5,
   "harvestLevel" : 99,
-  "tileDamageBlunted" : 0.6
+  "tileDamageBlunted" : 0.6,
+  "builder" : "/items/buildscripts/pf_buildminingtool.lua",
+  "itemAgingScripts" : ["/scripts/items/pf_miningtoolupdate.lua"]
 }

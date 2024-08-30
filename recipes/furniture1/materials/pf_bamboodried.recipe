@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bamboo", "count" : 10 }
+  ],
+  "output" : { "item" : "pf_bamboodried", "count" : 10 },
+  "duration" : 0.1,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

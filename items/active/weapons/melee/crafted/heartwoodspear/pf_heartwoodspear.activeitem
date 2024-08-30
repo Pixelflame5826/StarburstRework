@@ -4,12 +4,12 @@
   "level" : 2,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A spear made from petrified Heartwood, it's brutally effective. Perfect for hunting if used right.",
-  "shortdescription" : "Heartwood Spear",
+  "description" : "A spear made from sharpened petrified Heartwood, it's brutally effective. Perfect for hunting if used right.",
+  "shortdescription" : "Heartwood Partisan",
   "tooltipKind" : "pf_uniquesword",
   "category" : "spear",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","spear"],
+  "itemTags" : ["weapon","melee","spear","pf_anvilUpgradeableWeapon"],
 
   "inventoryIcon" : "pf_heartwoodspear.png",
 
@@ -38,5 +38,34 @@
 
   "altAbilityType" : "flurry",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level3" : {
+	  "inventoryIcon" : "pf_heartwoodspear_l3.png",
+      "animationParts" : {
+        "blade" : "pf_heartwoodspear_l3.png"
+      }
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_heartwoodspear_l4.png",
+      "animationParts" : {
+        "blade" : "pf_heartwoodspear_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_heartwoodspear_l5.png",
+      "animationParts" : {
+        "blade" : "pf_heartwoodspear_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_heartwoodspear_l6.png",
+      "animationParts" : {
+        "blade" : "pf_heartwoodspear_l6.png"
+      },
+      "shortdescription" : "Hidepiercer"
+	}
+  }
 }

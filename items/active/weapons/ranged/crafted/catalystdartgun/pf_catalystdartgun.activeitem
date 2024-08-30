@@ -1,0 +1,84 @@
+{
+  "itemName" : "pf_catalystdartgun",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A handgun that fires catalytic prisilite darts. Strengthens elemental statuses on enemies.",
+  "shortdescription" : "Catalytic Dart Gun",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 5,
+
+  "inventoryIcon" : "pf_catalystdartgun.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_catalystdartgun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/uzi2.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.5, 0.15],
+  "muzzleOffset" : [1.5, 0.3],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "pf_catalyst",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2.0,
+    "baseDps" : 1.25,
+    "energyUsage" : 10.75,
+    "inaccuracy" : 0.025,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "pf_catalystdart",
+    "projectileParameters" : {
+      "knockback" : 6,
+	  "speed" : 75
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

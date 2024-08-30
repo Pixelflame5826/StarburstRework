@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rawfish", "count" : 1 },
+    { "item" : "pf_saltingredient", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_curedfish", "count" : 1 },
+  "groups" : [ "campfire", "consumables", "craftingfood", "mains", "all" ]
+}

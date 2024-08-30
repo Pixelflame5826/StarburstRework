@@ -15,7 +15,7 @@
   "power" : 10.0,
   "speed" : 100.0,
   "physics" : "laser",
-  "damageKind" : "plasma",
+  "damageKind" : "pf_piercing",
   "statusEffects" : [ "pf_entropicdarkness" ],
 
   "scripts" : [ "pf_erebiumhomingbullet.lua" ],

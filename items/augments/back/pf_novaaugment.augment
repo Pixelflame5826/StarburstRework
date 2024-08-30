@@ -12,7 +12,7 @@
     "type" : "back",
     "name" : "pf_nova",
     "displayName" : "Nova",
-    "displayIcon" : "/items/augments/back/pf_fallaugment.png",
+    "displayIcon" : "/items/augments/back/pf_novaaugment.png",
     "effects" : [ "pf_novaaugment" ]
   },
 

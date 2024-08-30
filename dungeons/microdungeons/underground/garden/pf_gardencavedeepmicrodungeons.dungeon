@@ -1,0 +1,294 @@
+{
+  "metadata" : {
+    "name" : "pf_gardencavedeepmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ 
+	  "pf_gardencave_naturalcavern2", "pf_gardencave_naturalcavern3", "pf_gardencave_naturalcavern5", "pf_gardencave_naturalcavern6",
+	  "pf_gardencave_house1", "pf_gardencave_house2", "pf_gardencave_house4", "pf_gardencave_house5",
+	  "pf_gardencave_lake2", "pf_gardencave_lake3",
+	  "pf_gardencave_street1", "pf_gardencave_street2", "pf_gardencave_street3", "pf_gardencave_street4",
+	  "pf_gardencave_tower1", "pf_gardencave_tower2", "pf_gardencave_tower3",
+	  "pf_gardencave_miningscaffold2", "pf_gardencave_miningscaffold3",
+	  "pf_gardencave_ruins1", "pf_gardencave_ruins2", "pf_gardencave_ruins3",
+	  "pf_gardencave_miningoutpost4",
+	  "pf_gardencave_miningtunnel1", "pf_gardencave_miningtunnel3",
+	  "pf_gardencave_basic1", "pf_gardencave_basic2", "pf_gardencave_basic3", "pf_gardencave_basic4", "pf_gardencave_basic5", "pf_gardencave_basic6",
+	  "pf_gardencave_vault1", "pf_gardencave_vault2", "pf_gardencave_vault3"
+	], 
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "pf_gardencave_house1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_house1.json" ]
+    },
+    {
+      "name" : "pf_gardencave_house2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_house2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_house4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_house4.json" ]
+    },
+	{
+      "name" : "pf_gardencave_house5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_house5.json" ]
+    },
+	
+	
+	
+	{
+      "name" : "pf_gardencave_lake2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_lake2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_lake3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_lake3.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_gardencave_miningoutpost4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_miningoutpost4.json" ]
+    },
+
+	{
+      "name" : "pf_gardencave_miningscaffold2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_miningscaffold2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_miningscaffold3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_miningscaffold3.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_gardencave_miningtunnel1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_miningtunnel1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_miningtunnel3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_miningtunnel3.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_gardencave_naturalcavern2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_naturalcavern2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_naturalcavern3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_naturalcavern3.json" ]
+    },
+	{
+      "name" : "pf_gardencave_naturalcavern4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_naturalcavern4.json" ]
+    },
+	{
+      "name" : "pf_gardencave_naturalcavern5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_naturalcavern5.json" ]
+    },
+	{
+      "name" : "pf_gardencave_naturalcavern6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_naturalcavern6.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_gardencave_ruins1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_ruins1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_ruins2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_ruins2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_ruins3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_ruins3.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_gardencave_street1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_street1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_street2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_street2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_street3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_street3.json" ]
+    },
+	{
+      "name" : "pf_gardencave_street4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_street4.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_gardencave_tower1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tower1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_tower2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tower2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_tower3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tower3.json" ]
+    },
+	
+	{
+      "name" : "pf_gardencave_basic1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_openNatural1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_basic2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tunnelBackSlopeNatural1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_basic3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tunnelForwardSlopeNatural1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_basic4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tunnelWeakBackSlopeNatural1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_basic5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tunnelWeakForwardSlopeNatural1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_basic6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_tunnelNatural1.json" ]
+    },
+	
+	
+	{
+      "name" : "pf_gardencave_vault1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_vault1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_vault2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_vault2.json" ]
+    },
+	{
+      "name" : "pf_gardencave_vault3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_vault3.json" ]
+    }
+  ]
+}

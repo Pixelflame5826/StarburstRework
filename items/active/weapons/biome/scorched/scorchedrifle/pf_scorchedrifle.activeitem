@@ -4,12 +4,12 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "An assault rifle that burns everything in its sights. This gun would've been illegal in the Terran Government...",
-  "shortdescription" : "Tartarus",
+  "shortdescription" : "Phlegethon XI-12",
   "tooltipKind" : "pf_uniquegun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "level" : 4,
+  "level" : 6,
 
   "inventoryIcon" : "pf_scorchedrifle.png",
 
@@ -22,16 +22,6 @@
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom" : {
-  
-    "animatedParts" : { "parts" : {
-      "grenadelauncher" : {
-        "properties" : {
-          "offset" : [-1.55, -0.385],
-          "firePosition" : [1.55, -0.135],
-		  "image" : "/items/active/weapons/biome/scorched/scorchedrifle/pf_grenadelauncher.png"
-        }
-      }
-    }},
     "sounds" : {
       "fire" : ["/sfx/gun/rifle2.ogg"]
     }
@@ -42,7 +32,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "fire",
+  "elementalType" : "pf_scorchingfire",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
@@ -90,13 +80,15 @@
     }
   },
 
-  "altAbilityType" : "grenadelauncher",
+  "altAbilityType" : "explosiveburst",
   "altAbility" : {
     "elementalConfig" : {
-      "fire" : { "projectileType" : "pf_scorchedgrenade" }
+      "pf_scorchingfire" : { "projectileType" : "pf_airburstscorched" }
     },
-	"name" : "Prometheus Cluster",
-	"fireTime" : 10.0
+	"name" : "Burning Skies",
+    "burstCount" : 10,
+	"inaccuracy" : 0.1,
+	"fireTime" : 1.0
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

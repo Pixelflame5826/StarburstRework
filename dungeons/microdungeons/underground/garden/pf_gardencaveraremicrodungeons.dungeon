@@ -1,0 +1,35 @@
+{
+  "metadata" : {
+    "name" : "pf_gardencaveraremicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ 
+	  "pf_gardencave_floran1",
+	  "pf_gardencave_vault4"
+	], 
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+	{
+      "name" : "pf_gardencave_floran1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_floran1.json" ]
+    },
+	{
+      "name" : "pf_gardencave_vault4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_gardencave_vault4.json" ]
+    }
+  ]
+}

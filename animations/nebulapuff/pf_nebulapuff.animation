@@ -1,0 +1,8 @@
+{
+  "frames" : "pf_nebulapuff.png",
+  "variants" : 1,
+  "frameNumber" : 3,
+  "animationCycle" : 0.3,
+  "offset" : [0, 0],
+  "mode" : "LoopForever"
+}

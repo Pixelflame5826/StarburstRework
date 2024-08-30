@@ -1,0 +1,24 @@
+{
+  "materialId" : 38403,
+  "materialName" : "pf_fossilstone",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "cobblestonematerial",
+  "shortdescription" : "Fossil Stone",
+  "description" : "Limestone with many marine fossils.",
+  "glitchDescription" : "Facinated. How old are the shells within this stone?",
+  "floranDescription" : "Ssshelly rock.",
+  "novakidDescription" : "Well ain't this ancient, its like lookin' back in time.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_fossilstone.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1645
+  }
+}

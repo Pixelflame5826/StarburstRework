@@ -1,0 +1,12 @@
+{
+  "name" : "pf_fallaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_halvedfalldamage.lua"
+  ],
+
+  "label" : "Light Fall Augment - Reduces all fall damage by 50%.",
+  "icon" : "/interface/statuses/nofalldamage.png"
+}

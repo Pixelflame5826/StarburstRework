@@ -4,11 +4,11 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A fast firing carbine made from petrified heartwood. Its shots can fragment within enemies.",
-  "shortdescription" : "Heartwood Assault Rifle",
+  "shortdescription" : "Heartwood Carbine",
   "tooltipKind" : "pf_uniquegun",
   "category" : "assaultRifle",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "itemTags" : ["weapon","ranged","assaultrifle","pf_anvilUpgradeableWeapon"],
   "level" : 2,
 
   "inventoryIcon" : "pf_heartwoodrifle.png",
@@ -22,19 +22,19 @@
   },
   "animationCustom" : {
     "particleEmitters" : {
-      "burstShotSmoke" : {
+      "muzzleFlash" : {
         "particles" : [
           {
             "particle" : {
               "type" : "ember",
               "color" : [58, 96, 48],
               "timeToLive" : 10,
-              "initialVelocity" : [0, 5],
-              "finalVelocity" : [0, -20],
+              "initialVelocity" : [5, 0],
+              "finalVelocity" : [5, -5],
               "approach" : [0, 5],
               "variance" : {
                 "timeToLive" : 3.0,
-                "initialVelocity" : [1.0, 1.0]
+                "initialVelocity" : [1.0, 0.25]
               }
             }
 		  },
@@ -43,12 +43,12 @@
               "type" : "ember",
               "color" : [58, 96, 48],
               "timeToLive" : 10,
-              "initialVelocity" : [0, 5],
-              "finalVelocity" : [0, -20],
+              "initialVelocity" : [5, 0],
+              "finalVelocity" : [5, -5],
               "approach" : [0, 5],
               "variance" : {
                 "timeToLive" : 3.0,
-                "initialVelocity" : [1.0, 1.0]
+                "initialVelocity" : [1.0, 0.25]
               }
             }
 		  },
@@ -57,12 +57,12 @@
               "type" : "ember",
               "color" : [58, 96, 48],
               "timeToLive" : 10,
-              "initialVelocity" : [0, 5],
-              "finalVelocity" : [0, -20],
+              "initialVelocity" : [5, 0],
+              "finalVelocity" : [5, -5],
               "approach" : [0, 5],
               "variance" : {
                 "timeToLive" : 3.0,
-                "initialVelocity" : [1.0, 1.0]
+                "initialVelocity" : [1.0, 0.25]
               }
             }
 		  }
@@ -70,8 +70,7 @@
       }
     },
     "sounds" : {
-      "fire" : ["/sfx/gun/ar1.ogg"],
-	  "altFire" : [ "/sfx/gun/grenade2.ogg" ]
+      "fire" : ["/sfx/gun/ar1.ogg"]
     }
   },
 
@@ -128,7 +127,40 @@
     }
   },
 
-  "altAbilityType" : "burstshot",
+  "altAbilityType" : "spray",
+  "altAbility" : {
+    "projectileType" : "pf_shardbullet",
+	"name" : "Petrified Barrage"
+  },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+    "level3" : {
+	  "inventoryIcon" : "pf_heartwoodrifle_l3.png",
+      "animationParts" : {
+        "middle" : "pf_heartwoodrifle_l3.png"
+      }
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_heartwoodrifle_l4.png",
+      "animationParts" : {
+        "middle" : "pf_heartwoodrifle_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_heartwoodrifle_l5.png",
+      "animationParts" : {
+        "middle" : "pf_heartwoodrifle_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_heartwoodrifle_l6.png",
+      "animationParts" : {
+        "middle" : "pf_heartwoodrifle_l6.png"
+      },
+      "shortdescription" : "Arborifle"
+	}
+  }
 }

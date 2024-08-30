@@ -1,0 +1,20 @@
+{
+  "particleEmitters" : {
+    "blood" : {
+	  "enabled" : false,
+	  "emissionRate" : 500,
+      "particles" : [
+        { "particle" : "blood" },
+		{ "particle" : "blood" },
+		{ "particle" : "blood" }
+      ]
+    },
+	  
+    "killMessage" : {
+      "enabled" : false,
+      "particles" : [
+        { "particle" : "pf_decapitatedmessage" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_bamboolog", "count" : 5 },
+    { "item" : "fabric", "count" : 1 },
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_bambookatana", "count" : 1 },
+  "groups" : [ "craftingfarm", "hunting" ]
+}

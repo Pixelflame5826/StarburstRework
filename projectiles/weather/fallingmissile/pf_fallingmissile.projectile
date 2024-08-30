@@ -1,0 +1,23 @@
+{
+  "projectileName" : "pf_fallingmissile",
+  "physics" : "laser",
+  "image" : "pf_fallingmissile.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 3,
+  "lightColor" : [235, 126, 2],
+  "damageKindImage" : "icon.png",
+
+  "timeToLive" : 30,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 15,
+  "knockback" : 20,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "emitters" : [ "rocketsmoke" ],
+  "damageKind" : "default"
+}

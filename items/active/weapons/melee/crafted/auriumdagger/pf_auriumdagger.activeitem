@@ -9,7 +9,7 @@
   "tooltipKind" : "pf_uniquesword",
   "category" : "dagger",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","dagger"],
+  "itemTags" : ["weapon","melee","dagger","pf_anvilUpgradeableWeapon"],
 
   "inventoryIcon" : "pf_auriumdagger.png",
 
@@ -26,7 +26,7 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_piercing",
 
   "aimOffset" : 0.0,
   "primaryAbility" : {
@@ -36,7 +36,7 @@
     "fireTime" : 0.35,
     "baseDps" : 9.0,
     "damageConfig" : {
-      "damageSourceKind" : "dagger",
+      "damageSourceKind" : "pf_piercingdagger",
       "statusEffects" : [ "pf_bleeding" ],
       "knockbackMode" : "aim",
       "knockback" : 10,
@@ -73,5 +73,34 @@
   },
   "fireSounds" : [ "/sfx/melee/swing_dagger.ogg" ],
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level3" : {
+	  "inventoryIcon" : "pf_auriumdagger_l3.png",
+      "animationParts" : {
+        "blade" : "pf_auriumdagger_l3.png"
+      }
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_auriumdagger_l4.png",
+      "animationParts" : {
+        "blade" : "pf_auriumdagger_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_auriumdagger_l5.png",
+      "animationParts" : {
+        "blade" : "pf_auriumdagger_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_auriumdagger_l6.png",
+      "animationParts" : {
+        "blade" : "pf_auriumdagger_l6.png"
+      },
+      "shortdescription" : "Aurenwennen"
+	}
+  }
 }

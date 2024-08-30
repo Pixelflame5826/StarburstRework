@@ -1,0 +1,47 @@
+[
+    {
+        "op": "replace",
+        "path": "/layers/11/offset/1",
+        "value": 300
+    },
+    {
+        "op": "replace",
+        "path": "/layers/10/offset/1",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/9/offset/1",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/8/offset/1",
+        "value": -225
+    },
+    {
+        "op": "replace",
+        "path": "/layers/7/offset/1",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/6/offset/1",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/5/offset/1",
+        "value": -225
+    },
+    {
+        "op": "replace",
+        "path": "/layers/4/offset/1",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/offset/1",
+        "value": -225
+    }
+]

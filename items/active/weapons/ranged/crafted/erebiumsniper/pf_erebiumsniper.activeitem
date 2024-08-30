@@ -3,8 +3,8 @@
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A large dark rifle, its bullets seek out the presence of life. Only to eliminate it.",
-  "shortdescription" : "Erebium Sniper Rifle",
+  "description" : "A large dark sniper rifle, its bullets seek out the presence of life. Only to eliminate it.",
+  "shortdescription" : "Erebium Eliminator",
   "tooltipKind" : "pf_uniquegun",
   "category" : "sniperRifle",
   "twoHanded" : true,
@@ -44,7 +44,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_shadow",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
@@ -60,7 +60,8 @@
 
     "projectileType" : "standardbullet",
     "projectileParameters" : {
-      "knockback" : 22
+      "knockback" : 22,
+	  "damageKind" : "pf_piercing"
     },
     "stances" : {
       "idle" : {

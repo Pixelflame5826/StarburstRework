@@ -1,0 +1,25 @@
+{
+  "materialId" : 38408,
+  "materialName" : "pf_saltbrickslight",
+  "particleColor" : [230, 230, 230, 255],
+  "itemDrop" : "pf_saltbrickslight",
+  "shortdescription" : "Glow Salt Bricks",
+  "description" : "Salt bricks with lights embedded into them.",
+  "glitchDescription" : "Confused. A simple rainstorm would cause your lights to dissolve.",
+  "floranDescription" : "The sssalty wallsss are glowing.",
+  "novakidDescription" : "Never leave your horse next to these, it'll be gone by morn'.",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_saltbrickslight.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2859,
+    "radiantLight" : [180, 180, 180]
+  }
+}

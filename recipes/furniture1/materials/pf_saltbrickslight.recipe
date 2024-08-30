@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_saltbricks", "count" : 10 },
+    { "item" : "biorock", "count" : 10 }
+  ],
+  "output" : { "item" : "pf_saltbrickslight", "count" : 10 },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

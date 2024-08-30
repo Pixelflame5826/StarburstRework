@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A panel of fresh bamboo. Exotic!"
+    },
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Bamboo Panel"
+    }
+]

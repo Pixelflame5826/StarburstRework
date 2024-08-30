@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_basaltpillar",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_basaltpillar.png",
+  "shortdescription" : "Basalt Pillar",
+  "description" : "A hexagonal pillar of polished Basaltic rock.",
+
+  "materialId" : 38402
+}

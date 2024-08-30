@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_saltblock", "count" : 5 },
+    { "item" : "darkwoodmaterial", "count" : 2 },
+    { "item" : "smallbattery", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_saltlamp", "count" : 1 },
+  "groups" : [ "craftingfurniture", "lights", "all" ]
+}

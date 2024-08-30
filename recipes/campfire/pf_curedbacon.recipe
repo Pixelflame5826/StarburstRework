@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rawbacon", "count" : 1 },
+    { "item" : "pf_saltingredient", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_curedbacon", "count" : 1 },
+  "groups" : [ "campfire", "consumables", "craftingfood", "mains", "all" ]
+}

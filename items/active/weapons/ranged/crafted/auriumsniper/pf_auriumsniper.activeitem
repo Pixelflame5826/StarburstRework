@@ -9,7 +9,7 @@
   "level" : 2,
   "tooltipKind" : "pf_uniquegun",
   "category" : "sniperRifle",
-  "itemTags" : ["weapon","ranged","rifle"],
+  "itemTags" : ["weapon","ranged","rifle","pf_anvilUpgradeableWeapon"],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -30,7 +30,7 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_piercing",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
@@ -46,7 +46,8 @@
 
     "projectileType" : "standardbullet",
     "projectileParameters" : {
-      "knockback" : 20
+      "knockback" : 20,
+	  "damageKind" : "pf_piercing"
     },
     "stances" : {
       "idle" : {
@@ -79,6 +80,43 @@
   },
 
   "altAbilityType" : "piercingshot",
+  "altAbility": {
+    "projectileParameters" : {
+      "knockback" : 20,
+	  "damageKind" : "pf_piercing",
+	  "statusEffects" : [ "pf_bleeding" ]
+    },
+	"name" : "Auric Metal Jacket"
+  },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+    "level3" : {
+	  "inventoryIcon" : "pf_auriumsniper_l3.png",
+      "animationParts" : {
+        "middle" : "pf_auriumsniper_l3.png"
+      }
+	},
+	"level4" : {
+	  "inventoryIcon" : "pf_auriumsniper_l4.png",
+      "animationParts" : {
+        "middle" : "pf_auriumsniper_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_auriumsniper_l5.png",
+      "animationParts" : {
+        "middle" : "pf_auriumsniper_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_auriumsniper_l6.png",
+      "animationParts" : {
+        "middle" : "pf_auriumsniper_l6.png"
+      },
+      "shortdescription" : "Jägoldet"
+	}
+  }
 }

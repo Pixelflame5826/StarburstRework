@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "category" : "craftingMaterial",
   "inventoryIcon" : "pf_desertore.png",
-  "description" : "A red crystal suspected to be a degenerate form of Avolite.",
+  "description" : "A red crystal that breaks into sharp edges, suspected to be a lesser form of Avolite.",
   "shortdescription" : "Rubite Ore",
   "itemTags" : [ "reagent" ],
   "radioMessagesOnPickup" : [ "pickupore" ]

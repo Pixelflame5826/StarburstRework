@@ -1,0 +1,33 @@
+{
+  "objectName" : "pf_ruinedautotank",
+  "colonyTags" : ["scorched","mechanical"],
+  "rarity" : "Common",
+  "description" : "The destroyed and scavenged remains of an Autotank.",
+  "shortdescription" : "Scrapped Autotank",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 110,
+
+  "apexDescription" : "An old robotic tank, I would examine further but it seems to have been scrapped...",
+  "avianDescription" : "This long dead tank seems to have been scavenged for parts... such a sad sight.",
+  "floranDescription" : "Who kill tank? Need to kill ssstrong tank killer.",
+  "glitchDescription" : "Horrified. If they did this to the tank, would they do this to me if I die?",
+  "humanDescription" : "Wow, this tank has been stripped of everything. Can't have shit on this planet...",
+  "hylotlDescription" : "A destroyed tank, scrapped by the desperate... a microcosm of war's consequences.",
+  "novakidDescription" : "Darn, I was hopin' to rip that gun off, but now its worthless.",
+
+  "inventoryIcon" : "pf_ruinedautotankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_ruinedautotank.png:<color>",
+
+      "imagePosition" : [-23, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

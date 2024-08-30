@@ -1,0 +1,30 @@
+{
+  "id" : "pf_pixelcodex",
+  "species" : "other",
+  "title" : "Dissolution of Vision",
+  "description" : "There's nothing to hide here.",
+  "icon" : "pf_generictablet.png",
+  "contentPages" : [
+    "I have been in this community for many years now. Working on multiple projects of my own and contributing to others, some never to see the light of day. Some broken, some decent, some actually good. Though over time I have had my own ambitions, many laid bare. I have put my own fears and insecurities on the forefront a lot, but I have grown a lot as well.",
+    "Ancient Cosmos was my first look at what I could do with an idea, but it was also full of my own thoughts and feelings of Starbound at the time as I was just leaving the Frackin' Universe team at the time. A dying world built on top of gods who abandoned us and those who try to keep it alive. It was a very bleak story, I sometimes worried that it bordered on nihilism.",
+    "I saw everything going on with how some of the large picked on the small, the developers leaving, the controversies abound. I wanted to bring some light to the community, something new. So I tried to make something new, but familiar. I've had the idea for a long while, this idea became the mod known as Starburst. Which you are playing right now.",
+    "I saw how FU did the rework model and Betabound's vanilla+ model, and I decided to make a merger of the 2 ideas. Rework the game to change progression and give more variety, but keep it like vanilla as much as possible. No automation, no flashy weapons, keep the focus on the exploration. Just making what I thought the game needed to be better.",
+    "I am proud of how things turned out with this mod. So much of the potential I feel the game could have was met, adding the variety the game needed. If you're still reading this wierd codex you found from a wierd Wisper about something meta at the end of the game, thank you for being here and I hope you enjoyed Starburst.
+^orange;-Pixelflame :3^white;",
+    "Thank you to
+
+^green;Silver Sokolova
+^cyan;Omeruin
+^red;Armok
+^darkgreen;Ashikon
+^purple;Imbion
+^grey;The Lorebound Group
+^white;Everyone who has helped me over the years.
+
+For getting me this far and giving me support when I needed it."
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

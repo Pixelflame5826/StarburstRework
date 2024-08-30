@@ -1,0 +1,19 @@
+{
+  "kind" : "pf_nebulapuff",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/nebulapuff/pf_nebulapuff.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [3, 3],
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "fade" : 1,
+    "size" : 1.3,
+    "layer" : "back",
+    "timeToLive" : 5,
+    "variance" : {
+      "initialVelocity" : [5.0, 5.0]
+    }
+  }
+}

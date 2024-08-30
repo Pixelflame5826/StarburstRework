@@ -42,7 +42,7 @@
 	  }
 	},
     "particleEmitters" : { 
-	  "physicalswoosh" : {
+	  "pf_waterswoosh" : {
         "active" : false,
         "transformationGroups" : ["swoosh"],
         "burstCount" : 6,
@@ -50,7 +50,7 @@
           { "particle" : "waterdrip" }
         ]
       },
-	  "physicalSpin" : {
+	  "pf_waterSpin" : {
         "active" : false,
         "emissionRate" : 12,
         "offsetRegion" : [-3.5, -3.5, 3.5, 3.5],
@@ -66,34 +66,37 @@
 	},
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_broadsword_water1.ogg", "/sfx/melee/swing_broadsword_water2.ogg", "/sfx/melee/swing_broadsword_water3.ogg" ],
-	  "physicalSpin" : ["/sfx/melee/elemental_spin_ice.ogg" ],
-      "physicalSpinFire" : ["/sfx/melee/swing_broadsword_water4.ogg" ]
+	  "pf_waterSpin" : ["/sfx/melee/elemental_spin_ice.ogg" ],
+      "pf_waterSpinFire" : ["/sfx/melee/swing_broadsword_water4.ogg" ]
     }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_water",
 
   "aimOffset" : -1.0,
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : 0.95,
-    "baseDps" : 10.5
+    "baseDps" : 10.5,
+	"damageConfig" : {
+      "damageSourceKind" : "pf_waterspear"
+    }
   },
 
   "altAbilityType" : "elementalspin",
   "altAbility" : {
     "name" : "Torrential Whirlpool",
     "elementalConfig" : {
-      "physical" : {
+      "pf_water" : {
         "projectileType" : "pf_waterspearspin",
         "damageConfig" : { "statusEffects" : [ "wet" ] }
       }
 	},
 	"damageConfig" : {
-      "damageSourceKind" : "spear"
+      "damageSourceKind" : "pf_waterspear"
 	}
   },
 

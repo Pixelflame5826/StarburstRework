@@ -1,0 +1,24 @@
+{
+  "materialId" : 38406,
+  "materialName" : "pf_saltblock",
+  "particleColor" : [230, 230, 230, 255],
+  "itemDrop" : "pf_saltblock",
+  "description" : "A translucent chunk of salt. Many dishes require it.",
+  "shortdescription" : "Halite",
+  "glitchDescription" : "Excited. Imagine how much meat you could preserve with this salt!",
+  "floranDescription" : "Sssalty rock. Floran knows this is good for food.",
+  "novakidDescription" : "Gotta love salt, the universal seasoning for everything.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_saltblock.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 1560
+  }
+}

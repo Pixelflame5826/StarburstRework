@@ -8,5 +8,55 @@
         "op": "replace",
         "path": "/description",
         "value": "A blade once wielded by a feared Hylotl warlord. It has been passed through the generations, and now to you."
+    },
+	{
+        "op": "replace",
+        "path": "/elementalType",
+        "value": "pf_water"
+    },
+	{
+        "op": "add",
+        "path": "/animationCustom/particleEmitters/pf_waterswoosh",
+        "value": {
+            "active": false,
+            "transformationGroups": [
+                "swoosh"
+            ],
+            "burstCount": 6,
+            "particles": [
+                {
+                    "particle": "waterdrip"
+                }
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/primaryAbility/damageConfig",
+        "value": {
+            "damageSourceKind": "pf_waterbroadsword"
+        }
+    },
+	
+	{
+        "op": "add",
+        "path": "/animationCustom/sounds/pf_watercharge",
+        "value": [
+            "/sfx/melee/shockwave_charge_ice.ogg"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/animationCustom/sounds/pf_waterfull",
+        "value": [
+            "/sfx/melee/shockwave_full_ice.ogg"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/animationCustom/sounds/pf_waterimpact",
+        "value": [
+            "/sfx/gun/grenadeblast_ice2.ogg"
+        ]
     }
 ]

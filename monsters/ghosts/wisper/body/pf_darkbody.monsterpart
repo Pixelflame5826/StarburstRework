@@ -1,0 +1,10 @@
+{
+  "name" : "wisper",
+  "category" : "pf_darkwisper",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pf_darkwisper.png",
+    "bodynobright" : "pf_darkwispernobright.png"
+  }
+}

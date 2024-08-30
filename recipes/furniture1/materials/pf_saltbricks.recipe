@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_saltblock", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_saltbricks", "count" : 10 },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

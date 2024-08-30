@@ -1,0 +1,24 @@
+{
+  "materialId" : 38415,
+  "materialName" : "pf_slatepolished",
+  "particleColor" : [85, 85, 85, 255],
+  "itemDrop" : "pf_slatepolished",
+  "description" : "Incredibly tough and smooth polished slate.",
+  "shortdescription" : "Slate",
+  "glitchDescription" : "Observant. This tough polished material is perfectly flat.",
+  "floranDescription" : "Ssstrong and ssmooth rock. Floran like.",
+  "novakidDescription" : "There ain't no way a pickaxe is easy gettin' through this shiny rock.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_slatepolished.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1850
+  }
+}

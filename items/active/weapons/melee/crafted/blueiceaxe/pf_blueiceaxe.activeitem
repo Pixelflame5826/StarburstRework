@@ -9,7 +9,7 @@
   "tooltipKind" : "pf_uniquesword",
   "category" : "axe",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","axe"],
+  "itemTags" : ["weapon","melee","axe","pf_anvilUpgradeableWeapon"],
 
   "inventoryIcon" : "pf_blueiceaxe.png",
 
@@ -40,5 +40,28 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_blueiceaxe_l4.png",
+      "animationParts" : {
+        "blade" : "pf_blueiceaxe_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_blueiceaxe_l5.png",
+      "animationParts" : {
+        "blade" : "pf_blueiceaxe_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_blueiceaxe_l6.png",
+      "animationParts" : {
+        "blade" : "pf_blueiceaxe_l6.png"
+      },
+      "shortdescription" : "Glacier Slicer"
+	}
+  }
 }

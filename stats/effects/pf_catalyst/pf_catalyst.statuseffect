@@ -1,0 +1,16 @@
+{
+  "name" : "pf_catalyst",
+  "effectConfig" : {
+	"directives" : "border=2;FFFFFF22;00000000"
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_catalyst.lua"
+  ],
+
+  "animationConfig" : "pf_catalyst.animation",
+
+  "label" : "^red;Catalyzed - Can strengthen elemental status effects when inflicted.",
+  "icon" : "/interface/statuses/pf_catalyst.png"
+}

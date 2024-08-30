@@ -1,0 +1,22 @@
+{
+  "itemName" : "pf_lavaaugment",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "pf_lavaaugment.png",
+  "description" : "An EPP module that makes you immune to the effects of lava.",
+  "shortdescription" : "Lava Resist Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "pf_lava",
+    "displayName" : "Lava Resist",
+    "displayIcon" : "/items/augments/back/pf_lavaaugment.png",
+    "effects" : [ "pf_lavaaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

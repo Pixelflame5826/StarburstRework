@@ -11,16 +11,17 @@
         "pool" : [
           [ 1.0, "capricoat" ],
           [ 1.0, "poptop" ],
-		  [ 1.0, "pf_nimbusprite" ]
+		      [ 1.0, "pf_nimbusprite" ]
         ]
       },
-	  {
+	    {
         "select" : 2,
         "pool" : [
           [ 0.75, "lumoth" ],
           [ 0.75, "skimbus" ],
           [ 1.0, "scandroid" ],
-		  [ 1.0, "voltip" ]
+		      [ 1.0, "voltip" ],
+          [ 1.0, "pf_electricignome" ]
         ]
       },
       {
@@ -380,7 +381,7 @@
     "ceilingGrassModDensity" : 0.3,
 
     "items" : [
-	  {
+	    {
         "mode" : "floor",
         "priority" : 0.0,
         "variants" : 1,

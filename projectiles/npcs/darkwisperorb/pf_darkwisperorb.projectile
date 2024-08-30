@@ -1,0 +1,46 @@
+{
+  "projectileName" : "pf_darkwisperorb",
+  "physics" : "bouncygas",
+  "bounces" : -1,
+  "timeToLive" : 7,
+  "image" : "pf_darkwisperorb.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 10,
+  "animationCycle" : 0.5,
+  "fullbright" : true,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "shadowshard",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "shadowshard",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+  "power" : 50,
+  "damageKind" : "pf_piercing",
+  "emitters" : [ "shadowsmoke" ],
+  "statusEffects" : [ "pf_entropicdarkness" ],
+
+  "scripts" : [ "/scripts/projectiles/pf_homingprojectile.lua" ],
+  "controlForce" : 800,
+  "maxSpeed" : 10
+}

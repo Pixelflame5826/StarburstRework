@@ -1,0 +1,50 @@
+{
+  "objectName" : "pf_saltlamp",
+  "colonyTags" : ["light", "pretty"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 60,
+
+  "description" : "A lamp that shines through a chunk of salt. Healing properties not guaranteed.",
+  "shortdescription" : "Salt Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "I suppose shining a light through salt gives of a soothing glow...",
+  "avianDescription" : "I remember some Grounded favored these strange lamps.",
+  "floranDescription" : "Sssalty light. Makesss no ssense.",
+  "glitchDescription" : "Curious. Why is this light made of salt? A horse could lick it flat.",
+  "humanDescription" : "Its not exactly Himilayan but it works I suppose... I miss home.",
+  "hylotlDescription" : "While I like the light this gives off, this would wear down anywhere near water.",
+  "novakidDescription" : "Soothin', but I ain't letting my cattle anywhere near this.",
+
+  "lightColor" : [228, 194, 174],
+
+  "inventoryIcon" : "pf_saltlampicon.png",
+  "orientations" : [
+
+    {
+      "image" : "pf_saltlamp.png:<color>.<frame>",
+      "imagePosition" : [-5, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "pf_saltlamp.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/oillantern_on.ogg" ],
+      "off" : [ "/sfx/objects/oillantern_off.ogg" ]
+    }
+  },
+  "animationPosition" : [-5, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

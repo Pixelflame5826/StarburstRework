@@ -1,0 +1,57 @@
+[
+    {
+        "op": "replace",
+        "path": "/layers/9/offset/1",
+        "value": 405
+    },
+    {
+        "op": "replace",
+        "path": "/layers/8/offset/1",
+        "value": 425
+    },
+    {
+        "op": "replace",
+        "path": "/layers/2/offset/1",
+        "value": 175
+    },
+
+    {
+        "op": "replace",
+        "path": "/layers/4/offset/1",
+        "value": 325
+    },
+    {
+        "op": "replace",
+        "path": "/layers/4/parallax",
+        "value": 3.5
+    },
+    {
+        "op": "replace",
+        "path": "/layers/5/offset/1",
+        "value": 370
+    },
+    {
+        "op": "replace",
+        "path": "/layers/6/offset/1",
+        "value": 390
+    },
+    {
+        "op": "replace",
+        "path": "/layers/7/offset/1",
+        "value": 435
+    },
+    {
+        "op": "add",
+        "path": "/layers/27",
+        "value": {
+            "kind": "iceshelf",
+            "baseCount": 1,
+            "offset": [
+                0,
+                375
+            ],
+            "parallax": 3,
+            "fadePercent": 0.15
+        }
+    }
+]

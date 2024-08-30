@@ -26,5 +26,38 @@
 				}
 			]
         }
+    },
+
+    {
+        "op": "remove",
+        "path": "/surfacePlaceables/items/10/treeFoliageList/7"
+    },
+
+    {
+        "op": "add",
+        "path": "/surfacePlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 2,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:moderateClumps",
+            "type": "tree",
+            "treeFoliageHueShiftMax": 0,
+            "treeStemHueShiftMax": 0,
+            "treeStemList": [
+                "pf_lightstripe",
+                "pf_darkstripe"
+            ],
+            "treeFoliageList": [
+                "pf_thin",
+                "pf_grassy",
+                "pf_treelike"
+            ]
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/spawnProfile/groups/0/select",
+        "value": 3
     }
 ]

@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_saltbricks",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_saltbricks.png",
+  "shortdescription" : "Salt Bricks",
+  "description" : "A block of rock salt bricks. Lets light around it in via its translucent surface.",
+
+  "materialId" : 38407
+}

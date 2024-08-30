@@ -1,0 +1,39 @@
+[
+    {
+        "op": "add",
+        "path": "/particleEmitters/pf_scorchingfireswoosh",
+        "value": {
+            "active": false,
+            "transformationGroups": [
+                "swoosh"
+            ],
+            "emissionRate": 50,
+            "offsetRegion": [
+                -2,
+                0,
+                1.5,
+                5
+            ],
+            "particles": [
+                {
+                    "particle": "fireswoosh1"
+                },
+                {
+                    "particle": "fireswoosh3"
+                },
+                {
+                    "particle": "fireswoosh3"
+                },
+                {
+                    "particle": "fireswoosh1"
+                },
+                {
+                    "particle": "fireswoosh3"
+                },
+                {
+                    "particle": "fireswoosh3"
+                }
+            ]
+        }
+    }
+]

@@ -9,7 +9,7 @@
   "tooltipKind" : "pf_uniquesword",
   "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword" ],
+  "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
 
   "inventoryIcon" : "pf_aquaribroadsword.png",
 
@@ -24,7 +24,7 @@
       "fire2" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh2/waterswoosh.png:<frame>" }},
       "fire3" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh3/waterswoosh.png:<frame>" }}
     }}}}},
-    "particleEmitters" : { "physicalswoosh" : {
+    "particleEmitters" : { "pf_waterswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],
       "burstCount" : 6,
@@ -41,12 +41,15 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_water",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.75,
-    "baseDps" : 11
+    "baseDps" : 11,
+	"damageConfig" : {
+      "damageSourceKind" : "pf_waterbroadsword"
+    }
   },
 
   "altAbilityType" : "kunaiblast",
@@ -54,5 +57,28 @@
     "projectileType" : "pf_waterenergyshard"
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level4" : {
+	  "inventoryIcon" : "pf_aquaribroadsword_l4.png",
+      "animationParts" : {
+        "blade" : "pf_aquaribroadsword_l4.png"
+      }
+	},
+	"level5" : {
+	  "inventoryIcon" : "pf_aquaribroadsword_l5.png",
+      "animationParts" : {
+        "blade" : "pf_aquaribroadsword_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_aquaribroadsword_l6.png",
+      "animationParts" : {
+        "blade" : "pf_aquaribroadsword_l6.png"
+      },
+      "shortdescription" : "Nagareha"
+	}
+  }
 }

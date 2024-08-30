@@ -1,0 +1,9 @@
+{
+  "frames" : "pf_fallingleavesautumn.png",
+  "variants" : 1,
+  "loops" : 100.0,
+  "frameNumber" : 7,
+  "animationCycle" : 0.7,
+  "mode" : "LoopForever",
+  "offset" : [0, 0]
+}

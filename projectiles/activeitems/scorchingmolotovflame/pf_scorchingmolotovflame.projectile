@@ -2,7 +2,7 @@
   "projectileName" : "pf_scorchingmolotovflame",
   "physics" : "grenadenobounce",
   "bounces" : -1,
-  "timeToLive" : 10,
+  "timeToLive" : 5,
   "speed" : 15,
   "image" : "pf_scorchingmolotovflame.png",
   "animationCycle" : 0.8,

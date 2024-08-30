@@ -20,7 +20,7 @@ function update(dt)
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",
         damage = math.floor(status.resourceMax("health") * self.tickDamagePercentage) + 1,
-        damageSourceKind = "default",
+        damageSourceKind = "pf_piercing",
         sourceEntityId = entity.id()
       })
   end

@@ -4,8 +4,8 @@
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A dagger built from Erebium, this dark looking knife rends flesh easily. Very dangerous.",
-  "shortdescription" : "Erebium Dagger",
+  "description" : "A dagger built from Erebium, this dark looking knife rends flesh easily. Will sap life from a target at the slightest cut.",
+  "shortdescription" : "Erebus Kopis",
   "tooltipKind" : "pf_uniquesword",
   "category" : "dagger",
   "twoHanded" : false,
@@ -41,7 +41,7 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "pf_shadow",
 
   "aimOffset" : 0.0,
   "primaryAbility" : {
@@ -51,8 +51,8 @@
     "fireTime" : 0.35,
     "baseDps" : 9.0,
     "damageConfig" : {
-      "damageSourceKind" : "dagger",
-      "statusEffects" : [ "pf_bleedingdeep" ],
+      "damageSourceKind" : "pf_piercingdagger",
+      "statusEffects" : [ "pf_entropicdarkness" ],
       "knockbackMode" : "aim",
       "knockback" : 10,
       "timeoutGroup" : "primary"

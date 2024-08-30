@@ -5,7 +5,7 @@
       "pool" : [
         {"weight" : 0.699, "pool" : "basicMonsterTreasure"},
         {"weight" : 0.200, "item" : "staticcell"},
-		{"weight" : 0.100, "item" : [ "cloudblock", 5 ]},
+		    {"weight" : 0.100, "item" : [ "cloudblock", 5 ]},
         {"weight" : 0.001, "item" : "pf_nimbuspriteaf"}
       ],
       "poolRounds" : [
@@ -20,8 +20,81 @@
       "pool" : [
         {"weight" : 0.699, "pool" : "basicMonsterTreasure"},
         {"weight" : 0.200, "item" : "staticcell"},
-		{"weight" : 0.100, "item" : [ "cloudblock", 5 ]},
+		    {"weight" : 0.100, "item" : [ "cloudblock", 5 ]},
         {"weight" : 0.001, "item" : "pf_nimbuspriteaf"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "pf_robotankTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.689, "pool" : "robotTreasure"},
+        {"weight" : 0.100, "item" : "scorchedcore"},
+        {"weight" : 0.100, "item" : "pf_radioactiveremains"},
+		    {"weight" : 0.100, "pool" : "salvageComponent" },
+        {"weight" : 0.010, "item" : "pf_robotankhat" },
+        {"weight" : 0.001, "item" : "pf_robotankaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "pf_robotankHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.689, "pool" : "robotTreasure"},
+        {"weight" : 0.100, "item" : "scorchedcore"},
+        {"weight" : 0.100, "item" : "pf_radioactiveremains"},
+		    {"weight" : 0.100, "pool" : "salvageComponent" },
+        {"weight" : 0.010, "item" : "pf_robotankhat" },
+        {"weight" : 0.001, "item" : "pf_robotankaf"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "pf_darkwisperTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.2, "item" : "perfectlygenericitem"},
+        {"weight" : 0.1, "item" : "pf_darkwisperRare"},
+        {"weight" : 0.05, "item" : "pf_pixelcodex-codex" }
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "pf_darkwisperHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.2, "item" : "perfectlygenericitem"},
+        {"weight" : 0.1, "item" : "pf_darkwisperRare"},
+        {"weight" : 0.05, "item" : "pf_pixelcodex-codex" }
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "pf_darkwisperRare" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "pf_pgiJokes" },
+        {"weight" : 0.2, "item" : "persistenceofpixels" },
+        {"weight" : 0.2, "item" : "pf_newhorizonspainting" }
+      ],
+      "poolRounds" : [
+        [1.0, 1]
       ],
       "allowDuplication" : false
     }]

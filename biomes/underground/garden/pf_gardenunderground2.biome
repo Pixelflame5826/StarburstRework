@@ -3,7 +3,7 @@
   "friendlyName" : "Overgrown Ruins",
   
   "mainBlock" : "rock02",
-  "subBlocks" : [ "dirt", "rock20", "plantmatter" ],
+  "subBlocks" : [ "dirt", "rock12", "plantmatter" ],
   "ores" : "pf_gardendepth2",
   
   "spawnProfile" : {
@@ -294,6 +294,26 @@
             "modHueShiftMax" : 180
           }
         ]
+      },
+	  
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "pf_gardencavedeepmicrodungeons" ]
+      },
+	  
+	  {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:veryRare",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "pf_gardencaveraremicrodungeons" ]
       }
     ]
   }

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_slatepolished", "count" : 10 },
+	  { "item" : "ironbar", "count" : 5 }
+  ],
+  "output" : { "item" : "pf_slatetable", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

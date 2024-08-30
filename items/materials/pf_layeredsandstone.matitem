@@ -1,0 +1,14 @@
+{
+  "itemName" : "pf_layeredsandstone",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_layeredsandstone.png",
+  "shortdescription" : "Sandstone",
+  "description" : "A rough chunk of sandstone, made from many layers of cemented sand.",
+
+  "materialId" : 38404,
+  "learnBlueprintsOnPickup" : [
+    "pf_layeredsandstonepolished"
+  ]
+}

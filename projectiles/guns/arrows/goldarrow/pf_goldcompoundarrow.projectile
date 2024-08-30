@@ -17,7 +17,7 @@
   "power" : 20,
   "knockback" : 10,
   "knockbackDirectional" : true,
-  "damageKind" : "bow",
+  "damageKind" : "pf_piercingbow",
   "timeToLive" : 10,
   "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ]
 }

@@ -2,7 +2,7 @@
     {
         "op": "replace",
         "path": "/label",
-        "value": "^yellow;Wet - Increased fire resistance and electric susceptibility. Resists Mild Planet Heat. Can strengthen certain status effects and planet hazards."
+        "value": "^yellow;Wet - Increased fire resistance and electric susceptibility. Resists Mild Planet Heat, makes Deadly Chill stronger."
     },
 	{
         "op": "replace",

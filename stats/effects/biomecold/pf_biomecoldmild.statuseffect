@@ -17,6 +17,6 @@
 
   "animationConfig" : "biomecold.animation",
 
-  "label" : "^red;Mild Chill - Slow health loss that compounds over time. Reduced mobility.",
+  "label" : "^red;Mild Chill - Slow health loss that compounds over time. Reduced mobility. Mitigates Deadly Heat.",
   "icon" : "/interface/statuses/biomecold.png"
 }

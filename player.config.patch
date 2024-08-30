@@ -151,6 +151,13 @@
             "item": "stickofram"
         }
     },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_saltingredient"
+        }
+    },
     
 	//CONSUMABLE HAZARD BLOCKERS
 	{
@@ -228,6 +235,13 @@
         "path": "/defaultBlueprints/tier1/-",
         "value": {
             "item": "antidote"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_antifluidspray"
         }
     },
 	
@@ -560,6 +574,13 @@
         "path": "/defaultBlueprints/tier1/-",
         "value": {
             "item": "pf_xenogrenadelauncher"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_bambookatana"
         }
     },
 	

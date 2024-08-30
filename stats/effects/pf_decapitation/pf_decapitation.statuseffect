@@ -1,0 +1,14 @@
+{
+  "name" : "pf_decapitation",
+
+  "effectConfig" : {
+    "killThreshold" : 0.3
+  },
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "pf_decapitation.lua"
+  ],
+
+  "animationConfig" : "pf_decapitation.animation"
+}

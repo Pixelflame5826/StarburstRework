@@ -1,0 +1,25 @@
+{
+  "materialId" : 38410,
+  "materialName" : "pf_bamboodried",
+  "particleColor" : [209, 204, 135, 255],
+  "itemDrop" : "pf_bamboodried",
+  "description" : "Dried and skinned stalks of bamboo.",
+  "shortdescription" : "Bamboo",
+  "glitchDescription" : "Analytic. The bamboo colour indicates it was burn dried.",
+  "floranDescription" : "Refined bamboo stalkss.",
+  "novakidDescription" : "Some chopped an' dried bamboo.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_bamboodried.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

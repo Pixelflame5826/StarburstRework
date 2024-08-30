@@ -1,0 +1,24 @@
+{
+  "materialId" : 38413,
+  "materialName" : "pf_slate",
+  "particleColor" : [85, 85, 85, 255],
+  "itemDrop" : "pf_slate",
+  "description" : "Incredibly tough slate.",
+  "shortdescription" : "Slate",
+  "glitchDescription" : "Observant. This tough material would be perfect for roofing or a table.",
+  "floranDescription" : "Ssstrong and ssmooth rock. Floran like.",
+  "novakidDescription" : "There ain't no way a pickaxe is easy gettin' through this.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_slate.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1850
+  }
+}

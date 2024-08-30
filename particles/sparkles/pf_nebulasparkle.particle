@@ -1,0 +1,16 @@
+{
+  "kind" : "pf_nebulasparkle",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/sparkles/sparkleloop4.animation",
+    "position" : [0, 0],
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "fade" : 0.5,
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "size" : 1.5,
+    "timeToLive" : 7,
+    "fullbright" : true
+  }
+}

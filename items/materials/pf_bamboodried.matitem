@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_bamboodried",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_bamboodried.png",
+  "shortdescription" : "Dried Bamboo Panel",
+  "description" : "A panel of dried bamboo. Surprisingly sturdy.",
+
+  "materialId" : 38410
+}

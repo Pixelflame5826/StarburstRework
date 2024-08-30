@@ -2,8 +2,8 @@
   "name" : "pf_desertunderground2",
   "friendlyName" : "Sandstone Ravines",
   
-  "mainBlock" : "sandstone01",
-  "subBlocks" : [ "sand2", "sand", "rock20" ],
+  "mainBlock" : "pf_slopedsandstone",
+  "subBlocks" : [ "sand2", "sand" ],
   "ores" : "pf_desertdepth2",
   
   "spawnProfile" : {

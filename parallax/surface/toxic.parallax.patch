@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/layers/13/parallax/1",
+        "value": 1.3
+    },
+    {
+        "op": "replace",
+        "path": "/layers/13/offset/1",
+        "value": 575
+    },
+    {
+        "op": "replace",
+        "path": "/layers/12/parallax/1",
+        "value": 1.4
+    },
+    {
+        "op": "replace",
+        "path": "/layers/12/offset/1",
+        "value": 500
+    }
+]

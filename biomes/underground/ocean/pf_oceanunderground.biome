@@ -3,7 +3,7 @@
   "friendlyName" : "Abyssal Caverns",
   
   "mainBlock" : "sand2",
-  "subBlocks" : [ "sandstone01", "mud" ],
+  "subBlocks" : [ "pf_fossilstone", "mud", "sandstone01", "pf_saltblock" ],
   "ores" : "pf_oceandepth1",
   
   "spawnProfile" : {

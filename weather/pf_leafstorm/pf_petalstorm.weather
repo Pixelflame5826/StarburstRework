@@ -1,0 +1,58 @@
+{
+  "name" : "pf_petalstorm",
+
+  "particles" : [
+        {
+      "density" : 0.005,
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/windstorm/windstorm1.animation",
+        "velocity" : [0, 0],
+        "fade" : 0.5,
+        "looping" : true,
+        "destructionTime" : 20,
+        "timeToLive" : 20,
+        "collidesForeground" : false,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.005,
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/windstorm/windstorm2.animation",
+        "velocity" : [0, 0],
+        "fade" : 0.5,
+        "looping" : true,
+        "destructionTime" : 20,
+        "timeToLive" : 20,
+        "collidesForeground" : false,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.005,
+      "autoRotate" : true,
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/petals/petals.animation",
+        "velocity" : [0, -5.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 20,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 5,
+        "destructionImage" : "/animations/fallingleaves/pf_fallenpetal.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    }
+  ],
+
+  "duration" : [50, 400],
+  "maximumWind" : 10.0,
+  "weatherNoises" : [ "/sfx/weather/pf_leafstorm.ogg" ]
+}

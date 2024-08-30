@@ -11,6 +11,6 @@
 
   "animationConfig" : "pf_scorchedfire.animation",
 
-  "label" : "^red;Promethius's Fire - Damage over time that slowly compounds.",
+  "label" : "^red;Promethium Fire - Damage over time that slowly compounds.",
   "icon" : "/interface/statuses/pf_scorchedfire.png"
 }

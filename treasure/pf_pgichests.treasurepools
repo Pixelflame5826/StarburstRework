@@ -2,16 +2,15 @@
   "pf_pgiTreasure" : [
     [1, {
       "fill" : [
-		{"item" : ["perfectlygenericitem", 2]}
+		    {"item" : ["perfectlygenericitem", 2]}
       ],
       "pool" : [
-	    {"weight" : 0.5, "pool" : "pf_pgiVoxel"},
-		{"weight" : 0.275, "pool" : "pf_pgiArt"},
-		{"weight" : 0.175, "item" : ["orangestim", 10]},
-		{"weight" : 0.05, "pool" : "pf_pgiJokes"}
+	      {"weight" : 0.5, "pool" : "pf_pgiVoxel"},
+		    {"weight" : 0.175, "item" : ["orangestim", 10]},
+		    {"weight" : 0.05, "pool" : "pf_pgiJokes"}
       ],
 	  "poolRounds" : [
-        [1.00, 2]
+        [1.00, 1]
       ]
     }]
   ],
@@ -19,9 +18,9 @@
   "pf_pgiVoxel" : [
     [1, {
       "pool" : [
-	    {"weight" : 0.6, "item" : "voxel1k"},
-		{"weight" : 0.3, "item" : "voxel2k"},
-		{"weight" : 0.1, "item" : "voxel5k"}
+	      {"weight" : 0.6, "item" : "voxel1k"},
+		    {"weight" : 0.3, "item" : "voxel2k"},
+		    {"weight" : 0.1, "item" : "voxel5k"}
       ]
     }]
   ],
@@ -29,14 +28,14 @@
   "pf_pgiArt" : [
     [1, {
       "pool" : [
-	    {"weight" : 0.1, "item" : "paintingstarrynight"},
-		{"weight" : 0.1, "item" : "paintingscream"},
-		{"weight" : 0.1, "item" : "paintingmonalisa"},
-		{"weight" : 0.1, "item" : "genericpainting1"},
-		{"weight" : 0.1, "item" : "paintingshakespeare"},
-		{"weight" : 0.1, "item" : "paintingpearlearring"},
-		{"weight" : 0.1, "item" : "paintingcreationofpixel"},
-		{"weight" : 0.1, "item" : "grail"}
+	      {"weight" : 0.1, "item" : "paintingstarrynight"},
+		    {"weight" : 0.1, "item" : "paintingscream"},
+		    {"weight" : 0.1, "item" : "paintingmonalisa"},
+		    {"weight" : 0.1, "item" : "genericpainting1"},
+		    {"weight" : 0.1, "item" : "paintingshakespeare"},
+		    {"weight" : 0.1, "item" : "paintingpearlearring"},
+		    {"weight" : 0.1, "item" : "paintingcreationofpixel"},
+		    {"weight" : 0.1, "item" : "grail"}
       ]
     }]
   ],
@@ -44,10 +43,10 @@
   "pf_pgiJokes" : [
     [1, {
       "pool" : [
-	    {"weight" : 0.1, "item" : "devstatuegeorge"},
-		{"weight" : 0.05, "item" : "tallchair"},
-		{"weight" : 0.1, "item" : "floop"},
-		{"weight" : 0.1, "item" : "keyboard"}
+	      {"weight" : 0.1, "item" : "devstatuegeorge"},
+		    {"weight" : 0.05, "item" : "tallchair"},
+		    {"weight" : 0.1, "item" : "floop"},
+		    {"weight" : 0.1, "item" : "keyboard"}
       ]
     }]
   ],

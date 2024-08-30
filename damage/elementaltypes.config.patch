@@ -1,0 +1,30 @@
+[
+    {
+        "op": "add",
+        "path": "/pf_water",
+        "value": {
+            "resistanceStat": "iceResistance",
+            "damageNumberParticles": {
+                "hit": "pf_waterdamagenumber",
+                "stronghit": "pf_waterdamagenumberstrong",
+                "weakhit": "pf_waterdamagenumberweak",
+                "shieldhit": "pf_waterdamagenumber",
+                "kill": "pf_waterdamagenumber"
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/pf_piercing",
+        "value": {
+            "resistanceStat": "pf_piercingResistance",
+            "damageNumberParticles": {
+                "hit": "pf_piercingdamagenumber",
+                "stronghit": "pf_piercingdamagenumberstrong",
+                "weakhit": "pf_piercingdamagenumberweak",
+                "shieldhit": "pf_piercingdamagenumber",
+                "kill": "pf_piercingdamagenumber"
+            }
+        }
+    }
+]

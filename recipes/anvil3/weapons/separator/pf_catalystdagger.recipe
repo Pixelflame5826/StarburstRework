@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 20 },
+    { "item" : "refinedferozium", "count" : 6 },
+    { "item" : "rainbowwood", "count" : 4 }
+  ],
+  "output" : { "item" : "pf_catalystdagger", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_volcanicdirt",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_volcanicdirt.png",
+  "shortdescription" : "Andisol",
+  "description" : "A compact block of silicate volcanic ash converted into soil. Plants love this stuff.",
+
+  "materialId" : 38414
+}

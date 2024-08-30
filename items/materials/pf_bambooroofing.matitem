@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_bambooroofing",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_bambooroofing.png",
+  "shortdescription" : "Bamboo Roofing",
+  "description" : "Roofing tiles made out of bamboo. Sure to keep the rain off.",
+
+  "materialId" : 38412
+}

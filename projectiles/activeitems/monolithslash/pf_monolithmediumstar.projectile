@@ -1,0 +1,63 @@
+{
+  "projectileName" : "pf_monolithmediumstar",
+  "image" : "pf_monolithmediumstar.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [100, 100, 100],
+  "frameNumber" : 1,
+  "flippable" : false,
+  "fullbright" : true,
+  "damageKindImage" : "icon.png",
+  "physics" : "laser",
+  "emitters" : [ "daggerblue", "pf_nebulasmoke", "pf_nebulastars" ],
+  "movementSettings" : {
+    "collisionEnabled" : false
+  },
+  "piercing" : true,
+  
+  "actionOnReap" : [
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "stargazer",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "stargazer",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    },
+	
+	{
+      "action" : "projectile",
+      "type" : "pf_monolithsmallstar",
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : 25
+    },
+    {
+      "action" : "projectile",
+      "type" : "pf_monolithsmallstar",
+      "inheritDamageFactor" : 0.5,
+      "angleAdjust" : -25
+    }
+  ],
+  "periodicActions" : [
+    //{
+    //    "time" : 0,
+    //    "repeat" : false,
+    //    "action" : "sound",
+    //    "options" : [ "/sfx/gun/plasma_pistol1.ogg" ]
+    //}
+  ],
+  "damagePoly" : [ [-8, 0], [2, 3], [8, 0], [2, -3] ],
+  "damageKind" : "plasma",
+
+  "speed" : 20,
+  "timeToLive" : 0.5
+}

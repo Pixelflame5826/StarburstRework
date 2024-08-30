@@ -8,8 +8,8 @@
   "tooltipKind" : "pf_uniquegun",
   "category" : "machinePistol",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","machinepistol"],
-  "level" : 3,
+  "itemTags" : ["weapon","ranged","machinepistol","pf_anvilUpgradeableWeapon"],
+  "level" : 4,
 
   "inventoryIcon" : "pf_vermilliummachinepistol.png",
 
@@ -80,5 +80,22 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+  "upgradeParameters" : {
+	"level5" : {
+	  "inventoryIcon" : "pf_vermilliummachinepistol_l5.png",
+      "animationParts" : {
+        "middle" : "pf_vermilliummachinepistol_l5.png"
+      }
+	},
+	
+	"level6" : {
+	  "inventoryIcon" : "pf_vermilliummachinepistol_l6.png",
+      "animationParts" : {
+        "middle" : "pf_vermilliummachinepistol_l6.png"
+      },
+      "shortdescription" : "Gympiegun"
+	}
+  }
 }

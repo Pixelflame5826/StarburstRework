@@ -1,0 +1,14 @@
+{
+  "itemName" : "pf_basalt",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_basalt.png",
+  "shortdescription" : "Basalt",
+  "description" : "A collumn of weathered Basaltic rock.",
+
+  "materialId" : 38401,
+  "learnBlueprintsOnPickup" : [
+    "pf_basaltpillar"
+  ]
+}

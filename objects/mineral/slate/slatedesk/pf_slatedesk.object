@@ -1,0 +1,42 @@
+{
+  "objectName" : "pf_slatedesk",
+  "colonyTags" : ["storage","commerce"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "furniture",
+  "price" : 120,
+  "description" : "A sturdy geometric desk topped with slate.",
+  "shortdescription" : "Slate Desk",
+  "race" : "apex",
+  "health" : 1.5,
+
+  "apexDescription" : "The Miniknog are too boring for a desk like this.",
+  "avianDescription" : "I wonder what work would require such a strong surface.",
+  "floranDescription" : "Dessk iss sstony. Sstrange.",
+  "glitchDescription" : "Amused. A scholar could write their notes on this.",
+  "humanDescription" : "So... do I write on the desk?",
+  "hylotlDescription" : "One could only imagine what a scholar would do, to need a desk made of slate.",
+  "novakidDescription" : "Is this a cookin' surface, or a workin' surface?",
+
+  "inventoryIcon" : "pf_slatedeskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_slatedesk.png:<color>.<key>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bunkercabinet_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bunkercabinet_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

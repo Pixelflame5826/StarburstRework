@@ -1,0 +1,16 @@
+{
+  "name" : "pf_liquidpoison",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "weakpoison.lua"
+  ],
+
+  "animationConfig" : "weakpoison.animation",
+
+  "label" : "^red;Poisoned - Moderate damage over time. Becomes stronger when also Swamped.",
+  "icon" : "/interface/statuses/pf_liquidpoison.png"
+}

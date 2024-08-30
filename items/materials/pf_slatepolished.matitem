@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_slatepolished",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_slatepolished.png",
+  "shortdescription" : "Polished Slate",
+  "description" : "A polished tile of strong and flat slate.",
+
+  "materialId" : 38415
+}

@@ -3,6 +3,31 @@
   //                                        MAIN BIOMES
   // ==============================================================================================
   // ================================
+  //         GARDEN SECONDARY
+  // ================================
+  "pf_miningTreasure" : [
+    [1, {
+	  "fill" : [
+        {"pool" : "diggingTool"}
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : ["torch", 15]},
+		{"weight" : 1.0, "item" : ["flare", 15]},
+		{"weight" : 1.0, "item" : ["climbingrope", 5]},
+		
+		{"weight" : 0.05, "item" : "fossilbrushbeginner" },
+        {"weight" : 0.25, "item" : [ "yellowstim", 2]},
+		
+		{"weight" : 0.02, "item" : "mininglantern" },
+        {"weight" : 0.01, "item" : [ "redflashlight", 1]},
+        {"weight" : 0.01, "item" : [ "greenflashlight", 1]},
+        {"weight" : 0.01, "item" : [ "yellowflashlight", 1]}
+      ],
+	  "poolRounds" : [[0.6, 1], [0.3, 2], [0.1, 3]]
+    }]
+  ],
+  
+  // ================================
   //         ANABATIC/STORMY
   // ================================
 
@@ -34,15 +59,14 @@
 		{"weight" : 0.3, "item" : "pf_stormgearhead"},
 		{"weight" : 0.3, "item" : "pf_stormgearchest"},
 		{"weight" : 0.3, "item" : "pf_stormgearlegs"},
-		{"weight" : 0.15, "item" : "pf_stormgearback"},
+		{"weight" : 0.2, "item" : "pf_stormgearback"},
 		{"weight" : 0.2, "item" : "pf_stormygrapplinghook-recipe"},
 		{"weight" : 0.5, "item" : "pf_anemometer"},
 		{"weight" : 0.5, "item" : "pf_barometer"},
 		{"weight" : 0.5, "item" : "pf_thermometer"},
 		{"weight" : 0.5, "item" : "pf_raindoll"},
 		{"weight" : 0.5, "item" : "pf_climbingequipment"},
-		{"weight" : 0.2, "item" : "pf_stormyaxe"},
-		{"weight" : 0.2, "item" : "pf_stormypistol"}
+		{"weight" : 0.3, "pool" : "pf_stormyWeaponTreasure"}
       ]
     }]
   ],
@@ -86,6 +110,166 @@
 		{"weight" : 0.2, "item" : "gladiatiorhead"},
 		{"weight" : 0.2, "item" : "arenabruiserchest"}
       ]
+    }]
+  ],
+  
+  // ==============================================================================================
+  //                                        OTHER
+  // ==============================================================================================
+  // ================================
+  //          BIOME WEAPONS
+  // ================================
+  // TIER 1
+  "pf_gardenWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_gardenbroadsword" },
+		{"weight" : 1.0, "item" : "pf_gardenpistol" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  
+  //TIER 2
+  "pf_forestWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_forestbroadsword" },
+		{"weight" : 1.0, "item" : "pf_forestleafgun" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  
+  "pf_savannahWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_savannahsword" },
+		{"weight" : 1.0, "item" : "pf_savannahbow" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  
+  //TIER 3
+  "pf_oceanWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_oceanspear" },
+		{"weight" : 1.0, "item" : "pf_oceansniper" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  "pf_desertWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_deserthammer" },
+		{"weight" : 1.0, "item" : "pf_desertpistol" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  "pf_snowWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_snowshortsword" },
+		{"weight" : 1.0, "item" : "pf_snowgrenadelauncher" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  
+  //TIER 4
+  "pf_jungleWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_junglebroadsword" },
+		{"weight" : 1.0, "item" : "pf_jungleshotgun" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  "pf_alienWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_alienwhip" },
+		{"weight" : 1.0, "item" : "pf_alienraygun" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  
+  //TIER 5
+  "pf_tundraWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_tundrabroadsword" },
+		{"weight" : 1.0, "item" : "pf_tundraboomerangaxe" },
+		{"weight" : 0.3, "item" : "pf_catalystdartgun-recipe" },
+		{"weight" : 0.3, "item" : "pf_catalystdagger-recipe" },
+		{"weight" : 0.3, "item" : "pf_catalystwand-recipe" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  "pf_volcanicWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_volcanicbroadsword" },
+		{"weight" : 1.0, "item" : "pf_volcaniclauncher" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  "pf_stormyWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_stormyaxe" },
+		{"weight" : 1.0, "item" : "pf_stormypistol" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  
+  //TIER 6
+  "pf_scorchedWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_scorcheddagger" },
+		{"weight" : 1.0, "item" : "pf_scorchedrifle" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  "pf_toxicWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_toxicbroadsword" },
+		{"weight" : 1.0, "item" : "pf_toxicmachinepistol" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  "pf_midnightWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "pf_midnightshortsword" },
+		{"weight" : 0.5, "item" : "pf_midnightstaff" }
+      ],
+	  "poolRounds" : 1
+    }]
+  ],
+  
+  //OTHER
+  "pf_prismWeaponTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "pf_catalystdartgun-recipe" },
+		{"weight" : 0.3, "item" : "pf_catalystdagger-recipe" },
+		{"weight" : 0.3, "item" : "pf_catalystwand-recipe" }
+      ],
+	  "poolRounds" : 1
     }]
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "materialId" : 38411,
+  "materialName" : "pf_bamboolog",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "pf_bamboolog",
+  "description" : "Bound freshly cut stalks of bamboo.",
+  "shortdescription" : "Bamboo",
+  "glitchDescription" : "Hopeful. The bamboo colour indicates it was cut recently.",
+  "floranDescription" : "Fresssh bamboo stalkss.",
+  "novakidDescription" : "Some chopped bamboo.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_bamboologbound.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

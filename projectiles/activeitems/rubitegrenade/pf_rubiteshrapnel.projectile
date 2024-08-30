@@ -18,5 +18,5 @@
   "power" : 5.0,
   "speed" : 35,
   "knockback" : 10,
-  "damageKind" : "shotgunbullet"
+  "damageKind" : "pf_piercing"
 }

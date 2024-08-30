@@ -1,0 +1,235 @@
+{
+  "verticalOrigin" : -10,
+  
+  "layers" : [
+    {
+      "kind" : "divider/blackrock",
+      "offset" : [0, 350],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "tile/magmarock",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true,
+      "tileLimitTop" : 275,
+      "parallax" : 1.2
+    },
+
+    {
+      "kind" : "volcanicbelowunlit",
+      "offset" : [0, 290],
+      "parallax" : [1.79999, 2],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "moonbelow1",
+      "offset" : [0, 190],
+      "parallax" : [1.8, 2],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moonbelow2",
+      "offset" : [0, 190],
+      "parallax" : [1.8001, 2],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moonbelow3",
+      "offset" : [0, 190],
+      "parallax" : [1.8002, 2],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moonbelow3",
+      "offset" : [0, 330],
+      "parallax" : [1.8, 2],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moon1",
+      "offset" : [0, 50],
+      "parallax" : [1.8, 2],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moon1",
+      "offset" : [0, 50],
+      "parallax" : [1.8, 2.2],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moon2",
+      "offset" : [0, 50],
+      "parallax" : [2, 2.4],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moon3",
+      "offset" : [0, 50],
+      "parallax" : [3, 2.6],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moon4",
+      "offset" : [0, 50],
+      "parallax" : [4, 2.8],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moonpeach",
+      "offset" : [0, 487],
+      "parallax" : [4.01, 2.8],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "pf_midnightplutonic1unlit",
+      "offset" : [0, 330],
+      "parallax" : [5, 3],
+      "noRandomOffset" : true,
+      "unlit" : true,
+      "nohueshift" : true
+    },
+    {
+      "kind" : "midnight1",
+      "offset" : [0, 330],
+      "parallax" : [5, 3.0001],
+      "directives" : "?saturation=-100?brightness=20",
+      "noRandomOffset" : true
+    },
+    {
+      "kind" : "moon6",
+      "offset" : [0, 50],
+      "parallax" : [6, 3.2],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moon7",
+      "offset" : [0, 50],
+      "parallax" : [7, 3.4],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moon8",
+      "offset" : [0, 50],
+      "parallax" : [8, 3.6],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "moonpeach",
+      "offset" : [0, 487],
+      "parallax" : [8.01, 4.1],
+      "directives" : "?saturation=-100?brightness=-65"
+    },
+    {
+      "kind" : "volcanic3",
+      "offset" : [20, 140],
+      "parallax" : [9, 4.3],
+      "directives" : "?saturation=-100?brightness=-15"
+    },
+    {
+      "kind" : "volcanicbackunlit",
+      "baseCount" : 2,
+      "offset" : [50, 100],
+      "noRandomOffset" : true,
+      "parallax" : [10, 4.5],
+      "nohueshift" : true,
+      "unlit" : true,
+      "fadePercent" : 0.05
+    },
+    {
+      "kind" : "volcanicback",
+      "modCount" : 1,
+      "offset" : [50, 100],
+      "noRandomOffset" : true,
+      "parallax" : [10, 4.5001],
+      "nohueshift" : true,
+      "fadePercent" : 0.05,
+      "directives" : "?saturation=-100?brightness=-35"
+    },
+
+    {
+      "kind" : "volcanicclouds3",
+      "baseCount" : 2,
+      "offset" : [0, 270],
+      "parallax" : 10,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "fadePercent" : 0.15
+    },
+    {
+      "kind" : "volcanicclouds2",
+      "baseCount" : 2,
+      "offset" : [0, 210],
+      "parallax" : 14,
+      "minSpeed" : 2000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.06
+    },
+    {
+      "kind" : "volcanicclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 190],
+      "parallax" : 6,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "fadePercent" : 0.04
+    },
+    {
+      "kind" : "volcanicclouds3",
+      "baseCount" : 2,
+      "offset" : [0, 300],
+      "parallax" : 9,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "fadePercent" : 0.15
+    },
+    {
+      "kind" : "volcanicclouds2",
+      "baseCount" : 2,
+      "offset" : [0, 200],
+      "parallax" : 14,
+      "minSpeed" : 2000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.06
+    },
+    {
+      "kind" : "volcanicclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 360],
+      "parallax" : 6,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "fadePercent" : 0.04
+    },
+    {
+      "kind" : "volcanicclouds3",
+      "baseCount" : 2,
+      "offset" : [0, 330],
+      "parallax" : 9,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "fadePercent" : 0.15
+    },
+    {
+      "kind" : "volcanicclouds2",
+      "baseCount" : 2,
+      "offset" : [0, 250],
+      "parallax" : 14,
+      "minSpeed" : 2000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.06
+    },
+    {
+      "kind" : "volcanicclouds1",
+      "baseCount" : 2,
+      "offset" : [0, 350],
+      "parallax" : 6,
+      "minSpeed" : 5000,
+      "maxSpeed" : 10000,
+      "fadePercent" : 0.04
+    }
+  ]
+}

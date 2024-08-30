@@ -1,0 +1,24 @@
+{
+  "materialId" : 38404,
+  "materialName" : "pf_layeredsandstone",
+  "particleColor" : [215, 204, 137, 255],
+  "itemDrop" : "pf_layeredsandstone",
+  "description" : "Tough natural sandstone.",
+  "shortdescription" : "Sandstone",
+  "glitchDescription" : "Observant. This sandstone is made from fine particles of rock.",
+  "floranDescription" : "Ssandy layered rockss.",
+  "novakidDescription" : "Some sandy lookin' rocks. Its like a layer cake!",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 5,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_layeredsandstone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1850
+  }
+}

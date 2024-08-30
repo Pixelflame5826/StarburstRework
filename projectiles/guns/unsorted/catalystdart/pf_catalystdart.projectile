@@ -1,0 +1,21 @@
+{
+  "projectileName" : "pf_catalystdart",
+  "image" : "pf_catalystdart.png",
+  "animationCycle" : 0.25,
+  "physics" : "bullet",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 180,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 200.0,
+  "damageKind" : "dagger",
+  "statusEffects" : [ "pf_catalyst" ],
+  "emitters" : [ "sparkles" ]
+}
+
+

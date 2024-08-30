@@ -1,0 +1,43 @@
+{
+  "itemName" : "pf_monolithsword",
+  "level" : 6,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A large, unknowable blade that holds a very imposing visage. Oh my god, its full of stars!",
+  "shortdescription" : "Monolith",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "pf_monolithsword.png",
+
+  "animation" : "/items/active/weapons/unique/monolithsword/pf_monolithsword.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_shortsword_fire1.ogg", "/sfx/melee/swing_shortsword_fire2.ogg", "/sfx/melee/swing_shortsword_fire3.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_spear_fire1.ogg", "/sfx/melee/swing_spear_fire2.ogg", "/sfx/melee/swing_spear_fire3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.5,
+    "baseDps" : 12.5
+  },
+
+  "altAbilityType" : "astraltear",
+  "altAbility" : {
+    "projectileType" : "pf_monolithslash",
+	"name" : "Visage of the Stars",
+	"projectileOffset" : [0,0]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

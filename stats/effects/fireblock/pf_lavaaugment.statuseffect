@@ -1,0 +1,12 @@
+{
+  "name" : "pf_lavaaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "pf_burnspray.lua"
+  ],
+
+  "label" : "Lava Resist Augment - Immune to Melting and Burning.",
+  "icon" : "/interface/statuses/pf_lavablock.png"
+}

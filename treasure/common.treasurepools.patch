@@ -14,6 +14,40 @@
             "pool": "techTreasure"
         }
     },
+
+    //Adding in art to the valuableTreasure pool, so people can actually find them
+    {
+        "op": "add",
+        "path": "/valuableTreasure/3/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "pool": "pf_rareArtTreasure"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/valuableTreasure/2/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "pool": "pf_rareArtTreasure"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/valuableTreasure/1/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "pool": "pf_rareArtTreasure"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/valuableTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.1,
+            "pool": "pf_rareArtTreasure"
+        }
+    },
 	
 	//Adding in new ore samples to the geode treasure pool, to match with the biome materials
     {
@@ -225,6 +259,84 @@
             "pool": "pf_hazardAugments"
         }
     },
+    
+    //----NEW AUGMENTS----
+    {
+        "op": "add",
+        "path": "/augments/3/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_antifluidaugment"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/4/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "pf_antifluidaugment"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/5/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "pf_antifluidaugment"
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/augments/3/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_fallaugment"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/4/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "pf_fallaugment"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/5/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "pf_fallaugment"
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/augments/5/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_lavaaugment"
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/augments/4/1/pool/-",
+        "value": {
+            "weight": 0.5,
+            "item": "pf_novaaugment"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/augments/5/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "pf_novaaugment"
+        }
+    },
+
 	//----UNIQUE WEAPONS----
 	//Removal of Doomcannon and Ex Machina, to be reused in the PGI chests.
     {
@@ -242,6 +354,30 @@
         "value": {
             "weight": 0.2,
             "item": "pf_mastersbroadsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/uniqueWeapon/2/1/pool/-",
+        "value": {
+            "weight": 1,
+            "item": "pf_executioneraxe"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/uniqueWeapon/2/1/pool/-",
+        "value": {
+            "weight": 1,
+            "item": "pf_monolithsword"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/uniqueWeapon/1/1/pool/-",
+        "value": {
+            "weight": 1,
+            "item": "pf_windflarerifle"
         }
     }
 ]

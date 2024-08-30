@@ -12,5 +12,13 @@
                 "pf_pgiDefaultChest"
             ]
         }
+    },
+    {
+        "op": "add",
+        "path": "/spawnProfile/groups/0/pool/-",
+        "value": [
+            2,
+            "pf_icecrabcano"
+        ]
     }
 ]

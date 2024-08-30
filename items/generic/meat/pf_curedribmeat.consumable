@@ -1,0 +1,18 @@
+{
+  "itemName" : "pf_curedribmeat",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "inventoryIcon" : "pf_curedribmeat.png",
+  "description" : "The salt complements the meat on the ribs perfectly. Sadly no barbeque sauce.",
+  "shortdescription" : "Cured Ribs",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

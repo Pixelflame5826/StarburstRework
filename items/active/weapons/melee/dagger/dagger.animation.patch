@@ -1,0 +1,118 @@
+[
+    {
+        "op": "add",
+        "path": "/particleEmitters/pf_catalystswoosh",
+        "value": {
+            "active": false,
+            "transformationGroups": [
+                "swoosh"
+            ],
+            "emissionRate": 40,
+            "offsetRegion": [
+                -1.5,
+                -0.25,
+                1.5,
+                2
+            ],
+            "particles": [
+                {
+                    "particle": "sparkle1"
+                },
+                {
+                    "particle": "sparkle2"
+                },
+                {
+                    "particle": "sparkle3"
+                },
+                {
+                    "particle": "sparkle4"
+                },
+                {
+                    "particle": "sparkle5"
+                },
+                {
+                    "particle": "sparkle6"
+                }
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/particleEmitters/pf_piercingswoosh",
+        "value": {
+            "active": false,
+            "transformationGroups": [
+                "swoosh"
+            ],
+            "emissionRate": 40,
+            "offsetRegion": [
+                -1.5,
+                -0.25,
+                1.5,
+                2
+            ],
+            "particles": [
+                
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/particleEmitters/pf_scorchingfireswoosh",
+        "value": {
+            "active": false,
+            "transformationGroups": [
+                "swoosh"
+            ],
+            "emissionRate": 40,
+            "offsetRegion": [
+                -1.5,
+                -0.25,
+                1.5,
+                2
+            ],
+            "particles": [
+                {
+                    "particle": "fireswoosh1"
+                },
+                {
+                    "particle": "fireswoosh3"
+                },
+                {
+                    "particle": "fireswoosh3"
+                },
+                {
+                    "particle": "fireswoosh1"
+                },
+                {
+                    "particle": "fireswoosh3"
+                },
+                {
+                    "particle": "fireswoosh3"
+                }
+            ]
+        }
+    },
+	{
+        "op": "add",
+        "path": "/particleEmitters/pf_shadowswoosh",
+        "value": {
+            "active": false,
+            "transformationGroups": [
+                "swoosh"
+            ],
+            "emissionRate": 40,
+            "offsetRegion": [
+                -1.5,
+                -0.25,
+                1.5,
+                2
+            ],
+            "particles": [
+				{ "particle" : "shadowshard"},
+				{ "particle" : "shadowshard"},
+				{ "particle" : "shadowsmoke"}
+            ]
+        }
+    }
+]

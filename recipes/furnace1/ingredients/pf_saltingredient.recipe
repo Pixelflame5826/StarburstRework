@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "pf_saltblock", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pf_saltingredient",
+    "count" : 3
+  },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

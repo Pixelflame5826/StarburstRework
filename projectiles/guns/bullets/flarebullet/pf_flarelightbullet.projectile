@@ -1,0 +1,25 @@
+{
+  "projectileName" : "pf_flarelightbullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "pf_flarelightbullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 0,
+  "speed" : 100,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "pf_flarelightbulletactive",
+      "inheritSpeedFactor" : 0.01,
+	  "angle" : 0
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [50, 50, 50],
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}
