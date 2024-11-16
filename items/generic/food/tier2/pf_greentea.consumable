@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_greentea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_greentea.png",
+  "description" : "A very refreshing form of tea made from ground up tea leaves. Its flavor is well beloved.",
+  "shortdescription" : "Green Tea",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_matchacake", "pf_matchaicecream" ]
+}

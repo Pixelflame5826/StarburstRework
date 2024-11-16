@@ -1,0 +1,57 @@
+{
+  "objectName" : "pf_forestleafgunpedestal",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "An overgrown pedestal with a strange leaf-filled gun on it.",
+  "shortdescription" : "Forest Gun Pedestal",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 10,
+
+  "apexDescription" : "A gun that shoots... leaves? Is that even effective?",
+  "avianDescription" : "Curious weapon. Does it shoot leaves?",
+  "floranDescription" : "Floran isss confusssed. Leavesss not ssharp.",
+  "glitchDescription" : "Astonished. A military grade weapon that fires leaves. I have no words.",
+  "humanDescription" : "Well, I suppose a weaponized leaf blower will be sure to blow my enemies' socks off",
+  "hylotlDescription" : "This is not what the old elders meant by \"The Power of Nature\".",
+  "novakidDescription" : "Well, I've seen guns that shoot water and fire, but ain't no gun that shot leaves",
+
+  "inventoryIcon" : "pf_forestleafgunpedestal.png:default.2.0",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "pf_forestleafgunpedestal.png:default.2.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "pf_forestleafgunpedestal.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-12, 0],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [99999, 99999]
+    },
+    {
+      "duration" : [99999, 99999]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "pf_forestleafgunpedestalHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "startingStage": 3,
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false,
+  
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 5, "particle" : "metalshard" } ]
+}

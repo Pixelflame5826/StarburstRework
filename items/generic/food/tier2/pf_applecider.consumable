@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_applecider",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_applecider.png",
+  "description" : "Spiced apple cider, made from the whole apple. The perfect autumn drink.",
+  "shortdescription" : "Apple Cider",
+  "effects" : [ [
+    {
+        "effect" : "regenerationfood",
+        "duration" : 135
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_appledonut" ]
+}

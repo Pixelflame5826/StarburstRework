@@ -1,0 +1,14 @@
+{
+  "name" : "pf_cooler",
+
+  "effectConfig" : {
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_cooler.lua"
+  ],
+
+  "label" : "Air Cooler - Immunity to Mild Heat",
+  "icon" : "/interface/statuses/pf_cooler.png"
+}

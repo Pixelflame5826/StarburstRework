@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_ashapple", "count" : 1 },
+    { "item" : "chili", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_volcanicspice", "count" : 3 },
+  "groups" : [ "craftingfood", "condiments" ]
+}

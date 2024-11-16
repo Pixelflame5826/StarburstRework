@@ -1,0 +1,32 @@
+{
+  "itemName" : "pf_starcookie",
+  "rarity" : "Rare",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_starcookie.png",
+  "description" : "A star shaped cookie made from flaming spice and spikes. It tastes oddly metallic.",
+  "shortdescription" : "Providence Cookie",
+  "effects" : [ [
+    {
+      "effect" : "nova",
+      "duration" : 160
+    },
+    {
+      "effect" : "thorns",
+      "duration" : 160
+    },
+    {
+      "effect" : "burning",
+      "duration" : 5
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

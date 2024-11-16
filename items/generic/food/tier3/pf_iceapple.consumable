@@ -1,0 +1,28 @@
+{
+  "itemName" : "pf_iceapple",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_iceapple.png",
+  "description" : "A frozen apple coated in frostberries. Really hard to bite into.",
+  "shortdescription" : "Apple Icesheet",
+  "effects" : [ [
+    {
+        "effect" : "pf_defenseboostfood",
+        "duration" : 240
+    },
+    {
+        "effect" : "maxhealthscalingfood",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

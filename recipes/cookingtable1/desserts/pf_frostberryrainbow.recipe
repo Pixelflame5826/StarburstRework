@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "pf_frostberry", "count" : 1 },
+    { "item" : "snowball", "count" : 2 },
+    { "item" : "currentcorn", "count" : 1 },
+    { "item" : "chili", "count" : 1 },
+    { "item" : "toxictop", "count" : 1 },
+    { "item" : "eggshoot", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_frostberryrainbow", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]//,
+  //"collectables" : { "cooking" : "pf_frostberryrainbow" }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pf_frostberry", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_frostberryjuice", "count" : 1 },
+  "groups" : [ "campfire", "consumables", "craftingfood", "drinks", "all" ]
+}

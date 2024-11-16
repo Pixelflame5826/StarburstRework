@@ -1,0 +1,12 @@
+{
+  "itemName" : "pf_tealeaf",
+  "price" : 30,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "pf_tealeaf.png",
+  "description" : "A leaf from the tea plant. Used in beverages of all kinds, floral to sweet.",
+  "shortdescription" : "Tea Leaf",
+  "learnBlueprintsOnPickup" : [ "pf_blacktea", "pf_greentea" ]
+  
+}

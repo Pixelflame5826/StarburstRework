@@ -1,0 +1,16 @@
+{
+  "itemName" : "pf_chilispice",
+  "price" : 15,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "pf_chilispice.png",
+  "description" : "A spice made from ground up chili pepper, quite hot. Used in cooking.",
+  "shortdescription" : "Chili Spice",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "pf_chilitaco",
+    "pf_fireballs",
+    "pf_coldrations",
+    "pf_spicyfeathercrown"
+  ]
+}

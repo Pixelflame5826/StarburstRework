@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "snowball", "count" : 3 },
+    { "item" : "orange", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_orangesorbet", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]//,
+  //"collectables" : { "cooking" : "pf_orangesorbet" }
+}

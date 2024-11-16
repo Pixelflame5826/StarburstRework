@@ -2,7 +2,7 @@
   "itemName" : "pf_saltingredient",
   "price" : 5,
   "rarity" : "Common",
-  "category" : "craftingMaterial",
+  "category" : "cookingIngredient",
   "inventoryIcon" : "pf_saltingredient.png",
   "description" : "Pure sodium chloride, or salt for the uninformed. Used in cooking and curing meat.",
   "shortdescription" : "Salt",

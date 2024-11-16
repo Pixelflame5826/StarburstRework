@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 4 },
+    { "item" : "goldbar", "count" : 2 },
+    { "item" : "smallbattery", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_durasteeldrill", "count" : 1 },
+  "groups" : [ "craftingfarm2", "survival" ]
+}

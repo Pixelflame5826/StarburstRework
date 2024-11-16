@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "currentcorn", "count" : 1 },
+    { "item" : "alienfruit", "count" : 1 },
+    { "item" : "chili", "count" : 1 },
+    { "item" : "coffeebeans", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_overclock", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]//,
+  //"collectables" : { "cooking" : "pf_overclock" }
+}

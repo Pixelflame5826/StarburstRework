@@ -1,0 +1,58 @@
+[
+  [
+    {
+        "op" : "test",
+        "path" : "/scripts",
+        "inverse" : true
+    },
+    {
+        "op" : "add",
+        "path" : "/scripts",
+        "value" : [ ]
+    }
+  ],
+  [
+    {
+        "op": "add",
+        "path": "/scripts/-",
+        "value": "/objects/scripts/pf_statuseffectobject.lua"
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A vent commonly used in bunkers. Cold, sterile air blows through its fan."
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -40,
+                -40
+            ],
+            [
+                40,
+                40
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_cooler"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+  ]
+]

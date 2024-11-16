@@ -1,0 +1,28 @@
+{
+  "itemName" : "pf_prismsicle",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_prismsicle.png",
+  "description" : "A cold popsicle made from frostberry and neonmelon. It glows slightly from within.",
+  "shortdescription" : "Prismscile",
+  "effects" : [ [
+    {
+        "effect" : "pf_mildbiomeheatprotection",
+        "duration" : 120
+    },
+    {
+        "effect" : "glow",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

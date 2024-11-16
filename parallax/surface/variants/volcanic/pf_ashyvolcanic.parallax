@@ -174,7 +174,7 @@
       "kind" : "pf_volcanicashvolcano",
       "offset" : [0, 300],
       "parallax" : [12.50001, 6],
-      "fadePercent" : 0.3,
+      "fadePercent" : 0.05,
       "noRandomOffset" : true
     },
   // Day Clouds

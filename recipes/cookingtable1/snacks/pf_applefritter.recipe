@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "redapple", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_applefritter", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]//,
+  //"collectables" : { "cooking" : "pf_applefritter" }
+}

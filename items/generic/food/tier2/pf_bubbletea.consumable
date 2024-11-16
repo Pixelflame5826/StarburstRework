@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_bubbletea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_bubbletea.png",
+  "description" : "A basic milk tea with seeds at the bottom to slurp up. This is kinda fun.",
+  "shortdescription" : "Boba Tea",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 90
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

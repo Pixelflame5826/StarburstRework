@@ -1,0 +1,58 @@
+[
+  [
+    {
+        "op" : "test",
+        "path" : "/scripts",
+        "inverse" : true
+    },
+    {
+        "op" : "add",
+        "path" : "/scripts",
+        "value" : [ ]
+    }
+  ],
+  [
+    {
+        "op": "add",
+        "path": "/scripts/-",
+        "value": "/objects/scripts/pf_statuseffectobject.lua"
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A floor vent that conditions the atmosphere around it. The air blowing is just right."
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -25,
+                -25
+            ],
+            [
+                25,
+                25
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_conditioner"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+  ]
+]

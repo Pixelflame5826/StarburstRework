@@ -1,0 +1,30 @@
+{
+  "itemName" : "pf_icedtea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_icedtea.png",
+  "description" : "Cold tea sweetened to perfection. A favorite of Novakids, its a perfect drink for a lazy hot day.",
+  "shortdescription" : "Iced Sweet Tea",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 120
+    },
+    {
+        "effect" : "pf_mildbiomeheatprotection",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_oculemontea" ]
+}

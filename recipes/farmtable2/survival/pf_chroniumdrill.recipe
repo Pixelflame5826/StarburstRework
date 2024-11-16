@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_chroniumbar", "count" : 4 },
+    { "item" : "diamond", "count" : 1 },
+	  { "item" : "battery", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_chroniumdrill", "count" : 1 },
+  "groups" : [ "craftingfarm2", "survival" ]
+}

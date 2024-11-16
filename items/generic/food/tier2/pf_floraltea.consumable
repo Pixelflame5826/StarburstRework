@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_floraltea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_floraltea.png",
+  "description" : "Tea flavored with flower petals, tastes like it too. Hylotl say it fills the senses, granting you pure focus.",
+  "shortdescription" : "Floral Tea",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 150
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

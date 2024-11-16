@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_neonmelontea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_neonmelontea.png",
+  "description" : "A fruity herbal tea containing neonmelon. It glows slightly in the dark.",
+  "shortdescription" : "Brightea",
+  "effects" : [ [
+    {
+      "effect" : "energyregen",
+      "duration" : 120
+    },
+    {
+      "effect" : "glow",
+      "duration" : 120
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

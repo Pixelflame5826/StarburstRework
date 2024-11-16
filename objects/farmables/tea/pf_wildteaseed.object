@@ -1,0 +1,65 @@
+{
+  "objectName" : "pf_wildteaseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "Tea is one of the most common drinks in the cosmos. For good reason.",
+  "shortdescription" : "Tea Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 15,
+
+  "apexDescription" : "A cup of tea to start the morning is a luxury not many get.",
+  "avianDescription" : "Tea is such a relaxing beverage. Sad you can't cultivate it in deserts.",
+  "floranDescription" : "Leafy tea. Much like Floran.",
+  "glitchDescription" : "Pleased. Tea is such a good pick me up after a long day of work.",
+  "humanDescription" : "Crazy how tea became so popular. Especially after the last human conflict.",
+  "hylotlDescription" : "Tea right from the tree. Used in many things, I prefer floral variants, though Matcha is amazing.",
+  "novakidDescription" : "A nice cup o' iced tea is the perfect thing to cool ya down.",
+
+  "inventoryIcon" : "pf_teaseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "pf_teaseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "pf_teaseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "alts" : 3,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "pf_teaHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "breakDropOptions" : [
+    [ [ "pf_teaseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false
+}

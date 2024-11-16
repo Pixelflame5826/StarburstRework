@@ -1,0 +1,25 @@
+{
+  "itemName" : "pf_grilledpepper",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_grilledpepper.png",
+  "description" : "Chili peppers that have been roasted over an open flame. Very hot and spicy.",
+  "shortdescription" : "Flamed Peppers",
+  "effects" : [ [
+    {
+        "effect" : "pf_mildbiomecoldresistance",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "pf_hotkebab" ]
+}

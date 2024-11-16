@@ -1,0 +1,24 @@
+{
+  "itemName" : "pf_applepie",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_applepie.png",
+  "description" : "A sweet pie filled with sliced apples. A favorite to Humanity, there's not much more famous than its.",
+  "shortdescription" : "Apple Pie",
+  "effects" : [ [
+    {
+        "effect" : "regenerationfood",
+        "duration" : 360
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

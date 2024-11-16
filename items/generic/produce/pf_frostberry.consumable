@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_frostberry",
+  "rarity" : "Common",
+  "price" : 110,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "pf_frostberry.png",
+  "description" : "A very sweet and tart fruit that grows in icy regions. Supposedly can melt and solidify.",
+  "shortdescription" : "Frostberry",
+  "effects" : [ [
+    {
+        "effect" : "frostslow",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 3.75,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "pf_frostberryjuice", "pf_iceapple" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "pf_volcanicspice", "count" : 1 },
+    { "item" : "thornfruit", "count" : 1 },
+    { "item" : "wheat", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_starcookie", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]//,
+  //"collectables" : { "cooking" : "pf_starcookie" }
+}

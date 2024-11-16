@@ -1,0 +1,16 @@
+[
+    {
+        "op": "remove",
+        "path": "/effects/0/3"
+    },
+    {
+        "op": "replace",
+        "path": "/effects/0/2/duration",
+        "value": 120
+    },
+    {
+        "op": "replace",
+        "path": "/effects/0/2/effect",
+        "value": "pf_mildbiomecoldprotection"
+    }
+]

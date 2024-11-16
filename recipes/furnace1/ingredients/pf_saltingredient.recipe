@@ -6,5 +6,5 @@
     "item" : "pf_saltingredient",
     "count" : 3
   },
-  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+  "groups" : [ "craftingfurnace", "ingredients", "craftingfood", "condiments", "all" ]
 }

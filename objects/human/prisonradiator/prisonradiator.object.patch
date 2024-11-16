@@ -1,0 +1,58 @@
+[
+  [
+    {
+        "op" : "test",
+        "path" : "/scripts",
+        "inverse" : true
+    },
+    {
+        "op" : "add",
+        "path" : "/scripts",
+        "value" : [ ]
+    }
+  ],
+  [
+    {
+        "op": "add",
+        "path": "/scripts/-",
+        "value": "/objects/scripts/pf_statuseffectobject.lua"
+    },
+    {
+        "op": "add",
+        "path": "/detectEntityTypes",
+        "value": [
+            "player",
+            "npc"
+        ]
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A barely functional space heater that emits an unpleasant hum. Still keeps you warm however."
+    },
+    {
+        "op": "add",
+        "path": "/statusArea",
+        "value": [
+            [
+                -30,
+                -30
+            ],
+            [
+                30,
+                30
+            ]
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffect",
+        "value": "pf_heater"
+    },
+    {
+        "op": "add",
+        "path": "/effectDuration",
+        "value": 10
+    }
+  ]
+]

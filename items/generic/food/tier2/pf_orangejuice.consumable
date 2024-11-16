@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_orangejuice",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_orangejuice.png",
+  "description" : "Very simple and delicious orange juice. Perfect start to any morning, allegedly.",
+  "shortdescription" : "Orange Juice",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingfood",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_marmalade", "pf_orangesorbet", "pf_mimosa" ]
+}

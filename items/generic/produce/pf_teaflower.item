@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_teaflower",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "pf_teaflower.png",
+  "description" : "A flower from the tea plant. Has a distinct floral aroma that carries to its taste.",
+  "shortdescription" : "Tea Flower",
+  "learnBlueprintsOnPickup" : [ "pf_herbaltea" ]
+}

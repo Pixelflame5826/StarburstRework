@@ -1,0 +1,37 @@
+{
+  "itemName" : "pf_overclock",
+  "rarity" : "rare",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_overclock.png",
+  "description" : "A very powerful energy drink that powers to the max. So acidic, it could probably melt you.",
+  "shortdescription" : "Overclock",
+  "effects" : [ [
+    {
+      "effect" : "runboostfood",
+      "duration" : 180
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 180
+    },
+    {
+      "effect" : "energyregen",
+      "duration" : 180
+    },
+    {
+      "effect" : "weakpoison",
+      "duration" : 10
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

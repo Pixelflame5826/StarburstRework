@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_applejuice",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_applejuice.png",
+  "description" : "Simple squeezed apple juice. Can't go wrong with a classic.",
+  "shortdescription" : "Apple Juice",
+  "effects" : [ [
+    {
+        "effect" : "regenerationfood",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_applecider" ]
+}

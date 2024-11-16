@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_currentcornjuice",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_currentcornjuice.png",
+  "description" : "Has a large kick and is potentially unsafe to drink. Its like drinking watered down acid.",
+  "shortdescription" : "Currentcorn Juice",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 100
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_batteryacid" ]
+}

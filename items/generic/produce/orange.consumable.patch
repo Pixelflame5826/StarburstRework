@@ -1,0 +1,26 @@
+[[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A bright and sunny orange. A fruit famous for its tart yet sweet taste, used in plenty of pastries."
+    }
+],
+[
+    {
+        "op" : "test",
+        "path" : "/learnBlueprintsOnPickup",
+        "inverse" : true
+    },
+    {
+        "op" : "add",
+        "path" : "/learnBlueprintsOnPickup",
+        "value" : [ ]
+    }
+],
+[
+    {
+        "op": "add",
+        "path": "/learnBlueprintsOnPickup/-",
+        "value": "pf_orangejuice"
+    }
+]]

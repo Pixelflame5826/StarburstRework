@@ -1,0 +1,24 @@
+{
+  "itemName" : "pf_fries",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_fries.png",
+  "description" : "Chopped potatoes that have been deep fried and salted. Though wasn't it Chips?",
+  "shortdescription" : "Fries",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboost",
+      "duration" : 400
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

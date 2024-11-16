@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "pf_tealeaf", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_matchacake", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]//,
+  //"collectables" : { "cooking" : "pf_matchacake" }
+}

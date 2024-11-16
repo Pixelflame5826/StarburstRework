@@ -1,4 +1,62 @@
 {
+  // CROPS
+  "pf_appleHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "redapple"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "pf_orangeHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.00, "item" : "orange"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "pf_frostberryHarvest" : [
+    [0, {
+      "fill" : [
+        {"item" : "pf_frostberry"}
+      ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "pf_frostberry"},
+        {"weight" : 0.01, "item" : "pf_frostberryseed"},
+        {"weight" : 0.1, "item" : ["ice", 2]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ]
+    } ]
+  ],
+  "pf_teaHarvest" : [
+    [0, {
+      "fill" : [
+        {"item" : "pf_teaflower"},
+        {"item" : "pf_tealeaf"}
+      ],
+      "pool" : [
+        {"weight" : 0.60, "item" : "pf_tealeaf"},
+        {"weight" : 0.35, "item" : ["pf_tealeaf", 2]},
+        {"weight" : 0.04, "item" : "pf_teaflower"},
+        {"weight" : 0.01, "item" : "pf_teaseed"}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ]
+    } ]
+  ],
+
   // CREATURES
   "pf_radioactiveFluffaloHarvest" : [
     [1, {

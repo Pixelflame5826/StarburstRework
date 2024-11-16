@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A hard, strange fruit with a slight spicy taste, favorite in Avian cuisine. Must be plucked before cooked."
+    }
+]

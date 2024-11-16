@@ -1,0 +1,24 @@
+{
+  "itemName" : "pf_scav",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_scav.png",
+  "description" : "A dry tasting fruit stuffed in a hard ashy shell. Not that great, but its better than nothing.",
+  "shortdescription" : "The Scav",
+  "effects" : [ [
+    {
+      "effect" : "pf_defenseboostfood",
+      "duration" : 240
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

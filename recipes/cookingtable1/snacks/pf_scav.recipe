@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_ashapple", "count" : 1 },
+    { "item" : "wartweedjam", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_scav", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]//,
+  //"collectables" : { "cooking" : "pf_scav" }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A sweet melon reminiscent of bubblegum. Its flesh glows a slight yellow."
+    },
+    {
+        "op": "add",
+        "path": "/learnBlueprintsOnPickup/-",
+        "value": "pf_prismsicle"
+    },
+    {
+        "op": "add",
+        "path": "/learnBlueprintsOnPickup/-",
+        "value": "pf_neonmelontea"
+    }
+]

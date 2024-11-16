@@ -1,0 +1,32 @@
+{
+  "itemName" : "pf_applesteak",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_applesteak.png",
+  "description" : "A steak glazed with apples with a side of potatoes. A warm hearty meal for the autumn months.",
+  "shortdescription" : "Autumn Steak",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 240
+    },
+    {
+        "effect" : "regenerationfood",
+        "duration" : 240
+    },
+    {
+        "effect" : "pf_mildbiomecoldprotection",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

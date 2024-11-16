@@ -4101,94 +4101,59 @@
     },
 	
 	//SECONDARY BIOME CHANGES
-	{
-        "op": "replace",
-        "path": "/planetTypes/scorchedcity/layers/surface/secondaryRegions/1",
-        "value": "barren"
-    },
     {
-        "op": "remove",
-        "path": "/planetTypes/volcanic/layers/surface/secondaryRegions/3"
+        "op": "replace",
+        "path": "/planetTypes/forest/layers/surface/secondaryRegions",
+        "value":  [ "garden", "pf_coldgarden", "pf_mountaingarden", "jungle", "pf_primordialjungle" ]
     },
     {
         "op": "replace",
-        "path": "/planetTypes/volcanic/layers/surface/secondaryRegions/2",
-        "value": "barren"
+        "path": "/planetTypes/savannah/layers/surface/secondaryRegions",
+        "value":  [ "garden", "pf_flatgarden", "desert", "pf_lushdesert", "pf_mountaindesert" ]
     },
+
     {
-        "op": "remove",
-        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/4"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/3"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/2"
+        "op": "replace",
+        "path": "/planetTypes/desert/layers/surface/secondaryRegions",
+        "value":  [ "savannah", "pf_veldsavannah", "pf_mountainsavannah", "barren" ]
     },
     {
         "op": "replace",
-        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/1",
-        "value": "barren"
+        "path": "/planetTypes/snow/layers/surface/secondaryRegions",
+        "value":  [ "pf_coldgarden", "pf_snowystormy", "tundra", "pf_frosttundra" ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/planetTypes/jungle/layers/surface/secondaryRegions",
+        "value":  [ "forest", "pf_fungalforest", "pf_lushtoxic", "alien", "pf_arborealalien" ]
     },
     {
         "op": "replace",
-        "path": "/planetTypes/midnight/layers/surface/secondaryRegions/0",
-        "value": "tundra"
+        "path": "/planetTypes/alien/layers/surface/secondaryRegions",
+        "value":  [ "jungle", "pf_primordialjungle", "pf_fungalforest" ]
     },
+
     {
-        "op": "remove",
-        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/4"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/3"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/2"
+        "op": "replace",
+        "path": "/planetTypes/volcanic/layers/surface/secondaryRegions",
+        "value":  [ "desert", "pf_harshdesert", "midnight", "pf_plutonicmidnight", "pf_volcanicjungle"  ]
     },
     {
         "op": "replace",
-        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/1",
-        "value": "snow"
+        "path": "/planetTypes/tundra/layers/surface/secondaryRegions",
+        "value":  [ "snow", "pf_mountainsnow", "pf_grassysnow", "forest", "pf_coldgarden"  ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/planetTypes/scorchedcity/layers/surface/secondaryRegions",
+        "value":  [ "volcanic", "pf_felsicvolcanic", "pf_flowvolcanic", "pf_harshdesert", "pf_veldsavannah"  ]
     },
     {
         "op": "replace",
-        "path": "/planetTypes/tundra/layers/surface/secondaryRegions/0",
-        "value": "forest"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/alien/layers/surface/secondaryRegions/2"
-    },
-    {
-        "op": "replace",
-        "path": "/planetTypes/alien/layers/surface/secondaryRegions/1",
-        "value": "forest"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/3"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/2"
-    },
-    {
-        "op": "replace",
-        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/1",
-        "value": "alien"
-    },
-    {
-        "op": "replace",
-        "path": "/planetTypes/jungle/layers/surface/secondaryRegions/0",
-        "value": "forest"
-    },
-    {
-        "op": "remove",
-        "path": "/planetTypes/savannah/layers/surface/secondaryRegions/3"
+        "path": "/planetTypes/midnight/layers/surface/secondaryRegions",
+        "value":  [ "volcanic", "pf_felsicvolcanic", "pf_flowvolcanic", "tundra", "pf_snowystormy"  ]
     },
 	
 	//------NEW DUNGEONS-----//

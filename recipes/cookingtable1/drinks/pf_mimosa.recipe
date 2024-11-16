@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "orange", "count" : 1 },
+    { "item" : "livingroot", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_mimosa", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]//,
+  //"collectables" : { "cooking" : "pf_mimosa" }
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "pf_avesmingojam",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_avesmingojam.png",
+  "description" : "A prismatic jam that tastes sour, sweet, earthy, umami, and/or bitter.",
+  "shortdescription" : "Avesmingo Jam",
+  "effects" : [ [
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 120
+    },
+    {
+      "effect" : "runboostfood",
+      "duration" : 120
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_abscession" ]
+}

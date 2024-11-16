@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_marmalade",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_marmalade.png",
+  "description" : "A form of preserved orange using sugar, orange peels, and juice. Very tart and has many uses.",
+  "shortdescription" : "Marmalade",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingfood",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_orangepoultry", "pf_orangecake" ]
+}

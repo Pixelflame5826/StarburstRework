@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "chili", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_hotkebab", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]//,
+  //"collectables" : { "cooking" : "pf_hotkebab" }
+}

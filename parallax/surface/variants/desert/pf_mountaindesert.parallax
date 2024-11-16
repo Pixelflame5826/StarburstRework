@@ -63,7 +63,7 @@
       "kind" : "pf_desertmountainrocks",
       "offset" : [0, 5],
       "parallax" : 2.2,
-      "fadePercent" : 0.15
+      "fadePercent" : 0.1
     },
     {
       "kind" : "desertforeground",
@@ -107,7 +107,7 @@
       "offset" : [0, 200],
       "parallax" : 12,
       "baseCount" : 3,
-      "fadePercent" : 0.7
+      "fadePercent" : 0.2
     },
     {
       "kind" : "desertrare",  
@@ -115,7 +115,7 @@
       "baseCount" : 5,
       "parallax" : [19, 12.001],
       "frequency" : 1,     
-      "fadePercent" : 0.8
+      "fadePercent" : 0.4
     },
 
 // Day Clouds

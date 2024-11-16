@@ -1,0 +1,54 @@
+{
+  "objectName" : "pf_fallingpetals1",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "description" : "Falling petals.",
+  "shortdescription" : "Petal Source",
+  "race" : "human",
+  "category" : "decorative",
+  "scannable" : false,
+  "printable" : false,
+
+  "particleEmitter" : {
+    "emissionRate" : 0.5,
+    "emissionVariance" : 0.2,
+    "pixelOrigin" : [4, 7],
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/petals/petals.animation",
+      "initialVelocity" : [-0.5, -2.5],
+      "finalVelocity" : [-1.5, -5],
+      "angularVelocity" : 20,
+      "timeToLive" : 20,
+      "destructionAction" : "Image",
+      "destructionTime" : 5,
+      "destructionImage" : "/animations/fallingleaves/pf_fallenpetal.png",
+      "collidesForeground" : true,
+      "collidesLiquid" : true
+    },
+	  "particleVariance" : {
+      "initialVelocity" : [0.5, -0.5],
+      "finalVelocity" : [-0.5, 0],
+      "position" : [0.1, -0.5]
+    }
+
+  },
+
+  "inventoryIcon" : "pf_fallingpetals1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_fallingpetals1.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+
+    }
+  ],
+
+  "smashOnBreak" : true,
+
+  "biomePlaced" : true
+}

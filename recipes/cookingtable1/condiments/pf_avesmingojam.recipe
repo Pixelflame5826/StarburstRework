@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "avesmingo", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_avesmingojam", "count" : 1 },
+  "groups" : [ "craftingfood", "condiments" ]//,
+  //"collectables" : { "cooking" : "pf_avesmingojam" }
+}

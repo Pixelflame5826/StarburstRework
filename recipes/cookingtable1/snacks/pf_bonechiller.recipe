@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "boneboo", "count" : 1 },
+    { "item" : "pf_frostberrymelt", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_bonechiller", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]//,
+  //"collectables" : { "cooking" : "pf_bonechiller" }
+}

@@ -1,0 +1,91 @@
+{
+  "projectileName" : "pf_ashapplebomb",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 1.5,
+  "image" : "pf_ashapplebomb.png",
+  "animationCycle" : 1.5,
+  "lightColor" : [105, 64, 0],
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockback.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 55
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -55
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -1
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -65
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 65
+    }
+  ],
+  "power" : 60,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
+}

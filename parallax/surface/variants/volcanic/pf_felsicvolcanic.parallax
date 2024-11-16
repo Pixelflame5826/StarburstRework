@@ -113,7 +113,7 @@
       "kind" : "pf_volcanicfelsicvolcano",
       "offset" : [0, 300],
       "parallax" : 13.50001,
-      "fadePercent" : 0.6,
+      "fadePercent" : 0.05,
       "noRandomOffset" : true
     },
 

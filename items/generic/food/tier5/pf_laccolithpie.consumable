@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_laccolithpie",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_laccolithpie.png",
+  "description" : "Tastes like ash and burns your mouth like lava. Its like an apple pie from hell!",
+  "shortdescription" : "Laccolith Pie",
+  "effects" : [ [
+    {
+      "effect" : "nova",
+      "duration" : 240
+    },
+    {
+      "effect" : "burning",
+      "duration" : 5
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "pf_starcookie" ]
+}

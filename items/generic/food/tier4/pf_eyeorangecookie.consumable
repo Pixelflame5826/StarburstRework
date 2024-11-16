@@ -1,0 +1,28 @@
+{
+  "itemName" : "pf_eyeorangecookie",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_eyeorangecookie.png",
+  "description" : "An eye shaped cookie said to be so sour that even your eyes clench from the sensation.",
+  "shortdescription" : "Eyeclench Cookie",
+  "effects" : [ [
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 180
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 180
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

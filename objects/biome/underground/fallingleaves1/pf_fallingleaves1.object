@@ -1,0 +1,54 @@
+{
+  "objectName" : "pf_fallingleaves1",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "description" : "Falling leaves.",
+  "shortdescription" : "Leaf Source",
+  "race" : "human",
+  "category" : "decorative",
+  "scannable" : false,
+  "printable" : false,
+
+  "particleEmitter" : {
+    "emissionRate" : 0.5,
+    "emissionVariance" : 0.2,
+    "pixelOrigin" : [4, 7],
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/fallingleaves/pf_fallingleaves.animation",
+      "initialVelocity" : [-0.5, -2.5],
+      "finalVelocity" : [-1.5, -5],
+      "angularVelocity" : 90,
+      "timeToLive" : 20,
+      "destructionAction" : "Image",
+      "destructionTime" : 5,
+      "destructionImage" : "/animations/fallingleaves/pf_fallenleaf.png",
+      "collidesForeground" : true,
+      "collidesLiquid" : true
+    },
+	  "particleVariance" : {
+      "initialVelocity" : [0.5, -0.5],
+      "finalVelocity" : [-0.5, 0],
+      "position" : [0.1, -0.5]
+    }
+
+  },
+
+  "inventoryIcon" : "pf_fallingleaves1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pf_fallingleaves1.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+
+    }
+  ],
+
+  "smashOnBreak" : true,
+
+  "biomePlaced" : true
+}

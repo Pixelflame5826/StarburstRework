@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "pf_chilispice", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "wheat", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_chilitaco", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]//,
+  //"collectables" : { "cooking" : "pf_chilitaco" }
+}

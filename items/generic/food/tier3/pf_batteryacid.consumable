@@ -1,0 +1,30 @@
+{
+  "itemName" : "pf_batteryacid",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_batteryacid.png",
+  "description" : "Banana and currentcorn makes a sweet, though likely dangerous drink. Good source of potassium!",
+  "shortdescription" : "Battery Acid",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 120
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 12,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_overclock" ]
+}

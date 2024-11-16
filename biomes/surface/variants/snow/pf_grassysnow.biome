@@ -328,6 +328,20 @@
             }
           }
         ]
+      },
+      {
+        "mode" : "floor",
+			  "priority" : 0.0,
+			  "variants" : 1,
+			  "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+			  "type" : "object",
+			  "objectSets" : [
+				  {
+					  "pool" : [ [0.5, "pf_wildfrostberryseed" ] ],
+					  "parameters" : { "startingStage" : 4 }
+				  }
+			  ]
       }
     ]
   },

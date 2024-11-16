@@ -3,7 +3,7 @@
 	{
         "op": "replace",
         "path": "/visitableTypeDescription/scorchedcity/2",
-        "value": "The landing site is ^#b24301;scorched^white; by the ^#c70000;intense heat and radioactivity of the planet's surface^white;. Only some sentient beings remain, possibly out of desperation."
+        "value": "The landing site is ^#b24301;scorched^white; by the ^#c70000;intense heat and radiation on the planet's surface^white;. Only some people remain, possibly out of desperation."
     },
     {
         "op": "replace",
@@ -18,17 +18,17 @@
     {
         "op": "replace",
         "path": "/visitableTypeDescription/midnight/2",
-        "value": "Scans show that the surface is ^#e11212;unnervingly dark^white;. In fact, scans show little else. However, I surmise that the surface is ^#c70000;dangerously cold and electrfied^white;."
+        "value": "Scans show that the surface is ^#e11212;unnervingly dark^white;. In fact, scans show that the surface also is ^#c70000;dangerously cold and electrfied^white;."
     },
     {
         "op": "replace",
         "path": "/visitableTypeDescription/midnight/1",
-        "value": "This ^#e11212;dark^white; world is ^#c70000;perilously cold and very electrified^white;. Strange shadowy figures dwell here, hidden in the unremitting night, said to be older than all else."
+        "value": "This ^#e11212;dark^white; world is ^#c70000;perilously cold and very electrified^white;. Strange shadowy figures dwell here, said to be older than all else."
     },
     {
         "op": "replace",
         "path": "/visitableTypeDescription/midnight/0",
-        "value": "This is a ^#e11212;dark^white; world where the sun never rises. The surface is ^#c70000;dangerously cold and static^white;. You should prepare yourself both mentally and physically for exploration."
+        "value": "This is a ^#e11212;dark^white; world where the sun never rises. The surface is ^#c70000;dangerously cold and static^white;. You should prepare yourself both mentally."
     },
     {
         "op": "replace",
@@ -437,72 +437,8 @@
     }
 ],
 
-//MORE PLANET INFO PATCHES
-[
-	{ "op": "test", "path": "/weatherThreatValues/snow" },
-	
-	//WEATHER VALUES
-	{
-        "op": "replace",
-        "path": "/weatherThreatValues/snow",
-        "value": 1
-    },
-    {
-        "op": "replace",
-        "path": "/weatherThreatValues/ember",
-        "value": 2
-    },
-    {
-        "op": "replace",
-        "path": "/weatherThreatValues/storm",
-        "value": 1
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_coldfront",
-        "value": 1
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_cosmicrays",
-        "value": 1
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_heatedrain",
-        "value": 1.25
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_heatwave",
-        "value": 1
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_poisoncloud",
-        "value": 1.25
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_radioactivefallout",
-        "value": 1.2
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_radioactiverain",
-        "value": 1
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_radstorm",
-        "value": 1
-    },
-    {
-        "op": "add",
-        "path": "/weatherThreatValues/pf_thundersnow",
-        "value": 2
-    },
-	
+//MORE PLANET INFO AND PLANET SEARCH PATCHES
+[	
 	//NEW DUNGEONS
     {
         "op": "add",
@@ -592,8 +528,80 @@
             "displayName": "Deadly Toxicity",
             "icon": "/interface/cockpit/hazards/pf_poison.png"
         }
+    },
+
+    { "op" : "add", "path" : "/namesList/pf_", "value" : { "word" : "pf_", "friendlyWord" : ""} },
+    { "op" : "add", "path" : "/wordsList/pf_", "value" : { "word" : "pf_", "friendlyWord" : ""} }
+],
+
+//MORE PLANET INFO PATCHES
+[
+	{ "op": "test", "path": "/weatherThreatValues/snow" },
+	
+	//WEATHER VALUES
+	{
+        "op": "replace",
+        "path": "/weatherThreatValues/snow",
+        "value": 1
+    },
+    {
+        "op": "replace",
+        "path": "/weatherThreatValues/ember",
+        "value": 2
+    },
+    {
+        "op": "replace",
+        "path": "/weatherThreatValues/storm",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_coldfront",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_cosmicrays",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_heatedrain",
+        "value": 1.25
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_heatwave",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_poisoncloud",
+        "value": 1.25
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_radioactivefallout",
+        "value": 1.2
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_radioactiverain",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_radstorm",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/weatherThreatValues/pf_thundersnow",
+        "value": 2
     }
 ],
+
+//PLANET SEARCH PATCHES
 [
     { "op": "test", "path": "/planetSearch_ignore" },
     
@@ -680,7 +688,7 @@
 
     { "op": "add", "path": "/displayBiomes/pf_lushocean", "value": { "name": "Lively Ocean", "icon": "/interface/bookmarks/icons/ocean.png" } },
     { "op": "add", "path": "/displayBiomes/pf_reefocean", "value": { "name": "Reef Ocean", "icon": "/interface/bookmarks/icons/ocean.png" } },
-    { "op": "add", "path": "/displayBiomes/pf_stormyocean", "value": { "name": "Tropical Ocean", "icon": "/interface/bookmarks/icons/ocean.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_stormyocean", "value": { "name": "Typhoon Ocean", "icon": "/interface/bookmarks/icons/ocean.png" } },
 
     { "op": "add", "path": "/displayBiomes/pf_grassysnow", "value": { "name": "Snowy Steppe", "icon": "/interface/bookmarks/icons/snow.png" } },
     { "op": "add", "path": "/displayBiomes/pf_mountainsnow", "value": { "name": "Snowy Mountains", "icon": "/interface/bookmarks/icons/snow.png" } },
@@ -718,8 +726,8 @@
     { "op": "add", "path": "/displayBiomes/pf_plutonicmidnight", "value": { "name": "Plutonic Midnight", "icon": "/interface/bookmarks/icons/midnight.png" } },
     { "op": "add", "path": "/displayBiomes/pf_snowmidnight", "value": { "name": "Snowdrift Midnight", "icon": "/interface/bookmarks/icons/midnight.png" } },
 
-    { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Oil Fields", "icon": "/interface/bookmarks/icons/toxic.png" } },
-    { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Ports", "icon": "/interface/bookmarks/icons/toxic.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_industrialtoxic", "value": { "name": "Toxic Oil Fields", "icon": "/interface/bookmarks/icons/toxic.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_urbantoxic", "value": { "name": "Toxic Ports", "icon": "/interface/bookmarks/icons/toxic.png" } },
     { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Archipelago", "icon": "/interface/bookmarks/icons/toxic.png" } },
 
     //Dungeons

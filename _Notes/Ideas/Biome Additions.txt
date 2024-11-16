@@ -11,20 +11,11 @@ Windswept: A prairie covered in rainstorms. Farmhouses can commonly be found her
 ---Underground Biomes---
 Industrial Caverns: Strange caverns of industry, built by those wishing to use the natural resources in the rocks for production.
 
-Underground Foundry: A foundry built underground, abandoned by those who went above ground for the metallic trees.
-
 Active Mines: A colony of Novakids decided to move into some abandoned mines to set up shop and prospect for rare resources.
-
-Flooded Caverns: A cavern system absolutely filled with water, it still has the specifications for a cave, but the pockets are filled with water.
 
 Shale Layer: A layer of nothing but hard rock, really hard to traverse, however you might find some strange ruins preserved under the layers of stone.
 
 Wake of the Dream: A cavern system full of chutes and tight corridors, hard to traverse, dangerous as well. (?)
-
-Obsidian Caverns: Incredibly dark caves full of strange ruins, the background and blocks are one with the darkness, making traversal tough.
-
-Arboreal Caverns: Caverns covered in trees and plants, wood covers the walls and roots grow everywhere amongst the caverns. High in water.
-
 
 ---Underground Minibiomes---
 

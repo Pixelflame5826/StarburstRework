@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "pf_frostberry", "count" : 1 },
+    { "item" : "snowball", "count" : 2 },
+    { "item" : "cryonicextract", "count" : 1 },
+    { "item" : "eggshoot", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_frostberryfreeze", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]//,
+  //"collectables" : { "cooking" : "pf_frostberryfreeze" }
+}

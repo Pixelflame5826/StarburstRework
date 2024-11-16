@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A juicy red apple. A sweet fruit commonly used in pastries and beverages, also good to eat on its own."
+    },
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Apple"
+    },
+    {
+        "op": "add",
+        "path": "/learnBlueprintsOnPickup/-",
+        "value": "pf_applejuice"
+    },
+    {
+        "op": "add",
+        "path": "/learnBlueprintsOnPickup/-",
+        "value": "applecrumble"
+    }
+]

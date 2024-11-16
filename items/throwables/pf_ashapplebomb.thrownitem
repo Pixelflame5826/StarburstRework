@@ -1,0 +1,34 @@
+{
+  "itemName" : "pf_ashapplebomb",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_ashapplebombicon.png",
+  "image" : "pf_ashapplebomb.png",
+  "largeImage" : "pf_ashapplebomb.png",
+  "shortdescription" : "Ash Apple Bomb",
+  "description" : "An ash apple with a wick inside of it. Explodes with fiery ashen death.",
+  "tooltip" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.2,
+  "cooldown" : 0.5,
+
+  "projectileType" : "pf_ashapplebomb",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 16,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua"
+}

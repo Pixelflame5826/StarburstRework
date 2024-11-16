@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_herbaltea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_herbaltea.png",
+  "description" : "A common form of tea that is considered more refined. Can be an acquired taste to some.",
+  "shortdescription" : "Herbal Tea",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_floraltea", "pf_neonmelontea" ]
+}

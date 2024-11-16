@@ -764,6 +764,13 @@
             "item": "pf_ironpickaxe"
         }
     },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_irondrill"
+        }
+    },
 	{
         "op": "add",
         "path": "/defaultBlueprints/tier1/-",
@@ -771,11 +778,25 @@
             "item": "pf_durasteelpickaxe"
         }
     },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_durasteeldrill"
+        }
+    },
 	{
         "op": "add",
         "path": "/defaultBlueprints/tier1/-",
         "value": {
             "item": "pf_chroniumpickaxe"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_chroniumdrill"
         }
     }
 ]

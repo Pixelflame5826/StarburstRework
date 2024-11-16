@@ -3,7 +3,9 @@
 	
     {
         "op": "replace",
-        "path": "/findStarterWorldParameters/requiredSystemWorlds/1/terrestrialBiome",
-        "value": "savannah"
+        "path": "/findStarterWorldParameters/requiredSystemWorlds",
+        "value": [{
+            "terrestrialBiome": "moon"
+        }]
     }
 ]

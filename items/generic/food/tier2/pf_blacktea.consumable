@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_blacktea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_blacktea.png",
+  "description" : "Simple and refreshing black tea. Beloved all over and used in many different ways.",
+  "shortdescription" : "Black Tea",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_bubbletea", "pf_icedtea" ]
+}

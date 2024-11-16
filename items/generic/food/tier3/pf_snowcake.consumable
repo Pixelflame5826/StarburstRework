@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_snowcake",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_snowcake.png",
+  "description" : "A strange shaped cake baked with frostberry essence. Its said no two taste the same.",
+  "shortdescription" : "Snowcake",
+  "effects" : [ [
+    {
+      "effect" : "pf_defenseboostfood",
+      "duration" : 360
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 360
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

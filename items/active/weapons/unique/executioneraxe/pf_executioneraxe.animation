@@ -75,7 +75,7 @@
   },
 
   "particleEmitters" : {
-    "physicalswoosh" : {
+    "pf_piercingswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],
       "emissionRate" : 50,

@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_oculemontea",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_oculemontea.png",
+  "description" : "Oculemonade and black tea combined together in a fruity drink. Tastes better than it sounds.",
+  "shortdescription" : "Ocular Palmer",
+  "effects" : [ [
+    {
+      "effect" : "runboostfood",
+      "duration" : 120
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 120
+    }
+  ] ],
+  "foodValue" : 12,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

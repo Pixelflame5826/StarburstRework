@@ -1,0 +1,24 @@
+{
+  "itemName" : "pf_orangecake",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_orangecake.png",
+  "description" : "A sweet and tart bundt cake baked with orange zest. The orange lover's delight.",
+  "shortdescription" : "Orange Cake",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingfood",
+        "duration" : 325
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

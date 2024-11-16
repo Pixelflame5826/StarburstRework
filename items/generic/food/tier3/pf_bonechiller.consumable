@@ -1,0 +1,32 @@
+{
+  "itemName" : "pf_bonechiller",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_bonechiller.png",
+  "description" : "Boneboo dipped and frozen in sweet melted frostberry. A favorite treat during spooky times.",
+  "shortdescription" : "Bonechiller",
+  "effects" : [ [
+    {
+      "effect" : "pf_defenseboostfood",
+      "duration" : 180
+    },
+    {
+      "effect" : "ragefood",
+      "duration" : 180
+    },
+    {
+      "effect" : "pf_mildbiomeheatprotection",
+      "duration" : 120
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

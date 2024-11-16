@@ -1,0 +1,24 @@
+{
+  "itemName" : "pf_appledonut",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_appledonut.png",
+  "description" : "A fruity form of cake donut made with cider. Do not eat with icing, its considered taboo.",
+  "shortdescription" : "Cider Donut",
+  "effects" : [ [
+    {
+        "effect" : "regenerationfood",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "pf_volcanicspice", "count" : 2 },
+    { "item" : "scorchedcore", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_firesteak", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]//,
+  //"collectables" : { "cooking" : "pf_firesteak" }
+}

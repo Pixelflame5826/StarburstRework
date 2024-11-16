@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "pearlpea", "count" : 1 },
+    { "item" : "pf_chilispice", "count" : 2 },
+    { "item" : "tomato", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_fireballs", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]//,
+  //"collectables" : { "cooking" : "pf_fireballs" }
+}

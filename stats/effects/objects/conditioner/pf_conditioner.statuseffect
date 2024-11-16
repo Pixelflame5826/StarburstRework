@@ -1,0 +1,14 @@
+{
+  "name" : "pf_conditioner",
+
+  "effectConfig" : {
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_conditioner.lua"
+  ],
+
+  "label" : "Air Conditioner - Immunity to Mild Heat and Mild Cold",
+  "icon" : "/interface/statuses/pf_conditioner.png"
+}

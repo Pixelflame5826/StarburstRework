@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_boilerjoe",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_boilerjoe.png",
+  "description" : "Hot coffee boiled inside of a diodia. Has a slight copper taste that mechanics like.",
+  "shortdescription" : "Boiler Joe",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+    },
+    {
+        "effect" : "pf_mildbiomecoldprotection",
+        "duration" : 150
+    }
+  ] ],
+  "foodValue" : 12,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

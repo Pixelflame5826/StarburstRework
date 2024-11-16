@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "redapple", "count" : 1 },
+    { "item" : "pf_frostberry", "count" : 1 },
+    { "item" : "ice", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_iceapple", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]//,
+  //"collectables" : { "cooking" : "pf_iceapple" }
+}

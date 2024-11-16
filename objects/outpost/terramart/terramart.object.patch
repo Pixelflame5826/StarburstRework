@@ -1,7 +1,17 @@
 [
     {
         "op": "add",
-        "path": "/interactData/items/-",
+        "path": "/interactData/items/8",
         "value": { "item": "pf_radioactivefluffaloegg" }
+    },
+    {
+        "op": "add",
+        "path": "/interactData/items/-",
+        "value": { "item": "pf_appletreeseed" }
+    },
+    {
+        "op": "add",
+        "path": "/interactData/items/-",
+        "value": { "item": "pf_orangetreeseed" }
     }
 ]

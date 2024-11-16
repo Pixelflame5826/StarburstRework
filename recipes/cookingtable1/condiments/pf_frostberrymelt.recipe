@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "pf_frostberry", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_frostberrymelt", "count" : 1 },
+  "groups" : [ "craftingfood", "condiments" ]//,
+  //"collectables" : { "cooking" : "pf_frostberrymelt" }
+}

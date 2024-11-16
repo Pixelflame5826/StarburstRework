@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_ashapple",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "pf_ashapple.png",
+  "description" : "A hard fruit that contains, and tastes like, sand. It can burn really well and is very explosive.",
+  "shortdescription" : "Ash Apple",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "pf_volcanicspice", "pf_ashapplebomb" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "dirturchin", "count" : 1 },
+    { "item" : "pf_saltingredient", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_dirturchinade", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]//,
+  //"collectables" : { "cooking" : "pf_dirturchinade" }
+}

@@ -1,0 +1,36 @@
+{
+  "itemName" : "pf_dirtybomb",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_dirtybomb.png",
+  "description" : "Toxictop jam stuffed into an explosive shell. Its literally an explosion in your mouth.",
+  "shortdescription" : "Dirty Bomb",
+  "effects" : [ [
+    {
+      "effect" : "nova",
+      "duration" : 360
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 360
+    },
+    {
+      "effect" : "burning",
+      "duration" : 5
+    },
+    {
+      "effect" : "weakpoison",
+      "duration" : 5
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "pf_forestleafgunlore",
+  "species" : "human",
+  "title" : "Arb-3 \"Leaf Blower\"",
+  "description" : "An old USCM experiment log about a strange weapon they designed.",
+  "icon" : "pf_forestleafguncover.png",
+  "contentPages" : [
+    "USCM Experiment Log 129-Arb-3
+
+Our experiments relating to the Floran ability of Biogenesis have been a failure. We have been able to figure out the mechanisms, much less finding a way to weaponize it. However, we have made a minor breakthrough. By taking multiple samples from the sub-terranian plantlife, we might've found a way to weaponize nature itself without the need for Biogenesis.",
+
+"The leaves down here are much more hardy than the ones on the surface, so through some genetic modification and some basic biomancy, we've effectively made easily harvested shrapnel. The leaves themselves have become hard, brittle, and most importantly, sharp. We have currently designed a weapon based off of a leaf blower to harness them.",
+
+"Thankfully we've almost completed our R&D down here, as the Florans are likely to find our position eventually. I doubt they appreciate our presence and our constant experimentation on their environment."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

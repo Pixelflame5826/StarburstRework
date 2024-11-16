@@ -1,0 +1,25 @@
+{
+  "itemName" : "pf_coldrations",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_coldrations.png",
+  "description" : "Canned meat spiced with chili. Made to stave off the cold for a long while.",
+  "shortdescription" : "Mountaineer's Special",
+  "effects" : [ [
+    {
+      "effect" : "pf_mildbiomecoldresistance",
+      "duration" : 240
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "pf_firesteak" ]
+}

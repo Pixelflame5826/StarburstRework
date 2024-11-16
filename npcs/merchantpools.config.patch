@@ -116,5 +116,55 @@
                 ]
             ]
         ]
+    },
+    {
+        "op": "add",
+        "path": "/novakidingredients/0/1/-",
+        "value": {
+            "item": {
+                "name": "orange"
+            },
+            "rarity": 0.05
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlingredients/0/1/-",
+        "value": {
+            "item": {
+                "name": "pf_tealeaf"
+            },
+            "rarity": 0.05
+        }
+    },
+    {
+        "op": "add",
+        "path": "/humaningredients/0/1/-",
+        "value": {
+            "item": {
+                "name": "orange"
+            },
+            "rarity": 0.05
+        }
+    },
+    {
+        "op": "add",
+        "path": "/humaningredients/0/1/-",
+        "value": {
+            "item": {
+                "name": "pf_tealeaf"
+            },
+            "rarity": 0.05
+        }
+    },
+    {
+        "op": "add",
+        "path": "/apexingredients/0/1/-",
+        "value": {
+            "item": {
+                "name": "pf_frostberry"
+            },
+            "rarity": 0.05
+        }
     }
 ]

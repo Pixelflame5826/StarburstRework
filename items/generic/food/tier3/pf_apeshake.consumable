@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_apeshake",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_apeshake.png",
+  "description" : "A banana shake containing frostberry. A traditional Apex treat in the cold climate.",
+  "shortdescription" : "Frosty Ape",
+  "effects" : [ [
+    {
+        "effect" : "pf_defenseboostfood",
+        "duration" : 120
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

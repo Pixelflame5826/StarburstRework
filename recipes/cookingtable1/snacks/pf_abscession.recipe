@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pussplum", "count" : 1 },
+    { "item" : "pf_avesmingojam", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_abscession", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]//,
+  //"collectables" : { "cooking" : "pf_abscession" }
+}

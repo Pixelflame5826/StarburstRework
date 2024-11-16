@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "redapple", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_applepie", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]//,
+  //"collectables" : { "cooking" : "applepie" }
+}

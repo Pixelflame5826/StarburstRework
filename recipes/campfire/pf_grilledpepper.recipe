@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "chili", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_grilledpepper", "count" : 1 },
+  "groups" : [ "campfire", "consumables", "craftingfood", "mains", "all" ]
+}

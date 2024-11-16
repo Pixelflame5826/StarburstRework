@@ -1,0 +1,57 @@
+{
+  "objectName" : "pf_forestbroadswordstump",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A stump with a flowery sword embedded within it.",
+  "shortdescription" : "Forest Sword Stump",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 10,
+
+  "apexDescription" : "Interesting, a sword in a stump. I wonder who made it.",
+  "avianDescription" : "Such an interesting sight, a flowering blade embedded within an alive stump.",
+  "floranDescription" : "Floran sssurprised! Thisss sword isss made by Floranss!",
+  "glitchDescription" : "Amazed. Such an interesting weapon, embedded within a stump. How legendary!",
+  "humanDescription" : "I've heard of a sword in a stone, but this is... somehow even more wierd.",
+  "hylotlDescription" : "Oh! A blade, covered in flowers. Curious, this is not of Hylotl design, but it is similar.",
+  "novakidDescription" : "A sword in a stump, and here I thought I've seen everythin'.",
+
+  "inventoryIcon" : "pf_forestbroadswordstump.png:default.2.0",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "pf_forestbroadswordstump.png:default.2.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "pf_forestbroadswordstump.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-8, 0],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [99999, 99999]
+    },
+    {
+      "duration" : [99999, 99999]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "pf_forestbroadswordstumpHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "startingStage": 3,
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false,
+  
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 5, "particle" : "woodshard" } ]
+}

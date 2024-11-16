@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_tealeaf", "count" : 1 },
+    { "item" : "pf_teaflower", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_herbaltea", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]//,
+  //"collectables" : { "cooking" : "pf_herbaltea" }
+}

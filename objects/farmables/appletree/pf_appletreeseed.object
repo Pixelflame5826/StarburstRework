@@ -1,0 +1,61 @@
+{
+  "objectName" : "pf_appletreeseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A small Apple tree made for off-Earth cultivation. Makes really juicy and sweet fruits.",
+  "shortdescription" : "Apple Mini-Sapling",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 15,
+
+  "apexDescription" : "Ah, an apple. Apex teeth are perfectly suited for its flesh, very satisfying.",
+  "avianDescription" : "Apples so red that they make Avolite look dull in comparison.",
+  "floranDescription" : "Floran not like applesss that much, too hard.",
+  "glitchDescription" : "Humored. Well, this certainly is the apple of my vision circuits.",
+  "humanDescription" : "Can't go wrong with an apple. Slice 'em, roast 'em, bake 'em in a pie.",
+  "hylotlDescription" : "It is interesting how much apples show up in Human literature, perhaps its the red hue.",
+  "novakidDescription" : "The good ol' apple, makes a mighty fine cider.",
+
+  "inventoryIcon" : "pf_appletreeseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "pf_appletreeseed.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "pf_appletreeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2], [-1, 3], [-0, 3]  ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [580, 620]
+    },
+    {
+      "duration" : [580, 620]
+    },
+    {
+      "alts" : 3,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 3,
+      "harvestPool" : "pf_appleHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

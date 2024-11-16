@@ -1,0 +1,14 @@
+{
+  "name" : "pf_heater",
+
+  "effectConfig" : {
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_heater.lua"
+  ],
+
+  "label" : "Air Heater - Immunity to Mild Cold",
+  "icon" : "/interface/statuses/pf_heater.png"
+}

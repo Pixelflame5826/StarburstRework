@@ -1,0 +1,9 @@
+[
+    {
+        "op": "add",
+        "path": "/dropConfig/drops/0/-",
+        "value": {
+            "item": "pf_ashapple"
+        }
+    }
+]

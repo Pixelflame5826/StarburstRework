@@ -1,0 +1,29 @@
+{
+  "itemName" : "pf_dirturchinade",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_dirturchinade.png",
+  "description" : "This drink doesn't taste that good, but when you need a boost, it tastes amazing.",
+  "shortdescription" : "Urchinade",
+  "effects" : [ [
+    {
+      "effect" : "runboostfood",
+      "duration" : 180
+    },
+    {
+      "effect" : "regenerationfood",
+      "duration" : 180
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

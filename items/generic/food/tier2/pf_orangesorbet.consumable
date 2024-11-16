@@ -1,0 +1,33 @@
+{
+  "itemName" : "pf_orangesorbet",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_orangesorbet.png",
+  "description" : "A tart, sweet, and cold orange dessert topped with whipped cream. Totally not ice cream.",
+  "shortdescription" : "Orange Sorbet",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingfood",
+        "duration" : 120
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 90
+    },
+    {
+        "effect" : "pf_mildbiomeheatprotection",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

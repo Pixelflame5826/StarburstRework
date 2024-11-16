@@ -1,0 +1,28 @@
+{
+  "itemName" : "pf_fireballs",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_fireballs.png",
+  "description" : "Crunchy pearlpeas filled with a spicy chili sauce. Explodes in your mouth.",
+  "shortdescription" : "Fireballs",
+  "effects" : [ [
+    {
+      "effect" : "pf_mildbiomecoldresistance",
+      "duration" : 90
+    },
+    {
+      "effect" : "nova",
+      "duration" : 160
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

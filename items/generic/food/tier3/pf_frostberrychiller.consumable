@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_frostberrychiller",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_frostberrychiller.png",
+  "description" : "A fruit drink made from Frostberry. It is always cold no matter the temperature.",
+  "shortdescription" : "Frostberry Chiller",
+  "effects" : [ [
+    {
+        "effect" : "pf_mildbiomeheatprotection",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 12,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_frostberryfreeze" ]
+}

@@ -1,0 +1,34 @@
+[[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A red and notoriously spicy pepper favored by Humans. Heats you up really well."
+    },
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Chili Pepper"
+    }
+],
+[
+    {
+        "op": "remove",
+        "path": "/learnBlueprintsOnPickup/1"
+    },
+    {
+        "op": "remove",
+        "path": "/learnBlueprintsOnPickup/0"
+    }
+],
+[
+    {
+        "op": "add",
+        "path": "/learnBlueprintsOnPickup/0",
+        "value": "pf_grilledpepper"
+    },
+    {
+        "op": "add",
+        "path": "/learnBlueprintsOnPickup/1",
+        "value": "pf_chilispice"
+    }
+]]

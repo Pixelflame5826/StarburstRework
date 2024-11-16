@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "pf_tealeaf", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_greentea", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]//,
+  //"collectables" : { "cooking" : "pf_greentea" }
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "pf_volcanicspice",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "pf_volcanicspice.png",
+  "description" : "A spice made from exploded ash apples and chili, unnaturally hot. Used in cooking.",
+  "shortdescription" : "Volcanic Spice",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "burningeyeballs",
+    "pf_volcanicshake",
+    "pf_laccolithpie"
+  ]
+}

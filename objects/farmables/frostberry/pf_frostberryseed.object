@@ -1,0 +1,61 @@
+{
+  "objectName" : "pf_frostberryseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "Despite its name, its actually related to the Pearlpea. Same hard coating, just icy.",
+  "shortdescription" : "Frostberry Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 10,
+
+  "apexDescription" : "The only food native to the Apex homeworld we still eat normally.",
+  "avianDescription" : "These things while refreshing, have a tendancy to freeze my beak.",
+  "floranDescription" : "Ice crystalls. Throw them at friendss.",
+  "glitchDescription" : "Curious. Does the plant also have the properties of ice?",
+  "humanDescription" : "I do like crunching on icecubes, glad they made a fruit for it.",
+  "hylotlDescription" : "Berries like ice. Much like their surroundings.",
+  "novakidDescription" : "Is it jus' me or are those berries meltin' in my presence.",
+
+  "inventoryIcon" : "pf_frostberryseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "pf_frostberryseed.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "pf_frostberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "pf_frostberryHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

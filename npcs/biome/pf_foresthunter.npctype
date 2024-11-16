@@ -1,0 +1,48 @@
+{
+  "type" : "pf_foresthunter",
+  "baseType" : "hostile",
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "florantier4head", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "florantier4chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "florantier4pants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcdagger",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcfloranassaultrifle"
+            ],
+            "alt" : [
+              { "name" : "floranshield" }
+            ]
+          },
+          {
+            "chest" : [ { "name" : "florantier4chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "florantier4pants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcspear",
+              "npcaxe",
+              "npchammer",
+              "npcbroadsword",
+              "npcdagger",
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcfloranassaultrifle"
+            ],
+            "alt" : [
+              { "name" : "floranshield" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

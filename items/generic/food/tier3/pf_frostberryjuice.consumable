@@ -1,0 +1,26 @@
+{
+  "itemName" : "pf_frostberryjuice",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_frostberryjuice.png",
+  "description" : "Not much of a juice as it is frostberry that's melted. Still cold to the touch.",
+  "shortdescription" : "Frostberry Juice",
+  "effects" : [ [
+    {
+        "effect" : "pf_mildbiomeheatresistance",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_frostberrymelt", "pf_frostberrychiller" ]
+}

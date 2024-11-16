@@ -1,0 +1,25 @@
+{
+  "itemName" : "pf_orangebread",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_orangebread.png",
+  "description" : "A loaf of bread baked with the zest of an orange. Tangy and sweet.",
+  "shortdescription" : "Orange Bread",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingfood",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "pf_eyeorangecookie" ]
+}

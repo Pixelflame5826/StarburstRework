@@ -1,0 +1,24 @@
+{
+  "itemName" : "pf_firesteak",
+  "rarity" : "Uncommon",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_firesteak.png",
+  "description" : "A steak covered in powerful spices and flame grilled to insanity. Incredibly hot!",
+  "shortdescription" : "Fire Steak",
+  "effects" : [ [
+    {
+        "effect" : "pf_biomecoldprotection",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

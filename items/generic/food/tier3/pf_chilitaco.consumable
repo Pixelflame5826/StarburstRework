@@ -1,0 +1,28 @@
+{
+  "itemName" : "pf_chilitaco",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_chilitaco.png",
+  "description" : "A meat taco that's been spiced with chili pepper. Very hot and hearty.",
+  "shortdescription" : "Spicy Meat Taco",
+  "effects" : [ [
+    {
+      "effect" : "pf_mildbiomecoldresistance",
+      "duration" : 160
+    },
+    {
+      "effect" : "maxhealthscalingfood",
+      "duration" : 200
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

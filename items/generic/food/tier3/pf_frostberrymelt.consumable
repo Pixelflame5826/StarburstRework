@@ -1,0 +1,30 @@
+{
+  "itemName" : "pf_frostberrymelt",
+  "rarity" : "Common",
+  "price" : 190,
+  "category" : "preparedFood",
+  "inventoryIcon" : "pf_frostberrymelt.png",
+  "description" : "Melted frostberry that's been thickened with sugar. Great as flavoring or just by itself.",
+  "shortdescription" : "Frostberry Melt",
+  "effects" : [ [
+    {
+      "effect" : "pf_defenseboostfood",
+      "duration" : 90
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 90
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "pf_frostberrywaffle", "pf_bonechiller", "pf_apeshake" ]
+}
