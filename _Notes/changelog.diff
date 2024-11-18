@@ -1,11 +1,11 @@
 --- COSMIC FLORA UPDATE ---
-An update all about crops and food, along with some plant based additions.
+An update all about crops and food, along with some plant based additions to the game.
 
 --- NEW ADDTIONS
 + Forest Cave Microdungeons!: There are now structures in Forest caves, after a long while.
 --- Structures
 +   40 Normal Structures
-+   4 Rare Structures
++   3 Rare Structures, Includes Biome Weapons
 
 + Earlier Crops!: Some crops can now be found earlier in the game.
 --- New Locations
@@ -129,7 +129,7 @@ An update all about crops and food, along with some plant based additions.
 +   Station Ceiling Vent 
 +   Astro Vent 
 
-+ New Mining Tools!: To help you get around and harvest caves, I've added some mining tools I felt were missing from the crafting station.
++ New Mining Tools!: To help you get around and harvest caves, I've added some mining tools I felt were missing from the Foraging Station.
 --- Drills
 +   Iron Drill
 +   Durasteel Drill 
@@ -151,4 +151,18 @@ An update all about crops and food, along with some plant based additions.
 
 + All mining tool items now have drastically increased durability.
 
+--- NPC CHANGES
++ Added new hostile Floran NPC that now spawns in Forest Cave structures.
+
+--- WEAPON CHANGES
+- Leaf Blower has increased shot spread.
+
+--- PLANET CHANGES 
++ Greatly reduced the background fade percentage for volcanoes/mountains in the backgrounds of many planetary variants.
+
++ Added many objects to the Forest Caves.
+
 --- FIXES/COMPATIBILITY
++ Leaf Blower projectiles are now no longer fullbright.
+
++ Leaf Blower no longer has light when firing.

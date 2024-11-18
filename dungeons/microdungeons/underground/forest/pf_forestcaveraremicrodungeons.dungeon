@@ -1,0 +1,51 @@
+{
+  "metadata" : {
+    "name" : "pf_forestcaveraremicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ 
+	  "pf_forestcave_material1",
+    "pf_forestcave_weapon1", "pf_forestcave_weapon2"
+	], 
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "pf_forestcave_material1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_forestcave_material1.json" ]
+    },
+
+    {
+      "name" : "pf_forestcave_vault1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_forestcave_vault1.json" ]
+    },
+
+    {
+      "name" : "pf_forestcave_weapon1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_forestcave_weapon1.json" ]
+    },
+    {
+      "name" : "pf_forestcave_weapon2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_forestcave_weapon2.json" ]
+    }
+  ]
+}

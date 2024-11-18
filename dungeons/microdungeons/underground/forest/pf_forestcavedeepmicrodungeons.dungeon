@@ -1,6 +1,6 @@
 {
   "metadata" : {
-    "name" : "pf_forestcavemicrodungeons",
+    "name" : "pf_forestcavedeepmicrodungeons",
     "species" : "generic",
     "rules" : [
     ],
@@ -21,15 +21,15 @@
   */
 
     "anchor" : [ 
-	  "pf_forestcave_floran1", "pf_forestcave_floran2", "pf_forestcave_floran3", "pf_forestcave_floran4",
-    "pf_forestcave_flower1", "pf_forestcave_flower2", "pf_forestcave_flower3",
+	  "pf_forestcave_floran1", "pf_forestcave_floran4",
     "pf_forestcave_grove1", "pf_forestcave_grove2", "pf_forestcave_grove3", "pf_forestcave_grove4", "pf_forestcave_grove5",  
-    "pf_forestcave_house1",
-    "pf_forestcave_log1", "pf_forestcave_log3", "pf_forestcave_log4", "pf_forestcave_log6",
-    "pf_forestcave_pool2", "pf_forestcave_pool3",
+    "pf_forestcave_log1", "pf_forestcave_log3", "pf_forestcave_log5", "pf_forestcave_log6",
+    "pf_forestcave_mushroom1", "pf_forestcave_mushroom2", "pf_forestcave_mushroom3",
+    "pf_forestcave_pool1", "pf_forestcave_pool2", "pf_forestcave_pool4",
     "pf_forestcave_roots1", "pf_forestcave_roots2", "pf_forestcave_roots3",
-    "pf_forestcave_ruin1", 
+    "pf_forestcave_ruin1", "pf_forestcave_ruin2", "pf_forestcave_ruin3",
     "pf_forestcave_trunk1", "pf_forestcave_trunk2",
+    "pf_forestcave_vault1",
     "pf_forestcave_openNatural1", "pf_forestcave_tunnelNatural1", "pf_forestcave_tunnelForwardSlopeNatural1", "pf_forestcave_tunnelBackSlopeNatural1", "pf_forestcave_tunnelWeakForwardSlopeNatural1", "pf_forestcave_tunnelWeakBackSlopeNatural1"
 	], 
 

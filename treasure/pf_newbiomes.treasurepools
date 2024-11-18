@@ -37,6 +37,13 @@
       ]
     }]
   ],
+  "pf_forestleafgunpedestalHarvest" : [
+    [1, {
+	  "fill" : [
+        {"item" : "pf_forestleafgun"}
+      ]
+    }]
+  ],
   
   // ================================
   //         ANABATIC/STORMY

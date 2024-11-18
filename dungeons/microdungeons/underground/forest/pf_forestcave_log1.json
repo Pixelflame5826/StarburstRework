@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":60,
  "infinite":false,
  "layers":[
@@ -19,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2E0KwjAQQOHew1v3ml16ARG6kOBMMj+JhnkfzEIKSV7BLnIcAAAAAIAZznt29hiYU5iozLUkI329zug5pT0sZ8tuHe32ktbNava2as2jrua39O4857KwrNV2Zv3npHcX6crQnivzG\/OP3\/z2TNV6d1nba6feK2FO5Vn0HNraIzOjl32\/7\/u5P7300ksvvXrvyr3pXd8KVGC5Q3gqE9Vbz3rX4b2z0hpnTdb9VfS+buY78u7Vs6p5xVj9Ys8dVGhsVW6uolrvW9XmSqr1AgAAoI4XwEhQKQ==",
+         "data":"eJzt2DEKwzAMQNHcI7f2NTPmAqWQoZjIkSzZjdF\/oKG02P6GZsi2AQAAAABGKNesbFdMEcYrci2Jpu+p03tOaQ\/L2aJbtd29pHWjmntbW81aR\/VZuruec1lY1qo7o\/5z0t15uiLU54p8xrzxmV+fKVvvKmv3Wqn3CJjS+M57jtbamhnRy773+\/7uTy+99NJLb7t35t70zm8FvE5h3sTyDkHqsYx2bc85736vnYhG60S9v\/K+rxt5R717PZnVPGOs\/rHnCjI01jI3Z5Gt9ytrcybZegEAAJDHB38qX1k=",
          "encoding":"base64",
          "height":60,
          "id":2,
@@ -58,8 +65,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":248,
-                 "y":304
+                 "x":192,
+                 "y":296
                 }, 
                 {
                  "gid":241,
@@ -70,32 +77,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":168,
+                 "x":160,
                  "y":296
-                }, 
-                {
-                 "gid":241,
-                 "height":8,
-                 "id":788,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":216,
-                 "y":304
-                }, 
-                {
-                 "gid":241,
-                 "height":8,
-                 "id":789,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":272,
-                 "y":304
                 }, 
                 {
                  "gid":241,
@@ -108,18 +91,6 @@
                  "width":8,
                  "x":344,
                  "y":296
-                }, 
-                {
-                 "gid":241,
-                 "height":8,
-                 "id":792,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":304,
-                 "y":304
                 }, 
                 {
                  "gid":4928,
@@ -228,6 +199,42 @@
                  "width":8,
                  "x":72,
                  "y":168
+                }, 
+                {
+                 "gid":241,
+                 "height":8,
+                 "id":803,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":128,
+                 "y":304
+                }, 
+                {
+                 "gid":241,
+                 "height":8,
+                 "id":804,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":296,
+                 "y":304
+                }, 
+                {
+                 "gid":242,
+                 "height":8,
+                 "id":805,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":240,
+                 "y":288
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -377,7 +384,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":803,
+ "nextobjectid":807,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.2",

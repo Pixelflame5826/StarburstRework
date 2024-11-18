@@ -1,11 +1,18 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":60,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2MtNxEAMBuApIrftiKq2Bhqhsb3RAEIikvH6bc8wWWzpvxDk8ZcJSchjjPHodDqdTqezOveisGt8KrmyV7NtYE9bs8bF52Bb5yT3lraJ52KJ01oL3OXObE3e7xLrjJpkDnupuoFE60YE+m+LvdyMVV7KLPXOeC1Gas1qL+5l7Wkwq15tFulnmfJaYUW8npnwfFWV8Xqu5+hMO3m1\/c08X2Z7cX38hCvhbzi1t3gubT4qlr5SL66A94693r3Fa0leyaqdA9jPe76YPXZ5pTUpr9fJPXMHOm69PjSv1YrXpbweOy7pfcNqHaPOi83UPbryHWuM3\/tssZ4V9cKirr\/qe3RVT85bOdcMb7T+yvuuROqdqWovnIuaD7veUCT3LO93km1JL7Yc49l7EL+He2aK82a\/VWj7e9oo77nPB9MzUtr7ZOU7NCxoPJjA41RPb1nen63\/7+PS7leSRzvu8Rq\/cbi\/W8HvSJbnb9TLXS+eGSu8mhPP6fVy63j3I\/o9J2vnPGeo41SfAuuTN2LW7F5vhXWFF7uzfbJZ5d0lVu8rmBkr672qW3CavFdxG5wu7y7nwOEq96Ls6pueV\/d1Op1Op9PpdDr\/JV\/EQPPL",
+         "data":"eJzt2MttwzAMBmAN4Vs26lSZoYt0sdy6QNGDAJbhm5QjpyTwA0Xc0vwsNTb8GGM8Op1Op9PpnJ17UdhzfCu5slezbWBPWy2OLyIvugbLnJRRywnusjWMGjNrH7gWWzmz\/qjXc21XWyN2j7faCYv6DH5+wv+7y2ud48a4LDX\/HsZzTTJerw\/OminKO3\/m9gyOxWsxUp4bOpb1UmZLT8OeVvcytS+pGSqtuJ+3Z8TrmQnPV1UZr3U\/W63UTDt5tfX1ri031wovLu6+Nkv4H06tLZ5Lm0+7P3N9pV5cAe8de71ri88leSPPEbiv1EfzojV2eaVzUl6vk7vnDnTcuj80r9WKz0t5PXZc2vOGxTpGnRebqe\/oymesMf6us+dZNeqFRe2\/6u\/oqp6ct3KuFd5ovcr7qUTqnalqL5yLmg+7PlAk9yrvb5JtSS+2HOPZexC\/h3tmivNmnq\/gbNz6Thvlnet8MD0jpT1PVj5Dw4LGgwk8TvX0luX5WXqXI5X2fSV5tOMer\/Edlum9FRXp3lvh5faLZ8YKr+bEc3q93Hm86xF9n5O1c54Z6jjVp8D65I2YNbvXW2E9w4vd2T7ZnOXdJVbvO5gZK+u9qltwmrxXcRucLu8u18DhKvei7Opbnnf3dTqdTqfT6XQ6\/yU\/3r4DMQ==",
          "encoding":"base64",
          "height":60,
          "id":1,
@@ -19,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2sGOwkAIBmAf0Hf1wXpU78ZDE0IoAwwDjPInxKSuWz50TVP2dut0Op1Op\/OLeQ5q57xQjaw72rGRsj6I2m0GV87TShlHVcXN2WBZjDPvvfcsop2z\/tXOCKvFvsIq7Q+GOgaPZ\/y9exgP8MgVFWoe53HNDCxWrU9itMwAuyVzGJmlxqs+PazWGXhmpaPSPLINEfbsXiPtEeeuZK7yGfPuJcJKRXNdstq82mu5FtvBS8Vynbi6r0wvfD02V\/fi3085qOex+WCer+jVziPqfPi8UX1U8Ub1ku2NNlfz4p\/Z2cvFOpvKxeW+sctihXWVbIPUN7qf8yTMsLItEifsV3Lf7g2Ks2fPgOvpa4T7K6lX4+Y+\/1S8bLCoHZYkM+bo4vZ10lDeSu7R3sOyU+HM0W7NLmt2bzZye9rP75mZ8tqNjsx4VwUNmpq1eu\/FNeaZynxvs8zSOUT8z8MqM5dVu31pvMyaZDhxtO5fy+nC3k6n0+l0Op1\/yAcFF9i7",
+         "data":"eJzt2sGKAzEIBuA+YN+1D9Zjp\/cyhwGRxGg0aqb+IMtCl\/FLpC3JPh6VSqVSqfxPPp26Y07Xq1F3MB+gWsZR7RCtkdr7TPu\/wkn5PXMQtdpK7b31DGRycuxRxjf4SVWG2df4OEbLNaA+67jh2Hp9aq294vSFZ5yT3vyucljVzB7vZqRmQZtog6dxB++sPbpXT7vHszOZs8yYdS8e1lZGn5ue5tVe7neF3bytSL4fevUV6Y3oa9U8X79jH\/XcHb3S9fB6Hn6uVx9ZvF69RHu9zdm8+DU7e6nMrk3movLc2DVjhdVLtIHrG53nfBpmWNEWjhP2yzm3+4Ki7NFrQPV0Go8Jr8RNzX8rVjZY+GyVeyarMXtX7x5Ect7e8mZyU\/c93DmWmL3dI5\/WKnFb2q\/3GU1Z3Y2OzPheEhokpbVa34tLzJqK3NsoM3cdPP7XY5WZiuZvLWJlliTCiSN13y2XC3srlUqlUqlU\/iE\/c0DuDw==",
          "encoding":"base64",
          "height":60,
          "id":2,
@@ -199,71 +206,11 @@
                 {
                  "gid":7264,
                  "height":20,
-                 "id":786,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"stemName\":\"pf_lightstripe\",\"stemHueShift\":0.0,\"foliageName\":\"pf_floral\",\"foliageHueShift\":0.0, \"startingStage\":3}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":96,
-                 "y":304
-                }, 
-                {
-                 "gid":7264,
-                 "height":20,
-                 "id":788,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"stemName\":\"pf_lightstripe\",\"stemHueShift\":0.0,\"foliageName\":\"pf_floral\",\"foliageHueShift\":0.0, \"startingStage\":3}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":168,
-                 "y":320
-                }, 
-                {
-                 "gid":7264,
-                 "height":20,
-                 "id":789,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"stemName\":\"wood\",\"stemHueShift\":0.0,\"foliageName\":\"lotus\",\"foliageHueShift\":0.0, \"startingStage\":3}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":64,
-                 "y":296
-                }, 
-                {
-                 "gid":7264,
-                 "height":20,
                  "id":790,
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"stemName\":\"wood\",\"stemHueShift\":0.0,\"foliageName\":\"lotus\",\"foliageHueShift\":0.0, \"startingStage\":3}"
+                     "parameters":"{\"stemName\":\"pf_shortwood\",\"stemHueShift\":0.0,\"foliageName\":\"lotus\",\"foliageHueShift\":0.0, \"startingStage\":3}"
                     },
                  "propertytypes":
                     {
@@ -273,28 +220,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":136,
-                 "y":312
-                }, 
-                {
-                 "gid":7264,
-                 "height":20,
-                 "id":791,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"stemName\":\"wood\",\"stemHueShift\":0.0,\"foliageName\":\"lotus\",\"foliageHueShift\":0.0, \"startingStage\":3}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":344,
-                 "y":312
+                 "x":112,
+                 "y":304
                 }, 
                 {
                  "gid":7264,
@@ -303,7 +230,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"stemName\":\"wood\",\"stemHueShift\":0.0,\"foliageName\":\"lotus\",\"foliageHueShift\":0.0, \"startingStage\":3}"
+                     "parameters":"{\"stemName\":\"pf_shortwood\",\"stemHueShift\":0.0,\"foliageName\":\"lotus\",\"foliageHueShift\":0.0, \"startingStage\":3}"
                     },
                  "propertytypes":
                     {
@@ -313,11 +240,11 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":400,
+                 "x":376,
                  "y":304
                 }, 
                 {
-                 "gid":8801,
+                 "gid":2147492449,
                  "height":46,
                  "id":794,
                  "name":"",
@@ -338,7 +265,7 @@
                  "visible":true,
                  "width":8,
                  "x":360,
-                 "y":152
+                 "y":144
                 }, 
                 {
                  "gid":8803,
@@ -350,7 +277,7 @@
                  "visible":true,
                  "width":8,
                  "x":280,
-                 "y":136
+                 "y":128
                 }, 
                 {
                  "gid":8803,
@@ -362,7 +289,7 @@
                  "visible":true,
                  "width":8,
                  "x":120,
-                 "y":152
+                 "y":136
                 }, 
                 {
                  "gid":8803,
@@ -373,8 +300,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":56,
-                 "y":160
+                 "x":64,
+                 "y":152
                 }, 
                 {
                  "gid":8803,
@@ -386,7 +313,7 @@
                  "visible":true,
                  "width":8,
                  "x":224,
-                 "y":136
+                 "y":120
                 }, 
                 {
                  "gid":6445,
@@ -421,8 +348,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":296,
-                 "y":240
+                 "x":272,
+                 "y":224
                 }, 
                 {
                  "gid":8803,

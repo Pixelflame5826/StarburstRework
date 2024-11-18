@@ -3,7 +3,7 @@
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A heavily modified leaf blower. It blows your enemies away with razor sharp leaves.",
+  "description" : "A heavily modified rifle that functions like a leaf blower. It blows your enemies away with razor sharp leaves.",
   "shortdescription" : "Leaf Blower",
   "tooltipKind" : "pf_uniquegun",
   "category" : "assaultRifle",
@@ -21,6 +21,12 @@
     "muzzleFlash" : ""
   },
   "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0],
+        "particles" : [ ]
+      }
+    },
     "sounds" : {
       "fire" : ["/sfx/projectiles/gust1.ogg"]
     }
@@ -40,7 +46,7 @@
     "fireTime" : 0.2,
     "baseDps" : 7.5,
     "energyUsage" : 21.5,
-    "inaccuracy" : 0.05,
+    "inaccuracy" : 0.1,
 
     "projectileCount" : 2,
     "fireType" : "auto",

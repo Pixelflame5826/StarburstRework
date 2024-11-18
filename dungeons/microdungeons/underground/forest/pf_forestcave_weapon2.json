@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":60,
  "infinite":false,
  "layers":[
@@ -326,7 +333,7 @@
                  "type":"",
                  "visible":true,
                  "width":18,
-                 "x":192,
+                 "x":184,
                  "y":184
                 }, 
                 {
@@ -430,7 +437,7 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":168,
+                 "x":160,
                  "y":176
                 }, 
                 {
@@ -635,46 +642,6 @@
          "objects":[
                 {
                  "height":0,
-                 "id":843,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":80,
-                         "y":-64
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":120,
-                 "y":224
-                }, 
-                {
-                 "height":0,
-                 "id":844,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":96,
-                         "y":-64
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":120,
-                 "y":224
-                }, 
-                {
-                 "height":0,
                  "id":845,
                  "name":"",
                  "polyline":[
@@ -852,10 +819,50 @@
                  "width":0,
                  "x":120,
                  "y":224
+                }, 
+                {
+                 "height":0,
+                 "id":883,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":72,
+                         "y":-64
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":120,
+                 "y":224
+                }, 
+                {
+                 "height":0,
+                 "id":884,
+                 "name":"",
+                 "polyline":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":96,
+                         "y":-64
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":120,
+                 "y":224
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -989,7 +996,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":883,
+ "nextobjectid":885,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.2",

@@ -2,7 +2,6 @@
   "projectileName" : "pf_autumnleafshot",
   "physics" : "paperplane",
   "image" : "pf_autumnleafshot.png",
-  "fullbright" : true,
   "animationCycle" : 0.15,
   "frameNumber" : 4,
   "power" : 50,
