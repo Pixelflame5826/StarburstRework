@@ -798,5 +798,12 @@
         "value": {
             "item": "pf_chroniumdrill"
         }
+    },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_tunneldrill"
+        }
     }
 ]
