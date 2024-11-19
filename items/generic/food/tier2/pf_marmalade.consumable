@@ -8,7 +8,7 @@
   "shortdescription" : "Marmalade",
   "effects" : [ [
     {
-        "effect" : "maxenergyscalingfood",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 90
     }
   ] ],

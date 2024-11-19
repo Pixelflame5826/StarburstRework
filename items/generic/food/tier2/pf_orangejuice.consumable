@@ -8,7 +8,7 @@
   "shortdescription" : "Orange Juice",
   "effects" : [ [
     {
-        "effect" : "maxenergyscalingfood",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 60
     }
   ] ],

@@ -1,0 +1,17 @@
+[
+    {
+        "op": "add",
+        "path": "/label",
+        "value": "Healthy Food - Regenerate minimal health per second."
+    },
+	{
+        "op": "add",
+        "path": "/icon",
+        "value": "/interface/statuses/heal.png"
+    },
+    {
+        "op": "replace",
+        "path": "/effectConfig/healTime",
+        "value": 200
+    }
+]

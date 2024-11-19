@@ -179,6 +179,11 @@ An update all about crops and food, along with some plant based additions to the
 
 + Added short versions of trees that can spawn in Forest Caves.
 
+--- STATUS EFFECT CHANGES
++ Added new names for the food based status effects, giving insight to their cause.
+
+- Glow Stim brightness decreased back to vanilla values.
+
 --- NPC CHANGES
 + Added new hostile Floran NPC that now spawns in Forest Cave structures.
 
@@ -186,5 +191,3 @@ An update all about crops and food, along with some plant based additions to the
 + Leaf Blower projectiles are now no longer fullbright.
 
 + Leaf Blower no longer has light when firing.
-
-- Glow Stim brightness decreased, accidental change.

@@ -8,7 +8,7 @@
   "shortdescription" : "Orange Bread",
   "effects" : [ [
     {
-        "effect" : "maxenergyscalingfood",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 240
     }
   ] ],

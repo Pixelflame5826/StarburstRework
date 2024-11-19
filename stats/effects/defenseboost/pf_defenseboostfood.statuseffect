@@ -9,6 +9,6 @@
     "pf_defenseboost.lua"
   ],
 
-  "label" : "Defense Boost - 15% reduction to all damage. Seperate from Protection.",
+  "label" : "Enduring Food - 15% reduction to all damage. Seperate from Protection.",
   "icon" : "/interface/statuses/defense.png"
 }
