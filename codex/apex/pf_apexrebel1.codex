@@ -1,0 +1,30 @@
+{
+  "id" : "pf_apexrebel1",
+  "species" : "apex",
+  "title" : "Insurgency Report",
+  "description" : "A collection of internal Miniknog documents detailing current and past rebel groups.",
+  "icon" : "pf_apexcoverextra1.png",
+  "contentPages" : [
+    "^yellow;REBEL CELL #034: The Merry Apes^white;
+Leadership: Herevard Petrov
+Status: ^green;[ELIMINATED]^white;
+Description: A group of rebel thieves that are known to steal from the coffers of the party quite a bit. They have taken to robbing our supply convoys of food, and have distributed them to citizens who got their rations cut after dissenting behavior. After finding one of their hidden stashes thanks to the bright bananas, we brought them to justice. All members have been executed or taken in for rehabilitiation.",
+"^yellow;REBEL CELL #057: The New Ministry^white;
+Leadership: Artem Tarkozi
+Status: ^orange;[CRIPPLED]^white;
+Description: Having set up their base in our capital planet, they threatened the council directly to bring back the old Apex way of life. After a bold move, in an attempt to rally the people in the middle of the capital square, they were promptly and swiftly executed. It is still unknown whether more members exist, however prompt info-voiding and thought reassignment has been done in order to make sure nobody knows of what existed before.",
+"^yellow;REBEL CELL #066: The Monkey's Paw^white;
+Leadership: Unknown
+Status: ^red;[ACTIVE]^white;
+Description: Perhaps one of the more insidious branches, they seem to be a group more intent on planting thoughts into the citizen's heads than going to war. We do not know of their whereabouts nor their members. Its entirely possible they have stuck their anti-state claws into most major settlements. Only a select few of our spies have been able to seek them, however they went MIA soon after.",
+"^yellow;REBEL CELL #100: The Phantom Hand^white;
+Leadership: Lana Blake
+Status: ^red;[ACTIVE]^white;
+Description: A very large rebel group that seems to take the mantle of the Ministry of Defense, our old rival. They have organized really well compared to most. It also appears that they have extensive knowledge on warfare, always hiding their movements and striking in large coordinated attacks. Their tactics mirror our strike squads, we have it as a possibility that one of our own has defected."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

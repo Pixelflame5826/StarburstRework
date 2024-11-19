@@ -1,0 +1,25 @@
+{
+  "id" : "pf_humangovernment1",
+  "species" : "human",
+  "title" : "Public Response: Miniknog",
+  "description" : "The late Terran Parliament's response to the large outcry of the Miniknog's practices.",
+  "icon" : "pf_humancoverextra1.png",
+  "contentPages" : [
+  "After extensive public outcry for the liberation of the Apex people's from the totalitarian state of the Miniknog, we have set up a study and council who have taken observations and eyewitnesses to survey the issue. 
+  
+We have come to the conclusion that it is pretty much an impossible task for us to lay a single hand on the Ministry of Knowledge's power hold over their own citizens.",
+
+"Their home system is held up by a fleet of ships and sensors that tracks every person, ship, or object that enters or leaves the space. Anything not allowed is quickly shot down. As well, due to the nature of the planets in the system, most of them are vast swathes of cold tundra or volcanic, tidally locked worlds. 
+
+Intel from our diplomats is limited on what the situation on the ground is like, a ground force is likely to be hard to even take down.",
+
+"However, even if we could, the Terran Demilitarization Act or \"Red Sea\" Act, already eliminates the prospects for any mobilization, we don't want a repeat of the Floran-Hylotl conflict. So, we are not within our jurisdiction to do anything militarily. 
+
+However, the Protectorate will be willing to help any escapees from the Miniknog and give them support as we can, that is the best we can do."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id" : "pf_humanmilitary1",
+  "species" : "human",
+  "title" : "USCM: A Remnant",
+  "description" : "An account of the secretive USCM and its first fall from grace.",
+  "icon" : "pf_humancoverextra2.png",
+  "contentPages" : [
+  "The United Space Corporate Military (USCM) is a human paramilitary group who's origins call back all the way to human antiquity. Back before we became a space faring civilization, we were a species heavily embroiled in conflict. 
+
+Large militaries were commonplace back in those times, which the USCM grants its orgins as remnants of the largest military force in the world.",
+
+"After the Final Great War, humanity was nearly reduced to ashes, with only few nations persisting beyond it. The USCM, then called the UCM, formed from the ashes in an attempt to keep peace, for a price. 
+
+During the reconstruction and expansion led by the Terran Parliament, the company became backed by them as a safety measure for humanity, and to keep them in line.",
+
+"However, during the Floran-Hylotl Conflict, they were sent to assist the Hylotl. Though as many know, it ended up as a near genocide of both sides. So the Terran Parliament enacted the \"Red Sea Act\", in which the government disarmed itself and only kept a defense force. The USCM was let go and the Protectorate would replace it. 
+
+The USCM, no longer backed, merely became a paramilitary organization, a mercenary group far beyond their prime."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

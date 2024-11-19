@@ -136,6 +136,11 @@ An update all about crops and food, along with some plant based additions to the
 +   Chronium Drill 
 +   Tunnel Drill
 
++ New Codices!: To add a bit more to the lore, I've added a few new codices. Detailing the Apex and Humans, one detailing the origins of the Leaf Blower.
+--- Codices 
++   1 Apex Codex 
++   3 Human Codices
+
 + New Tutorial Radio Messages!: Clue the player in on the Hazard Lab Table whenever they first encounter a Mild and Deadly hazard, to better onboard them to the mod.
 
 --- ITEM CHANGES 
@@ -152,6 +157,8 @@ An update all about crops and food, along with some plant based additions to the
 + Salt can now be created at the Kitchen Counter as well as the Furnace.
 
 + All mining tool items now have drastically increased durability.
+
++ Updated the cover sprite of the "The Rulings of the Glitch" codex to be of the Glitch flag.
 
 --- NPC CHANGES
 + Added new hostile Floran NPC that now spawns in Forest Cave structures.

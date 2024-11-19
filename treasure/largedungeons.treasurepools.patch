@@ -144,6 +144,40 @@
             "item": "pf_aviancrystal1-codex"
         }
     },
+
+    {
+        "op": "add",
+        "path": "/apexbaseLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_apexrebel1-codex"
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/humancampLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_humangovernment1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/humancampLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_humanmilitary1-codex"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/humanprisonLore/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_humanmilitary1-codex"
+        }
+    },
 	
 	//HYLOTL CASTLE
     {
