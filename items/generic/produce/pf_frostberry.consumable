@@ -9,8 +9,8 @@
   "shortdescription" : "Frostberry",
   "effects" : [ [
     {
-        "effect" : "frostslow",
-        "duration" : 5
+        "effect" : "pf_mildbiomeheatprotection",
+        "duration" : 20
     }
   ] ],
   "foodValue" : 3.75,

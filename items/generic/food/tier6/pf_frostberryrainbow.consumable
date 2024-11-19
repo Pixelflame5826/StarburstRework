@@ -4,7 +4,7 @@
   "price" : 190,
   "category" : "preparedFood",
   "inventoryIcon" : "pf_frostberryrainbow.png",
-  "description" : "Melted frostberry and elemental fruit juice, refrozen into prismatic flakes. Shines brightly in light.",
+  "description" : "Melted frostberry and elemental fruit juice, refrozen into prismatic flakes. Shines brightly.",
   "shortdescription" : "Diamond Dust",
   "effects" : [ [
     {

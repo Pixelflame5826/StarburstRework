@@ -8,11 +8,11 @@
   "shortdescription" : "Hot Kebab",
   "effects" : [ [
     {
-      "effect" : "pf_mildbiomecoldresistance",
+      "effect" : "pf_mildbiomecoldprotection",
       "duration" : 150
     },
     {
-      "effect" : "maxhealthscalingfood",
+      "effect" : "maxhealthscalingboostfood",
       "duration" : 150
     }
   ] ],

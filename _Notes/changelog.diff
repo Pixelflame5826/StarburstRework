@@ -101,15 +101,17 @@ An update all about crops and food, along with some plant based additions to the
 --- Mild Cold Items
 +   Autumn Steak 
 +   Spicy Taco
++   Chili Pepper
 +   Flamed Peppers
 +   Hot Kebab 
 +   Spicy Ribs
 +   Spicy Feathercrown
 +   Coralcreep Curry
 +   Mountaineer's Special 
---- mild Heat Items
+--- Mild Heat Items
 +   Iced Sweet Tea 
 +   Matcha Icecream
++   Frostberry
 +   Frostberry Juice 
 +   Frostberry Melt 
 +   Bonechiller 
@@ -148,6 +150,8 @@ An update all about crops and food, along with some plant based additions to the
 
 + Renamed Chilli item to Chili Pepper.
 
++ Chili Pepper now grants 10 seconds of Mild Heat Resistance.
+
 + Hothothot Pot, Burning Eyeballs, Hot Bone, and Volcanic Salsa now use Volcanic Spice rather than Chili.
 
 + Spicy Feathercrown, Coralcreep Curry, and Spicy Ribs now use Chili Spice rather than Chili.
@@ -158,12 +162,12 @@ An update all about crops and food, along with some plant based additions to the
 
 + All mining tool items now have drastically increased durability.
 
-+ Updated the cover sprite of the "The Rulings of the Glitch" codex to be of the Glitch flag.
++ Changed the mining tool descriptions, needs more detail later.
 
 --- CODEX CHANGES
 + Updated the cover sprite of the "The Rulings of the Glitch" codex to be of the Glitch flag.
 
-+ Changed the "USCM Fiscal Report" to different wording and align with the new title of the USCM, Unified Space Corporate Military.
++ Changed the "USCM Fiscal Report" first page to different wording and align with the new title of the USCM, Unified Space Corporate Military.
 
 --- WEAPON CHANGES
 - Leaf Blower has increased shot spread.
@@ -171,7 +175,9 @@ An update all about crops and food, along with some plant based additions to the
 --- BIOME CHANGES 
 + Greatly reduced the background fade percentage for volcanoes/mountains in the backgrounds of many planetary variants.
 
-+ Added many objects to the Forest Caves.
++ Added many bushes to the Forest Caves. Adding more variety in what you can find.
+
++ Added short versions of trees that can spawn in Forest Caves.
 
 --- NPC CHANGES
 + Added new hostile Floran NPC that now spawns in Forest Cave structures.
@@ -180,3 +186,5 @@ An update all about crops and food, along with some plant based additions to the
 + Leaf Blower projectiles are now no longer fullbright.
 
 + Leaf Blower no longer has light when firing.
+
+- Glow Stim brightness decreased, accidental change.

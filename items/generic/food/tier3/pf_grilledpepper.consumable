@@ -8,7 +8,7 @@
   "shortdescription" : "Flamed Peppers",
   "effects" : [ [
     {
-        "effect" : "pf_mildbiomecoldresistance",
+        "effect" : "pf_mildbiomecoldprotection",
         "duration" : 90
     }
   ] ],

@@ -12,7 +12,7 @@
         "duration" : 240
     },
     {
-        "effect" : "maxhealthscalingfood",
+        "effect" : "maxhealthscalingboostfood",
         "duration" : 240
     }
   ] ],

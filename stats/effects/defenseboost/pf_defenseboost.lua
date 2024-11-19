@@ -1,10 +1,12 @@
 function init()
+  self.protectionMod = config.getParameter("elementprotection", 0)
+
   effect.addStatModifierGroup({
-    {stat = "physicalResistance", config.getParameter("elementprotection", 0)},
-    {stat = "fireResistance", config.getParameter("elementprotection", 0)},
-    {stat = "iceResistance", config.getParameter("elementprotection", 0)},
-    {stat = "poisonResistance", config.getParameter("elementprotection", 0)},
-    {stat = "electricResistance", config.getParameter("elementprotection", 0)}
+    {stat = "physicalResistance", amount = self.protectionMod },
+    {stat = "fireResistance", amount = self.protectionMod },
+    {stat = "iceResistance", amount = self.protectionMod },
+    {stat = "poisonResistance",amount = self.protectionMod },
+    {stat = "electricResistance", amount = self.protectionMod }
   })
 end
 

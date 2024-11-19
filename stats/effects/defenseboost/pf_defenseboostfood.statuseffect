@@ -1,7 +1,7 @@
 {
   "name" : "pf_defenseboostfood",
   "effectConfig" : {
-    "elementprotection" : 0.10
+    "elementprotection" : 0.15
   },
   "defaultDuration" : 5,
 
@@ -9,6 +9,6 @@
     "pf_defenseboost.lua"
   ],
 
-  "label" : "Defense Boost - 10% resistance to all damage.",
+  "label" : "Defense Boost - 15% reduction to all damage. Seperate from Protection.",
   "icon" : "/interface/statuses/defense.png"
 }

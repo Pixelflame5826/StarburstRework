@@ -8,6 +8,16 @@
         "op": "replace",
         "path": "/shortdescription",
         "value": "Chili Pepper"
+    },
+    {
+        "op": "replace",
+        "path": "/effects/0/0/duration",
+        "value": 10
+    },
+    {
+        "op": "replace",
+        "path": "/effects/0/0/effect",
+        "value": "pf_mildbiomecoldprotection"
     }
 ],
 [

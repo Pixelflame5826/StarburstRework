@@ -8,7 +8,7 @@
   "shortdescription" : "Frostberry Juice",
   "effects" : [ [
     {
-        "effect" : "pf_mildbiomeheatresistance",
+        "effect" : "pf_mildbiomeheatprotection",
         "duration" : 60
     }
   ] ],
