@@ -136,6 +136,8 @@ An update all about crops and food, along with some plant based additions to the
 +   Chronium Drill 
 +   Tunnel Drill
 
++ New Tutorial Radio Messages!: Clue the player in on the Hazard Lab Table whenever they first encounter a Mild and Deadly hazard, to better onboard them to the mod.
+
 --- ITEM CHANGES 
 + Certain food item sprites have changed, these include: Apple, Orange, Boneboo, Avesmingo, Pussplum, Alien Fruit, Neonmelon, Raw Alien Meat, Cooked Steak, Cured Steak
 
@@ -157,7 +159,7 @@ An update all about crops and food, along with some plant based additions to the
 --- WEAPON CHANGES
 - Leaf Blower has increased shot spread.
 
---- PLANET CHANGES 
+--- BIOME CHANGES 
 + Greatly reduced the background fade percentage for volcanoes/mountains in the backgrounds of many planetary variants.
 
 + Added many objects to the Forest Caves.

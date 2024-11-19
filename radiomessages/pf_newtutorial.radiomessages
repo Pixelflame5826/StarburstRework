@@ -13,5 +13,24 @@
   "pf_pickupregulator" : {
     "type" : "tutorial",
     "text" : "You've created a regulator! These objects allow you to protect a large area around it from certain planetary hazards. A perfect addition to any base found on a hazardous planet."
+  },
+
+  // first time experiencing a planet hazard
+  "pf_mildhazardtutorial_a" : {
+    "type" : "tutorial",
+    "text" : "You are currently in a hazardous environment caused by planetary climate or weather, putting yourself in peril. You might be able to survive with enough planning, but your survival rate will be lower."
+  },
+  "pf_mildhazardtutorial_b" : {
+    "type" : "tutorial",
+    "text" : "I'd recommend making a ^orange;Hazard Lab Table^reset; at an ^green;Inventor's Table^reset; to make protective gear for these conditions whenever they arise."
+  },
+
+  "pf_deadlyhazardtutorial_a" : {
+    "type" : "tutorial",
+    "text" : "The atmospheric conditions on this planet are particularly harsh, putting you in extreme danger. You can ^green;mitigate these effects with ^orange;mild protection^green;, but won't hold the effects back completely."
+  },
+  "pf_deadlyhazardtutorial_b" : {
+    "type" : "tutorial",
+    "text" : "An ^orange;upgraded Hazard Lab Table^reset; would allow you to create ^green;much stronger climate protection options, allowing complete immunity.^reset; I would highly recommend this approach."
   }
 }

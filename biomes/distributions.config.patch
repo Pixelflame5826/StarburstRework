@@ -6,5 +6,13 @@
             "type": "random",
             "blockProbability": 0.0002
         }
-    }
+    },
+    {
+        "op": "add",
+        "path": "/pf_rareUndergroundMicrodungeon",
+        "value": {
+            "type": "random",
+            "blockProbability": 0.015
+        }
+    },
 ]
