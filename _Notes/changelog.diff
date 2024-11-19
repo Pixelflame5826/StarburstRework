@@ -160,8 +160,10 @@ An update all about crops and food, along with some plant based additions to the
 
 + Updated the cover sprite of the "The Rulings of the Glitch" codex to be of the Glitch flag.
 
---- NPC CHANGES
-+ Added new hostile Floran NPC that now spawns in Forest Cave structures.
+--- CODEX CHANGES
++ Updated the cover sprite of the "The Rulings of the Glitch" codex to be of the Glitch flag.
+
++ Changed the "USCM Fiscal Report" to different wording and align with the new title of the USCM, Unified Space Corporate Military.
 
 --- WEAPON CHANGES
 - Leaf Blower has increased shot spread.
@@ -170,6 +172,9 @@ An update all about crops and food, along with some plant based additions to the
 + Greatly reduced the background fade percentage for volcanoes/mountains in the backgrounds of many planetary variants.
 
 + Added many objects to the Forest Caves.
+
+--- NPC CHANGES
++ Added new hostile Floran NPC that now spawns in Forest Cave structures.
 
 --- FIXES/COMPATIBILITY
 + Leaf Blower projectiles are now no longer fullbright.

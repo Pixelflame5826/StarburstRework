@@ -1,0 +1,11 @@
+[
+    {
+        "op": "replace",
+        "path": "/contentPages/0",
+        "value": "^yellow;//OVERVIEW^white;
+
+The ^orange;Unified Space Corporate Military^white; has faced a taxing fiscal cycle. Our goal - to protect and spread the influence of humanity beyond Earth - remains in sight as always. 
+
+The Terrene Protectorate still denotes us as a rogue footnote in Earth's history, but we are confident that their insistent inaction leaves them vulnerable. We shall not make the same mistakes as our cousins on Earth."
+    }
+]
