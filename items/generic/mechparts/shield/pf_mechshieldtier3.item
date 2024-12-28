@@ -1,0 +1,19 @@
+{
+  "itemName" : "pf_mechshieldtier3",
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "mechPart",
+  "tooltipKind" : "pf_mechshield",
+  "inventoryIcon" : "pf_mechshieldtier3.png",
+  "description" : "Basic space worthy mech shielding made from Titanium. ^red;Blocks specific hazards.^white;",
+  "shortdescription" : "Titanium Mech Shielding",
+  "itemTags" : [ ],
+
+  "tooltipFields" : {
+    "hazardLabel" : "^yellow;Temperate",
+    "protectionStatImage" : "/interface/tooltips/statbar.png:3"
+  },
+
+  "mechPart" : ["pf_shield", "pf_tier3"]
+}

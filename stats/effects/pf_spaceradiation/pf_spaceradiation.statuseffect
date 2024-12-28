@@ -1,0 +1,19 @@
+{
+  "name" : "pf_spaceradiation",
+  //"blockingStat" : "biomeRadiationImmunity",
+
+  "effectConfig" : {
+    "healthPercentage" : 0.80,
+	"directives" : "border=2;96CBE7;00000000"
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "biomeradiation.lua"
+  ],
+
+  "animationConfig" : "biomeradiation.animation",
+
+  "label" : "^red;Stellar Radiation - Max health reduced by 80%.",
+  "icon" : "/interface/statuses/pf_spaceradiation.png"
+}

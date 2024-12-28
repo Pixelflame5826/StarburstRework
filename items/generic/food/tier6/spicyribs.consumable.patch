@@ -1,8 +1,11 @@
-[
+[[
+    { "op": "test", "path": "/effects/0/3" },
     {
         "op": "remove",
         "path": "/effects/0/3"
-    },
+    }
+],
+[
     {
         "op": "replace",
         "path": "/effects/0/2/duration",
@@ -13,4 +16,4 @@
         "path": "/effects/0/2/effect",
         "value": "pf_mildbiomecoldprotection"
     }
-]
+]]

@@ -14,7 +14,13 @@
           [ 0.1111, "petricub" ],
           [ 0.1111, "batong" ],
           [ 0.1111, "spookit" ],
-		  [ 0.1111, "monopus" ]
+		      [ 0.1111, "monopus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1111, "pf_darkwisper" ]
         ]
       }
     ]

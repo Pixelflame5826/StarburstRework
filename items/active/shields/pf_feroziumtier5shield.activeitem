@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "shield",
-  "description" : "A shield generator created from Ferozium. The shield is very fragile, but has high repelling power.",
+  "description" : "A shield generator created from Ferozium. The shield is very fragile, but has high repelling and regenerating power.",
   "shortdescription" : "Ferozium Forcefield",
   "tooltipKind" : "pf_uniqueshield",
   "twoHanded" : false,
@@ -26,12 +26,13 @@
     }
   },
 
-  "scripts" : ["/items/active/shields/shield.lua"],
+  "scripts" : ["/items/active/shields/pf_newshield.lua"],
 
   "minActiveTime" : 0.15,
 
   "forceWalk" : true,
   "baseShieldHealth" : 10,
+  "regenModifier" : 2.0,
   "cooldownTime" : 0.55,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",

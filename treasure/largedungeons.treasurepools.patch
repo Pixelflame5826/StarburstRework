@@ -193,6 +193,14 @@
             "item": "pf_samuraikatana"
         }
     },
+    {
+        "op": "add",
+        "path": "/hylotlruinedcastleChestTreasure/0/1/pool/6",
+        "value": {
+            "weight": 0.2,
+            "item": ["pf_sealingtalisman", 15]
+        }
+    },
 	
 	//NOVAKID VILLAGE
 	{

@@ -635,6 +635,36 @@
     },
     {
         "op": "add",
+        "path": "/pf_forestautumn",
+        "value": [
+            [
+                0.6,
+                "clear"
+            ],
+			[
+                0.1,
+                "pf_leafstormautumn"
+            ],
+            [
+                0.12,
+                "rain"
+            ],
+            [
+                0.1,
+                "drizzle"
+            ],
+            [
+                0.06,
+                "pf_coldfront"
+            ],
+            [
+                0.02,
+                "snow"
+            ]
+        ]
+    },
+    {
+        "op": "add",
         "path": "/pf_floralforestpoisonous",
         "value": [
             [

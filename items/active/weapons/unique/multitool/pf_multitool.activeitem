@@ -1,0 +1,142 @@
+{
+  "itemName" : "pf_multitool",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A strange tool reminiscent of a Matter Manipulator. Can shoot enemies and mine blocks with its many modes.",
+  "shortdescription" : "Multi-Tool",
+  "tooltipKind" : "pf_multitool",
+  "category" : "pf_referenceWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","pistol", "pf_anvilUpgradeableWeapon"],
+  "level" : 3,
+
+  "inventoryIcon" : "pf_multitool.png",
+  "grade" : "c",
+
+  "animation" : "/items/active/weapons/unique/multitool/pf_multitool.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_multitool.png",
+	  "middleFullbright" : "pf_multitoolmode.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+
+  "baseOffset" : [0.5, 0.15],
+  "muzzleOffset" : [1.0, 0.7],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/unique/multitool/pf_multifire.lua"],
+    "class" : "MultiFire",
+
+    "projectileMode" : "projectile",
+
+    //Starting Projectile Paramaters (Will be replaced by pf_multiswap)
+    "fireTime" : 0.8,
+    "baseDps" : 12,
+    "energyUsage" : 24,
+    "inaccuracy" : 0.025,
+
+    "projectileCount" : 1,
+    "fireType" : "burst",
+    "burstTime" : 0.15,
+    "burstCount" : 3,
+
+    "projectileType" : "pf_multitoolbolt",
+    "projectileParameters" : {
+      "knockback" : 1
+    },
+
+    //Beam Parameters
+    "damageInterval" : 0.1,
+    "tileDamage" : 10.0,
+    "harvestLevel" : 99,
+    "beamLength" : 20,
+    "cooldownTime" : 0.5,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "segmentImage" : "/items/active/weapons/unique/multitool/pf_beam.png",
+      "endSegmentImage" : "/items/active/weapons/unique/multitool/pf_beamend.png",
+      "segmentSize" : 0.48,
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "waveform" : {
+        "frequency" : 1.0,
+        "amplitude" : 0.125,
+        "movement" : 80.0
+      },
+      "fullbright" : true,
+      "light" : [81, 189, 59]
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "gunFire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "beamFire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "pf_multiswap",
+
+  "builder" : "/items/buildscripts/pf_buildmultitool.lua",
+
+  "upgradeParameters" : {
+	  "level4" : {
+      "grade" : "b",
+      "primaryAbility" : {
+        "tileDamage" : 15.0
+      }
+  	},
+    "level5" : {
+      "grade" : "a",
+      "primaryAbility" : {
+        "tileDamage" : 20.0
+      }
+  	},
+    "level6" : {
+      "grade" : "s",
+      "description" : "A versatile tool once used by a lost traveller of a dying universe. Can shoot and mine with its many modes.",
+      "primaryAbility" : {
+        "tileDamage" : 25.0
+      }
+  	}
+  }
+}

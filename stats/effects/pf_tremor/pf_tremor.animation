@@ -1,0 +1,35 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "icon" : {
+        "default" : "on",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 1,
+            "cycle" : 0.9,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "icon" : {
+        "properties" : {
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "icon" : {
+            "on" : {
+              "properties" : {
+                "image" : "pf_tremoricon.png",
+                "offset" : [0, 2.875],
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

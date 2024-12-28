@@ -1,193 +1,46 @@
---- COSMIC FLORA UPDATE ---
-An update all about crops and food, along with some plant based additions to the game.
+--- OTHERWORLDLY TREASURES UPDATE ---
+Minor content update that adds a few new items to the PGI chests and random fun additions/improvements.
 
---- NEW ADDTIONS
-+ Forest Cave Microdungeons!: There are now structures in Forest caves, after a long while.
---- Structures
-+   40 Normal Structures
-+   3 Rare Structures, Includes Biome Weapons
+--- NEW ADDITIONS
++ 3 New Otherworldly Weapons!: One is found in Ocean Biome PGI chests, comes with a new shield. The other 2 are guaranteed on planets without a weapon, and occassionally in normal PGI loot, one of them even comes with a hat!
 
-+ Earlier Crops!: Some crops can now be found earlier in the game.
---- New Locations
-+   Diodia: Found in Steamspring biomes.
-+   Chili: Found on Desert planets.
-+   Neonmelon: Found in Bioluminescent biomes.
++ Shield Overhaul!: Shields now have some extra tools at their disposal when being used. Including Contact Status Effects, Contact Damage, and Variable Health Regeneration.
+--- Changed Shields
++   Frost Shield: Increased knockback and inflicts Frost Slow.
++   Seashell Shield: Inflicts Wet.
++   Mushroom Shield: Inflicts Poisoned.
++   Leaf/Floran Shield: Doubled shield health regeneration.
++   Eye Shield: Increased parry window up to 0.5 seconds. 
++   Ferozium Forcefield & Ferozium Ward: Doubled shield health regeneration.
+--- New Shields
++   Fire Knight's Shield: Deals Fire damage and inflicts burning. Found in Volcanic Biome chests.
++   Bloody Targe: Deals Piercing damage and inflicts bleeding. Found in Alpine Biome chests.
 
-+ New Crops!: There are now 5 new crops you can cultivate, giving you access to many trees of cooking. 
---- Crops
-+   Apples: Bought at terramart. 
-+   Oranges: Bought at terramart. Sometimes sold by Humans and Novakids.
-+   Tea (Tea Leaves/Tea Flowers): Found on Forest and Jungle planets. Sometimes sold by Humans and Hylotl.
-+   Frostberries: Found on Snow and Tundra planets. Sometimes sold by Apex.
-+   Ash Apples: Found in trees on Ashen Volcanic planets.
++ New Planet Variant!: Autumnal Forest, a nice beautiful warm-colored autumn landscape to contrast the Botanical Forest's spring feel.
 
-+ New Food Related Statuses!: Food items relating to produce have some changed and some new status effects.
---- Statuses
-+   Apples: Regeneration
-+   Oranges: Max Energy
-+   Tea Leaves: Max Energy/Run Boost
-+   Tea Flowers: Energy Regeneration
-+   Frostberries: Heat Protection/Resistance 
-+   Chili: Cold Protection
-+   Ash Apples: Nova 
-+   Neonmelon: Glow
++ New hat!: Pixelflame Hat, can be found randomly in PGI chests.
 
-+ New Food Items!: To go along with these expansions, there are now multiple new food items. Some extras as well.
---- Apples
-+   Apple Juice
-+   Apple Cider
-+   Apple Fritter
-+   Apple Pie
-+   Cider Donut
-+   Autumn Steak
---- Oranges
-+   Orange Juice
-+   Mimosa
-+   Marmalade
-+   Orange Sorbet
-+   Orange Bread
-+   Orange Cake
-+   Eyeclench Cookie
-+   Orange Poultry
---- Tea
-+   Black Tea
-+   Iced Sweet Tea
-+   Bubble Tea
-+   Herbal Tea
-+   Floral Tea
-+   Green Tea
-+   Matcha Cake
-+   Matcha Ice Cream
-+   Brightea
-+   Ocular Palmer
---- Frostberry
-+   Frostberry Juice
-+   Frostberry Chiller
-+   Frostberry Melt
-+   Frostberry Waffle
-+   Apple Icesheet
-+   Bonechiller
-+   Snowcake
-+   Frosty Ape 
-+   Prismsicle
-+   Frostberry Freeze
-+   Diamond Dust
---- Chili Pepper
-+   Chili Spice
-+   Flamed Peppers
-+   Hot Kebab
-+   Spicy Meat Taco
-+   Mountaineer's Special
-+   Fireballs
-+   Overclock
-+   Fire Steak
---- Ash Apple 
-+   Volcanic Spice
-+   Volcanic Shake
-+   Laccolith Pie 
-+   Providence Cookie 
-+   The Scav
-+   Dirty Bomb
-+   Ash Apple Bomb (Not Edible)
---- Other
-+   Currentcorn Juice
-+   Battery Acid
-+   Urchinade
-+   Avesmingo Jam
-+   Abscession
-+   Fries
++ New Element!: Spirit, has the unique status effect "Sealed" which reduces attack and defense. Will be expanded at a future date.
 
-+ New Hazard Reduction Methods!: Some food items and some extra objects can now grant hazard protection.
---- Mild Cold Items
-+   Autumn Steak 
-+   Spicy Taco
-+   Chili Pepper
-+   Flamed Peppers
-+   Hot Kebab 
-+   Spicy Ribs
-+   Spicy Feathercrown
-+   Coralcreep Curry
-+   Mountaineer's Special 
---- Mild Heat Items
-+   Iced Sweet Tea 
-+   Matcha Icecream
-+   Frostberry
-+   Frostberry Juice 
-+   Frostberry Melt 
-+   Bonechiller 
-+   Frostberry Chiller 
---- Deadly Cold Items
-+   Fire Steak 
---- Deadly Heat Items
-+   Frostberry Freeze
++ New Monsters!: 2 new monsters have been added.
+--- Added Monsters 
++   Kitsunix: A strange fennix that shoots spirit fire through an unknown method. Found in Botanical Forest and Spring Snow biomes.
++   Night Wisper: A well hidden and dangerous foe that drops some strange stuff on defeat. Found in Midnight Caverns.
 
---- Mild Cold Objects
-+   Old Radiator
---- Mild Heat Objects
-+   Bunker Vent 
-+   Barred Vent 
-+   Vent 
---- Mild Heat and Cold Objects
-+   Station Ceiling Vent 
-+   Astro Vent 
++ New Throwing Weapon!: Sealing Talisman, the only weapon currently to deal Spirit damage. Can be found in Ruined Hylotl Castles and crafted at an Anvil once found.
 
-+ New Mining Tools!: To help you get around and harvest caves, I've added some mining tools I felt were missing from the Foraging Station.
---- Drills
-+   Iron Drill
-+   Durasteel Drill 
-+   Chronium Drill 
-+   Tunnel Drill
+--- ITEM CHANGES
++ Orange Stims are now craftable from the Medical Station.
 
-+ New Codices!: To add a bit more to the lore, I've added a few new codices. Detailing the Apex and Humans, one detailing the origins of the Leaf Blower.
---- Codices 
-+   1 Apex Codex 
-+   3 Human Codices
++ Leaf/Floran Shield can now be obtained from Forest Biome chests.
 
-+ New Tutorial Radio Messages!: Clue the player in on the Hazard Lab Table whenever they first encounter a Mild and Deadly hazard, to better onboard them to the mod.
++ Frost Shield can now be obtained from Snow and Tundra Biome chests.
 
---- ITEM CHANGES 
-+ Certain food item sprites have changed, these include: Apple, Orange, Boneboo, Avesmingo, Pussplum, Alien Fruit, Neonmelon, Raw Alien Meat, Cooked Steak, Cured Steak
-
-+ Renamed Chilli item to Chili Pepper.
-
-+ Chili Pepper now grants 10 seconds of Mild Heat Resistance.
-
-+ Hothothot Pot, Burning Eyeballs, Hot Bone, and Volcanic Salsa now use Volcanic Spice rather than Chili.
-
-+ Spicy Feathercrown, Coralcreep Curry, and Spicy Ribs now use Chili Spice rather than Chili.
-
-+ Coralcreep Curry, Spicy Ribs, and Spicy Feathercrown now grant Mild Cold Resistance rather than Nova.
-
-+ Salt can now be created at the Kitchen Counter as well as the Furnace.
-
-+ All mining tool items now have drastically increased durability.
-
-+ Changed the mining tool descriptions, needs more detail later.
-
---- CODEX CHANGES
-+ Updated the cover sprite of the "The Rulings of the Glitch" codex to be of the Glitch flag.
-
-+ Changed the "USCM Fiscal Report" first page to different wording and align with the new title of the USCM, Unified Space Corporate Military.
-
---- WEAPON CHANGES
-- Leaf Blower has increased shot spread.
-
---- BIOME CHANGES 
-+ Greatly reduced the background fade percentage for volcanoes/mountains in the backgrounds of many planetary variants.
-
-+ Added many bushes to the Forest Caves. Adding more variety in what you can find.
-
-+ Added short versions of trees that can spawn in Forest Caves.
-
---- STATUS EFFECT CHANGES
-+ Added new names for the food based status effects, giving insight to their cause.
-
-- Glow Stim brightness decreased back to vanilla values.
-
---- NPC CHANGES
-+ Added new hostile Floran NPC that now spawns in Forest Cave structures.
+- Orange Stims can no longer be found in PGI chests.
 
 --- FIXES/COMPATIBILITY
-+ Leaf Blower projectiles are now no longer fullbright.
++ Added a few testing operations to the Coralcreep Curry, Spicy Feathercrown, and Spicy Ribs patches as there was a mod conflict.
 
-+ Leaf Blower no longer has light when firing.
++ Added further testing operations to the cockpit.config patch, hopefully adding further robustness to the patches.
+
++ Added PGI chest spawns to the "Oceanic World Caves Reworked" Ocean and Toxic biome patches, so they should spawn. Especially if you're using the complete replacement mod.

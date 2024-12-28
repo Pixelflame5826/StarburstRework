@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A volatile mineraloid that can project energy outwards in bursts or even shields."
+    }
+]

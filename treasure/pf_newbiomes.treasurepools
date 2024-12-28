@@ -44,6 +44,24 @@
       ]
     }]
   ],
+
+  // ================================
+  //       SAVANNAH SECONDARY
+  // ================================
+  "pf_savannahswordskullHarvest" : [
+    [1, {
+	  "fill" : [
+        {"item" : "pf_savannahsword"}
+      ]
+    }]
+  ],
+  "pf_savannahbowpedestalHarvest" : [
+    [1, {
+	  "fill" : [
+        {"item" : "pf_savannahbow"}
+      ]
+    }]
+  ],
   
   // ================================
   //         ANABATIC/STORMY

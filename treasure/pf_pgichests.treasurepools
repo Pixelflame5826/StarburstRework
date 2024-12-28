@@ -5,9 +5,10 @@
 		    {"item" : ["perfectlygenericitem", 2]}
       ],
       "pool" : [
-	      {"weight" : 0.5, "pool" : "pf_pgiVoxel"},
-		    {"weight" : 0.175, "item" : ["orangestim", 10]},
-		    {"weight" : 0.05, "pool" : "pf_pgiJokes"}
+	      {"weight" : 0.4, "pool" : "pf_pgiVoxel"},
+		    {"weight" : 0.35, "pool" : "pf_pgiJokes"},
+        {"weight" : 0.2, "item" : "pf_pixelflamehathead"},
+        {"weight" : 0.05, "pool" : "pf_pgiGenericWeapon"}
       ],
 	  "poolRounds" : [
         [1.00, 1]
@@ -15,6 +16,7 @@
     }]
   ],
   
+  // GENERIC ITEM POOLS
   "pf_pgiVoxel" : [
     [1, {
       "pool" : [
@@ -50,16 +52,43 @@
       ]
     }]
   ],
-  
+
+  // GENERIC WEAPON SETS 
+  "pf_pgiGenericWeapon" : [
+    [1, {
+      "pool" : [
+	      {"weight" : 1.0, "pool" : "pf_pgiWarpSet"},
+        {"weight" : 1.0, "pool" : "pf_pgiAnomalySet"}
+      ]
+    }]
+  ],
+  "pf_pgiWarpSet" : [
+    [1, {
+      "fill" : [
+        {"item" : "pf_warpsaber"},
+        {"item" : "pf_warphathead"}
+      ]
+    }]
+  ],
+  "pf_pgiAnomalySet" : [
+    [1, {
+      "fill" : [
+        {"item" : "pf_multitool"}
+      ]
+    }]
+  ],
+
+  // CHESTS 
   "pf_pgiDefaultChest" : [
     [1, {
       "fill" : [
+        {"pool" : "pf_pgiGenericWeapon" },
         {"pool" : "pf_pgiTreasure"}
       ],
       "pool" : [
         {"weight" : 0.45, "pool" : "valuableTreasure"},
         {"weight" : 0.35, "pool" : "valuableTechTreasure"},
-	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
@@ -74,13 +103,13 @@
   "pf_pgiAlienChest" : [
     [1, {
       "fill" : [
-		{"item" : "pf_m1000" },
+		    {"item" : "pf_m1000" },
         {"pool" : "pf_pgiTreasure"}
       ],
       "pool" : [
-	    {"weight" : 0.45, "pool" : "valuableTreasure"},
+	      {"weight" : 0.45, "pool" : "valuableTreasure"},
         {"weight" : 0.35, "pool" : "valuableTechTreasure"},
-	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
@@ -95,13 +124,13 @@
   "pf_pgiScorchedChest" : [
     [1, {
       "fill" : [
-		{"item" : "pf_scorchingbolter" },
+		    {"item" : "pf_scorchingbolter" },
         {"pool" : "pf_pgiTreasure"}
       ],
       "pool" : [
-	    {"weight" : 0.45, "pool" : "valuableTreasure"},
+	      {"weight" : 0.45, "pool" : "valuableTreasure"},
         {"weight" : 0.35, "pool" : "valuableTechTreasure"},
-	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
@@ -115,13 +144,13 @@
   "pf_pgiSnowChest" : [
     [1, {
       "fill" : [
-		{"item" : "pf_combatshovel" },
+		    {"item" : "pf_combatshovel" },
         {"pool" : "pf_pgiTreasure"}
       ],
       "pool" : [
-	    {"weight" : 0.45, "pool" : "valuableTreasure"},
+	      {"weight" : 0.45, "pool" : "valuableTreasure"},
         {"weight" : 0.35, "pool" : "valuableTechTreasure"},
-	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
@@ -135,13 +164,13 @@
   "pf_pgiToxicChest" : [
     [1, {
       "fill" : [
-		{"item" : "exmachina" },
+		    {"item" : "exmachina" },
         {"pool" : "pf_pgiTreasure"}
       ],
       "pool" : [
-	    {"weight" : 0.45, "pool" : "valuableTreasure"},
+	      {"weight" : 0.45, "pool" : "valuableTreasure"},
         {"weight" : 0.35, "pool" : "valuableTechTreasure"},
-	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
@@ -155,13 +184,13 @@
   "pf_pgiVolcanicChest" : [
     [1, {
       "fill" : [
-		{"item" : "doomcannon" },
+		    {"item" : "doomcannon" },
         {"pool" : "pf_pgiTreasure"}
       ],
       "pool" : [
-	    {"weight" : 0.45, "pool" : "valuableTreasure"},
+	      {"weight" : 0.45, "pool" : "valuableTreasure"},
         {"weight" : 0.35, "pool" : "valuableTechTreasure"},
-	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],
@@ -175,13 +204,34 @@
   "pf_pgiStormyChest" : [
     [1, {
       "fill" : [
-		{"item" : "pf_galaxysword" },
+		    {"item" : "pf_galaxysword" },
         {"pool" : "pf_pgiTreasure"}
       ],
       "pool" : [
-	    {"weight" : 0.45, "pool" : "valuableTreasure"},
+	      {"weight" : 0.45, "pool" : "valuableTreasure"},
         {"weight" : 0.35, "pool" : "valuableTechTreasure"},
-	    {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
+      ],
+      "poolRounds" : [
+        [0.40, 2],
+        [0.30, 3],
+        [0.15, 4],
+        [0.20, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "pf_pgiOceanChest" : [
+    [1, {
+      "fill" : [
+		    {"item" : "pf_sinnermace" },
+        {"item" : "pf_sinnershield" },
+        {"pool" : "pf_pgiTreasure"}
+      ],
+      "pool" : [
+	      {"weight" : 0.45, "pool" : "valuableTreasure"},
+        {"weight" : 0.35, "pool" : "valuableTechTreasure"},
+	      {"weight" : 0.20, "pool" : "pf_pgiTreasure"}
       ],
       "poolRounds" : [
         [0.40, 2],

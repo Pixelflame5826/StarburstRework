@@ -1,0 +1,34 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildunrandshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/scripts/0",
+        "value": "/items/active/shields/pf_newshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Seashell shield to shield from shore threats for sure. Douses enemies in water when hit."
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueshield"
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "wet"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffectName",
+        "value": "Water Splash"
+    }
+]

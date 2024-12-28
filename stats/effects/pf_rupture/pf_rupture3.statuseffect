@@ -1,0 +1,21 @@
+{
+  "name" : "pf_rupture3",
+  "blockingStat" : "specialStatusImmunity",
+
+  "effectConfig" : {
+    "activateDelay" : 0.1,
+    "deactivateDelay" : 0.1,
+    "triggerDamageThreshold" : 10,
+    "explosionDamageAmount" : 90
+  },
+  "defaultDuration" : 7,
+
+  "scripts" : [
+    "pf_rupture.lua"
+  ],
+
+  "animationConfig" : "pf_rupture.animation",
+
+  "label" : "^red;Rupture - Take moderate damage upon being hit.",
+  "icon" : "/interface/statuses/doomed.png"
+}

@@ -1,0 +1,58 @@
+{
+  "itemName" : "pf_sinnermace",
+  "level" : 3,
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A wrathful mace that can cause tremors in those who are hit with it. It seeks vengeance.",
+  "shortdescription" : "Pallid Mace",
+  "tooltipKind" : "pf_sinnersword",
+  "category" : "pf_referenceWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe", "pf_anvilUpgradeableWeapon"],
+
+  "inventoryIcon" : "pf_sinnermace.png",
+
+  "animation" : "/items/active/weapons/unique/sinnermace/pf_sinnermace.animation",
+  "animationParts" : {
+    "blade" : "pf_sinnermace.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "uptieLevel" : 1,
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 10.5,
+    "damageConfig" : {
+      "knockback" : 15,
+      "statusEffects" : [ "pf_tremor" ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/pf_buildsinnerweapon.lua",
+
+  "upgradeParameters" : {
+	  "level4" : {
+      "uptieLevel" : 2
+  	},
+    "level5" : {
+      "uptieLevel" : 3
+  	},
+    "level6" : {
+      "uptieLevel" : 4,
+      "description" : "A mace once carried by a wrathful sailor, hellbent on killing the one who sought the ^gray;Whale^white; above all else."
+  	}
+  }
+}

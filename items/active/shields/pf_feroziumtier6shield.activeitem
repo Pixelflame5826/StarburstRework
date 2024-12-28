@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "shield",
-  "description" : "A strong Ferozium shield generator. It can repel even the strongest hits, even if its not many of them.",
+  "description" : "A strong Ferozium shield generator. It can repel even the strongest hits and recover fast.",
   "shortdescription" : "Ferozium Ward",
   "tooltipKind" : "pf_uniqueshield",
   "twoHanded" : false,
@@ -26,12 +26,13 @@
     }
   },
 
-  "scripts" : ["/items/active/shields/shield.lua"],
+  "scripts" : ["/items/active/shields/pf_newshield.lua"],
 
   "minActiveTime" : 0.15,
 
   "forceWalk" : true,
   "baseShieldHealth" : 15,
+  "regenModifier" : 2.0,
   "cooldownTime" : 0.45,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",

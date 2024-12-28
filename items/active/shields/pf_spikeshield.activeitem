@@ -1,0 +1,62 @@
+{
+  "itemName" : "pf_spikeshield",
+  "fixedLevel" : false,
+  "price" : 570,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "shield",
+  "description" : "A sturdy targe with a large spike on the front. Hurts and bleeds enemies upon contact.",
+  "shortdescription" : "Bloody Targe",
+  "tooltipKind" : "pf_uniqueshield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/pf_spike.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/pf_spike.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/pf_newshield.lua"],
+
+  "minActiveTime" : 0.45,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 50,
+  "cooldownTime" : 0.55,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 15,
+  "bashDamage" : 5,
+  "bashDamageType" : "pf_piercing",
+  "statusEffects" : [ "pf_bleeding" ],
+  "statusEffectName" : "Bleeding Spike",
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/pf_buildunrandshield.lua"
+}

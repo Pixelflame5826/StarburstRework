@@ -805,5 +805,14 @@
         "value": {
             "item": "pf_tunneldrill"
         }
+    },
+
+    //OTHER
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "orangestim"
+        }
     }
 ]

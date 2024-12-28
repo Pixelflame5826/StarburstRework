@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "An ionic mineral that is able to absorb, contain, and release vast quantities of energy."
+    }
+]

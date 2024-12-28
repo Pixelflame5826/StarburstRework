@@ -736,6 +736,37 @@
 
     {
         "op": "add",
+        "path": "/regionTypes/pf_autumnforest",
+        "value": {
+            "caveLiquid": [
+                "water"
+            ],
+            "blockSelector": [
+                "remixedMildSurface"
+            ],
+            "fgCaveSelector": [
+                "surfaceCaves"
+            ],
+            "bgCaveSelector": [
+                "empty"
+            ],
+            "biome": [
+                [
+                    0,
+                    [
+                        "pf_autumnforest"
+                    ]
+                ]
+            ],
+            "subRegion": [
+                "swamp",
+                "mushroom"
+            ]
+        }
+    },
+
+    {
+        "op": "add",
         "path": "/planetTypes/forest/layers/surface/primaryRegion/-",
         "value": "pf_floralforest"
     },
@@ -748,6 +779,11 @@
         "op": "add",
         "path": "/planetTypes/forest/layers/surface/primaryRegion/-",
         "value": "pf_woodlandsforest"
+    },
+    {
+        "op": "add",
+        "path": "/planetTypes/forest/layers/surface/primaryRegion/-",
+        "value": "pf_autumnforest"
     },
 	
 	//SAVANNAH

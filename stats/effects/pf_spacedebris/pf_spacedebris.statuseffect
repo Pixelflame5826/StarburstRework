@@ -1,0 +1,17 @@
+{
+  "name" : "pf_spacedebris",
+  //"blockingStat" : "biomeheatImmunity",
+
+  "effectConfig" : {
+    "tickRate" : 0.2,
+    "tickDamage" : 5
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_spacedebris.lua"
+  ],
+
+  "label" : "^red;Stellar Micro-Debris - Heavy damage over time. ",
+  "icon" : "/interface/statuses/pf_spacedebris.png"
+}

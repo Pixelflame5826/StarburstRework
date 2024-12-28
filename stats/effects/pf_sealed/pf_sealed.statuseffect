@@ -1,0 +1,21 @@
+{
+  "name" : "pf_sealed",
+  "blockingStat" : "",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 0.6,
+      "airJumpModifier" : 0.6
+    }
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_sealed.lua"
+  ],
+
+  "animationConfig" : "pf_sealed.animation",
+
+  "label" : "^red;Sealed - Reduced attack and mobility. All regeneration is blocked.",
+  "icon" : "/interface/statuses/pf_sealed.png"
+}

@@ -3,5 +3,10 @@
         "op": "add",
         "path": "/pf_elementalparry",
         "value": "/items/active/weapons/melee/abilities/broadsword/elementalparry/pf_elementalparry.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/pf_multiswap",
+        "value": "/items/active/weapons/unique/multitool/pf_multiswap.weaponability"
     }
 ]

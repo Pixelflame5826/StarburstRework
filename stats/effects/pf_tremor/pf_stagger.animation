@@ -1,0 +1,37 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "staggermessage" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 1,
+            "cycle" : 0.9,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "staggermessage" : {
+        "properties" : {
+          "zLevel" : 0
+        },
+        "partStates" : {
+          "staggermessage" : {
+            "on" : {
+              "properties" : {
+                "image" : "pf_staggermessage.png",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sounds" : {
+    "stagger_start" : [ "/sfx/melee/shield_break_metal.ogg" ]
+  }
+}

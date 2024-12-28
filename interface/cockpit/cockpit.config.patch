@@ -681,6 +681,7 @@
     { "op": "add", "path": "/displayBiomes/pf_floralforest", "value": { "name": "Botanical Forest", "icon": "/interface/bookmarks/icons/forest.png" } },
     { "op": "add", "path": "/displayBiomes/pf_fungalforest", "value": { "name": "Fungal Forest", "icon": "/interface/bookmarks/icons/forest.png" } },
     { "op": "add", "path": "/displayBiomes/pf_woodlandsforest", "value": { "name": "Arid Forest", "icon": "/interface/bookmarks/icons/forest.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_autumnforest", "value": { "name": "Autumnal Forest", "icon": "/interface/bookmarks/icons/forest.png" } },
 
     { "op": "add", "path": "/displayBiomes/pf_floodplainsavannah", "value": { "name": "Floodplain Savannah", "icon": "/interface/bookmarks/icons/savannah.png" } },
     { "op": "add", "path": "/displayBiomes/pf_mountainsavannah", "value": { "name": "Plateau Savannah", "icon": "/interface/bookmarks/icons/savannah.png" } },
@@ -728,9 +729,12 @@
 
     { "op": "add", "path": "/displayBiomes/pf_industrialtoxic", "value": { "name": "Toxic Oil Fields", "icon": "/interface/bookmarks/icons/toxic.png" } },
     { "op": "add", "path": "/displayBiomes/pf_urbantoxic", "value": { "name": "Toxic Ports", "icon": "/interface/bookmarks/icons/toxic.png" } },
-    { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Archipelago", "icon": "/interface/bookmarks/icons/toxic.png" } },
+    { "op": "add", "path": "/displayBiomes/pf_lushtoxic", "value": { "name": "Toxic Archipelago", "icon": "/interface/bookmarks/icons/toxic.png" } }
 
+],
     //Dungeons
+[
+    { "op": "test", "path": "/displayDungeons" },
     { "op": "add", "path": "/displayDungeons/pf_occupiedhylotlcastle/ps_icon", "value": "/objects/hylotl/hylotluniformstand/hylotluniformstandicon.png" },
 	{ "op": "add", "path": "/displayDungeons/pf_occupiedhylotlcastle/ps_name", "value": "Occupied Hylotl Castle" },
     { "op": "add", "path": "/displayDungeons/pf_novakidsnowvillage/ps_icon", "value": "/objects/biome/steamspring/brasslamppost1/brasslamppost1icon.png" },

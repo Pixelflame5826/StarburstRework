@@ -1,0 +1,15 @@
+{
+  "name" : "pf_stagger",
+
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_stagger.lua"
+  ],
+
+  "animationConfig" : "pf_stagger.animation",
+
+  "label" : "^red;Stagger - Unable to move or act. Reduced defense and more susceptible to all elements.",
+  "icon" : "/interface/statuses/pf_tremorburst.png"
+}

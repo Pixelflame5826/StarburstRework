@@ -10,7 +10,7 @@
             "distribution": "/biomes/distributions.config:pf_pgiChest",
             "type": "treasureBox",
             "treasureBoxSets": [
-                "pf_pgiDefaultChest"
+                "pf_pgiOceanChest"
             ]
         }
     },

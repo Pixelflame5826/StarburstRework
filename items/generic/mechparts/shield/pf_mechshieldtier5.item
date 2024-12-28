@@ -1,0 +1,19 @@
+{
+  "itemName" : "pf_mechshieldtier5",
+  "price" : 2000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "pf_mechshield",
+  "inventoryIcon" : "pf_mechshieldtier5.png",
+  "description" : "An insulating mech forcefield made from Aegisalt. ^red;Blocks specific hazards.^white;",
+  "shortdescription" : "Aegisalt Mech Shielding",
+  "itemTags" : [ ],
+
+  "tooltipFields" : {
+    "hazardLabel" : "^red;Chaotic",
+    "protectionStatImage" : "/interface/tooltips/statbar.png:4"
+  },
+
+  "mechPart" : ["pf_shield", "pf_tier5"]
+}

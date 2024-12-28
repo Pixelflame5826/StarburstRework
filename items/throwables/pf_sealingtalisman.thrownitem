@@ -1,0 +1,38 @@
+{
+  "itemName" : "pf_sealingtalisman",
+  "rarity" : "Uncommon",
+  "price" : 20,
+  "level" : 3,
+  "category" : "throwableItem",
+  "inventoryIcon" : "pf_sealingtalismanicon.png",
+  "image" : "pf_sealingtalisman.png",
+  "largeImage" : "pf_sealingtalisman.png",
+  "shortdescription" : "Sealing Talismans",
+  "description" : "A bundle of spiritual talismans that contain the ghostly power to seal targets.",
+  "tooltipKind" : "pf_throwingweapon",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.05,
+  "cooldown" : 0.2,
+
+  "projectileType" : "pf_sealingtalismanstart",
+  "projectileConfig" : {
+    "speed" : 75,
+    "power" : 10,
+    "knockback" : 10,
+
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+  
+  "builder" : "/items/buildscripts/pf_buildthrowingweapon.lua",
+  "learnBlueprintsOnPickup" : [ "pf_sealingtalisman" ]
+}

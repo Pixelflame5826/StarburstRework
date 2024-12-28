@@ -1,0 +1,20 @@
+{
+  "itemName" : "pf_mechshieldtier6",
+  "price" : 2000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "pf_mechshield",
+  "inventoryIcon" : "pf_mechshieldtier6.png",
+  "description" : "A repulsive mech forcefield plated with sturdy Chronium. ^red;Blocks specific hazards.^white;",
+  "shortdescription" : "Chronium Mech Shielding",
+  "itemTags" : [ ],
+
+  "tooltipFields" : {
+    "hazardLabel" : "^orange;Bleak",
+    "protectionStatImage" : "/interface/tooltips/statbar.png:5"
+  },
+
+
+  "mechPart" : ["pf_shield", "pf_tier6"]
+}

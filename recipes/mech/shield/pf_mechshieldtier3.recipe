@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 },
+    { "item" : "salvagebody", "count" : 10 },
+    { "item" : "lead", "count" : 10 }
+  ],
+  "duration" : 3,
+  "output" : { "item" : "pf_mechshieldtier3", "count" : 1 },
+  "groups" : [ "craftingmech", "pf_mechshield" ]
+}

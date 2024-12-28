@@ -1,0 +1,60 @@
+{
+  "itemName" : "pf_sinnershield",
+  "level" : 4,
+  "price" : 570,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "shield",
+  "description" : "A large, heavy shield that can stagger foes who tremble when hit. The inscription upon it reads \"Hearse\".",
+  "shortdescription" : "Ballast Shield",
+  "tooltipKind" : "pf_uniqueshield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/pf_sinner/pf_sinner.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/pf_sinner/pf_sinner.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_wood_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_wood.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_wood.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/pf_newshield.lua"],
+
+  "minActiveTime" : 0.3,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 35,
+  "cooldownTime" : 0.75,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 10,
+  "statusEffects" : [ "pf_tremorburst" ],
+  "statusEffectName" : "Tremor Burst",
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/pf_buildunrandshield.lua"
+}

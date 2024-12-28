@@ -1,0 +1,41 @@
+{
+  "id" : "pf_tutorialmech1",
+  "species" : "other",
+  "title" : "RW-08 \"Modular Mech\" Manual",
+  "description" : "A basic manual about how to effectively design and use your mech.",
+  "icon" : "pf_mechcover1.png",
+  "contentPages" : [
+    "Greetings new pilot and congratulations on completing your training. The RW-08 \"Modular Mech\" is a marvel of Terran Engineering, being both versatile and powerful in space or on the ground. This manual will detail everything about designing your own personal mech. 
+
+To be able to start to use your mech, you need: both arm attachments, the main chassis, an EVA booster system, and legs. Nonessential parts like horns are a cosmetic only and not required. Shields will be brought up later in the manual.",
+
+	"The Chassis, or Body, dictates how large your mech's energy supply is and its main form of protection. Your mech will be inoperable after its main energy supply depletes, so this part is the most important. Allowing your systems to last longer. 
+
+As well, it provides you with extra defense against enemy attacks, when you get hit, your mech expends energy to repel it. The higher your defense, the less it will deplete.",
+	
+	"Arms are what allows your mech to perform certain actions. You have 2 installed at all times, one for the left, one for the right. There are a wide variety of them including: guns, mining tools, melee weapons, drones, and energy launchers. 
+
+However, each of them has an energy requirement. Every time you use one of them, you expend energy to do so. So keep an eye on your energy needs.",
+	
+	"The Booster System and Legs are your main form of mobility. They activate in spaceflight and in gravity wells respectively. The better your boosters are, the faster and more maneuverable your mech will be in the vacuum of space, incredibly important for excursions to anomalies or asteroid fields. 
+
+Your legs allow your mech to walk and being able to jump while under the effects of gravity, which is important for ships and planets. The better they are, the more swift your mech will become.",
+	
+	"Now that you have a grasp on the fundamental systems, lets talk about hazards. In certain sectors of space, there are stars and planets with hazards. These require better Shielding systems to handle. 
+
+If your mech comes against a hazard that its not built for. The mech will have to expend more energy to protect against it, putting you at risk if you stay for long periods.",
+	
+	"To create new mech parts, you need to find certain designs you can find on Anomalies, Ships, and from some technology providers. These won't be whole pieces however. 
+
+In order to actually make and use them, you require a Mech Crafting Table and specific materials. A lot of these materials can be found in Anomalies and Ships, some materials can only be found in certain sectors as well.",
+
+  "Now that you know how your mech fully functions, you have all you need to create your own personal mech. Whether it be for excursions into deep space or exploring planets in your own personal exploration vehicle, it will serve you well in all your endeavors. 
+
+Though remember that you have more options, a pilot's effectiveness is on them, not their mech. Good luck."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

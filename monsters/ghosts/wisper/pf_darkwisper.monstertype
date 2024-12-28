@@ -8,7 +8,7 @@
 
   "animation" : "pf_darkwisper.animation",
 
-  "dropPools" : [ { "default" : "voidwisperTreasure", "bow" : "voidwisperHunting" } ],
+  "dropPools" : [ { "default" : "pf_darkwisperTreasure", "bow" : "pf_darkwisperHunting" } ],
 
   "baseParameters" : {
     "scripts" : [

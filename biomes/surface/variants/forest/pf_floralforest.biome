@@ -5,6 +5,12 @@
   "spawnProfile" : {
     "groups" : [
       {
+        "select" : 1,
+        "pool" : [
+          [ 0.111, "pf_spiritfennix" ]
+        ]
+      },
+      {
         "select" : 3,
         "pool" : [
           [ 0.111, "snaunt" ],

@@ -1,0 +1,27 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildunrandshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/scripts/0",
+        "value": "/items/active/shields/pf_newshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A shield made of surprisingly sturdy leaves. Its planty field regenerates quick recovery after breaking."
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueshield"
+    },
+    {
+        "op": "add",
+        "path": "/regenModifier",
+        "value": 2.0
+    }
+]

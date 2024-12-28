@@ -26,5 +26,19 @@
                 "kill": "pf_piercingdamagenumber"
             }
         }
+    },
+    {
+        "op": "add",
+        "path": "/pf_spirit",
+        "value": {
+            "resistanceStat": "pf_spiritResistance",
+            "damageNumberParticles": {
+                "hit": "pf_spiritdamagenumber",
+                "stronghit": "pf_spiritdamagenumberstrong",
+                "weakhit": "pf_spiritdamagenumberweak",
+                "shieldhit": "pf_spiritdamagenumber",
+                "kill": "pf_spiritdamagenumber"
+            }
+        }
     }
 ]

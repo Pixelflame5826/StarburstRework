@@ -21,7 +21,6 @@ function init()
 end
 
 function update(dt)
-  mcontroller.setVelocity({0, 0})
   mcontroller.controlModifiers({
       facingSuppressed = true,
       movementSuppressed = true

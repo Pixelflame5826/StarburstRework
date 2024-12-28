@@ -1,0 +1,39 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildunrandshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/scripts/0",
+        "value": "/items/active/shields/pf_newshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "This icy shield gives enemy attacks the cold shoulder. Slows enemies when hit."
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueshield"
+    },
+    {
+        "op": "replace",
+        "path": "/knockback",
+        "value": 25
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "frostslow"
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/statusEffectName",
+        "value": "Cold Counter"
+    }
+]

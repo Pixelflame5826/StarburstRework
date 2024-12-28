@@ -1,0 +1,137 @@
+{
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1,
+              "properties" : {
+               
+              }
+            },
+            "2" : {
+              "frames" : 1,
+              "properties" : {
+              }
+            },
+            "3" : {
+              "frames" : 1,
+              "properties" : {
+              }
+            },
+            "4" : {
+              "frames" : 1,
+              "properties" : {
+              }
+            }
+          }
+        }
+      },
+
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "image" : null
+          },
+
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:boltcaster.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:scatterblaster.<frame><paletteSwaps>"
+                }
+              },
+              "3" : {
+                "properties" : {
+                  "image" : "<partImage>:pulsespitter.<frame><paletteSwaps>"
+                }
+              },
+              "4" : {
+                "properties" : {
+                  "image" : "<partImage>:miningbeam.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/reload/shotgun_reload_clip2.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "type" : "pf_multiswap",
+    "name" : "Swap Mode",
+    "scripts" : ["/items/active/weapons/other/adaptablecrossbow/adaptableammo.lua"],
+    "class" : "AdaptableAmmo",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        "projectileType" : "pf_multitoolbolt",
+        "projectileMode" : "projectile",
+        "projectileCount" : 1,
+        "inaccuracy" : 0.015,
+        "fireType" : "burst",
+        "fireTime" : 0.3,
+        "energyUsage" : 24
+      },
+      {
+        "projectileType" : "pf_multitoolscatter",
+        "projectileMode" : "projectile",
+        "projectileCount" : 6,
+        "fireTime" : 0.75,
+        "inaccuracy" : 0.065,
+        "fireType" : "auto",
+        "energyUsage" : 24
+      },
+      {
+        "projectileType" : "pf_multitoolspitter",
+        "projectileMode" : "projectile",
+        "projectileCount" : 1,
+        "fireTime" : 0.15,
+        "inaccuracy" : 0.05,
+        "fireType" : "auto",
+        "energyUsage" : 24
+      },
+      {
+        "projectileMode" : "beam",
+        "energyUsage" : 24
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

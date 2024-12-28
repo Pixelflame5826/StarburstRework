@@ -77,10 +77,10 @@
   "pf_darkwisperHunting" : [
     [1, {
       "pool" : [
-        {"weight" : 0.65, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.6, "pool" : "noMeatMonsterTreasure"},
         {"weight" : 0.2, "item" : "perfectlygenericitem"},
-        {"weight" : 0.1, "item" : "pf_darkwisperRare"},
-        {"weight" : 0.05, "item" : "pf_pixelcodex-codex" }
+        {"weight" : 0.165, "item" : "pf_darkwisperRare"},
+        {"weight" : 0.035, "item" : "pf_pixelcodex-codex" }
       ],
       "allowDuplication" : false
     }]
@@ -91,7 +91,10 @@
       "pool" : [
         {"weight" : 0.2, "pool" : "pf_pgiJokes" },
         {"weight" : 0.2, "item" : "persistenceofpixels" },
-        {"weight" : 0.2, "item" : "pf_newhorizonspainting" }
+        {"weight" : 0.2, "item" : "pf_newhorizonspainting" },
+        {"weight" : 0.1, "item" : ["dirtmaterial", 137] },
+        {"weight" : 0.1, "item" : "perfectlygenericitem" },
+        {"weight" : 0.05, "item" : "pf_monolithsword" }
       ],
       "poolRounds" : [
         [1.0, 1]

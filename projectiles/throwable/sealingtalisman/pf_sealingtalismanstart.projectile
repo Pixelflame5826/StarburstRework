@@ -1,0 +1,35 @@
+{
+  "projectileName" : "pf_sealingtalismanstart",
+  "image" : "pf_sealingtalismanstart.png",
+  "animationCycle" : 0.2,
+  "animationLoops" : false,
+  "frameNumber" : 1,
+  "timeToLive" : 0.001,
+  "flippable" : true,
+  "statusEffects" : [ ],
+  "power" : 0.0,
+  "piercing" : true,
+  "speed" : 0,
+  "movementSettings" : {
+    "collisionEnabled" : false
+  },
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "pf_sealingtalisman",
+      "inheritDamageFactor" : 0.334
+    },
+	  {
+      "action" : "projectile",
+      "type" : "pf_sealingtalisman",
+      "inheritDamageFactor" : 0.334,
+      "angleAdjust" : 15
+    },
+    {
+      "action" : "projectile",
+      "type" : "pf_sealingtalisman",
+      "inheritDamageFactor" : 0.334,
+      "angleAdjust" : -15
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "projectileName" : "pf_multitoolbolt",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "pf_multitoolbolt.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 80,
+  "emitters" : [ "defaultblue"  ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [0, 140, 207],
+  "damageKind" : "plasma"
+}

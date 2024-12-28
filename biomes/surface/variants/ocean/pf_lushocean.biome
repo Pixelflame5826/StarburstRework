@@ -331,7 +331,7 @@
         "distribution" : "/biomes/distributions.config:pf_pgiChest",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "pf_pgiDefaultChest" ]
+        "treasureBoxSets" : [ "pf_pgiOceanChest" ]
       },
       {
         "mode" : "floor",

@@ -1,0 +1,57 @@
+{
+  "objectName" : "pf_savannahbowpedestal",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "An ornate carved pedestal with a golden bow placed on it.",
+  "shortdescription" : "Savannah Bow Pedestal",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 10,
+
+  "apexDescription" : "A gilded bow, is that even effective as a flexible material?",
+  "avianDescription" : "Oh, this bow shines like the sun! It must be a privelige to pull back.",
+  "floranDescription" : "Floran sseeesss pretty hunting weapon. Floran requiresss.",
+  "glitchDescription" : "Awe. Such a mastercraft of a bow. Its a beauty of fletching!",
+  "humanDescription" : "Artemis would have my head if I took such a beautiful bow. Well, not like Olympus exists anymore...",
+  "hylotlDescription" : "The craft that went into this recurve bow is astonishing. Curious indeed...",
+  "novakidDescription" : "I ain't much of a bow person, but this thing has a certain shine to it.",
+
+  "inventoryIcon" : "pf_savannahbowpedestal.png:default.2.0",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "pf_savannahbowpedestal.png:default.2.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "pf_savannahbowpedestal.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-9, 0],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [99999, 99999]
+    },
+    {
+      "duration" : [99999, 99999]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "pf_savannahbowpedestalHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "startingStage": 3,
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false,
+  
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 5, "particle" : "stoneshard" } ]
+}

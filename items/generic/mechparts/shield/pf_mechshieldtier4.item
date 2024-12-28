@@ -1,0 +1,19 @@
+{
+  "itemName" : "pf_mechshieldtier4",
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "mechPart",
+  "tooltipKind" : "pf_mechshield",
+  "inventoryIcon" : "pf_mechshieldtier4.png",
+  "description" : "Some durable and dense durasteel mech shielding. ^red;Blocks specific hazards.^white;",
+  "shortdescription" : "Durasteel Mech Shielding",
+  "itemTags" : [ ],
+
+  "tooltipFields" : {
+    "hazardLabel" : "^blue;Hazardous",
+    "protectionStatImage" : "/interface/tooltips/statbar.png:4"
+  },
+
+  "mechPart" : ["pf_shield", "pf_tier4"]
+}

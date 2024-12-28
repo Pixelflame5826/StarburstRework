@@ -1,0 +1,12 @@
+{
+  "frameGrid" : {
+    "size" : [16, 16],
+    "dimensions" : [4, 1],
+    "names" : [
+      ["boltcaster.1", "scatterblaster.1", "pulsespitter.1", "miningbeam.1" ]
+    ]
+  },
+
+  "aliases" : {
+  }
+}

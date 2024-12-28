@@ -1,0 +1,16 @@
+{
+  "particleEmitters" : {
+    "flames" : {
+      "enabled" : true,
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "pf_spiritflame"
+        },
+		    {
+          "particle" : "pf_spiritwisp"
+        }
+      ]
+    }
+  }
+}

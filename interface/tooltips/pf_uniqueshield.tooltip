@@ -25,39 +25,49 @@
   },
   "healthLabel" : {
     "type" : "label",
-    "position" : [127, 71],
+    "position" : [127, 72],
     "hAnchor" : "right",
     "value" : ""
   },
   "healthTitleLabel" : {
     "type" : "label",
-    "position" : [12, 71],
+    "position" : [12, 72],
     "hAnchor" : "left",
     "value" : "Shield Health:"
   },
   "cooldownLabel" : {
     "type" : "label",
-    "position" : [127, 62],
+    "position" : [127, 63],
     "hAnchor" : "right",
     "value" : ""
   },
   "cooldownTitleLabel" : {
     "type" : "label",
-    "position" : [12, 62],
+    "position" : [12, 63],
     "hAnchor" : "left",
     "value" : "Cooldown:"
   },
   "perfectBlockLabel" : {
     "type" : "label",
-    "position" : [127, 53],
+    "position" : [127, 54],
     "hAnchor" : "right",
     "value" : ""
   },
   "perfectBlockTitleLabel" : {
     "type" : "label",
-    "position" : [12, 53],
+    "position" : [12, 54],
     "hAnchor" : "left",
     "value" : "Parry Window:"
+  },
+  "statusEffectTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 45],
+    "hAnchor" : "left"
+  },
+  "statusEffectLabel" : {
+    "type" : "label",
+    "position" : [127, 45],
+    "hAnchor" : "right"
   },
   "handednessLabel" : {
     "type" : "label",

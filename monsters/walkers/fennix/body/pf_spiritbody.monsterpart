@@ -1,0 +1,10 @@
+{
+  "name" : "fennix",
+  "category" : "pf_spiritfennix",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "pf_spiritfennix.png",
+    "bodynobright" : "pf_spiritfennixnobright.png"
+  }
+}

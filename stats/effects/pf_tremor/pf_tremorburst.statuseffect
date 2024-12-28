@@ -1,0 +1,13 @@
+{
+  "name" : "pf_tremorburst",
+
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "pf_tremorburst.lua"
+  ],
+
+  "label" : "^red;Tremor Burst - Stuns if inflicted with Tremor.",
+  "icon" : "/interface/statuses/pf_tremor.png"
+}

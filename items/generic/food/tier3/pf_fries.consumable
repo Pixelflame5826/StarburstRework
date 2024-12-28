@@ -8,7 +8,7 @@
   "shortdescription" : "Fries",
   "effects" : [ [
     {
-      "effect" : "maxhealthscalingboost",
+      "effect" : "maxhealthscalingboostfood",
       "duration" : 400
     }
   ] ],

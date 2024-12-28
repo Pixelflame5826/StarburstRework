@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildunrandshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/perfectBlockTime",
+        "value": 0.5
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A shield that sees every attack coming. It can deflect attacks long after you lost focus."
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueshield"
+    }
+]

@@ -33,5 +33,39 @@
     "monsterParameters" : {
       "aggressive" : true
     }
+  },
+  {
+    "name" : "pf_darkwisper",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.005,
+    "monsterType" : [
+      [1, "pf_darkwisper"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+  {
+    "name" : "pf_spiritfennix",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.02,
+    "monsterType" : [
+      [0.99, "pf_spiritfennix"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
   }
 ]

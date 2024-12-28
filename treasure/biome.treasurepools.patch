@@ -15,6 +15,14 @@
             "pool": "pf_forestWeaponTreasure"
         }
     },
+    {
+        "op": "add",
+        "path": "/forestTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "floranshield"
+        }
+    },
 	{
         "op": "add",
         "path": "/forestTreasure/0/1/pool/-",
@@ -104,6 +112,14 @@
         "value": {
             "weight": 0.2,
             "pool": "pf_snowWeaponTreasure"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/snowTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.2,
+            "item": "frostshield"
         }
     },
 	
@@ -224,6 +240,14 @@
             "pool": "pf_tundraWeaponTreasure"
         }
     },
+    {
+        "op": "add",
+        "path": "/iceTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.3,
+            "item": "frostshield"
+        }
+    },
 	
 	{
         "op": "add",
@@ -265,6 +289,14 @@
             "pool": "pf_volcanicWeaponTreasure"
         }
     },
+    {
+        "op": "add",
+        "path": "/volcanicTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.25,
+            "item": "pf_fireknightshield"
+        }
+    },
 	
 	{
         "op": "add",
@@ -290,6 +322,15 @@
         "value": {
             "weight": 0.4,
             "pool": "pf_prismWeaponTreasure"
+        }
+    },
+
+    {
+        "op": "add",
+        "path": "/alpineTreasure/0/1/pool/-",
+        "value": {
+            "weight": 0.05,
+            "item": "pf_spikeshield"
         }
     }
 ]

@@ -1,0 +1,18 @@
+{
+  "name" : "pf_spaceplasma",
+  //"blockingStat" : "biomeheatImmunity",
+
+  "effectConfig" : {
+    "tickRate" : 0.5,
+    "tickDamage" : 5,
+    "directives" : "border=2;D93A3A;00000000"
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_spaceplasma.lua"
+  ],
+
+  "label" : "^red;Stellar Plasma - Moderate damage over time. ",
+  "icon" : "/interface/statuses/pf_spaceplasma.png"
+}

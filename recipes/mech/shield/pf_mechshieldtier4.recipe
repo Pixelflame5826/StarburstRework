@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "salvagebody", "count" : 15 },
+    { "item" : "hardenedcarapace", "count" : 10 }
+  ],
+  "duration" : 3,
+  "output" : { "item" : "pf_mechshieldtier4", "count" : 1 },
+  "groups" : [ "craftingmech", "pf_mechshield" ]
+}

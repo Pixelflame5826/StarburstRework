@@ -1,0 +1,17 @@
+{
+  "name" : "pf_spacewind",
+  //"blockingStat" : "biomeRadiationImmunity",
+
+  "effectConfig" : {
+    "healthPercentage" : 0.50,
+	"directives" : "border=2;FFFFA7;00000000"
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "pf_spacewind.lua"
+  ],
+
+  "label" : "^red;Stellar Winds - Max health reduced by 50%.",
+  "icon" : "/interface/statuses/pf_spaceradiation.png"
+}

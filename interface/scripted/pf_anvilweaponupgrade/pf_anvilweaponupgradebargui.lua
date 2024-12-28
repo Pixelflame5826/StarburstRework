@@ -46,7 +46,7 @@ function populateItemList(forceRepop)
 
         local listItem = string.format("%s.%s", self.itemList, widget.addListItem(self.itemList))
         local name = config.parameters.shortdescription or config.config.shortdescription
-		local level = (config.parameters.level or config.config.level or 1)
+		    local level = (config.parameters.level or config.config.level or 1)
         local levelLabel = "^#b9b5b2;Lvl " .. level
 
         widget.setText(string.format("%s.itemName", listItem), name)
@@ -58,7 +58,7 @@ function populateItemList(forceRepop)
           {
             index = i,
             price = price,
-			level = level
+			      level = level
           })
 
         widget.setVisible(string.format("%s.unavailableoverlay", listItem), price > playerModules)

@@ -1,0 +1,16 @@
+{
+  "name" : "pf_tremor",
+  "blockingStat" : "pf_tremorImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "pf_tremor.lua"
+  ],
+
+  "animationConfig" : "pf_tremor.animation",
+
+  "label" : "^red;Tremor - Slightly reduced movement speed. Stuns you when inflicted with Tremor Burst.",
+  "icon" : "/interface/statuses/pf_tremor.png"
+}
