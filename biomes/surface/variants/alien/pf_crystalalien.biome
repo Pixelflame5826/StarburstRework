@@ -186,7 +186,22 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_crystalalien" }
+          }
+        ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "pf_aliencrystalbush1" ], [0.25, "pf_aliencrystalbush2" ], [0.25, "pf_aliencrystalbush3" ], [0.25, "pf_aliencrystalbush4" ] ],
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_crystalalien" }
           }
         ]
       },
@@ -228,7 +243,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_crystalalien" }
           }
         ]
       },
@@ -314,7 +329,7 @@
           {
             "pool" : [ [1, "wilddirturchinseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3,  "originBiome" : "surface/variants/alien/pf_crystalalien"
             }
           }
         ]
@@ -366,7 +381,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_crystalalien" }
           }
         ]
       },
@@ -389,7 +404,21 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_crystalalien" }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "pf_aliencrystalbush1" ], [0.25, "pf_aliencrystalbush2" ], [0.25, "pf_aliencrystalbush3" ], [0.25, "pf_aliencrystalbush4" ] ],
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_crystalalien" }
           }
         ]
       },

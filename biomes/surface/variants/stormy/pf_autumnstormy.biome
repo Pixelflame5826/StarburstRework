@@ -1,6 +1,6 @@
 {
   "name" : "pf_autumnstormy",
-  "friendlyName" : "Autumnal Mountain Range",
+  "friendlyName" : "Autumnal Mountains",
   
   "statusEffects" : [ "pf_biomelightning" ],
 
@@ -151,7 +151,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/stormy/pf_autumnstormy" }
           }
         ]
       },
@@ -165,7 +165,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/stormy/pf_autumnstormy" }
           }
         ]
       },
@@ -270,7 +270,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.7, "zenrock1" ], [0.7, "zenrock4" ], [0.7, "zenrock5" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/stormy/pf_autumnstormy" }
           }
         ]
       },
@@ -314,7 +314,7 @@
 		"objectSets" : [
 		  {
 			"pool" : [ [0.5, "fireflybush" ] ],
-			"parameters" : { }
+			"parameters" : { "originBiome" : "surface/variants/stormy/pf_autumnstormy" }
 		  }
 		]
       },
@@ -331,7 +331,7 @@
           {
             "pool" : [ [1, "wildautomatoseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/stormy/pf_autumnstormy"
             }
           }
         ]
@@ -347,7 +347,7 @@
           {
             "pool" : [ [1, "wilddiodiaseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/stormy/pf_autumnstormy"
             }
           }
         ]
@@ -363,7 +363,7 @@
           {
             "pool" : [ [1, "wildpotatoseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/stormy/pf_autumnstormy"
             }
           }
         ]
@@ -407,7 +407,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/stormy/pf_autumnstormy" }
           }
         ]
       },
@@ -430,7 +430,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/stormy/pf_autumnstormy" }
           }
         ]
       },
@@ -466,7 +466,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.7, "zenrock1" ], [0.7, "zenrock4" ], [0.7, "zenrock5" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/stormy/pf_autumnstormy" }
           }
         ]
       }

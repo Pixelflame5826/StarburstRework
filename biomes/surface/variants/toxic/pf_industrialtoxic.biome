@@ -186,7 +186,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "floorpipe1" ], [0.35, "floorpipe2" ], [0.35, "floorpipe3" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/toxic/pf_industrialtoxic" }
           }
         ]
       },
@@ -239,7 +239,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "toxicgasprimer" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/toxic/pf_industrialtoxic" }
           }
         ]
       },
@@ -255,7 +255,7 @@
           {
             "pool" : [ [1, "wildtoxictopseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/toxic/pf_industrialtoxic"
             }
           }
         ]

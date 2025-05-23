@@ -67,7 +67,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -81,7 +81,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ], [0.48, "goldrocksmall" ], [0.16, "goldrock" ], [0.09, "diamondrocksmall" ], [0.03, "diamondrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -95,7 +95,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["drysand", "dirt", "bonematerial"]}
+            "parameters" : {  "materials" : ["snow", "ice", "bonematerial"], "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -108,7 +108,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ]
+            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ],
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -121,7 +122,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ]
+            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ],
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -173,7 +175,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -187,7 +189,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "challengedoor" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -202,7 +204,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       },
@@ -246,7 +248,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "oshroom1" ], [0.20, "oshroom2" ], [0.20, "oshroom3" ], [0.20, "oshroom4" ], [0.20, "oshroom5" ]]
+            "pool" : [ [0.20, "oshroom1" ], [0.20, "oshroom2" ], [0.20, "oshroom3" ], [0.20, "oshroom4" ], [0.20, "oshroom5" ]],
+            "parameters" : { "originBiome" : "underground/arctic/pf_arcticunderground" }
           }
         ]
       }

@@ -206,7 +206,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -229,7 +229,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "iceshard1" ], [0.35, "iceshard2" ], [0.35, "iceshard3" ], [0.35, "iceshard4" ], [0.35, "iceshard5" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -243,7 +243,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -257,7 +257,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "prismrock3" ], [0.35, "prismrock4" ], [0.35, "prismrock5" ], [0.35, "prismrock6" ], [0.35, "prismrock7" ], [0.35, "prismrock8" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -276,7 +276,7 @@
               [0.35, "glowvine1" ], [0.35, "glowvine2" ], [0.35, "glowvine3" ], [0.35, "glowvine4" ], [0.35, "glowvine5" ], 
               [0.35, "glowflower1" ], [0.35, "glowflower2" ], [0.35, "glowflower3" ], [0.35, "glowflower4" ], [0.35, "glowflower5" ]
             ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -290,7 +290,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -322,7 +322,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "fancysnowman" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -345,7 +345,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -359,7 +359,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "frozenmistprimer" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -430,7 +430,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "geometricshard1" ], [0.35, "geometricshard2" ], [0.35, "geometricshard3" ], [0.35, "geometricshard4" ], [0.35, "geometricshard5" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -545,7 +545,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -559,7 +559,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -581,7 +581,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ]
+            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ],
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -594,7 +595,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ]
+            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ],
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       },
@@ -608,7 +610,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/tundra/pf_lighttundra" }
           }
         ]
       }

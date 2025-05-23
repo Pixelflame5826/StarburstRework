@@ -63,7 +63,7 @@
       "pool" : [
         {"weight" : 0.65, "pool" : "noMeatMonsterTreasure"},
         {"weight" : 0.2, "item" : "perfectlygenericitem"},
-        {"weight" : 0.1, "item" : "pf_darkwisperRare"},
+        {"weight" : 0.1, "pool" : "pf_darkwisperRare"},
         {"weight" : 0.05, "item" : "pf_pixelcodex-codex" }
       ],
       "poolRounds" : [

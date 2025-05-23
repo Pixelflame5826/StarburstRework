@@ -1,0 +1,43 @@
+{
+  "itemName" : "pf_glitchironhalberd",
+  "price" : 960,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A simple iron halberd. Favored by guards as it grants favourable range and chopping power.",
+  "shortdescription" : "Brigand Blocker",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "pf_polearm",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "pf_glitchironhalberd.png",
+
+  "animation" : "/items/active/weapons/melee/spear/pf_combohalberd.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pf_glitchironhalberd.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0.0,
+
+  "primaryAbilityType" : "pf_halberdcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "baseDps" : 10
+  },
+
+  "altAbilityType" : "spinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

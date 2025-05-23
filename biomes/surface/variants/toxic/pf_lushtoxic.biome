@@ -217,7 +217,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "toxicgasprimer" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/toxic/pf_lushtoxic" }
           }
         ]
       },
@@ -233,7 +233,7 @@
           {
             "pool" : [ [1, "wildtoxictopseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/toxic/pf_lushtoxic"
             }
           }
         ]

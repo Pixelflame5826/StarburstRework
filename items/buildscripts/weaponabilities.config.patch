@@ -8,5 +8,10 @@
         "op": "add",
         "path": "/pf_multiswap",
         "value": "/items/active/weapons/unique/multitool/pf_multiswap.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/pf_halberdcombo",
+        "value":  "/items/active/weapons/melee/abilities/spear/pf_halberdcombo.weaponability"
     }
 ]

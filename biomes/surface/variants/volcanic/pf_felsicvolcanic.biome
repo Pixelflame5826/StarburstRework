@@ -1,6 +1,6 @@
 {
   "name" : "pf_felsicvolcanic",
-  "friendlyName" : "Felsic Volcanic",
+  "friendlyName" : "Felsic Volcano Field",
 
   "statusEffects" : [ "biomeheat" ],
 
@@ -154,7 +154,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/volcanic/pf_felsicvolcanic" }
           }
         ]
       },
@@ -168,7 +168,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/volcanic/pf_felsicvolcanic" }
           }
         ]
       },
@@ -182,7 +182,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smokegen" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/volcanic/pf_felsicvolcanic" }
           }
         ]
       },
@@ -296,8 +296,22 @@
           {
             "pool" : [ [1, "wildchiliseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/volcanic/pf_felsicvolcanic"
             }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "crystalcavebush1" ], [0.25, "crystalcavebush2" ], [0.25, "crystalcavebush3" ], [0.25, "crystalcavebush4" ] ],
+            "parameters" : { "originBiome" : "surface/variants/volcanic/pf_felsicvolcanic" }
           }
         ]
       }
@@ -409,6 +423,20 @@
             "name" : "ceilingmagmapods",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.25, "crystalcavebush1" ], [0.25, "crystalcavebush2" ], [0.25, "crystalcavebush3" ], [0.25, "crystalcavebush4" ] ],
+            "parameters" : { "originBiome" : "surface/variants/volcanic/pf_felsicvolcanic" }
           }
         ]
       }

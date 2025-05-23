@@ -18,5 +18,10 @@
         "op": "add",
         "path": "/labels/pf_game",
         "value": "Portable Game"
+    },
+    {
+        "op": "add",
+        "path": "/labels/pf_polearm",
+        "value": "Polearm"
     }
 ]

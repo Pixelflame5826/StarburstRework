@@ -78,7 +78,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -92,7 +92,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.18, "silverrocksmall" ], [0.06, "silverrock" ], [0.48, "goldrocksmall" ], [0.16, "goldrock" ], [0.09, "diamondrocksmall" ], [0.03, "diamondrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -106,7 +106,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["drysand", "dirt", "bonematerial"]}
+            "parameters" : {  "materials" : ["ash", "geodestone", "bonematerial"], "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -119,7 +119,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "magmagroundspike1" ], [0.20, "magmagroundspike2" ], [0.20, "magmagroundspike3" ] ]
+            "pool" : [ [0.20, "magmagroundspike1" ], [0.20, "magmagroundspike2" ], [0.20, "magmagroundspike3" ] ],
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -132,7 +133,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "magmaceilingspike1" ], [0.20, "magmaceilingspike2" ], [0.20, "magmaceilingspike3" ] ]
+            "pool" : [ [0.20, "magmaceilingspike1" ], [0.20, "magmaceilingspike2" ], [0.20, "magmaceilingspike3" ] ],
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -184,7 +186,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -198,22 +200,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "challengedoor" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-	  
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundChests",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -283,7 +270,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.1, "geodelowanatural" ], [0.1, "geodebnatural" ], [0.1, "geodecnatural" ], [0.1, "geodednatural" ], [0.1, "geodehighanatural" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -298,7 +285,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "smokegen" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },
@@ -312,8 +299,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ]],
-            "parameters" : { }
+            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ], [0.35, "crystallinebush1" ], [0.35, "crystallinebush2" ], [0.35, "crystallinebush3" ], [0.35, "crystallinebush4" ] ],
+            "parameters" : { "originBiome" : "underground/volcanic/pf_volcanicunderground" }
           }
         ]
       },

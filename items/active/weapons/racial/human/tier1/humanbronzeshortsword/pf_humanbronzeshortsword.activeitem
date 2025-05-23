@@ -1,0 +1,34 @@
+{
+  "itemName" : "pf_humanbronzeshortsword",
+  "price" : 480,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A simple sword made from bronze. Easy to make and use, a good weapon from the human Bronze Age.",
+  "shortdescription" : "Bronze Edge",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "pf_humanbronzeshortsword.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "pf_humanbronzeshortsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 5
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

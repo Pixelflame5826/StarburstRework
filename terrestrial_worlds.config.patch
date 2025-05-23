@@ -4660,6 +4660,93 @@
         "path": "/planetTypes/ocean/layers/surface/baseHeight"
     }
 ],
+//REMOVAL OF MODDED FIXED LAYER HEIGHTS
+//Arcana
+[
+	{ "op": "test", "path": "/planetTypes/arcana_turbulent/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/arcana_turbulent/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/arcana_turbulent/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/arcana_arcaneSea/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/arcana_arcaneSea/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/arcana_arcaneSea/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/arcana_neonSea/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/arcana_neonSea/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/arcana_neonSea/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/arcana_azureSea/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/arcana_azureSea/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/arcana_azureSea/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/arcana_redTerminus/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/arcana_redTerminus/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/arcana_redTerminus/layers/surface/baseHeight"
+    }
+],
+[
+	{ "op": "test", "path": "/planetTypes/arcana_ruinous/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/arcana_ruinous/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/arcana_ruinous/layers/surface/baseHeight"
+    }
+],
+//Maple32
+[
+	{ "op": "test", "path": "/planetTypes/m32stormyocean/layers/surface/layerLevel" },
+	
+	{
+        "op": "remove",
+        "path": "/planetTypes/m32stormyocean/layers/surface/layerLevel"
+    },
+    {
+        "op": "remove",
+        "path": "/planetTypes/m32stormyocean/layers/surface/baseHeight"
+    }
+],
 
 //DUNGEON DEHOMOGENIZATION
 [

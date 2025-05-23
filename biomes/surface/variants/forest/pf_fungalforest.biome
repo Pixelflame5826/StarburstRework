@@ -195,7 +195,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/forest/pf_fungalforest" }
           }
         ]
       },
@@ -209,7 +209,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/forest/pf_fungalforest" }
           }
         ]
       },
@@ -233,7 +233,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/forest/pf_fungalforest" }
           }
         ]
       },
@@ -339,7 +339,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "mushroomseed" ] ],
-            "parameters" : { "startingStage" : 2 }
+            "parameters" : { "startingStage" : 2, "originBiome" : "surface/variants/forest/pf_fungalforest" }
           }
         ]
       },
@@ -354,7 +354,7 @@
 			  "objectSets" : [
 				  {
 					  "pool" : [ [0.8, "fireflybush" ], [0.2, "butterflybush" ] ],
-					  "parameters" : { }
+					  "parameters" : { "originBiome" : "surface/variants/forest/pf_fungalforest" }
 				  }
 			  ]
       },
@@ -372,7 +372,7 @@
           {
             "pool" : [ [1, "wildcarrotseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/forest/pf_fungalforest"
             }
           }
         ]
@@ -388,7 +388,7 @@
           {
             "pool" : [ [1, "wildtomatoseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/forest/pf_fungalforest"
             }
           }
         ]
@@ -404,7 +404,7 @@
           {
             "pool" : [ [1, "wildcocoaseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/forest/pf_fungalforest"
             }
           }
         ]
@@ -420,7 +420,7 @@
           {
             "pool" : [ [1, "pf_wildteaseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/forest/pf_fungalforest"
             }
           }
         ]
@@ -475,7 +475,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/forest/pf_fungalforest" }
           }
         ]
       },
@@ -498,7 +498,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/forest/pf_fungalforest" }
           }
         ]
       },
@@ -534,7 +534,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "mushroomseed" ] ],
-            "parameters" : { "startingStage" : 2 }
+            "parameters" : { "startingStage" : 2, "originBiome" : "surface/variants/forest/pf_fungalforest" }
           }
         ]
       }

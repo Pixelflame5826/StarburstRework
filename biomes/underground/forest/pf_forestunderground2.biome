@@ -41,145 +41,7 @@
       "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
     }
   },
-
-  "sky" : {
-    "topColor" : [182, 204, 255],
-    "bottomColor" : [224, 239, 255],
-    "nightTopColor" : [0, 0, 30],
-    "nightBottomColor" : [0, 0, 0]
-  },
-  "surfacePlaceables" : {
-    "items" : [
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
-
-        "type" : "grass",
-        "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
-      },
-
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "grass",
-        "grasses" : [ "leafsy" ]
-      },
-	  
-	    {
-        "mode" : "ceiling",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseSmall",
-
-        "type" : "grass",
-        "grasses" : [ "ceilingflowers" ]
-      },
-	  
-	  {
-        "mode" : "ceiling",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-        "type" : "grass",
-        "grasses" : [ "ceilingweedy" ]
-      },
-
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "testbush",
-            "baseHueShiftMax" : 180,
-            "modHueShiftMax" : 180
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "thorns",
-            "baseHueShiftMax" : 180,
-            "modHueShiftMax" : 180
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
-
-        "type" : "bush",
-        "bushes" : [
-          {
-            "name" : "wicked",
-            "baseHueShiftMax" : 180,
-            "modHueShiftMax" : 180
-          }
-        ]
-      },
-	  
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundChests",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
-          }
-        ]
-      },
-	  
-      
-	  {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 180,
-        "treeStemHueShiftMax" : 50,
-        "treeStemList" : [ "pf_cavebirch", "pf_cavecocoa", "pf_cavefleshy", "pf_cavegrumpy", "pf_cavepine", "pf_caveroottree", "pf_caveslimey", "pf_cavesomething", "pf_cavespikey", "pf_cavetwisted", "pf_cavewood" ],
-        "treeFoliageList" : [ "rose", "bubbles", "cloudy", "frumpy", "hanging", "leafy", "lotus", "lushgreen", "orangeflower", "redleaves", "scraggy" ]
-      },
-	  {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [0.35, "rootbush1" ], [0.35, "rootbush2" ], [0.35, "rootbush3" ], [0.35, "rootbush4" ], [0.35, "rootbush5" ], [0.35, "junglebush8" ], [0.35, "junglebush9" ], [0.35, "junglebush10" ], [0.35, "junglebush11" ], [0.35, "junglebush12" ], [0.35, "junglebush13" ], [0.35, "junglebush14" ], [0.35, "junglebush15" ], [0.35, "junglebush16" ], [0.35, "junglebush17" ], [0.35, "junglebush18" ] ],
-            "parameters" : { }
-          }
-        ]
-      }
-    ]
-  },
+  
   "undergroundPlaceables" : {
     "grassMod" : [ "grass" ],
     "grassModDensity" : 0.9,
@@ -194,7 +56,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -208,7 +70,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.18, "copperrocksmall" ], [0.06, "copperrock" ], [0.48, "silverrocksmall" ], [0.16, "silverrock" ], [0.09, "goldrocksmall" ], [0.03, "goldrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -222,7 +84,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["gravel", "dirt", "bonematerial"]}
+            "parameters" : {  "materials" : ["dirt", "fullwood2", "bonematerial"], "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -235,7 +97,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ]
+            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ],
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -248,7 +111,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ]
+            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ],
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -300,7 +164,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -314,7 +178,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "challengedoor" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -415,7 +279,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -454,7 +318,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "rootbush1" ], [0.35, "rootbush2" ], [0.35, "rootbush3" ], [0.35, "rootbush4" ], [0.35, "rootbush5" ], [0.35, "junglebush8" ], [0.35, "junglebush9" ], [0.35, "junglebush10" ], [0.35, "junglebush11" ], [0.35, "junglebush12" ], [0.35, "junglebush13" ], [0.35, "junglebush14" ], [0.35, "junglebush15" ], [0.35, "junglebush16" ], [0.35, "junglebush17" ], [0.35, "junglebush18" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },
@@ -468,7 +332,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "fireflybush" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/forest/pf_forestunderground" }
           }
         ]
       },

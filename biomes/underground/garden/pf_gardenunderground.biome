@@ -84,7 +84,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.5, "oillantern1" ], [1.0, "metalbarrel1" ], [1.0, "pillar1" ], [1.0, "pillar2" ], [1.0, "burlapsack" ], [0.5, "floodlights" ], [0.7, "fireflybush" ], [0.1, "tent2" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/garden/pf_gardenunderground" }
           }
 
 
@@ -101,7 +101,7 @@
         "objectSets" : [
           {
             "pool" : [ [1.0, "medievalscaffolding" ], [1.0, "wheelbarrow" ], [0.5, "medievalstreetlamp" ], [1.0, "crossroadssign" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/garden/pf_gardenunderground" }
           }
 
 
@@ -118,7 +118,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/garden/pf_gardenunderground" }
           }
         ]
       },
@@ -132,7 +132,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/garden/pf_gardenunderground" }
           }
         ]
       },
@@ -146,7 +146,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["rock20", "dirt", "bonematerial"]}
+            "parameters" : {  "materials" : ["dirt", "rock20", "bonematerial"], "originBiome" : "underground/garden/pf_gardenunderground" }
           }
         ]
       },
@@ -159,7 +159,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ]
+            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ],
+            "parameters" : { "originBiome" : "underground/garden/pf_gardenunderground" }
           }
         ]
       },
@@ -172,7 +173,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ]
+            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ],
+            "parameters" : { "originBiome" : "underground/garden/pf_gardenunderground" }
           }
         ]
       },
@@ -274,7 +276,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/garden/pf_gardenunderground" }
           }
         ]
       },

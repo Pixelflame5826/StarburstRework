@@ -67,7 +67,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -81,7 +81,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -94,7 +94,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "drip1" ], [1, "pf_snowdrip1" ] ]
+            "pool" : [ [1, "drip1" ], [1, "pf_snowdrip1" ] ],
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -108,7 +109,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["gravel", "dirt", "bonematerial"]}
+            "parameters" : { "materials" : ["snow", "frozenwater", "bonematerial"], "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -121,7 +122,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ]
+            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ],
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -134,7 +136,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ]
+            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ],
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -186,7 +189,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -200,7 +203,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "challengedoor" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -215,7 +218,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "iceshard1" ], [0.35, "iceshard2" ], [0.35, "iceshard3" ], [0.35, "iceshard4" ], [0.35, "iceshard5" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -229,7 +232,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -243,7 +246,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "frozenmistprimer" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -258,7 +261,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "geometricshard1" ], [0.35, "geometricshard2" ], [0.35, "geometricshard3" ], [0.35, "geometricshard4" ], [0.35, "geometricshard5" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },
@@ -292,7 +295,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ], [0.05, "prismrock4" ], [0.05, "prismrock5" ], [0.05, "prismrock6" ], [0.05, "prismrock7" ], [0.05, "prismrock8" ]  ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/tundra/pf_tundraunderground" }
           }
         ]
       },

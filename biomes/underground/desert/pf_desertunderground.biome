@@ -69,7 +69,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },
@@ -83,7 +83,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.60, "copperrocksmall" ], [0.20, "copperrock" ], [0.15, "silverrocksmall" ], [0.5, "silverrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },
@@ -97,7 +97,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["drysand", "dirt", "bonematerial"]}
+            "parameters" : {  "materials" : ["sand", "pf_layeredsandstone", "bonematerial"], "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },
@@ -110,7 +110,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "desertgroundspike1" ], [0.20, "desertgroundspike2" ], [0.20, "desertgroundspike3" ], [0.20, "desertgroundspike4" ] ]
+            "pool" : [ [0.20, "desertgroundspike1" ], [0.20, "desertgroundspike2" ], [0.20, "desertgroundspike3" ], [0.20, "desertgroundspike4" ] ],
+            "parameters" : { "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },
@@ -123,7 +124,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "desertceilingspike1" ], [0.20, "desertceilingspike2" ], [0.20, "desertceilingspike3" ], [0.20, "desertceilingspike4" ] ]
+            "pool" : [ [0.20, "desertceilingspike1" ], [0.20, "desertceilingspike2" ], [0.20, "desertceilingspike3" ], [0.20, "desertceilingspike4" ] ],
+            "parameters" : { "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },
@@ -175,7 +177,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },
@@ -189,7 +191,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "challengedoor" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },
@@ -204,7 +206,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/desert/pf_desertunderground" }
           }
         ]
       },

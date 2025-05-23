@@ -130,7 +130,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_radstormalien" }
           }
         ]
       },
@@ -172,7 +172,22 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_radstormalien" }
+          }
+        ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "alienglowplant1" ] ],
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_radstormalien" }
           }
         ]
       },
@@ -247,7 +262,7 @@
           {
             "pool" : [ [1, "wilddirturchinseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/alien/pf_radstormalien"
             }
           }
         ]
@@ -314,7 +329,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_radstormalien" }
           }
         ]
       },
@@ -337,7 +352,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/alien/pf_radstormalien" }
           }
         ]
       },

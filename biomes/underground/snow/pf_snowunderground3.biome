@@ -63,7 +63,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -76,7 +76,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "pf_snowdrip1" ] ]
+            "pool" : [ [1, "pf_snowdrip1" ] ],
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -90,7 +91,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.18, "silverrocksmall" ], [0.06, "silverrock" ], [0.48, "goldrocksmall" ], [0.16, "goldrock" ], [0.09, "diamondrocksmall" ], [0.03, "diamondrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -104,7 +105,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["gravel", "dirt", "bonematerial"]}
+            "parameters" : {  "materials" : ["snow", "pf_slate", "bonematerial"], "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -117,7 +118,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ]
+            "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ],
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -130,7 +132,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ]
+            "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ],
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -182,7 +185,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -196,7 +199,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "challengedoor" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -239,7 +242,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },
@@ -253,7 +256,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "iceshard1" ], [0.35, "iceshard2" ], [0.35, "iceshard3" ], [0.35, "iceshard4" ], [0.35, "iceshard5" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/snow/pf_snowunderground" }
           }
         ]
       },

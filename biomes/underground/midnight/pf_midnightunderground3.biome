@@ -69,7 +69,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "shadowurnsmall1" ], [0.35, "shadowurnsmall2" ], [0.35, "shadowurnmedium1" ], [0.35, "shadowurnmedium2" ], [0.35, "shadowurnlarge1" ], [0.35, "shadowurnlarge1" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       },
@@ -83,7 +83,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.18, "silverrocksmall" ], [0.06, "silverrock" ], [0.48, "goldrocksmall" ], [0.16, "goldrock" ], [0.09, "diamondrocksmall" ], [0.03, "diamondrock" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       },
@@ -97,7 +97,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.15, "dirtyfossil1" ], [0.15, "dirtyfossil2" ], [0.15, "dirtyfossil3" ], [0.15, "dirtyfossil4" ], [0.1, "dirtyfossil5" ], [0.1, "dirtyfossil6" ], [0.1, "dirtyfossil7" ], [0.1, "dirtyfossil8" ] ],
-            "parameters" : {  "materials" : ["gravel", "dirt", "bonematerial"]}
+            "parameters" : {  "materials" : ["ash", "obsidian", "bonematerial"], "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       },
@@ -110,7 +110,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ]
+            "pool" : [ [0.20, "groundspike1" ], [0.20, "groundspike2" ], [0.20, "groundspike3" ], [0.20, "groundspike4" ] ],
+            "parameters" : { "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       },
@@ -123,7 +124,8 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ]
+            "pool" : [ [0.20, "ceilingspike1" ], [0.20, "ceilingspike2" ], [0.20, "ceilingspike3" ], [0.20, "ceilingspike4" ] ],
+            "parameters" : { "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       },
@@ -198,7 +200,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "shadowrock1" ], [0.35, "shadowrock2" ], [0.35, "shadowrock3" ], [0.35, "shadowrock4" ], [0.35, "shadowrock5" ]],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       },
@@ -226,7 +228,7 @@
         "objectSets" : [
           {
             "pool" : [ [1.0, "shadowchimes" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       },
@@ -241,7 +243,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "shadowshrine" ], [0.35, "shadowshrine2" ], [0.35, "shadowshrine3" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "underground/midnight/pf_midnightunderground" }
           }
         ]
       }

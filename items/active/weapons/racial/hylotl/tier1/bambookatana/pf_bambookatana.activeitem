@@ -4,7 +4,7 @@
   "level" : 1,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A crudely fashioned katana made from a bamboo stalk and iron. Nothing special but decently effective.",
+  "description" : "An ancient Hylotl sword, traditionally made using ferric stromatolites. Said to be created by the Fuchi.",
   "shortdescription" : "Grasscutter",
   "tooltipKind" : "pf_uniquesword",
   "category" : "broadsword",

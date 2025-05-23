@@ -1,46 +1,23 @@
---- OTHERWORLDLY TREASURES UPDATE ---
-Minor content update that adds a few new items to the PGI chests and random fun additions/improvements.
+--- CLIMATE RECORD UPDATE ---
+A mod focusing on adding Galactic Almanach compatibility, and a few small biome additions.
 
---- NEW ADDITIONS
-+ 3 New Otherworldly Weapons!: One is found in Ocean Biome PGI chests, comes with a new shield. The other 2 are guaranteed on planets without a weapon, and occassionally in normal PGI loot, one of them even comes with a hat!
+--- Additions 
++ Added compatibility for Galactic Almanach for all biomes within the mod. Planet variants, minibiomes, underground biomes.
 
-+ Shield Overhaul!: Shields now have some extra tools at their disposal when being used. Including Contact Status Effects, Contact Damage, and Variable Health Regeneration.
---- Changed Shields
-+   Frost Shield: Increased knockback and inflicts Frost Slow.
-+   Seashell Shield: Inflicts Wet.
-+   Mushroom Shield: Inflicts Poisoned.
-+   Leaf/Floran Shield: Doubled shield health regeneration.
-+   Eye Shield: Increased parry window up to 0.5 seconds. 
-+   Ferozium Forcefield & Ferozium Ward: Doubled shield health regeneration.
---- New Shields
-+   Fire Knight's Shield: Deals Fire damage and inflicts burning. Found in Volcanic Biome chests.
-+   Bloody Targe: Deals Piercing damage and inflicts bleeding. Found in Alpine Biome chests.
++ Added a new kind of crystal bush for the Crystalline Alien variant. 
 
-+ New Planet Variant!: Autumnal Forest, a nice beautiful warm-colored autumn landscape to contrast the Botanical Forest's spring feel.
+--- Biome Changes 
++ Changed a multitude of biome names.
 
-+ New hat!: Pixelflame Hat, can be found randomly in PGI chests.
++ Changed some of the blocks chosen for the fossil minigame on many of the underground biomes.
 
-+ New Element!: Spirit, has the unique status effect "Sealed" which reduces attack and defense. Will be expanded at a future date.
++ Added crystal bushes to Geode Biomes, Felsic Volcano Fields, Active Lavatubes, and Underground3d biomes.
 
-+ New Monsters!: 2 new monsters have been added.
---- Added Monsters 
-+   Kitsunix: A strange fennix that shoots spirit fire through an unknown method. Found in Botanical Forest and Spring Snow biomes.
-+   Night Wisper: A well hidden and dangerous foe that drops some strange stuff on defeat. Found in Midnight Caverns.
++ Added Frostberries to Permafrost Tundra variant.
 
-+ New Throwing Weapon!: Sealing Talisman, the only weapon currently to deal Spirit damage. Can be found in Ruined Hylotl Castles and crafted at an Anvil once found.
++ Added extra rocks to Mesa and Harsh Desert variants.
 
---- ITEM CHANGES
-+ Orange Stims are now craftable from the Medical Station.
++ Added utility poles to the Urban Toxic variant.
 
-+ Leaf/Floran Shield can now be obtained from Forest Biome chests.
+- Removed Chili from Flood Basalt Volcano variant, replaced them with Automatos.
 
-+ Frost Shield can now be obtained from Snow and Tundra Biome chests.
-
-- Orange Stims can no longer be found in PGI chests.
-
---- FIXES/COMPATIBILITY
-+ Added a few testing operations to the Coralcreep Curry, Spicy Feathercrown, and Spicy Ribs patches as there was a mod conflict.
-
-+ Added further testing operations to the cockpit.config patch, hopefully adding further robustness to the patches.
-
-+ Added PGI chest spawns to the "Oceanic World Caves Reworked" Ocean and Toxic biome patches, so they should spawn. Especially if you're using the complete replacement mod.

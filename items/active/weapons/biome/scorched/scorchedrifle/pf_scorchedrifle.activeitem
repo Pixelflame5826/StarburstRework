@@ -11,23 +11,16 @@
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "level" : 6,
 
-  "inventoryIcon" : "pf_scorchedrifle.png",
+  "inventoryIcon" : "pf_scorchedrifle.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/pf_fullbrightgun.animation",
+  "animation" : "/items/active/weapons/biome/scorched/scorchedrifle/pf_scorchedrifle.animation",
   "animationParts" : {
-    "butt" : "",
     "middle" : "pf_scorchedrifle.png",
-	"middleFullbright" : "pf_scorchedriflefullbright.png",
-    "barrel" : "",
+	  "middleFullbright" : "pf_scorchedriflefullbright.png",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/gun/rifle2.ogg"]
-    }
-  },
 
-  "baseOffset" : [0.7, 0.15],
+  "baseOffset" : [0.9, 0.15],
   "muzzleOffset" : [2.1, 0.15],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -38,7 +31,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.11,
+    "fireTime" : 0.15,
     "baseDps" : 10.5,
     "energyUsage" : 31.5,
     "inaccuracy" : 0.02,
@@ -69,10 +62,14 @@
         "allowFlip" : false
       },
       "cooldown" : {
-        "duration" : 0.11,
+        "duration" : 0.15,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : true,
+
+        "animationStates": {
+					"body": "cooldown"
+				},
 
         "allowRotate" : false,
         "allowFlip" : false
@@ -85,10 +82,10 @@
     "elementalConfig" : {
       "pf_scorchingfire" : { "projectileType" : "pf_airburstscorched" }
     },
-	"name" : "Burning Skies",
+	  "name" : "Burning Skies",
     "burstCount" : 10,
-	"inaccuracy" : 0.1,
-	"fireTime" : 1.0
+	  "inaccuracy" : 0.1,
+	  "fireTime" : 1.0
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

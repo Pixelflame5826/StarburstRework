@@ -222,7 +222,21 @@
         "objectSets" : [
           {
             "pool" : [ [1, "toxicgasprimer" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/toxic/pf_urbantoxic" }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.5, "woodenutilitypole1" ], [0.5, "woodenutilitypole2" ] ],
+            "parameters" : { "originBiome" : "surface/variants/toxic/pf_urbantoxic" }
           }
         ]
       },
@@ -238,7 +252,7 @@
           {
             "pool" : [ [1, "wildtoxictopseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/toxic/pf_urbantoxic"
             }
           }
         ]

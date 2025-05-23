@@ -227,7 +227,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ], [0.35, "junglebush1" ], [0.35, "junglebush2" ], [0.35, "junglebush3" ], [0.35, "junglebush4" ], [0.35, "junglebush5" ], [0.35, "junglebush6" ], [0.35, "junglebush7" ], [0.35, "junglebush8" ], [0.35, "junglebush9" ], [0.35, "junglebush10" ], [0.35, "junglebush11" ], [0.35, "junglebush12" ], [0.35, "junglebush13" ], [0.35, "junglebush14" ], [0.35, "junglebush15" ], [0.35, "junglebush16" ], [0.35, "junglebush17" ], [0.35, "junglebush18" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/jungle/pf_volcanicjungle" }
           }
         ]
       },
@@ -241,7 +241,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/jungle/pf_volcanicjungle" }
           }
         ]
       },
@@ -265,7 +265,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/jungle/pf_volcanicjungle" }
           }
         ]
       },
@@ -331,7 +331,7 @@
           {
             "pool" : [ [1, "wildbananaseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/jungle/pf_volcanicjungle"
             }
           }
         ]
@@ -347,7 +347,7 @@
           {
             "pool" : [ [1, "wildcoffeeseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/jungle/pf_volcanicjungle"
             }
           }
         ]
@@ -363,7 +363,7 @@
           {
             "pool" : [ [1, "wildavesmingoseed" ] ],
             "parameters" : {
-              "startingStage" : 4
+              "startingStage" : 4, "originBiome" : "surface/variants/jungle/pf_volcanicjungle"
             }
           }
         ]
@@ -379,7 +379,7 @@
           {
             "pool" : [ [1, "wildsugarcaneseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/jungle/pf_volcanicjungle"
             }
           }
         ]
@@ -395,7 +395,7 @@
           {
             "pool" : [ [1, "wildcocoaseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/jungle/pf_volcanicjungle"
             }
           }
         ]
@@ -411,7 +411,7 @@
           {
             "pool" : [ [1, "wildpineappleseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/jungle/pf_volcanicjungle"
             }
           }
         ]
@@ -426,7 +426,7 @@
 			  "objectSets" : [
 				  {
 					  "pool" : [ [0.8, "fireflybush" ], [0.0, "butterflybush" ] ],
-					  "parameters" : { }
+					  "parameters" : { "originBiome" : "surface/variants/jungle/pf_volcanicjungle" }
 				  }
 			  ]
       }
@@ -487,7 +487,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/jungle/pf_volcanicjungle" }
           }
         ]
       },
@@ -501,7 +501,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/jungle/pf_volcanicjungle" }
           }
         ]
       },

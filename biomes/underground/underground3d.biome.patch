@@ -1,0 +1,38 @@
+[
+    {
+        "op": "add",
+        "path": "/undergroundPlaceables/items/-",
+        "value": {
+            "mode": "floor",
+            "priority": 1,
+            "variants": 1,
+            "distribution": "/biomes/distributions.config:denseSmall",
+            "type": "object",
+            "objectSets": [
+                {
+                    "pool": [
+                        [
+                            0.25,
+                            "crystalcavebush1"
+                        ],
+                        [
+                            0.25,
+                            "crystalcavebush2"
+                        ],
+                        [
+                            0.25,
+                            "crystalcavebush3"
+                        ],
+                        [
+                            0.25,
+                            "crystalcavebush4"
+                        ]
+                    ],
+                    "parameters": {
+                        "originBiome": "underground/underground3d"
+                    }
+                }
+            ]
+        }
+    }
+]

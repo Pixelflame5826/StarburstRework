@@ -1,6 +1,6 @@
 {
   "name" : "pf_warscorchedcity",
-  "friendlyName" : "Scorched Warzone",
+  "friendlyName" : "Wartorn City",
 
   "statusEffects" : [ "biomeheat", "biomeradiation" ],
 
@@ -150,7 +150,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/scorched/pf_warscorchedcity" }
           }
         ]
       },
@@ -176,7 +176,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/scorched/pf_warscorchedcity" }
           }
         ]
       },
@@ -190,7 +190,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.5, "woodenutilitypole1" ], [0.5, "woodenutilitypole2" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/scorched/pf_warscorchedcity" }
           }
         ]
       },
@@ -216,7 +216,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.5, "tanktrap" ], [0.7, "sandbags" ], [0.3, "barbedwire" ], [0.2, "explosivebarrel" ], [0.2, "landmine" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/scorched/pf_warscorchedcity" }
           }
         ]
       },
@@ -315,7 +315,7 @@
           {
             "pool" : [ [1, "wildwartweedseed" ] ],
             "parameters" : {
-              "startingStage" : 3
+              "startingStage" : 3, "originBiome" : "surface/variants/scorched/pf_warscorchedcity"
             }
           }
         ]
@@ -368,7 +368,7 @@
         "objectSets" : [
           {
             "pool" : [ [1, "statuspod" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/scorched/pf_warscorchedcity" }
           }
         ]
       },
@@ -391,7 +391,7 @@
         "objectSets" : [
           {
             "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
-            "parameters" : { }
+            "parameters" : { "originBiome" : "surface/variants/scorched/pf_warscorchedcity" }
           }
         ]
       },
