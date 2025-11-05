@@ -8,5 +8,76 @@
         "op": "replace",
         "path": "/description",
         "value": "Yes, it shoots fireworks! A very pretty gun, though not very effective if you want to kill things."
+    },
+
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_fireworkgun.animation"
+    },
+
+    {
+        "op": "add",
+        "path": "/altAbility",
+        "value": {
+            "stances": {
+                "fire": {
+                    "duration": 0,
+                    "armRotation": 5,
+                    "weaponRotation": 5,
+                    "twoHanded": true,
+                    "animationStates": {
+                        "barrel": "cooldown"
+                    },
+                    "allowRotate": false,
+                    "allowFlip": false
+                },
+                "cooldown": {
+                    "duration": 0.25,
+                    "armRotation": 5,
+                    "weaponRotation": 5,
+                    "twoHanded": true,
+                    "allowRotate": false,
+                    "allowFlip": false
+                }
+            }
+        }
+    },
+
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.5, 0.375]
+    },
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/backArmFrame",
+        "value": "rotation"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/fire/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/fire/backArmFrame",
+        "value": "rotation"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/idle/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/idle/backArmFrame",
+        "value": "rotation"
     }
 ]

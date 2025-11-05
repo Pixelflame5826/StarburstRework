@@ -1,0 +1,18 @@
+{
+  "frameGrid" : {
+    "size" : [40, 17],
+    "dimensions" : [3, 2],
+    "names" : [
+      ["default.1", null, null],
+      ["cooldown.1", "cooldown.2", "cooldown.3"]
+    ]
+  },
+
+  "aliases" : {
+    "lift.1" : "cooldown.3",
+    "lift.2" : "cooldown.2",
+    "eject.1" : "cooldown.1",
+    "return.1" : "cooldown.2",
+    "return.2" : "cooldown.3"
+  }
+}

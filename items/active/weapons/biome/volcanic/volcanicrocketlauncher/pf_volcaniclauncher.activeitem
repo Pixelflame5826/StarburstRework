@@ -1,49 +1,26 @@
 {
   "itemName" : "pf_volcaniclauncher",
   "price" : 970,
-  "inventoryIcon" : "pf_volcaniclauncher.png",
+  "inventoryIcon" : "pf_volcaniclauncher.png:default.1",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A specially engineered rocket launcher that shoots payloads of hot molten rock. Look out!",
-  "shortdescription" : "Krakatoa",
+  "description" : "A rocket launcher that casts its own ammunition from molten metal and rock. Look out!",
+  "shortdescription" : "Foundry Launcher",
   "level" : 5,
   "tooltipKind" : "pf_uniquegun",
   "category" : "rocketLauncher",
   "itemTags" : ["weapon","ranged","rocketlauncher","pf_anvilUpgradeableWeapon"],
   "twoHanded" : true,
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_volcaniclauncher.animation",
   "animationParts" : {
-    "butt" : "",
     "middle" : "pf_volcaniclauncher.png",
-    "middleunlit" : "pf_volcaniclauncherfullbright.png",
-    "barrel" : "",
+    "middleFullbright" : "pf_volcaniclauncherfullbright.png",
+    "blast" : "pf_volcaniclauncher-blast.png",
+    "blastFullbright" : "pf_volcaniclauncher-blastfullbright.png",
     "muzzleFlash" : ""
   },
   "animationCustom" : {
-    "animatedParts" : {
-      "parts" : {
-        "middleunlit" : {
-          "properties" : {
-            "centered" : true,
-            "image" : "<partImage><paletteSwaps>",
-            "offset" : [0.30, 0.385],
-            "transformationGroups" : ["weapon"],
-            "fullbright" : true,
-            "zLevel" : 1
-          }
-        }
-      }
-    },
-    "particleEmitters" : {
-      "muzzleFlash" : {
-        "burstCount" : 8,
-        "particles" : [
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
-		  { "particle" : "fireswoosh1", "offset" : [0.0, 0.0] }
-        ]
-      }
-    },
     "sounds" : {
       "fire" : [ "/sfx/gun/rocket2.ogg" ]
     }
@@ -84,18 +61,26 @@
       },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
         "twoHanded" : true,
+
+        "animationStates" : {
+          "blast" : "fire"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
         "duration" : 0.25,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
         "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "cooldown"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false
@@ -105,48 +90,80 @@
 
   "altAbility" : {
     "name" : "Pyroclastic Rocket",
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
+    "scripts" : ["/items/active/weapons/ranged/abilities/ammoswap/pf_ammoswap.lua"],
+    "class" : "AmmoSwap",
 
-    "fireTime" : 5,
-    "baseDps" : 3,
-    "energyUsage" : 110,
-    "inaccuracy" : 0.0,
+    "adaptedAbilityIndex" : 1,
 
-    "projectileCount" : 1,
-    "fireType" : "auto",
+    "ammoTypes" : [
+      {
+        "energyUsage" : 75,
+        "baseDps" : 40,
 
-    "projectileType" : "pf_volcanorocket",
-    "projectileParameters" : {
-      "knockback" : 40
-    },
+        "projectileType" : "pf_volcanorocket",
+
+        "singleShot" : true,
+        "ammoCooldown" : 10,
+
+        "stances" : {
+          "idle" : {
+            "armRotation" : 0,
+            "weaponRotation" : 0,
+            "twoHanded" : true,
+
+            "allowRotate" : true,
+            "allowFlip" : true
+          },
+          "fire" : {
+            "duration" : 0,
+            "armRotation" : 0,
+            "weaponRotation" : 0,
+            "twoHanded" : true,
+
+            "animationStates" : {
+              "blast" : "fire"
+            },
+
+            "allowRotate" : false,
+            "allowFlip" : false
+          },
+          "cooldown" : {
+            "duration" : 0.25,
+            "armRotation" : 0,
+            "weaponRotation" : 0,
+            "twoHanded" : true,
+
+            "animationStates" : {
+              "body" : "cooldown"
+            },
+
+            "allowRotate" : false,
+            "allowFlip" : false
+          }
+        }
+      }
+    ],
 
     "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
-
+  
         "allowRotate" : true,
         "allowFlip" : true
       },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
         "twoHanded" : true,
-
+        "duration" : 0.4,
+  
         "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.25,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowFlip" : true
       }
     }
   },
@@ -154,18 +171,18 @@
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   
   "upgradeParameters" : {
-	"level6" : {
-	  "inventoryIcon" : "pf_volcaniclauncher_l6.png",
+	  "level6" : {
+	    "inventoryIcon" : "pf_volcaniclauncher_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_volcaniclauncher_l6.png",
-		"middleunlit" : "pf_volcaniclauncher_l6fullbright.png"
+		    "middleFullbright" : "pf_volcaniclauncher_l6fullbright.png"
       },
-      "shortdescription" : "Tambora",
-      "description" : "An experimental rocket launcher tinkered with by Foundry workers, filled with payloads of dense lava.",
-	  "primaryAbility" : {
-		"fireTime" : 0.75,
-		"baseDps" : 13
+      "shortdescription" : "Hephaestus",
+      "description" : "An experimental rocket launcher made by Foundry workers, it forges payloads of liquid rock and metal.",
+	    "primaryAbility" : {
+		    "fireTime" : 0.75,
+		    "baseDps" : 13
       }
-	}
+	  }
   }
 }

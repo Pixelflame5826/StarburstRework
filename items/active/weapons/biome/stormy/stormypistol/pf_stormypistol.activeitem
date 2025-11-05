@@ -4,16 +4,16 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A charged pistol that has a built in flashlight. Perfect for when a cryptid might be stalking you at night.",
-  "shortdescription" : "Survival Pistol",
+  "shortdescription" : "Mountain Eagle",
   "tooltipKind" : "pf_uniquegun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
   "level" : 5,
 
-  "inventoryIcon" : "pf_stormypistol.png",
+  "inventoryIcon" : "pf_stormypistol.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_stormypistol.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_stormypistol.png",
@@ -81,11 +81,15 @@
         "weaponRotation" : 3,
         "twoHanded" : false,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
-        "duration" : 0.15,
+        "duration" : 0.05,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
@@ -100,14 +104,14 @@
   
   "upgradeParameters" : {
 	"level6" : {
-	  "inventoryIcon" : "pf_stormypistol_l6.png",
+	  "inventoryIcon" : "pf_stormypistol_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_stormypistol_l6.png"
       },
-      "shortdescription" : "Alpine Eagle",
-      "description" : "A powerful magnum that has a built in flashlight. Sure to stop those cryptids with powerful shots.",
-	  "primaryAbility" : {
-		"baseDps" : 7.00
+      "shortdescription" : "Thunderbird",
+      "description" : "A powerful magnum that has a built in flashlight. Sure to stop those cryptids with electrified shots.",
+	    "primaryAbility" : {
+		    "baseDps" : 7.00
       }
 	}
   }

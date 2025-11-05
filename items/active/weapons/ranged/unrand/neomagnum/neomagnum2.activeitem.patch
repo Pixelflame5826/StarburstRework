@@ -16,5 +16,33 @@
         "op": "replace",
         "path": "/description",
         "value": "An upgraded version of the Neo Magnum. Its cylinder has been hardened to withstand stronger charges."
-	}
+	},
+    
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neomagnum2-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neomagnum2fullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neomagnum.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neomagnum2icon.png"
+    }
 ]]

@@ -1,0 +1,10 @@
+{
+  "frameGrid" : {
+    "size" : [29, 16],
+    "dimensions" : [4, 2],
+    "names" : [
+      ["default.1", null, null, null],
+      ["cooldown.1", "cooldown.2", "cooldown.3", "cooldown.4"]
+    ]
+  }
+}

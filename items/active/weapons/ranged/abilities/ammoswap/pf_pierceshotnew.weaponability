@@ -1,0 +1,143 @@
+{
+  "animationCustom" : {
+    "animatedParts" : { 
+      "stateTypes" : {
+        "body" : { "states" : {
+          "open" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "switch",
+            "properties" : {
+
+            }
+          },
+          "switch" : {
+            "frames" : 1,
+            "cycle" : 0.4,
+            "mode" : "transition",
+            "transition" : "close",
+            "properties" : {
+              "immediateSound" : "/sfx/gun/reload/pistol_reload_clip2.ogg"
+            }
+          },
+          "close" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "idle",
+            "properties" : {
+              "immediateSound" : "/sfx/gun/reload/ar_reload_clip3.ogg"
+            }
+          }
+        }}
+      },
+      "parts" : { "middle" : {
+        "partStates" : {
+          "body" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:lift.<frame>"
+              }
+            },
+            "switch" : {
+              "properties" : {
+                "image" : "<partImage>:eject.<frame>"
+              }
+            },
+            "close" : {
+              "properties" : {
+                "image" : "<partImage>:return.<frame>"
+              }
+            }
+          }
+        }
+      }}
+    },
+    "sounds" : {
+      "switchAmmo" : [ ]
+    }
+  },
+
+  "ability" : {
+    "type" : "pf_pierceshotnew",
+    "name" : "Piercing Bullet",
+    "scripts" : ["/items/active/weapons/ranged/abilities/ammoswap/pf_ammoswap.lua"],
+    "class" : "AmmoSwap",
+
+    "adaptedAbilityIndex" : 1,
+    "singleShot" : true,
+    "ammoCooldown" : 5,
+    "animated" : true,
+
+    "ammoTypes" : [
+      {
+        "projectileType" : "piercingbullet",
+        "projectileParameters" : {
+          "piercing" : true
+        },
+
+        "baseDamageMultiplier" : 1.3,
+        "energyUsage" : 40
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "open" : {
+        "aimAngle" : 0,
+        "armRotation" : -20,
+        "weaponRotation" : 0,
+        "weaponAngularVelocity" : -50,
+        "armAngularVelocity" : 50,
+        "twoHanded" : true,
+        "duration" : 0.2,
+
+        "animationStates": {
+					"body": "open"
+				},
+
+        "frontArmFrame" : "rotation",
+        "backArmFrame" : "jump.3",
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -20,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "frontArmFrame" : "swim.3",
+        "backArmFrame" : "jump.3",
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "close" : {
+        "aimAngle" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponAngularVelocity" : 50,
+        "armAngularVelocity" : -50,
+        "twoHanded" : true,
+        "duration" : 0.2,
+
+        "frontArmFrame" : "rotation",
+        "backArmFrame" : "jump.3",
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

@@ -8,5 +8,66 @@
         "op": "replace",
         "path": "/description",
         "value": "An old Terran hunting rifle, a relic of an ancient time. Its scope still holds up in magnification to this day."
+    },
+
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_hunterrifle-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_hunterrifle.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_hunterrifle-ani.png:default.1"
+    },
+
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/duration",
+        "value": 0.6
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "lift"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/frontArmFrame",
+        "value": "rotation"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/backArmFrame",
+        "value": "jump.3"
+    },
+
+    {
+        "op": "replace",
+        "path": "/altAbilityType",
+        "value": "pf_pierceshotnew"
+    },
+    {
+        "op": "add",
+        "path": "/altAbility",
+        "value": {
+            "name" : "Elephant Round",
+
+            "ammoTypes": [
+                {
+                    "projectileType": "bullet-1",
+                    "projectileParameters" : {},
+
+                    "baseDamageMultiplier" : 2
+                }
+            ]
+        }
     }
 ]

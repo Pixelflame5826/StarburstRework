@@ -12,13 +12,34 @@
             "damagePerShotLabel": "28",
             "speedLabel": "0.8",
             "energyPerShotLabel": "32",
-			"altAbilityTitleLabel" : "Special",
-			"altAbilityLabel" : "Trigger Grenades"
+			"altAbilityTitleLabel" : "Special:",
+			"altAbilityLabel" : "Detonate!"
         }
     },
 	{
         "op": "replace",
         "path": "/description",
-        "value": "Fires grenades that can be manually triggered to explode. At least they aren't anti-personnel mines."
+        "value": "Fires grenades that can be manually detonated. Stealthily turns your enemies into a fine red mist."
+    },
+
+    {
+        "op": "replace",
+        "path": "/scripts/0",
+        "value": "pf_remotegrenadelauncher-ani.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/gun",
+        "value": "pf_remotegrenadelauncher-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_remotegrenadelauncher.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_remotegrenadelauncher-ani.png:default.1"
     }
 ]

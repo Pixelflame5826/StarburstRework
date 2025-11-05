@@ -7,6 +7,38 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A hi-tech revolver made of durasteel. Not many things can survive more than six shots from this thing."
+        "value": "A hi-tech revolver made of durasteel. Holds 6 magnum rounds, more than enough to kill anything that moves."
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/muzzleOffset",
+        "value": [1.5, -0.125]
+    },
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.75, 0.15]
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_durasteelrevolver-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_durasteelrevolver.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_durasteelrevolver-ani.png:default.1"
     }
 ]

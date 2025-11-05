@@ -7,6 +7,40 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A living gun that generates it's own ammo through regeneration. Your enemies will be boned."
+        "value": "A living gun that generates it's own bullets from bones. To give them a truly bad time."
+    },
+
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_gristlegun-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_gristlegun.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_gristlegun-ani.png:default.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+
+    {
+        "op": "replace",
+        "path": "/upgradeParameters/animationParts/middle",
+        "value": "pf_gristlegun_l6-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/upgradeParameters/inventoryIcon",
+        "value": "pf_gristlegun_l6-ani.png:default.1"
     }
 ]

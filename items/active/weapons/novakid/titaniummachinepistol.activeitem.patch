@@ -7,6 +7,38 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "An SMG made out of titanium. Able to send out volleys of bullets, kills enemies through death of a 1000 10mm rounds."
+        "value": "An SMG made out of titanium. Death of a 1000 10mm rounds; though it can't hold that many. Its possible though."
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/muzzleOffset",
+        "value": [1.3, 0.25]
+    },
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.3, 0.2]
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_titaniummachinepistol-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_titaniummachinepistol.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_titaniummachinepistol-ani.png:default.1"
     }
 ]

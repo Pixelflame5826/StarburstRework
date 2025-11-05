@@ -11,31 +11,17 @@
   "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
   "level" : 1,
 
-  "inventoryIcon" : "pf_gardenpistol.png",
+  "inventoryIcon" : "pf_gardenpistol.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_gardenpistol.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_gardenpistol.png",
-	"middleFullbright" : "pf_gardenpistolfullbright.png",
+	  "middleFullbright" : "pf_gardenpistolfullbright.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/unrand/spaceplasmarifle/muzzleflash.png"
   },
   "animationCustom" : {
-    "animatedParts" : {
-      "parts" : {
-        "middleFullbright" : {
-          "properties" : {
-            "centered" : true,
-            "image" : "<partImage><paletteSwaps>",
-            "offset" : [0.8, 0.25],
-            "transformationGroups" : ["weapon"],
-            "fullbright" : true,
-            "zLevel" : 1
-          }
-        }
-      }
-    },
     "sounds" : {
       "fire" : ["/sfx/gun/plasma_pistol3.ogg"]
     }
@@ -79,6 +65,10 @@
         "weaponRotation" : 3,
         "twoHanded" : false,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -98,48 +88,48 @@
   
   "upgradeParameters" : {
     "level2" : {
-	  "inventoryIcon" : "pf_gardenpistol_l2.png",
+	  "inventoryIcon" : "pf_gardenpistol_l2.png:default.1",
       "animationParts" : {
         "middle" : "pf_gardenpistol_l2.png",
-		"middleFullbright" : "pf_gardenpistolfullbright.png"
+		    "middleFullbright" : "pf_gardenpistolfullbright.png"
       },
       "shortdescription" : "Proto Zapper"
 	},
 	"level3" : {
-	  "inventoryIcon" : "pf_gardenpistol_l3.png",
+	  "inventoryIcon" : "pf_gardenpistol_l3.png:default.1",
       "animationParts" : {
         "middle" : "pf_gardenpistol_l3.png",
-		"middleFullbright" : "pf_gardenpistolfullbright.png"
+		    "middleFullbright" : "pf_gardenpistolfullbright.png"
       },
       "shortdescription" : "Proto Blaster"
 	},
 	"level4" : {
-	  "inventoryIcon" : "pf_gardenpistol_l4.png",
+	  "inventoryIcon" : "pf_gardenpistol_l4.png:default.1",
       "animationParts" : {
         "middle" : "pf_gardenpistol_l4.png",
-		"middleFullbright" : "pf_gardenpistolfullbright.png"
+		    "middleFullbright" : "pf_gardenpistolfullbright.png"
       },
       "shortdescription" : "Super Blaster"
 	},
 	"level5" : {
-	  "inventoryIcon" : "pf_gardenpistol_l5.png",
+	  "inventoryIcon" : "pf_gardenpistol_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_gardenpistol_l5.png",
-		"middleFullbright" : "pf_gardenpistol_l5fullbright.png"
+		    "middleFullbright" : "pf_gardenpistol_l5fullbright.png"
       },
       "shortdescription" : "Master Blaster"
 	},
 	"level6" : {
-	  "inventoryIcon" : "pf_gardenpistol_l6.png",
+	  "inventoryIcon" : "pf_gardenpistol_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_gardenpistol_l6.png",
 		"middleFullbright" : "pf_gardenpistol_l6fullbright.png"
       },
       "shortdescription" : "Valiant Blaster",
       "description" : "An ancient handgun once wielded by heroes of a time long past. Needs no courage, only valiance.",
-	  "primaryAbility" : {
-		"fireTime" : 0.25,
-		"baseDps" : 7.25
+	    "primaryAbility" : {
+		    "fireTime" : 0.25,
+		    "baseDps" : 7.25
       }
 	}
   }

@@ -16,5 +16,33 @@
         "op": "replace",
         "path": "/description",
         "value": "An upgraded version of the Neo Magnum. The barrel has been reinforced to handle more heat from firing."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neomagnum3-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neomagnum3fullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neomagnum.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neomagnum3icon.png"
+    }
 ]]

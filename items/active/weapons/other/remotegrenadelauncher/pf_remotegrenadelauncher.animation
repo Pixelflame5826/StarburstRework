@@ -1,0 +1,71 @@
+{
+  
+  "animatedParts" : {
+    "stateTypes" : {
+      "body" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "transition" : "loop"
+          },
+          "cooldown" : {
+            "frames" : 3,
+            "cycle" : 0.35,
+            "mode" : "transition",
+            "transition" : "idle"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "gun" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage>",
+          "offset" : [0.0, 0.0]
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+            "cooldown" : {
+              "properties" : {
+                "image" : "<partImage>:cooldown.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "particleEmitters" : {
+    "fireParticles" : {
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "rocketbarrelpuff",
+          "offset" : [3, 0.5]
+        },
+        {
+          "particle" : "rocketbarrelpuff",
+          "offset" : [3, 0.5]
+        },
+        {
+          "particle" : "rocketbarrelpuff",
+          "offset" : [3, 0.5]
+        }
+      ]
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ "/sfx/gun/grenade1.ogg" ],
+    "trigger" : [ "/sfx/interface/rocket_lockon.ogg" ]
+  }
+}

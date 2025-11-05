@@ -16,5 +16,33 @@
         "op": "replace",
         "path": "/description",
         "value": "A Peacekeeper standard issue plasma revolver. Uses a cylinder of plasma charges to fire bolts of energy."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neomagnum1-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neomagnum1fullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neomagnum.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neomagnum1icon.png"
+    }
 ]]

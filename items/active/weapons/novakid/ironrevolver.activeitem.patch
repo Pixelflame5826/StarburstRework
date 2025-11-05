@@ -8,5 +8,28 @@
         "op": "replace",
         "path": "/description",
         "value": "A basic revolver made of iron. A design that has survived through the millenia, an old reliable for many races."
+    },
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_ironrevolver-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_ironrevolver.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_ironrevolver-ani.png:cooldown.1"
     }
 ]

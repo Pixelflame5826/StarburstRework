@@ -5,7 +5,7 @@
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "pointLight" : false,
-  "emitters" : [ "fireplasma" ],
+  "emitters" : [ "fireplasma", "rocketsmoke" ],
   "actionOnReap" : [
     {
       "action" : "config",
@@ -13,6 +13,7 @@
     }
   ],
   "power" : 5.0,
-  "speed" : 75,
+  "speed" : 70,
+  "acceleration" : 10,
   "damageKind" : "default"
 }

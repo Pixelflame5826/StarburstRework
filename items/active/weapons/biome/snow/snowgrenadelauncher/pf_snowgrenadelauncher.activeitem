@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A snownade launcher, the perfect addition to any snowball fight. Will literally blow away the oppostion!",
-  "shortdescription" : "Snownade Lobber",
+  "shortdescription" : "Snownade Launcher",
   "tooltipKind" : "pf_uniquegun",
   "category" : "grenadeLauncher",
   "twoHanded" : false,
@@ -113,7 +113,7 @@
         "middle" : "pf_snowgrenadelauncher_l4.png",
 		"middleFullbright" : "pf_snowgrenadelauncherfullbright.png"
       },
-      "shortdescription" : "Snownade Launcher"
+      "shortdescription" : "Snownade Cannon"
 	},
 	"level5" : {
 	  "inventoryIcon" : "pf_snowgrenadelauncher_l5.png",
@@ -129,7 +129,7 @@
         "middle" : "pf_snowgrenadelauncher_l6.png",
 		"middleFullbright" : "pf_snowgrenadelauncher_l6fullbright.png"
       },
-      "shortdescription" : "Snowfort Penetrator",
+      "shortdescription" : "Snowfort Buster",
       "description" : "The snowball fight equivalent of a nuclear warhead. Turn your opposition into diamond dust!",
 	  "primaryAbility" : {
 		"baseDps" : 8.25

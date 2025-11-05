@@ -8,5 +8,33 @@
         "op": "replace",
         "path": "/description",
         "value": "A plasma pistol created and sold by Letheia. Commonly used by outlaws due to its low price and strength."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neopistol-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neopistolfullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neopistol.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neopistol-ani.png:default.1"
+    }
 ]

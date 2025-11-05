@@ -8,5 +8,85 @@
         "op": "replace",
         "path": "/description",
         "value": "A hi-tech rifle made from durasteel. Microthrusters on its barrel reduce the recoil from its powerful bullets."
+    },
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.6, 0.15]
+    },
+    {
+        "op": "replace",
+        "path": "/muzzleOffset",
+        "value": [2.375, 0.375]
+    },
+
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_durasteelassaultrifle-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_durasteelassaultrifle.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_durasteelassaultrifleicon.png"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/weaponRotation",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/armRotation",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/weaponOffset",
+        "value": [
+            -0.12,
+            0
+        ]
+    },
+
+
+    {
+        "op": "add",
+        "path": "/altAbility",
+        "value": {
+            "stances": {
+                "fire": {
+                    "duration": 0,
+                    "armRotation": 5,
+                    "weaponRotation": 5,
+                    "twoHanded": true,
+                    "allowRotate": false,
+                    "allowFlip": false
+                },
+                "cooldown": {
+                    "duration": 0.11,
+                    "armRotation": 5,
+                    "weaponRotation": 5,
+                    "twoHanded": true,
+                    "animationStates": {
+                        "launcher": "cooldown"
+                    },
+                    "allowRotate": false,
+                    "allowFlip": false
+                }
+            }
+        }
     }
 ]

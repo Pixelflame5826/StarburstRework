@@ -13,5 +13,22 @@
         "op": "add",
         "path": "/pf_halberdcombo",
         "value":  "/items/active/weapons/melee/abilities/spear/pf_halberdcombo.weaponability"
+    },
+
+    //Ammo Swap
+    {
+        "op": "add",
+        "path": "/pf_spraynew",
+        "value":  "/items/active/weapons/ranged/abilities/ammoswap/pf_spraynew.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/pf_pierceshotnew",
+        "value":  "/items/active/weapons/ranged/abilities/ammoswap/pf_pierceshotnew.weaponability"
+    },
+    {
+        "op": "add",
+        "path": "/pf_bounceshotnew",
+        "value":  "/items/active/weapons/ranged/abilities/ammoswap/pf_bounceshotnew.weaponability"
     }
 ]

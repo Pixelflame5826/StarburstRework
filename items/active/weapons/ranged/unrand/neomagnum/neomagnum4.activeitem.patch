@@ -16,5 +16,33 @@
         "op": "replace",
         "path": "/description",
         "value": "A true handgun for keeping the peace. A masterwork of Peacekeeper tech and Noble's need for flair."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neomagnum4-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neomagnum4fullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neomagnum.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neomagnum4icon.png"
+    }
 ]]

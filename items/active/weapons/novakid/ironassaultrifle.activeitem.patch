@@ -7,6 +7,52 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A primitive rifle made from iron. It is still able to handle the heavy power of core powder based munitions."
+        "value": "A primitive rifle made from iron. Still able to handle the heavy power of core-based munitions."
+    },
+    {
+        "op": "replace",
+        "path": "/altAbilityType",
+        "value": "pf_spraynew"
+    },
+
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_ironassaultrifle-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_ironassaultrifle.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_ironassaultrifle-ani.png:default.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/weaponRotation",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/armRotation",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/weaponOffset",
+        "value": [
+            -0.12,
+            0
+        ]
     }
 ]

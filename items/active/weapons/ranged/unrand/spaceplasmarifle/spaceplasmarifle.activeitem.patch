@@ -8,5 +8,103 @@
         "op": "replace",
         "path": "/description",
         "value": "A staple Letheia firearm. A cheap, military grade plasma rifle that is built to thrive in the vacuum of space."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body" : "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/weaponRotation",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/armRotation",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/weaponOffset",
+        "value": [
+            -0.12,
+            0
+        ]
+    },
+
+    {
+        "op": "add",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_spaceplasmariflefullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_spaceplasmarifle-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_spaceplasmarifle.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_spaceplasmarifle-ani.png:default.1"
+    },
+
+    {
+        "op": "add",
+        "path": "/altAbilityType",
+        "value": "pf_bounceshotnew"
+    },
+    {
+        "op": "replace",
+        "path": "/altAbility",
+        "value": {
+            "name" : "Room Clear Mode",
+            "ammoTypes" : [
+                {
+                    "projectileParameters": {
+                        "piercing": true
+                    },
+                    "fireType": "burst",
+                    "energyUsage": 60,
+                    "stances" : {
+                        "fire" : {
+                            "duration" : 0.02,
+                            "armRotation" : 0,
+                            "weaponRotation" : 1,
+                            "twoHanded" : true,
+                            "animationStates": {
+					            "body": "cooldown"
+				            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/projectileParameters/bounces",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/fireType",
+        "value": "auto"
+    },
+    {
+        "op": "remove",
+        "path": "/animationCustom/sounds/altFire"
+    },
+    {
+        "op": "remove",
+        "path": "/animationCustom/animatedParts"
+    }
 ]

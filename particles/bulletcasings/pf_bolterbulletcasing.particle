@@ -1,0 +1,24 @@
+{
+  "kind" : "pf_bolterbulletcasing",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/bulletcasings/largebulletcasing/pf_bolterbulletcasing.animation",
+	"position" : [0, 0],
+	"size" : 1.0,
+    "fade" : 0.9,
+    "initialVelocity" : [-4, 9.0],
+    "finalVelocity" : [-4, -8.0],
+    "approach" : [0, 30],
+    "angularVelocity" : 420,
+    "destructionAction" : "Image",
+    "destructionTime" : 2,
+    "destructionImage" : "/animations/bulletcasings/largebulletcasing/pf_bolterbulletcasing.png:4",
+    "timeToLive" : 2,
+    "layer" : "front",
+    "collidesForeground" : true,
+    "variance" : {
+      "initialVelocity" : [2, 2.0],
+      "angularVelocity" : 20
+    }
+  }
+}

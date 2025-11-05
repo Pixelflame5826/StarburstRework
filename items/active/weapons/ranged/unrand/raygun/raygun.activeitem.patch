@@ -8,5 +8,50 @@
         "op": "replace",
         "path": "/description",
         "value": "A strange gun that fires oscillating orbs of energy. Just another Apex design that has questionable effects."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+
+    {
+        "op": "replace",
+        "path": "/upgradeParameters/animationParts/middle",
+        "value": "pf_raygun_l6-ani.png"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeParameters/animationParts/middleFullbright",
+        "value": "pf_raygun_l6fullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/upgradeParameters/inventoryIcon",
+        "value": "pf_raygun_l6-ani.png:default.1"
+    },
+
+    {
+        "op": "add",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_raygunfullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_raygun-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_raygun.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_raygun-ani.png:default.1"
+    }
 ]

@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "A wrathful mace that can cause tremors in those who are hit with it. It seeks vengeance.",
-  "shortdescription" : "Pallid Mace",
+  "shortdescription" : "Mace of Obsession",
   "tooltipKind" : "pf_sinnersword",
   "category" : "pf_referenceWeapon",
   "twoHanded" : false,

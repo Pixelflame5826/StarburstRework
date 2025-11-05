@@ -1,0 +1,88 @@
+{
+  "animationCustom" : {
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/interface/sniper_mark_start2.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "type" : "pf_bounceshotnew",
+    "name" : "Ricochet Processor",
+    "scripts" : ["/items/active/weapons/ranged/abilities/ammoswap/pf_ammoswap.lua"],
+    "class" : "AmmoSwap",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        "projectileParameters" : {
+          "bounces" : 3,
+          "speed" : 100,
+          "actionOnCollide" : [
+            {
+              "action" : "sound",
+              "options" : [
+                "/sfx/projectiles/bullet_ricochet1.ogg",
+                "/sfx/projectiles/bullet_ricochet2.ogg",
+                "/sfx/projectiles/bullet_ricochet3.ogg",
+                "/sfx/projectiles/bullet_ricochet4.ogg",
+                "/sfx/projectiles/bullet_ricochet5.ogg",
+                "/sfx/projectiles/bullet_ricochet6.ogg",
+                "/sfx/projectiles/bullet_ricochet7.ogg",
+                "/sfx/projectiles/bullet_ricochet8.ogg",
+                "/sfx/projectiles/bullet_ricochet9.ogg",
+                "/sfx/projectiles/bullet_ricochet10.ogg",
+                "/sfx/projectiles/bullet_ricochet11.ogg",
+                "/sfx/projectiles/bullet_ricochet12.ogg",
+                "/sfx/projectiles/bullet_ricochet13.ogg"
+              ]
+            }
+          ]
+        },
+        "energyUsage" : 40,
+
+        "stances" : {
+          "fire" : {
+            "duration" : 0.02,
+            "armRotation" : 0,
+            "weaponRotation" : 1,
+            "twoHanded" : true,
+            "weaponOffset" : [ -0.12, 0 ]
+          },
+          "cooldown" : {
+            "duration" : 0.02,
+            "armRotation" : 0,
+            "weaponRotation" : 1,
+            "twoHanded" : true
+          }
+        }
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -20,
+        "weaponRotation" : 30,
+        "weaponAngularVelocity" : -75,
+        "armAngularVelocity" : 50,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "frontArmFrame" : "run.2",
+        "backArmFrame" : "rotation",
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

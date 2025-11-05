@@ -3,7 +3,7 @@
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A heavily modified rifle that functions like a leaf blower. It blows your enemies away with razor sharp leaves.",
+  "description" : "A heavily modified leaf blower made by the USCM. It blows your enemies away with razor sharp leaves.",
   "shortdescription" : "Leaf Blower",
   "tooltipKind" : "pf_uniquegun",
   "category" : "assaultRifle",
@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","assaultrifle","pf_anvilUpgradeableWeapon"],
   "level" : 2,
 
-  "inventoryIcon" : "pf_forestleafgun.png",
+  "inventoryIcon" : "pf_forestleafgun.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_forestleafgun.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_forestleafgun.png",
@@ -66,16 +66,20 @@
       },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 3,
+        "armRotation" : 0,
         "weaponRotation" : 3,
         "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "cooldown"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
         "duration" : 0.11,
-        "armRotation" : 3,
+        "armRotation" : 0,
         "weaponRotation" : 3,
         "twoHanded" : true,
 
@@ -85,42 +89,45 @@
     }
   },
 
-  "altAbilityType" : "spraynpray",
+  "altAbilityType" : "pf_spraynew",
+  "altAbility" : {
+    "name" : "Overgust"
+  },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   
   "upgradeParameters" : {
 
 	"level3" : {
-	  "inventoryIcon" : "pf_forestleafgun_l3.png",
+	  "inventoryIcon" : "pf_forestleafgun_l3.png:default.1",
       "animationParts" : {
         "middle" : "pf_forestleafgun_l3.png"
       },
-      "shortdescription" : "Leaf Pusher"
+      "shortdescription" : "Leaf Guster"
 	},
 	"level4" : {
-	  "inventoryIcon" : "pf_forestleafgun_l4.png",
+	  "inventoryIcon" : "pf_forestleafgun_l4.png:default.1",
       "animationParts" : {
         "middle" : "pf_forestleafgun_l4.png"
       },
-      "shortdescription" : "Leaf Guster"
+      "shortdescription" : "Leaf Blaster"
 	},
 	"level5" : {
-	  "inventoryIcon" : "pf_forestleafgun_l5.png",
+	  "inventoryIcon" : "pf_forestleafgun_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_forestleafgun_l5.png"
       },
-      "shortdescription" : "Leaf Blaster"
+      "shortdescription" : "Arboreal Buster"
 	},
 	"level6" : {
-	  "inventoryIcon" : "pf_forestleafgun_l6.png",
+	  "inventoryIcon" : "pf_forestleafgun_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_forestleafgun_l6.png"
       },
-      "shortdescription" : "Autumn Breeze",
+      "shortdescription" : "Arb-6 \"Autumn Breeze\"",
       "description" : "Hits your enemies with a nice cool breeze, and the razor sharp leaves that come with it.",
-	  "primaryAbility" : {
-		"projectileType" : "pf_autumnleafshot"
+	    "primaryAbility" : {
+		    "projectileType" : "pf_autumnleafshot"
       }
 	}
   }

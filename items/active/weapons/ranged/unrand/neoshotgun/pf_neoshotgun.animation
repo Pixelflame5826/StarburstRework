@@ -1,0 +1,192 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "fire" : {
+            "frames" : 2,
+            "cycle" : 0.07,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      },
+      "body" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "transition" : "loop"
+          },
+          "break" : {
+            "frames" : 2,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "eject",
+            "properties" : {
+              "immediateSound" : "/sfx/gun/reload/sniper_reload_clip2.ogg"
+            }
+          },
+          "eject" : {
+            "frames" : 1,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "return",
+            "properties" : {
+              "particleEmittersOn" : ["casing"]
+            }
+          },
+          "return" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "idle",
+            "properties" : {
+              "particleEmittersOff" : ["casing"],
+              "immediateSound" : "/sfx/gun/reload/ar_reload_clip3.ogg"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "middle" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.5, 0.15], 
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+            "break" : {
+              "properties" : {
+                "image" : "<partImage>:break.<frame>"
+              }
+            },
+            "eject" : {
+              "properties" : {
+                "image" : "<partImage>:eject.<frame>"
+              }
+            },
+            "return" : {
+              "properties" : {
+                "image" : "<partImage>:return.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "middleFullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "anchorPart" : "middle",
+          "fullbright" : true,
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+            "break" : {
+              "properties" : {
+                "image" : "<partImage>:break.<frame>"
+              }
+            },
+            "eject" : {
+              "properties" : {
+                "image" : "<partImage>:eject.<frame>"
+              }
+            },
+            "return" : {
+              "properties" : {
+                "image" : "<partImage>:return.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "muzzleFlash" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.75, 0],
+          "fullbright" : true,
+          "transformationGroups" : ["muzzle"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<variant>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "weapon" : {
+      "angularVelocity" : 0
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "muzzle" : {}
+  },
+
+  "particleEmitters" : {
+    "muzzleFlash" : {
+      "transformationGroups" : ["muzzle"],
+      "particles" : [ ]
+    },
+
+    "casing": {
+			"transformationGroups": ["weapon"],
+			"offsetRegion": [0, 0, 0, 0],
+			"emissionRate" : 5,
+			"particles": [ 
+				{ "particle" : "pf_neoshotguncasing", "offset" : [0, 0.25] } 
+			]
+		}
+  },
+
+  "lights" : {
+    "muzzleFlash" : {
+      "active" : false,
+      "position" : [0, 0],
+      "color" : [90, 90, 0]
+    }
+  },
+
+  "sounds" : {
+    "fire" : [ ]
+  }
+}

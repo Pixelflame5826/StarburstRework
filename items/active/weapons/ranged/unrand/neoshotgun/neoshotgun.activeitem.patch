@@ -8,5 +8,141 @@
         "op": "replace",
         "path": "/description",
         "value": "A plasma shotgun created by Letheia. Has a double barreled design that uses plasma charges for reliability."
-	}
+	},
+
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.25, -0.75]
+    },
+    {
+        "op": "replace",
+        "path": "/muzzleOffset",
+        "value": [1.625, 0.5]
+    },
+
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neoshotgun-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neoshotgunfullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neoshotgun.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neoshotgun-ani.png:default.1"
+    },
+
+    {
+        "op": "replace",
+        "path": "/primaryAbility/fireTime",
+        "value": 1
+    },
+
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/duration",
+        "value": 0.8
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/backArmFrame",
+        "value": "run.4"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "break"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/fire/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/fire/backArmFrame",
+        "value": "rotation"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/idle/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/idle/backArmFrame",
+        "value": "rotation"
+    },
+
+    {
+        "op": "remove",
+        "path": "/altAbilityType"
+    },
+    {
+        "op": "add",
+        "path": "/altAbility",
+        "value": {
+            "name": "Sticky Plasma Mines",
+            "scripts": [
+                "/items/active/weapons/ranged/abilities/altfire.lua"
+            ],
+            "class": "AltFireAttack",
+            
+            "fireTime": 1.5,
+            "energyUsage": 35,
+            "projectileCount": 3,
+            "inaccuracy": 0.09,
+            "fireType": "auto",
+            "useParticleEmitter": false,
+            "usePrimaryFireSound" : true,
+            "projectileType": "stickyplasma",
+            "projectileParameters": {},
+
+            "stances": {
+                "idle": {
+                    "armRotation": 0,
+                    "weaponRotation": 0,
+                    "twoHanded": true,
+                    "allowRotate": true,
+                    "allowFlip": true
+                },
+                "fire": {
+                    "duration": 0,
+                    "armRotation": 8,
+                    "weaponRotation": 8,
+                    "twoHanded": true,
+                    "allowRotate": false,
+                    "allowFlip": false
+                },
+                "cooldown": {
+                    "duration": 0.8,
+                    "armRotation": 8,
+                    "weaponRotation": 8,
+                    "twoHanded": true,
+                    "allowRotate": false,
+                    "allowFlip": false,
+                    "animationStates": {
+					    "body": "break"
+				    }
+                }
+            }
+        }
+    }
 ]

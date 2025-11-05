@@ -11,9 +11,9 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pf_anvilUpgradeableWeapon"],
 
-  "inventoryIcon" : "pf_alienraygun.png",
+  "inventoryIcon" : "pf_alienraygun.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/pf_fullbrightgun.animation",
+  "animation" : "pf_alienraygun.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "/items/active/weapons/biome/alien/alienraygun/pf_alienraygun.png",
@@ -69,6 +69,10 @@
         "weaponRotation" : 3,
         "twoHanded" : false,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : true
       },
@@ -88,23 +92,23 @@
   
   "upgradeParameters" : {
 	"level5" : {
-	  "inventoryIcon" : "pf_alienraygun_l5.png",
+	  "inventoryIcon" : "pf_alienraygun_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_alienraygun_l5.png",
-		"middleFullbright" : "pf_alienraygun_l5fullbright.png"
+		    "middleFullbright" : "pf_alienraygun_l5fullbright.png"
       },
       "shortdescription" : "Genesis Ray"
 	},
 	"level6" : {
-	  "inventoryIcon" : "pf_alienraygun_l6.png",
+	  "inventoryIcon" : "pf_alienraygun_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_alienraygun_l6.png",
-		"middleFullbright" : "pf_alienraygun_l6fullbright.png"
+		    "middleFullbright" : "pf_alienraygun_l6fullbright.png"
       },
       "shortdescription" : "Di-Nuclear Alien Ray",
       "description" : "A weapon made by the Miniknog to harness the power within a mutated metal. Fires deadly spiraling orbs.",
-	  "primaryAbility" : {
-		"baseDps" :7.25
+	    "primaryAbility" : {
+		    "baseDps" :7.25
       }
 	}
   }

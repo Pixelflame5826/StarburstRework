@@ -8,5 +8,54 @@
         "op": "replace",
         "path": "/description",
         "value": "A sniper rifle made out of titanium. This can blow off limbs from miles away, at least if you know physics."
+    },
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.8, 0.3]
+    },
+
+    {
+        "op": "replace",
+        "path": "/altAbilityType",
+        "value": "pf_pierceshotnew"
+    },
+
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/duration",
+        "value": 0.6
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_titaniumsniperrifle-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_titaniumsniperrifle.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_titaniumsniperrifle-ani.png:default.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "lift"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/frontArmFrame",
+        "value": "rotation"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/backArmFrame",
+        "value": "jump.3"
     }
 ]

@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","shotgun","pf_anvilUpgradeableWeapon"],
   "level" : 4,
 
-  "inventoryIcon" : "pf_jungleshotgun.png",
+  "inventoryIcon" : "pf_jungleshotgun.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_jungleshotgun.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_jungleshotgun.png",
@@ -74,6 +74,10 @@
         "weaponRotation" : 8,
         "twoHanded" : true,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       }
@@ -92,21 +96,21 @@
   
   "upgradeParameters" : {
 	"level5" : {
-	  "inventoryIcon" : "pf_jungleshotgun_l5.png",
+	  "inventoryIcon" : "pf_jungleshotgun_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_jungleshotgun_l5.png"
       },
       "shortdescription" : "Suberecta Shotgun"
 	},
 	"level6" : {
-	  "inventoryIcon" : "pf_jungleshotgun_l6.png",
+	  "inventoryIcon" : "pf_jungleshotgun_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_jungleshotgun_l6.png"
       },
       "shortdescription" : "Crimson Rose",
-      "description" : "A flowering double barrel shotgun. Even a beautiful rose has thorns, especially this one.",
-	  "primaryAbility" : {
-		"baseDps" : 11.25
+      "description" : "A flowering double barrel shotgun. A beautiful rose has thorns, especially this one.",
+	    "primaryAbility" : {
+		    "baseDps" : 11.25
       }
 	}
   }

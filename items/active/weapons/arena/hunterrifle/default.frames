@@ -1,0 +1,14 @@
+{
+  "frameGrid" : {
+    "size" : [33, 11],
+    "dimensions" : [3, 2],
+    "names" : [
+      ["default.1", null, null],
+      ["lift.1", "lift.2", "eject.1"]
+    ]
+  },
+  "aliases" : {
+    "return.1" : "lift.2",
+    "return.2" : "lift.1"
+  }
+}

@@ -7,6 +7,40 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A plasma SMG made by Letheia. Uses a large battery to hold a ton of energy for this gun's firing speed."
-	}
+        "value": "A plasma SMG made by Letheia. Requires a large battery to handle this small gun's energy demands."
+	},
+
+    {
+        "op": "replace",
+        "path": "/animationCustom/lights/muzzleFlash/color",
+        "value": [26, 221, 227]
+    },
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neouzi-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neouzifullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neouzi.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neouzi-ani.png:default.1"
+    }
 ]

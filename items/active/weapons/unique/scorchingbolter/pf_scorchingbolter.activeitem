@@ -11,23 +11,19 @@
   "itemTags" : ["weapon","ranged","pistol"],
   "level" : 6,
 
-  "inventoryIcon" : "pf_scorchingbolter.png",
+  "inventoryIcon" : "pf_scorchingbolter.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_scorchingbolter.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_scorchingbolter.png",
+    "middleFullbright" : "pf_scorchingbolterfullbright.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/gun/revolver2.ogg"]
-    }
-  },
 
   "baseOffset" : [0.5, 0.15],
-  "muzzleOffset" : [1.5, 0.3],
+  "muzzleOffset" : [1.5, 0.1],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -60,8 +56,8 @@
       },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
+        "armRotation" : 4,
+        "weaponRotation" : 10,
         "twoHanded" : false,
 
         "allowRotate" : false,
@@ -72,6 +68,10 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
+
+        "animationStates": {
+					"body": "cooldown"
+				},
 
         "allowRotate" : false,
         "allowFlip" : false

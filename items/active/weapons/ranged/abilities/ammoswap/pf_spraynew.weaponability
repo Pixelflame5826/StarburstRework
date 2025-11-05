@@ -1,0 +1,67 @@
+{
+  "animationCustom" : {
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "type" : "pf_spraynew",
+    "name" : "Spray Mode",
+    "scripts" : ["/items/active/weapons/ranged/abilities/ammoswap/pf_ammoswap.lua"],
+    "class" : "AmmoSwap",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        "energyUsage" : 75,
+        "baseDps" : 30,
+        "fireTime" : 0.04,
+        "inaccuracy" : 0.07,
+        "fireType" : "auto",
+
+        "stances" : {
+          "fire" : {
+            "duration" : 0.02,
+            "armRotation" : 2,
+            "weaponRotation" : 2,
+            "twoHanded" : true
+          },
+          "cooldown" : {
+            "duration" : 0.02,
+            "animationStates": {
+					    "body": "cooldown"
+				    },
+            "armRotation" : 2,
+            "weaponRotation" : 2,
+            "twoHanded" : true
+          }
+        }
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

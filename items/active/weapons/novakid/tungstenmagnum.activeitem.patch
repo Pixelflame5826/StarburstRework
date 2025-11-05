@@ -7,6 +7,30 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A powerful revolver made of tungsten. Old reliable has never given a bigger boom until now."
+        "value": "A powerful revolver made of tungsten. Old reliable has never had a bigger boom, until now."
+    },
+
+    
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_tungstenmagnum-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_tungstenmagnum.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_tungstenmagnum-ani.png:cooldown.1"
     }
 ]

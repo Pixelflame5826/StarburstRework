@@ -8,5 +8,70 @@
         "op": "replace",
         "path": "/description",
         "value": "A shotgun made out of tungsten. Sends out dense shells of pellets at whatever you want gone within 10 feet."
+    },
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.1, 0]
+    },
+
+
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_tungstenshotgun-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_tungstenshotgun.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_tungstenshotgun-ani.png:default.1"
+    },
+
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/duration",
+        "value": 0.5
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/backArmFrame",
+        "value": "jump.3"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/fire/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/fire/backArmFrame",
+        "value": "rotation"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/idle/frontArmFrame",
+        "value": "jump.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/idle/backArmFrame",
+        "value": "rotation"
     }
 ]

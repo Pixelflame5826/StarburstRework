@@ -8,5 +8,63 @@
         "op": "replace",
         "path": "/description",
         "value": "A plasma rifle created by Letheia. Modelled after an old Terran design and is quite reliable."
-	}
+	},
+    {
+        "op": "replace",
+        "path": "/altAbilityType",
+        "value": "pf_spraynew"
+    },
+
+    {
+        "op": "replace",
+        "path": "/baseOffset",
+        "value": [0.5, 0.125]
+    },
+
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_neotommygun-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middleFullbright",
+        "value": "pf_neotommygunfullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_neotommygun.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_neotommygun-ani.png:default.1"
+    },
+
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/weaponRotation",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/armRotation",
+        "value": 1
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/weaponOffset",
+        "value": [
+            -0.12,
+            0
+        ]
+    }
 ]

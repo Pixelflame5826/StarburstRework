@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/maxTrackingAngle",
+        "value": 10
+    },
+    {
+        "op": "replace",
+        "path": "/rotationRate",
+        "value": 10
+    },
+    {
+        "op": "replace",
+        "path": "/speed",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/image",
+        "value": "pf_exmachinarocket.png"
+    }
+]

@@ -7,6 +7,63 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "Powerfully strong to cover long distances. After all, lightning can still strike even when miles away."
+        "value": "A coilgun that launches precise blasts of lightning. Nikola Tesla will finally have his revenge!"
+    },
+
+    {
+        "op": "replace",
+        "path": "/animationParts/middle",
+        "value": "pf_electricrailgun-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animationParts/middlefullbright",
+        "value": "pf_electricrailgunfullbright-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/animation",
+        "value": "pf_electricrailgun.animation"
+    },
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_electricrailgun-ani.png:default.1"
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/animationStates",
+        "value": {
+            "body": "cooldown"
+        }
+    },
+    {
+        "op": "replace",
+        "path": "/primaryAbility/stances/cooldown/weaponRotation",
+        "value": 0
+    },
+    {
+        "op": "add",
+        "path": "/primaryAbility/stances/cooldown/weaponOffset",
+        "value": [
+            -0.12,
+            0
+        ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/upgradeParameters/animationParts/middle",
+        "value": "pf_electricrailgun_l6-ani.png"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeParameters/animationParts/middlefullbright",
+        "value": "pf_electricrailgunfullbright_l6-ani.png"
+    },
+    {
+        "op": "replace",
+        "path": "/upgradeParameters/inventoryIcon",
+        "value": "pf_electricrailgun_l6-ani.png:default.1"
     }
 ]
