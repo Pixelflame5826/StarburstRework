@@ -26,8 +26,8 @@
             "transition" : "loop"
           },
           "cooldown" : {
-            "frames" : 2,
-            "cycle" : 0.15,
+            "frames" : 5,
+            "cycle" : 0.5,
             "mode" : "transition",
             "transition" : "idle"
           }
@@ -43,7 +43,7 @@
           },
           "fire" : {
             "frames" : 3,
-            "cycle" : 0.15,
+            "cycle" : 0.2,
             "mode" : "transition",
             "transition" : "idle"
           }
@@ -80,8 +80,8 @@
       "middleFullbright" : {
         "properties" : {
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>"
-          "offset" : [ 0.30, 0.385 ]
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [ 0.30, 0.385 ],
           "transformationGroups" : ["weapon"],
           "fullbright" : true
         },
@@ -107,11 +107,11 @@
           "centered" : true,
           "image" : "<partImage><paletteSwaps>",
           "transformationGroups" : ["weapon"],
-          "offset" : [ 0.30, 0.385 ]
+          "offset" : [ -0.5, 0.385 ]
         },
 
         "partStates" : {
-          "body" : {
+          "blast" : {
             "idle" : {
               "properties" : {
                 "image" : "<partImage>:default.<frame>"
@@ -136,7 +136,7 @@
         },
 
         "partStates" : {
-          "body" : {
+          "blast" : {
             "idle" : {
               "properties" : {
                 "image" : "<partImage>:default.<frame>"

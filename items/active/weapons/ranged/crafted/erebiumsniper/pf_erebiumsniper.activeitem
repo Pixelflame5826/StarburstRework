@@ -3,7 +3,7 @@
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A large dark sniper rifle, its bullets seek out the presence of life. Only to eliminate it.",
+  "description" : "A large sniper rifle that fires bullets of darkness. When charged, it can pierce through anything.",
   "shortdescription" : "Erebium Eliminator",
   "tooltipKind" : "pf_uniquegun",
   "category" : "sniperRifle",
@@ -13,30 +13,12 @@
 
   "inventoryIcon" : "pf_erebiumsniper.png",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_erebiumsniper.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_erebiumsniper.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
-  },
-  "animationCustom" : {
-    "particleEmitters" : {
-      "altMuzzleFlash" : {
-        "active" : false,
-        "transformationGroups" : ["muzzle"],
-        "offsetPart" : "muzzleFlash",
-        "burstCount" : 3,
-        "particles" : [
-          { "particle" : "shadowshard" }
-        ]
-      }
-    },
-    "sounds" : {
-      "altFire" : [ "/sfx/gun/rifle1.ogg" ],
-      "targetAcquired" : [ "/sfx/interface/rocket_lockon.ogg" ],
-      "fire" : ["/sfx/gun/rifle1.ogg"]
-    }
   },
 
   "baseOffset" : [1.4, 0.3],
@@ -47,22 +29,41 @@
   "elementalType" : "pf_shadow",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-
-    "fireTime" : 1.3,
-    "baseDps" : 8.5,
-    "energyUsage" : 25.5,
-    "inaccuracy" : 0.008,
-
-    "projectileCount" : 1,
-    "fireType" : "auto",
-
-    "projectileType" : "standardbullet",
-    "projectileParameters" : {
-      "knockback" : 22,
-	  "damageKind" : "pf_piercing"
-    },
+    "scripts" : ["/items/active/weapons/ranged/crafted/erebiumsniper/pf_erebiumsniperchargeshot.lua"],
+    "class" : "pf_ChargeShot",
+	
+	  "fireTime" : 1.0,
+    "baseDps" : 35,
+	  "energyUsage" : 25,
+    
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 20,
+        "cooldown" : 1.0,
+        "projectileType" : "pf_erebiumbullet",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0.01,
+        "baseDamage" : 7,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.2,
+        "energyCost" : 30,
+        "cooldown" : 1.5,
+        "projectileType" : "pf_erebiumbullet",
+        "projectileCount" : 1,
+        "projectileParameters" : {
+          "piercing" : true,
+          "onlyHitTerrain" : true,
+          "speed" : 120
+        },
+        "inaccuracy" : 0,
+        "baseDamage" : 7,
+        "fireSound" : "chargedfire"
+      }
+    ],
     "stances" : {
       "idle" : {
         "armRotation" : 0,
@@ -72,32 +73,39 @@
         "allowRotate" : true,
         "allowFlip" : true
       },
+	  "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
+        "armRotation" : 1,
+        "weaponRotation" : 3,
         "twoHanded" : true,
+        "weaponOffset" : [ -0.2, 0 ],
+
+        "animationStates" : {
+          "body" : "cooldown"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
         "duration" : 0.25,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
+        "armRotation" : 1,
+        "weaponRotation" : 3,
         "twoHanded" : true,
+        "weaponOffset" : [ -0.2, 0 ],
 
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate" : true,
+        "allowFlip" : true
       }
     }
-  },
-
-  "altAbilityType" : "homingrocket",
-  "altAbility" : {
-    "name" : "Life Seeking Bullet",
-    "projectileType" : "pf_erebiumhomingbullet",
-	"rocketWindupTime" : 0.001
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

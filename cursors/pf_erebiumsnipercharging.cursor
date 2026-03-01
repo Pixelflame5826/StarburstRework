@@ -1,0 +1,10 @@
+{
+  "offset" : [10, 10],
+  "animation" : {
+    "frames" : "/cursors/pf_erebiumsnipercursor.png:charging.<index>",
+    "frameNumber" : 5,
+    "animationCycle" : 1.2,
+    "centered" : false,
+    "mode" : "loopforever"
+  }
+}

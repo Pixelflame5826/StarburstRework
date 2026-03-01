@@ -1,0 +1,59 @@
+{
+  "itemName" : "pf_apexironrapier",
+  "price" : 480,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A long reaching rapier made from iron. While not often known for fencing, it is a symbol of freedom for Apex.",
+  "shortdescription" : "Initiate's Rapier",
+  "tooltipKind" : "pf_uniquesword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "pf_apexironrapier.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "pf_apexironrapier.png"
+  },
+  "animationCustom" : { 
+      "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/shortsword/swoosh/<elementalType>swoosh.png:<frame>",
+                  "offset" : [1.75, 1.0],
+                  "damageArea" : [ [-2.25, 1.125], [0.25, 1.125], [1.625, 0.75], [2.5, 0], [2.5, -0.5], [2.125, -0.875], [1, -1.375], [-2.25, -1.375] ]
+                }
+              },
+              "fire2" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/shortsword/swoosh2/<elementalType>swoosh.png:<frame>",
+                  "offset" : [1.5, 0.125],
+                  "damageArea" : [[-3, 1], [3, 1], [3, -1], [-3, -1]]
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "pf_piercing",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.325,
+    "baseDps" : 6.5
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

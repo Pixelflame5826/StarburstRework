@@ -1,0 +1,85 @@
+{
+  "itemName" : "pf_apexironpistol",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An iron coil gun that fires static shocks. A pacification tool stolen from the Miniknog, its now often used for self defense.",
+  "shortdescription" : "Stun Pistol - Alpha",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 1,
+
+  "inventoryIcon" : "pf_apexironpistol.png:default.1",
+
+  "animation" : "pf_apexironpistol.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_apexironpistol.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : { },
+
+  "baseOffset" : [0.5, 0.25],
+  "muzzleOffset" : [1.4, 0.3],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 5.5,
+    "energyUsage" : 18.75,
+    "inaccuracy" : 0.025,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "brainshock",
+    "projectileParameters" : {
+      "knockback" : 6,
+      "damageKind" : "electricplasma",
+      "statusEffects" : [ "electrified" ]
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [ -0.1, 0 ],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

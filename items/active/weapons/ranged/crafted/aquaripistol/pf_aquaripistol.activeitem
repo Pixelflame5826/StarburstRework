@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
   "level" : 3,
 
-  "inventoryIcon" : "pf_aquaripistol.png",
+  "inventoryIcon" : "pf_aquaripistol.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_aquaripistol.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_aquaripistol.png",
@@ -48,7 +48,8 @@
     "projectileType" : "pf_torrentbullet",
     "projectileParameters" : {
       "knockback" : 6,
-	  "piercing" : false
+	    "piercing" : false,
+      "speed" : 80
     },
     "stances" : {
       "idle" : {
@@ -74,6 +75,10 @@
         "weaponRotation" : 3,
         "twoHanded" : false,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       }
@@ -84,20 +89,20 @@
   
   "upgradeParameters" : {
 	"level4" : {
-	  "inventoryIcon" : "pf_aquaripistol_l4.png",
+	  "inventoryIcon" : "pf_aquaripistol_l4.png:default.1",
       "animationParts" : {
         "middle" : "pf_aquaripistol_l4.png"
       }
 	},
 	"level5" : {
-	  "inventoryIcon" : "pf_aquaripistol_l5.png",
+	  "inventoryIcon" : "pf_aquaripistol_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_aquaripistol_l5.png"
       }
 	},
 	
 	"level6" : {
-	  "inventoryIcon" : "pf_aquaripistol_l6.png",
+	  "inventoryIcon" : "pf_aquaripistol_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_aquaripistol_l6.png"
       },

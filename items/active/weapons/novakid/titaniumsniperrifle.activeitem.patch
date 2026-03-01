@@ -7,7 +7,7 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A sniper rifle made out of titanium. This can blow off limbs from miles away, at least if you know physics."
+        "value": "A sniper rifle made out of titanium. This can blow off limbs from miles away, or yours if you don't respect it."
     },
     {
         "op": "replace",

@@ -59,7 +59,7 @@
       "damageSourceKind" : "icebroadsword",
       "statusEffects" : [ "pf_frostbite" ]
     },
-	"name" : "Freezing Blade"
+	"name" : "Shattering Runes"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
@@ -69,12 +69,12 @@
 	  "inventoryIcon" : "pf_tundrabroadsword_l6.png",
       "animationParts" : {
         "handle" : "pf_handle_l6.png",
-		"blade" : "pf_blade_l6.png"
+		    "blade" : "pf_blade_l6.png"
       },
       "shortdescription" : "Gicelgebrand",
-      "description" : "An old greatsword wielded by an Alpaca, the runes that line it imbue the blade with a biting chill.",
-	  "primaryAbility" : {
-		"baseDps" : 11.75
+      "description" : "An old greatsword wielded by an Alpaca hero, the runes on its blade imbue it with a lethal chill.",
+	    "primaryAbility" : {
+		    "baseDps" : 11.75
       }
 	}
   }

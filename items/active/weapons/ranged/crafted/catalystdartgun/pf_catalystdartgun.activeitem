@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","pistol"],
   "level" : 5,
 
-  "inventoryIcon" : "pf_catalystdartgun.png",
+  "inventoryIcon" : "pf_catalystdartgun.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_catalystdartgun.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_catalystdartgun.png",
@@ -37,7 +37,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 2.0,
+    "fireTime" : 1.0,
     "baseDps" : 1.25,
     "energyUsage" : 10.75,
     "inaccuracy" : 0.025,
@@ -64,6 +64,10 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
+
+        "animationStates" : {
+          "body" : "cooldown"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false

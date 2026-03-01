@@ -1,0 +1,20 @@
+{
+  "projectileName" : "pf_erebiumbullet",
+  "image" : "pf_erebiumbullet.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "emitters" : [ "rocketsmoke" ],
+  "power" : 10.0,
+  "speed" : 100.0,
+  "physics" : "laser",
+  "damageKind" : "pf_piercing",
+  "statusEffects" : [ "pf_entropicdarkness" ]
+}

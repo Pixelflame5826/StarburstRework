@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_gardenbroadsword" },
+
   "inventoryIcon" : "pf_gardenbroadsword.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",

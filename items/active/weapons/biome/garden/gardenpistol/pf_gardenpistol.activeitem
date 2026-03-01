@@ -9,6 +9,8 @@
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
+
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_gardenpistol" },
   "level" : 1,
 
   "inventoryIcon" : "pf_gardenpistol.png:default.1",
@@ -27,7 +29,7 @@
     }
   },
 
-  "baseOffset" : [0.8, 0.25],
+  "baseOffset" : [0.9, 0.125],
   "muzzleOffset" : [0.7, 0.5],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -107,7 +109,7 @@
 	  "inventoryIcon" : "pf_gardenpistol_l4.png:default.1",
       "animationParts" : {
         "middle" : "pf_gardenpistol_l4.png",
-		    "middleFullbright" : "pf_gardenpistolfullbright.png"
+		    "middleFullbright" : "pf_gardenpistol_l4fullbright.png"
       },
       "shortdescription" : "Super Blaster"
 	},

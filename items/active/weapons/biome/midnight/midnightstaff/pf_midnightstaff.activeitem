@@ -19,6 +19,8 @@
   },
   "animationCustom" : { },
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_midnightstaff" },
+
   "inventoryIcon" : "pf_midnightstaff.png",
 
   "scripts" : ["/items/active/weapons/staff/staff.lua"],
@@ -74,13 +76,13 @@
   "primaryAbilityType" : "plasmabladebarrage",
   "primaryAbility" : {
     "maxCastRange" : 30,
-	"name" : "Spears of the End",
+	  "name" : "Dark Blades",
 
     "projectileCount" : 6,
-	"projectileType" : "pf_voidspear",
+	  "projectileType" : "pf_voidspear",
     "projectileParameters" : {
       "baseDamage" : 50,
-	  "statusEffects" : [ "pf_entropicdarkness" ]
+	    "statusEffects" : [ "pf_entropicdarkness" ]
     },
 
     "stances" : {
@@ -104,8 +106,8 @@
 
   "altAbilityType" : "kluexzone",
   "altAbility" : {
-    "name" : "Void's Corruption",
-	"projectileType" : "pf_voidzone"
+    "name" : "Void's Projection",
+	  "projectileType" : "pf_voidzone"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

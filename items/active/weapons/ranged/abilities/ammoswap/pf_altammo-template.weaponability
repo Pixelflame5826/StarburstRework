@@ -1,0 +1,41 @@
+{
+  "animationCustom" : {
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "type" : "pf_altammo-template",
+    "name" : "- Replace On Weapon -",
+    "scripts" : ["/items/active/weapons/ranged/abilities/ammoswap/pf_ammoswap.lua"],
+    "class" : "AmmoSwap",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [ ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

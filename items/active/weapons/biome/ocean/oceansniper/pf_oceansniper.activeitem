@@ -3,7 +3,7 @@
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "An old snaplock rifle. Once used by Hylotl warriors in naval combat, especially against Florans.",
+  "description" : "An old volley gun. Once used by Hylotl warriors in naval combat, especially against Florans.",
   "shortdescription" : "Kaigun",
   "tooltipKind" : "pf_uniquegun",
   "category" : "sniperRifle",
@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","sniperrifle","pf_anvilUpgradeableWeapon"],
   "level" : 3,
 
-  "inventoryIcon" : "pf_oceansniper.png",
+  "inventoryIcon" : "pf_oceansniper.png:cooldown.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_oceansniper.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_oceansniper.png",
@@ -37,7 +37,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 1.3,
+    "fireTime" : 0.6,
     "baseDps" : 8.5,
     "energyUsage" : 25.5,
     "inaccuracy" : 0.008,
@@ -45,11 +45,8 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "bullet-3",
-    "projectileParameters" : {
-      "knockback" : 22,
-	  "speed" : 80
-    },
+    "projectileType" : "pf_torrentbullet",
+    "projectileParameters" : { },
     "stances" : {
       "idle" : {
         "armRotation" : 0,
@@ -64,6 +61,10 @@
         "armRotation" : 5,
         "weaponRotation" : 5,
         "twoHanded" : true,
+        
+        "animationStates" : {
+          "body" : "cooldown"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false
@@ -74,45 +75,94 @@
         "weaponRotation" : 5,
         "twoHanded" : true,
 
+        "frontArmFrame" : "swim.3",
+
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
 
-  "altAbilityType" : "piercingshot",
+  "altAbilityType" : "pf_altammo-template",
   "altAbility" : {
-    "name" : "Torrential Bullet",
-    "projectileType" : "pf_torrentbullet"
+    "name" : "Shipbreaker",
+
+    "singleShot" : true,
+    "ammoCooldown" : 5,
+
+    "ammoTypes" : [ 
+      {
+        "baseDps" : 10.5,
+        "fireTime" : 1.2,
+        "projectileCount" : 6,
+        "projectileType" : "pf_torrentbullet-volley",
+        "inaccuracy" : 0.05,
+
+        "stances" : {
+          "idle" : {
+            "armRotation" : 0,
+            "weaponRotation" : 0,
+            "twoHanded" : true,
+
+            "allowRotate" : true,
+            "allowFlip" : true
+          },
+          "fire" : {
+            "duration" : 0,
+            "armRotation" : 5,
+            "weaponRotation" : 5,
+            "twoHanded" : true,
+
+            "animationStates" : {
+              "body" : "altcooldown"
+            },
+
+            "allowRotate" : false,
+            "allowFlip" : false
+          },
+          "cooldown" : {
+            "duration" : 1.0,
+            "armRotation" : 5,
+            "weaponRotation" : 5,
+            "twoHanded" : true,
+
+            "frontArmFrame" : "swim.3",
+
+            "allowRotate" : false,
+            "allowFlip" : false
+          }
+        }
+      }
+    ]
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   
   "upgradeParameters" : {
 	"level4" : {
-	  "inventoryIcon" : "pf_oceansniper_l4.png",
+	  "inventoryIcon" : "pf_oceansniper_l4.png:cooldown.1",
       "animationParts" : {
         "middle" : "pf_oceansniper_l4.png"
       },
       "shortdescription" : "Kaigunhō"
 	},
 	"level5" : {
-	  "inventoryIcon" : "pf_oceansniper_l5.png",
+	  "inventoryIcon" : "pf_oceansniper_l5.png:cooldown.1",
       "animationParts" : {
         "middle" : "pf_oceansniper_l5.png"
       },
       "shortdescription" : "Shinen-no-Okurite"
 	},
 	"level6" : {
-	  "inventoryIcon" : "pf_oceansniper_l6.png",
+	  "inventoryIcon" : "pf_oceansniper_l6.png:cooldown.1",
       "animationParts" : {
         "middle" : "pf_oceansniper_l6.png"
       },
       "shortdescription" : "Watatsumi-no-Taiho",
-      "description" : "A snaplock rifle once wielded by elite Hylotl warriors. Its bullets hit ships with the strength of a sea serpent.",
-	  "primaryAbility" : {
-		"baseDps" : 9.25
+      "description" : "A volley gun once wielded by elite Hylotl warriors. Its bullets hit ships with the strength of a sea serpent.",
+	    "primaryAbility" : {
+		    "baseDps" : 9.25
       }
-	}
+	  }
   }
 }

@@ -51,12 +51,12 @@
   "elementalType" : "physical",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/unique/m1000/pf_chargeshot.lua"],
+    "scripts" : ["/items/active/weapons/unique/m1000/pf_m1000chargeshot.lua"],
     "class" : "pf_ChargeShot",
 	
-	"fireTime" : 0.4,
+	  "fireTime" : 0.4,
     "baseDps" : 10,
-	"energyUsage" : 25,
+	  "energyUsage" : 25,
     
     "chargeLevels" : [
       {

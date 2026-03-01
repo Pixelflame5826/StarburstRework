@@ -1,0 +1,96 @@
+{
+  "itemName" : "pf_avianironwand",
+  "price" : 960,
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "Common",
+  "description" : "An iron wand topped with a core crystal. Made for those new to the near magic of Avosian weaponry.",
+  "shortdescription" : "Acolyte's Scepter",
+  "category" : "wand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand"],
+  "tooltipKind" : "pf_uniquestaff",
+
+  "animation" : "/items/active/weapons/wand/wand.animation",
+  "animationParts" : {
+    "wand" : "pf_avianironwand.png",
+    "stone" : "pf_stone.png",
+    "chargeEffect" : "pf_wandglow.png"
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "color" : [229, 49, 48]
+    }}
+  },
+
+  "inventoryIcon" : "pf_avianironwand.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "stances" : {
+    "idle" : {
+      "weaponOffset" : [-0.125, 1.0],
+
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0.125, 1.5],
+
+      "duration" : 1.0,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0.125, 1.5],
+
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0.125, 1.5],
+
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [-0.125, 1.0],
+
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "elementalType" : "physical",
+
+  "baseDamageFactor" : 0.5,
+  "primaryAbilityType" : "plasmabarrage",
+  "primaryAbility" : {
+    "projectileType" : "pf_avianplasmaball",
+    "projectileCount" : 4
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

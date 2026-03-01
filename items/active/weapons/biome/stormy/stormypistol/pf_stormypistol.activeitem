@@ -3,7 +3,7 @@
   "price" : 640,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A charged pistol that has a built in flashlight. Perfect for when a cryptid might be stalking you at night.",
+  "description" : "A charged magnum that has a built in flashlight. Perfect for when a cryptid might be stalking you at night.",
   "shortdescription" : "Mountain Eagle",
   "tooltipKind" : "pf_uniquegun",
   "category" : "pistol",

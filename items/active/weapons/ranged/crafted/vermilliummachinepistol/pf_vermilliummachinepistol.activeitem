@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","machinepistol","pf_anvilUpgradeableWeapon"],
   "level" : 4,
 
-  "inventoryIcon" : "pf_vermilliummachinepistol.png",
+  "inventoryIcon" : "pf_vermilliummachinepistol.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_vermilliummachinepistol.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_vermilliummachinepistol.png",
@@ -48,7 +48,7 @@
     "projectileType" : "poisonplasma",
     "projectileParameters" : {
       "knockback" : 2,
-	  "statusEffects" : [ "weakpoison" ]
+	    "statusEffects" : [ "weakpoison" ]
     },
     "stances" : {
       "idle" : {
@@ -64,6 +64,10 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
+
+        "animationStates" : {
+          "body" : "cooldown"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false
@@ -84,14 +88,14 @@
   
   "upgradeParameters" : {
 	"level5" : {
-	  "inventoryIcon" : "pf_vermilliummachinepistol_l5.png",
+	  "inventoryIcon" : "pf_vermilliummachinepistol_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_vermilliummachinepistol_l5.png"
       }
 	},
 	
 	"level6" : {
-	  "inventoryIcon" : "pf_vermilliummachinepistol_l6.png",
+	  "inventoryIcon" : "pf_vermilliummachinepistol_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_vermilliummachinepistol_l6.png"
       },

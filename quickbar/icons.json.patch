@@ -1,0 +1,15 @@
+[
+    {
+        "op": "add",
+        "path": "/items/starburst:collections",
+        "value": {
+            "label": "^yellow;Explorer's Journal",
+            "icon": "/items/active/unsorted/starburstcollections/pf_starburstcollectionsicon.png",
+            "weight": -555,
+            "action": [
+                "pane",
+                "/interface/scripted/starburstcollections/pf_starburstcollections.config"
+            ]
+        }
+    }
+]

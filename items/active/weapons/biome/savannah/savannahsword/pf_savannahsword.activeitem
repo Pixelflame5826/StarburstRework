@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A large sword fashioned after a Bowie Knife. Very impressive, and very effective. Now, this is a knife!",
-  "shortdescription" : "Bush Knoife",
+  "shortdescription" : "Bush Knife",
   "tooltipKind" : "pf_uniquesword",
   "category" : "shortsword",
   "twoHanded" : false,
@@ -128,21 +128,21 @@
       "animationParts" : {
         "handle" : "pf_savannahsword_l3.png"
       },
-      "shortdescription" : "Bush Whackah"
+      "shortdescription" : "Bush Whacker"
 	},
 	"level4" : {
 	  "inventoryIcon" : "pf_savannahsword_l4.png",
       "animationParts" : {
         "handle" : "pf_savannahsword_l4.png"
       },
-      "shortdescription" : "Bush Messah"
+      "shortdescription" : "Bush Messer"
 	},
 	"level5" : {
 	  "inventoryIcon" : "pf_savannahsword_l5.png",
       "animationParts" : {
         "handle" : "pf_savannahsword_l5.png"
       },
-      "shortdescription" : "Bush Razah"
+      "shortdescription" : "Bush Razor"
 	},
 	
 	"level6" : {

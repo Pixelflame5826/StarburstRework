@@ -1,0 +1,86 @@
+{
+  "itemName" : "pf_apexdurasteelpistol",
+  "price" : 640,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A durasteel coil gun that fires static shocks. Hard to believe this is an \"Apex pacification\" weapon.",
+  "shortdescription" : "Stun Pistol - 1.0",
+  "tooltipKind" : "pf_uniquegun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 4,
+
+  "inventoryIcon" : "pf_apexdurasteelpistol.png:default.1",
+
+  "animation" : "pf_apexdurasteelpistol.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pf_apexdurasteelpistol.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : { },
+
+  "baseOffset" : [0.5, 0.25],
+  "muzzleOffset" : [1.4, 0.3],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 5.5,
+    "energyUsage" : 18.75,
+    "inaccuracy" : 0.025,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "brainshock",
+    "projectileParameters" : {
+      "knockback" : 6,
+      "damageKind" : "electricplasma",
+      "statusEffects" : [ "electrified" ],
+      "timeToLive" : 1.0
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "weaponOffset" : [ -0.1, 0 ],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

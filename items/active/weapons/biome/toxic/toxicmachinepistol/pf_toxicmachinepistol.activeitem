@@ -4,16 +4,16 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "An abandoned machine pistol, it fires toxic uranium rounds that pierce through anything.",
-  "shortdescription" : "Toxic Heater",
+  "shortdescription" : "Rayons Alpha",
   "tooltipKind" : "pf_uniquegun",
   "category" : "machinePistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","machinepistol"],
   "level" : 6,
 
-  "inventoryIcon" : "pf_toxicmachinepistol.png",
+  "inventoryIcon" : "pf_toxicmachinepistol.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_toxicmachinepistol.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_toxicmachinepistol.png",
@@ -48,9 +48,9 @@
     "projectileType" : "poisonplasma",
     "projectileParameters" : {
       "knockback" : 2,
-	  "damageKind" : "poisonbullet",
-	  "piercing" : true,
-	  "statusEffects" : [ "weakpoison" ]
+	    "damageKind" : "poisonbullet",
+	    "piercing" : true,
+	    "statusEffects" : [ "weakpoison" ]
     },
     "stances" : {
       "idle" : {
@@ -66,6 +66,10 @@
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
+
+        "animationStates" : {
+          "body" : "cooldown"
+        },
 
         "allowRotate" : false,
         "allowFlip" : false

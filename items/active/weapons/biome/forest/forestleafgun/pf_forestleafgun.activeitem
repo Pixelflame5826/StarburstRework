@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","assaultrifle","pf_anvilUpgradeableWeapon"],
   "level" : 2,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_forestleafgun" },
+
   "inventoryIcon" : "pf_forestleafgun.png:default.1",
 
   "animation" : "pf_forestleafgun.animation",

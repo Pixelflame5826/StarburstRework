@@ -1,0 +1,21 @@
+{
+  "kind" : "pf_gunsteam",
+  "definition" : {
+    "type" : "animated",
+    "image" : "/animations/whitepoof/whitepoof.animation",
+    "size" : 1.0,
+    "color" : [244, 244, 244, 255],
+    "destructionAction" : "fade",
+    "destructionTime" : 4,
+    "initialVelocity" : [-4, 0],
+    "finalVelocity" : [0, 4],
+    "timeToLive" : 5,
+    "layer" : "front",
+    "position" : [-2, 5],
+    "collidesForeground" : false,
+    "variance" : {
+      "initialVelocity" : [-2, 0.5],
+      "rotation" : 180
+    }
+  }
+}

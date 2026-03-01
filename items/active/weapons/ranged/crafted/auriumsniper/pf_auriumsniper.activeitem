@@ -1,7 +1,7 @@
 {
   "itemName" : "pf_auriumsniper",
   "price" : 960,
-  "inventoryIcon" : "pf_auriumsniper.png",
+  "inventoryIcon" : "pf_auriumsniper.png:default.1",
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A traditional hunting rifle plated with Aurium, making it much more sturdy so it fires stronger bullets.",
@@ -47,7 +47,7 @@
     "projectileType" : "standardbullet",
     "projectileParameters" : {
       "knockback" : 20,
-	  "damageKind" : "pf_piercing"
+	    "damageKind" : "pf_piercing"
     },
     "stances" : {
       "idle" : {
@@ -73,46 +73,56 @@
         "weaponRotation" : 5,
         "twoHanded" : true,
 
+        "animationStates" : {
+          "body" : "lift"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
 
-  "altAbilityType" : "piercingshot",
+  "altAbilityType" : "pf_pierceshotnew",
   "altAbility": {
-    "projectileParameters" : {
-      "knockback" : 20,
-	  "damageKind" : "pf_piercing",
-	  "statusEffects" : [ "pf_bleeding" ]
-    },
-	"name" : "Auric Metal Jacket"
+    "ammoTypes" : [
+      {
+        "projectileType" : "piercingbullet",
+        "projectileParameters" : {
+          "damageKind" : "pf_piercing",
+	        "statusEffects" : [ "pf_bleeding" ]
+        },
+        "baseDamageMultiplier" : 1.3,
+        "energyUsage" : 40
+      }
+    ],
+	  "name" : "Auric Metal Jacket"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   
   "upgradeParameters" : {
     "level3" : {
-	  "inventoryIcon" : "pf_auriumsniper_l3.png",
+	  "inventoryIcon" : "pf_auriumsniper_l3.png:default.1",
       "animationParts" : {
         "middle" : "pf_auriumsniper_l3.png"
       }
 	},
 	"level4" : {
-	  "inventoryIcon" : "pf_auriumsniper_l4.png",
+	  "inventoryIcon" : "pf_auriumsniper_l4.png:default.1",
       "animationParts" : {
         "middle" : "pf_auriumsniper_l4.png"
       }
 	},
 	"level5" : {
-	  "inventoryIcon" : "pf_auriumsniper_l5.png",
+	  "inventoryIcon" : "pf_auriumsniper_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_auriumsniper_l5.png"
       }
 	},
 	
 	"level6" : {
-	  "inventoryIcon" : "pf_auriumsniper_l6.png",
+	  "inventoryIcon" : "pf_auriumsniper_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_auriumsniper_l6.png"
       },

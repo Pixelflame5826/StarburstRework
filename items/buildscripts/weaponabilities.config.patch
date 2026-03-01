@@ -18,6 +18,11 @@
     //Ammo Swap
     {
         "op": "add",
+        "path": "/pf_altammo-template",
+        "value":  "/items/active/weapons/ranged/abilities/ammoswap/pf_altammo-template.weaponability"
+    },
+    {
+        "op": "add",
         "path": "/pf_spraynew",
         "value":  "/items/active/weapons/ranged/abilities/ammoswap/pf_spraynew.weaponability"
     },

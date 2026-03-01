@@ -1,0 +1,28 @@
+{
+  "projectileName" : "pf_torrentbullet-volley",
+  "image" : "pf_torrentbullet-volley.png",
+  "animationCycle" : 0.2,
+  "animationLoops" : false,
+  "frameNumber" : 1,
+  "timeToLive" : 0.001,
+  "flippable" : true,
+  "statusEffects" : [ ],
+  "power" : 0.0,
+  "piercing" : true,
+  "speed" : 0,
+  "movementSettings" : {
+    "collisionEnabled" : false
+  },
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "pf_torrentbullet",
+      "inheritDamageFactor" : 1.00
+    },
+	{
+      "action" : "projectile",
+      "type" : "pf_largewatercloud",
+      "inheritDamageFactor" : 0.0
+    }
+  ]
+}

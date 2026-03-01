@@ -7,7 +7,7 @@
   "tooltipKind" : "pf_uniquebow",
   "category" : "bow",
   "description" : "A powerful recurve bow made for huntin'. Fires golden arrows that can pierce the toughest hides.",
-  "shortdescription" : "The Golden Huntah",
+  "shortdescription" : "The Golden Hunter",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "bow", "pf_anvilUpgradeableWeapon"],
 
@@ -67,7 +67,7 @@
       "animationParts" : {
         "bow" : "pf_savannahbow_l3.png"
       },
-      "shortdescription" : "The Plated Huntah"
+      "shortdescription" : "The Gilded Hunter"
 	},
 	"level4" : {
 	  "inventoryIcon" : "pf_savannahbow_l4icon.png",
@@ -75,7 +75,7 @@
       "animationParts" : {
         "bow" : "pf_savannahbow_l4.png"
       },
-      "shortdescription" : "The Gilded Huntah"
+      "shortdescription" : "The Auric Hunter"
 	},
 	"level5" : {
 	  "inventoryIcon" : "pf_savannahbow_l5icon.png",
@@ -83,7 +83,7 @@
       "animationParts" : {
         "bow" : "pf_savannahbow_l5.png"
       },
-      "shortdescription" : "The Auric Huntah"
+      "shortdescription" : "The Golden Recurve"
 	},
 	
 	"level6" : {

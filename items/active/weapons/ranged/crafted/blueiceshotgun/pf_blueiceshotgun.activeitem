@@ -3,7 +3,7 @@
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A blue ice shotgun. It shoots out flechettes of cold ice, enough to slow any enemy down.",
+  "description" : "A blue ice shotgun. Using pressurized water, it can fire projectiles of ice at high speeds.",
   "shortdescription" : "Icy Shotgun",
   "tooltipKind" : "pf_uniquegun",
   "category" : "shotgun",
@@ -13,17 +13,12 @@
 
   "inventoryIcon" : "pf_blueiceshotgun.png",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_blueiceshotgun.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_blueiceshotgun.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
-  },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/gun/shotgun1.ogg"]
-    }
+    "muzzleFlash" : ""
   },
 
   "baseOffset" : [0.9, 0.25],
@@ -37,7 +32,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 1.2,
+    "fireTime" : 0.6,
     "baseDps" : 10.5,
     "energyUsage" : 31.5,
     "inaccuracy" : 0.13,
@@ -73,55 +68,33 @@
         "weaponRotation" : 8,
         "twoHanded" : true,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       }
     }
   },
 
+  "altAbilityType" : "pf_altammo-template",
   "altAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-	"name" : "Freezing Blast",
+    "name" : "Solidify/Vaporize",
 
-    "fireTime" : 2.2,
-    "baseDps" : 6.5,
-    "energyUsage" : 31.5,
-    "inaccuracy" : 0.13,
+    "ammoTypes" : [ 
+      {
+        "baseDps" : 10.5,
+        "fireTime" : 1.2,
+        "projectileCount" : 6,
+        "projectileType" : "icethrower",
+        "inaccuracy" : 0.016,
 
-    "projectileCount" : 8,
-    "fireType" : "auto",
-
-    "projectileType" : "icethrower",
-    "projectileParameters" : { },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 8,
-        "weaponRotation" : 8,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.15,
-        "armRotation" : 8,
-        "weaponRotation" : 8,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
+        "projectileParameters" : {
+	        "speed" : 60
+        }
       }
-    }
+    ]
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",

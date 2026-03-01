@@ -1,0 +1,21 @@
+{
+  "itemName" : "pf_starburstcollections",
+  "inventoryIcon" : "pf_starburstcollectionsicon.png",
+  "rarity" : "Essential",
+  "maxStack" : 1,
+  "price" : 300,
+  "tooltipKind" : "fossil",
+  "description" : "A useful book that contains essential information and collections to fill out as you explore!",
+  "shortdescription" : "Explorer's Journal",
+  "category" : "codex",
+  "scriptDelta" : 0,
+  "scripts" : ["pf_starburstcollections.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/starburstcollections/pf_starburstcollections.config",
+
+  "animation" : "pf_starburstcollections.animation",
+  "animationParts" : {
+    "book" : "pf_starburstcollections.png"
+  }
+}

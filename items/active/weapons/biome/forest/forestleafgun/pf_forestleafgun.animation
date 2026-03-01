@@ -96,7 +96,7 @@
   "particleEmitters" : {
     "muzzleFlash" : {
       "transformationGroups" : ["muzzle"],
-      "particles" : [ { "particle" : "pf_basicbulletcasing", "offset" : [-2.2, 0.125] } ]
+      "particles" : [ ]
     }
   },
 

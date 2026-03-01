@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","assaultrifle","pf_anvilUpgradeableWeapon"],
   "level" : 3,
 
-  "inventoryIcon" : "pf_rubiterifle.png",
+  "inventoryIcon" : "pf_rubiterifle.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_rubiterifle.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_rubiterifle.png",
@@ -24,9 +24,9 @@
     "animatedParts" : { "parts" : {
       "grenadelauncher" : {
         "properties" : {
-		  "offset" : [-1.0, -0.375],
-		  "firePosition" : [0.5, -0.125],
-		  "image" : "/items/active/weapons/ranged/crafted/rubiterifle/pf_grenadelauncher.png"
+		      "offset" : [-1.0, -0.375],
+		      "firePosition" : [0.5, -0.125],
+		      "image" : "/items/active/weapons/ranged/crafted/rubiterifle/pf_grenadelauncher.png"
         }
       }
     }},
@@ -35,8 +35,8 @@
     }
   },
 
-  "baseOffset" : [0.4, 0.15],
-  "muzzleOffset" : [2.3, 0.15],
+  "baseOffset" : [0.625, 0.15],
+  "muzzleOffset" : [2.3, 0.35],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -73,14 +73,19 @@
         "weaponRotation" : 3,
         "twoHanded" : true,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
         "duration" : 0.11,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
+        "armRotation" : 1,
+        "weaponRotation" : 0,
         "twoHanded" : true,
+        "weaponOffset" : [ -0.12, 0 ],
 
         "allowRotate" : false,
         "allowFlip" : false
@@ -90,6 +95,7 @@
 
   "altAbilityType" : "grenadelauncher",
   "altAbility" : {
+    "name" : "Explosive Wrath",
     "elementalConfig" : {
       "pf_rending" : { "projectileType" : "pf_rubitegrenade" }
     }
@@ -99,29 +105,29 @@
   
   "upgradeParameters" : {
 	"level4" : {
-	  "inventoryIcon" : "pf_rubiterifle_l4.png",
+	  "inventoryIcon" : "pf_rubiterifle_l4.png:default.1",
       "animationParts" : {
         "middle" : "pf_rubiterifle_l4.png"
       }
 	},
 	"level5" : {
-	  "inventoryIcon" : "pf_rubiterifle_l5.png",
+	  "inventoryIcon" : "pf_rubiterifle_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_rubiterifle_l5.png"
       }
 	},
 	
 	"level6" : {
-	  "inventoryIcon" : "pf_rubiterifle_l6.png",
+	  "inventoryIcon" : "pf_rubiterifle_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_rubiterifle_l6.png"
       },
       "shortdescription" : "Rail of the False Wings",
-	  "animationCustom" : {
+	    "animationCustom" : {
         "animatedParts" : { "parts" : {
           "grenadelauncher" : {
             "properties" : {
-		      "image" : "/items/active/weapons/ranged/crafted/rubiterifle/pf_grenadelauncher_l6.png"
+		          "image" : "/items/active/weapons/ranged/crafted/rubiterifle/pf_grenadelauncher_l6.png"
             }
           }
         }}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 10 },
+    { "item" : "leather", "count" : 1 }
+  ],
+  "output" : { "item" : "pf_starburstcollections", "count" : 1 },
+  "groups" : [ "craftingfarm", "hunting" ]
+}

@@ -1,0 +1,195 @@
+{
+  "name" : "pf_uniqueweapons",
+  "title" : "One-of-a-Kind Weaponry",
+  "type" : "generic",
+
+  "collectables" : {
+    //TIER 1
+    "pf_gardenbroadsword" : {
+      "order" : 1,
+      "title" : "Proto Broadsword",
+      "description" : "^white;Found On: ^#00c800;Lush Planets ^#00a5d5;[Tier 1]^reset; \nA remnant of the kingdoms that once lived on these garden worlds. Nobody knows exactly who they were, it could be that they have some connection to the Glitch.",
+      "icon" : "/items/active/weapons/biome/garden/gardenbroadsword/pf_gardenbroadsword.png"
+    },
+    "pf_gardenpistol" : {
+      "order" : 2,
+      "title" : "Proto Pistol",
+      "description" : "^white;Found On: ^#00c800;Lush Planets ^#00a5d5;[Tier 1]^reset; \nA technological oddity for a species of its age, plasma weaponry usually comes during the Early Space Age for most cultures. Perhaps outside forces made it possible.",
+      "icon" : "/items/active/weapons/biome/garden/gardenpistol/pf_gardenpistol.png:default.1"
+    },
+
+    //TIER 2
+    "pf_forestbroadsword" : {
+      "order" : 3,
+      "title" : "Floral Blade",
+      "description" : "^white;Found On: ^#329632;Forest Planets ^#00d5a0;[Tier 2]^reset; \nThe power of the Floran, the ability to shape plants into any form they desire is a great boon. Though what makes this blade unique is the Hylotl iconography, uncommon in Floran culture.",
+      "icon" : "/items/active/weapons/biome/forest/forestbroadsword/pf_forestbroadsword.png"
+    },
+    "pf_forestleafgun" : {
+      "order" : 4,
+      "title" : "Leaf Blower",
+      "description" : "^white;Found On: ^#329632;Forest Planets ^#00d5a0;[Tier 2]^reset; \nA very curious and honestly silly design at a glance. Though the leaves of subterranean plantlife is like flint. Sharp and chips easily, meaning its more dangerous than it looks.",
+      "icon" : "/items/active/weapons/biome/forest/forestleafgun/pf_forestleafgun.png:default.1"
+    },
+
+    "pf_savannahsword" : {
+      "order" : 5,
+      "title" : "Bush Knife",
+      "description" : "^white;Found On: ^#ffc800;Savannah Planets ^#00d5a0;[Tier 2]^reset; \nNot exactly a creation of the locals, but more of a hunting tool used by old human explorers. It is very much over the top for a Bowie Knife, and that is on purpose.",
+      "icon" : "/items/active/weapons/biome/savannah/savannahsword/pf_savannahsword.png"
+    },
+    "pf_savannahbow" : {
+      "order" : 6,
+      "title" : "The Golden Hunter",
+      "description" : "^white;Found On: ^#ffc800;Savannah Planets ^#00d5a0;[Tier 2]^reset; \nThe gilded exterior is not actually gold. Some similar material is used to strengthen the bow, its said to make people go crazy. Though it does pierce very well.",
+      "icon" : "/items/active/weapons/biome/savannah/savannahbow/pf_savannahbow.png:0"
+    },
+
+    //TIER 3
+    "pf_deserthammer" : {
+      "order" : 7,
+      "title" : "Avolite Hammer",
+      "description" : "^white;Found On: ^#ffc800;Desert Planets ^#00d53c;[Tier 3]^reset; \nAvian warriors are perhaps one of the stranger types out there. Using staff technology with your basic weaponry is something unique to them. Some say their techniques grow stronger while midair.",
+      "icon" : "/items/active/weapons/biome/desert/deserthammer/pf_deserthammer.png"
+    },
+    "pf_desertpistol" : {
+      "order" : 8,
+      "title" : "Avolite Beam Cannon",
+      "description" : "^white;Found On: ^#ffc800;Desert Planets ^#00d53c;[Tier 3]^reset; \nIts not too often you see pure Avolite away from the Avian homeworlds. Though, it seems you found it abandoned and not out to kill you. Many pirates would kill for this luck.",
+      "icon" : "/items/active/weapons/biome/desert/desertpistol/pf_desertpistol.png"
+    },
+
+    "pf_snowshortsword" : {
+      "order" : 9,
+      "title" : "Icicle Shortsword",
+      "description" : "^white;Found On: ^#ffffff;Snowy Planets ^#00d53c;[Tier 3]^reset; \nIts a tale as old as the arctic itself. Wherever there are icicles, one must spear someone else with it. This shortsword is a testament to that tale. Perhaps not as refined as metal, but enough to freeze.",
+      "icon" : "/items/active/weapons/biome/snow/snowshortsword/pf_snowshortsword.png"
+    },
+    "pf_snowgrenadelauncher" : {
+      "order" : 10,
+      "title" : "Snownade Launcher",
+      "description" : "^white;Found On: ^#ffffff;Snowy Planets ^#00d53c;[Tier 3]^reset; \nThe pinnacle of snow fight technology. Putting lit volatile powder into a snowball cannon, creating snow grenades! Doubt the engineer who made this was invited to many of them.",
+      "icon" : "/items/active/weapons/biome/snow/snowgrenadelauncher/pf_snowgrenadelauncher.png"
+    },
+
+    "pf_oceanspear" : {
+      "order" : 11,
+      "title" : "Vortex Naginata",
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nThe Hylotl's technology to manipulate water was almost mythical to most species. A simple infantry weapon like this could draw many enemies inwards for a decisive strike. Not seen very often nowadays.",
+      "icon" : "/items/active/weapons/biome/ocean/oceanspear/pf_oceanspear.png"
+    },
+    "pf_oceansniper" : {
+      "order" : 12,
+      "title" : "Kaigun",
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nWhile old in mechanism, it was the pinnacle of old Hylotl technology. A volley of high caliber bullets that tore holes in the sides of ships, without a cannon. The Floran-Hylotl conflict made such powerful weapons necessary.",
+      "icon" : "/items/active/weapons/biome/ocean/oceansniper/pf_oceansniper.png:default.1"
+    },
+
+    //TIER 4
+    "pf_alienwhip" : {
+      "order" : 13,
+      "title" : "Gene Whip",
+      "description" : "^white;Found On: ^#ff00ff;Alien Planets ^#3cd500;[Tier 4]^reset; \nAlien worlds are quite unique in how \"organic\" everything seems to be. The unique ecology and dangers posed make it a common science spot, sometimes leading to weapons such as this. Is it alive? By all measures of study... maybe.",
+      "icon" : "/items/active/weapons/biome/alien/alienwhip/pf_alienwhip.png:idle"
+    },
+    "pf_alienraygun" : {
+      "order" : 14,
+      "title" : "Helix Ray",
+      "description" : "^white;Found On: ^#ff00ff;Alien Planets ^#3cd500;[Tier 4]^reset; \nAn interesting take on the Ray Gun formula, using extra energy to create another energy bullet to balance out the other. Its not very often that the Apex make something so flashy.",
+      "icon" : "/items/active/weapons/biome/alien/alienraygun/pf_alienraygun.png:default.1"
+    },
+
+    "pf_junglebroadsword" : {
+      "order" : 15,
+      "title" : "Overgrown Macuahuitl",
+      "description" : "^white;Found On: ^#c832c8;Jungle Planets ^#3cd500;[Tier 4]^reset; \nThis weapon appears to have been infused with the limited ability to command plants. While miraculous, the fact it was Avian made is another miraculous detail. Perhaps a collaboration of sorts was done.",
+      "icon" : "/items/active/weapons/biome/jungle/junglebroadsword/pf_junglebroadsword.png"
+    },
+    "pf_jungleshotgun" : {
+      "order" : 16,
+      "title" : "Rosen Boomstick",
+      "description" : "^white;Found On: ^#c832c8;Jungle Planets ^#3cd500;[Tier 4]^reset; \nA more technological outcome of Biogenesis. The weapon itself creates its own ammunition from the thorns on the rose-like vines. A truly renewable weapon, only requiring sunlight and air.",
+      "icon" : "/items/active/weapons/biome/jungle/jungleshotgun/pf_jungleshotgun.png:default.1"
+    },
+
+    //TIER 5
+    "pf_volcanicbroadsword" : {
+      "order" : 17,
+      "title" : "Fire Lord's Greatsword",
+      "description" : "^white;Found On: ^#960000;Volcanic Planets ^#b4d500;[Tier 5]^reset; \nThe nature of the volcanic civilizations are a mystery. The design of this blade is slightly reminiscent of Glitch Execution tools, though with technology unseen from them. Perhaps a tyrant ruled over them at one point.",
+      "icon" : "/items/active/weapons/biome/volcanic/volcanicbroadsword/pf_volcanicbroadswordicon.png"
+    },
+    "pf_volcaniclauncher" : {
+      "order" : 18,
+      "title" : "Foundry Launcher",
+      "description" : "^white;Found On: ^#960000;Volcanic Planets ^#b4d500;[Tier 5]^reset; \nAn odd piece of technology, though quite remarkable. Nobody except the Foundry Workers could make a casting tool so intricate as to forge rockets from nothing but raw material.",
+      "icon" : "/items/active/weapons/biome/volcanic/volcanicrocketlauncher/pf_volcaniclauncher.png:default.1"
+    },
+
+    "pf_tundrabroadsword" : {
+      "order" : 19,
+      "title" : "Claidheamh Reòta",
+      "description" : "^white;Found On: ^#b4b4b4;Tundra Planets ^#b4d500;[Tier 5]^reset; \nThe Alpaca runes on this claymore suggest that the one who wielded this blade was once a great hero. The snowflake design is merely a projection of its extreme chill.",
+      "icon" : "/items/active/weapons/biome/tundra/tundrabroadsword/pf_tundrabroadsword.png"
+    },
+    "pf_tundraboomerangaxe" : {
+      "order" : 20,
+      "title" : "Tuagh Dhìleas",
+      "description" : "^white;Found On: ^#b4b4b4;Tundra Planets ^#b4d500;[Tier 5]^reset; \nThe ability for this axe to return to the wielder is completely inexplicable beyond practically being magic itself. At least it is loyal to the one who throws it.",
+      "icon" : "/items/active/weapons/biome/tundra/tundraboomerangaxe/pf_tundraboomerangaxe.png"
+    },
+
+    "pf_stormyaxe" : {
+      "order" : 21,
+      "title" : "Violium Ice Pick",
+      "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nWhile it might look normal, this ice pick has a mean edge from the violium field around it. It won't be moving from any spot you put it in. A perfect companion for a climber.",
+      "icon" : "/items/active/weapons/biome/stormy/stormyaxe/pf_stormyaxe.png"
+    },
+    "pf_stormypistol" : {
+      "order" : 22,
+      "title" : "Tuagh Dhìleas",
+      "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nMagnum rounds became more commonplace as humanity moved to more hazardous worlds, hardier life requires bigger bullets. This one is even infused with Violium! The flashlight is useful too, though its only there for tactical reasons.",
+      "icon" : "/items/active/weapons/biome/stormy/stormypistol/pf_stormypistol.png:default.1"
+    },
+
+    //TIER 6
+    "pf_scorcheddagger" : {
+      "order" : 23,
+      "title" : "Apollyon",
+      "description" : "^white;Found On: ^#c89696;Scorched Planets ^#d5c300;[Tier 6]^reset; \nPromethium is a technology that most would rather not use. To put it in a combat knife is almost considered to be a death wish. The old civilization must've desired death more than anything.",
+      "icon" : "/items/active/weapons/biome/scorched/scorcheddagger/pf_scorcheddagger.png"
+    },
+    "pf_scorchedrifle" : {
+      "order" : 24,
+      "title" : "Phlegethon XI-12",
+      "description" : "^white;Found On:  ^#c89696;Scorched Planets ^#d5c300;[Tier 6]^reset; \nThe fires of promethium are a dangerous one, once set alight, it will not stop emitting gamma radiation until it decays. Nothing would fear you more wielding this rifle, for the fires of hell are yours to unleash.",
+      "icon" : "/items/active/weapons/biome/scorched/scorchedrifle/pf_scorchedrifle.png:default.1"
+    },
+
+    "pf_toxicbroadsword" : {
+      "order" : 25,
+      "title" : "Soullier",
+      "description" : "^white;Found On: ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nThough it looks very light and agile, its actually not. The entire blade is made of depleted uranium, making it dense and toxic. The ornate designs are reminiscent of Hylotl, though not in their usual style.",
+      "icon" : "/items/active/weapons/biome/toxic/toxicbroadsword/pf_toxicbroadsword.png"
+    },
+    "pf_toxicmachinepistol" : {
+      "order" : 26,
+      "title" : "Toxic Heater",
+      "description" : "^white;Found On:  ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nDepleted uranium bullets are surprisingly common among species when they discover nuclear energy. Nowadays, it's not too common to see today under Alliance jurisdiction, but there's nothing stopping you anymore!",
+      "icon" : "/items/active/weapons/biome/toxic/toxicmachinepistol/pf_toxicmachinepistol.png:default.1"
+    },
+
+    "pf_midnightshortsword" : {
+      "order" : 27,
+      "title" : "Phobia",
+      "description" : "^white;Found On: ^#969696;Midnight Planets ^#d5c300;[Tier 6]^reset; \nShadow weapons are extremely rare and unknown to most areas of science. Many discribe the sensation as a consuming force that removes your very being. Not much can substantiate these claims, its simply ^red;impossible to know.",
+      "icon" : "/items/active/weapons/biome/midnight/midnightshortsword/pf_midnightshortsword.png"
+    },
+    "pf_midnightstaff" : {
+      "order" : 28,
+      "title" : "The Eye of ^red;Nulcturne",
+      "description" : "^white;Found On: ^#969696;Midnight Planets ^#d5c300;[Tier 6]^reset; \n^red;The harbinger of the end, the beholder of the final truth. Stare into the abyss and you will see eternity staring back. You'll see the blood of reality seeping into the crevices of nothing, and it will be beautiful.",
+      "icon" : "/items/active/weapons/biome/midnight/midnightstaff/pf_midnightstaff.png"
+    }
+  }
+}

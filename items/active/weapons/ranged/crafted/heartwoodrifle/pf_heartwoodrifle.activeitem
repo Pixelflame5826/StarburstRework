@@ -3,7 +3,7 @@
   "price" : 960,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A fast firing carbine made from petrified heartwood. Its shots can fragment within enemies.",
+  "description" : "A fast firing carbine made from petrified heartwood. Its bullets create stone shrapnel.",
   "shortdescription" : "Heartwood Carbine",
   "tooltipKind" : "pf_uniquegun",
   "category" : "assaultRifle",
@@ -11,68 +11,16 @@
   "itemTags" : ["weapon","ranged","assaultrifle","pf_anvilUpgradeableWeapon"],
   "level" : 2,
 
-  "inventoryIcon" : "pf_heartwoodrifle.png",
+  "inventoryIcon" : "pf_heartwoodrifle.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_heartwoodrifle.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_heartwoodrifle.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
-  "animationCustom" : {
-    "particleEmitters" : {
-      "muzzleFlash" : {
-        "particles" : [
-          {
-            "particle" : {
-              "type" : "ember",
-              "color" : [58, 96, 48],
-              "timeToLive" : 10,
-              "initialVelocity" : [5, 0],
-              "finalVelocity" : [5, -5],
-              "approach" : [0, 5],
-              "variance" : {
-                "timeToLive" : 3.0,
-                "initialVelocity" : [1.0, 0.25]
-              }
-            }
-		  },
-		  {
-		    "particle" : {
-              "type" : "ember",
-              "color" : [58, 96, 48],
-              "timeToLive" : 10,
-              "initialVelocity" : [5, 0],
-              "finalVelocity" : [5, -5],
-              "approach" : [0, 5],
-              "variance" : {
-                "timeToLive" : 3.0,
-                "initialVelocity" : [1.0, 0.25]
-              }
-            }
-		  },
-		  {
-		    "particle" : {
-              "type" : "ember",
-              "color" : [58, 96, 48],
-              "timeToLive" : 10,
-              "initialVelocity" : [5, 0],
-              "finalVelocity" : [5, -5],
-              "approach" : [0, 5],
-              "variance" : {
-                "timeToLive" : 3.0,
-                "initialVelocity" : [1.0, 0.25]
-              }
-            }
-		  }
-        ]
-      }
-    },
-    "sounds" : {
-      "fire" : ["/sfx/gun/ar1.ogg"]
-    }
-  },
+  "animationCustom" : {},
 
   "baseOffset" : [0.6, 0.15],
   "muzzleOffset" : [2.2, 0.125],
@@ -86,14 +34,14 @@
     "class" : "GunFire",
 
     "fireTime" : 0.11,
-    "baseDps" : 10.75,
+    "baseDps" : 9.25,
     "energyUsage" : 31.5,
     "inaccuracy" : 0.02,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "standardbullet",
+    "projectileType" : "pf_shardbullet",
     "projectileParameters" : {
       "knockback" : 5
     },
@@ -112,14 +60,19 @@
         "weaponRotation" : 3,
         "twoHanded" : true,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
         "duration" : 0.11,
-        "armRotation" : 3,
-        "weaponRotation" : 3,
+        "armRotation" : 1,
+        "weaponRotation" : 0,
         "twoHanded" : true,
+        "weaponOffset" : [ -0.12, 0 ],
 
         "allowRotate" : false,
         "allowFlip" : false
@@ -127,36 +80,40 @@
     }
   },
 
-  "altAbilityType" : "spray",
+  "altAbilityType" : "explosiveburst",
   "altAbility" : {
-    "projectileType" : "pf_shardbullet",
-	"name" : "Petrified Barrage"
+    "elementalConfig" : {
+      "physical" : {
+        "projectileType" : "pf_shardbullet"
+      }
+    },
+	  "name" : "Petrified Barrage"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   
   "upgradeParameters" : {
     "level3" : {
-	  "inventoryIcon" : "pf_heartwoodrifle_l3.png",
+	  "inventoryIcon" : "pf_heartwoodrifle_l3.png:default.1",
       "animationParts" : {
         "middle" : "pf_heartwoodrifle_l3.png"
       }
 	},
 	"level4" : {
-	  "inventoryIcon" : "pf_heartwoodrifle_l4.png",
+	  "inventoryIcon" : "pf_heartwoodrifle_l4.png:default.1",
       "animationParts" : {
         "middle" : "pf_heartwoodrifle_l4.png"
       }
 	},
 	"level5" : {
-	  "inventoryIcon" : "pf_heartwoodrifle_l5.png",
+	  "inventoryIcon" : "pf_heartwoodrifle_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_heartwoodrifle_l5.png"
       }
 	},
 	
 	"level6" : {
-	  "inventoryIcon" : "pf_heartwoodrifle_l6.png",
+	  "inventoryIcon" : "pf_heartwoodrifle_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_heartwoodrifle_l6.png"
       },

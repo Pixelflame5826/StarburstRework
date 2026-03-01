@@ -11,9 +11,9 @@
   "itemTags" : ["weapon","ranged","grenadelauncher","pf_anvilUpgradeableWeapon"],
   "level" : 4,
 
-  "inventoryIcon" : "pf_xenogrenadelauncher.png",
+  "inventoryIcon" : "pf_xenogrenadelauncher.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_xenogrenadelauncher.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_xenogrenadelauncher.png",
@@ -35,8 +35,8 @@
     }
   },
 
-  "baseOffset" : [1.0, 0.5],
-  "muzzleOffset" : [1.0, 0.35],
+  "baseOffset" : [0.875, 0.25],
+  "muzzleOffset" : [1.0, 0.375],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -83,6 +83,10 @@
         "weaponRotation" : 3,
         "twoHanded" : false,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       }
@@ -93,14 +97,14 @@
   
   "upgradeParameters" : {
 	"level5" : {
-	  "inventoryIcon" : "pf_xenogrenadelauncher_l5.png",
+	  "inventoryIcon" : "pf_xenogrenadelauncher_l5.png:default.1",
       "animationParts" : {
         "middle" : "pf_xenogrenadelauncher_l5.png"
       }
 	},
 	
 	"level6" : {
-	  "inventoryIcon" : "pf_xenogrenadelauncher_l6.png",
+	  "inventoryIcon" : "pf_xenogrenadelauncher_l6.png:default.1",
       "animationParts" : {
         "middle" : "pf_xenogrenadelauncher_l6.png"
       },

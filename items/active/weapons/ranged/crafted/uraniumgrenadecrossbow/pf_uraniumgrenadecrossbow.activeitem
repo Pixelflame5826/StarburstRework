@@ -1,7 +1,7 @@
 {
   "itemName" : "pf_uraniumgrenadecrossbow",
   "price" : 950,
-  "inventoryIcon" : "pf_uraniumgrenadecrossbow.png",
+  "inventoryIcon" : "pf_uraniumgrenadecrossbow.png:default.1",
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "A crossbow that fires bolts carrying nuclear payloads. Is it practical? No. Is it fun? Yes, yes it is.",
@@ -15,7 +15,7 @@
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "pf_uraniumgrenadecrossbow.png",
+    "middle" : "pf_uraniumgrenadecrossbow.png:default.1",
     "barrel" : "",
     "muzzleFlash" : ""
   },
