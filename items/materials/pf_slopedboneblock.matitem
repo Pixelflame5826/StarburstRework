@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_slopedboneblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_slopedboneblock.png",
+  "shortdescription" : "Large Bone Material",
+  "description" : "Massive bone, likely belonging to some larger creature.",
+
+  "materialId" : 38416
+}

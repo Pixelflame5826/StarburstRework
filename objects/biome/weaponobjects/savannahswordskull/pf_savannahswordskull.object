@@ -1,31 +1,31 @@
 {
-  "objectName" : "pf_savannahbowpedestal",
+  "objectName" : "pf_savannahswordskull",
   "colonyTags" : [],
   "rarity" : "Common",
   "category" : "seed",
-  "description" : "An ornate carved pedestal with a golden bow placed on it.",
-  "shortdescription" : "Savannah Bow Pedestal",
+  "description" : "A titanic skull of a slain beast, with the sword still stuck inside.",
+  "shortdescription" : "Savannah Sword Skull",
   "objectType" : "farmable",
   "printable" : false,
   "price" : 10,
 
-  "apexDescription" : "A gilded bow, is that even effective as a flexible material?",
-  "avianDescription" : "Oh, this bow shines like the sun! It must be a privelige to pull back.",
-  "floranDescription" : "Floran sseeesss pretty hunting weapon. Floran requiresss.",
-  "glitchDescription" : "Awe. Such a mastercraft of a bow. Its a beauty of fletching!",
-  "humanDescription" : "Artemis would have my head if I took such a beautiful bow. Well, not like Olympus exists anymore...",
-  "hylotlDescription" : "The craft that went into this recurve bow is astonishing. Curious indeed...",
-  "novakidDescription" : "I ain't much of a bow person, but this thing has a certain shine to it.",
+  "apexDescription" : "Hm, material hasn't rusted yet. Well, if it can pierce bone, I would be a monkey not to take it!",
+  "avianDescription" : "Oh my, reminds me of the large holy birds of the homeworlds... Still has the blade stuck to it.",
+  "floranDescription" : "Great ssstrength required to hunt sssuch a powerful creature. Perhapsss ssword will give me power of hunter.",
+  "glitchDescription" : "Shock. Its like a great dragon of legend! That blade must be just as legendary!",
+  "humanDescription" : "I've never seen a hunting knife like this one before. Now we're talking!",
+  "hylotlDescription" : "A great monster slain, and left behind is the blade that slayed it... Picturesque...",
+  "novakidDescription" : "To kill a varmint like that, that must be a mighty powerful knife.",
 
-  "inventoryIcon" : "pf_savannahbowpedestal.png:default.2.0",
+  "inventoryIcon" : "pf_savannahswordskull.png:default.2.0",
 
   "tooltipKind" : "seed",
-  "largeImage" : "pf_savannahbowpedestal.png:default.2.0",
+  "largeImage" : "pf_savannahswordskull.png:default.2.0",
 
   "orientations" : [
     {
-      "dualImage" : "pf_savannahbowpedestal.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-9, 0],
+      "dualImage" : "pf_savannahswordskull.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-46, 0],
       "requireTilledAnchors" : false,
       "anchors" : [ "bottom" ]
     }
@@ -42,7 +42,7 @@
     },
     {
       "alts" : 1,
-      "harvestPool" : "pf_savannahbowpedestalHarvest",
+      "harvestPool" : "pf_savannahswordskullHarvest",
       "resetToStage" : 1
     }
   ],
@@ -53,5 +53,5 @@
   "consumeSoilMoisture" : false,
   
   "smashOnBreak" : true,
-  "smashParticles" : [ { "count" : 5, "particle" : "stoneshard" } ]
+  "smashParticles" : [ { "count" : 10, "particle" : "boneshard" } ]
 }

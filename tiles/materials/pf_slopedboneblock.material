@@ -1,0 +1,24 @@
+{
+  "materialId" : 38416,
+  "materialName" : "pf_slopedboneblock",
+  "particleColor" : [231, 223, 189, 255],
+  "itemDrop" : "pf_slopedboneblock",
+  "description" : "Smooth bone material.",
+  "shortdescription" : "Large Bone",
+  "glitchDescription" : "Observant. Calcium carbonate bones.",
+  "floranDescription" : "Big bone.",
+  "novakidDescription" : "Large lookin' bone.",
+  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
+  "health" : 7,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_slopedboneblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

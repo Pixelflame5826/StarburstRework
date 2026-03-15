@@ -1,0 +1,11 @@
+{
+  "itemName" : "pf_bonespineblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_bonespineblock.png",
+  "shortdescription" : "Large Vertabra",
+  "description" : "A massive vertabra, likely part of the spine of a titanic beast.",
+
+  "materialId" : 38417
+}

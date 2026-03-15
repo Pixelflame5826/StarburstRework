@@ -1,0 +1,24 @@
+{
+  "materialId" : 38417,
+  "materialName" : "pf_bonespineblock",
+  "particleColor" : [231, 223, 189, 255],
+  "itemDrop" : "pf_bonespineblock",
+  "description" : "Large vertabra, likely a part of a larger spine.",
+  "shortdescription" : "Large Vertabra",
+  "glitchDescription" : "Curious. A spine of some extinct megafauna.",
+  "floranDescription" : "Big ssspine piece.",
+  "novakidDescription" : "Boy am I glad whatever this thing was a part of is dead.",
+  "footstepSound" : "/sfx/blocks/footstep_rock.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_bonespineblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}
