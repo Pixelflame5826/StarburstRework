@@ -4,7 +4,7 @@
     "path": "/effects/0/1",
     "value": {
       "effect": "pf_mildbiomecoldprotection",
-      "value": 120
+      "duration": 120
     }
   },
   {
