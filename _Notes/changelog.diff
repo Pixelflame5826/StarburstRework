@@ -1,23 +1,78 @@
---- CLIMATE RECORD UPDATE ---
-A mod focusing on adding Galactic Almanach compatibility, and a few small biome additions.
+--- COSMIC CURIOSITIES UPDATE ---
+An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 --- Additions 
-+ Added compatibility for Galactic Almanach for all biomes within the mod. Planet variants, minibiomes, underground biomes.
++ GUN REWORKS AND UPGRADES!: All unique guns have been upgraded. Every vanilla and gun added by this mod now has new sprites, animations, and bullet casings where applicable! (Thanks to Nitrosteel for teaching me how.) Certain gun alt-fires have been converted into an "ammo-swap" variant, giving the primary fire a new projectile or properties, rather than a direct alt-fire.
+# Gun Alt-Fires Changed
+## Vanilla
++ Iron Assault Rifle
++ Titanium Sniper
++ Hunter Rifle
++ Space Plasma Rifle (New Alt: Room Clear Mode)
++ Neo Tommy Gun (New Alt: Spray-N-Pray)
++ Neo Shotgun (New Alt: Plasma Mines)
++ Ex Machina (New Alt: WP Incindiary Rocket)
+## Starburst
++ Leaf Blower
++ Foundry Launcher
++ Aurium Scoped Rifle
++ Heartwood Carbine (New Alt)
++ Blue Ice Shotgun (New Alt: Solidify/Vaporize)
++ Ocean Sniper (New Alt: Shipbreaker)
 
-+ Added a new kind of crystal bush for the Crystalline Alien variant. 
++ EXPLORER'S JOURNAL AND COLLECTIONS!: New collections have been added to the game, they can be found in the new Explorer's Journal item. Obtained from your ship or crafted from a Foraging Table/Agricultural Station, can also found on Quickbar. These should hopefully grant further insight into what this mod has to offer.
+# New Collections
+## Combat
++ One-of-a-Kind Weaponry (Unique Weapons)
++ Rogue's Catalogue (Throwing Weapons)
++ Regional Weaponry (Biome Weapons)
++ From Another World (Otherworldly Weapons)
++ Power of the Packs (Enhancement Packs)
++ Regional Styles (Biome Armor)
+## Exploration
++ Interstellar Geology (Rocks and Minerals)
++ Bountiful Cultivation (Produce)
++ Gallery of the Arts (Art Trophies)
++ Library of Babel (Codices)
++ Survival Kit (Hazard Protection)
++ Spelunker's Best Friends (Tools)
+
++ Savannah Cave Microdungeons!: There are now structures in Savannah Caves. At least, the start of them.
+# Structures
++ 20 Normal Structures
++ 2 Rare Structures
+
++ New Blocks!: Large Vertebra, Large Bone Material
+
+
+--- Weapon Changes
++ Changed certain weapon names:
++ Krakatoa > Foundry Launcher | Tambora > Haphaestus
++ Pallid Mace > Mace of Obsession
++ Snownade Lobber > Snownade Launcher | Snownade Launcher > Snownade Cannon | Snowfort Penetrator > Snowfort Buster
++ Survival Pistol > Alpine Eagle | Alpine Eagle > Thunderbird
++ Toxic Heater > Rayons Alpha
+
++ Ex Machina's rockets now always follow the laser.
+
+- Space Plasma Rifle's bullets no longer bounce, moved to new alt-fire.
+
++ Heartwood Carbine's projectiles now always turn into shrapnel.
+
++ Erebium Eliminator now uses a charge shot and always homes in on targets.
+
+- Removed Erebium Eliminator's alt-fire.
+
++ Changed certain weapon descriptions: Titanium Machine Pistol, Tungsten Magnum, Durasteel Revolver, Remote Grenade Launcher, Gristle Gun, Tesla's Wrath, Neo Uzi, Leaf Blower, Rosen Boomstick (T6), Alpine Eagle, Claidheamh Reòta, Monolith Sword, WARP Saber, Erebium Eliminator
+
++ Updated Projectile Sprites for: Ex Machina (Primary & Alt), Foundry Launcher (Primary & Alt), Prometheus' Wrath (Primary), Eye of Nulcturne (Primary)
+
++ Removed dialect differences from Savannah Biome Weapons' names
+
 
 --- Biome Changes 
-+ Changed a multitude of biome names.
++ Slightly changed coloring on Radioactive Weather cockpit sprites.
 
-+ Changed some of the blocks chosen for the fossil minigame on many of the underground biomes.
 
-+ Added crystal bushes to Geode Biomes, Felsic Volcano Fields, Active Lavatubes, and Underground3d biomes.
-
-+ Added Frostberries to Permafrost Tundra variant.
-
-+ Added extra rocks to Mesa and Harsh Desert variants.
-
-+ Added utility poles to the Urban Toxic variant.
-
-- Removed Chili from Flood Basalt Volcano variant, replaced them with Automatos.
+--- Fixes
 

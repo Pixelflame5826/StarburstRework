@@ -16,7 +16,7 @@
  "margin":0,
  "name":"pf_underground-objects",
  "spacing":0,
- "tilecount":5,
+ "tilecount":7,
  "tiledversion":"1.4.2",
  "tileheight":46,
  "tileproperties":
@@ -55,6 +55,22 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"pf_forestleafgunpedestal",
+         "parameters":"{\"startingStage\":3}",
+         "tilesetDirection":"right"
+        },
+     "5":
+        {
+         "imagePositionX":"-48",
+         "imagePositionY":"0",
+         "object":"pf_savannahswordskull",
+         "parameters":"{\"startingStage\":3}",
+         "tilesetDirection":"right"
+        },
+     "6":
+        {
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"pf_savannahbowpedestal",
          "parameters":"{\"startingStage\":3}",
          "tilesetDirection":"right"
         }
@@ -97,6 +113,22 @@
          "object":"string",
          "parameters":"string",
          "tilesetDirection":"string"
+        },
+     "5":
+        {
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "parameters":"string",
+         "tilesetDirection":"string"
+        },
+     "6":
+        {
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "parameters":"string",
+         "tilesetDirection":"string"
         }
     },
  "tiles":
@@ -130,9 +162,21 @@
          "image":"..\/..\/..\/..\/tiled\/packed\/starburst\/objects\/underground-objects\/pf_forestleafgunpedestal.png",
          "imageheight":40,
          "imagewidth":32
+        },
+     "5":
+        {
+         "image":"..\/..\/..\/..\/tiled\/packed\/starburst\/objects\/underground-objects\/pf_savannahswordskull.png",
+         "imageheight":40,
+         "imagewidth":96
+        },
+     "6":
+        {
+         "image":"..\/..\/..\/..\/tiled\/packed\/starburst\/objects\/underground-objects\/pf_savannahbowpedestal.png",
+         "imageheight":39,
+         "imagewidth":24
         }
     },
- "tilewidth":32,
+ "tilewidth":96,
  "type":"tileset",
  "version":1.1
 }

@@ -298,6 +298,16 @@
         "treeStemHueShiftMax" : 10,
         "treeStemList" : [ "desertvine"],
         "treeFoliageList" : [ "leafed" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "pf_savannahcavemicrodungeons" ]
       }
     ]
   }

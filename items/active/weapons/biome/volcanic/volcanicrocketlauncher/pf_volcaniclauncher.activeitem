@@ -22,7 +22,8 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/rocket2.ogg" ]
+      "fire" : [ "/sfx/gun/rocket2.ogg" ],
+      "switchAmmo" : [ "/sfx/objects/apexconsole2switch.ogg" ]
     }
   },
 

@@ -1,0 +1,174 @@
+{
+  "metadata" : {
+    "name" : "pf_savannahcavemicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ 
+	    "pf_savannahcave_bones1", "pf_savannahcave_bones2", "pf_savannahcave_bones3",
+      "pf_savannahcave_giantfossil1", "pf_savannahcave_giantfossil2", "pf_savannahcave_giantfossil3",
+      "pf_savannahcave_grove1", "pf_savannahcave_grove2", "pf_savannahcave_grove3",
+      "pf_savannahcave_hut1", "pf_savannahcave_hut2", "pf_savannahcave_hut3",
+      "pf_savannahcave_lake1", "pf_savannahcave_lake2",
+      "pf_savannahcave_salt1",
+      "pf_savannahcave_scaffold1", "pf_savannahcave_scaffold2",
+      "pf_savannahcave_tar1", "pf_savannahcave_tar2", "pf_savannahcave_tar3"
+	  ], 
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "pf_savannahcave_bones1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_bones1.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_bones2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_bones2.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_bones3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_bones3.json" ]
+    },
+
+    {
+      "name" : "pf_savannahcave_giantfossil1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_giantfossil1.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_giantfossil2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_giantfossil2.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_giantfossil3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_giantfossil3.json" ]
+    },
+
+    {
+      "name" : "pf_savannahcave_grove1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_grove1.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_grove2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_grove2.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_grove3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_grove3.json" ]
+    },
+
+    {
+      "name" : "pf_savannahcave_hut1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_hut1.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_hut2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_hut2.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_hut3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_hut3.json" ]
+    },
+
+    {
+      "name" : "pf_savannahcave_lake1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_lake2.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_lake2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_lake2.json" ]
+    },
+
+    {
+      "name" : "pf_savannahcave_salt1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_salt1.json" ]
+    },
+
+    {
+      "name" : "pf_savannahcave_scaffold1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_scaffold1.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_scaffold2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_scaffold2.json" ]
+    },
+
+    {
+      "name" : "pf_savannahcave_tar1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_tar1.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_tar2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_tar2.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_tar3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_tar3.json" ]
+    }
+  ]
+}

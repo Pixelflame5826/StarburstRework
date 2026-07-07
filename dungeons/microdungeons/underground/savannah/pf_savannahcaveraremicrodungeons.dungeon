@@ -1,0 +1,34 @@
+{
+  "metadata" : {
+    "name" : "pf_savannahcaveraremicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ 
+	    "pf_savannahcave_weapon1", "pf_savannahcave_weapon2"
+	  ], 
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "pf_savannahcave_weapon1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_weapon1.json" ]
+    },
+    {
+      "name" : "pf_savannahcave_weapon2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "pf_savannahcave_weapon2.json" ]
+    }
+  ]
+}
