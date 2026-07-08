@@ -22,12 +22,14 @@ function init()
       effect.addStatModifierGroup({{stat = "maxEnergy", effectiveMultiplier = 0.75}})
   
       effect.addStatModifierGroup({{stat = "energyRegenBlockTime", effectiveMultiplier = 1.25}})
-      
-      -- Hazard Radio Message
-      world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomecold", 5.0)
+
       -- Tutorial Radio Messages
+      world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomecold", 5.0)
       world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_a", 5.0)
       world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_b", 5.0)
+
+      -- Visual Warning
+      world.sendEntityMessage(entity.id(), "biomeHazard", "pf_biomecoldmild")
     else
       effect.addStatModifierGroup({{stat = "pf_mildBiomeHeatImmunity", amount = 1}})
     end

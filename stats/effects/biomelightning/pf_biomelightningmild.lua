@@ -17,11 +17,13 @@ function init()
   
   self.energyCost = config.getParameter("energyCost", 0)
 
-  -- Hazard Radio Message
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomelightning", 5.0)
   -- Tutorial Radio Messages
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomelightning", 5.0)
   world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_a", 5.0)
   world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_b", 5.0)
+
+  -- Visual Warning
+  world.sendEntityMessage(entity.id(), "biomeHazard", "pf_biomelightningmild")
 end
 
 function update(dt)

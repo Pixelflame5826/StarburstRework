@@ -11,11 +11,13 @@ function init()
   self.tickTime = 15.0
   self.tickTimer = self.tickTime
 
-  -- Hazard Radio Message
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomepoison", 5.0)
   -- Tutorial Radio Messages
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomepoison", 5.0)
   world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_a", 5.0)
   world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_b", 5.0)
+
+  -- Visual Warning
+  world.sendEntityMessage(entity.id(), "biomeHazard", "pf_biomepoisonmild")
 end
 
 function update(dt)

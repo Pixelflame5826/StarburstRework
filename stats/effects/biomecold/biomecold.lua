@@ -13,16 +13,18 @@ function init()
 
   effect.addStatModifierGroup({{stat = "energyRegenPercentageRate", effectiveMultiplier = 0}})
 
-  -- Hazard Radio Message
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "biomecold", 5.0)
-  -- Tutorial Radio Messages
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_a", 5.0)
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_b", 5.0)
-  
   effect.addStatModifierGroup({{stat = "healthRegen", amount = -0.2}})
   
   self.fatigueTime = 20.0
   self.fatigueTimer = self.fatigueTime
+
+  -- Tutorial Radio Messages
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "biomecold", 5.0)
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_a", 5.0)
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_b", 5.0)
+
+  -- Visual Warning
+  world.sendEntityMessage(entity.id(), "biomeHazard", "pf_biomecold")
 end
 
 function update(dt)

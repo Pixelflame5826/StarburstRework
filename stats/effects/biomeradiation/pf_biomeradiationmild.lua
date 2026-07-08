@@ -2,14 +2,16 @@ function init()
   if (world.entityType(entity.id()) == "player") then
     effect.setParentDirectives(config.getParameter("directives", ""))
   end
-  
-  -- Hazard Radio Message
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomeradiation", 5.0)
+
+  self.healthPercentage = config.getParameter("healthPercentage", 0.1)
+
   -- Tutorial Radio Messages
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildbiomeradiation", 5.0)
   world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_a", 5.0)
   world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_mildhazardtutorial_b", 5.0)
 
-  self.healthPercentage = config.getParameter("healthPercentage", 0.1)
+  -- Visual Warning
+  world.sendEntityMessage(entity.id(), "biomeHazard", "pf_biomeradiationmild")
 end
 
 function update(dt)

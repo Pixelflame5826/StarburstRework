@@ -9,15 +9,17 @@ function init()
   
   effect.addStatModifierGroup({{stat = "maxEnergy", effectiveMultiplier = 0.5}})
 
-  --- Hazard Radio Message
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_biomelightning", 5.0)
-  -- Tutorial Radio Messages
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_a", 5.0)
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_b", 5.0)
-  
   self.energyCost = config.getParameter("energyCost", 0.0)
   
   effect.addStatModifierGroup({{stat = "energyRegenPercentageRate", effectiveMultiplier = 0.1}})
+
+  -- Tutorial Radio Messages
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_biomelightning", 5.0)
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_a", 5.0)
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "pf_deadlyhazardtutorial_b", 5.0)
+  
+  -- Visual Warning
+  world.sendEntityMessage(entity.id(), "biomeHazard", "pf_biomelightning")
 end
 
 function update(dt)

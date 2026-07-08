@@ -1,4 +1,6 @@
-[
+[   //|-----SCRIPTS-----|
+    { "op": "add", "path": "/genericScriptContexts/hazardwarning", "value": "/scripts/player/pf_hazardwarning.lua" },
+
 	//|-----RECIPES-----|
 	
 	//OBJECTS
