@@ -1,0 +1,24 @@
+{
+  "materialId" : 38418,
+  "materialName" : "pf_peat",
+  "particleColor" : [47, 32, 14, 255],
+  "itemDrop" : "pf_peat",
+  "description" : "A rock-like material made from dead moss and plants.",
+  "shortdescription" : "Peat",
+  "glitchDescription" : "Observant. The potential energy of this is off the charts.",
+  "floranDescription" : "Ssstinky plant rockss.",
+  "novakidDescription" : "Yer tellin' me moss made this rock?",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
+  "health" : 3,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pf_peat.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

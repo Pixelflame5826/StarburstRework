@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "This hammer can hit enemies with gigatons of force. Its head is imbued with radioactive flames.",
-  "shortdescription" : "Prometheus's Power",
+  "shortdescription" : "Prometheus' Power",
   "tooltipKind" : "pf_uniquesword",
   "category" : "hammer",
   "twoHanded" : true,

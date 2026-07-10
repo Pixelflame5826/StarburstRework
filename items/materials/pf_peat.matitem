@@ -1,0 +1,15 @@
+{
+  "itemName" : "pf_peat",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pf_peat.png",
+  "shortdescription" : "Peat",
+  "description" : "Decayed and nearly mineralized plant remains. The precursor to coal.",
+
+  "materialId" : 38418,
+
+  "learnBlueprintsOnPickup" : [
+    "coalore"
+  ]
+}

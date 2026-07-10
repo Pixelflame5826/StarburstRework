@@ -1,0 +1,213 @@
+{
+  "name" : "pf_throwingweapons",
+  "title" : "Rogue's Gallery",
+  "type" : "generic",
+
+  "collectables" : {
+    //SMALL THROWABLES
+    "throwingdart" : {
+      "order" : 1,
+      "title" : "Throwing Dart",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^reset; \nThe simple dart, nowadays used for bar games, it was once useful as a thrown weapon. Ever heard of lawn darts? Don't underestimate them, especially when thrown hard enough.",
+      "icon" : "/items/throwables/pf_throwingdartbig.png"
+    },
+    "throwingdagger" : {
+      "order" : 2,
+      "title" : "Throwing Dagger",
+      "description" : "^white;Found On: Any Planet ^#00d5a0;[Tier 2]^reset; \nDaggers like these are often used in throwing stunts or general use. Glitch love the spectacle these bring during festivals. Its not balanced to perfection like throwing knives, but it will do its job well.",
+      "icon" : "/items/throwables/throwingdagger.png"
+    },
+    "pf_auriumkukri" : {
+      "order" : 3,
+      "title" : "Aurium Kukri",
+      "description" : "^white;Obtained From: ^orange;Anvil^reset; \nA symbol of the outdoors. The light weight and sharp retention properties of Aurium make this bush weapon an amazing friend, its even able to be thrown with ease.",
+      "icon" : "/items/throwables/pf_auriumkukri.png"
+    },
+    "pf_heartwoodtomahawk" : {
+      "order" : 4,
+      "title" : "Heartwood Tomahawk",
+      "description" : "^white;Obtained From: ^orange;Anvil^reset; \nIts not often that Florans make throwing axes, this is the exception. The hefty, stonelike properties of Heartwood make it ideal for being turned into a throwing axe. Cuts through flesh easily.",
+      "icon" : "/items/throwables/pf_heartwoodtomahawk.png"
+    },
+    "throwingknife" : {
+      "order" : 5,
+      "title" : "Throwing Knife",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^reset; \nThese dedicated throwing knives are balanced perfectly, and able to be thrown with great precision. More of a novelty, as species able to manufacture these often have better options. However, its still very lethal.",
+      "icon" : "/items/throwables/throwingknife.png"
+    },
+    "throwingaxe" : {
+      "order" : 6,
+      "title" : "Throwing Axe",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^reset; \nThe favorite of the elusive, yet stalwart Alpaca. To wield a throwing axe is a great feat of strength and finesse, some say masters can throw them as far as an arrow. Its heft will break bones and cleave flesh.",
+      "icon" : "/items/throwables/throwingaxe.png"
+    },
+    "pf_aquarishuriken" : {
+      "order" : 7,
+      "title" : "Aquari Shuriken",
+      "description" : "^white;Obtained From: ^orange;Forge^reset; \nThough a simple throwing weapon at a glance, these old Hylotl weapons were once used in naval combat. The whirling design makes the aquari gather moisture into a maelstrom, hitting ships like a typhoon from close range.",
+      "icon" : "/items/throwables/pf_aquarishuriken.png"
+    },
+    "snowflakeshuriken" : {
+      "order" : 8,
+      "title" : "Snowflake Shuriken",
+      "description" : "^white;Recipe Obtained From: ^yellow;Snowflake^white; \nThe logical conclusion into how you should turn fine ice crystals into a weapon. Most well known from the Hylotl's Yuki Assassins, these shurikens leave no trace once they melt, merely the mark they made.",
+      "icon" : "/items/throwables/snowflakeshuriken.png"
+    },
+    "pf_rubitemambele" : {
+      "order" : 9,
+      "title" : "Heartwood Tomahawk",
+      "description" : "^white;Obtained From: ^orange;Forge^reset; \nLong before the discovery of Avolite, Avians used these brutal weapons that were modelled like talons. Causes targets to bleed profusely, its said those that killed many sapients gained a mind of their own.",
+      "icon" : "/items/throwables/pf_rubitemambele.png"
+    },
+    "pf_blueicehatchet" : {
+      "order" : 10,
+      "title" : "Blue Ice Hatchet",
+      "description" : "^white;Obtained From: ^orange;Forge^reset; \nThese ice hatchets are traditionally modelled after the great axes of old Alpaca heroes, its said that their axes were so loyal that they returned to the wielder. Sadly, these don't, but it still carries their legacy.",
+      "icon" : "/items/throwables/pf_blueicehatchet.png"
+    },
+    throwingkunai" : {
+      "order" : 11,
+      "title" : "Throwing Kunai",
+      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4]^reset; \nOriginally a masonry tool, its piercing power cannot be understated. Hylotl saboteurs use these as close quarters weapons, and occassionally a distant finisher. Sometimes attached to a rope to climb walls.",
+      "icon" : "/items/throwables/throwingkunai.png"
+    },
+    "throwingstar" : {
+      "order" : 12,
+      "title" : "Throwing Star",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 5]^reset; \nThe bread and butter of old Hylotl saboteurs, crafted to be silent, sharp, and powerful. Precise enough to hit pressure spots from a distance, these can be surprisingly deadly despite its size.",
+      "icon" : "/items/throwables/throwingstar.png"
+    },
+    "pf_throwingenergyknife" : {
+      "order" : 13,
+      "title" : "Throwing Energy Knife",
+      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nThe space age answer to the throwing knife. Tiny aegisalt generators within create a hot plasma that can burn through armor. As a bonus, they're exceptionally lightweight.",
+      "icon" : "/items/throwables/pf_throwingenergyknife.png"
+    },
+    "pf_erebiumkunai" : {
+      "order" : 14,
+      "title" : "Erebium Kunai",
+      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nErebium's strange, life-seeking properties are on full display with this kunai. It seeks living things to cease it. This shadowy tool of death would make even the Shinen's strongest warriors blush.",
+      "icon" : "/items/throwables/pf_erebiumkunai.png"
+    },
+
+    //JAVELINS
+    "huntingspear" : {
+      "order" : 15,
+      "title" : "Flint Spear",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^reset; \nThe most basic form of javelin, a hardened stick with a piece of stone at the end of it. Though not Floran levels of sharp and balance, it'll take out any prey species without difficulty.",
+      "icon" : "/items/throwables/pf_huntingspearbig.png"
+    },
+    "throwingspear" : {
+      "order" : 16,
+      "title" : "Hunting Spear",
+      "description" : "^white;Found On: Any Planet ^#00d5a0;[Tier 2]^reset; \nThe more modern take on the hunting spear. Well balanced, and the tip stabs the target smoothly without getting unecessarily stuck. Can even take on the strong hides of megafauna without too much issue.",
+      "icon" : "/items/throwables/pf_throwingspearbig.png"
+    },
+    "javelin" : {
+      "order" : 17,
+      "title" : "Floronian Javelin",
+      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4]^reset; \nThough appearing like any other Javelin, these were crafted by Floran artisans. Their centuries long techniques grants this hunting javelin superior piercing power and balance.",
+      "icon" : "/items/throwables/pf_javelinbig.png"
+    },
+    "pf_xenojavelin" : {
+      "order" : 18,
+      "title" : "Xenocyte Javelin",
+      "description" : "^white;Obtained From: ^orange;Replicator^reset; \nA more modern creation, an experiment to see if one could make superior piercing weapon. The alien energy within the xenocyte did work effectively, but it was soon phased out by Kinetic Javelins.",
+      "icon" : "/items/throwables/pf_xenojavelinbig.png"
+    },
+    "energyjavelin" : {
+      "order" : 19,
+      "title" : "Kinetic Javelin",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 6]^reset; \nA projectile of unparalleled power. Even when thrown normally, the core in its head can accelerate it fast enough to ignite the air around it. The penulimate hunting weapon, nothing comes close to matching it.",
+      "icon" : "/items/throwables/pf_energyjavelinbig.png"
+    },
+
+    //EXPLOSIVE
+    "bomb" : {
+      "order" : 20,
+      "title" : "Bomb",
+      "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nThe first invention using core fragments, the simple core bomb. Packs quite a punch for its size, but doesn't leave much behind in its wake. Good for blowing things up, not if you want anything from it.",
+      "icon" : "/items/throwables/bomb.png"
+    },
+    "molotov" : {
+      "order" : 21,
+      "title" : "Molotov",
+      "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nAn improvised weapon used by particularly rowdy species, such as Humans and Apex. A simple napalm bomb, nothing more than oil in a glass bottle, though a symbol of resistance throughout the galaxy.",
+      "icon" : "/items/throwables/molotov.png"
+    },
+    "thorngrenade" : {
+      "order" : 22,
+      "title" : "Thorn Grenade",
+      "description" : "^white;Found On: ^#ffc800;Savannah Planets ^#00d5a0;[Tier 2]^reset; \nA core powder interior with a thorn fruit exterior. The hard and spikey exterior has a lot of fragmentation potential, and is much, much more lethal than even a manufactured fragmentation grenade.",
+      "icon" : "/items/throwables/thorngrenade.png"
+    },
+    "stungrenade" : {
+      "order" : 23,
+      "title" : "Stun Grenade",
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nUnlike usual concussion grenades, these grenades create energy field that paralyzes targets. For Peacekeepers, this is a preferred room clearing method, as its much easier to arrest an immobile criminal.",
+      "icon" : "/items/throwables/stungrenade.png"
+    },
+    "pf_ashapplebomb" : {
+      "order" : 24,
+      "title" : "Ash Apple Bomb",
+      "description" : "^white;Recipe Obtained From: ^yellow;Ash Apple^white; \nYou usually don't think of a fruit being explosive, the Ash Apple is an exception. The highly combustible, ashen flesh of the fruit often violently explode into flames. Add a wick, and you can control it!",
+      "icon" : "/items/throwables/pf_ashapplebomb.png"
+    },
+    "pf_promethiumgrenade" : {
+      "order" : 25,
+      "title" : "Promethium Grenade",
+      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nA very much illegal explosive. This grenade spreads molten promethium in all directions, burning hotter than a plasma torch. If weapons such as these were common place, its no wonder the Deadbeats' planets were scorched.",
+      "icon" : "/items/throwables/pf_promethiumgrenade.png"
+    },
+    "pf_uraniumgrenade" : {
+      "order" : 26,
+      "title" : "Uranium Grenuke",
+      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nNuclear weapons were phased out on Earth centuries ago after the Last War, the miniknog still has stores of interstellar missiles. This one is handheld! Be careful, lest you destroy the world with you on it.",
+      "icon" : "/items/throwables/pf_uraniumgrenadebig.png"
+    },
+
+    //OTHER
+    "pf_flaskwater" : {
+      "order" : 27,
+      "title" : "Water Flask",
+      "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nSpecifically made to be thrown, this water bottle spreads water everywhere. Its nice on a hot day, but can be lethal in colder or static conditions.",
+      "icon" : "/items/throwables/pf_flaskwater.png"
+    },
+    "pf_flaskoil" : {
+      "order" : 28,
+      "title" : "Oil Flask",
+      "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nOil can be used for anything, lighting lanterns, making petrochemicals. However, its obvious what one would do with an easily throwable flask of oil.",
+      "icon" : "/items/throwables/pf_flaskoil.png"
+    },
+    "pf_flaskswamp" : {
+      "order" : 29,
+      "title" : "Contaminated Flask",
+      "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nThe toxins from the microorganisms within this flask make it a bad choice to drink. However, coating your enemy's wounds with it will likely do wonders.",
+      "icon" : "/items/throwables/pf_flaskswamp.png"
+    },
+    "throwinggnome" : {
+      "order" : 30,
+      "title" : "Ball of Gnomes",
+      "description" : "^white;Found In: ^brown;Mini Villages^reset; \nThe False Gnome species has been known to exist on many worlds. Intelligent enough to build entire civilizations underground. However, none have been able to speak with them, maybe because their houses keep getting crushed!",
+      "icon" : "/items/throwables/throwinggnome.png"
+    },
+    "throwingboulder" : {
+      "order" : 31,
+      "title" : "Throwing Boulder",
+      "description" : "^white;Found On: ^darkgreen;Alpine Biomes^reset; \nAlpaca competitions are known to be fierce. Much like the Human Caber Toss, particularly aggressive Alpaca throw boulders up rocky cliffs to prove who is the strongest. Death is not uncommon when it fails to reach the top.",
+      "icon" : "/items/throwables/throwingboulder.png"
+    },
+    "hivebomb" : {
+      "order" : 32,
+      "title" : "Bug Hive",
+      "description" : "^white;Dropped By: ^red;Floran Hunters^reset; \nA perhaps crude method of taming wildlife to suit the needs of the Floran. Though one cannot deny the effectiveness of multiple poisonous insects homing in on you.",
+      "icon" : "/items/throwables/bughive.png"
+    },
+    "pf_sealingtalisman" : {
+      "order" : 33,
+      "title" : "Sealing Talismans",
+      "description" : "^white;Found In: ^lightgrey;Hylotl Castles^reset; \nTalismans are a large part of Hylotl culture. Said to be filled with a spiritual energy by powerful Fuchi, they can do many things. In this case, weaken foes with a potent sealing power.",
+      "icon" : "/items/throwables/pf_sealingtalisman"
+    }
+  }
+}

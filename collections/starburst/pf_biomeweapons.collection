@@ -85,28 +85,35 @@
       "icon" : "/items/active/weapons/biome/ocean/oceansniper/pf_oceansniper.png:default.1"
     },
 
+    "lightbow" : {
+      "order" : 13,
+      "title" : "Light Bow",
+      "description" : "^white;Found In: ^#fff15e;Bioluminescent Biomes ^#00d53c;[Tier 3]^reset; \nA bow made from native bioluminescent plant material. Though the luminescent arrows are only marginally effective in combat, they can be used to light darkness much like a flare gun. ",
+      "icon" : "/items/active/weapons/biome/snow/snowgrenadelauncher/pf_snowgrenadelauncher.png"
+    },
+
     //TIER 4
     "pf_alienwhip" : {
-      "order" : 13,
+      "order" : 14,
       "title" : "Gene Whip",
       "description" : "^white;Found On: ^#ff00ff;Alien Planets ^#3cd500;[Tier 4]^reset; \nAlien worlds are quite unique in how \"organic\" everything seems to be. The unique ecology and dangers posed make it a common science spot, sometimes leading to weapons such as this. Is it alive? By all measures of study... maybe.",
       "icon" : "/items/active/weapons/biome/alien/alienwhip/pf_alienwhip.png:idle"
     },
     "pf_alienraygun" : {
-      "order" : 14,
+      "order" : 15,
       "title" : "Helix Ray",
       "description" : "^white;Found On: ^#ff00ff;Alien Planets ^#3cd500;[Tier 4]^reset; \nAn interesting take on the Ray Gun formula, using extra energy to create another energy bullet to balance out the other. Its not very often that the Apex make something so flashy.",
       "icon" : "/items/active/weapons/biome/alien/alienraygun/pf_alienraygun.png:default.1"
     },
 
     "pf_junglebroadsword" : {
-      "order" : 15,
+      "order" : 16,
       "title" : "Overgrown Macuahuitl",
       "description" : "^white;Found On: ^#c832c8;Jungle Planets ^#3cd500;[Tier 4]^reset; \nThis weapon appears to have been infused with the limited ability to command plants. While miraculous, the fact it was Avian made is another miraculous detail. Perhaps a collaboration of sorts was done.",
       "icon" : "/items/active/weapons/biome/jungle/junglebroadsword/pf_junglebroadsword.png"
     },
     "pf_jungleshotgun" : {
-      "order" : 16,
+      "order" : 17,
       "title" : "Rosen Boomstick",
       "description" : "^white;Found On: ^#c832c8;Jungle Planets ^#3cd500;[Tier 4]^reset; \nA more technological outcome of Biogenesis. The weapon itself creates its own ammunition from the thorns on the rose-like vines. A truly renewable weapon, only requiring sunlight and air.",
       "icon" : "/items/active/weapons/biome/jungle/jungleshotgun/pf_jungleshotgun.png:default.1"
@@ -114,39 +121,39 @@
 
     //TIER 5
     "pf_volcanicbroadsword" : {
-      "order" : 17,
+      "order" : 18,
       "title" : "Fire Lord's Greatsword",
       "description" : "^white;Found On: ^#960000;Volcanic Planets ^#b4d500;[Tier 5]^reset; \nThe nature of the volcanic civilizations are a mystery. The design of this blade is slightly reminiscent of Glitch Execution tools, though with technology unseen from them. Perhaps a tyrant ruled over them at one point.",
       "icon" : "/items/active/weapons/biome/volcanic/volcanicbroadsword/pf_volcanicbroadswordicon.png"
     },
     "pf_volcaniclauncher" : {
-      "order" : 18,
+      "order" : 19,
       "title" : "Foundry Launcher",
       "description" : "^white;Found On: ^#960000;Volcanic Planets ^#b4d500;[Tier 5]^reset; \nAn odd piece of technology, though quite remarkable. Nobody except the Foundry Workers could make a casting tool so intricate as to forge rockets from nothing but raw material.",
       "icon" : "/items/active/weapons/biome/volcanic/volcanicrocketlauncher/pf_volcaniclauncher.png:default.1"
     },
 
     "pf_tundrabroadsword" : {
-      "order" : 19,
+      "order" : 20,
       "title" : "Claidheamh Reòta",
       "description" : "^white;Found On: ^#b4b4b4;Tundra Planets ^#b4d500;[Tier 5]^reset; \nThe Alpaca runes on this claymore suggest that the one who wielded this blade was once a great hero. The snowflake design is merely a projection of its extreme chill.",
       "icon" : "/items/active/weapons/biome/tundra/tundrabroadsword/pf_tundrabroadsword.png"
     },
     "pf_tundraboomerangaxe" : {
-      "order" : 20,
+      "order" : 21,
       "title" : "Tuagh Dhìleas",
       "description" : "^white;Found On: ^#b4b4b4;Tundra Planets ^#b4d500;[Tier 5]^reset; \nThe ability for this axe to return to the wielder is completely inexplicable beyond practically being magic itself. At least it is loyal to the one who throws it.",
       "icon" : "/items/active/weapons/biome/tundra/tundraboomerangaxe/pf_tundraboomerangaxe.png"
     },
 
     "pf_stormyaxe" : {
-      "order" : 21,
+      "order" : 22,
       "title" : "Violium Ice Pick",
       "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nWhile it might look normal, this ice pick has a mean edge from the violium field around it. It won't be moving from any spot you put it in. A perfect companion for a climber.",
       "icon" : "/items/active/weapons/biome/stormy/stormyaxe/pf_stormyaxe.png"
     },
     "pf_stormypistol" : {
-      "order" : 22,
+      "order" : 23,
       "title" : "Tuagh Dhìleas",
       "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nMagnum rounds became more commonplace as humanity moved to more hazardous worlds, hardier life requires bigger bullets. This one is even infused with Violium! The flashlight is useful too.",
       "icon" : "/items/active/weapons/biome/stormy/stormypistol/pf_stormypistol.png:default.1"
@@ -154,42 +161,68 @@
 
     //TIER 6
     "pf_scorcheddagger" : {
-      "order" : 23,
+      "order" : 24,
       "title" : "Apollyon",
       "description" : "^white;Found On: ^#c89696;Scorched Planets ^#d5c300;[Tier 6]^reset; \nPromethium is a technology that most would rather not use. To put it in a combat knife, is considered to be mad engineering, if not outright barbaric. The old civilization must've desired death more than anything.",
       "icon" : "/items/active/weapons/biome/scorched/scorcheddagger/pf_scorcheddagger.png"
     },
     "pf_scorchedrifle" : {
-      "order" : 24,
+      "order" : 25,
       "title" : "Phlegethon XI-12",
       "description" : "^white;Found On:  ^#c89696;Scorched Planets ^#d5c300;[Tier 6]^reset; \nThe fires of promethium are a dangerous one, once set alight, it will not stop emitting gamma radiation until it decays. Nothing would fear you more wielding this rifle, for the fires of hell are yours to unleash.",
       "icon" : "/items/active/weapons/biome/scorched/scorchedrifle/pf_scorchedrifle.png:default.1"
     },
 
     "pf_toxicbroadsword" : {
-      "order" : 25,
+      "order" : 26,
       "title" : "Soullier",
       "description" : "^white;Found On: ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nThough it looks very light and agile, its actually not. The entire blade is made of depleted uranium, making it dense and toxic. The ornate designs are reminiscent of Hylotl, though not in their usual style.",
       "icon" : "/items/active/weapons/biome/toxic/toxicbroadsword/pf_toxicbroadsword.png"
     },
     "pf_toxicmachinepistol" : {
-      "order" : 26,
-      "title" : "Toxic Heater",
+      "order" : 27,
+      "title" : "Rayons Alpha",
       "description" : "^white;Found On:  ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nDepleted uranium bullets are surprisingly common among species when they discover nuclear energy. Nowadays, it's not too common to see today under Terrene jurisdiction, but there's nothing stopping you anymore!",
       "icon" : "/items/active/weapons/biome/toxic/toxicmachinepistol/pf_toxicmachinepistol.png:default.1"
     },
 
     "pf_midnightshortsword" : {
-      "order" : 27,
+      "order" : 28,
       "title" : "Phobia",
       "description" : "^white;Found On: ^#969696;Midnight Planets ^#d5c300;[Tier 6]^reset; \nShadow weapons are extremely rare and unknown to most areas of science. Many discribe the sensation as a consuming force that removes your very being. Not much can substantiate these claims, its simply ^red;impossible to know.",
       "icon" : "/items/active/weapons/biome/midnight/midnightshortsword/pf_midnightshortsword.png"
     },
     "pf_midnightstaff" : {
-      "order" : 28,
+      "order" : 29,
       "title" : "The Eye of ^red;Nulcturne",
       "description" : "^white;Found On: ^#969696;Midnight Planets ^#d5c300;[Tier 6]^reset; \n^red;The harbinger of the end, the beholder of the final truth. Stare into the abyss and you will see eternity staring back. You'll see the blood of reality seeping into the crevices of nothing, and it will be beautiful.",
       "icon" : "/items/active/weapons/biome/midnight/midnightstaff/pf_midnightstaff.png"
+    },
+
+    //SPACE
+    "electrobaton" : {
+      "order" : 30,
+      "title" : "Electro Baton",
+      "description" : "^white;Found In: ^#a451c4;Space Encounters ^lightgray;[Any Tier]^reset; \nLetheia is no stranger to doing business with some unsavory clients, none moreso than the Miniknog. Commissioned for their Insurgence Elimination squads, these batons stun foes when taking them alive is preferred. Law enforcement everywhere enjoys these.",
+      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+    },
+    "raygun" : {
+      "order" : 31,
+      "title" : "Ray Gun",
+      "description" : "^white;Found In: ^#a451c4;Space Encounters ^lightgray;[Any Tier]^reset; \nConsidered a relic by current technology standards by many races, these guns were the original plasma launchers. They can still be effective in combat, but the unstable plasma projectiles can be hard to aim.",
+      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+    },
+    "drillspear" : {
+      "order" : 32,
+      "title" : "Drill Spear",
+      "description" : "^white;Found In: ^#a451c4;Space Encounters ^#d5c300;[Tier 6]^reset; \nSpacefaring Glitch are few and far between, but for those who seek the void between realms, there are riches to behold. These drill polearms often double as movement and asteroid mining tools, highly efficient when given little.",
+      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+    },
+    "spaceplasmarifle" : {
+      "order" : 33,
+      "title" : "Plasma Assault Rifle",
+      "description" : "^white;Found In: ^#a451c4;Space Encounters ^#d5c300;[Tier 6]^reset; \nOne of Letheia's flagship weapons. Works effectively in the cold vacuum of space, just as much as it does on the ground. Its said that it comes with a \"giant alien arachnid free ship\" guarantee!",
+      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
     }
   }
 }
