@@ -1,0 +1,12 @@
+{
+  "name" : "pf_acolytewings",
+  "effectConfig" : {
+    "energyModifier" : 1.1,
+    "jumpModifier" : 0.10
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_stargazerwings.lua"
+  ]
+}

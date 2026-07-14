@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_savannahbar", "count" : 7 },
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "leather", "count" : 2 }
+  ],
+  "output" : { "item" : "pf_auriumshieldback", "count" : 1 },
+  "groups" : [ "craftinganvil", "hazardgear" ]
+}

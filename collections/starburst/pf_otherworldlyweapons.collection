@@ -1,0 +1,80 @@
+{
+  "name" : "pf_otherworldlyweapons",
+  "title" : "From Another World",
+  "type" : "generic",
+
+  "collectables" : {
+    //GENERIC
+    "pf_warpsaber" : {
+      "order" : 1,
+      "title" : "WARP Saber",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nWithin the deepest corners of the Outernet, its said data from other dimensions sometimes crosses over into this one from the universe rearranging itself. In this case, however, the data broke itself through dimensions to here.",
+      "icon" : "/items/active/weapons/unique/warpsaber/pf_warpsaber.png"
+    },
+    "pf_multitool" : {
+      "order" : 2,
+      "title" : "Multi-Tool",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nBorn from a world who's code has been shattered beyond all belief. The information carried over to this world quite well. Perhaps the concept of the Matter Manipulator allowed it to attune itself easily.",
+      "icon" : "/items/active/weapons/unique/multitool/pf_multitool.png"
+    },
+
+    //TIER 3
+    "pf_combatshovel" : {
+      "order" : 3,
+      "title" : "Chivalrous Shovel",
+      "description" : "^white;Found On:^#ffffff;Snowy Planets ^#00d53c;[Tier 3]^reset; \nThe concept from this shovel is very rudimentary. Many parts of its design seem to come from other pieces within this world that lay untouched. Interesting, very interesting...",
+      "icon" : "/items/active/weapons/unique/combatshovel/pf_combatshovel.png"
+    },
+
+    "pf_sinnermace" : {
+      "order" : 4,
+      "title" : "Mace of Obsession",
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nThough not thought to be a naval weapon, the data is very attuned to the idea of the ocean itself. A deep resonance and \"light\" can be felt within it. A wrathful one, full of pride and obsession. Perhaps its attuned to yet more concepts...",
+      "icon" : "/items/active/weapons/unique/sinnermace/pf_sinnermace.png"
+    },
+    "pf_sinnershield" : {
+      "order" : 5,
+      "title" : "Ballast Shield",
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nThe powers of its origin seem to flood through with this shield, like a rift... When used in tandem with its shield, further, deeper concepts and data from its origin from flood through. A staggering display to be sure...",
+      "icon" : "/items/active/shields/images/pf_sinner/pf_sinner.png:nearidle"
+    },
+
+    //TIER 4
+    "pf_m1000" : {
+      "order" : 6,
+      "title" : "M-1000",
+      "description" : "^white;Found On: ^#ff00ff;Alien Planets ^#3cd500;[Tier 4]^reset; \nUnlike the pieces of data that was attuned to existing concepts. It appears a new concept drew in this one in with the new opening. I wonder if its surrounding concepts were based on its origin and was merely drawn in...",
+      "icon" : "/items/active/weapons/biome/alien/alienwhip/pf_m1000.png:default.1"
+    },
+
+    //TIER 5
+    "doomcannon" : {
+      "order" : 7,
+      "title" : "Doom Cannon",
+      "description" : "^white;Found On: ^#960000;Volcanic Planets ^#b4d500;[Tier 5]^reset; \nDespite the fact that data and concepts intermingle, this weapon is mostly based on data. Despite whatever concepts it might've held, the way it functions seems to work closer to how it was created. The concept must be quite old then.",
+      "icon" : "/items/active/weapons/ranged/unrand/doomcannon/doomcannon.png"
+    },
+
+    "pf_galaxysword" : {
+      "order" : 8,
+      "title" : "Galaxy Broadsword",
+      "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nThe concepts here are quite similar to what this world seems to offer, though a distinct indifference can be felt. It is indeed interesting that this concept wasn't implemented into this world's. Perhaps a schism occurred before it could...",
+      "icon" : "/items/active/weapons/unique/galaxysword/pf_galaxysword.png"
+    },
+
+    //TIER 6
+    "pf_scorchingbolter" : {
+      "order" : 9,
+      "title" : "Ultra Boltgun",
+      "description" : "^white;Found On: ^#c89696;Scorched Planets ^#d5c300;[Tier 6]^reset; \nA distant, far-off concept from the world that we currently residing within. Perhaps within a period of change, this world had grown more dark, and the fires of war brought it here from its origin dimension.",
+      "icon" : "/items/active/weapons/unique/scorchingbolter/pf_scorchingbolter.png:default.1"
+    },
+
+    "exmachina" : {
+      "order" : 10,
+      "title" : "Ex Machina",
+      "description" : "^white;Found On: ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nThe Hylotl's urban blight upon these worlds seems to have caused some existing data to be refined further with its origin. Now it takes a different shape from its native data, and grows stronger from it.",
+      "icon" : "/items/active/weapons/other/exmachina/pf_exmachina-ani.png:default.1"
+    }
+  }
+}

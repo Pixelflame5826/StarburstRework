@@ -4,359 +4,332 @@
   "type" : "generic",
 
   "collectables" : {
-    //TIER 1
+    //SWORDS
     "brokenprotectoratebroadsword" : {
       "order" : 1,
       "title" : "Broken Broadsword",
       "description" : "^white;Starter Weapon^reset;\nA Protectorate Peacekeeping Blade far beyond its prime. Found in a rush, its clear its previous user went through some serious danger before coming back. Bad timing...",
       "icon" : "/collections/starburst/images/pf_brokenbroadsword.png"
     },
-    "boxingglove" : {
-      "order" : 2,
-      "title" : "Boxing Glove",
-      "description" : "^white;Obtained From: ^orange;Spinning Wheel^reset;\nHardly better than your own fists, but they work in a pinch against certain targets. Remember, alien wilderness is not a boxing ring, there is no trophy to win!",
-      "icon" : "/items/active/weapons/fist/boxingglove.png"
-    },
-    //TIER 2
-    "ropewhip" : {
-      "order" : 3,
-      "title" : "Rope Whip",
-      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nA weapon and tool with a long history. Favored by Novakids for herding, a finesse weapon by Hylotl, and prisoner punishment by the Apex!",
-      "icon" : "/items/active/weapons/whip/ropewhip.png:idle"
-    },
-    "flamethrower" : {
-      "order" : 4,
-      "title" : "Flamethrower",
-      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nA long feared weapons system from the modern age of Earth. From clearing trenches to foliage, you can't go wrong with a helping of napalm against any foe.",
-      "icon" : "/items/active/weapons/ranged/flamethrower/flamethrower.png"
-    },
-    "poisonbow" : {
-      "order" : 5,
-      "title" : "Poison Bow",
-      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nTipping projectiles in poison is not a foreign concept by any means. Nearly every species does it to some degree. Doesn't mean its not effective, far from it.",
-      "icon" : "/items/active/weapons/bow/poisonbow/poisonbow.png:0"
-    },
-    "pollenpump" : {
-      "order" : 6,
-      "title" : "Pollen Pump",
-      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nWeaponized fumigation against alien life is a very Human idea. Originally used by USCM scouts to exterminate wildlife with extreme prejudice, it worked sometimes.",
-      "icon" : "/items/active/weapons/bow/pollenpump/pollenpump.png:0"
-    },
-    //TIER 4
     "timepierce" : {
-      "order" : 7,
+      "order" : 2,
       "title" : "Time Pierce",
       "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nA mystical blade embroiled in many stories. Its said these were once made for clocktowers on the Novakid homeworld, all made from a strange metal that could manipulate space and time.",
       "icon" : "/items/active/weapons/melee/broadsword/timepierce.png"
     },
     "eyesword" : {
-      "order" : 8,
+      "order" : 3,
       "title" : "Oculus Reaver",
       "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nA strange experiment by the Miniknog. It was an attempt to connect one's perception to a new biological body. It was too disorienting to really matter in the end.",
       "icon" : "/items/active/weapons/other/eyesword/eyeswordfull.png"
     },
     "soulseeker" : {
-      "order" : 9,
+      "order" : 4,
       "title" : "Soulseeker",
       "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nWhile broadswords are uncommon in Avian weaponry, this is an exception. The crystal in the center gathers the blood of those slain, giving it a darker aura. Kluex had no hand in this blade.",
       "icon" : "/items/active/weapons/other/eyesword/eyeswordfull.png"
     },
-    "vinewhip" : {
-      "order" : 10,
-      "title" : "Vine Whip",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nThough a seemingly simple concept, this weapon was made from Floran Biogenesis. The whip itself is alive in order to maintain its poison. Make sure to give it plenty of sun.",
-      "icon" : "/items/active/weapons/whip/vinewhip.png:idle"
-    },
-    "intestinewhip" : {
-      "order" : 11,
-      "title" : "Intestine Whip",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nThe intestines of every species (exluding Glitch and Floran) is made of muscle. Muscle fibers are stretchy and elastic... You see the thought process behind this?",
-      "icon" : "/items/active/weapons/whip/intestinewhip.png:idle"
-    },
-    "gristlegun" : {
-      "order" : 12,
-      "title" : "Cartilage Gun",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nBiogenesis often focuses on technology, but sometimes a curious Greenfinger tries to mesh animal tissue and plants. The result is a strange weapon made from a ribcage that fires bones.",
-      "icon" : "/items/active/weapons/other/gristlegun/pf_gristlegun-ani.png:default.1"
-    },
-    "electricrailgun" : {
-      "order" : 13,
-      "title" : "Tesla's Wrath",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nA Terran inventor once invented a wireless transmission of electricity, but was long forgotten. Centuries later, another inventor took this technology and weaponized it. Now, he shall have his revenge!",
-      "icon" : "/items/active/weapons/other/electricrailgun/electricrailgun.png:default.1"
-    },
-    "gnomegun" : {
-      "order" : 14,
-      "title" : "Gnome Gun",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nYes, this is a living gnome. And yes, he pukes rainbows. He has some digestive issues according to the doctor...",
-      "icon" : "/items/active/weapons/other/gnomegun/gnomegun.png"
-    },
-    "wormgun" : {
-      "order" : 15,
-      "title" : "Alien Worm Gun",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nMutated life on mutated alien worlds, though scary sounding, can be useful. Who wouldn't love a biogun that fires flesh eating worms?",
-      "icon" : "/items/active/weapons/other/tentaclegun/wormgun.png"
-    },
-    "wormerang" : {
-      "order" : 16,
-      "title" : "Giant Worm",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nA tamed giant alien worm that can be thrown. Floran on alien planets can be quite resourceful, even with deadly creatures in the mix.",
-      "icon" : "/items/active/weapons/boomerang/wormerang.png"
-    },
-    //TIER 6
-    "astrosabredeluxe" : {
-      "order" : 17,
-      "title" : "Asuterosaberu DX",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA legendary blade, maker unknown. Channels the powers of friendship and self expression to rip space in half! Note: homosexuality is said to make the blade 9001% more powerful.",
-      "icon" : "/items/active/weapons/melee/broadsword/astrosabredeluxe.png"
-    },
-    "energywhip" : {
-      "order" : 18,
-      "title" : "Lucaine's Energy Whip",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe ultimate form of a whip. An Apex scientist named Lucaine masterfully used magnetic fields to control plasma into an expanding and flexible energy force. Hits with a distinct burn!",
-      "icon" : "/items/active/weapons/whip/energywhip.png:idle"
-    },
-    "supernovaglove" : {
-      "order" : 19,
-      "title" : "Supernova Gauntlet",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nLikely the largest fist you've ever seen! Imbued with cosmic power, this gauntlet hits combatants with enough force to turn the very air into plasma. Punch them so hard they nova!",
-      "icon" : "/items/active/weapons/fist/supernovaglove.png"
-    },
-    "remotegrenadelauncher" : {
-      "order" : 20,
-      "title" : "Remote Grenade Launcher",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA simple, yet highly effective design. Placing bomb traps has always been a part of highly tech warfare. For who needs one at a time detonations, when you can do them all at once!",
-      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
-    },
-    "evileye" : {
-      "order" : 21,
-      "title" : "Evil Eye",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA highly dangerous lifeform only the most daring Floran beastmasters have tried to tame. Its very vision releases gamma radiation that can kill its prey in seconds.",
-      "icon" : "/items/active/weapons/other/evileye/evileye.png:idle.1"
-    },
-    "tentaclegun" : {
-      "order" : 22,
-      "title" : "Alien Appendage",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nOne experiment that the Miniknog wishes it could forget. A cybernetic melding that is highly compatible with any species, too compatible, often overtaking the host's biology. Luckily this one seems safe.",
-      "icon" : "/items/active/weapons/other/tentaclegun/tentaclegun.png"
-    },
-    "magnorbs" : {
-      "order" : 23,
-      "title" : "Magnorbs",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe Hylotl often use strange weapons as a show of finesse, this is one of them. Using the mind to manipulate orbs of steel is seen as a feat only a few of extreme focus can handle.",
-      "icon" : "/items/active/weapons/other/magnorbs/icon.png"
-    },
-    "teslastaff" : {
-      "order" : 24,
-      "title" : "Tesla's Staff",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe humble tesla coil, a Terran invention that is seen in science classrooms. Give it a pinpoint air ionizer and an extreme amount of voltage, and you have a powerful weapon that can control lightning itself!",
-      "icon" : "/items/active/weapons/staff/teslastaff/teslastaff.png"
-    },
-
-    //GAUNTLETS
-    "gauntlet" : {
-      "order" : 25,
-      "title" : "Gauntlet",
-      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nA highly effective method for using your fists, hard and protective at the same time. A surprisingly versatile basis for a variety of attachments.",
-      "icon" : "/items/active/weapons/fist/gauntlet.png"
-    },
-    "clawglove" : {
-      "order" : 26,
-      "title" : "Claw Glove",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe most common gauntlet variant used by Hylotl fighters. Favored by highly mobile monks and bounty hunters when they would rather not be held back by a blade.",
-      "icon" : "/items/active/weapons/fist/clawglove.png"
-    },
-    "stunglove" : {
-      "order" : 27,
-      "title" : "Stun Glove",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA taser attachment for a gauntlet is a popular one by all races. Many civilians use it for self defense, but the Terrene Peacekeepers often use it as a CQC option for non-lethal strikes.",
-      "icon" : "/items/active/weapons/fist/stunglove.png"
-    },
-    "vinefist" : {
-      "order" : 28,
-      "title" : "Vine Fist",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nFlorans aren't any stranger to completely changing a piece of tech. In this case, using living vines as a grappling and long reaching option compared to other gauntlets.",
-      "icon" : "/items/active/weapons/fist/vinefist.png"
-    },
-    //BOOMERANGS
-    "boomerang" : {
-      "order" : 29,
-      "title" : "Boomerang",
-      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nA stick that comes back to you. The first step many races take in understanding aerodynamics. Though now the design doesn't matter, thanks to new microthruster technology. However, it is still versatile.",
-      "icon" : "/items/active/weapons/boomerang/boomerang.png"
-    },
-    "fireboomerang" : {
-      "order" : 30,
-      "title" : "Molten Boomerang",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nInstalling a molten core into the center of a boomerang causes its weight and energy density within to increase twofold. Its flames make it more useful for combat, rather than hunting.",
-      "icon" : "/items/active/weapons/boomerang/fireboomerang.png"
-    },
-    "iceboomerang" : {
-      "order" : 31,
-      "title" : "Frozen Boomerang",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nCoating the wings of a boomerang with cryogenic fluid allows it to freeze the air as it travels. Just, make sure to use gloves with it, lest your hands face the same fate.",
-      "icon" : "/items/active/weapons/boomerang/iceboomerang.png"
-    },
-    "lunarang" : {
-      "order" : 32,
-      "title" : "Vine Fist",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe strange properties of phase matter make this boomerang fly further, yet very fragile. However, it can mend itself back together like it was never shattered to begin with. Spooky.",
-      "icon" : "/items/active/weapons/fist/vinefist.png"
-    },
-    //CHAKRAMS
-    "chakram" : {
-      "order" : 33,
-      "title" : "Chakram",
-      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nOne would think throwing sharp rings of metal would be a bad idea, but its surprisingly effective. A favorite of Avians for how it flies through the air and slices targets. There are many variations.",
-      "icon" : "/items/active/weapons/chakram/chakram.png"
-    },
-    "sawchakram" : {
-      "order" : 34,
-      "title" : "Saw Chakram",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis is especially a bad idea. Throwing self-rotating sawblades should not be something you choose to do. Though as a trap, its decent if you don't lose your hand.",
-      "icon" : "/items/active/weapons/chakram/sawchakram.png"
-    },
-    "hardchakram" : {
-      "order" : 35,
-      "title" : "Hard Chakram",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis chakram isn't as much of a slicing weapon, as it is the throwing version of a hammer. A few Glitch warriors utilize such implements to deal with plate armor, the gear design is holy to them.",
-      "icon" : "/items/active/weapons/chakram/hardchakram.png"
-    },
-    "neochakram" : {
-      "order" : 36,
-      "title" : "Neo Chakram",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA couple hundred microthrusters and a lot of ram does wonders to keep a spinning metal disk in the air. Especially flashy bounty hunters enjoy this one, some even use it as an ID or calling card.",
-      "icon" : "/items/active/weapons/chakram/neochakram.png"
-    },
-    //PEACEKEEPER
-    "neopistol" : {
-      "order" : 37,
-      "title" : "Neo Pistol",
-      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nOne of Letheia's most popular mass-produced weapons. Great for hi-tech self defense. Though in reality, its often used against victims of criminal gangs who can buy them on the cheap.",
-      "icon" : "/items/active/weapons/ranged/unrand/neopistol/pf_neopistol-ani.png:default.1"
-    },
-    "neouzi" : {
-      "order" : 38,
-      "title" : "Neo Uzi",
-      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nThe full-auto version of Letheia's Neo platform of firearm, based on Terran design. This weapon's ability to handle high fire rates is quite good, if the battery magazine wasn't as long as the gun itself.",
-      "icon" : "/items/active/weapons/ranged/unrand/neouzi/pf_neouzi-ani.png:default.1"
-    },
-    "neoshotgun" : {
-      "order" : 39,
-      "title" : "Neo Shotgun",
-      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nAn impressive design by Letheia, this is one of the few energy weapons that uses the whole battery. Though the ammo can be quite costly. One battery per shot vs the 10 of the popular Neo Pistol. Packs a punch though!",
-      "icon" : "/items/active/weapons/ranged/unrand/neoshotgun/pf_neoshotgun-ani.png:default.1"
-    },
-    "neotommygun" : {
-      "order" : 40,
-      "title" : "Neo Tommy Gun",
-      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nPerhaps an unintentionally ironic design choice by Letheia. Like its Terran namesake, its most famous for being used by the most ruthless gangsters. This even carried to movies, which Letheia didn't care much about.",
-      "icon" : "/items/active/weapons/ranged/unrand/neotommygun/pf_neotommygun-ani.png:default.1"
-    },
-    "neomagnum1" : {
-      "order" : 41,
-      "title" : "Neo Magnum",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nA Peacekeeper specialty, the energy cell based revolver. The final and lethal option in a crisis situation, and it does it quite well. A Class C firearm, this is the version given to rookies.",
-      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum1icon.png"
-    },
-    "neomagnum2" : {
-      "order" : 42,
-      "title" : "Neo Magnum-E78",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 3+]^reset; \nThe Class B variant of the Neo Magnum. Gaining this one is a writ of passage to becoming an experienced Peacekeeper. The plasma charges are even more lethal, because you now understand when it is required.",
-      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum2icon.png"
-    },
-    "neomagnum3" : {
-      "order" : 43,
-      "title" : "Neo Magnum-RX",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 4+]^reset; \nThe Class A variant of the Neo Magnum. Only veteran Peacekeepers begin to wield these weapons. By proving their worth, they've earned the greater durability and strength of this gun. Though its not the greatest.",
-      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum3icon.png"
-    },
-    "neomagnum4" : {
-      "order" : 44,
-      "title" : "Neo Magnum-ZZZ",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 5]^reset; \nThe final, Class S upgrade of the signature Neo Magnum. Only those who have shown superior valour and sense of justice are allowed to touch the golden exterior. Its said Noble dual wields these, and has 2 as backup.",
-      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum4icon.png"
-    },
-    "gluesprayer" : {
-      "order" : 45,
-      "title" : "Glue Sprayer",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nAffectionally known in the Peacekeepers as the \"Halt Gun,\" this is what you use when the person you've already cuffed tries to run away. Though also works well on rats, of both kinds. The donuts are safe!",
-      "icon" : "/items/active/weapons/ranged/unrand/gluesprayer/gluesprayer.png"
-    },
-    "neolaserlauncher" : {
-      "order" : 46,
-      "title" : "Lazercaster",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 4+]^reset; \nA weapon a criminal does not want to see. The Peacekeeper Lazercaster is only used in extreme cases, or \"lost causes.\" Criminals who aren't worth locking up will often face a full charge proton cannon at their doorsteps.",
-      "icon" : "/items/active/weapons/ranged/unrand/neolaserlauncher/neolaserlauncher.png"
-    },
-    //TREASURED TROPHIES
-    "adaptablecrossbow" : {
-      "order" : 47,
-      "title" : "Adaptable Crossbow",
-      "description" : "^white;Obtained From: ^orange;Treasured Trophies^reset; \nThe ultimate hunting platform! A maglev crossbow that fires bolts of any element, as well as having gravity manipulating elements. No prey, hot or cold, fast or slow, that can escape you with this!",
-      "icon" : "/items/active/weapons/other/adaptablecrossbow/adaptablecrossbow.png:wooden.1"
-    },
-    //BOSS
-    "erchiuseye" : {
-      "order" : 48,
-      "title" : "Erchius Eye",
-      "description" : "^white;Obtained From: ^red;Erchius Horror^reset; \nIn hushed whispers were talks of the unexplained cosmic power of Erchius, even more hushed were potential entities summoned by them. Perhaps this is less of a rumor than once thought. Though Letheia will likely find a use for them.",
-      "icon" : "/items/active/weapons/bossdrop/erchiuseye/erchiuseye.png"
-    },
-    "ixodoomclaw" : {
-      "order" : 49,
-      "title" : "Ixodoom Claw",
-      "description" : "^white;Obtained From: ^red;Ixodoom^reset; \nIxodoom (Tetrapoda Magnusa) is the largest arachnid-like species in the galaxy. Originating from the Floran homeworlds, they are often seen as the greatest challenge a Floran hunter can face. At full strength, this claw can crush a Letheia Corvette!",
-      "icon" : "/items/active/weapons/bossdrop/ixodoomclaw/ixodoomclaw.png"
-    },
     "soluskatana" : {
-      "order" : 50,
+      "order" : 5,
       "title" : "Solus Katana",
       "description" : "^white;Obtained From: ^red;Asra Nox^reset; \nThe density required to handle a Solarium energy generator directly is immense. Only Hylotl craftsman work could ever hope to handle the pressure. Ironic then that Asra Nox made it, when it was never a human's design to begin with.",
       "icon" : "/items/active/weapons/bossdrop/soluskatana/soluskatanaicon.png"
     },
-    "kluexstaff" : {
-      "order" : 51,
-      "title" : "Kluex Staff",
-      "description" : "^white;Obtained From: ^red;Kluex Avatar^reset; \nA holy relic only ever spoken about in scripture. Once wielded by a Great Prophet, the Avolite within its core is said to contain a shard of the Will of Kluex. Fitting then, that this device channeled the energy of the Avatar's powercore.",
-      "icon" : "/items/active/weapons/bossdrop/kluexstaff/kluexstaff.png"
-    },
-    "miniknoglauncher" : {
-      "order" : 52,
-      "title" : "Miniknog Launcher",
-      "description" : "^white;Obtained From: ^red;Big Ape^reset; \nA salvaged piece of the false Big Ape, a magnificent piece of Miniknog engineering. Despite the small footprint, it's interior is larger on the inside, able to fit multiple rockets inside. It seems the Miniknog looking into dimensional manipulation.",
-      "icon" : "/items/active/weapons/bossdrop/minknoglauncher/miniknoglaunchericon.png"
-    },
-    "dragonhead" : {
-      "order" : 53,
-      "title" : "Dragonhead Pistol",
-      "description" : "^white;Obtained From: ^red;Bone Dragon^reset; \nA weapon salvaged from the flame generator of the robotic Bone Dragon. Able to charge and fire balls of flaming gas that explode on contact. Has a penguin insignia on the side of it...",
-      "icon" : "/items/active/weapons/bossdrop/dragonhead/dragonheadicon.png"
-    },
-    //QUEST
     "hokucide" : {
-      "order" : 54,
+      "order" : 6,
       "title" : "Hokucide",
       "description" : "^white;Obtained From: ^yellow;Koichi^reset; \nOne of the great relics of Hylotl's history! Once wielded by the legendary Blue Blade against the Floran invaders, its craftsmanship is unmatched. Said to use the waters themselves like a weapon that tore foes apart. Its a wonder how Koichi got this...",
       "icon" : "/items/active/weapons/melee/broadsword/hokucide.png"
     },
     "flamingdemonsword" : {
-      "order" : 55,
+      "order" : 7,
       "title" : "Firestorm's Fury",
       "description" : "^white;Obtained From: ^yellow;Nuru^reset; \nA powerful blade crafted by a long lost Glitch empire. Though not as strong as the Lord's blade, these were used by his elite Fire Knights. Its hot internal core launched hot flames, melting any Glitch who got in their way.",
       "icon" : "/items/active/weapons/other/flamingdemonsword/flamingdemonsword.png:idle.1"
     },
+    "astrosabredeluxe" : {
+      "order" : 8,
+      "title" : "Asuterosaberu DX",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA legendary blade, maker unknown. Channels the powers of friendship and self expression to rip space in half! Note: homosexuality is said to make the blade 9001% more powerful.",
+      "icon" : "/items/active/weapons/melee/broadsword/astrosabredeluxe.png"
+    },
+    "pf_monolithsword" : {
+      "order" : 9,
+      "title" : "Monolith",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nIts said that the Ancients held some power over the cosmos themselves, this blade holds a piece of that power. However, they are also said to be a peaceful species, so what would compel them to make this powerful blade?",
+      "icon" : "/items/active/weapons/unique/monolithsword/pf_monolithsword.png"
+    },
+    "pf_masterbroadsword" : {
+      "order" : 10,
+      "title" : "Master's Beamsword EX",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA mysterious energy blade made by a master artisan, taking elements from many powerful blades. The maker's name leads to no known person. Best guess, they changed their name and appearance. Good for them.",
+      "icon" : "/items/active/weapons/unique/masterbroadsword/pf_masterbroadswordicon.png"
+    },
+    "protectoratebroadsword" : {
+      "order" : 11,
+      "title" : "Protector's Broadsword",
+      "description" : "^white;Obtained From: ^yellow;Baron^reset; \nThe Protectorate Peacekeeping Blade back to its full glory! The group effort of many species to make a powerful hybrid sword that was worthy for the few warriors of the Protectorate. Its yours now, may it be a symbol of unity forevermore!",
+      "icon" : "/items/active/weapons/protectorate/protectoratebroadsword/protectoratebroadsword.png:inactive"
+    },
+
+    //HAMMERS
+    "ixodoomclaw" : {
+      "order" : 12,
+      "title" : "Ixodoom Claw",
+      "description" : "^white;Obtained From: ^red;Ixodoom^reset; \nIxodoom (Tetrapoda Magnusa) is the largest arachnid-like species in the galaxy. Originating from the Floran homeworlds, they are often seen as the greatest challenge a Floran hunter can face. At full strength, this claw can crush a Letheia Corvette!",
+      "icon" : "/items/active/weapons/bossdrop/ixodoomclaw/ixodoomclaw.png"
+    },
+    "pf_executioneraxe" : {
+      "order" : 13,
+      "title" : "The Ol' Lopper",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nMuch like in human history, early Glitch executions were done using axes. It was higly ineffective and brutal. The axe never went through on the first try. Doubt an old axe such as this will go through without effort.",
+      "icon" : "/items/active/weapons/unique/executioneraxe/pf_executioneraxe.png"
+    },
+
+    //WHIPS
+    "ropewhip" : {
+      "order" : 14,
+      "title" : "Rope Whip",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nA weapon and tool with a long history. Favored by Novakids for herding, a finesse weapon by Hylotl, and prisoner punishment by the Apex!",
+      "icon" : "/items/active/weapons/whip/ropewhip.png:idle"
+    },
+    "vinewhip" : {
+      "order" : 15,
+      "title" : "Vine Whip",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nThough a seemingly simple concept, this weapon was made from Floran Biogenesis. The whip itself is alive in order to maintain its poison. Make sure to give it plenty of sun.",
+      "icon" : "/items/active/weapons/whip/vinewhip.png:idle"
+    },
+    "intestinewhip" : {
+      "order" : 16,
+      "title" : "Intestine Whip",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nThe intestines of every species (exluding Glitch and Floran) is made of muscle. Muscle fibers are stretchy and elastic... You see the thought process behind this?",
+      "icon" : "/items/active/weapons/whip/intestinewhip.png:idle"
+    },
+    "energywhip" : {
+      "order" : 17,
+      "title" : "Lucaine's Energy Whip",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe ultimate form of a whip. An Apex scientist named Lucaine masterfully used magnetic fields to control plasma into an expanding and flexible energy force. Hits with a distinct burn!",
+      "icon" : "/items/active/weapons/whip/energywhip.png:idle"
+    },
+
+    //FISTS
+    "boxingglove" : {
+      "order" : 18,
+      "title" : "Boxing Glove",
+      "description" : "^white;Obtained From: ^orange;Spinning Wheel^reset;\nHardly better than your own fists, but they work in a pinch against certain targets. Remember, alien wilderness is not a boxing ring, there is no trophy to win!",
+      "icon" : "/items/active/weapons/fist/boxingglove.png"
+    },
+    "gauntlet" : {
+      "order" : 19,
+      "title" : "Gauntlet",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nA highly effective method for using your fists, hard and protective at the same time. A surprisingly versatile basis for a variety of attachments.",
+      "icon" : "/items/active/weapons/fist/gauntlet.png"
+    },
+    "clawglove" : {
+      "order" : 20,
+      "title" : "Claw Glove",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe most common gauntlet variant used by Hylotl fighters. Favored by highly mobile monks and bounty hunters when they would rather not be held back by a blade.",
+      "icon" : "/items/active/weapons/fist/clawglove.png"
+    },
+    "stunglove" : {
+      "order" : 21,
+      "title" : "Stun Glove",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA taser attachment for a gauntlet is a popular one by all races. Many civilians use it for self defense, but the Terrene Peacekeepers often use it as a CQC option for non-lethal strikes.",
+      "icon" : "/items/active/weapons/fist/stunglove.png"
+    },
+    "vinefist" : {
+      "order" : 22,
+      "title" : "Vine Fist",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nFlorans aren't any stranger to completely changing a piece of tech. In this case, using living vines as a grappling and long reaching option compared to other gauntlets.",
+      "icon" : "/items/active/weapons/fist/vinefist.png"
+    },
+    "supernovaglove" : {
+      "order" : 23,
+      "title" : "Supernova Gauntlet",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nLikely the largest fist you've ever seen! Imbued with cosmic power, this gauntlet hits combatants with enough force to turn the very air into plasma. Punch them so hard they nova!",
+      "icon" : "/items/active/weapons/fist/supernovaglove.png"
+    },
+
+    //GUNS
+    "flamethrower" : {
+      "order" : 24,
+      "title" : "Flamethrower",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nA long feared weapons system from the modern age of Earth. From clearing trenches to foliage, you can't go wrong with a helping of napalm against any foe.",
+      "icon" : "/items/active/weapons/ranged/flamethrower/flamethrower.png"
+    },
+    "erchiuseye" : {
+      "order" : 25,
+      "title" : "Erchius Eye",
+      "description" : "^white;Obtained From: ^red;Erchius Horror^reset; \nIn hushed whispers were talks of the unexplained cosmic power of Erchius, even more hushed were potential entities summoned by them. Perhaps this is less of a rumor than once thought. Though Letheia will likely find a use for them.",
+      "icon" : "/items/active/weapons/bossdrop/erchiuseye/erchiuseye.png"
+    },
+    "neopistol" : {
+      "order" : 26,
+      "title" : "Neo Pistol",
+      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nOne of Letheia's most popular mass-produced weapons. Great for hi-tech self defense. Though in reality, its often used against victims of criminal gangs who can buy them on the cheap.",
+      "icon" : "/items/active/weapons/ranged/unrand/neopistol/pf_neopistol-ani.png:default.1"
+    },
+    "neouzi" : {
+      "order" : 27,
+      "title" : "Neo Uzi",
+      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nThe full-auto version of Letheia's Neo platform of firearm, based on Terran design. This weapon's ability to handle high fire rates is quite good, if the battery magazine wasn't as long as the gun itself.",
+      "icon" : "/items/active/weapons/ranged/unrand/neouzi/pf_neouzi-ani.png:default.1"
+    },
+    "neoshotgun" : {
+      "order" : 28,
+      "title" : "Neo Shotgun",
+      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nAn impressive design by Letheia, this is one of the few energy weapons that uses the whole battery. Though the ammo can be quite costly. One battery per shot vs the 10 of the popular Neo Pistol. Packs a punch though!",
+      "icon" : "/items/active/weapons/ranged/unrand/neoshotgun/pf_neoshotgun-ani.png:default.1"
+    },
+    "neotommygun" : {
+      "order" : 29,
+      "title" : "Neo Tommy Gun",
+      "description" : "^white;Dropped By: Bounty Targets ^lightgray;[Any Tier]^reset; \nPerhaps an unintentionally ironic design choice by Letheia. Like its Terran namesake, its most famous for being used by the most ruthless gangsters. This even carried to movies, which Letheia didn't care much about.",
+      "icon" : "/items/active/weapons/ranged/unrand/neotommygun/pf_neotommygun-ani.png:default.1"
+    },
+    "neomagnum1" : {
+      "order" : 30,
+      "title" : "Neo Magnum",
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nA Peacekeeper specialty, the energy cell based revolver. The final and lethal option in a crisis situation, and it does it quite well. A Class C firearm, this is the version given to rookies.",
+      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum1icon.png"
+    },
+    "gristlegun" : {
+      "order" : 31,
+      "title" : "Cartilage Gun",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nBiogenesis often focuses on technology, but sometimes a curious Greenfinger tries to mesh animal tissue and plants. The result is a strange weapon made from a ribcage that fires bones.",
+      "icon" : "/items/active/weapons/other/gristlegun/pf_gristlegun-ani.png:default.1"
+    },
+    "electricrailgun" : {
+      "order" : 32,
+      "title" : "Tesla's Wrath",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nA Terran inventor once invented a wireless transmission of electricity, but was long forgotten. Centuries later, another inventor took this technology and weaponized it. Now, he shall have his revenge!",
+      "icon" : "/items/active/weapons/other/electricrailgun/electricrailgun.png:default.1"
+    },
+    "pf_windflarerifle" : {
+      "order" : 33,
+      "title" : "Flare Rifle",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nThe overall design doesn't give any clues to who made it, however the craftsmanship speaks highly of Hylotl. During their first \"seabound\" era, this was likely used for later expeditions of the previously toxic continents.",
+      "icon" : "/items/active/weapons/unique/windflarerifle/pf_windflarerifle.png"
+    },
+    "gnomegun" : {
+      "order" : 34,
+      "title" : "Gnome Gun",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nYes, this is a living gnome. And yes, he pukes rainbows. He has some digestive issues according to the doctor...",
+      "icon" : "/items/active/weapons/other/gnomegun/gnomegun.png"
+    },
+    "neomagnum2" : {
+      "order" : 35,
+      "title" : "Neo Magnum-E78",
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 3+]^reset; \nThe Class B variant of the Neo Magnum. Gaining this one is a writ of passage to becoming an experienced Peacekeeper. The plasma charges are even more lethal, because you now understand when it is required.",
+      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum2icon.png"
+    },
+    "adaptablecrossbow" : {
+      "order" : 36,
+      "title" : "Adaptable Crossbow",
+      "description" : "^white;Obtained From: ^orange;Treasured Trophies^reset; \nThe ultimate hunting platform! A maglev crossbow that fires bolts of any element, as well as having gravity manipulating bolts. No prey, hot or cold, fast or slow, can escape you with this!",
+      "icon" : "/items/active/weapons/other/adaptablecrossbow/adaptablecrossbow.png:wooden.1"
+    },
     "hunterrifle" : {
-      "order" : 56,
+      "order" : 37,
       "title" : "Vintage Scoped Rifle",
       "description" : "^white;Obtained From: ^yellow;Nuru^reset; \nAn original gun created on Earth, quite old in fact. A favorite of collectors, if they aren't hoarding USCM Pulserifles. Still works quite well for its intended purpose, though its clearly a patchjob.",
       "icon" : "/items/active/weapons/arena/hunterrifle/pf_hunterrifle-ani.png:default.1"
     },
-    "protectoratebroadsword" : {
-      "order" : 57,
-      "title" : "Protector's Broadsword",
-      "description" : "^white;Obtained From: ^yellow;Baron^reset; \nThe Protectorate Peacekeeping Blade back to its full glory! The group effort of many species to make a powerful hybrid sword that was worthy for the few warriors of the Protectorate. Its yours now, may it be a symbol of unity forevermore!",
-      "icon" : "/items/active/weapons/protectorate/protectoratebroadsword/protectoratebroadsword.png:inactive"
+    "neomagnum3" : {
+      "order" : 38,
+      "title" : "Neo Magnum-RX",
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 4+]^reset; \nThe Class A variant of the Neo Magnum. Only veteran Peacekeepers begin to wield these weapons. By proving their worth, they've earned the greater durability and strength of this gun. Though its not the greatest.",
+      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum3icon.png"
+    },
+    "remotegrenadelauncher" : {
+      "order" : 39,
+      "title" : "Remote Grenade Launcher",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA simple, yet highly effective design. Placing bomb traps has always been a part of highly tech warfare. For who needs one at a time detonations, when you can do them all at once!",
+      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+    },
+    "evileye" : {
+      "order" : 40,
+      "title" : "Evil Eye",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA highly dangerous lifeform only the most daring Floran beastmasters have tried to tame. Its very vision releases gamma radiation that can kill its prey in seconds.",
+      "icon" : "/items/active/weapons/other/evileye/evileye.png:idle.1"
+    },
+    "miniknoglauncher" : {
+      "order" : 41,
+      "title" : "Miniknog Launcher",
+      "description" : "^white;Obtained From: ^red;Big Ape^reset; \nA salvaged piece of the false Big Ape, a magnificent piece of Miniknog engineering. Despite the small footprint, it's interior is larger on the inside, able to fit multiple rockets inside. It seems the Miniknog looking into dimensional manipulation.",
+      "icon" : "/items/active/weapons/bossdrop/minknoglauncher/miniknoglaunchericon.png"
+    },
+    "dragonhead" : {
+      "order" : 42,
+      "title" : "Dragonhead Pistol",
+      "description" : "^white;Obtained From: ^red;Bone Dragon^reset; \nA weapon salvaged from the flame generator of the robotic Bone Dragon. Able to charge and fire balls of flaming gas that explode on contact. Has a penguin insignia on the side of it...",
+      "icon" : "/items/active/weapons/bossdrop/dragonhead/dragonheadicon.png"
+    },
+    "neomagnum4" : {
+      "order" : 43,
+      "title" : "Neo Magnum-ZZZ",
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 5]^reset; \nThe final, Class S upgrade of the signature Neo Magnum. Only those who have shown superior valour and sense of justice are allowed to touch the golden exterior. Its said Noble dual wields these, and has 2 as backup.",
+      "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum4icon.png"
+    },
+    "neolaserlauncher" : {
+      "order" : 44,
+      "title" : "Lazercaster",
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 4+]^reset; \nThe weapon the criminal underworld fears most. The Peacekeeper Lazercaster is only used in extreme cases, or \"lost causes.\" Criminals who aren't worth locking up will often face a full charge proton cannon at their doorsteps.",
+      "icon" : "/items/active/weapons/ranged/unrand/neolaserlauncher/neolaserlauncher.png"
+    },
+    
+    //BOWS
+    "poisonbow" : {
+      "order" : 45,
+      "title" : "Poison Bow",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nTipping projectiles in poison is not a foreign concept by any means. Nearly every species does it to some degree. Doesn't mean its not effective, far from it.",
+      "icon" : "/items/active/weapons/bow/poisonbow/poisonbow.png:0"
+    },
+    "pollenpump" : {
+      "order" : 46,
+      "title" : "Pollen Pump",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nWeaponized fumigation against alien life is a very Human idea. Originally used by USCM scouts to exterminate wildlife with extreme prejudice, it worked sometimes.",
+      "icon" : "/items/active/weapons/bow/pollenpump/pollenpump.png:0"
+    },  
+
+    //STAFFS
+    "kluexstaff" : {
+      "order" : 47,
+      "title" : "Kluex Staff",
+      "description" : "^white;Obtained From: ^red;Kluex Avatar^reset; \nA holy relic only ever spoken about in scripture. Once wielded by a Great Prophet, the Avolite within its core is said to contain a shard of the Will of Kluex. Fitting then, that this device channeled the energy of the Avatar's powercore.",
+      "icon" : "/items/active/weapons/bossdrop/kluexstaff/kluexstaff.png"
+    },
+    "teslastaff" : {
+      "order" : 48,
+      "title" : "Tesla's Staff",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe humble tesla coil, a Terran invention that is seen in science classrooms. Give it a pinpoint air ionizer and an extreme amount of voltage, and you have a powerful weapon that can control lightning itself!",
+      "icon" : "/items/active/weapons/staff/teslastaff/teslastaff.png"
+    },
+
+    //OTHER
+    "gluesprayer" : {
+      "order" : 49,
+      "title" : "Glue Sprayer",
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nAffectionally known in the Peacekeepers as the \"Halt Gun,\" this is what you use when the person you've already cuffed tries to run away. Though also works well on rats, of both kinds. The donuts are safe!",
+      "icon" : "/items/active/weapons/ranged/unrand/gluesprayer/gluesprayer.png"
+    },
+    "wormgun" : {
+      "order" : 50,
+      "title" : "Alien Worm Gun",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nMutated life on mutated alien worlds, though scary sounding, can be useful. Who wouldn't love a biogun that fires flesh eating worms?",
+      "icon" : "/items/active/weapons/other/tentaclegun/wormgun.png"
+    },
+    "tentaclegun" : {
+      "order" : 51,
+      "title" : "Alien Appendage",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nOne experiment that the Miniknog wishes it could forget. A cybernetic melding that is highly compatible with any species, too compatible, often overtaking the host's biology. Luckily this one seems safe.",
+      "icon" : "/items/active/weapons/other/tentaclegun/tentaclegun.png"
+    },
+    "magnorbs" : {
+      "order" : 52,
+      "title" : "Magnorbs",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe Hylotl often use strange weapons as a show of finesse, this is one of them. Using the mind to manipulate orbs of steel is seen as a feat only a few of extreme focus can handle.",
+      "icon" : "/items/active/weapons/other/magnorbs/icon.png"
     }
   }
 }

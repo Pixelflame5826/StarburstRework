@@ -10,6 +10,6 @@
 
   "animationConfig" : "wet.animation",
 
-  "label" : "^yellow;Damp - Increased fire resistance and electric susceptibility.",
+  "label" : "^yellow;Damp - Take -30% ^orange;Fire^yellow; and +30% ^purple;Elec^yellow; damage.",
   "icon" : "/interface/statuses/pf_damp.png"
 }

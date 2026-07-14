@@ -1,0 +1,11 @@
+{
+  "name" : "pf_uraniumpack",
+  "effectConfig" : {
+    "energyModifier" : 1.25
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "maxenergyscalingboost.lua"
+  ]
+}

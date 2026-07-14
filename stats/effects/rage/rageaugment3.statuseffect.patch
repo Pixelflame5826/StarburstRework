@@ -2,7 +2,7 @@
     {
         "op": "add",
         "path": "/label",
-        "value": "Damage Augment III - Damage output is 30% stronger."
+        "value": "Damage Augment III - Deal +30% more damage."
     },
 	{
         "op": "add",

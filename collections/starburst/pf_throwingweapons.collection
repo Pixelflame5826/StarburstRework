@@ -50,7 +50,7 @@
     "snowflakeshuriken" : {
       "order" : 8,
       "title" : "Snowflake Shuriken",
-      "description" : "^white;Recipe Obtained From: ^yellow;Snowflake^white; \nThe logical conclusion into how you should turn fine ice crystals into a weapon. Most well known from the Hylotl's Yuki Assassins, these shurikens leave no trace once they melt, merely the mark they made.",
+      "description" : "^white;Recipe Obtained From: ^yellow;Snowflake^white; \nThe logical conclusion into how you should turn fine ice crystals into a weapon. Most well known from the Hylotl's Yuki Assassins. These shurikens leave no trace once they melt, merely the mark they made.",
       "icon" : "/items/throwables/snowflakeshuriken.png"
     },
     "pf_rubitemambele" : {
@@ -62,19 +62,19 @@
     "pf_blueicehatchet" : {
       "order" : 10,
       "title" : "Blue Ice Hatchet",
-      "description" : "^white;Obtained From: ^orange;Forge^reset; \nThese ice hatchets are traditionally modelled after the great axes of old Alpaca heroes, its said that their axes were so loyal that they returned to the wielder. Sadly, these don't, but it still carries their legacy.",
+      "description" : "^white;Obtained From: ^orange;Forge^reset; \nThese ice hatchets are traditionally modelled after the great axes of old Alpaca heroes. Its said that their axes were so loyal that they always returned to the wielder. Sadly, these don't, but it still carries their legacy.",
       "icon" : "/items/throwables/pf_blueicehatchet.png"
     },
-    throwingkunai" : {
+    "throwingkunai" : {
       "order" : 11,
       "title" : "Throwing Kunai",
-      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4]^reset; \nOriginally a masonry tool, its piercing power cannot be understated. Hylotl saboteurs use these as close quarters weapons, and occassionally a distant finisher. Sometimes attached to a rope to climb walls.",
+      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4]^reset; \nOriginally a masonry tool, its piercing power cannot be understated. Hylotl Shinobi use these as close quarters weapons, and occassionally a distant finisher. Sometimes attached to a rope to climb walls.",
       "icon" : "/items/throwables/throwingkunai.png"
     },
     "throwingstar" : {
       "order" : 12,
       "title" : "Throwing Star",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 5]^reset; \nThe bread and butter of old Hylotl saboteurs, crafted to be silent, sharp, and powerful. Precise enough to hit pressure spots from a distance, these can be surprisingly deadly despite its size.",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 5]^reset; \nThe bread and butter of old Hylotl Shinobi, crafted to be silent, sharp, and powerful. Precise enough to hit pressure spots from a distance, these can be surprisingly deadly despite its size.",
       "icon" : "/items/throwables/throwingstar.png"
     },
     "pf_throwingenergyknife" : {
@@ -93,13 +93,13 @@
     //JAVELINS
     "huntingspear" : {
       "order" : 15,
-      "title" : "Flint Spear",
+      "title" : "Hunting Spear",
       "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^reset; \nThe most basic form of javelin, a hardened stick with a piece of stone at the end of it. Though not Floran levels of sharp and balance, it'll take out any prey species without difficulty.",
       "icon" : "/items/throwables/pf_huntingspearbig.png"
     },
     "throwingspear" : {
       "order" : 16,
-      "title" : "Hunting Spear",
+      "title" : "Javelin",
       "description" : "^white;Found On: Any Planet ^#00d5a0;[Tier 2]^reset; \nThe more modern take on the hunting spear. Well balanced, and the tip stabs the target smoothly without getting unecessarily stuck. Can even take on the strong hides of megafauna without too much issue.",
       "icon" : "/items/throwables/pf_throwingspearbig.png"
     },
@@ -147,20 +147,26 @@
       "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nUnlike usual concussion grenades, these grenades create energy field that paralyzes targets. For Peacekeepers, this is a preferred room clearing method, as its much easier to arrest an immobile criminal.",
       "icon" : "/items/throwables/stungrenade.png"
     },
-    "pf_ashapplebomb" : {
+    "pf_vermilliumgrenade" : {
       "order" : 24,
+      "title" : "Vermillium Gas Grenade",
+      "description" : "^white;Obtained From: ^orange;Replicator^reset; \nThough locked away, the toxic aerosols within vermillium can be released once more through controlled heating of the material. Turning a simple puck of it into poisonous gas. This is why you shouldn't burn down Jungles!",
+      "icon" : "/items/throwables/stungrenade.png"
+    },
+    "pf_ashapplebomb" : {
+      "order" : 25,
       "title" : "Ash Apple Bomb",
       "description" : "^white;Recipe Obtained From: ^yellow;Ash Apple^white; \nYou usually don't think of a fruit being explosive, the Ash Apple is an exception. The highly combustible, ashen flesh of the fruit often violently explode into flames. Add a wick, and you can control it!",
       "icon" : "/items/throwables/pf_ashapplebomb.png"
     },
     "pf_promethiumgrenade" : {
-      "order" : 25,
+      "order" : 26,
       "title" : "Promethium Grenade",
       "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nA very much illegal explosive. This grenade spreads molten promethium in all directions, burning hotter than a plasma torch. If weapons such as these were common place, its no wonder the Deadbeats' planets were scorched.",
       "icon" : "/items/throwables/pf_promethiumgrenade.png"
     },
     "pf_uraniumgrenade" : {
-      "order" : 26,
+      "order" : 27,
       "title" : "Uranium Grenuke",
       "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nNuclear weapons were phased out on Earth centuries ago after the Last War, the miniknog still has stores of interstellar missiles. This one is handheld! Be careful, lest you destroy the world with you on it.",
       "icon" : "/items/throwables/pf_uraniumgrenadebig.png"
@@ -168,46 +174,104 @@
 
     //OTHER
     "pf_flaskwater" : {
-      "order" : 27,
+      "order" : 28,
       "title" : "Water Flask",
       "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nSpecifically made to be thrown, this water bottle spreads water everywhere. Its nice on a hot day, but can be lethal in colder or static conditions.",
       "icon" : "/items/throwables/pf_flaskwater.png"
     },
     "pf_flaskoil" : {
-      "order" : 28,
+      "order" : 29,
       "title" : "Oil Flask",
       "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nOil can be used for anything, lighting lanterns, making petrochemicals. However, its obvious what one would do with an easily throwable flask of oil.",
       "icon" : "/items/throwables/pf_flaskoil.png"
     },
     "pf_flaskswamp" : {
-      "order" : 29,
+      "order" : 30,
       "title" : "Contaminated Flask",
       "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nThe toxins from the microorganisms within this flask make it a bad choice to drink. However, coating your enemy's wounds with it will likely do wonders.",
       "icon" : "/items/throwables/pf_flaskswamp.png"
     },
     "throwinggnome" : {
-      "order" : 30,
+      "order" : 31,
       "title" : "Ball of Gnomes",
       "description" : "^white;Found In: ^brown;Mini Villages^reset; \nThe False Gnome species has been known to exist on many worlds. Intelligent enough to build entire civilizations underground. However, none have been able to speak with them, maybe because their houses keep getting crushed!",
       "icon" : "/items/throwables/throwinggnome.png"
     },
     "throwingboulder" : {
-      "order" : 31,
+      "order" : 32,
       "title" : "Throwing Boulder",
       "description" : "^white;Found On: ^darkgreen;Alpine Biomes^reset; \nAlpaca competitions are known to be fierce. Much like the Human Caber Toss, particularly aggressive Alpaca throw boulders up rocky cliffs to prove who is the strongest. Death is not uncommon when it fails to reach the top.",
       "icon" : "/items/throwables/throwingboulder.png"
     },
     "hivebomb" : {
-      "order" : 32,
+      "order" : 33,
       "title" : "Bug Hive",
       "description" : "^white;Dropped By: ^red;Floran Hunters^reset; \nA perhaps crude method of taming wildlife to suit the needs of the Floran. Though one cannot deny the effectiveness of multiple poisonous insects homing in on you.",
       "icon" : "/items/throwables/bughive.png"
     },
     "pf_sealingtalisman" : {
-      "order" : 33,
+      "order" : 34,
       "title" : "Sealing Talismans",
       "description" : "^white;Found In: ^lightgrey;Hylotl Castles^reset; \nTalismans are a large part of Hylotl culture. Said to be filled with a spiritual energy by powerful Fuchi, they can do many things. In this case, weaken foes with a potent sealing power.",
       "icon" : "/items/throwables/pf_sealingtalisman"
+    },
+
+    //BOOMERANGS
+    "boomerang" : {
+      "order" : 35,
+      "title" : "Boomerang",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nA stick that comes back to you. The first step many races take in understanding aerodynamics. Though now the design doesn't matter, thanks to new microthruster technology. However, it is still versatile.",
+      "icon" : "/items/active/weapons/boomerang/boomerang.png"
+    },
+    "fireboomerang" : {
+      "order" : 36,
+      "title" : "Molten Boomerang",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nInstalling a molten core into the center of a boomerang causes its weight and energy density within to increase twofold. Its flames make it more useful for combat, rather than hunting.",
+      "icon" : "/items/active/weapons/boomerang/fireboomerang.png"
+    },
+    "iceboomerang" : {
+      "order" : 37,
+      "title" : "Frozen Boomerang",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nCoating the wings of a boomerang with cryogenic fluid allows it to freeze the air as it travels. Just, make sure to use gloves with it, lest your hands face the same fate.",
+      "icon" : "/items/active/weapons/boomerang/iceboomerang.png"
+    },
+    "lunarang" : {
+      "order" : 38,
+      "title" : "Vine Fist",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe strange properties of phase matter make this boomerang fly further, yet very fragile. However, it can mend itself back together like it was never shattered to begin with. Spooky.",
+      "icon" : "/items/active/weapons/fist/vinefist.png"
+    },
+    "wormerang" : {
+      "order" : 39,
+      "title" : "Giant Worm",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nA tamed giant alien worm that can be thrown. Floran on alien planets can be quite resourceful, even with deadly creatures in the mix.",
+      "icon" : "/items/active/weapons/boomerang/wormerang.png"
+    },
+
+    //CHAKRAMS
+    "chakram" : {
+      "order" : 40,
+      "title" : "Chakram",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nOne would think throwing sharp rings of metal would be a bad idea, but its surprisingly effective. A favorite of Avians for how it flies through the air and slices targets. There are many variations.",
+      "icon" : "/items/active/weapons/chakram/chakram.png"
+    },
+    "sawchakram" : {
+      "order" : 41,
+      "title" : "Saw Chakram",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis is especially a bad idea. Throwing self-rotating sawblades should not be something you choose to do. Though as a trap, its decent if you don't lose your hand.",
+      "icon" : "/items/active/weapons/chakram/sawchakram.png"
+    },
+    "hardchakram" : {
+      "order" : 42,
+      "title" : "Hard Chakram",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis chakram isn't as much of a slicing weapon, as it is the throwing version of a hammer. A few Glitch warriors utilize such implements to deal with plate armor, the gear design is holy to them.",
+      "icon" : "/items/active/weapons/chakram/hardchakram.png"
+    },
+    "neochakram" : {
+      "order" : 43,
+      "title" : "Neo Chakram",
+      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA couple hundred microthrusters and a lot of ram does wonders to keep a spinning metal disk in the air. Especially flashy bounty hunters enjoy this one, some even use it as an ID or calling card.",
+      "icon" : "/items/active/weapons/chakram/neochakram.png"
     }
   }
 }

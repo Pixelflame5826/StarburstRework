@@ -1,0 +1,14 @@
+{
+  "name" : "pf_maelstrom",
+  "effectConfig" : {
+    "powerModifier" : 0.60
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "pf_maelstrom.lua"
+  ],
+
+  "label" : "Maelstrom - Deal +60% damage while Wet; +30% while Damp.",
+  "icon" : "/interface/statuses/pf_maelstrom.png"
+}

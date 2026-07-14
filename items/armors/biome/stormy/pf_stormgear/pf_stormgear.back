@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "category" : "enviroProtectionPack",
   "tooltipKind" : "pf_advancedbackwear",
-  "description" : "A backpack installed with weather meters. Includes a fog light for visibility and static protection equipment.",
+  "description" : "A backpack installed with weather meters. Includes a fog light and weather protection equipment. ^orange;Resists all mild planet hazards.",
   "shortdescription" : "Stormchaser's Pack",
 
   "maleFrames" : "back.png",
@@ -15,13 +15,13 @@
   "tooltipFields" : {
     "subtitle": "Enhancement Pack",
 	
-	"pf_status1Image" : "/interface/statuses/pf_biomelightning.png",
-	"pf_status1BackgroundImage" : "/interface/tooltips/statlistback.png",
-	"pf_status1Label" : "Resistant",
+	  "pf_status1Image" : "/items/armors/backitems/pf_universalprotection/pf_universalimmunity.png",
+	  "pf_status1BackgroundImage" : "/interface/tooltips/statlistback.png",
+	  "pf_status1Label" : "Haz. Resist",
 	
     "pf_status2Image" : "/items/armors/biome/stormy/pf_stormgear/pf_stormglow.png",
-	"pf_status2BackgroundImage" : "/interface/tooltips/statlistback.png",
-	"pf_status2Label" : "Fog Light"
+	  "pf_status2BackgroundImage" : "/interface/tooltips/statlistback.png",
+	  "pf_status2Label" : "Fog Light"
   },
   
   "statusEffects" : [

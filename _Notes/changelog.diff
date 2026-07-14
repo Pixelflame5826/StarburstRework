@@ -18,7 +18,7 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 + Aurium Scoped Rifle
 + Heartwood Carbine (New Alt)
 + Blue Ice Shotgun (New Alt: Solidify/Vaporize)
-+ Ocean Sniper (New Alt: Shipbreaker)
++ Kaigun (New Alt: Shipbreaker)
 
 + EXPLORER'S JOURNAL AND COLLECTIONS!: New collections have been added to the game, they can be found in the new Explorer's Journal item. Obtained from your ship or crafted from a Foraging Table/Agricultural Station, can also found on Quickbar. It includes further info on the items and descriptions describing the category itself. These should hopefully grant further insight into what this mod has to offer.
 # New Collections
@@ -28,32 +28,61 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 + Regional Weaponry (Biome Weapons)
 + From Another World (Otherworldly Equipment)
 + Power of the Packs (Enhancement Packs)
-+ Regional Styles (Biome Armor)
++ Interstellar Fashion (Found Armor)
 ## Exploration
 + Spelunker's Best Friends (Tools)
 + Survival Kit (Hazard Protection)
 + Interstellar Geology (Rocks and Minerals)
 + Bountiful Cultivation (Produce)
-+ Gallery of the Arts (Art Trophies)
-+ Library of Babel (Codices)
++ Cultural Marvels (Art Trophies)
++ The Galactic Archives (Codices)
 
-+ Savannah Cave Microdungeons!: There are now structures in Savannah Caves, at least, the start of them. Hope you enjoy bones!
++ Savannah Cave Microdungeons!: There are now structures in Savannah Caves, at least, the start of them. I hope you enjoy bones!
 # Structures
 + 20 Normal Structures
 + 2 Rare Structures
 
-+ Reworked Hazard Warning System!: Tired of all of those radio messages from SAIL about how you're dealing with a hazard? Well, no more! When under a hazard's effects, a small visual and audio cue will play. Now the radio message is only relegated to be played once!
++ New Enhancement Packs!: Some existing back items, and new craftable back items have been added to the Enhancement Pack list!
+# Vanilla Back Items
++ Stargazer Acolyte Wings: +10% Jump Height, +10% Max Energy
++ Stargazer Priest Wings: +20% Jump Height, +15% Max Energy
++ Stargazer Prophet Wings: +25% Jump Height, +20% Max Energy, -10% Fall Damage
++ Shawl of Elation: +15% Damage Boost, +15% Run Boost, Glow 
++ Fire Lord's Cloak: +20% Damage Boost, Fire Immunity, Lava Immunity
+# New Back Items
++ Aurium Defender: +10% All Elemental Resistance
++ Aquari Battlestandard: Swim Boost, Maelstrom
++ Vermillium Shell: +10% Max HP, Noxious
++ Violium Climbing Gear: +20% Jump Boost, +10% Run Boost, -50% Fall Damage
++ Portable Uranium Generator: +25% Max Energy, Energy Recharge
+
++ Reworked Hazard Warning System!: Tired of all of those hazard messages from SAIL? Well, no more! When under a hazard's effects, a small visual and audio cue will play. Now the radio message is only relegated to be played once!
 
 + New Blocks!: Large Vertebra, Large Bone Material, Peat
 
++ New Status Effects!
+# Effects
++ Maelstrom: Deal massive damage while Wet, and half the bonus when Damp.
++ Noxious: A thorns effect that poisons enemies.
 
---- Weapon Changes
+
+--- Equipment Changes
 + Changed certain weapon names:
 + Krakatoa > Foundry Launcher | Tambora > Haphaestus
 + Pallid Mace > Mace of Obsession
 + Snownade Lobber > Snownade Launcher | Snownade Launcher > Snownade Cannon | Snowfort Penetrator > Snowfort Buster
 + Survival Pistol > Alpine Eagle | Alpine Eagle > Thunderbird
 + Toxic Heater > Rayons Alpha
++ Iron Hunting Spear > Javelin
++ Javelin > Floronian Javelin
+
++ Improved existing Enhancement Packs, as I felt they were underpowered:
++ Bladed Wings: Increased Damage Boost to +30% and increased Jump Boost to +20%
++ Avian God Wings: Added Low Gravity
++ Stormchaser Pack: Replaced Mild Static Protection with Universal Mild Hazard Protection
++ Hazmat Air Tank: Added Poison Status Immunity
++ Oxygen Tank: Increased Oxygen Capacity and Added Swim Boost
++ Spacesuit Backpack: Doubled Breathing Rate reduction
 
 + Ex Machina's rockets now always follow the laser.
 
@@ -71,18 +100,26 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 + Removed dialect differences from Savannah Biome Weapons' names
 
-+ Fixed grammar for the crafted Promethium weapons' names.
-
++ Fire Lord's Cloak is now obtainable from Volcanic Chests.
 
 --- Biome Changes 
 + Added Peat to Swamp biomes.
 
-+ Slightly changed coloring on Radioactive Weather cockpit sprites.
++ Slightly changed hazard coloring on Radioactive Weather cockpit sprites.
 
 
 --- Item Changes
++ Updated sprites for: Alien Fruit, Boneboo, Ash Apple, Pussplum
+
 + Added furnace recipe for Coal from Peat. Learned from picking up Peat blocks.
+
+- Reduced chances for weapons to randomly spawn in Perfectly Generic Chests, still guaranteed to have one weapon.
+
+--- Status Effect Changes
++ Improved effect descriptions for: Wet, Swamped, Tarred, Nova, Rage
 
 
 --- Fixes
++ Fixed grammar for the crafted Promethium weapons' names.
 
++ Fixed the Hazmat Airtank's biome resistance effect, now actually blocks it.

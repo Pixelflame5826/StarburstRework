@@ -32,6 +32,11 @@
 	{
         "op": "replace",
         "path": "/description",
-        "value": "A sharp throwing javelin with a hardened metal tip. Suitable for hunting monsters."
+        "value": "A sharp javelin, honed by Floran smiths who have spent their lives making spears. Suitable for hunting megafauna."
+    },
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Floronian Javelin"
     }
 ]

@@ -11,6 +11,6 @@
 
   "animationConfig" : "rage.animation",
 
-  "label" : "Orange Stim - Damage output is 30% stronger.",
+  "label" : "Orange Stim - Deal +30% more damage.",
   "icon" : "/interface/statuses/stimpack/pf_orangestim.png"
 }

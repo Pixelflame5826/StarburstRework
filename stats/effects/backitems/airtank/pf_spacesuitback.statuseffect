@@ -1,7 +1,7 @@
 {
   "name" : "pf_spacesuitback",
   "effectConfig" : {
-	"breathRate" : 0.75
+    "breathRate" : 0.5
   },
   "defaultDuration" : 180,
 

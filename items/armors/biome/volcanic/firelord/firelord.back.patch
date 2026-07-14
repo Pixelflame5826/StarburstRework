@@ -1,0 +1,58 @@
+[
+	{
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_advancedbackwear"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A dark cape worn by a tyrant of eons past. Its imposing fabric is woven with thread that shields the wearer from all forms of fire."
+    },
+    {
+        "op": "add",
+        "path": "/tooltipFields",
+        "value": {
+			"subtitle": "Enhancement Pack",
+
+            "pf_status1Image": "/interface/statuses/rage.png",
+            "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status1Label": "+20%",
+
+            "pf_status2Image": "/interface/statuses/fire.png",
+            "pf_status2BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status2Label": "Immune",
+		
+            "pf_status3Image": "/interface/statuses/pf_melting.png",
+            "pf_status3BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status3Label": "Immune"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/statusEffects",
+        "value": [
+            "pf_firelordback"
+        ]
+    },
+	
+	{
+        "op": "add",
+        "path": "/acceptsAugmentType",
+        "value": "back"
+    },
+	
+    {
+        "op": "add",
+        "path": "/radioMessagesOnPickup",
+        "value": [
+            "pf_pickupenhancementpack"
+        ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/colorOptions/0",
+        "value": { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" }
+    }
+]

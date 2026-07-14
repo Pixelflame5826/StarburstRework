@@ -24,10 +24,10 @@
 
             "pf_status1Image": "/interface/statuses/rage.png",
             "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
-            "pf_status1Label": "+15%",
+            "pf_status1Label": "+30%",
             "pf_status2Image": "/interface/statuses/jumpboost.png",
             "pf_status2BackgroundImage": "/interface/tooltips/statlistback.png",
-            "pf_status2Label": "+10%"
+            "pf_status2Label": "+20%"
         }
     },
     {

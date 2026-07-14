@@ -1,0 +1,11 @@
+{
+  "name" : "pf_firelordback",
+  "effectConfig" : {
+    "powerModifier" : 1.15
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_firelordback.lua"
+  ]
+}

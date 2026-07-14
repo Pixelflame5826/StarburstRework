@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pf_junglebar", "count" : 7 },
+    { "item" : "hardenedcarapace", "count" : 5 },
+    { "item" : "biosample", "count" : 3 }
+  ],
+  "output" : { "item" : "pf_vermilliumshellback", "count" : 1 },
+  "groups" : [ "craftinganvil3", "hazardgear" ]
+}

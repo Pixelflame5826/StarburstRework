@@ -1,7 +1,7 @@
 {
   "name" : "pf_bladedwings",
   "effectConfig" : {
-    "powerModifier" : 1.15
+    "powerModifier" : 1.30
   },
   "defaultDuration" : 15,
 

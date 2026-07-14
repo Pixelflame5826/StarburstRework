@@ -22,6 +22,6 @@
     "thorns.lua"
   ],
 
-  "label" : "Nova Augment - Deal explosive damage to nearby enemies when hit.",
+  "label" : "Nova Augment - Infict ^orange;Burning^reset; on nearby enemies when hit.",
   "icon" : "/interface/statuses/nova.png"
 }

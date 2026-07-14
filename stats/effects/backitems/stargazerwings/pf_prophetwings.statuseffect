@@ -1,0 +1,13 @@
+{
+  "name" : "pf_prophetwings",
+  "effectConfig" : {
+    "energyModifier" : 1.3,
+    "falldamageMultiplier" : 0.9,
+    "jumpModifier" : 0.25
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_stargazerwings.lua"
+  ]
+}

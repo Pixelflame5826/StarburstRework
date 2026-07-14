@@ -38,5 +38,10 @@
         "op": "replace",
         "path": "/description",
         "value": "A well weighted metal spear made for throwing. Suitable for hunting creatures."
+    },
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Javelin"
     }
 ]

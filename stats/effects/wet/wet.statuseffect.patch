@@ -2,7 +2,7 @@
     {
         "op": "replace",
         "path": "/label",
-        "value": "^yellow;Wet - Increased fire resistance and electric susceptibility. Resists Mild Planet Heat, makes Deadly Chill stronger."
+        "value": "^yellow;Wet - Take -50% ^orange;Fire^yellow; and +50% ^purple;Elec^yellow; damage. Strengthens ^orange;Elec^yellow; and ^cyan;Ice^yellow; effects."
     },
 	{
         "op": "replace",

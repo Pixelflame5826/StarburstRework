@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "An oversized, explosive propelling handgun made for purging heresy with extreme levels of effectiveness.",
-  "shortdescription" : "Ultra-Bolter",
+  "shortdescription" : "Ultra Boltgun",
   "tooltipKind" : "pf_uniquegun",
   "category" : "pf_referenceWeapon",
   "twoHanded" : false,

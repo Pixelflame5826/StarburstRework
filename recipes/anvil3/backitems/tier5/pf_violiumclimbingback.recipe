@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 5 },
+    { "item" : "refinedaegisalt", "count" : 5 },
+    { "item" : "leather", "count" : 4 }
+  ],
+  "output" : { "item" : "pf_violiumclimbingback", "count" : 1 },
+  "groups" : [  "craftingmanipulator", "craftingseparator", "craftingaccelerator", "hazardgear" ]
+}

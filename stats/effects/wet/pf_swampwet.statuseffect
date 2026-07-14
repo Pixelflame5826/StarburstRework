@@ -10,6 +10,6 @@
 
   "animationConfig" : "pf_swampwet.animation",
 
-  "label" : "^yellow;Swamped - Increased ice resistance and poison susceptibility.",
+  "label" : "^yellow;Swamped - Take -50% ^cyan;Ice^yellow; and +50% ^green;Poison^yellow; damage. Strengthens ^green;Poison^yellow; effects.",
   "icon" : "/interface/statuses/pf_swampwater.png"
 }

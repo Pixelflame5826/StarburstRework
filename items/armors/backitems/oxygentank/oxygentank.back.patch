@@ -17,7 +17,7 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "An oxygen tank that stores air during downtime for subsequent breathing. Increases your breath capacity."
+        "value": "An oxygen tank that automatically stores air from the atmosphere. Increases breath capacity and quickens swimming."
     },
 	
     {
@@ -28,7 +28,11 @@
 
             "pf_status1Image": "/interface/statuses/pf_breath.png",
             "pf_status1BackgroundImage": "/interface/tooltips/statlistback.png",
-            "pf_status1Label": "+100"
+            "pf_status1Label": "+150",
+
+            "pf_status2Image": "/interface/statuses/swimboost.png",
+            "pf_status2BackgroundImage": "/interface/tooltips/statlistback.png",
+            "pf_status2Label": "Swim Boost"
         }
     },
 	

@@ -11,13 +11,13 @@
   "itemTags" : ["weapon","ranged","sniperrifle","pf_anvilUpgradeableWeapon"],
   "level" : 4,
   
-  "inventoryIcon" : "pf_m1000.png",
+  "inventoryIcon" : "pf_m1000.png:default.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_m1000.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_m1000.png",
-	"middleFullbright" : "pf_m1000fullbright.png",
+	  "middleFullbright" : "pf_m1000fullbright.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
@@ -38,8 +38,8 @@
     },
     "sounds" : {
       "fire" : ["/sfx/gun/sniper3.ogg"],
-	  "chargedfire" : ["/sfx/gun/pf_m1000_chargeshot.ogg"],
-	  "charging" : ["/sfx/melee/timepierce_windup.ogg"]
+	    "chargedfire" : ["/sfx/gun/pf_m1000_chargeshot.ogg"],
+	    "charging" : ["/sfx/melee/timepierce_windup.ogg"]
     }
   },
 
@@ -105,6 +105,10 @@
         "weaponRotation" : 5,
         "twoHanded" : true,
 
+        "animationStates" : {
+          "body" : "cooldown"
+        },
+
         "allowRotate" : false,
         "allowFlip" : false
       },
@@ -123,22 +127,22 @@
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   
   "upgradeParameters" : {
-	"level5" : {
-	  "inventoryIcon" : "pf_m1000_l5.png",
+	  "level5" : {
+	    "inventoryIcon" : "pf_m1000_l5.png",
       "animationParts" : {
         "middle" : "pf_m1000_l5.png",
-		"middleFullbright" : "pf_m1000_l5fullbright.png"
+		    "middleFullbright" : "pf_m1000_l5fullbright.png"
       },
       "shortdescription" : "M-1000 CE"
-	},
-	"level6" : {
-	  "inventoryIcon" : "pf_m1000_l6.png",
+	  },
+	  "level6" : {
+	    "inventoryIcon" : "pf_m1000_l6.png",
       "animationParts" : {
         "middle" : "pf_m1000_l6.png",
-		"middleFullbright" : "pf_m1000_l6fullbright.png"
+		    "middleFullbright" : "pf_m1000fullbright.png"
       },
       "shortdescription" : "M-1000 4R",
       "description" : "A precise weapon used by scouts of an unknown world. Its internal coils allow for powerful charge shot."
-	}
+	  }
   }
 }

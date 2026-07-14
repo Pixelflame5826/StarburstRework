@@ -8,7 +8,7 @@
 	      {"weight" : 0.4, "pool" : "pf_pgiVoxel"},
 		    {"weight" : 0.35, "pool" : "pf_pgiJokes"},
         {"weight" : 0.2, "item" : "pf_pixelflamehathead"},
-        {"weight" : 0.05, "pool" : "pf_pgiGenericWeapon"}
+        {"weight" : 0.02, "pool" : "pf_pgiGenericWeapon"}
       ],
 	  "poolRounds" : [
         [1.00, 1]
@@ -23,21 +23,10 @@
 	      {"weight" : 0.6, "item" : "voxel1k"},
 		    {"weight" : 0.3, "item" : "voxel2k"},
 		    {"weight" : 0.1, "item" : "voxel5k"}
-      ]
-    }]
-  ],
-  
-  "pf_pgiArt" : [
-    [1, {
-      "pool" : [
-	      {"weight" : 0.1, "item" : "paintingstarrynight"},
-		    {"weight" : 0.1, "item" : "paintingscream"},
-		    {"weight" : 0.1, "item" : "paintingmonalisa"},
-		    {"weight" : 0.1, "item" : "genericpainting1"},
-		    {"weight" : 0.1, "item" : "paintingshakespeare"},
-		    {"weight" : 0.1, "item" : "paintingpearlearring"},
-		    {"weight" : 0.1, "item" : "paintingcreationofpixel"},
-		    {"weight" : 0.1, "item" : "grail"}
+      ],
+      "poolRounds" : [
+        [0.50, 0],
+        [0.50, 1]
       ]
     }]
   ],

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "uraniumrod", "count" : 7 },
+    { "item" : "pf_chroniumbar", "count" : 3 },
+    { "item" : "copperbar", "count" : 4 },
+    { "item" : "liquidwater", "count" : 25 }
+  ],
+  "output" : { "item" : "pf_uraniumpackback", "count" : 1 },
+  "groups" : [  "craftingmanipulator", "craftingseparator", "craftingaccelerator", "hazardgear" ]
+}

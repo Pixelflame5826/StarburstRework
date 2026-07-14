@@ -1,0 +1,13 @@
+{
+  "name" : "pf_rainbowback",
+  "effectConfig" : {
+    "powerModifier" : 1.15
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "pf_rainbowback.lua"
+  ],
+
+  "animationConfig" : "pf_rainbowback.animation"
+}

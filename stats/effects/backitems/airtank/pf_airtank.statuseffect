@@ -1,7 +1,15 @@
 {
   "name" : "pf_airtank",
   "effectConfig" : {
-    "breathAmount" : 100
+    "movementParameters" : {
+      "liquidImpedance" : 0.1,
+      "liquidForce" : 150,
+      "liquidJumpProfile" : {
+        "jumpSpeed" : 150.0
+      }
+    },
+
+    "breathAmount" : 150
   },
   "defaultDuration" : 180,
 
