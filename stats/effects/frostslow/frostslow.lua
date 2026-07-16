@@ -5,6 +5,7 @@ function init()
 
   script.setUpdateDelta(5)
   effect.addStatModifierGroup({
+    {stat = "protection", amount = -0.25},
     {stat = "jumpModifier", amount = -0.15}
   })
 end
@@ -12,7 +13,7 @@ end
 function update(dt)
   if (status.stat("pf_isWet") >= 1.0) then
     status.addEphemeralEffect("pf_frostbite")
-	effect.expire()
+	  effect.expire()
   end
   
   mcontroller.controlModifiers({

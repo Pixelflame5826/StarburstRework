@@ -379,5 +379,69 @@
             "weight": 1,
             "item": "pf_windflarerifle"
         }
+    },
+
+    //----TOOLS----
+	//Replacement of tool progression
+    {
+        "op": "replace",
+        "path": "/diggingTool",
+        "value": [
+    [0, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "copperpickaxe"},
+        {"weight" : 0.4, "item" : "copperdrill"}
+      ]
+    }],
+    [1.9, {
+      "pool" : [
+        {"weight" : 0.4, "item" : "copperpickaxe"},
+        {"weight" : 0.3, "item" : "copperdrill"},
+        {"weight" : 0.2, "item" : "silverpickaxe"},
+        {"weight" : 0.1, "item" : "silverdrill"}
+      ]
+    }],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.4, "item" : "silverpickaxe"},
+        {"weight" : 0.3, "item" : "silverdrill"},
+        {"weight" : 0.2, "item" : "goldpickaxe"},
+        {"weight" : 0.1, "item" : "golddrill"}
+      ]
+    }],
+    [3.9, {
+      "pool" : [
+        {"weight" : 0.4, "item" : "goldpickaxe"},
+        {"weight" : 0.3, "item" : "golddrill"},
+        {"weight" : 0.2, "item" : "platinumpickaxe"},
+        {"weight" : 0.1, "item" : "platinumdrill"}
+      ]
+    }],
+    [4.9, {
+      "pool" : [
+        {"weight" : 0.4, "item" : "platinumpickaxe"},
+        {"weight" : 0.3, "item" : "platinumdrill"},
+        {"weight" : 0.2, "item" : "diamondpickaxe"},
+        {"weight" : 0.1, "item" : "diamonddrill"}
+      ]
+    }],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.4, "item" : "diamondpickaxe"},
+        {"weight" : 0.3, "item" : "diamonddrill"},
+        {"weight" : 0.15, "item" : "laserminer"},
+        {"weight" : 0.1, "item" : ["miningdrone", 3]},
+        {"weight" : 0.05, "item" : "energypickaxe"}
+      ]
+    }],
+    [6.9, {
+      "pool" : [
+        {"weight" : 0.25, "item" : "diamondpickaxe"},
+        {"weight" : 0.25, "item" : "diamonddrill"},
+        {"weight" : 0.25, "item" : "laserminer"},
+        {"weight" : 0.25, "item" : "energypickaxe"}
+      ]
+    }]
+  ]
     }
 ]

@@ -11,12 +11,12 @@ function init()
   
   effect.addStatModifierGroup({
     {stat = "protection", effectiveMultiplier = 0.6},
-	{stat = "physicalResistance", amount = -0.5},
-	{stat = "fireResistance", amount = -1.5},
-	{stat = "poisonResistance", amount = -0.5},
-	{stat = "iceResistance", amount = -0.5},
-	{stat = "electricResistance", amount = -0.5},
-	{stat = "fireStatusImmunity", amount = 1.0}
+	  {stat = "physicalResistance", amount = -0.5},
+	  {stat = "fireResistance", amount = -1.5},
+	  {stat = "poisonResistance", amount = -0.5},
+	  {stat = "iceResistance", amount = -0.5},
+	  {stat = "electricResistance", amount = -0.5},
+	  {stat = "fireStatusImmunity", amount = 1.0}
   })
 end
 

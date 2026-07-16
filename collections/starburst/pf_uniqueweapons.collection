@@ -8,7 +8,7 @@
     "brokenprotectoratebroadsword" : {
       "order" : 1,
       "title" : "Broken Broadsword",
-      "description" : "^white;Starter Weapon^reset;\nA Protectorate Peacekeeping Blade far beyond its prime. Found in a rush, its clear its previous user went through some serious danger before coming back. Bad timing...",
+      "description" : "^white;Starter Equipment^reset;\nA Protectorate Peacekeeping Blade far beyond its prime. Found in a rush, its clear its previous user went through some serious danger before coming back. Bad timing...",
       "icon" : "/collections/starburst/images/pf_brokenbroadsword.png"
     },
     "timepierce" : {

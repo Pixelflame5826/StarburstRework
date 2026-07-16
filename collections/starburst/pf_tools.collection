@@ -1,0 +1,195 @@
+{
+  "name" : "pf_tools",
+  "title" : "Spelunker's Best Friends",
+  "type" : "generic",
+
+  "collectables" : {
+    //MINING TOOLS
+    "copperpickaxe" : {
+      "order" : 1,
+      "title" : "Copper Pickaxe",
+      "description" : "^white;Found On: Any Planet^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nThe beginner's pickaxe, a cheap and quick solution to needing to break rocks. Been around since antiquity for all species, this kind of pickaxe is easy to recast once it breaks. Hence why its so common.",
+      "icon" : "/items/tools/miningtools/copperpickaxe.png"
+    },
+    "copperdrill" : {
+      "order" : 2,
+      "title" : "Copper Drill",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nPneumatic drills in the space age much easier to make than most devices. The copper exterior does not do this drill's durability any favors, but you can't deny how cost efficient it is.",
+      "icon" : "/items/tools/miningtools/copperdrill.png:0"
+    },
+    "pf_ironpickaxe" : {
+      "order" : 3,
+      "title" : "Iron Pickaxe",
+      "description" : "^white;Obtained From: ^orange;Foraging Table^reset; \nThe bottom of the \"reasonable technology\" ladder, a basic pickaxe made from iron. A lot more durable than what most other pickaxes are made from, yet not the most efficient rock breaker. You don't see these too often.",
+      "icon" : "/items/tools/miningtools/crafted/pf_ironpickaxe.png"
+    },
+    "pf_irondrill" : {
+      "order" : 4,
+      "title" : "Iron Drill",
+      "description" : "^white;Obtained From: ^orange;Foraging Table^reset; \nGear driven drills, one of the most basic and time tested designs. Still seen in power drills to this day, however this one is much bigger. There's better tech out there, but it does fine.",
+      "icon" : "/items/tools/miningtools/crafted/pf_irondrill.png:0"
+    },
+    "silverpickaxe" : {
+      "order" : 5,
+      "title" : "Silver Pickaxe",
+      "description" : "^white;Found On: Any Planet ^#00d5a0;[Tier 2]^white; ~ ^#00d53c;[Tier 3]^reset; \nSilver is known as a highly soft and ductile metal, however this pickaxe is made from Zinag alloy. Advances in metallurgy allows it to function just fine under stress, while still being flexible enough to not shatter.",
+      "icon" : "/items/tools/miningtools/silverpickaxe.png"
+    },
+    "silverdrill" : {
+      "order" : 6,
+      "title" : "Silver Drill",
+      "description" : "^white;Found On: Any Planet ^#00d5a0;[Tier 2]^white; ~ ^#00d53c;[Tier 3]^reset; \nDespite its silvered exterior, this is probably the simplest electric drill one can make. Need more digging power? Simply make a bigger motor. Less parts and still decent, but incredibly inefficient.",
+      "icon" : "/items/tools/miningtools/silverdrill.png:0"
+    },
+    "goldpickaxe" : {
+      "order" : 7,
+      "title" : "Gold Pickaxe",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nWhile a golden pickaxe has been a joke used by miners for centuries, this model is not as dumb as it sounds. This pickaxe is made from a titanium-gold alloy, allowing for strength and hardness greater than either material.",
+      "icon" : "/items/tools/miningtools/goldpickaxe.png"
+    },
+    "golddrill" : {
+      "order" : 8,
+      "title" : "Gold Drill",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nWhile tungesten-carbide is perhaps the most popular power drill material, at this size, it would be very heavy. The titanium-gold bit allows this drill to be lighter, but about as effective.",
+      "icon" : "/items/tools/miningtools/golddrill.png:0"
+    },
+    "pf_durasteelpickaxe" : {
+      "order" : 9,
+      "title" : "Durasteel Pickaxe",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nThe standard issue for most Protectorate missions, often used during search and rescue for cave-ins or landslides. The durasteel head lasts a lot longer than most tools of its type, and excavates quite quickly. Sometimes reliability is just better.",
+      "icon" : "/items/tools/miningtools/crafted/pf_durasteelpickaxe.png"
+    },
+    "pf_durasteeldrill" : {
+      "order" : 10,
+      "title" : "Durasteel Drill",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nWhile most metal drills of this size would not be able to be handheld, this one has a workaround. The head itself utilizes the strength of durasteel, and is completely hollow on the inside without risking the durability.",
+      "icon" : "/items/tools/miningtools/crafted/pf_durasteeldrill.png:0"
+    },
+    "platinumpickaxe" : {
+      "order" : 11,
+      "title" : "Platinum Pickaxe",
+      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4]^white; ~ ^#b4d500;[Tier 5]^reset; \nPlatinum has had very few uses in metallurgy during the modern era, however more exotic materials have made platinum quite strong. Platinum's high heat tolerance makes it nice for deep mining operations for relatively cheap.",
+      "icon" : "/items/tools/miningtools/platinumpickaxe.png"
+    },
+    "platinumdrill" : {
+      "order" : 12,
+      "title" : "Platinum Drill",
+      "description" : "^white;Found On: Any Planet  ^#3cd500;[Tier 4]^white; ~ ^#b4d500;[Tier 5]^reset; \nThis drill is unique in the fact that it has a platinum-cobalt magnet within its motor. This upgrade to a normal drill has enough torque and heat resistance to break through nearly anything, eventually.",
+      "icon" : "/items/tools/miningtools/platinumdrill.png:0"
+    },
+    "diamondpickaxe" : {
+      "order" : 13,
+      "title" : "Diamond Pickaxe",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nAn almost legendary pickaxe idea, using the hardest material in the universe, and turning it into an excavation tool. Sadly, this is not pure, merely durasteel coated with diamonds. Even with legends, one must be realistic.",
+      "icon" : "/items/tools/miningtools/diamondpickaxe.png"
+    },
+    "diamonddrill" : {
+      "order" : 14,
+      "title" : "Diamond Drill",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe ultimate status symbol as a miner, the massive diamond tipped drill looks as shiny as an actual diamond. Grinds down rocks and stones like no other drill can. Just be careful about heat, because diamonds can burn in oxygen.",
+      "icon" : "/items/tools/miningtools/diamonddrill.png:0"
+    },
+    "pf_chroniumpickaxe" : {
+      "order" : 15,
+      "title" : "Chronium Pickaxe",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nMaking a pickaxe with the timeless metal seems like a no-brainer to many, however a lot would call it overkill. The incredible durability holds its edge for what seems like an eternity. Won't tarnish or rust either, truly a near forever pickaxe.",
+      "icon" : "/items/tools/miningtools/crafted/pf_chroniumpickaxe.png"
+    },
+    "pf_chroniumdrill" : {
+      "order" : 16,
+      "title" : "Chronium Drill",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nOne step below an actual plasma miner, the extreme heat resistance of the chronium allows for a controlled hardlight generator. Hardlight has no durability of its own, meaning the only thing wearing down is the housing itself. It'll last pretty much forever.",
+      "icon" : "/items/tools/miningtools/crafted/pf_chroniumdrill.png:0"
+    },
+    "laserminer" : {
+      "order" : 17,
+      "title" : "Mining Laser",
+      "description" : "^white;Found On: Any Planet ^#d5c300;[Tier 6]^reset; \nWhile most mining lasers are used on mechs, this one is an exception. Long ranged and powerful compared to other tools, but the high power often causes the internals to break down faster. Amazing while it lasts though!",
+      "icon" : "/items/active/unsorted/laserminer/laserminer.png"
+    },
+    "miningdrone" : {
+      "order" : 18,
+      "title" : "Mining Drone",
+      "description" : "^white;Found On: Any Planet ^#d5c300;[Tier 6]^reset; \nA uniquely Avian design for a drone. The core of it allows for incredible amounts of energy generation and transfer, creating a powerful mining laser in a small package. Won't last long, but that's not what they were made for.",
+      "icon" : "/items/active/unsorted/miningdrone/miningdrone.png"
+    },
+    "energypickaxe" : {
+      "order" : 19,
+      "title" : "Energy Pickaxe",
+      "description" : ""^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe pinnacle of mining technology! Originally a standard Solarium Broadsword projector, it was modified to form a near indestructible pickaxe. It will break rock and everything it can, while being perfectly stable.",
+      "icon" : "/items/active/weapons/melee/pickaxe/energypickaxeicon.png"
+    },
+
+    //LIGHT TOOLS 
+    "flare" : {
+      "order" : 20,
+      "title" : "Flare",
+      "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nPerhaps one of the most important tools for an aspiring cave explorer. No matter what you think you can see, you cannot differentiate between a hump and a pit in pitch black darkness. Throw a flare down before you do it yourself.",
+      "icon" : "/items/throwables/flare.png"
+    },
+    "mininglantern" : {
+      "order" : 21,
+      "title" : "Lantern",
+      "description" : "^white;Obtained From: ^orange;Foraging Table^reset; \nThe most basic, long-term lighting implement one can possibly make. A wick and oil. While many other tools nowadays output more lumens, you can't beat fire in terms of simplicity. Just try not to put it on a table next to wood.",
+      "icon" : "/items/tools/mininglantern.png"
+    },
+    "flashlight" : {
+      "order" : 22,
+      "title" : "Flashlight",
+      "description" : "^white;Obtained From: ^orange;Foraging Table^reset; \nBeen around since gas lamps were phased out, a super handly torch to light any direction in front of you. Just make sure to occassionally point the light behind you, in case there's anything there. Never know what's in the dark...",
+      "icon" : "/items/tools/flashlight.png"
+    },
+    "greenflashlight" : {
+      "order" : 23,
+      "title" : "Flashlight (Green)",
+      "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nFlashlights are never colored without some good reason. Green lights are more easily to illuminate certain spaces without as much power draw. Human eyes are well suited for capturing green light, allowing for greater effect.",
+      "icon" : "/items/tools/greenflashlight.png"
+    },
+    "redflashlight" : {
+      "order" : 24,
+      "title" : "Flashlight (Red)",
+      "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nOne of the least bright colors, but that's what makes it useful for stealth situations. Many species with dark vision often lose it when looking at bright lights, with the exception of red. Making night excursions much easier.",
+      "icon" : "/items/tools/redflashlight.png"
+    },
+    "yellowflashlight" : {
+      "order" : 25,
+      "title" : "Flashlight (Yellow)",
+      "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nQuite the relic you have, many older flashlights give off a warm yellow glow. This is because they use icandescent lightbulbs rather than LEDs or other modern lighting methods. Just hope you never need to replace it.",
+      "icon" : "/items/tools/yellowflashlight.png"
+    },
+
+    //MOVEMENT TOOLS 
+    "climbingrope" : {
+      "order" : 26,
+      "title" : "Climbing Rope",
+      "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nA universal climbing tool, a rope attached to some kind of anchor point. Toss it up to climb up steep walls, toss it below you to descend down pits safely. Its very versatile if you know how to us it.",
+      "icon" : "/items/active/grapplinghooks/climbingrope/climbingrope.png"
+    },
+    "grapplinghook" : {
+      "order" : 27,
+      "title" : "Grappling Hook",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nWhen a simple rope and anchor won't cut it. A speedy option with a slightly less versatility than a normal rope. With enough finesse, one can swing around with it and traverse rough terrain within seconds.",
+      "icon" : "/items/active/grapplinghooks/grapplinghook/grapplegun.png"
+    },
+    "pf_stormygrapplinghook" : {
+      "order" : 28,
+      "title" : "Rail-Grappler",
+      "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nOne would think a railgun grappling hook would be a bit overkill, however this model is especially popular with hikers. The extended reach allows for quick traversal of cliffsides and crevices with little issue.",
+      "icon" : "/items/active/grapplinghooks/stormygrapplinghook/pf_stormygrapplegun.png"
+    },
+
+    //OTHER TOOLS
+    "cavedetector" : {
+      "order" : 29,
+      "title" : "Cave Detector",
+      "description" : "^white;Found On: ^orange;Agricultural Station^reset; \nPerhaps one of the most advanced radars in the world. The very subtle ways that the sound vibrates surfaces can tell where there are holes in the rock itself. Extremely precise, but a useful tool for many geologists.",
+      "icon" : "/items/active/unsorted/oredetector/cavedetector.png"
+    },
+    "oredetector" : {
+      "order" : 30,
+      "title" : "Ore Detector",
+      "description" : "^white;Found On: ^orange;Agricultural Station^reset; \nEvery mineral and rock in the universe has a distinct and unique resonance. By vibrating the walls with a specific sound, one can dowse for any valuable material one desires. Originally done by large weights, this extremely precise tool is a marvel on its own.",
+      "icon" : "/items/active/unsorted/oredetector/oredetector.png"
+    }
+  }
+}

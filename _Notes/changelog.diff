@@ -58,12 +58,24 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 + Reworked Hazard Warning System!: Tired of all of those hazard messages from SAIL? Well, no more! When under a hazard's effects, a small visual and audio cue will play. Now the radio message is only relegated to be played once!
 
-+ New Blocks!: Large Vertebra, Large Bone Material, Peat
++ New Blocks!: There are now a few new blocks, mainly centered around the new savannah structures.
+# Blocks
++ Large Vertebra
++ Large Bone Material
++ Peat
 
 + New Status Effects!
 # Effects
 + Maelstrom: Deal massive damage while Wet, and half the bonus when Damp.
 + Noxious: A thorns effect that poisons enemies.
+
++ Light Tool Visual Updates!: New sprites have been made for pretty much every light tool in the game.
+# Visuals Updated
++ Lantern: Now looks closer to a hurricane lamp, though kept many of its original design choices.
++ Flashlight: Given a Protectorate coat of paint.
++ Flashlight (Green): Similar to its vanilla counterpart. Made for visibility.
++ Flashlight (Red): A dark design, for the stealthy purposes red light serves.
++ Flashlight (Yellow): Made into an old aluminium flashlight. 
 
 
 --- Equipment Changes
@@ -115,8 +127,11 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 - Reduced chances for weapons to randomly spawn in Perfectly Generic Chests, still guaranteed to have one weapon.
 
+
 --- Status Effect Changes
 + Improved effect descriptions for: Wet, Swamped, Tarred, Nova, Rage
+
++ Frost now decreases defense like its combo counterpart.
 
 
 --- Fixes

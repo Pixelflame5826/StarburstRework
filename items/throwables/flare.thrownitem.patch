@@ -1,0 +1,28 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.1
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "pf_flarebig.png"
+    },
+	
+	{
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pf_flareicon.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingitem"
+    },
+	{
+        "op": "replace",
+        "path": "/description",
+        "value": "A basic flare, often used to mark locations or to light the darkness. Good to drop one before diving into a cave."
+    }
+]
