@@ -1,0 +1,246 @@
+{
+  "name" : "pf_minerals",
+  "title" : "Interstellar Geology",
+  "type" : "generic",
+
+  "collectables" : {
+    //ORES
+    "copper" : {
+      "order" : 1,
+      "title" : "Copper", //(Cu)",
+      "description" : "^white;Found On: Any Planet & Space ^lightgray;[Any Tier]^reset; \nCopper, atomic number 29. Only ever found in its raw state, its one of the most common elements within the geology of celestial bodies. Its also the most used, from tools to electronic components.",
+      "icon" : "/items/generic/crafting/copperbar.png"
+    },
+    "silver" : {
+      "order" : 2,
+      "title" : "Silver", //(Ag)",
+      "description" : "^white;Found On: Any Planet & Space ^lightgray;[Any Tier]^reset; \nSilver, atomic number 47. While overshadowed by its cousin, Gold, it still is useful to this day. Advances in metallurgy make it useful for weight-bearing alloys in structures and furniture, often paired with titanium or durasteel.",
+      "icon" : "/items/generic/crafting/silverbar.png"
+    },
+    "gold" : {
+      "order" : 3,
+      "title" : "Gold", //(Au)",
+      "description" : "^white;Found On: Any Planet & Space ^lightgray;[Any Tier]^reset; \nGold, atomic number 47. The most precious of metals, well, not so much anymore. Though its shine has been valued for centuries, nowadays its merely known for high conductivity and its usage in high-power computer components.",
+      "icon" : "/items/generic/crafting/goldbar.png"
+    },
+    "coal" : {
+      "order" : 4,
+      "title" : "Coal", //(C)",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1+]^reset; \nCoal, the primary source of carbon, atomic number 6, for pretty much every species. Formed from incomplete decay of plant-life after being buried under the ground, then placed under years of pressure and heat. Nature's form of charcoal!",
+      "icon" : "/items/generic/crafting/coalore.png"
+    },
+    "lead" : {
+      "order" : 5,
+      "title" : "Lead", //(Pb)",
+      "description" : "^white;Found On: Any Planet ^^#00a5d5;[Tier 1+]^reset; \nLead, atomic number 82, is a very common and dense metal. Though its not used as much anymore, as it is a potent neurotoxin in high enough densities. Nowadays it is only really used as a radiation protection method. So simply, its still used a lot, just not visibly.",
+      "icon" : "/items/generic/crafting/leadore.png"
+    },
+    "corefragment" : {
+      "order" : 6,
+      "title" : "Corite", //(FeS3-UO2-SiO2)",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1+]^reset; \nA plutonic rock found in the cores of nearly all active planets. OFten called a solidified \"element soup\" of the planet's mantle. Highly explosive when crushed or heated, it made early deep mining highly dangerous. Now used in nearly every explosive!",
+      "icon" : "/items/generic/crafting/corefragmentore.png"
+    },
+    "diamond" : {
+      "order" : 7,
+      "title" : "Diamond", //(C)",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1+]^reset; \nAn allotrope of carbon, considered rare, but not really. What makes these diamonds rare are the specific conditions required to make them. The conditions near the mantles of many planets allow for perfect shapes for focusing light, thats why they're valuable.",
+      "icon" : "/items/generic/crafting/corefragmentore.png"
+    },
+
+    "erchius" : {
+      "order" : 8,
+      "title" : "Erchius", //(???)",
+      "description" : "^white;Found On: ^#969696;Lunar Planets ^#9c9c9c;[Tier ?]^reset; \nThe very foundation of all FTL technology, yet none know of how it functions. The particles its made of seem to gather around gravity wells, and are not normal matter. The best theory suggests it might come from another dimension.",
+      "icon" : "/items/generic/other/solidfuel.png"
+    },
+
+    "iron" : {
+      "order" : 9,
+      "title" : "Iron",//(Fe)",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1+]^reset; \nIron, atomic number 26, the bane of stars, and an important element for geology. Its only ever found in its many oxide states underground, and can tarnish easily. In spite of this, its one of, if not the single most important metal to any species. Besides maybe aluminium.",
+      "icon" : "/items/generic/crafting/ironbar.png"
+    },
+    "tungsten" : {
+      "order" : 10,
+      "title" : "Tungsten", //(W)",
+      "description" : "^white;Found On: Any Planet ^#00d5a0;[Tier 2+]^reset; \nTungsten, sometimes called Wolfram, is atomic number 74. Found in conjunction with Iron and Maganese, its known as one of the densest and hardest metals. Its thermal resistance and toughness makes it perfect for space-worthy structural supports.",
+      "icon" : "/items/generic/crafting/tungstenbar.png"
+    },
+    "titanium" : {
+      "order" : 11,
+      "title" : "Titanium", //(Ti)",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3+]^reset; \nTitanium, a material fit for mythological Titans, atomic number 21. Mostly found in its oxide form, its famous for its use in space vessels. As its very lightweight and resistant to warping, nearly every space vessel is surrounded in the stuff.",
+      "icon" : "/items/generic/crafting/titaniumbar.png"
+    },
+    "durasteel" : {
+      "order" : 12,
+      "title" : "Durasteel", //(Fe2C2Pb)",
+      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4+]^reset; \nThough a seemingly normal form of steel, its formed from a very specific isotope of Iron. Iron-60 is often found in space in nearby supernovae remnants, often full of cosmic rays. This isotope, when introduced, allows for greater density, creating this wonder material.",
+      "icon" : "/items/generic/crafting/durasteelbar.png"
+    },
+    "aegisalt" : {
+      "order" : 13,
+      "title" : "Aegisalt", //(LiAlCuNa)",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 5+]^reset; \nA salt made from unique conditions not usually found on more stable planets. A highly ionic compound that is used in batteries by putting it into solution with acid. Often used in energy projection tech, as it can gain, store, then release massive amounts of energy.",
+      "icon" : "/items/generic/crafting/refinedaegisalt.png"
+    },
+    "ferozium" : {
+      "order" : 14,
+      "title" : "Ferozium", //(AlO2Li2Cu)",
+      "description" : "^white;Found On: ^cyan;Cold Planets ^#00d53c;[Tier 5]^reset; \nThe standalone member of a family of minerals known as \"Electic\". This is perhaps one of the purest, as it has few other elements inside of it. The unique shape and properties allows it to concentrate energy and release it in a controlled manner.",
+      "icon" : "/items/generic/crafting/refinedferozium.png"
+    },
+    "solarium" : {
+      "order" : 15,
+      "title" : "Solarium", //(AlO2Li2U2)",
+      "description" : "^white;Found On: ^cyan;Hot Planets ^#00d53c;[Tier 5]^reset; \nA member of the Electic family, this one is radioactive due to uranium within it. The chaos within the ionized material, caused by beta decay, means that its always hot to the touch. This energy production means it can supercharge energy projection.",
+      "icon" : "/items/generic/crafting/solariumstar.png"
+    },
+    "violium" : {
+      "order" : 16,
+      "title" : "Violium", //(AlO2Li2SiC)",
+      "description" : "^white;Found On: ^purple;Static Planets ^#00d53c;[Tier 5]^reset; \nPerhaps the most famous Electic mineral, this one follows the idea of the family perfectly. The compounds within give it a hard, crystalline shell. With a high enough voltage, it will release all that energy in a large blast.",
+      "icon" : "/items/generic/crafting/refinedviolium.png"
+    },
+    "chronium" : {
+      "order" : 17,
+      "title" : "Chronium", //(???)",
+      "description" : "^white;Found On: Any Planet ^#d5c300;[Tier 6]^reset; \nThe mysterious dark metal that seems to surround around dim, dying stars. Not much is ultimately known about it. Thought to be some sort of natural alloy. Its incredibly resistant to tarnishing, giving it the title of \"timeless metal\".",
+      "icon" : "/items/generic/crafting/pf_chroniumbar.png"
+    },
+
+    //BIOME MATERIALS
+    "aurium" : {
+      "order" : 18,
+      "title" : "Aurium", //(Au2W)",
+      "description" : "^white;Found On: ^#ffc800;Savannah Planets ^#00d5a0;[Tier 2]^reset; \nOriginally one of the bigger mysteries in the galaxy, as this originally appeared to be of gold, yet very strong. Then they discovered what it was made out of, which only led to more confusion. How a mainly gold alloy could do this is still a mystery.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_savannahbar.png"
+    },
+    "heartwood" : {
+      "order" : 19,
+      "title" : "Petrified Heartwood", //(C-SiO2)",
+      "description" : "^white;Found On: ^#329632;Forest Planets ^#00d5a0;[Tier 2]^reset; \nPetrifying wood isn't a unique geological process. However, this material was formed in a moist and hot environment, causing parts of it to be carbonized. This keeps the tensility of the wood, while being stronger as a result.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_forestdisk.png"
+    },
+
+    "rubite" : {
+      "order" : 20,
+      "title" : "Rubite", //(CaCO3Fe3)",
+      "description" : "^white;Found On: ^#ffc800;Desert Planets ^#00d53c;[Tier 3]^reset; \nDespite its name, its not actually Ruby. It is more of a form of Calcite from ancient oceans and lakes. Lauded by the Avians for centuries, it holds significance as its commonly found on Avos. Noted to have a strange affinity for blood.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_desertcrystal.png"
+    },
+    "blueice" : {
+      "order" : 21,
+      "title" : "Blue Ice", //(H2O)",
+      "description" : "^white;Found On: ^#ffffff;Snowy Planets ^#00d53c;[Tier 3]^reset; \nIce of this kind is quite rare in the universe. While it has the same composition as normal water, eons of compaction and freezing have made this kind especially dense, allowing it to stay solid and cold in hot temperatures.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_desertcrystal.png"
+    },
+    "aquari" : {
+      "order" : 22,
+      "title" : "Aquari", //(???)",
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nSome say that crystals hold some special power within them. This one is one of the few that likely do. Aquari seems to hold some power over water, often drawing it in like a vaccuum. Hylotl say that its solidified \"spiritual water\", so who can say.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_oceancrystal.png"
+    },
+
+    "xenocyte" : {
+      "order" : 23,
+      "title" : "Xenocyte", //(N/A)",
+      "description" : "^white;Found On: ^#ff00ff;Alien Planets ^#3cd500;[Tier 4]^reset; \nThis strange material that's not a mineral, or even a mineraloid. This is actually a colony of microorganisms that are attracted to metal deposits. Even stranger, is the fact that it can be used in metallurgy, incorporating both into a self-repairing material.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_alienorb.png"
+    },
+    "vermillium" : {
+      "order" : 24,
+      "title" : "Vermillium", //(N/A)",
+      "description" : "^white;Found On: ^#c832c8;Jungle Planets ^#3cd500;[Tier 4]^reset; \nThe concept of rot is universal, especially in wooded environments. Vermillium is the byproduct of dying native plants. Though it seems to hold atmospheric toxins, keeping them locked away. Likely as a purifying force to keep the jungle from becoming inhospitable.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_vermilliumbar.png"
+    },
+
+    "promethium" : {
+      "order" : 25,
+      "title" : "Promethium", //(Pm)",
+      "description" : "^white;Found On: ^#c89696;Scorched Planets ^#d5c300;[Tier 6]^reset; \nPromethium, atomic number 61, is unique. It's one of the few materials that can only be made through artificial means. Seems like the warlike species found a way to make constantly supercritical isotope of it. Some would call it the mineralized version of wrath.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_scorchedrod.png"
+    },
+    "uranium" : {
+      "order" : 26,
+      "title" : "Uranium", //(U)",
+      "description" : "^white;Found On: ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nThis is not a naturally occuring form of uranium, atomic number 92. Instead of being found as Uraninite, this was found enriched and pure. Though very convenient, its clear how little care was taken by the previous natives in disposing of nuclear waste. ",
+      "icon" : "/items/generic/crafting/uraniumrod.png"
+    },
+    "erebium" : {
+      "order" : 27,
+      "title" : "Erebium", //(???)",
+      "description" : "^white;Found On: ^#969696;Midnight Planets ^#d5c300;[Tier 6]^reset; \nIt was once theorized that Erebium was some kind of ancient material once used by the Shadow people, this is likely true. However, it does not explain its origin... ^red;it's like that it was always there, and always will be... Remnants of something dying.",
+      "icon" : "/items/generic/crafting/biomematerial/pf_shadowstar.png"
+    },
+
+    //BLOCKS
+    "sandstone" : {
+      "order" : 28,
+      "title" : "Sandstone", //(SiO2)",
+      "description" : "^white;Commonly Found On: ^#00d53c;Desert Planets^reset; \nSandstone, what one often thinks of when thinking of a sedimentary rock. Layered stone born from countless grains of sand cemented together by eons of pressure. Often born from deserts that are just as long, giant dunes of sand on top of sand, eventually fusing the lower sediments.",
+      "icon" : "/items/materials/pf_layeredsandstone.png"
+    },
+    "slate" : {
+      "order" : 29,
+      "title" : "Slate", //(SiO2)",
+      "description" : "^white;Commonly Found On: ^#ffffff;Snowy Planets^reset; \nMudrock is what you get when mud and clay is cemented into rocks. When one heats said mudrock, you get slate. Often found where there was once rivers and such to break down such rocks. Though due to the age, are likely long gone.",
+      "icon" : "/items/materials/pf_slate.png"
+    },
+    "quartz" : {
+      "order" : 30,
+      "title" : "Quartz", //(SiO2)",
+      "description" : "^white;Commonly Found On: ^#960000;Volcanic Planets^reset; \nPure silica, one of the most common minerals in the universe. Though its often seen in its other forms, it requires intrusions of silica-rich magma to make such large crystals. Also found in geodes in the form of agate!",
+      "icon" : "/items/materials/crystalblock.png"
+    },
+    "obsidian" : {
+      "order" : 31,
+      "title" : "Obsidian", //(SiO2)",
+      "description" : "^white;Commonly Found On: ^#960000;Volcanic Planets^reset; \nThough it doesn't initially look like it, obsidian is one of the few forms of natural glass. Formed when silica-rich lava is quickly cooled, forming an amorphous glass. Favored by Avians as a traditional blade material, making some of the most fearsome of their macuahuitls.",
+      "icon" : "/items/materials/obsidian.png"
+    },
+    "andesite" : {
+      "order" : 32,
+      "title" : "Andesite", //(NaAlSi3O8)",
+      "description" : "^white;Commonly Found On: ^#960000;Volcanic Planets^reset; \nAndesite is formed from cooling lava in open air, in between the silica-rich granitic lava and iron-rich basaltic lava. One of the more common igneous rocks on many planets, as even the most mafic planets hold some amount of silica.",
+      "icon" : "/items/materials/magmarock.png"
+    },
+    "andisol" : {
+      "order" : 33,
+      "title" : "Andisol", //(Al2O3(SiO2))",
+      "description" : "^white;Commonly Found On: ^#960000;Volcanic Planets^reset; \nVolcanic soil is known by the Glitch and ancient Humanity to be one of the best for crop yields. The fresh minerals from the silica-rich volcanic ash that makes it up allows for healthy plants. Its about the only reason many species live next to active volcanoes.",
+      "icon" : "/items/materials/pf_volcanicdirt.png"
+    },
+    "basalt" : {
+      "order" : 34,
+      "title" : "Basalt", //(SiO4Fe)",
+      "description" : "^white;Commonly Found On: ^#960000;Volcanic Planets^reset; \nPerhaps one of the most famous igneous rocks; basalt is known for large columns and floods that cover continents. Formed from iron-rich lava slowly cooling in the open air. The less viscous nature of the lava is what causes the pillars, making cracks as it cools.",
+      "icon" : "/items/materials/magmarock.png"
+    },
+    "limestone" : {
+      "order" : 35,
+      "title" : "Limestone", //(CaCO3)",
+      "description" : "^white;Found On: Any Planet & Space ^lightgray;[Any Tier]^reset; \nAn extremely common rock that can be formed in many different ways. Due to large deposits of calcium carbonate, these can be either made from geological deposits, or deposits of trillions of dead microorganisms. As such, its where pretty much all fossils are found.",
+      "icon" : "/items/materials/limestone.png"
+    },
+    "fossilstone" : {
+      "order" : 36,
+      "title" : "Fossil Limestone", //(CaCO3)",
+      "description" : "^white;Commonly Found On: ^#0000ff;Ocean Planets^reset; \nLimestone is often the biggest way that life affects the very structure of the planet it resides upon. There are thousands of caves and pockets on every world, mountains of calcite, and you can trace them all back to quintillions of dead lifeforms. Its like a graveyard...",
+      "icon" : "/items/materials/pf_fossilstone.png"
+    },
+    "peat" : {
+      "order" : 37,
+      "title" : "Peat", //(N/A)",
+      "description" : "^white;Commonly Found In: ^brown;Swamp Biomes^reset; \nThe geologic form of rot. The precursor to coal, this material is made of countless dead plants and mosses that have built up over centuries. Can be burnt on its own, but modern technology can replicate the pressure and heat needed to complete the process.",
+      "icon" : "/items/materials/pf_peat.png"
+    },
+    "halite" : {
+      "order" : 38,
+      "title" : "Halite", //(NaCl)",
+      "description" : "^white;Commonly Found On: ^#0000ff;Ocean Planets^reset; \nPure table salt, sodium chloride, straight from the ground. Formed from ancient or current oceans, the salt there has been deposited over eons. Its one of the few safe rocks you can consume! Completely non-organic!",
+      "icon" : "/items/materials/pf_saltblock.png"
+    }
+  }
+}

@@ -203,7 +203,7 @@
     "electrobaton" : {
       "order" : 30,
       "title" : "Electro Baton",
-      "description" : "^white;Found In: ^#a451c4;Space Encounters ^lightgray;[Any Tier]^reset; \nLetheia is no stranger to doing business with some unsavory clients, none moreso than the Miniknog. Commissioned for their Insurgence Elimination squads, these batons stun foes when taking them alive is preferred. Law enforcement everywhere enjoys these.",
+      "description" : "^white;Found In: ^#a451c4;Space Encounters ^lightgray;[Any Tier]^reset; \nLetheia is no stranger to doing business with some unsavory clients, none moreso than the Miniknog. Commissioned for their Insurgence Elimination squads, these batons stun foes when taking them alive is preferred.",
       "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
     },
     "raygun" : {

@@ -1,0 +1,288 @@
+{
+  "name" : "pf_farmables",
+  "title" : "Bountiful Cultivation",
+  "type" : "generic",
+
+  "collectables" : {
+    //LUSH
+    "wheat" : {
+      "order" : 1,
+      "title" : "Wheat", 
+      "description" : "^white;Commonly Found On: ^#00c800;Lush Planets^reset; \nThe classic grain crop, famous around the galaxy for humanity's bread. Though this is not Terran wheat, merely convergent evolution that functions like wheat. As most interstellar crops are.",
+      "icon" : "/items/generic/produce/wheat.png"
+    },
+    "rice" : {
+      "order" : 2,
+      "title" : "Rice", 
+      "description" : "^white;Commonly Found On: ^#00c800;Lush Planets^reset; \nRice is a staple of many dishes. A lot simpler to prepare than wheat, its good as a survival food. Hylotl particularly like it, as a similar crop evolved on their homeworld with the high moisture.",
+      "icon" : "/items/generic/produce/rice.png"
+    },
+    "corn" : {
+      "order" : 3,
+      "title" : "Corn", 
+      "description" : "^white;Commonly Found On: ^#00c800;Lush Planets^reset; \nThough it doesn't look like it, corn is just really tall grass. Avians in particular tend to like it as pecking at the cob is satisfying to them. Just don't get lost in fields of it, the ears listen.",
+      "icon" : "/items/generic/produce/corn.png"
+    },
+    "pearlpea" : {
+      "order" : 4,
+      "title" : "Pearlpea", 
+      "description" : "^white;Commonly Found On: ^#00c800;Lush Planets^reset; \nDespite its name, the pearlpea isn't very similar to a pea. Its actually a berry! Inside the hard, pearlescent shell, is a jelly like substance with the seeds. Boiling it often creates a sweet slurry.",
+      "icon" : "/items/generic/produce/pearlpea.png"
+    },
+    "potato" : {
+      "order" : 5,
+      "title" : "Potato", 
+      "description" : "^white;Commonly Found On: ^#00c800;Lush Planets^reset; \nThe humble potato, the first superfood discovered by humans. You can do anything with them, and you can get all the calories you'd ever want from them. Often used in space travel as canned rations in emergencies.",
+      "icon" : "/items/generic/produce/potato.png"
+    },
+    "cotton" : {
+      "order" : 6,
+      "title" : "Cotton", 
+      "description" : "^white;Commonly Found On: ^#00c800;Lush Planets^reset; \nCotton has been a staple of fabrics for eons at this point, easily cultivated, and easily woven. Can be used in wools, linens, canvas. Perhaps the most common fiber beyond artificial textiles.",
+      "icon" : "/items/generic/crafting/cotton.png"
+    },
+
+    //FOREST
+    "carrot" : {
+      "order" : 7,
+      "title" : "Carrot", 
+      "description" : "^white;Commonly Found On: ^#329632;Forest Planets^reset; \nDespite popular mythos, carrots cannot allow you to see in the dark, but they are healthy. Easily grown and prepared, its sweet taste and crunch is quite popular with all species with jaws.",
+      "icon" : "/items/generic/produce/carrot.png"
+    },
+    "cocoa" : {
+      "order" : 8,
+      "title" : "Cocoa Pod", 
+      "description" : "^white;Commonly Found On: ^#329632;Forest Planets^reset; \nPerhaps humanity's greatest discovery, according to them. The main ingredient in chocolate. The bitter taste when combined with sugar is like heaven in your mouth, or beak, or glowing membrane. Universal taste!",
+      "icon" : "/items/generic/produce/cocoa.png"
+    },
+    "tomato" : {
+      "order" : 9,
+      "title" : "Tomato", 
+      "description" : "^white;Commonly Found On: ^#329632;Forest Planets^reset; \nNot many species can resist a juicy tomato. Eat it raw, cook it until its juicy, turn it into a sauce. There's a lot one can do with it. Just don't put it on toxic tableware, that gave the Glitch a few problems.",
+      "icon" : "/items/generic/produce/tomato.png"
+    },
+    "pf_tea" : {
+      "order" : 10,
+      "title" : "Tea", 
+      "description" : "^white;Commonly Found On: ^#329632;Forest Planets^reset; \nThe favorite of many species, tea. By steeping tea leaves or flowers in boiling water, one can make a variety of beverages. Hylotl prefer it hot and floral. Novakids prefer it cold and sweet. Everyone has their own.",
+      "icon" : "/items/generic/produce/pf_tealeaf.png"
+    },
+    "sugar" : {
+      "order" : 11,
+      "title" : "Sugar", 
+      "description" : "^white;Commonly Found In: ^green;Spring Biomes^reset; \nSugar, the one thing every living being needs. Glucose is found in every single biological lifeforms, and even Glitch still need to burn it. A staple of thousands of food recipes, though too much is generally unhealthy.",
+      "icon" : "/items/generic/produce/sugar.png"
+    },
+    "shroom" : {
+      "order" : 12,
+      "title" : "Mushroom", 
+      "description" : "^white;Commonly Found In: ^green;Mushroom Biomes^reset; \nMushrooms, they will either kill you, or be a wonderful delicacy. There is no in-between. A common additive to many dishes, the unique texture is what draws many species to them. As long as they know where to look.",
+      "icon" : "/items/generic/produce/shroom.png"
+    },
+
+    //SAVANNAH
+    "thornfruit" : {
+      "order" : 13,
+      "title" : "Thorn Fruit", 
+      "description" : "^white;Commonly Found On: ^#ffc800;Savannah Planets^reset; \nOut of most plants, this one seems like the biggest \"don't eat\" out of all of them. However, if you can get past the thorns, thorn fruit are an amazing source of hydration and have a unique flavor!",
+      "icon" : "/items/generic/produce/thornfruit.png"
+    },
+    "currentcorn" : {
+      "order" : 14,
+      "title" : "Current Corn", 
+      "description" : "^white;Commonly Found On: ^#ffc800;Savannah Planets^reset; \nSavannahs are mostly dry, but have wet seasons with massive storms. Currentcorn often feeds off of static and the lightning, storing it in its acidic insides. Only Glitch really get a kick out of it.",
+      "icon" : "/items/generic/produce/currentcorn.png"
+    },
+    "boneboo" : {
+      "order" : 15,
+      "title" : "Boneboo", 
+      "description" : "^white;Commonly Found In: ^lightgray;Bone Biomes^reset; \nAn odd plant, only naturally grows in places full of calcium cabonate. Boneboo is most famous for its vague resemblance to a skull. Though, in reality, its just pareidolia. Still spooky.",
+      "icon" : "/items/generic/produce/boneboo.png"
+    },
+
+    //TERRAMART
+    "redapple" : {
+      "order" : 16,
+      "title" : "Apple", 
+      "description" : "^white;Obtained From: ^orange;Terramart^reset; \nAn actual, genuine, terran apple. Favored for its sweetness and tangy flavor. There's about a thousand different kinds, but these have been specifically bred for hardiness and off-world cultivation. So its unimportant.",
+      "icon" : "/items/generic/produce/redapple.png"
+    },
+    "orange" : {
+      "order" : 17,
+      "title" : "Orange", 
+      "description" : "^white;Obtained From: ^orange;Terramart^reset; \nWhat came first, the color or the fruit? It was actually the color. This definition of a color is known for its definitionally sweet and sour flavor. High in Vitamin C, Vitamin Avi, and Anti-Ferrant, it is quite the boon.",
+      "icon" : "/items/generic/produce/orange.png"
+    },
+
+    "silkfibre" : {
+      "order" : 18,
+      "title" : "Silk", 
+      "description" : "^white;Obtained From: ^orange;Moth Traps^reset; \nEver since the advent of silky moths on many planets, it made the silk industry boom, since harvesting was easy. Now its not as luxurious as before, but its still quite a comfortable fabric. Especially adored by Hylotl.",
+      "icon" : "/items/generic/crafting/silkfibre.png"
+    },
+
+    //DESERT
+    "cacti" : {
+      "order" : 19,
+      "title" : "Cactus", 
+      "description" : "^white;Commonly Found On: ^#00d53c;Desert Planets^reset; \nWhile not the best source of food, these succulents are hiding large amounts of watery juice and flesh ripe for the taking. In the vast oceans of dunes and sand, its the quenchiest!",
+      "icon" : "/items/generic/produce/cacti.png"
+    }, 
+    "chili" : {
+      "order" : 20,
+      "title" : "Chili", 
+      "description" : "^white;Commonly Found On: ^#00d53c;Desert Planets^reset; \nThe famous hot food. When dehydrated and crushed, it makes an amazing spice for any meal. Though, due to what makes it spicy, Avians famously cannot taste the heat and often put a lot on their dishes.",
+      "icon" : "/items/generic/produce/chiliicon.png"
+    },
+    "beakseed" : {
+      "order" : 21,
+      "title" : "Beakseed", 
+      "description" : "^white;Commonly Found On: ^#00d53c;Desert Planets^reset; \nPractically the main \"grain\" crop for Avian culture, the many seeds packed within its beak-like shell can be used for many purposes. Considered a delicacy by them. For everyone without beaks, its annoying.",
+      "icon" : "/items/generic/produce/beakseed.png"
+    },
+    "feathercrown" : {
+      "order" : 22,
+      "title" : "Feathercrown", 
+      "description" : "^white;Found In: ^blue;Oasis Biomes^reset; \nThough it has evolved on Desert worlds, it doesn't take the heat too well. Its unique growing conditions and unique look, make it a rare delicacy amongst Avians. Often used in dishes made for ceremonial or unique occassions.",
+      "icon" : "/items/generic/produce/feathercrown.png"
+    },
+    "kiwi" : {
+      "order" : 23,
+      "title" : "Kiwi", 
+      "description" : "^white;Found In: ^blue;Oasis Biomes^reset; \nAn offputting fruit to many, the kiwi's furry exterior almost makes it on par with Oculemons to non-Humans. The green insides are very sweet and juicy almost to compensate. A staple of any tropical fruit dish.",
+      "icon" : "/items/generic/produce/kiwi.png"
+    },
+
+    //SNOW
+    "pf_frostberry" : {
+      "order" : 24,
+      "title" : "Frostberry", 
+      "description" : "^white;Commonly Found On: ^#ffffff;Snowy Planets^reset; \nA relative of the Pearlpea, still holding that outside shell with juicy insides. Its outer shell is formed from ice, which often gives it the appearance of \"melting\" when cooked. Apex still sometimes eat it raw.",
+      "icon" : "/items/generic/produce/pf_frostberry.png"
+    }, 
+    "automato" : {
+      "order" : 25,
+      "title" : "Automato", 
+      "description" : "^white;Commonly Found On: ^#ffffff;Snowy Planets^reset; \nMany plants in extreme environments evolved to protect themselves by growing an outer skin of metal. Automatos are an extreme form of that. The Glitch say its healthy, everyone else says its like eating coins.",
+      "icon" : "/items/generic/produce/automato.png"
+    }, 
+    "neonmelon" : {
+      "order" : 26,
+      "title" : "Neonmelon",
+      "description" : "^white;Commonly Found In: ^#fff15e;Bioluminescent Biomes^reset; \nUnlike the bioluminescent plantlife around it, Neonmelons evolved a glowing interior. Likely to attract animals to come eat it when its ripe and ready. Sapient species say it tastes oddly like bubblegum.",
+      "icon" : "/items/generic/produce/neonmelon.png"
+    },
+    "diodia" : {
+      "order" : 27,
+      "title" : "Diodia",
+      "description" : "^white;Commonly Found In: ^cyan;Steamspring Biomes^reset; \nThough it resembles a potato, it doesn't even have the same lifecycle. Its often seen harvesting heat and water. To survive, it steams itself to keep itself warm and keep its internal chemistry working.",
+      "icon" : "/items/generic/produce/diodia.png"
+    },
+
+    //OCEAN
+    "reefpod" : {
+      "order" : 28,
+      "title" : "Reefpod", 
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nMost sea plants don't go the fruit route, mostly spreading their seeds through spores. Filling itself with seawater, these pods often float through the water to find new homes. As a result, its kind of salty.",
+      "icon" : "/items/generic/produce/reefpod.png"
+    }, 
+    "coralcreep" : {
+      "order" : 29,
+      "title" : "Coralcreep", 
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nAn odd plant that defies culinary labelling. This plant wants to be eaten by carnivores, as they can't digest its seeds. This leads it to looking and tasting like a crustacean. Hey, at least the pacifists are happy!",
+      "icon" : "/items/generic/produce/coralcreep.png"
+    },
+
+    //JUNGLE
+    "pineapple" : {
+      "order" : 30,
+      "title" : "Pineapple", 
+      "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nPineapple, or Ananas, depending on who you ask. The staple of tropical dishes, and a hot debate for pizza. It has a kick so strong that it actually breaks down meat. Its very popular as a garnish for that specific reason.",
+      "icon" : "/items/generic/produce/pineapple.png"
+    },
+    "banana" : {
+      "order" : 31,
+      "title" : "Banana", 
+      "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nAn Apex's best friend! Ever since they were discovered by the Apex, its been a staple in their culture for centuries. Though Avians and Humans discovered them first. An amazing source of potassium, and vaguely radioactive.",
+      "icon" : "/items/generic/produce/banana.png"
+    },
+    "coffeebeans" : {
+      "order" : 32,
+      "title" : "Coffee Beans", 
+      "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nCoffee, a universal drink. For the overworked Hylotl, for the Human getting up in the morning, for the Apex dealing with beureaucracy. Every species can respect its high caffiene content. Except Novakids, they go a little crazy.",
+      "icon" : "/items/generic/produce/coffeebeans.png"
+    },
+    "avesmingo" : {
+      "order" : 33,
+      "title" : "Avesmingo", 
+      "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nCommonly known as the wonderfruit. With any amount of preparation, its myriad of chemicals within its juicy flesh can make it taste like anything. The Avians named it after the heavens for a reason.",
+      "icon" : "/items/generic/produce/avesmingo.png"
+    },
+
+    //ALIEN
+    "dirturchin" : {
+      "order" : 34,
+      "title" : "Dirturchin", 
+      "description" : "^white;Commonly Found On: ^#ff00ff;Alien Planets^reset; \nThe uncommon biology of mutated worlds makes most chemicals that define taste to be incompatible with the tastebuds of most species. Some say dirturchin has a unique and exotic taste, most of the time, its bland.",
+      "icon" : "/items/generic/produce/dirturchin.png"
+    },
+    "alienfruit" : {
+      "order" : 35,
+      "title" : "Alien Fruit", 
+      "description" : "^white;Commonly Found On: ^#ff00ff;Alien Planets^reset; \nOne of the few mutated plants that one can eat and not get poisoned or disappointed. Its said to give your tongue a warm zap, like its been hit with radiation. Though no adverse effects have been seen.",
+      "icon" : "/items/generic/produce/alienfruit.png"
+    },
+    "oculemon" : {
+      "order" : 36,
+      "title" : "Oculemon", 
+      "description" : "^white;Commonly Found In: ^white;Eyepatch Biomes^reset; \nIs it a lemon, or a melon? Its actually both and neither. An unsettling, yet popular fruit in recent times, nearly completely phasing out the lemon. Not actually an eye, the pupil is actually a large seed. The iris is the most sour part.",
+      "icon" : "/items/generic/produce/oculemon.png"
+    },
+    "pussplum" : {
+      "order" : 37,
+      "title" : "Pussplum", 
+      "description" : "^white;Commonly Found In: ^red;Flesh Caves^reset; \nPerhaps the least adored fruit in the galaxy, not because of its taste, but how it looks. The white insides are gooey and full of sugars, its very structure makes many lose their appetite when preparing it. Chefs hate it.",
+      "icon" : "/items/generic/produce/pussplum.png"
+    },
+
+    //VOLCANIC
+    "pf_ashapple" : {
+      "order" : 38,
+      "title" : "Ash Apple", 
+      "description" : "^white;Commonly Found On: ^#960000;Volcanic Planets^reset; \nHighly explosive, and impossible to eat normally. You wouldn't think anyone would try to eat an Ash Apple. But by activating the dust inside, it creates an extreme spice... that still tastes kind of like ash.",
+      "icon" : "/items/generic/produce/pf_ashapple.png"
+    },
+
+    //TUNDRA
+    "eggshoot" : {
+      "order" : 39,
+      "title" : "Eggshoot", 
+      "description" : "^white;Commonly Found On: ^#b4b4b4;Tundra Planets^reset; \nThe eggshoot seems out of place, a green plant amongst a frozen wasteland. However, most of the nutrients and insides are centered in the \"yolk\" inside of the plant. It merely tastes like an egg by coincidence. Can't make an omelette.",
+      "icon" : "/items/generic/produce/eggshoot.png"
+    },
+
+    //SCORCHED
+    "wartweed" : {
+      "order" : 40,
+      "title" : "Wartweed", 
+      "description" : "^white;Commonly Found On: ^#c89696;Scorched Planets^reset; \nOnce considered a pest by the natives, this hardy weed is about the only plantlife that has survived the apocalypse. It tastes kind of bad, but in a survival situation, you can't really complain.",
+      "icon" : "/items/generic/produce/wartweed.png"
+    },
+
+    //TOXIC
+    "toxictop" : {
+      "order" : 41,
+      "title" : "Toxictop", 
+      "description" : "^white;Commonly Found On: ^#00ff00;Toxic Planets^reset; \nA pineapple that evolved to survive the polluted environment it found itself in. The internal acids have become actively toxic. Doesn't stop most species, especially Hylotl. Are they proud of themselves for this creation? Probably not.",
+      "icon" : "/items/generic/produce/toxictop.png"
+    },
+
+    //MIDNIGHT
+    "boltbulb" : {
+      "order" : 42,
+      "title" : "Boltbulb", 
+      "description" : "^white;Commonly Found On: ^#969696;Midnight Planets^reset; \nA relative of the eggshoot. Without light, they had to take in the electricity from the air itself. Without photosynthesis and a metallic shape, one must wonder if this thing is even still alive anymore...",
+      "icon" : "/items/generic/produce/boltbulb.png"
+    }
+  }
+}

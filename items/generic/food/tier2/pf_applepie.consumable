@@ -4,7 +4,7 @@
   "price" : 190,
   "category" : "preparedFood",
   "inventoryIcon" : "pf_applepie.png",
-  "description" : "A sweet pie filled with sliced apples. A favorite to Humanity, there's not much more famous than its.",
+  "description" : "A sweet pie filled with sliced apples. A favorite to Humanity, very famous as a near timeless tradition.",
   "shortdescription" : "Apple Pie",
   "effects" : [ [
     {

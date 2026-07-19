@@ -8,7 +8,7 @@
     "copperpickaxe" : {
       "order" : 1,
       "title" : "Copper Pickaxe",
-      "description" : "^white;Found On: Any Planet^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nThe beginner's pickaxe, a cheap and quick solution to needing to break rocks. Been around since antiquity for all species, this kind of pickaxe is easy to recast once it breaks. Hence why its so common.",
+      "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nThe beginner's pickaxe, a cheap and quick solution to needing to break rocks. Been around since antiquity for all species, this kind of pickaxe is easy to recast once it breaks. Hence why its so common.",
       "icon" : "/items/tools/miningtools/copperpickaxe.png"
     },
     "copperdrill" : {
