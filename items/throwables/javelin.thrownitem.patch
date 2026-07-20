@@ -38,5 +38,11 @@
         "op": "replace",
         "path": "/shortdescription",
         "value": "Floronian Javelin"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "javelin" }
     }
 ]

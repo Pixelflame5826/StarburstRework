@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A large proton cannon, for those special criminals. Called the \"Judge\" because of its sheer power."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "neolaserlauncher" }
+    }
 ]

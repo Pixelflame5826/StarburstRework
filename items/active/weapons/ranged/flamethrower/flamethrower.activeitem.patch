@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "An old Terran flamethrower, a very effective tool for both forest clearing and trench clearing."
-	}
+	},
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "flamethrower" }
+    }
 ]

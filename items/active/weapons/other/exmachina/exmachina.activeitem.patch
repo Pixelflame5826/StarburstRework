@@ -133,5 +133,11 @@
                 }
             ]
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_otherworldlyweapons" : "exmachina" }
     }
 ]

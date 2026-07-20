@@ -54,5 +54,11 @@
         "op": "replace",
         "path": "/colorOptions/0",
         "value": { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" }
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_enhancementpacks" : "firelordback" }
     }
 ]

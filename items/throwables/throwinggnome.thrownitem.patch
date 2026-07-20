@@ -33,5 +33,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A group of gnomes that can fight for you. Its like your own little conscripted army!"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "throwinggnome" }
     }
 ]

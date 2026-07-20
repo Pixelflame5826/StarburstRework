@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "Asra Nox built this katana to rend and burn anything it touches. Its design is very elegant, yet menacing."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "soluskatana" }
     }
 ]

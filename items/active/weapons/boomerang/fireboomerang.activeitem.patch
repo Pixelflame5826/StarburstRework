@@ -23,5 +23,11 @@
         "op": "add",
         "path": "/elementalType",
         "value": "fire"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "fireboomerang" }
     }
 ]

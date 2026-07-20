@@ -106,5 +106,11 @@
     {
         "op": "remove",
         "path": "/animationCustom/animatedParts"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_biomeweapons" : "spaceplasmarifle" }
     }
 ]

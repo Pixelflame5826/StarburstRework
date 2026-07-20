@@ -28,5 +28,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A hive that lets out lots of bees! Bee careful, the swarms are known to attack anything."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "hivebomb" }
     }
 ]

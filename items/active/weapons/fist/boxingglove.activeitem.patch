@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A basic glove commonly used in boxing. Not too strong, but it protects your hands and is satisfying to hit with."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "boxingglove" }
     }
 ]

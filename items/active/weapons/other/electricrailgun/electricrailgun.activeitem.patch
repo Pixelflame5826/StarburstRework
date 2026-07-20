@@ -65,5 +65,11 @@
         "op": "replace",
         "path": "/upgradeParameters/inventoryIcon",
         "value": "pf_electricrailgun_l6-ani.png:default.1"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "electricrailgun" }
     }
 ]

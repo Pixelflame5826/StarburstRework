@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A staff spoken about in Avian scripture. Once wielded by a Prophet who was said to be undefeated in combat."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "kluexstaff" }
     }
 ]

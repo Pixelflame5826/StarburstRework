@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A gauntlet with metal claws attached to it. A very flashy way to rip things to shreds. Not made of adamantium."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "clawglove" }
     }
 ]

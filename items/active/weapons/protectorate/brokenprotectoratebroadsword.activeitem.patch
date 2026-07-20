@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "An experimental blade used by the Protectorate, but you found it in poor condition. ^green;Perhaps it can be repaired.^white;"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "brokenprotectoratebroadsword" }
     }
 ]

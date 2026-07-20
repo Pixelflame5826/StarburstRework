@@ -18,5 +18,11 @@
         "op": "replace",
         "path": "/cooldownTime",
         "value": 0.6
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "hardchakram" }
     }
 ]

@@ -42,5 +42,11 @@
         "op": "replace",
         "path": "/upgradeParameters/inventoryIcon",
         "value": "pf_gristlegun_l6-ani.png:default.1"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "gristlegun" }
     }
 ]

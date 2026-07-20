@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "An aesthetic sword that cuts space and rends gods. Congrats, you found the sword of plot progression."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "astrosabredeluxe" }
     }
 ]

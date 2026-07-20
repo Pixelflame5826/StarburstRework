@@ -44,5 +44,11 @@
         "op": "replace",
         "path": "/inventoryIcon",
         "value": "pf_neomagnum3icon.png"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "neomagnum3" }
     }
 ]]

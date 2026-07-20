@@ -38,5 +38,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A primitive spear made from stone and a stick. Suitable for hunting animals."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "huntingspear" }
     }
 ]

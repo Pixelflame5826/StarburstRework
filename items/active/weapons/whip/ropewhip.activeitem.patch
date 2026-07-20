@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A basic whip made from a rope. A very common design, particularly favored by Novakids for Mooshi herding."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "ropewhip" }
     }
 ]

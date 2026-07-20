@@ -19,5 +19,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A specialized magnetic bracer that launches ferrous orbs at high speeds. The juggler will have his revenge."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "magnorbs" }
     }
 ]

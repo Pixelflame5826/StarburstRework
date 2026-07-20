@@ -38,5 +38,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A battle axe made to be thrown. Hits incredibly hard, and purges monsters who don't belong."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "throwingaxe" }
     }
 ]

@@ -29,5 +29,11 @@
         "op": "add",
         "path": "/elementalType",
         "value": "poison"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "pollenpump" }
     }
 ]

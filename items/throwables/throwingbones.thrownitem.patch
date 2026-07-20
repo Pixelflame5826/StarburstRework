@@ -2,12 +2,12 @@
     {
         "op": "replace",
         "path": "/windupTime",
-        "value": 0.3
+        "value": 0.2
     },
 	{
         "op": "replace",
         "path": "/cooldown",
-        "value": 1.5
+        "value": 0.5
     },
     {
         "op": "add",
@@ -17,27 +17,22 @@
     {
         "op": "add",
         "path": "/level",
-        "value": 6
+        "value": 2
     },
 	{
         "op": "add",
         "path": "/largeImage",
-        "value": "pf_energyjavelinbig.png"
+        "value": "throwingbones.png"
     },
     {
         "op": "add",
         "path": "/tooltipKind",
         "value": "pf_throwingweapon"
     },
-	{
-        "op": "replace",
-        "path": "/description",
-        "value": "A hi-tech javelin that houses immense amounts of energy. Suitable for hunting kaiju."
-    },
 
     {
         "op": "add",
         "path": "/collectablesOnPickup",
-        "value": { "pf_throwingweapons" : "energyjavelin" }
+        "value": { "pf_throwingweapons" : "throwingbones" }
     }
 ]

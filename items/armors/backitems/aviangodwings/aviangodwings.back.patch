@@ -42,5 +42,11 @@
         "value": [
             "pf_pickupenhancementpack"
         ]
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_enhancementpacks" : "aviangodwingsback" }
     }
 ]

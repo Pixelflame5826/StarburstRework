@@ -18,5 +18,11 @@
         "op": "add",
         "path": "/elementalType",
         "value": "ice"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "iceboomerang" }
     }
 ]

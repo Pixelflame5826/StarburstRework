@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "Launches bolts by magnetic force. Can be used in many situations, if killing is your thing."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "adaptablecrossbow" }
     }
 ]

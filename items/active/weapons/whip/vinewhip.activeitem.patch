@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A whip made from braided vines. Almost a rope, but it the vine itself is covered in poisonous thorns."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "vinewhip" }
     }
 ]

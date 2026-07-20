@@ -1,7 +1,7 @@
 {
   "itemName" : "pf_promethiumgrenade",
   "price" : 30,
-  "rarity" : "Uncommon",
+  "rarity" : "Rare",
   "level" : 5,
   "category" : "throwableItem",
   "inventoryIcon" : "pf_promethiumgrenadeicon.png",

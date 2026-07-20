@@ -27,7 +27,7 @@
       "order" : 4,
       "title" : "Soulseeker",
       "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nWhile broadswords are uncommon in Avian weaponry, this is an exception. The crystal in the center gathers the blood of those slain, giving it a darker aura. Kluex had no hand in this blade.",
-      "icon" : "/items/active/weapons/other/eyesword/eyeswordfull.png"
+      "icon" : "/items/active/weapons/other/soulseeker/soulseeker.png"
     },
     "soluskatana" : {
       "order" : 5,

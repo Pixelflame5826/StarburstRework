@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "Looks at anything with such a strong stare that they die on the spot. Certainly is an evil gaze."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "evileye" }
     }
 ]

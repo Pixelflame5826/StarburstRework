@@ -65,7 +65,7 @@
     "rainbowcapeback" : {
       "order" : 10,
       "title" : "Shawl of Elation",
-      "description" : "^white;Found In: ^cyan;Colourful ^#00d5a0;[Tier 2+]^reset; \nThe colourful visage of this cape is famously worn by the Rainbow Rogues, a guild of flamboyant jailbroken Glitch. Often fighting for Glitch self expression and being a thorn in the side of House Steamcrow. They are quite the characters.",
+      "description" : "^white;Found In: ^cyan;Colourful Biomes ^#00d5a0;[Tier 2+]^reset; \nThe colourful visage of this cape is famously worn by the Rainbow Rogues, a guild of flamboyant jailbroken Glitch. Often fighting for Glitch self expression and being a thorn in the side of House Steamcrow. They are quite the characters.",
       "icon" : "/items/armors/backitems/rainbowcape/rainbowcapebackicon.png"
     },
     "boilerback" : {
@@ -143,7 +143,6 @@
       "icon" : "/items/armors/biome/garden/quiver/icon.png"
     },
 
-
     //OTHER
     "batterypackAAback" : {
       "order" : 23,
@@ -155,7 +154,7 @@
       "order" : 24,
       "title" : "Medic Backpack",
       "description" : "^white;Obtained From: Merchants ^lightgray;[Any Tier]^reset; \nAn old piece of human history, its USCM surplus. Made for medics on the field, it was a necessary job for a military corporation. Though its often said that many medics defected to the Protectorate when it was formed.",
-      "icon" : "/items/armors/backitems/batterypackAA/batterypackAAbackicon.png"
+      "icon" : "/items/armors/other/medic/icons.png:back"
     }
   }
 }

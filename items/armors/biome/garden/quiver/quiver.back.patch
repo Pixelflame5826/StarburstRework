@@ -41,5 +41,11 @@
         "value": [
             "pickupepp"
         ]
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_enhancementpacks" : "quiverback" }
     }
 ]

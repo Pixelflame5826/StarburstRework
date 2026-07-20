@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "Once developed for Miniknog riot police, this weapon is shockingly effective and lethal... shockingly."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_biomeweapons" : "electrobaton" }
     }
 ]

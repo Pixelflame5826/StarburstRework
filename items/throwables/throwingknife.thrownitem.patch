@@ -38,5 +38,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A knife weighted to fly straight when thrown. Can turn targets into cutting boards from afar!"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "throwingknife" }
     }
 ]

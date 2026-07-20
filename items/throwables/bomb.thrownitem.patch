@@ -33,5 +33,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A core powder bomb, a great way to blow stuff up. Be careful where you throw them, they're destructive!"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "bomb" }
     }
 ]

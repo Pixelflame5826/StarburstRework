@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A whip made from someone's large intestine. Its gut wrenching as much as it is gut lashing."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "intestinewhip" }
     }
 ]

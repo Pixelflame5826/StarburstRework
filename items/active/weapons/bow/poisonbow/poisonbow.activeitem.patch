@@ -24,5 +24,11 @@
         "op": "add",
         "path": "/upgradeParameters/largeImage",
         "value": "poisonbowfull_l6.png:0"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "poisonbow" }
     }
 ]

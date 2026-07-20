@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A whip made from pure energy, invented by the Apex. Able to swing around energy like a rope and blast it."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "energywhip" }
     }
 ]

@@ -38,5 +38,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A throwing dart, bullseye precision in a small package. Just don't use it on lawns, that usually ends badly."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "throwingdart" }
     }
 ]

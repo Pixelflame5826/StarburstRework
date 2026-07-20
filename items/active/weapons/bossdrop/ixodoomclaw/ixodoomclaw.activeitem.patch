@@ -13,5 +13,11 @@
         "op": "add",
         "path": "/altAbility/name",
         "value": "Ixodoom's Web"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "ixodoomclaw" }
     }
 ]

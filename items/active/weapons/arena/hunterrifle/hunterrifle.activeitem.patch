@@ -69,5 +69,11 @@
                 }
             ]
         }
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "hunterrifle" }
     }
 ]

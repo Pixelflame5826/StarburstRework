@@ -33,5 +33,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A grenade created from the shell of a thorn fruit, it fires out thorns in all directions."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "thorngrenade" }
     }
 ]

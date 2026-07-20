@@ -38,5 +38,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A throwing knife once used for mason work. It can be thrown quickly and with finnesse."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "throwingkunai" }
     }
 ]

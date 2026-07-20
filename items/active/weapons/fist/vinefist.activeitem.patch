@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A wooden gauntlet ingrained with plant life. Uses a vine to send punches flying forwards, hitting from afar."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "vinefist" }
     }
 ]

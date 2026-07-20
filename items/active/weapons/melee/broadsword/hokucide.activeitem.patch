@@ -58,5 +58,11 @@
         "value": [
             "/sfx/gun/grenadeblast_ice2.ogg"
         ]
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "hokucide" }
     }
 ]

@@ -33,5 +33,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A shuriken fashioned from large snowflakes. Capable of taking eyes out from long range."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "snowflakeshuriken" }
     }
 ]

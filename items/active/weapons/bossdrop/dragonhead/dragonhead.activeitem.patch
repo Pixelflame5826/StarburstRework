@@ -28,5 +28,11 @@
         "op": "add",
         "path": "/fireTime",
         "value": 0.1
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "dragonhead" }
     }
 ]

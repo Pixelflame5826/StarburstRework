@@ -1,0 +1,33 @@
+[
+    {
+        "op": "replace",
+        "path": "/windupTime",
+        "value": 0.1
+    },
+    {
+        "op": "replace",
+        "path": "/cooldownTime",
+        "value": 0.5
+    },
+	{
+        "op": "add",
+        "path": "/largeImage",
+        "value": "pf_stungrenade.png"
+    },
+    {
+        "op": "add",
+        "path": "/image",
+        "value": "pf_stungrenade.png"
+    },
+    {
+        "op": "add",
+        "path": "/tooltipKind",
+        "value": "pf_throwingitem"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "stungrenade" }
+    }
+]

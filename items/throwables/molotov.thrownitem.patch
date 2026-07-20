@@ -39,5 +39,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A makeshift firebomb made from flammable fluids. Useful for both insurrectionists and challenge runners."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_throwingweapons" : "molotov" }
     }
 ]

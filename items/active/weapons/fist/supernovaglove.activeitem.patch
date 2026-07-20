@@ -13,5 +13,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A large gauntlet imbued with cosmic energy. It's said that it can punch with the force of a supernova."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "supernovaglove" }
     }
 ]

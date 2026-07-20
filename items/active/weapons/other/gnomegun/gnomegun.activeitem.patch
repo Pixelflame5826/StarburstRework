@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "Say hello to my little friend! He is very sick I'm afraid... with RAINBOWS!"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "gnomegun" }
     }
 ]

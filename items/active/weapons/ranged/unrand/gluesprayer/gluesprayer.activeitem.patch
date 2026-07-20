@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A tool that sprays glue foam to slow down enemies. Called the \"Runner Extinguisher\" by the Peacekeepers."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "gluesprayer" }
     }
 ]

@@ -18,5 +18,11 @@
         "op": "add",
         "path": "/elementalType",
         "value": "electric"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "stunglove" }
     }
 ]
