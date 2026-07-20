@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "An EPP module that makes you immune to Deadly Planet Toxicity and resists Poison."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_hazardprotection" : "poisonblockaugment" }
     }
 ]

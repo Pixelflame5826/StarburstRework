@@ -15,5 +15,10 @@
         "op": "add",
         "path": "/learnBlueprintsOnPickup/-",
         "value": "pf_fries"
+    },
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_farmables" : "potato" }
     }
 ]]

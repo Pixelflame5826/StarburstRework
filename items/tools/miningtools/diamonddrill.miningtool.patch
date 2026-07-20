@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A drill made from diamond."
+        "value": "A drill made tipped with diamonds. The largest flex down in the mines, quite durable too.."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "diamonddrill" }
     }
 ]

@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A drill made from gold."
+        "value": "A drill made from gold. Tungsten carbide drills? No, we like to show off down here!"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "golddrill" }
     }
 ]

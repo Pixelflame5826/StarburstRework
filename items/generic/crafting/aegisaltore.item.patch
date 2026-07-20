@@ -3,5 +3,11 @@
         "op": "replace",
         "path": "/description",
         "value": "An ionic mineral that is able to absorb, contain, and release vast quantities of energy."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_minerals" : "aegisalt" }
     }
 ]

@@ -6,7 +6,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "tooltipKind" : "pf_miningtool",
-  "description" : "An electric drill with a large excavation bit. Can dig wide tunnels decently quickly, but can wear down.",
+  "description" : "An electric drill with a large excavation bit. Can dig wide tunnels decently quickly, but will wear down.",
   "shortdescription" : "Tunnel Drill",
   "largeImage" : "pf_tunneldrillbig.png",
   "image" : "pf_tunneldrill.png:{frame}",

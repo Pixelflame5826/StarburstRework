@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A drill made from copper."
+        "value": "A drill made from copper. There's quite a bit a pneumatic drill can do, the housing is just cheap."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "copperdrill" }
     }
 ]

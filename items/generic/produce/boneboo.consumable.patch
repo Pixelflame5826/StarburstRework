@@ -3,5 +3,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A crunchy fruit with a distinct shape. Said to grant strength due to spirits within it, spooky."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_farmables" : "boneboo" }
     }
 ]

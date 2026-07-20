@@ -33,5 +33,11 @@
         "op": "replace",
         "path": "/inventoryIcon",
         "value": "antidote.png"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_hazardprotection" : "antidote" }
     }
 ]

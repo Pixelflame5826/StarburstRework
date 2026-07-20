@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A drill made from silver."
+        "value": "A drill made from silver. Made with the largest motor one could reasonably fit. Worth it!"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "silverdrill" }
     }
 ]

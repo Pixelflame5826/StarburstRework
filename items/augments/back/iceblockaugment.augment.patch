@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "An EPP module that makes you immune to Deadly Planet Cold and resists Ice."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_hazardprotection" : "iceblockaugment" }
     }
 ]

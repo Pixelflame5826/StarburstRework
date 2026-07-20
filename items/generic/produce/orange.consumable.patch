@@ -22,5 +22,11 @@
         "op": "add",
         "path": "/learnBlueprintsOnPickup/-",
         "value": "pf_orangejuice"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_farmables" : "orange" }
     }
 ]]

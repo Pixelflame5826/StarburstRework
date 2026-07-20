@@ -3,5 +3,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A crystal that is famous for making the most resilient and powerful lenses in the universe."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_minerals" : "ferozium" }
     }
 ]

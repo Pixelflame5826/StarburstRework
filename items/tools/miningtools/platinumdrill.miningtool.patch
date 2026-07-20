@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A drill made from platinum."
+        "value": "A drill made from platinum. Quite hi-tech, easily usable, a true worker's tool. Just not the best."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "platinumdrill" }
     }
 ]

@@ -3,5 +3,11 @@
         "op": "add",
         "path": "/tooltipKind",
         "value": "tool"
+    },
+    
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "grapplinghook" }
     }
 ]

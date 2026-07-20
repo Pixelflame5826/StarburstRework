@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A pickaxe made from diamond."
+        "value": "A pickaxe tipped with pure diamonds. Flashy, effective, and shiny enough to see in the dark."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "diamondpickaxe" }
     }
 ]

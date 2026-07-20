@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A pickaxe made from copper."
+        "value": "A pickaxe made from copper. Easily breaks, but is easy to recast and replace."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "copperpickaxe" }
     }
 ]

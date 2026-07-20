@@ -192,28 +192,34 @@
       "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nAn odd plant that defies culinary labelling. This plant wants to be eaten by carnivores, as they can't digest its seeds. This leads it to looking and tasting like a crustacean. Hey, at least the pacifists are happy!",
       "icon" : "/items/generic/produce/coralcreep.png"
     },
+    "kelp" : {
+      "order" : 30,
+      "title" : "Kelp", 
+      "description" : "^white;Found On: ^#0000ff;Ocean Planets ^#00d53c;[Tier 3]^reset; \nA common ingredient in Hylotl cuisine, the unique texture when its dried cannot be found in any other greens. Sushi, salads, seafood, on its own as a snack. There's a lot it can do.",
+      "icon" : "/items/generic/produce/kelp.png"
+    },
 
     //JUNGLE
     "pineapple" : {
-      "order" : 30,
+      "order" : 31,
       "title" : "Pineapple", 
       "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nPineapple, or Ananas, depending on who you ask. The staple of tropical dishes, and a hot debate for pizza. It has a kick so strong that it actually breaks down meat. Its very popular as a garnish for that specific reason.",
       "icon" : "/items/generic/produce/pineapple.png"
     },
     "banana" : {
-      "order" : 31,
+      "order" : 32,
       "title" : "Banana", 
       "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nAn Apex's best friend! Ever since they were discovered by the Apex, its been a staple in their culture for centuries. Though Avians and Humans discovered them first. An amazing source of potassium, and vaguely radioactive.",
       "icon" : "/items/generic/produce/banana.png"
     },
     "coffeebeans" : {
-      "order" : 32,
+      "order" : 33,
       "title" : "Coffee Beans", 
       "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nCoffee, a universal drink. For the overworked Hylotl, for the Human getting up in the morning, for the Apex dealing with beureaucracy. Every species can respect its high caffiene content. Except Novakids, they go a little crazy.",
       "icon" : "/items/generic/produce/coffeebeans.png"
     },
     "avesmingo" : {
-      "order" : 33,
+      "order" : 34,
       "title" : "Avesmingo", 
       "description" : "^white;Commonly Found On: ^#c832c8;Jungle Planets^reset; \nCommonly known as the wonderfruit. With any amount of preparation, its myriad of chemicals within its juicy flesh can make it taste like anything. The Avians named it after the heavens for a reason.",
       "icon" : "/items/generic/produce/avesmingo.png"
@@ -221,25 +227,25 @@
 
     //ALIEN
     "dirturchin" : {
-      "order" : 34,
+      "order" : 35,
       "title" : "Dirturchin", 
       "description" : "^white;Commonly Found On: ^#ff00ff;Alien Planets^reset; \nThe uncommon biology of mutated worlds makes most chemicals that define taste to be incompatible with the tastebuds of most species. Some say dirturchin has a unique and exotic taste, most of the time, its bland.",
       "icon" : "/items/generic/produce/dirturchin.png"
     },
     "alienfruit" : {
-      "order" : 35,
+      "order" : 36,
       "title" : "Alien Fruit", 
       "description" : "^white;Commonly Found On: ^#ff00ff;Alien Planets^reset; \nOne of the few mutated plants that one can eat and not get poisoned or disappointed. Its said to give your tongue a warm zap, like its been hit with radiation. Though no adverse effects have been seen.",
       "icon" : "/items/generic/produce/alienfruit.png"
     },
     "oculemon" : {
-      "order" : 36,
+      "order" : 37,
       "title" : "Oculemon", 
       "description" : "^white;Commonly Found In: ^white;Eyepatch Biomes^reset; \nIs it a lemon, or a melon? Its actually both and neither. An unsettling, yet popular fruit in recent times, nearly completely phasing out the lemon. Not actually an eye, the pupil is actually a large seed. The iris is the most sour part.",
       "icon" : "/items/generic/produce/oculemon.png"
     },
     "pussplum" : {
-      "order" : 37,
+      "order" : 38,
       "title" : "Pussplum", 
       "description" : "^white;Commonly Found In: ^red;Flesh Caves^reset; \nPerhaps the least adored fruit in the galaxy, not because of its taste, but how it looks. The white insides are gooey and full of sugars, its very structure makes many lose their appetite when preparing it. Chefs hate it.",
       "icon" : "/items/generic/produce/pussplum.png"
@@ -247,7 +253,7 @@
 
     //VOLCANIC
     "pf_ashapple" : {
-      "order" : 38,
+      "order" : 39,
       "title" : "Ash Apple", 
       "description" : "^white;Commonly Found On: ^#960000;Volcanic Planets^reset; \nHighly explosive, and impossible to eat normally. You wouldn't think anyone would try to eat an Ash Apple. But by activating the dust inside, it creates an extreme spice... that still tastes kind of like ash.",
       "icon" : "/items/generic/produce/pf_ashapple.png"
@@ -255,7 +261,7 @@
 
     //TUNDRA
     "eggshoot" : {
-      "order" : 39,
+      "order" : 40,
       "title" : "Eggshoot", 
       "description" : "^white;Commonly Found On: ^#b4b4b4;Tundra Planets^reset; \nThe eggshoot seems out of place, a green plant amongst a frozen wasteland. However, most of the nutrients and insides are centered in the \"yolk\" inside of the plant. It merely tastes like an egg by coincidence. Can't make an omelette.",
       "icon" : "/items/generic/produce/eggshoot.png"
@@ -263,7 +269,7 @@
 
     //SCORCHED
     "wartweed" : {
-      "order" : 40,
+      "order" : 41,
       "title" : "Wartweed", 
       "description" : "^white;Commonly Found On: ^#c89696;Scorched Planets^reset; \nOnce considered a pest by the natives, this hardy weed is about the only plantlife that has survived the apocalypse. It tastes kind of bad, but in a survival situation, you can't really complain.",
       "icon" : "/items/generic/produce/wartweed.png"
@@ -271,7 +277,7 @@
 
     //TOXIC
     "toxictop" : {
-      "order" : 41,
+      "order" : 42,
       "title" : "Toxictop", 
       "description" : "^white;Commonly Found On: ^#00ff00;Toxic Planets^reset; \nA pineapple that evolved to survive the polluted environment it found itself in. The internal acids have become actively toxic. Doesn't stop most species, especially Hylotl. Are they proud of themselves for this creation? Probably not.",
       "icon" : "/items/generic/produce/toxictop.png"
@@ -279,7 +285,7 @@
 
     //MIDNIGHT
     "boltbulb" : {
-      "order" : 42,
+      "order" : 43,
       "title" : "Boltbulb", 
       "description" : "^white;Commonly Found On: ^#969696;Midnight Planets^reset; \nA relative of the eggshoot. Without light, they had to take in the electricity from the air itself. Without photosynthesis and a metallic shape, one must wonder if this thing is even still alive anymore...",
       "icon" : "/items/generic/produce/boltbulb.png"

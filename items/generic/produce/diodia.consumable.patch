@@ -3,5 +3,11 @@
         "op": "add",
         "path": "/learnBlueprintsOnPickup/-",
         "value": "pf_boilerjoe"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_farmables" : "diodia" }
     }
 ]

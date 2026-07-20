@@ -3,5 +3,11 @@
         "op": "replace",
         "path": "/shortdescription",
         "value": "Rough Sandstone"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_minerals" : "sandstone" }
     }
 ]

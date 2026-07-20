@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/rarity",
         "value": "Legendary"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_minerals" : "uranium" }
     }
 ]

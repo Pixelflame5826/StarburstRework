@@ -18,5 +18,11 @@
         "op": "add",
         "path": "/learnBlueprintsOnPickup/-",
         "value": "applecrumble"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_farmables" : "redapple" }
     }
 ]

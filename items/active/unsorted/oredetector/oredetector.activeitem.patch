@@ -98,5 +98,11 @@
             174,
             255
         ]
+    },
+    
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "oredetector" }
     }
 ]

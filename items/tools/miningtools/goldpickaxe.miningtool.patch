@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A pickaxe made from gold."
+        "value": "A pickaxe made from gold. Seems dumb, but the alloy its made from is very strong."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "goldpickaxe" }
     }
 ]

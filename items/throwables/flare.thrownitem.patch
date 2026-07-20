@@ -24,5 +24,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A basic flare, often used to mark locations or to light the darkness. Good to drop one before diving into a cave."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "flare" }
     }
 ]

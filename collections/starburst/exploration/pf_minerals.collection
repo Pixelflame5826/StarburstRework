@@ -45,7 +45,7 @@
       "order" : 7,
       "title" : "Diamond", //(C)",
       "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1+]^reset; \nAn allotrope of carbon, considered rare, but not really. What makes these diamonds rare are the specific conditions required to make them. The conditions near the mantles of many planets allow for perfect shapes for focusing light, thats why they're valuable.",
-      "icon" : "/items/generic/crafting/corefragmentore.png"
+      "icon" : "/items/generic/crafting/diamond.png"
     },
 
     "erchius" : {

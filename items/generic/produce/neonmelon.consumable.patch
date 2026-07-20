@@ -13,5 +13,11 @@
         "op": "add",
         "path": "/learnBlueprintsOnPickup/-",
         "value": "pf_neonmelontea"
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_farmables" : "neonmelon" }
     }
 ]

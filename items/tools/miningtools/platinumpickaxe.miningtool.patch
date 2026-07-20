@@ -22,6 +22,12 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A pickaxe made from platinum."
+        "value": "A pickaxe made from platinum. You can really go deep with something like this."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_tools" : "platinumpickaxe" }
     }
 ]

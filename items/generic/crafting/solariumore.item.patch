@@ -3,5 +3,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A hot radioactive mineral that can amplify energy put through it by magnitudes."
+    },
+
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_minerals" : "solarium" }
     }
 ]
