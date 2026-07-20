@@ -11,6 +11,8 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_midnightshortsword" },
+
   "inventoryIcon" : "pf_midnightshortsword.png",
 
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
@@ -29,10 +31,10 @@
             "image" : "<partImage><paletteSwaps>",
             "transformationGroups" : ["weapon"],
             "rotationCenter" : [0, 0],
-			"fullbright" : true
+			      "fullbright" : true
           }
         },
-		"swoosh" : {
+		    "swoosh" : {
           "properties" : {
             "zLevel" : -1,
             "centered" : true,
@@ -52,12 +54,12 @@
                 "properties" : {
                   "image" : "/items/active/weapons/melee/shortsword/swoosh/pf_shadowswoosh.png:<frame>"
                 }
-			  },
-			  "fire2" : {
+			        },
+			        "fire2" : {
                 "properties" : {
                   "image" : "/items/active/weapons/melee/shortsword/swoosh2/pf_shadowswoosh.png:<frame>"
                 }
-			  }
+			        }
             }
           }
         }

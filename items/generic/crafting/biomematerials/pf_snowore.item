@@ -6,5 +6,7 @@
   "inventoryIcon" : "pf_snowore.png",
   "description" : "A cold ice crystal that doesn't seem to melt very easily.",
   "shortdescription" : "Blue Ice Shard",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "reagent" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "blueice" }
 }

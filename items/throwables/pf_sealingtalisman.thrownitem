@@ -11,6 +11,8 @@
   "description" : "A bundle of spiritual talismans that contain the ghostly power to seal targets.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_sealingtalisman" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

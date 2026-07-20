@@ -18,5 +18,7 @@
       }
   ] ],
   "emote" : "",
-  "emitters" : [ "stimuse" ]
+  "emitters" : [ "stimuse" ],
+
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_handwarmer" }
 }

@@ -22,5 +22,7 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "pf_frostberryjuice", "pf_iceapple" ]
+  "learnBlueprintsOnPickup" : [ "pf_frostberryjuice", "pf_iceapple" ],
+
+  "collectablesOnPickup" : { "pf_farmables" : "pf_frostberry" }
 }

@@ -12,6 +12,8 @@
   "twoHanded" : false,
   "tooltipKind" : "tool",
 
+  "collectablesOnPickup" : { "pf_tools" : "pf_stormygrapplinghook" },
+
   "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
   "animationScripts" : ["/items/active/effects/renderrope.lua"],
 

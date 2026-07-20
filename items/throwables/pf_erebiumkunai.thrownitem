@@ -11,6 +11,8 @@
   "description" : "An offputting kunai made of erebium. Its shadowy power homes in on life nearby.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_erebiumkunai" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

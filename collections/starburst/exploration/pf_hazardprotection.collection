@@ -1,0 +1,181 @@
+{
+  "name" : "pf_hazardprotection",
+  "title" : "Survival Kit",
+  "type" : "item",
+
+  "collectables" : {
+    //CONSUMABLES
+    "pf_icywaterbottle" : {
+      "order" : 1,
+      "title" : "Cold Water Bottle",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nSurviving the heat requires a bit more than just hydration. It requires temperature regulation. Adding ice to the hydration can work well enough.",
+      "icon" : "/items/generic/other/biomeprotection/pf_icywaterbottle.png"
+    },
+    "pf_handwarmer" : {
+      "order" : 2,
+      "title" : "Hand Warmer",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nThe hands and feet are often the first parts of the body to freeze. Using some stabilized core powder in a pouch does wonders to halt that.",
+      "icon" : "/items/generic/other/biomeprotection/pf_handwarmer.png"
+    },
+    "pf_clothpadding" : {
+      "order" : 3,
+      "title" : "Antistatic Cloth",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nSome padding woven with some copper wire can help halt static electricity buildup. Even if the air is static, one must let the energy pass through to survive it.",
+      "icon" : "/items/generic/other/biomeprotection/pf_clothpadding.png"
+    },
+    "pf_carbonpowder" : {
+      "order" : 4,
+      "title" : "Carbon Powder",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nPoisons are generally made from natural compounds. Carbon can easily neutralize and absorb such compounds. By consuming it, one can purge many poisons from their body.",
+      "icon" : "/items/generic/other/biomeprotection/pf_carbonpowder.png"
+    },
+    "pf_leadpadding" : {
+      "order" : 5,
+      "title" : "Lead Shielding",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nUsed in x-ray treatments for awhile. If there's a little too much ambient radiation, some lead reinforcements can halt that just fine.",
+      "icon" : "/items/generic/other/biomeprotection/pf_leadpadding.png"
+    },
+    "pf_emergencyoxygen" : {
+      "order" : 6,
+      "title" : "Emergency O2 Tank",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nNot enough oxygen? Bring an oxygen tank. Might only be a temporary solution, but its not like you wish to reside in such places for long.",
+      "icon" : "/items/generic/other/biomeprotection/pf_emergencyoxygen.png"
+    },
+    "pf_pocketfreezer" : {
+      "order" : 7,
+      "title" : "Portable Cooling Unit",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nAir conditioning technology has improved immensely over the years. The cooling fluid in this unit can absorb the sorts of temperatures you find in an oven.",
+      "icon" : "/items/generic/other/biomeprotection/pf_pocketfreezer.png"
+    },
+    "pf_pocketheater" : {
+      "order" : 8,
+      "title" : "Portable Heater",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nPractically a portable combustion engine on its own. This scorching heater can pump out enough energy to handle hundreds of degrees below freezing, for some time.",
+      "icon" : "/items/generic/other/biomeprotection/pf_pocketheater.png"
+    },
+    "pf_staticgenerator" : {
+      "order" : 9,
+      "title" : "Tesla Counter-Generator",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nLightning rods are used to attract lightning, to make sure it hits nothing else. This generator can create a shield of negative ions to completely repel it! Hitting everything else...",
+      "icon" : "/items/generic/other/biomeprotection/pf_staticgenerator.png"
+    },
+    "antidote" : {
+      "order" : 10,
+      "title" : "Antidote",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nAnti-venoms and antidotes are often very specific, though in some crazy alien life, they carry a cocktail of so many. Making an antidote off of that blocks nearly everything!",
+      "icon" : "/items/generic/other/antidote.png"
+    },
+    "pf_radiationshield" : {
+      "order" : 11,
+      "title" : "Tesla Counter-Generator",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nA very rudimentary nuclear generator. Sounds like fighting fire with fire, but in reality, it just makes an energy shield that halts alpha and beta radiation. The lead is there for gamma.",
+      "icon" : "/items/generic/other/biomeprotection/pf_radiationshield.png"
+    },
+
+    //AUGMENTS
+    "pf_biomeheataugment" : {
+      "order" : 12,
+      "title" : "Heat Resist Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nAugments the capabilities of certain packs to absorb heat from its wearer, like a radiator. Allowing for permanent protection from heat exhaustion.",
+      "icon" : "/items/augments/back/biomeprotection/pf_biomeheataugment.png"
+    },
+    "pf_biomecoldaugment" : {
+      "order" : 13,
+      "title" : "Cold Resist Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nReroutes the power generation of certain packs to create a basic heating effect. Staving off hypothermia for as long as it is active.",
+      "icon" : "/items/augments/back/biomeprotection/pf_biomecoldaugment.png"
+    },
+    "pf_biomestaticaugment" : {
+      "order" : 14,
+      "title" : "Static Resist Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nGives packs another route for current to go, stopping ambient static discharge from building up and eventually harming the wearer.",
+      "icon" : "/items/augments/back/biomeprotection/pf_biomestaticaugment.png"
+    },
+    "pf_biomepoisonaugment" : {
+      "order" : 15,
+      "title" : "Toxic Resist Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nApplies a neutralizing field around the pack it is applied to, breaking down and halting any toxins from entering through contact.",
+      "icon" : "/items/augments/back/biomeprotection/pf_biomepoisonaugment.png"
+    },
+    "pf_biomeradiationaugment" : {
+      "order" : 16,
+      "title" : "Radiation Resist Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nGrants the pack it is insalled on a basic alpha and beta particle shield. Will protect against most minor forms of radiation.",
+      "icon" : "/items/augments/back/biomeprotection/pf_biomeradiationaugment.png"
+    },
+    "pf_biomeoxygenaugment" : {
+      "order" : 17,
+      "title" : "Oxygen Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nThe most basic of oxygen capture and release in a small chip. Allows any pack to gain the properties of an air tank, allowing for breath.",
+      "icon" : "/items/augments/back/biomeprotection/pf_biomeoxygenaugment.png"
+    },
+    "fireblockaugment" : {
+      "order" : 18,
+      "title" : "Fire Block Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nA complex augment that grants the wearer a rudimentary ferozium control generator, allowing for any infrared energy to be redirected.",
+      "icon" : "/items/augments/back/fireblockaugment.png"
+    },
+    "iceblockaugment" : {
+      "order" : 19,
+      "title" : "Ice Block Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nOne of the smallest heaters that could possibly be made. Transmits heat energy to the pack its installed on through the decaying solarium within it.",
+      "icon" : "/items/augments/back/iceblockaugment.png"
+    },
+    "electricblockaugment" : {
+      "order" : 20,
+      "title" : "Electric Block Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nThis augment creates an energy barrier around the wearer that can completely neutralize and redirect electric charges. You can parry the lightning!",
+      "icon" : "/items/augments/back/electricblockaugment.png"
+    },
+    "poisonblockaugment" : {
+      "order" : 21,
+      "title" : "Poison Block Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nBy using selective high-energy fields, this augment can lock onto and break apart any toxic compounds in the air that its aligned to. Its automatic chemistry at work.",
+      "icon" : "/items/augments/back/poisonblockaugment.png"
+    },
+    "pf_radiationblockaugment" : {
+      "order" : 22,
+      "title" : "Radiation Block Augment",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nA tiny nuclear generator hooked up to an invisible hardlight field. It doubles as both a particle shield, and a destructive interference limiter for any gamma rays in the air.",
+      "icon" : "/items/augments/back/radiationblockaugment.png"
+    },
+
+    //EPPs
+    "breathprotectionback" : {
+      "order" : 23,
+      "title" : "Breathing EPP",
+      "description" : "^white;Obtained From: ^orange;Hazard Lab Table^reset; \nThe first of the standard EPP models made by the Protectorate. Was once made to improve upon ECS technology, this pack gives you a completely self sufficient field of air.",
+      "icon" : "/items/armors/backitems/breathprotection/breathprotectionicon.png"
+    },
+    "pf_poisonprotectionback" : {
+      "order" : 24,
+      "title" : "Neutralizing EPP",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nA simple concept for environment protection. Practically a hi-tech air purifier, this EPP draws toxic compounds within the air into its vents, before capturing it via microorganisms.",
+      "icon" : "/items/armors/backitems/pf_poisonprotection/pf_poisonprotectionicon.png"
+    },
+    "radiationprotectionback" : {
+      "order" : 25,
+      "title" : "Radiation EPP",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nThe larger version of radiation shielding. Blocking most radiation by making a dense hardlight field around the wearer, allowing it to completely block all radiation that enters.",
+      "icon" : "/items/armors/backitems/radiationprotection/radiationprotectionicon.png"
+    },
+    "heatprotectionback" : {
+      "order" : 26,
+      "title" : "Cooling EPP",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nThis EPP is less of a shield, and more of an ambient temperature regulator. Using ferozium, it can siphon the heat from the air and store it inside itself. Cooling the air extremely fast.",
+      "icon" : "/items/armors/backitems/heatprotection/heatprotectionicon.png"
+    },
+    "coldprotectionback" : {
+      "order" : 27,
+      "title" : "Heating EPP",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nThe solarium core within this EPP constantly heats up the wearer's equipment directly. By simply adding energy to the system, it can offset any heat loss that the air gives.",
+      "icon" : "/items/armors/backitems/coldprotection/coldprotectionicon.png"
+    },
+    "pf_lightningprotectionback" : {
+      "order" : 28,
+      "title" : "Antistatic EPP",
+      "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nA permanent violium shield is built within this EPP, completely removing any and all risk of ambient static from even entering the system that is the wearer.",
+      "icon" : "/items/armors/backitems/pf_lightningprotection/pf_lightningprotectionprotectionicon.png"
+    }
+  }
+}

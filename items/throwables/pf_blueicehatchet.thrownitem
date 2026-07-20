@@ -11,6 +11,8 @@
   "description" : "A strong hatchet made from blue ice. Really heavy but hits hard and slows targets.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_blueicehatchet" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

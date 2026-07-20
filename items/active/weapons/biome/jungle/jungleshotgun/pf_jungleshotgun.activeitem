@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","shotgun","pf_anvilUpgradeableWeapon"],
   "level" : 4,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_jungleshotgun" },
+
   "inventoryIcon" : "pf_jungleshotgun.png:default.1",
 
   "animation" : "pf_jungleshotgun.animation",

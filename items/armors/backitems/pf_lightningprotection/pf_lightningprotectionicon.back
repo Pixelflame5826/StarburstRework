@@ -7,7 +7,9 @@
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
   "description" : "This EPP cancels out ambient electricity in the air. Use it on planets with ^red;deadly static levels^reset;.",
-  "shortdescription" : "Static EPP",
+  "shortdescription" : "Antistatic EPP",
+
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_lightningprotectionback" },
 
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",

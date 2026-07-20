@@ -10,6 +10,8 @@
   "description" : "A torrential shuriken made from Aquari. Whirls up a maelstrom when thrown.",
   "tooltip" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_aquarishuriken" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

@@ -8,6 +8,8 @@
   "description" : "An EPP module that makes you immune to Mild Planet Static.",
   "shortdescription" : "Static Resist Augment",
 
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_biomestaticaugment" },
+
   "augment" : {
     "type" : "back",
     "name" : "pf_mildbiomelightningprotection",

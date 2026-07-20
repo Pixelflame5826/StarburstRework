@@ -29,5 +29,7 @@
   "harvestLevel" : 99,
   "tileDamageBlunted" : 1,
   "builder" : "/items/buildscripts/pf_buildminingtool.lua",
-  "itemAgingScripts" : ["/scripts/items/pf_miningtoolupdate.lua"]
+  "itemAgingScripts" : ["/scripts/items/pf_miningtoolupdate.lua"],
+
+  "collectablesOnPickup" : { "pf_tools" : "pf_irondrill" }
 }

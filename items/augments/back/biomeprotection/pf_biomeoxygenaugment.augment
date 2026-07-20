@@ -8,6 +8,8 @@
   "description" : "An EPP module that makes you immune to Airless environments.",
   "shortdescription" : "Oxygen Augment",
 
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_biomeoxygenaugment" },
+
   "augment" : {
     "type" : "back",
     "name" : "pf_mildbiomeairlessprotection",

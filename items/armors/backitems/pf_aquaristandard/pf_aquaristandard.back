@@ -9,6 +9,8 @@
   "description" : "A back-mounted banner made of aquari. Can coalesce water around it to empower the wearer's attacks.",
   "shortdescription" : "Aquari Battlestandard",
 
+  "collectablesOnPickup" : { "pf_enhancementpacks" : "pf_aquaristandardback" },
+
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,

@@ -10,6 +10,8 @@
   "description" : "A flask of sticky oil that can be thrown at enemies. Covers them in oil, does not make things fly in rain.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_flaskoil" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

@@ -18,5 +18,7 @@
       }
   ] ],
   "emote" : "",
-  "emitters" : [ "pf_techconsumable" ]
+  "emitters" : [ "pf_techconsumable" ],
+
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_pocketfreezer" }
 }

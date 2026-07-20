@@ -10,6 +10,8 @@
   "description" : "A flask of swamp water that can be thrown at enemies. Swamps them in contaminated water, not the bodily kind.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_flaskswamp" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

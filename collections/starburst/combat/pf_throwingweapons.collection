@@ -191,26 +191,32 @@
       "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nThe toxins from the microorganisms within this flask make it a bad choice to drink. However, coating your enemy's wounds with it will likely do wonders.",
       "icon" : "/items/throwables/pf_flaskswamp.png"
     },
-    "throwinggnome" : {
+    "pf_bottledpoison" : {
       "order" : 31,
+      "title" : "Poison Flask",
+      "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nA bottle of poison, the greatest part of an assassin's kit. Well, assuming you don't chuck it at your enemies... That's what you're going to do, isn't it?",
+      "icon" : "/items/throwables/pf_bottledpoison.png"
+    },
+    "throwinggnome" : {
+      "order" : 32,
       "title" : "Ball of Gnomes",
       "description" : "^white;Found In: ^brown;Mini Villages^reset; \nThe False Gnome species has been known to exist on many worlds. Intelligent enough to build entire civilizations underground. However, none have been able to speak with them, maybe because their houses keep getting crushed!",
       "icon" : "/items/throwables/throwinggnome.png"
     },
     "throwingboulder" : {
-      "order" : 32,
+      "order" : 33,
       "title" : "Throwing Boulder",
       "description" : "^white;Found On: ^darkgreen;Alpine Biomes^reset; \nAlpaca competitions are known to be fierce. Much like the Human Caber Toss, particularly aggressive Alpaca throw boulders up rocky cliffs to prove who is the strongest. Death is not uncommon when it fails to reach the top.",
       "icon" : "/items/throwables/throwingboulder.png"
     },
     "hivebomb" : {
-      "order" : 33,
+      "order" : 34,
       "title" : "Bug Hive",
       "description" : "^white;Dropped By: ^red;Floran Hunters^reset; \nA perhaps crude method of taming wildlife to suit the needs of the Floran. Though one cannot deny the effectiveness of multiple poisonous insects homing in on you.",
       "icon" : "/items/throwables/bughive.png"
     },
     "pf_sealingtalisman" : {
-      "order" : 34,
+      "order" : 35,
       "title" : "Sealing Talismans",
       "description" : "^white;Found In: ^lightgrey;Hylotl Castles^reset; \nTalismans are a large part of Hylotl culture. Said to be filled with a spiritual energy by powerful Fuchi, they can do many things. In this case, weaken foes with a potent sealing power.",
       "icon" : "/items/throwables/pf_sealingtalisman"
@@ -218,31 +224,31 @@
 
     //BOOMERANGS
     "boomerang" : {
-      "order" : 35,
+      "order" : 36,
       "title" : "Boomerang",
       "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nA stick that comes back to you. The first step many races take in understanding aerodynamics. Though now the design doesn't matter, thanks to new microthruster technology. However, it is still versatile.",
       "icon" : "/items/active/weapons/boomerang/boomerang.png"
     },
     "fireboomerang" : {
-      "order" : 36,
+      "order" : 37,
       "title" : "Molten Boomerang",
       "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nInstalling a molten core into the center of a boomerang causes its weight and energy density within to increase twofold. Its flames make it more useful for combat, rather than hunting.",
       "icon" : "/items/active/weapons/boomerang/fireboomerang.png"
     },
     "iceboomerang" : {
-      "order" : 37,
+      "order" : 38,
       "title" : "Frozen Boomerang",
       "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nCoating the wings of a boomerang with cryogenic fluid allows it to freeze the air as it travels. Just, make sure to use gloves with it, lest your hands face the same fate.",
       "icon" : "/items/active/weapons/boomerang/iceboomerang.png"
     },
     "lunarang" : {
-      "order" : 38,
+      "order" : 39,
       "title" : "Vine Fist",
       "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe strange properties of phase matter make this boomerang fly further, yet very fragile. However, it can mend itself back together like it was never shattered to begin with. Spooky.",
       "icon" : "/items/active/weapons/fist/vinefist.png"
     },
     "wormerang" : {
-      "order" : 39,
+      "order" : 40,
       "title" : "Giant Worm",
       "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nA tamed giant alien worm that can be thrown. Floran on alien planets can be quite resourceful, even with deadly creatures in the mix.",
       "icon" : "/items/active/weapons/boomerang/wormerang.png"
@@ -250,25 +256,25 @@
 
     //CHAKRAMS
     "chakram" : {
-      "order" : 40,
+      "order" : 41,
       "title" : "Chakram",
       "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nOne would think throwing sharp rings of metal would be a bad idea, but its surprisingly effective. A favorite of Avians for how it flies through the air and slices targets. There are many variations.",
       "icon" : "/items/active/weapons/chakram/chakram.png"
     },
     "sawchakram" : {
-      "order" : 41,
+      "order" : 42,
       "title" : "Saw Chakram",
       "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis is especially a bad idea. Throwing self-rotating sawblades should not be something you choose to do. Though as a trap, its decent if you don't lose your hand.",
       "icon" : "/items/active/weapons/chakram/sawchakram.png"
     },
     "hardchakram" : {
-      "order" : 42,
+      "order" : 43,
       "title" : "Hard Chakram",
       "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis chakram isn't as much of a slicing weapon, as it is the throwing version of a hammer. A few Glitch warriors utilize such implements to deal with plate armor, the gear design is holy to them.",
       "icon" : "/items/active/weapons/chakram/hardchakram.png"
     },
     "neochakram" : {
-      "order" : 43,
+      "order" : 44,
       "title" : "Neo Chakram",
       "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA couple hundred microthrusters and a lot of ram does wonders to keep a spinning metal disk in the air. Especially flashy bounty hunters enjoy this one, some even use it as an ID or calling card.",
       "icon" : "/items/active/weapons/chakram/neochakram.png"

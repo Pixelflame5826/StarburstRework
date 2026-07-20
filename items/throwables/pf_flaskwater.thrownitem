@@ -10,6 +10,8 @@
   "description" : "A flask of water that can be thrown at enemies. Drenches them in water.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_waterflask" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

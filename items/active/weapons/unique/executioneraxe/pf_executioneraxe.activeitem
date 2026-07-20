@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","axe"],
 
+  "collectablesOnPickup" : { "pf_uniqueweapons" : "pf_executioneraxe" },
+
   "inventoryIcon" : "pf_executioneraxe.png",
 
   "animation" : "/items/active/weapons/unique/executioneraxe/pf_executioneraxe.animation",

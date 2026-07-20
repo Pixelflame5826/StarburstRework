@@ -18,5 +18,7 @@
       }
   ] ],
   "emote" : "",
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_carbonpowder" }
 }

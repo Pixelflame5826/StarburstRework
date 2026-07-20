@@ -8,6 +8,8 @@
   "description" : "An EPP module that makes you immune to Mild Planet Cold.",
   "shortdescription" : "Cold Resist Augment",
 
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_biomecoldaugment" },
+
   "augment" : {
     "type" : "back",
     "name" : "pf_mildbiomecoldprotection",

@@ -11,6 +11,8 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","axe", "pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_otherworldlyweapons" : "pf_sinnermace" },
+
   "inventoryIcon" : "pf_sinnermace.png",
 
   "animation" : "/items/active/weapons/unique/sinnermace/pf_sinnermace.animation",

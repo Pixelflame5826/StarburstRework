@@ -7,5 +7,7 @@
   "description" : "A strange golden material that is used in technology and alloys.",
   "shortdescription" : "Aurium Ore",
   "itemTags" : [ "reagent" ],
-  "radioMessagesOnPickup" : [ "pickupore" ]
+  "radioMessagesOnPickup" : [ "pickupore" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "aurium" }
 }

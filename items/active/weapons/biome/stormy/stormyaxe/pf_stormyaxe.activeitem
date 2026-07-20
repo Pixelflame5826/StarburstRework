@@ -11,6 +11,8 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","axe","pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_stormyaxe" },
+
   "inventoryIcon" : "pf_stormyaxe.png",
 
   "animation" : "/items/active/weapons/melee/axe/axe.animation",

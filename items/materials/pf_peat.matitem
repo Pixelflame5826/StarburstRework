@@ -11,5 +11,7 @@
 
   "learnBlueprintsOnPickup" : [
     "coalore"
-  ]
+  ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "peat" }
 }

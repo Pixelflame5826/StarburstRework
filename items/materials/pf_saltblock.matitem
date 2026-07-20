@@ -12,5 +12,7 @@
     "pf_saltbricks",
     "pf_saltbrickslight",
     "pf_saltlamp"
-  ]
+  ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "halite" }
 }

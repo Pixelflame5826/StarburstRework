@@ -6,5 +6,7 @@
   "inventoryIcon" : "pf_alienore.png",
   "description" : "A biological alien material that is able to merge with metals easily.",
   "shortdescription" : "Xenocyte Colony",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "reagent" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "xenocyte" }
 }

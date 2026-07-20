@@ -9,6 +9,8 @@
   "description" : "A pack of climbing gear plated with violium. The built in pulse generator can stop falls before impact.",
   "shortdescription" : "Violium Climbing Gear",
 
+  "collectablesOnPickup" : { "pf_enhancementpacks" : "pf_violiumclimbingback" },
+
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,

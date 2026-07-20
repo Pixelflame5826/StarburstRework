@@ -7,5 +7,7 @@
   "shortdescription" : "Andisol",
   "description" : "A compact block of silicate volcanic ash converted into soil. Plants love this stuff.",
 
-  "materialId" : 38414
+  "materialId" : 38414,
+
+  "collectablesOnPickup" : { "pf_minerals" : "andisol" }
 }

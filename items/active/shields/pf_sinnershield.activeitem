@@ -11,6 +11,8 @@
   "twoHanded" : false,
   "itemTags" : ["shield"],
 
+  "collectablesOnPickup" : { "pf_otherworldlyweapons" : "pf_sinnershield" },
+
   "inventoryIcon" : "images/pf_sinner/pf_sinner.png:nearidle",
 
   "animation" : "shield.animation",

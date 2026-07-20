@@ -12,6 +12,8 @@
   "itemTags" : ["weapon", "melee", "shortsword", "pf_anvilUpgradeableWeapon" ],
   "uptieLevel" : 1,
 
+  "collectablesOnPickup" : { "pf_otherworldlyweapons" : "pf_warpsaber" },
+
   "inventoryIcon" : "pf_warpsaber.png",
 
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",

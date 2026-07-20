@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","hammer","pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_deserthammer" },
+
   "inventoryIcon" : "pf_deserthammer.png",
 
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",

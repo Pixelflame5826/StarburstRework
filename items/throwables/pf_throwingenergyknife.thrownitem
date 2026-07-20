@@ -11,6 +11,8 @@
   "description" : "A small energy knife powered by aegisalt, flies far and easy to throw from less weight.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_throwingenergyknife" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

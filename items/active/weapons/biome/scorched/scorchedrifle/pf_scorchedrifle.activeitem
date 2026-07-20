@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "level" : 6,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_scorchedrifle" },
+
   "inventoryIcon" : "pf_scorchedrifle.png:default.1",
 
   "animation" : "/items/active/weapons/biome/scorched/scorchedrifle/pf_scorchedrifle.animation",

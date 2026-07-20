@@ -11,6 +11,8 @@
   "description" : "An alien javelin made out of xenocyte. Releases penetrating alien energy.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_xenojavelin" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

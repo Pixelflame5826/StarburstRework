@@ -11,6 +11,8 @@
   "description" : "A savage mambele made of rubite. It shreds through targets, making them bleed out.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_rubitemambele" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

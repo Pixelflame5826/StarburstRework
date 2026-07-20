@@ -10,6 +10,8 @@
   "description" : "An ash apple with a wick inside of it. Explodes with fiery ashen death.",
   "tooltip" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_ashapplebomb" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

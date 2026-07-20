@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","grenadelauncher","pf_anvilUpgradeableWeapon"],
   "level" : 3,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_snowgrenadelauncher" },
+
   "inventoryIcon" : "pf_snowgrenadelauncher.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",

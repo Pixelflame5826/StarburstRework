@@ -10,6 +10,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","sniperrifle","pf_anvilUpgradeableWeapon"],
   "level" : 4,
+
+  "collectablesOnPickup" : { "pf_otherworldlyweapons" : "pf_m1000" },
   
   "inventoryIcon" : "pf_m1000.png:default.1",
 

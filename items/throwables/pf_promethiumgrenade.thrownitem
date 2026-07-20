@@ -11,6 +11,8 @@
   "description" : "A scorching grenade powered by promethium. Releases nuclear flames in all directions.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_promethiumgrenade" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

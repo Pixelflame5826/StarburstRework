@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
 
+  "collectablesOnPickup" : { "pf_uniqueweapons" : "pf_monolithsword" },
+
   "inventoryIcon" : "pf_monolithsword.png",
 
   "animation" : "/items/active/weapons/unique/monolithsword/pf_monolithsword.animation",

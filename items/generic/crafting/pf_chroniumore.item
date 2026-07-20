@@ -6,5 +6,7 @@
   "inventoryIcon" : "pf_chroniumore.png",
   "description" : "A mysterious dark metal that's used in many tech applications.",
   "shortdescription" : "Chronium Ore",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "reagent" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "chronium" }
 }

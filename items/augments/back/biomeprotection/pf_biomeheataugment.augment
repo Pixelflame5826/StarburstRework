@@ -8,6 +8,8 @@
   "description" : "An EPP module that makes you immune to Mild Planet Heat.",
   "shortdescription" : "Heat Resist Augment",
 
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_biomeheataugment" },
+
   "augment" : {
     "type" : "back",
     "name" : "pf_mildbiomeheatprotection",

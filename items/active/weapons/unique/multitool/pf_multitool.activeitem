@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","pistol", "pf_anvilUpgradeableWeapon"],
   "level" : 3,
 
+  "collectablesOnPickup" : { "pf_otherworldlyweapons" : "pf_multitool" },
+
   "inventoryIcon" : "pf_multitool.png",
   "grade" : "c",
 

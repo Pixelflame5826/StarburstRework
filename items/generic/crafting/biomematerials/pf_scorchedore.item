@@ -7,5 +7,7 @@
   "description" : "A radioactive isotope that is constantly going critical, very hot.",
   "shortdescription" : "Promethium Ore",
   "itemTags" : [ "reagent" ],
-  "radioMessagesOnPickup" : [ "pickupore" ]
+  "radioMessagesOnPickup" : [ "pickupore" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "promethium" }
 }

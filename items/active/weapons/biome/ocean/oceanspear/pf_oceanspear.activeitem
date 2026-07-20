@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear","pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_oceanspear" },
+
   "inventoryIcon" : "pf_oceanspear.png",
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",

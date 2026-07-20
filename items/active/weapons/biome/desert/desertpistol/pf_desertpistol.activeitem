@@ -11,6 +11,8 @@
   "category" : "pistol",
   "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_desertpistol" },
+
   "animation" : "pf_desertpistol.animation",
   "animationParts" : {
     "middle" : "pf_desertpistol.png",

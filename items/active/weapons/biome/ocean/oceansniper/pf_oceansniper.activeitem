@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","sniperrifle","pf_anvilUpgradeableWeapon"],
   "level" : 3,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_oceansniper" },
+
   "inventoryIcon" : "pf_oceansniper.png:cooldown.1",
 
   "animation" : "pf_oceansniper.animation",

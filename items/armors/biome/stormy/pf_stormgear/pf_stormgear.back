@@ -8,6 +8,8 @@
   "description" : "A backpack installed with weather meters. Includes a fog light and weather protection equipment. ^orange;Resists all mild planet hazards.",
   "shortdescription" : "Stormchaser's Pack",
 
+  "collectablesOnPickup" : { "pf_enhancementpacks" : "pf_stormgearback" },
+
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,

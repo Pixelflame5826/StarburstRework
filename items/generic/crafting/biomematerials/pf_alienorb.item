@@ -6,5 +6,7 @@
   "inventoryIcon" : "pf_alienorb.png",
   "description" : "A strange biological material primarily found in heavily mutated climates.",
   "shortdescription" : "Xenocyte Biofilm",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "reagent" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "xenocyte" }
 }

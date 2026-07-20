@@ -7,5 +7,7 @@
   "shortdescription" : "Fossil Limestone",
   "description" : "A chunk of limestone made of many fossils of marine life.",
 
-  "materialId" : 38403
+  "materialId" : 38403,
+
+  "collectablesOnPickup" : { "pf_minerals" : "fossilstone" }
 }

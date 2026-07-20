@@ -6,5 +6,7 @@
   "inventoryIcon" : "pf_forestore.png",
   "description" : "A petrified piece of Heartwood, very sturdy and holds a mean edge.",
   "shortdescription" : "Ancient Heartwood",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "reagent" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "heartwood" }
 }

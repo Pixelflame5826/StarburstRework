@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "bow", "pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_savannahbow" },
+
   "radioMessagesOnPickup" : [ "pickupbow" ],
 
   "level" : 2,

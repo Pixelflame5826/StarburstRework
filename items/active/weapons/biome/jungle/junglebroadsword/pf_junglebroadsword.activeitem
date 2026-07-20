@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","melee","broadsword","pf_anvilUpgradeableWeapon"],
   "level" : 4,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_junglebroadsword" },
+
   "inventoryIcon" : "pf_junglebroadsword.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/broadsword.animation",

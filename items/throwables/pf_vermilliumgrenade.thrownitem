@@ -11,6 +11,8 @@
   "description" : "A toxic grenade filled with vermillium gas. It sprays toxic gas everywhere for some time.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_vermilliumgrenade" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

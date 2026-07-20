@@ -11,6 +11,8 @@
   "twoHanded" : false,
   "itemTags" : ["weapon", "melee", "shortsword", "pf_anvilUpgradeableWeapon" ],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_savannahsword" },
+
   "inventoryIcon" : "pf_savannahsword.png",
 
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",

@@ -7,5 +7,7 @@
   "inventoryIcon" : "pf_teaflower.png",
   "description" : "A flower from the tea plant. Has a distinct floral aroma that carries to its taste.",
   "shortdescription" : "Tea Flower",
-  "learnBlueprintsOnPickup" : [ "pf_herbaltea" ]
+  "learnBlueprintsOnPickup" : [ "pf_herbaltea" ],
+
+  "collectablesOnPickup" : { "pf_farmables" : "pf_tea" }
 }

@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword"],
 
+  "collectablesOnPickup" : { "pf_uniqueweapons" : "pf_masterbroadsword" },
+
   "inventoryIcon" : "pf_masterbroadswordicon.png",
 
   "animation" : "pf_masterbroadsword.animation",

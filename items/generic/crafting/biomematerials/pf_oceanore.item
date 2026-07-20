@@ -7,5 +7,7 @@
   "description" : "A dark blue crystal that is said to invoke the deep sea.",
   "shortdescription" : "Aquari Shard",
   "itemTags" : [ "reagent" ],
-  "radioMessagesOnPickup" : [ "pickupore" ]
+  "radioMessagesOnPickup" : [ "pickupore" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "aquari" }
 }

@@ -12,6 +12,8 @@
   "itemTags" : ["weapon","ranged","rocketlauncher","pf_anvilUpgradeableWeapon"],
   "twoHanded" : true,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_volcaniclauncher" },
+
   "animation" : "pf_volcaniclauncher.animation",
   "animationParts" : {
     "middle" : "pf_volcaniclauncher.png",

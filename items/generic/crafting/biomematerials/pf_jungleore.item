@@ -7,5 +7,7 @@
   "description" : "A plant based material that filters and stores toxins in the atmosphere.",
   "shortdescription" : "Vermillium Spice",
   "itemTags" : [ "reagent" ],
-  "radioMessagesOnPickup" : [ "pickupore" ]
+  "radioMessagesOnPickup" : [ "pickupore" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "vermillium" }
 }

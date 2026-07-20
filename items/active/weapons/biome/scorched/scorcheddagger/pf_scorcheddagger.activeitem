@@ -11,6 +11,8 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","dagger"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_scorcheddagger" },
+
   "inventoryIcon" : "pf_scorcheddagger.png",
 
   "animation" : "/items/active/weapons/melee/dagger/dagger.animation",

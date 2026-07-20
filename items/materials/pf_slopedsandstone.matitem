@@ -7,5 +7,7 @@
   "shortdescription" : "Smooth Sandstone",
   "description" : "Extremly smooth sandstone made from centuries of weathering.",
 
-  "materialId" : 38409
+  "materialId" : 38409,
+
+  "collectablesOnPickup" : { "pf_minerals" : "sandstone" }
 }

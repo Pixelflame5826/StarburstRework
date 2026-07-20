@@ -9,6 +9,8 @@
   "description" : "A portable nuclear generator that can be worn on the back. Increases energy capabilities massively!",
   "shortdescription" : "Uranium Porta-Generator",
 
+  "collectablesOnPickup" : { "pf_enhancementpacks" : "pf_uraniumpackback" },
+
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,

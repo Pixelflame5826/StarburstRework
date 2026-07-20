@@ -10,5 +10,7 @@
   "materialId" : 38404,
   "learnBlueprintsOnPickup" : [
     "pf_layeredsandstonepolished"
-  ]
+  ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "sandstone" }
 }

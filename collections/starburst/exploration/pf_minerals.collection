@@ -119,7 +119,7 @@
     },
     "heartwood" : {
       "order" : 19,
-      "title" : "Petrified Heartwood", //(C-SiO2)",
+      "title" : "Ancient Heartwood", //(C-SiO2)",
       "description" : "^white;Found On: ^#329632;Forest Planets ^#00d5a0;[Tier 2]^reset; \nPetrifying wood isn't a unique geological process. However, this material was formed in a moist and hot environment, causing parts of it to be carbonized. This keeps the tensility of the wood, while being stronger as a result.",
       "icon" : "/items/generic/crafting/biomematerial/pf_forestdisk.png"
     },

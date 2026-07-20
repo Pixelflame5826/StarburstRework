@@ -11,6 +11,8 @@
   "description" : "A sharp throwing kukri made from aurium. Slices through enemies and leaves them bleeding.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_auriumkukri" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

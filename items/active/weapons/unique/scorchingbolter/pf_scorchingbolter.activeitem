@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","pistol"],
   "level" : 6,
 
+  "collectablesOnPickup" : { "pf_otherworldlyweapons" : "pf_scorchingbolter" },
+
   "inventoryIcon" : "pf_scorchingbolter.png:default.1",
 
   "animation" : "pf_scorchingbolter.animation",

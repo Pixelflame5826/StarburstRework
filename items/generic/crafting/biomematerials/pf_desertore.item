@@ -7,5 +7,7 @@
   "description" : "A red crystal that breaks into sharp edges, suspected to be a lesser form of Avolite.",
   "shortdescription" : "Rubite Ore",
   "itemTags" : [ "reagent" ],
-  "radioMessagesOnPickup" : [ "pickupore" ]
+  "radioMessagesOnPickup" : [ "pickupore" ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "rubite" }
 }

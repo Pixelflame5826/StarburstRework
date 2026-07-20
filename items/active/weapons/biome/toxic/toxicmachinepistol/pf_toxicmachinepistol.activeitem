@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","machinepistol"],
   "level" : 6,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_toxicmachinepistol" },
+
   "inventoryIcon" : "pf_toxicmachinepistol.png:default.1",
 
   "animation" : "pf_toxicmachinepistol.animation",

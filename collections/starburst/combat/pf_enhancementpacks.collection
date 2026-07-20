@@ -8,38 +8,38 @@
     "lanternstickback" : {
       "order" : 1,
       "title" : "Lantern Stick",
-      "description" : "^white;Obtained From: ^#orange;Anvil^reset; \nPerhaps the most basic that a mounted light source can get, a tree branch and a lantern. Commonly seen on Glitch and Human travelers as its quite cheap.",
+      "description" : "^white;Obtained From: ^orange;Anvil^reset; \nPerhaps the most basic that a mounted light source can get, a tree branch and a lantern. Commonly seen on Glitch and Human travelers as its quite cheap.",
       "icon" : "/items/armors/backitems/lanternstick/lanternstickicon.png"
     },
     "halogenpack" : {
       "order" : 2,
       "title" : "Halogen Pack",
-      "description" : "^white;Obtained From: ^#orange;Replicator^reset; \nA longstanding Human design, originally used by USCM scouts in the early days of space exploration. Still used nowadays by a few explorers and the standard issue for Protectorate gear.",
+      "description" : "^white;Obtained From: ^orange;Replicator^reset; \nA longstanding Human design, originally used by USCM scouts in the early days of space exploration. Still used nowadays by a few explorers and the standard issue for Protectorate gear.",
       "icon" : "/items/armors/backitems/halogenpack/halogenpackicon.png"
     },
     "xenonpack" : {
       "order" : 3,
       "title" : "Xenon Pack",
-      "description" : "^white;Obtained From: ^#orange;Replicator^reset; \nThe Graxus XenonTM Pack, a commissioned Protectorate replicator schematic. This waterproof, energy-efficient light can be a great boon to any explorer. The crystalline lamp puts out more lumens than your ordinary halogen pack!",
+      "description" : "^white;Obtained From: ^orange;Replicator^reset; \nThe Graxus XenonTM Pack, a commissioned Protectorate replicator schematic. This waterproof, energy-efficient light can be a great boon to any explorer. The crystalline lamp puts out more lumens than your ordinary halogen pack!",
       "icon" : "/items/armors/backitems/xenonpack/xenonpackicon.png"
     },
 
     "pf_auriumshieldback" : {
       "order" : 4,
       "title" : "Aurium Defender",
-      "description" : "^white;Obtained From: ^#orange;Anvil^reset; \nAurium was once favored by the Glitch during its early days, a strong and ductile material that appeared like gold. Many weapons and armor made for nobility are still made from Aurium all these years later.",
+      "description" : "^white;Obtained From: ^orange;Anvil^reset; \nAurium was once favored by the Glitch during its early days, a strong and ductile material that appeared like gold. Many weapons and armor made for nobility are still made from Aurium all these years later.",
       "icon" : "/items/armors/backitems/pf_auriumshield/pf_icon.png"
     },
     "pf_aquaristandardback" : {
       "order" : 5,
       "title" : "Aquari Battlestandard",
-      "description" : "^white;Obtained From: ^#orange;Forge^reset; \nOnce worn by Hylotl generals during the Hylotlian Imperial Era. The banner rallied the troops to fight onwards. Its said that on rainy days, the Floran never won a fight when in the presence of this.",
+      "description" : "^white;Obtained From: ^orange;Forge^reset; \nOnce worn by Hylotl generals during the Hylotlian Imperial Era. The banner rallied the troops to fight onwards. Its said that on rainy days, the Floran never won a fight when in the presence of this.",
       "icon" : "/items/armors/backitems/pf_aquaristandard/pf_icon.png"
     },
     "pf_vermilliumshellback" : {
       "order" : 6,
       "title" : "Vermillium Shell",
-      "description" : "^white;Obtained From: ^#orange;Replicator^reset; \nThe highly toxic and granular properties of vermillium are often used by Florans as traps. Stepping onto a vermillium trap oftentimes killed the target within 5 minutes afterwards. Attaching it to your back is certainly a ... choice.",
+      "description" : "^white;Obtained From: ^orange;Replicator^reset; \nThe highly toxic and granular properties of vermillium are often used by Florans as traps. Stepping onto a vermillium trap oftentimes killed the target within 5 minutes afterwards. Attaching it to your back is certainly a ... choice.",
       "icon" : "/items/armors/backitems/pf_vermilliumshell/pf_icon.png"
     },
     "pf_violiumclimbingback" : {

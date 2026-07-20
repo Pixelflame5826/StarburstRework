@@ -119,60 +119,72 @@
       "description" : ""^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe pinnacle of mining technology! Originally a standard Solarium Broadsword projector, it was modified to form a near indestructible pickaxe. It will break rock and everything it can, while being perfectly stable.",
       "icon" : "/items/active/weapons/melee/pickaxe/energypickaxeicon.png"
     },
+    "pf_tunneldrill" : {
+      "order" : 20,
+      "title" : "Tunnel Drill",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nThe largest handheld drill you've ever seen! Specifically made to dig out mining caverns, these make digging through rock a sinch as it has a large mining area. Don't neglect your Matter Manipulator too much!",
+      "icon" : "/items/tools/miningtools/crafted/pf_tunneldrill.png:0"
+    },
 
     //LIGHT TOOLS 
     "flare" : {
-      "order" : 20,
+      "order" : 21,
       "title" : "Flare",
       "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nPerhaps one of the most important tools for an aspiring cave explorer. No matter what you think you can see, you cannot differentiate between a hump and a pit in pitch black darkness. Throw a flare down before you do it yourself.",
       "icon" : "/items/throwables/flare.png"
     },
     "mininglantern" : {
-      "order" : 21,
+      "order" : 22,
       "title" : "Lantern",
       "description" : "^white;Obtained From: ^orange;Foraging Table^reset; \nThe most basic, long-term lighting implement one can possibly make. A wick and oil. While many other tools nowadays output more lumens, you can't beat fire in terms of simplicity. Just try not to put it on a table next to wood.",
       "icon" : "/items/tools/mininglantern.png"
     },
     "flashlight" : {
-      "order" : 22,
+      "order" : 23,
       "title" : "Flashlight",
       "description" : "^white;Obtained From: ^orange;Foraging Table^reset; \nBeen around since gas lamps were phased out, a super handly torch to light any direction in front of you. Just make sure to occassionally point the light behind you, in case there's anything there. Never know what's in the dark...",
       "icon" : "/items/tools/flashlight.png"
     },
     "greenflashlight" : {
-      "order" : 23,
+      "order" : 24,
       "title" : "Flashlight (Green)",
       "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nFlashlights are never colored without some good reason. Green lights are more easily to illuminate certain spaces without as much power draw. Human eyes are well suited for capturing green light, allowing for greater effect.",
       "icon" : "/items/tools/greenflashlight.png"
     },
     "redflashlight" : {
-      "order" : 24,
+      "order" : 25,
       "title" : "Flashlight (Red)",
       "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nOne of the least bright colors, but that's what makes it useful for stealth situations. Many species with dark vision often lose it when looking at bright lights, with the exception of red. Making night excursions much easier.",
       "icon" : "/items/tools/redflashlight.png"
     },
     "yellowflashlight" : {
-      "order" : 25,
+      "order" : 26,
       "title" : "Flashlight (Yellow)",
       "description" : "^white;Found On: Any Planet ^lightgray;[Any Tier]^reset; \nQuite the relic you have, many older flashlights give off a warm yellow glow. This is because they use icandescent lightbulbs rather than LEDs or other modern lighting methods. Just hope you never need to replace it.",
       "icon" : "/items/tools/yellowflashlight.png"
     },
+    "pf_flaregun" : {
+      "order" : 27,
+      "title" : "Flare Gun",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nA basic upgrade to just throwing flares around, this flare launcher can lob flares much further. As well, it comes with flares that stick into surfaces! No more lighting problems again.",
+      "icon" : "/items/active/unsorted/flaregun/pf_flaregun.png"
+    },
 
     //MOVEMENT TOOLS 
     "climbingrope" : {
-      "order" : 26,
+      "order" : 28,
       "title" : "Climbing Rope",
       "description" : "^white;Obtained From: ^cyan;Hand Crafting^reset; \nA universal climbing tool, a rope attached to some kind of anchor point. Toss it up to climb up steep walls, toss it below you to descend down pits safely. Its very versatile if you know how to us it.",
       "icon" : "/items/active/grapplinghooks/climbingrope/climbingrope.png"
     },
     "grapplinghook" : {
-      "order" : 27,
+      "order" : 29,
       "title" : "Grappling Hook",
       "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nWhen a simple rope and anchor won't cut it. A speedy option with a slightly less versatility than a normal rope. With enough finesse, one can swing around with it and traverse rough terrain within seconds.",
       "icon" : "/items/active/grapplinghooks/grapplinghook/grapplegun.png"
     },
     "pf_stormygrapplinghook" : {
-      "order" : 28,
+      "order" : 30,
       "title" : "Rail-Grappler",
       "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nOne would think a railgun grappling hook would be a bit overkill, however this model is especially popular with hikers. The extended reach allows for quick traversal of cliffsides and crevices with little issue.",
       "icon" : "/items/active/grapplinghooks/stormygrapplinghook/pf_stormygrapplegun.png"
@@ -180,13 +192,13 @@
 
     //OTHER TOOLS
     "cavedetector" : {
-      "order" : 29,
+      "order" : 31,
       "title" : "Cave Detector",
       "description" : "^white;Found On: ^orange;Agricultural Station^reset; \nPerhaps one of the most advanced radars in the world. The very subtle ways that the sound vibrates surfaces can tell where there are holes in the rock itself. Extremely precise, but a useful tool for many geologists.",
       "icon" : "/items/active/unsorted/oredetector/cavedetector.png"
     },
     "oredetector" : {
-      "order" : 30,
+      "order" : 32,
       "title" : "Ore Detector",
       "description" : "^white;Found On: ^orange;Agricultural Station^reset; \nEvery mineral and rock in the universe has a distinct and unique resonance. By vibrating the walls with a specific sound, one can dowse for any valuable material one desires. Originally done by large weights, this extremely precise tool is a marvel on its own.",
       "icon" : "/items/active/unsorted/oredetector/oredetector.png"

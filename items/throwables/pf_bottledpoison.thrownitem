@@ -10,6 +10,8 @@
   "description" : "A flask of poison that can be thrown at enemies. Poisons them with toxic fluids. Not for consumption!",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_bottledpoison" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

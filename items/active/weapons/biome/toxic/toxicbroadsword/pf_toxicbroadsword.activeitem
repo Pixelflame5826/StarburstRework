@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_toxicbroadsword" },
+
   "inventoryIcon" : "pf_toxicbroadsword.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",

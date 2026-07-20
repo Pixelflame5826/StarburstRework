@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 4,
 
+  "collectablesOnPickup" : { "pf_uniqueweapons" : "pf_windflarerifle" },
+
   "inventoryIcon" : "pf_windflarerifle.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",

@@ -6,12 +6,14 @@
   "category" : "eppAugment",
   "inventoryIcon" : "pf_radiationblockaugment.png",
   "description" : "An EPP module that makes you immune to Deadly Planet Radiation.",
-  "shortdescription" : "Gamma Resist Augment",
+  "shortdescription" : "Radiation Block Augment",
+
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_radiationblockaugment" },
 
   "augment" : {
     "type" : "back",
     "name" : "pf_radiationblock",
-    "displayName" : "Gamma Resist",
+    "displayName" : "Radiation Block",
     "displayIcon" : "/items/augments/back/pf_radiationblockaugment.png",
     "effects" : [ "pf_biomeradiationaugment" ]
   },

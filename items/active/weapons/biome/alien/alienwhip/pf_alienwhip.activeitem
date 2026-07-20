@@ -11,6 +11,8 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","pf_anvilUpgradeableWeapon"],
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_alienwhip" },
+
   "inventoryIcon" : "pf_alienwhip.png:idle",
   "animation" : "/items/active/weapons/whip/whip.animation",
   "animationParts" : {

@@ -9,6 +9,8 @@
   "description" : "A durable and heroic shield made of aurium, able to resist any elemental attacks that comes its way.",
   "shortdescription" : "Aurium Defender",
 
+  "collectablesOnPickup" : { "pf_enhancementpacks" : "pf_auriumshieldback" },
+
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,

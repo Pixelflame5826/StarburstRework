@@ -7,7 +7,9 @@
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
   "description" : "This EPP neutralizes toxins in the air to safe levels. Use it on planets with ^red;deadly toxicity levels.^reset;.",
-  "shortdescription" : "Toxicity EPP",
+  "shortdescription" : "Neutralizing EPP",
+
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_poisonprotectionback" },
 
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",

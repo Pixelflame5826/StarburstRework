@@ -9,12 +9,8 @@
 
   "materialId" : 38413,
   "learnBlueprintsOnPickup" : [
-    "pf_slatepolished",
-    "pf_slatetable",
-    "pf_slatechair",
-    "pf_slatedesk",
-    "pf_slatebed",
-    "pf_slatecounter",
-    "pf_slateplate"
-  ]
+    "pf_slatepolished"
+  ],
+
+  "collectablesOnPickup" : { "pf_minerals" : "slate" }
 }

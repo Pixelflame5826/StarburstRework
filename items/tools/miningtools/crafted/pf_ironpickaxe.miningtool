@@ -25,5 +25,7 @@
   "harvestLevel" : 99,
   "tileDamageBlunted" : 0.6,
   "builder" : "/items/buildscripts/pf_buildminingtool.lua",
-  "itemAgingScripts" : ["/scripts/items/pf_miningtoolupdate.lua"]
+  "itemAgingScripts" : ["/scripts/items/pf_miningtoolupdate.lua"],
+
+  "collectablesOnPickup" : { "pf_tools" : "pf_ironpickaxe" }
 }

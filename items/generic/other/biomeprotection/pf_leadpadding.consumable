@@ -14,5 +14,7 @@
       }
   ] ],
   "emote" : "",
-  "emitters" : [ "pf_equipconsumable" ]
+  "emitters" : [ "pf_equipconsumable" ],
+
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_leadpadding" }
 }

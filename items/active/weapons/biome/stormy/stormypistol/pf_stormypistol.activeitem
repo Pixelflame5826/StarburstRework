@@ -11,6 +11,8 @@
   "itemTags" : ["weapon","ranged","pistol","pf_anvilUpgradeableWeapon"],
   "level" : 5,
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_stormypistol" },
+
   "inventoryIcon" : "pf_stormypistol.png:default.1",
 
   "animation" : "pf_stormypistol.animation",

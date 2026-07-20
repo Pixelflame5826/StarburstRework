@@ -8,6 +8,8 @@
   "description" : "An EPP module that makes you immune to Mild Planet Radiation.",
   "shortdescription" : "Radiation Resist Augment",
 
+  "collectablesOnPickup" : { "pf_hazardprotection" : "pf_biomeradiationaugment" },
+
   "augment" : {
     "type" : "back",
     "name" : "pf_mildbiomeradiationprotection",

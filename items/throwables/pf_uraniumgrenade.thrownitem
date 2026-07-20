@@ -11,6 +11,8 @@
   "description" : "A nuclear grenade powered by uranium. Explodes with extreme force and releases toxins.",
   "tooltipKind" : "pf_throwingweapon",
 
+  "collectablesOnPickup" : { "pf_throwingweapons" : "pf_uraniumgrenade" },
+
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,

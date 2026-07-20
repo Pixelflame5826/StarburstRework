@@ -9,6 +9,8 @@
   "description" : "A flower-like shell plated with vermillium petals. Releases its poisonous dust when struck.",
   "shortdescription" : "Vermillium Shell",
 
+  "collectablesOnPickup" : { "pf_enhancementpacks" : "pf_vermilliumshellback" },
+
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,

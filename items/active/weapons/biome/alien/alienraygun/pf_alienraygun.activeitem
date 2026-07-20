@@ -13,6 +13,8 @@
 
   "inventoryIcon" : "pf_alienraygun.png:default.1",
 
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_alienraygun" },
+
   "animation" : "pf_alienraygun.animation",
   "animationParts" : {
     "butt" : "",
