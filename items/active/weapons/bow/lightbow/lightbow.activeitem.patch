@@ -20,5 +20,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A bow fashined from strong bioluminescent fibers. It fires bright glowing arrows that can light things up."
+    },
+    
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_biomeweapons" : "lightbow" }
     }
 ]

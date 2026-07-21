@@ -5,7 +5,7 @@
         "value": 0.1
     },
     {
-        "op": "replace",
+        "op": "add",
         "path": "/cooldownTime",
         "value": 0.5
     },

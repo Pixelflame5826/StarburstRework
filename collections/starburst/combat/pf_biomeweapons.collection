@@ -89,7 +89,7 @@
       "order" : 13,
       "title" : "Light Bow",
       "description" : "^white;Found In: ^#fff15e;Bioluminescent Biomes ^#00d53c;[Tier 3]^reset; \nA bow made from native bioluminescent plant material. Though the luminescent arrows are only marginally effective in combat, they can be used to light darkness much like a flare gun. ",
-      "icon" : "/items/active/weapons/biome/snow/snowgrenadelauncher/pf_snowgrenadelauncher.png"
+      "icon" : "/items/active/weapons/bow/lightbow/lightbowfull.png:0"
     },
 
     //TIER 4
@@ -189,7 +189,7 @@
     "pf_midnightshortsword" : {
       "order" : 28,
       "title" : "Phobia",
-      "description" : "^white;Found On: ^#969696;Midnight Planets ^#d5c300;[Tier 6]^reset; \nShadow weapons are extremely rare and unknown to most areas of science. Many discribe the sensation as a consuming force that removes your very being. Not much can substantiate these claims, its simply ^red;impossible to know.",
+      "description" : "^white;Found On: ^#969696;Midnight Planets ^#d5c300;[Tier 6]^reset; \nShadow weapons are extremely rare and unknown to most areas of science. Many describe the sensation as a consuming force that removes your very being. Not much can substantiate these claims, its simply ^red;impossible to know.",
       "icon" : "/items/active/weapons/biome/midnight/midnightshortsword/pf_midnightshortsword.png"
     },
     "pf_midnightstaff" : {
@@ -204,25 +204,25 @@
       "order" : 30,
       "title" : "Electro Baton",
       "description" : "^white;Found In: ^#a451c4;Space Encounters ^lightgray;[Any Tier]^reset; \nLetheia is no stranger to doing business with some unsavory clients, none moreso than the Miniknog. Commissioned for their Insurgence Elimination squads, these batons stun foes when taking them alive is preferred.",
-      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+      "icon" : "/items/active/weapons/other/electrobaton/electrobatonicon.png"
     },
     "raygun" : {
       "order" : 31,
       "title" : "Ray Gun",
       "description" : "^white;Found In: ^#a451c4;Space Encounters ^lightgray;[Any Tier]^reset; \nConsidered a relic by current technology standards by many races, these guns were the original plasma launchers. They can still be effective in combat, but the unstable plasma projectiles can be hard to aim.",
-      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+      "icon" : "/items/active/weapons/ranged/unrand/raygun/pf_raygun-ani.png:default.1"
     },
     "drillspear" : {
       "order" : 32,
       "title" : "Drill Spear",
       "description" : "^white;Found In: ^#a451c4;Space Encounters ^#d5c300;[Tier 6]^reset; \nSpacefaring Glitch are few and far between, but for those who seek the void between realms, there are riches to behold. These drill polearms often double as movement and asteroid mining tools, highly efficient when given little.",
-      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+      "icon" : "/items/active/weapons/other/drillspear/drillspear.png:1"
     },
     "spaceplasmarifle" : {
       "order" : 33,
       "title" : "Plasma Assault Rifle",
       "description" : "^white;Found In: ^#a451c4;Space Encounters ^#d5c300;[Tier 6]^reset; \nOne of Letheia's flagship weapons. Works effectively in the cold vacuum of space, just as much as it does on the ground. Its said that it comes with a \"giant alien arachnid free ship\" guarantee!",
-      "icon" : "/items/active/weapons/other/remotegrenadelauncher/pf_remotegrenadelauncher-ani.png:default.1"
+      "icon" : "/items/active/weapons/ranged/unrand/spaceplasmarifle/pf_spaceplasmarifle-ani.png:default.1"
     }
   }
 }

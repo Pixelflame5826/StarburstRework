@@ -46,13 +46,13 @@
       "order" : 7,
       "title" : "Violium Climbing Gear",
       "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nA necessary kit for a space age mountain climber. The violium pulse generator built into the pack will immediately attempt to break falls before impact. Its not perfect however, as the pulse of energy is limited.",
-      "icon" : "/items/armors/backitems/pf_violiumclimbingback/pf_icon.png"
+      "icon" : "/items/armors/backitems/pf_violiumclimbing/pf_icon.png"
     },
     "pf_uraniumpackback" : {
       "order" : 8,
       "title" : "Uranium Porta-Generator",
       "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nWhile a back mounted nuclear generator in an age with Violium, Erchius, and Fusion generators, is seen as insane. The high energy density and without need of particle acceleration is a boon a few can have.",
-      "icon" : "/items/armors/backitems/pf_uraniumpackback/pf_icon.png"
+      "icon" : "/items/armors/backitems/pf_uraniumpack/pf_icon.png"
     },
 
     //BIOME
@@ -65,14 +65,14 @@
     "rainbowcapeback" : {
       "order" : 10,
       "title" : "Shawl of Elation",
-      "description" : "^white;Found In: ^cyan;Colourful Biomes ^#00d5a0;[Tier 2+]^reset; \nThe colourful visage of this cape is famously worn by the Rainbow Rogues, a guild of flamboyant jailbroken Glitch. Often fighting for Glitch self expression and being a thorn in the side of House Steamcrow. They are quite the characters.",
+      "description" : "^white;Found In: ^cyan;Colourful Biomes ^#00d5a0;[Tier 2+]^reset; \nThe visage of this cape is famous due to the Rainbow Rogues, a guild of flamboyant jailbroken Glitch. Often fighting for free Glitch and being a thorn in the side of House Steamcrow. They are quite the colourful characters.",
       "icon" : "/items/armors/backitems/rainbowcape/rainbowcapebackicon.png"
     },
     "boilerback" : {
       "order" : 11,
       "title" : "Boiler",
       "description" : "^white;Found In: ^cyan;Steamspring Biomes ^#00d53c;[Tier 3+]^reset; \nThe Steampunks of the Novakids are an odd group, often foregoing their warm and lush evironments for cold and desolate. They use the massive amounts of hidden water to power grand designs, and often use these for self power.",
-      "icon" : "/items/armors/backitems/boilerback/boilerbackicon.png"
+      "icon" : "/items/armors/backitems/boiler/boilerbackicon.png"
     },
     "hazmatback" : {
       "order" : 12,
@@ -83,19 +83,19 @@
     "pf_stormgearback" : {
       "order" : 13,
       "title" : "Stormchaser's Pack",
-      "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nStormchasers are a group of many species, all with different reasons for being part. Seeking the strongest storms, one must be prepared for anything that the planet throws at you. Though imperfect, you cannot deny that they are prepared.",
+      "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nStormchasers are a diverse group, all with different reasons for being part. As they seek strongest storms, they must be prepared for anything. Though imperfect, you cannot deny that they are prepared.",
       "icon" : "/items/armors/biome/stormy/pf_stormgear/icons.png:back"
     },
     "firelordback" : {
       "order" : 14,
       "title" : "Fire Lord's Cloak",
-      "description" : "^white;Found On: ^#960000;Volcanic Planets ^#b4d500;[Tier 5]^reset; \nA symbol of tyranny for a forgotten era of the Glitch. Those who once roamed the Volcanic wastes of the realms, subjugating any species and kingdoms that got in their way. Its said the leader, the Fire Lord met an icy fate, ending this era forever.",
+      "description" : "^white;Found On: ^#960000;Volcanic Planets ^#b4d500;[Tier 5]^reset; \nA symbol of tyranny for a past era of the Glitch. Those who once roamed the Volcanic wastes of the realms, subjugating or burning anyone that got in their way. Its said the leader, the Fire Lord met an icy fate, ending this era forever.",
       "icon" : "/items/armors/biome/volcanic/firelord/icons.png:back"
     },
     "toxicflowerback" : {
       "order" : 15,
       "title" : "Toxic Flower Backpack",
-      "description" : "^white;Found On: ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nLong ago, the Floran once found these polluted ocean worlds while seeking the Hylotl. Though where most saw ruin, they saw opportunity. This backpack was made using Biogenesis on a flowering plant on these worlds, forever making energy.",
+      "description" : "^white;Found On: ^#00ff00;Toxic Planets ^#d5c300;[Tier 6]^reset; \nLong ago, the Floran once found these polluted ocean worlds while seeking the Hylotl. Though where most saw ruin, they saw opportunity. This backpack was made using Biogenesis on a flowering plant on these worlds.",
       "icon" : "/items/armors/backitems/toxicflower/icons.png:back"
     },
 
@@ -104,31 +104,31 @@
       "order" : 16,
       "title" : "Stargazer Acolyte Wings",
       "description" : "^white;Found In: ^lightgrey;Avian Tombs^reset; \nAcolytes are the bottom ladder of the Avolian clergy, often doing day to day tasks. Keeping tombs and temples, making sure the ornamentation is in top order, seeing visitors. Upon memorizing the Avoscript, they often grow into Priests.",
-      "icon" : "/items/armors/backitems/tribalwings/icon.png:back"
+      "icon" : "/items/armors/backitems/tribalwings/icon.png"
     },
     "guardwingsback" : {
       "order" : 17,
       "title" : "Stargazer Priest Wings",
-      "description" : "^white;Found In: ^lightgrey;Avian Tombs^reset; \nPriests are the main administrators of the Avolista religion, organizing festivals and holding services. A Priest is often seen running a whole Winged village, or multiple in the case of tombs. However, they always answer to a Prophet.",
-      "icon" : "/items/armors/backitems/guardwings/icon.png:back"
+      "description" : "^white;Found In: ^lightgrey;Avian Tombs^reset; \nPriests are the main admins of the Avolista religion, organizing festivals and holding services. A Priest is often seen running a whole Winged village, or multiple in the case of tombs. However, they always answer to a Prophet.",
+      "icon" : "/items/armors/backitems/guardwings/icon.png"
     },
     "falconwingsback" : {
       "order" : 18,
       "title" : "Stargazer Prophet Wings",
-      "description" : "^white;Found In: ^lightgrey;Avian Tombs^reset; \nWorn by the pinnacle of the Avolian clergy. Not often seen beyond large settlements with multiple temples, most of the time they reside on Avos to recieve orders directly from the High Priests. These members don't just recite scripture, they define and write it.",
-      "icon" : "/items/armors/backitems/falconwings/icon.png:back"
+      "description" : "^white;Found In: ^lightgrey;Avian Tombs^reset; \nWorn by the pinnacle of the Avolian clergy. Most times, they reside on Avos to recieve orders directly from the High Priests. Only ever leaving for ceremonies. These members don't just recite scripture, they define and write it.",
+      "icon" : "/items/armors/backitems/falconwings/icon.png"
     },
     "aviangodwingsback" : {
       "order" : 19,
       "title" : "Avian God Wings",
       "description" : "^white;Found In: ^lightgrey;Avian Tombs^reset; \nA set of purely ceremonial wings, Prophets and High Priests often wear these during massive festivals. The spectacle of lifelike wings often puts the fear of Kluex in onlookers, gliding from high heights flawlessly like a spirit.",
-      "icon" : "/items/armors/backitems/aviangodwings/icon.png:back"
+      "icon" : "/items/armors/backitems/aviangodwings/icon.png"
     },
     "bladedwingsback" : {
       "order" : 20,
       "title" : "Bladed Wings",
       "description" : "^white;Found In: ^lightgrey;Avian Temples^reset; \nWings of pure blades often represent the wrath of Kluex, and the importance of blood in the Avian religion. Guardians and warriors wear these to put fear into the eyes of enemies, and to tell others to respect the spaces they guard.",
-      "icon" : "/items/armors/backitems/bladedwings/icon.png:back"
+      "icon" : "/items/armors/backitems/bladedwings/icon.png"
     },
     "predatoryback" : {
       "order" : 21,

@@ -11,7 +11,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","pf_anvilUpgradeableWeapon"],
 
-  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_tungstenboomerangaxe" },
+  "collectablesOnPickup" : { "pf_biomeweapons" : "pf_tundraboomerangaxe" },
 
   "inventoryIcon" : "pf_tundraboomerangaxeicon.png",
   "animation" : "/items/active/weapons/boomerang/boomerang.animation",

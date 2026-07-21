@@ -20,7 +20,7 @@
     "throwingbones" : {
       "order" : 3,
       "title" : "Throwing Bone",
-      "description" : "^white;Recipe Obtained From: ^yellow;Bone^white; \nThe most primitive form of throwing weapon, even moreso than spears. But hey, in some cases, blunt force trauma is often better than technology.",
+      "description" : "^white;Recipe From: ^yellow;Bone^reset; \nThe most primitive form of throwing weapon, even moreso than spears. But hey, in some cases, blunt force trauma is often better than technology.",
       "icon" : "/items/throwables/throwingbones.png"
     },
     "pf_auriumkukri" : {
@@ -56,13 +56,13 @@
     "snowflakeshuriken" : {
       "order" : 9,
       "title" : "Snowflake Shuriken",
-      "description" : "^white;Recipe Obtained From: ^yellow;Snowflake^white; \nThe logical conclusion into how you should turn fine ice crystals into a weapon. Most well known from the Hylotl's Yuki Assassins. These shurikens leave no trace once they melt, merely the mark they made.",
+      "description" : "^white;Recipe From: ^yellow;Snowflake^reset; \nThe logical conclusion of fine ice crystals being weaponized. Most well known from the Hylotl's Yuki Assassins. These shurikens leave no trace once they melt, merely the mark they made.",
       "icon" : "/items/throwables/snowflakeshuriken.png"
     },
     "pf_rubitemambele" : {
       "order" : 10,
       "title" : "Heartwood Tomahawk",
-      "description" : "^white;Obtained From: ^orange;Forge^reset; \nLong before the discovery of Avolite, Avians used these brutal weapons that were modelled like talons. Causes targets to bleed profusely, its said those that killed many sapients gained a mind of their own.",
+      "description" : "^white;Obtained From: ^orange;Forge^reset; \nLong before the discovery of Avolite, Avians used these brutal talon-like weapons. A single hit causes targets to bleed profusely, its said those that killed many sapients gained a mind of their own.",
       "icon" : "/items/throwables/pf_rubitemambele.png"
     },
     "pf_blueicehatchet" : {
@@ -150,25 +150,25 @@
     "stungrenade" : {
       "order" : 24,
       "title" : "Stun Grenade",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nUnlike usual concussion grenades, these grenades create energy field that paralyzes targets. For Peacekeepers, this is a preferred room clearing method, as its much easier to arrest an immobile criminal.",
-      "icon" : "/items/throwables/stungrenade.png"
+      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^reset; \nUnlike usual concussion grenades, these grenades create energy field that paralyzes targets. For Peacekeepers, this is a preferred room clearing method, as its much easier to arrest an immobile criminal.",
+      "icon" : "/items/throwables/pf_stungrenade.png"
     },
     "pf_vermilliumgrenade" : {
       "order" : 25,
       "title" : "Vermillium Gas Grenade",
       "description" : "^white;Obtained From: ^orange;Replicator^reset; \nThough locked away, the toxic aerosols within vermillium can be released once more through controlled heating of the material. Turning a simple puck of it into poisonous gas. This is why you shouldn't burn down Jungles!",
-      "icon" : "/items/throwables/stungrenade.png"
+      "icon" : "/items/throwables/pf_vermilliumgrenade.png"
     },
     "pf_ashapplebomb" : {
       "order" : 26,
       "title" : "Ash Apple Bomb",
-      "description" : "^white;Recipe Obtained From: ^yellow;Ash Apple^white; \nYou usually don't think of a fruit being explosive, the Ash Apple is an exception. The highly combustible, ashen flesh of the fruit often violently explode into flames. Add a wick, and you can control it!",
+      "description" : "^white;Recipe From: ^yellow;Ash Apple^rset; \nYou usually don't think of a fruit being explosive, the Ash Apple is an exception. The highly combustible, ashen flesh of the fruit often violently explode into flames. Add a wick, and you can control it!",
       "icon" : "/items/throwables/pf_ashapplebomb.png"
     },
     "pf_promethiumgrenade" : {
       "order" : 27,
       "title" : "Promethium Grenade",
-      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nA very much illegal explosive. This grenade spreads molten promethium in all directions, burning hotter than a plasma torch. If weapons such as these were common place, its no wonder the Deadbeats' planets were scorched.",
+      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nA very illegal explosive. This grenade spreads molten promethium in all directions, burning hotter than a plasma torch. If weapons such as these were common place, its no wonder the Deadbeats' planets were scorched.",
       "icon" : "/items/throwables/pf_promethiumgrenade.png"
     },
     "pf_uraniumgrenade" : {
@@ -219,13 +219,13 @@
       "order" : 35,
       "title" : "Bug Hive",
       "description" : "^white;Dropped By: ^red;Floran Hunters^reset; \nA perhaps crude method of taming wildlife to suit the needs of the Floran. Though one cannot deny the effectiveness of multiple poisonous insects homing in on you.",
-      "icon" : "/items/throwables/bughive.png"
+      "icon" : "/items/throwables/hivebomb.png"
     },
     "pf_sealingtalisman" : {
       "order" : 36,
       "title" : "Sealing Talismans",
       "description" : "^white;Found In: ^lightgrey;Hylotl Castles^reset; \nTalismans are a large part of Hylotl culture. Said to be filled with a spiritual energy by powerful Fuchi, they can do many things. In this case, weaken foes with a potent sealing power.",
-      "icon" : "/items/throwables/pf_sealingtalisman"
+      "icon" : "/items/throwables/pf_sealingtalisman.png"
     },
 
     //BOOMERANGS
@@ -238,20 +238,20 @@
     "fireboomerang" : {
       "order" : 38,
       "title" : "Molten Boomerang",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nInstalling a molten core into the center of a boomerang causes its weight and energy density within to increase twofold. Its flames make it more useful for combat, rather than hunting.",
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nInstalling a molten core into the center of a boomerang causes its weight and energy density within to increase twofold. Its flames make it more useful for combat, rather than hunting.",
       "icon" : "/items/active/weapons/boomerang/fireboomerang.png"
     },
     "iceboomerang" : {
       "order" : 39,
       "title" : "Frozen Boomerang",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nCoating the wings of a boomerang with cryogenic fluid allows it to freeze the air as it travels. Just, make sure to use gloves with it, lest your hands face the same fate.",
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nCoating the wings of a boomerang with cryogenic fluid allows it to freeze the air as it travels. Just, make sure to use gloves with it, lest your hands face the same fate.",
       "icon" : "/items/active/weapons/boomerang/iceboomerang.png"
     },
     "lunarang" : {
       "order" : 40,
       "title" : "Lunarang",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe strange properties of phase matter make this boomerang fly further, yet very fragile. However, it can mend itself back together like it was never shattered to begin with. Spooky.",
-      "icon" : "/items/active/weapons/fist/vinefist.png"
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe strange properties of phase matter make this boomerang fly further, yet very fragile. However, it can mend itself back together like it was never shattered to begin with. Spooky.",
+      "icon" : "/items/active/weapons/boomerang/lunarang.png"
     },
     "wormerang" : {
       "order" : 41,
@@ -270,19 +270,19 @@
     "sawchakram" : {
       "order" : 43,
       "title" : "Saw Chakram",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis is especially a bad idea. Throwing self-rotating sawblades should not be something you choose to do. Though as a trap, its decent if you don't lose your hand.",
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis is especially a bad idea. Throwing self-rotating sawblades should not be something you choose to do. Though as a trap, its decent if you don't lose your hand.",
       "icon" : "/items/active/weapons/chakram/sawchakram.png"
     },
     "hardchakram" : {
       "order" : 44,
       "title" : "Hard Chakram",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis chakram isn't as much of a slicing weapon, as it is the throwing version of a hammer. A few Glitch warriors utilize such implements to deal with plate armor, the gear design is holy to them.",
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThis chakram isn't as much of a slicing weapon, as it is the throwing version of a hammer. A few Glitch warriors utilize such implements to deal with plate armor, the gear design is holy to them.",
       "icon" : "/items/active/weapons/chakram/hardchakram.png"
     },
     "neochakram" : {
       "order" : 45,
       "title" : "Neo Chakram",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA couple hundred microthrusters and a lot of ram does wonders to keep a spinning metal disk in the air. Especially flashy bounty hunters enjoy this one, some even use it as an ID or calling card.",
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA couple hundred microthrusters and a lot of ram does wonders to keep a spinning metal disk in the air. Especially flashy bounty hunters enjoy this one, some even use it as an ID or calling card.",
       "icon" : "/items/active/weapons/chakram/neochakram.png"
     }
   }

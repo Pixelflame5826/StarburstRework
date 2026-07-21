@@ -38,7 +38,7 @@
     "hokucide" : {
       "order" : 6,
       "title" : "Hokucide",
-      "description" : "^white;Obtained From: ^yellow;Koichi^reset; \nOne of the great relics of Hylotl's history! Once wielded by the legendary Blue Blade against the Floran invaders, its craftsmanship is unmatched. Said to use the waters themselves like a weapon that tore foes apart. Its a wonder how Koichi got this...",
+      "description" : "^white;Obtained From: ^yellow;Koichi^reset; \nOne of the great relics of Hylotl's history! Once wielded by the legendary Blue Blade against the Floran invaders. Said to use the water itself like as a weapon to tear foes apart. Its a wonder how Koichi got this...",
       "icon" : "/items/active/weapons/melee/broadsword/hokucide.png"
     },
     "flamingdemonsword" : {
@@ -68,7 +68,7 @@
     "protectoratebroadsword" : {
       "order" : 11,
       "title" : "Protector's Broadsword",
-      "description" : "^white;Obtained From: ^yellow;Baron^reset; \nThe Protectorate Peacekeeping Blade back to its full glory! The group effort of many species to make a powerful hybrid sword that was worthy for the few warriors of the Protectorate. Its yours now, may it be a symbol of unity forevermore!",
+      "description" : "^white;Obtained From: ^yellow;Baron^reset; \nThe Protectorate Peacekeeping Blade back to its full glory! Many species came together to make this powerful hybrid sword, worthy for the few warriors of the Protectorate. Its yours now, may it be a symbol of unity forevermore!",
       "icon" : "/items/active/weapons/protectorate/protectoratebroadsword/protectoratebroadsword.png:inactive"
     },
 
@@ -76,7 +76,7 @@
     "ixodoomclaw" : {
       "order" : 12,
       "title" : "Ixodoom Claw",
-      "description" : "^white;Obtained From: ^red;Ixodoom^reset; \nIxodoom (Tetrapoda Magnusa) is the largest arachnid-like species in the galaxy. Originating from the Floran homeworlds, they are often seen as the greatest challenge a Floran hunter can face. At full strength, this claw can crush a Letheia Corvette!",
+      "description" : "^white;Obtained From: ^red;Ixodoom^reset; \nIxodoom (Tetrapoda Magnusa) is the largest arachnid-like species in the galaxy. Originating from the Floran homeworlds, they are often seen as the greatest challenge a Floran hunter can face.",
       "icon" : "/items/active/weapons/bossdrop/ixodoomclaw/ixodoomclaw.png"
     },
     "pf_executioneraxe" : {
@@ -96,7 +96,7 @@
     "vinewhip" : {
       "order" : 15,
       "title" : "Vine Whip",
-      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nThough a seemingly simple concept, this weapon was made from Floran Biogenesis. The whip itself is alive in order to maintain its poison. Make sure to give it plenty of sun.",
+      "description" : "^white;Found On: Any Planet ^#00d53c;[Tier 3]^white; ~ ^#3cd500;[Tier 4]^reset; \nThough a seemingly simple concept, this weapon was made from Floran Biogenesis. The whip itself is alive in order to maintain its poisonous sting. Make sure to give it plenty of sun.",
       "icon" : "/items/active/weapons/whip/vinewhip.png:idle"
     },
     "intestinewhip" : {
@@ -117,37 +117,37 @@
       "order" : 18,
       "title" : "Boxing Glove",
       "description" : "^white;Obtained From: ^orange;Spinning Wheel^reset;\nHardly better than your own fists, but they work in a pinch against certain targets. Remember, alien wilderness is not a boxing ring, there is no trophy to win!",
-      "icon" : "/items/active/weapons/fist/boxingglove.png"
+      "icon" : "/items/active/weapons/fist/boxingglove.png:front"
     },
     "gauntlet" : {
       "order" : 19,
       "title" : "Gauntlet",
       "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#3cd500;[Tier 4]^reset; \nA highly effective method for using your fists, hard and protective at the same time. A surprisingly versatile basis for a variety of attachments.",
-      "icon" : "/items/active/weapons/fist/gauntlet.png"
+      "icon" : "/items/active/weapons/fist/gauntlet.png:front"
     },
     "clawglove" : {
       "order" : 20,
       "title" : "Claw Glove",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe most common gauntlet variant used by Hylotl fighters. Favored by highly mobile monks and bounty hunters when they would rather not be held back by a blade.",
-      "icon" : "/items/active/weapons/fist/clawglove.png"
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe most common gauntlet variant used by Hylotl fighters. Favored by highly mobile monks and bounty hunters when they would rather not be held back by a blade.",
+      "icon" : "/items/active/weapons/fist/clawglove.png:front"
     },
     "stunglove" : {
       "order" : 21,
       "title" : "Stun Glove",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA taser attachment for a gauntlet is a popular one by all races. Many civilians use it for self defense, but the Terrene Peacekeepers often use it as a CQC option for non-lethal strikes.",
-      "icon" : "/items/active/weapons/fist/stunglove.png"
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nA taser attachment for a gauntlet is a popular one by all races. Many civilians use it for self defense, but the Terrene Peacekeepers often use it as a CQC option for non-lethal strikes.",
+      "icon" : "/items/active/weapons/fist/stunglove.png:front"
     },
     "vinefist" : {
       "order" : 22,
       "title" : "Vine Fist",
-      "description" : "^white;Recipe Found On: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nFlorans aren't any stranger to completely changing a piece of tech. In this case, using living vines as a grappling and long reaching option compared to other gauntlets.",
-      "icon" : "/items/active/weapons/fist/vinefist.png"
+      "description" : "^white;Recipe From: Any Planet ^#00a5d5;[Tier 3]^white; ~ ^#d5c300;[Tier 6]^reset; \nFlorans aren't any stranger to completely changing a piece of tech. In this case, using living vines as a grappling and long reaching option compared to other gauntlets.",
+      "icon" : "/items/active/weapons/fist/vinefist.png:front.1"
     },
     "supernovaglove" : {
       "order" : 23,
       "title" : "Supernova Gauntlet",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nLikely the largest fist you've ever seen! Imbued with cosmic power, this gauntlet hits combatants with enough force to turn the very air into plasma. Punch them so hard they nova!",
-      "icon" : "/items/active/weapons/fist/supernovaglove.png"
+      "description" : "^white;Recipe From: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nLikely the largest fist you've ever seen! Imbued with cosmic power, this gauntlet hits combatants with enough force to turn the very air into plasma. Punch them so hard they nova!",
+      "icon" : "/items/active/weapons/fist/supernovaglove.png:front"
     },
 
     //GUNS
@@ -160,7 +160,7 @@
     "erchiuseye" : {
       "order" : 25,
       "title" : "Erchius Eye",
-      "description" : "^white;Obtained From: ^red;Erchius Horror^reset; \nIn hushed whispers were talks of the unexplained cosmic power of Erchius, even more hushed were potential entities summoned by them. Perhaps this is less of a rumor than once thought. Though Letheia will likely find a use for them.",
+      "description" : "^white;Obtained From: ^red;Erchius Horror^reset; \nIn hushed whispers were talks of the unexplained cosmic power of Erchius. Even more hushed were the potential entities summoned by it. Perhaps it was less of a rumor than once thought. Not that Letheia cares...",
       "icon" : "/items/active/weapons/bossdrop/erchiuseye/erchiuseye.png"
     },
     "neopistol" : {
@@ -190,7 +190,7 @@
     "neomagnum1" : {
       "order" : 30,
       "title" : "Neo Magnum",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nA Peacekeeper specialty, the energy cell based revolver. The final and lethal option in a crisis situation, and it does it quite well. A Class C firearm, this is the version given to rookies.",
+      "description" : "^white;Bought From: ^magenta;Peacekeeper Store^reset; \nA Peacekeeper specialty, the energy cell based revolver. The final and lethal option in a crisis situation, and it does it quite well. A Class C firearm, this is the version given to rookies.",
       "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum1icon.png"
     },
     "gristlegun" : {
@@ -220,13 +220,13 @@
     "neomagnum2" : {
       "order" : 35,
       "title" : "Neo Magnum-E78",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 3+]^reset; \nThe Class B variant of the Neo Magnum. Gaining this one is a writ of passage to becoming an experienced Peacekeeper. The plasma charges are even more lethal, because you now understand when it is required.",
+      "description" : "^white;Bought From: ^magenta;Peacekeeper Store^reset; \nThe Class B variant of the Neo Magnum. Gaining this one is a writ of passage to becoming an experienced Peacekeeper. The plasma charges are even more lethal, because you now understand when it is required.",
       "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum2icon.png"
     },
     "adaptablecrossbow" : {
       "order" : 36,
       "title" : "Adaptable Crossbow",
-      "description" : "^white;Obtained From: ^orange;Treasured Trophies^reset; \nThe ultimate hunting platform! A maglev crossbow that fires bolts of any element, as well as having gravity manipulating bolts. No prey, hot or cold, fast or slow, can escape you with this!",
+      "description" : "^white;Bought From: ^orange;Treasured Trophies^reset; \nThe ultimate hunting platform! A maglev crossbow that fires bolts of any element, as well as having gravity manipulating bolts. No prey, hot or cold, fast or slow, can escape you with this!",
       "icon" : "/items/active/weapons/other/adaptablecrossbow/adaptablecrossbow.png:wooden.1"
     },
     "hunterrifle" : {
@@ -238,7 +238,7 @@
     "neomagnum3" : {
       "order" : 38,
       "title" : "Neo Magnum-RX",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 4+]^reset; \nThe Class A variant of the Neo Magnum. Only veteran Peacekeepers begin to wield these weapons. By proving their worth, they've earned the greater durability and strength of this gun. Though its not the greatest.",
+      "description" : "^white;Bought From: ^magenta;Peacekeeper Store^reset; \nThe Class A variant of the Neo Magnum. Only veteran Peacekeepers begin to wield these weapons. By proving their worth, they've earned the greater durability and strength of this gun. Though its not the best.",
       "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum3icon.png"
     },
     "remotegrenadelauncher" : {
@@ -250,14 +250,14 @@
     "evileye" : {
       "order" : 40,
       "title" : "Evil Eye",
-      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA highly dangerous lifeform only the most daring Floran beastmasters have tried to tame. Its very vision releases gamma radiation that can kill its prey in seconds.",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nA highly dangerous lifeform. Only the most daring Floran beastmasters have tried to tame. Its very vision releases gamma radiation that can kill its prey in seconds.",
       "icon" : "/items/active/weapons/other/evileye/evileye.png:idle.1"
     },
     "miniknoglauncher" : {
       "order" : 41,
       "title" : "Miniknog Launcher",
-      "description" : "^white;Obtained From: ^red;Big Ape^reset; \nA salvaged piece of the false Big Ape, a magnificent piece of Miniknog engineering. Despite the small footprint, it's interior is larger on the inside, able to fit multiple rockets inside. It seems the Miniknog looking into dimensional manipulation.",
-      "icon" : "/items/active/weapons/bossdrop/minknoglauncher/miniknoglaunchericon.png"
+      "description" : "^white;Obtained From: ^red;Big Ape^reset; \nIt seems the Miniknog looking into dimensional manipulation. Despite the small footprint, it's interior is larger on the inside, able to fit multiple rockets inside. Either way, its an amazing piece of engineering.",
+      "icon" : "/items/active/weapons/bossdrop/miniknoglauncher/miniknoglaunchericon.png"
     },
     "dragonhead" : {
       "order" : 42,
@@ -268,13 +268,13 @@
     "neomagnum4" : {
       "order" : 43,
       "title" : "Neo Magnum-ZZZ",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 5]^reset; \nThe final, Class S upgrade of the signature Neo Magnum. Only those who have shown superior valour and sense of justice are allowed to touch the golden exterior. Its said Noble dual wields these, and has 2 as backup.",
+      "description" : "^white;Bought From: ^magenta;Peacekeeper Store^reset; \nThe final, Class S upgrade of the signature Neo Magnum. Only those who have shown superior valour and sense of justice are allowed to touch the golden exterior. Its said Noble dual wields these, and has 2 as backup.",
       "icon" : "/items/active/weapons/ranged/unrand/neomagnum/pf_neomagnum4icon.png"
     },
     "neolaserlauncher" : {
       "order" : 44,
       "title" : "Lazercaster",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 4+]^reset; \nThe weapon the criminal underworld fears most. The Peacekeeper Lazercaster is only used in extreme cases, or \"lost causes.\" Criminals who aren't worth locking up will often face a full charge proton cannon at their doorsteps.",
+      "description" : "^white;Bought From: ^magenta;Peacekeeper Store^reset; \nThe weapon the criminal underworld fears most. The Peacekeeper Lazercaster is only used in extreme cases, or \"lost causes.\" Criminals who aren't worth locking up will often face a full charge proton cannon at their door.",
       "icon" : "/items/active/weapons/ranged/unrand/neolaserlauncher/neolaserlauncher.png"
     },
     
@@ -283,7 +283,7 @@
       "order" : 45,
       "title" : "Poison Bow",
       "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nTipping projectiles in poison is not a foreign concept by any means. Nearly every species does it to some degree. Doesn't mean its not effective, far from it.",
-      "icon" : "/items/active/weapons/bow/poisonbow/poisonbow.png:0"
+      "icon" : "/items/active/weapons/bow/poisonbow/poisonbowfull.png:0"
     },
     "pollenpump" : {
       "order" : 46,
@@ -296,7 +296,7 @@
     "kluexstaff" : {
       "order" : 47,
       "title" : "Kluex Staff",
-      "description" : "^white;Obtained From: ^red;Kluex Avatar^reset; \nA holy relic only ever spoken about in scripture. Once wielded by a Great Prophet, the Avolite within its core is said to contain a shard of the Will of Kluex. Fitting then, that this device channeled the energy of the Avatar's powercore.",
+      "description" : "^white;Obtained From: ^red;Kluex Avatar^reset; \nA holy relic of Avos. Once wielded by a Great Prophet, the Avolite within its core is said to contain a shard of the Will of Kluex. Fitting then, that this device channeled the energy of the Avatar's powercore.",
       "icon" : "/items/active/weapons/bossdrop/kluexstaff/kluexstaff.png"
     },
     "teslastaff" : {
@@ -310,7 +310,7 @@
     "gluesprayer" : {
       "order" : 49,
       "title" : "Glue Sprayer",
-      "description" : "^white;Obtained From: ^magenta;Peacekeeper Store^white; [Rank 2+]^reset; \nAffectionally known in the Peacekeepers as the \"Halt Gun,\" this is what you use when the person you've already cuffed tries to run away. Though also works well on rats, of both kinds. The donuts are safe!",
+      "description" : "^white;Bought From: ^magenta;Peacekeeper Store^reset; \nAffectionally known in the Peacekeepers as the \"Halt Gun,\" this is what you use when the person you've already cuffed tries to run away. Though also works well on rats, of both kinds. The donuts are safe!",
       "icon" : "/items/active/weapons/ranged/unrand/gluesprayer/gluesprayer.png"
     },
     "wormgun" : {

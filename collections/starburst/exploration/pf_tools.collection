@@ -15,7 +15,7 @@
       "order" : 2,
       "title" : "Copper Drill",
       "description" : "^white;Found On: Any Planet ^#00a5d5;[Tier 1]^white; ~ ^#00d5a0;[Tier 2]^reset; \nPneumatic drills in the space age much easier to make than most devices. The copper exterior does not do this drill's durability any favors, but you can't deny how cost efficient it is.",
-      "icon" : "/items/tools/miningtools/copperdrill.png:0"
+      "icon" : "/items/tools/miningtools/drill.png:0"
     },
     "pf_ironpickaxe" : {
       "order" : 3,
@@ -56,7 +56,7 @@
     "pf_durasteelpickaxe" : {
       "order" : 9,
       "title" : "Durasteel Pickaxe",
-      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nThe standard issue for most Protectorate missions, often used during search and rescue for cave-ins or landslides. The durasteel head lasts a lot longer than most tools of its type, and excavates quite quickly. Sometimes reliability is just better.",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nThe standard issue for most Protectorate missions, often used during search and rescue for cave-ins or landslides. The durasteel head lasts a lot longer than most tools of its type, and excavates quite quickly.",
       "icon" : "/items/tools/miningtools/crafted/pf_durasteelpickaxe.png"
     },
     "pf_durasteeldrill" : {
@@ -68,7 +68,7 @@
     "platinumpickaxe" : {
       "order" : 11,
       "title" : "Platinum Pickaxe",
-      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4]^white; ~ ^#b4d500;[Tier 5]^reset; \nPlatinum has had very few uses in metallurgy during the modern era, however more exotic materials have made platinum quite strong. Platinum's high heat tolerance makes it nice for deep mining operations for relatively cheap.",
+      "description" : "^white;Found On: Any Planet ^#3cd500;[Tier 4]^white; ~ ^#b4d500;[Tier 5]^reset; \nPlatinum has had very few uses in metallurgy during the modern era, however more exotic materials have made platinum quite strong. Platinum's high heat tolerance makes it nice for deep mining operations for cheap.",
       "icon" : "/items/tools/miningtools/platinumpickaxe.png"
     },
     "platinumdrill" : {
@@ -92,13 +92,13 @@
     "pf_chroniumpickaxe" : {
       "order" : 15,
       "title" : "Chronium Pickaxe",
-      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nMaking a pickaxe with the timeless metal seems like a no-brainer to many, however a lot would call it overkill. The incredible durability holds its edge for what seems like an eternity. Won't tarnish or rust either, truly a near forever pickaxe.",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nMaking a pickaxe with such a rare and powerful metal seems a bit overkill. The incredible durability holds its edge for what seems like an eternity. Won't tarnish or rust either, truly a near forever pickaxe.",
       "icon" : "/items/tools/miningtools/crafted/pf_chroniumpickaxe.png"
     },
     "pf_chroniumdrill" : {
       "order" : 16,
       "title" : "Chronium Drill",
-      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nOne step below an actual plasma miner, the extreme heat resistance of the chronium allows for a controlled hardlight generator. Hardlight has no durability of its own, meaning the only thing wearing down is the housing itself. It'll last pretty much forever.",
+      "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nOne step below an actual plasma miner, the extreme heat resistance of the chronium allows for a controlled hardlight generator. Hardlight has no durability of its own, meaning the only thing wearing down is the housing itself!",
       "icon" : "/items/tools/miningtools/crafted/pf_chroniumdrill.png:0"
     },
     "laserminer" : {
@@ -116,7 +116,7 @@
     "energypickaxe" : {
       "order" : 19,
       "title" : "Energy Pickaxe",
-      "description" : ""^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe pinnacle of mining technology! Originally a standard Solarium Broadsword projector, it was modified to form a near indestructible pickaxe. It will break rock and everything it can, while being perfectly stable.",
+      "description" : "^white;Found On: Any Planet ^#b4d500;[Tier 5]^white; ~ ^#d5c300;[Tier 6]^reset; \nThe pinnacle of mining technology! Originally a standard Solarium Broadsword projector, it was modified to form a near indestructible pickaxe. It will break rock and everything it can, while being perfectly stable.",
       "icon" : "/items/active/weapons/melee/pickaxe/energypickaxeicon.png"
     },
     "pf_tunneldrill" : {
@@ -165,7 +165,7 @@
     },
     "pf_flaregun" : {
       "order" : 27,
-      "title" : "Flare Gun",
+      "title" : "Flaregun",
       "description" : "^white;Obtained From: ^orange;Agricultural Station^reset; \nA basic upgrade to just throwing flares around, this flare launcher can lob flares much further. As well, it comes with flares that stick into surfaces! No more lighting problems again.",
       "icon" : "/items/active/unsorted/flaregun/pf_flaregun.png"
     },
@@ -186,7 +186,7 @@
     "pf_stormygrapplinghook" : {
       "order" : 30,
       "title" : "Rail-Grappler",
-      "description" : "^white;Found On: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nOne would think a railgun grappling hook would be a bit overkill, however this model is especially popular with hikers. The extended reach allows for quick traversal of cliffsides and crevices with little issue.",
+      "description" : "^white;Recipe From: ^#592a6e;Anabatic Planets ^#b4d500;[Tier 5]^reset; \nOne would think a railgun grappling hook would be a bit overkill, however this model is especially popular with hikers. The extended reach allows for quick traversal of cliffsides and crevices with little issue.",
       "icon" : "/items/active/grapplinghooks/stormygrapplinghook/pf_stormygrapplegun.png"
     },
 
@@ -200,7 +200,7 @@
     "oredetector" : {
       "order" : 32,
       "title" : "Ore Detector",
-      "description" : "^white;Found On: ^orange;Agricultural Station^reset; \nEvery mineral and rock in the universe has a distinct and unique resonance. By vibrating the walls with a specific sound, one can dowse for any valuable material one desires. Originally done by large weights, this extremely precise tool is a marvel on its own.",
+      "description" : "^white;Found On: ^orange;Agricultural Station^reset; \nEvery mineral and rock in the universe has a distinct and unique resonance. By vibrating the walls with a specific sound, one can dowse for any valuable material one desires. This extremely precise tool is a marvel on its own.",
       "icon" : "/items/active/unsorted/oredetector/oredetector.png"
     }
   }

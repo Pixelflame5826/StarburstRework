@@ -8,5 +8,11 @@
         "op": "replace",
         "path": "/description",
         "value": "A sword of extraordinary dark power, once used by a powerful soul. Totally won't corrupt your soul."
+    },
+    
+    {
+        "op": "add",
+        "path": "/collectablesOnPickup",
+        "value": { "pf_uniqueweapons" : "soulseeker" }
     }
 ]

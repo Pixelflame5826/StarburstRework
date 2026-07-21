@@ -1,7 +1,7 @@
 {
   "name" : "pf_hazardprotection",
   "title" : "Survival Kit",
-  "type" : "item",
+  "type" : "generic",
 
   "collectables" : {
     //CONSUMABLES
@@ -137,7 +137,7 @@
       "order" : 22,
       "title" : "Radiation Block Augment",
       "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nA tiny nuclear generator hooked up to an invisible hardlight field. It doubles as both a particle shield, and a destructive interference limiter for any gamma rays in the air.",
-      "icon" : "/items/augments/back/radiationblockaugment.png"
+      "icon" : "/items/augments/back/pf_radiationblockaugment.png"
     },
 
     //EPPs
@@ -175,7 +175,7 @@
       "order" : 28,
       "title" : "Antistatic EPP",
       "description" : "^white;Obtained From: ^orange;Hazard Research Station^reset; \nA permanent violium shield is built within this EPP, completely removing any and all risk of ambient static from even entering the system that is the wearer.",
-      "icon" : "/items/armors/backitems/pf_lightningprotection/pf_lightningprotectionprotectionicon.png"
+      "icon" : "/items/armors/backitems/pf_lightningprotection/pf_lightningprotectionicon.png"
     }
   }
 }
