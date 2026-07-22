@@ -6,6 +6,11 @@
     },
     {
         "op": "add",
+        "path": "/pf_spiritbladecharge",
+        "value": "/items/active/weapons/melee/abilities/broadsword/bladecharge/pf_spiritbladecharge.weaponability"
+    },
+    {
+        "op": "add",
         "path": "/pf_multiswap",
         "value": "/items/active/weapons/unique/multitool/pf_multiswap.weaponability"
     },

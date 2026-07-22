@@ -1,0 +1,13 @@
+[
+    {
+        "op": "add",
+        "path": "/ability/elementalConfig/pf_spirit",
+        "value": {
+            "damageConfig": {
+                "statusEffects": [
+                    "pf_sealed"
+                ]
+            }
+        }
+    }
+]

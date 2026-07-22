@@ -1,4 +1,4 @@
---- FRESH STARDUST UPDATE ---
+--- BREATH OF FRESH STARDUST UPDATE ---
 An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 --- Additions 
@@ -19,8 +19,9 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 + Heartwood Carbine (New Alt)
 + Blue Ice Shotgun (New Alt: Solidify/Vaporize)
 + Kaigun (New Alt: Shipbreaker)
+# Note: These do not carry over to randomly generated weapons, I will figure this one out eventually.
 
-+ EXPLORER'S JOURNAL AND COLLECTIONS!: New collections have been added to the game, they can be found in the new Explorer's Journal item. Obtained from your ship or crafted from a Foraging Table/Agricultural Station, can also found on Quickbar. It includes further info on the items and descriptions describing the category itself. These should hopefully grant further insight into what this mod has to offer.
++ EXPLORER'S JOURNAL AND COLLECTIONS!: New collections have been added to the game, they can be found in the new Explorer's Journal item. Obtained from your ship or crafted from a Foraging Table/Agricultural Station, can also found on Quickbar. It includes further info on the items and descriptions describing the category itself. These should hopefully grant further insight into what this mod has to offer. More to come, eventually.
 # New Collections
 ## Combat
 + One-of-a-Kind Weaponry (Unique Weapons)
@@ -55,6 +56,10 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 + Reworked Hazard Warning System!: Tired of all of those hazard messages from SAIL? Well, no more! When under a hazard's effects, a small visual and audio cue will play. Now the radio message is only relegated to be played once!
 
++ New Music!: Thanks to Gigaroni, a composer for my other big mod, Ancient Cosmos. This mod now has its own music! More to come.
+# New Track
++ Mesoscale Convection: Plays on Anabatic planets
+
 + New Blocks!: There are now a few new blocks, mainly centered around the new savannah structures.
 # Blocks
 + Large Vertebra
@@ -73,6 +78,9 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 + Flashlight (Green): Similar to its vanilla counterpart. Made for visibility.
 + Flashlight (Red): A dark design, for the stealthy purposes red light serves.
 + Flashlight (Yellow): Made into an old aluminium flashlight. 
++ Flare: Given a new look that makes more sense as a modern flare. 
+
++ Spirit Element Implementation!: In Hylotl Castles, where one can usually find katanas. You can find a rare variant that is guaranteed to have the spirit element. With its own spirit variants of the normal abilities! As well, Hylotl Warlords now come equipped with these katanas.
 
 
 --- Equipment Changes
@@ -93,6 +101,12 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 + Oxygen Tank: Increased Oxygen Capacity and Added Swim Boost
 + Spacesuit Backpack: Doubled Breathing Rate reduction
 
++ Randomly generated and the Aquari Katana sprites have been updated to fit a new design.
+
++ Added two new part sprites for Random Katanas, and multiple new name fragments.
+
++ Added multiple name fragments to the Random Revolvers
+
 + Ex Machina's rockets now always follow the laser.
 
 - Space Plasma Rifle's bullets no longer bounce, moved to new alt-fire.
@@ -111,6 +125,8 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 + Fire Lord's Cloak is now obtainable from Volcanic Chests.
 
+- Reduced treasurepool chances for higher ranking Avian Wings backs, due to the new mechanics.
+
 --- Biome Changes 
 + Added Peat to Swamp biomes.
 
@@ -122,6 +138,10 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 + Added furnace recipe for Coal from Peat. Learned from picking up Peat blocks.
 
++ Replaced the Volatile Powder in the Flare recipe with Coal
+
++ Replaced the Torch in the Flashlight recipe with an AA Battery
+
 - Reduced chances for weapons to randomly spawn in Perfectly Generic Chests, still guaranteed to have one weapon.
 
 
@@ -132,6 +152,12 @@ An update focusing on extra flavor, quality of life, and aesthetic upgrades.
 
 
 --- Fixes
-+ Fixed grammar for the crafted Promethium weapons' names.
++ Added the new shield mechanics to the Riot Shield, I forgot last time. Increased knockback.
+
++ Fixed grammar for the Promethium weapons' names.
 
 + Fixed the Hazmat Airtank's biome resistance effect, now actually blocks it.
+
++ Fixed "duplicate pf_savannahbowpedestal" error on startup.
+
++ Fixed "coralcreepcurry" patch for the second time (Thank you, CW.)

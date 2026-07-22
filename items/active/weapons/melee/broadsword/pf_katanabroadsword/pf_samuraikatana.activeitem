@@ -2,7 +2,7 @@
   "itemName" : "pf_samuraikatana",
   "price" : 900,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "A graceful katana.",
   "shortdescription" : "Samurai Katana",
   "tooltipKind" : "pf_randomsword",
@@ -30,12 +30,12 @@
     "animationParts" : {
       "blade" : {
         "path" : "blade/<variant>.png",
-        "variants" : 3,
+        "variants" : 4,
         "paletteSwap" : true
       },
       "handle" : {
         "path" : "handle/<variant>.png",
-        "variants" : 13,
+        "variants" : 14,
         "paletteSwap" : true
       }
     },

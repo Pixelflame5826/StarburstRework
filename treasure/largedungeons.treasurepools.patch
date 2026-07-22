@@ -189,8 +189,16 @@
         "op": "add",
         "path": "/hylotlruinedcastleChestTreasure/0/1/pool/6",
         "value": {
-            "weight": 0.1,
+            "weight": 0.2,
             "item": "pf_samuraikatana"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/hylotlruinedcastleChestTreasure/0/1/pool/6",
+        "value": {
+            "weight": 0.1,
+            "item": "pf_spiritkatana"
         }
     },
     {
@@ -239,5 +247,34 @@
                 1
             ]
         }
+    },
+
+    //AVIAN TEMPLE 
+    {
+        "op": "replace",
+        "path": "/aviantempleChestTreasure/0/1/pool/8/weight",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/aviantempleChestTreasure/0/1/pool/7/weight",
+        "value": 0.01
+    },
+    {
+        "op": "replace",
+        "path": "/aviantempleChestTreasure/0/1/pool/4/weight",
+        "value": 0.02
+    },
+    {
+        "op": "replace",
+        "path": "/aviantempleChestTreasure/0/1/pool/3/weight",
+        "value": 0.02
+    },
+
+    //AVIAN TOMB
+    {
+        "op": "replace",
+        "path": "/aviantombChestTreasure/0/1/pool/5/weight",
+        "value": 0.075
     }
 ]

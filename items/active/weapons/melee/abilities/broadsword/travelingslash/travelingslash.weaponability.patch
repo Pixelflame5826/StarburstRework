@@ -1,0 +1,16 @@
+[
+    {
+        "op": "add",
+        "path": "/ability/elementalConfig/pf_spirit",
+        "value": {
+            "projectileType": "pf_spirittravelingswoosh"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/animationCustom/sounds/pf_spiritTravelSlash",
+        "value": [
+            "/sfx/melee/timepierce_swing1.ogg"
+        ]
+    }
+]

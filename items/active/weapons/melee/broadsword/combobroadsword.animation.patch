@@ -1,0 +1,25 @@
+[
+    {
+        "op": "add",
+        "path": "/particleEmitters/pf_spiritswoosh",
+        "value": {
+            "active": false,
+            "transformationGroups": [
+                "swoosh"
+            ],
+            "emissionRate": 50,
+            "burstCount": 3,
+            "particles": [
+                {
+                    "particle": "pf_spiritswoosh1"
+                },
+                {
+                    "particle": "pf_spiritswoosh2"
+                },
+                {
+                    "particle": "pf_spiritswoosh3"
+                }
+            ]
+        }
+    }
+]

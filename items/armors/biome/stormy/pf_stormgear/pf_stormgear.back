@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "category" : "enviroProtectionPack",
   "tooltipKind" : "pf_advancedbackwear",
-  "description" : "A backpack installed with weather meters. Includes a fog light and weather protection equipment. ^orange;Resists all mild planet hazards.",
+  "description" : "A backpack installed with weather meters. Includes a fog light and protection equipment. ^orange;Resists all mild planet hazards.",
   "shortdescription" : "Stormchaser's Pack",
 
   "collectablesOnPickup" : { "pf_enhancementpacks" : "pf_stormgearback" },

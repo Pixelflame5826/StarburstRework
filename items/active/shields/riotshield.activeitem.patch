@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/builder",
+        "value": "/items/buildscripts/pf_buildunrandshield.lua"
+    },
+    {
+        "op": "replace",
+        "path": "/knockback",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "A symbol of law and order. Not made for heavy combat, but to keep others at bay and attack from range."
+    },
+    {
+        "op": "replace",
+        "path": "/tooltipKind",
+        "value": "pf_uniqueshield"
+    }
+]

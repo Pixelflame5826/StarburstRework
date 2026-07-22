@@ -107,10 +107,10 @@
 
   "musicTrack" : {
     "day" : {
-      "tracks" : [ "/music/crystal-exploration1.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/horsehead-nebula.ogg", "/music/forsaken-grotto.ogg", "/music/the-apex.ogg"  ]
+      "tracks" : [ "/music/pf_mesoscale-convection.ogg", "/music/horsehead-nebula.ogg", "/music/procyon.ogg", "/music/blue-straggler.ogg", "/music/forsaken-grotto.ogg", "/music/error-0xbfaf000.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/accretion-disc.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg" ]
+      "tracks" : [ "/music/arctic-constellation1.ogg", "/music/procyon.ogg", "/music/accretion-disc.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/nomads.ogg" ]
     }
   },
 

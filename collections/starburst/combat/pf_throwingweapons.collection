@@ -168,7 +168,7 @@
     "pf_promethiumgrenade" : {
       "order" : 27,
       "title" : "Promethium Grenade",
-      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nA very illegal explosive. This grenade spreads molten promethium in all directions, burning hotter than a plasma torch. If weapons such as these were common place, its no wonder the Deadbeats' planets were scorched.",
+      "description" : "^white;Obtained From: ^orange;Replicator [Any Add-On]^reset; \nA very illegal explosive. This grenade spreads molten promethium in all directions, burning hotter than a plasma torch. If weapons such as these were commonplace, its no wonder the Deadbeats' planets were scorched.",
       "icon" : "/items/throwables/pf_promethiumgrenade.png"
     },
     "pf_uraniumgrenade" : {

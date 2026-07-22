@@ -18,14 +18,14 @@
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [9, 123],
+    "position" : [9, 80],
     "hAnchor" : "left",
     "vAnchor" : "top",
     "wrapWidth" : 123
   },
   "handednessLabel" : {
     "type" : "label",
-    "position" : [90, 178],
+    "position" : [90, 135],
     "hAnchor" : "right",
     "centered" : true,
     "wrapWidth" : 126
@@ -39,7 +39,7 @@
   },
   "largeImage" : {
     "type" : "image",
-    "position" : [70, 149],
+    "position" : [70, 109],
     "file" : "",
     "centered" : true,
     "maxSize" : [75, 45],

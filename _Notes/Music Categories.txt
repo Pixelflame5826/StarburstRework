@@ -1,0 +1,68 @@
+Calm
+- Accretion Disc
+- Arctic Constellation 1
+- Arctic Constellation 2
+- Eridanus Supervoid
+- Hymn to the Stars
+- Mercury
+- Nomads
+- On the Beach at Night
+
+Gloomy/Empty
+- Crystal Exploration 2
+- Cygnus X1
+- Jupiter
+- M54
+- Tranquility Base
+
+Upbeat/Adventurous
+- Error 0xb
+- Atlas
+- Blue Straggler
+- Large Magellanic Cloud
+- Stellar Formation
+- Vast Immortal Suns
+
+Cautious
+- Horsehead Nebula
+- Procyon
+- Psyche
+
+Dangerous
+- The Apex
+- Drosera
+
+Hot
+- Casiopeia
+- Lava Exploration 2
+
+Cold
+- Arctic Exploration 1
+- Arctic Exploration 2
+- Crystal Exploration 1
+- Mira
+
+Strange
+- Body Electric
+- Inviolate Loop
+- Ultramarine
+
+Desert
+- Desert Exploration 1
+- Desert Exploration 2
+- I was the Sun
+
+Woodlands
+- Epsilon Indi
+- Forest Loop
+- Forsaken Grotto
+
+Stormy
+- Mesoscale Convection
+
+Ocean
+- Haiku
+- The Deep
+
+Caves
+- Europa

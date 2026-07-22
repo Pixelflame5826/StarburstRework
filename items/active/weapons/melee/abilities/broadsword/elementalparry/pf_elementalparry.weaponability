@@ -55,7 +55,7 @@
         "active" : false,
         "transformationGroups" : ["weapon"],
         "emissionRate" : 30,
-		"offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+		    "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
         "particles" : [
           { "particle" : "fireswoosh1"},
           { "particle" : "fireswoosh2"},
@@ -66,7 +66,7 @@
         "active" : false,
         "transformationGroups" : ["weapon"],
         "emissionRate" : 30,
-		"offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+		    "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
         "particles" : [
           { "particle" : "electricswoosh1"},
           { "particle" : "electricswoosh2"},
@@ -77,7 +77,7 @@
         "active" : false,
         "transformationGroups" : ["weapon"],
         "emissionRate" : 30,
-		"offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+		    "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
         "particles" : [
           { "particle" : "iceswoosh1"},
           { "particle" : "iceswoosh2"},
@@ -88,11 +88,22 @@
         "active" : false,
         "transformationGroups" : ["weapon"],
         "emissionRate" : 30,
-		"offsetRegion" : [-0.625, 0.0, 1.175, 3.4],
+		    "offsetRegion" : [-0.625, 0.0, 1.175, 3.4],
         "particles" : [
           { "particle" : "poisonswoosh1"},
           { "particle" : "poisonswoosh2"},
           { "particle" : "fireswoosh2"}
+        ]
+      },
+      "pf_spiritParryShield" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 30,
+		    "offsetRegion" : [-0.625, 0.0, 1.175, 3.4],
+        "particles" : [
+          { "particle" : "pf_spiritswoosh1"},
+          { "particle" : "pf_spiritswoosh2"},
+          { "particle" : "pf_spiritswoosh3"}
         ]
       }
     },
@@ -135,6 +146,9 @@
       },
       "electric" : {
         "damageConfig" : { "statusEffects" : [ "electrified" ] }
+      },
+      "pf_spirit" : {
+        "damageConfig" : { "statusEffects" : [ "pf_sealed" ] }
       }
     },
     "damageConfig" : {
