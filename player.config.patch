@@ -816,5 +816,12 @@
         "value": {
             "item": "orangestim"
         }
+    },
+    {
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": {
+            "item": "pf_starburstcollections"
+        }
     }
 ]

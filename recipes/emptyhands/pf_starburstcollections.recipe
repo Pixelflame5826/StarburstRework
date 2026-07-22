@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 1 },    
+    { "item" : "paper", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pf_starburstcollections",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

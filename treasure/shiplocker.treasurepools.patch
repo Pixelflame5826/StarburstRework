@@ -1,0 +1,9 @@
+[
+    {
+        "op": "add",
+        "path": "/starterTreasure/0/1/fill/6",
+        "value": {
+            "item": "pf_starburstcollections"
+        }
+    }
+]
