@@ -16,11 +16,11 @@
       "pool" : [
         {"weight" : 0.82, "pool" : "money"},
         {"weight" : 0.10, "pool" : "healingItem"},
-        {"weight" : 0.04, "item" : "pf_samuraikatana"},
-		{"weight" : 0.01, "item" : "hylotlhistory8-codex"},
-		{"weight" : 0.01, "item" : "hylotlpainting1"},
-		{"weight" : 0.01, "item" : "hylotlpainting2"},
-		{"weight" : 0.01, "item" : "hylotlpainting3"}
+        {"weight" : 0.04, "item" : "pf_spiritkatana"},
+		    {"weight" : 0.01, "item" : "hylotlhistory8-codex"},
+		    {"weight" : 0.01, "item" : "hylotlpainting1"},
+		    {"weight" : 0.01, "item" : "hylotlpainting2"},
+		    {"weight" : 0.01, "item" : "hylotlpainting3"}
       ],
       "poolRounds" : 1,
       "allowDuplication" : false

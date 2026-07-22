@@ -48,7 +48,7 @@
             "chest" : [ { "name" : "valorouschest" } ],
             "legs" : [ { "name" : "valorouspants" } ],
             "primary" : [ "npcpetcapturepod" ],
-            "sheathedprimary" : [ "pf_samuraikatana" ],
+            "sheathedprimary" : [ "pf_spiritkatana" ],
             "alt" : [ "pf_oceansniper" ]
           },
 		  {
