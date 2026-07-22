@@ -1,23 +1,14 @@
-[[
-    { "op": "test", "path": "/effects/0/2" },
-    {
-        "op": "remove",
-        "path": "/effects/0/2"
-    }
-],
 [
-    {
-        "op": "remove",
-        "path": "/effects/0/2"
-    },
-    {
-        "op": "replace",
-        "path": "/effects/0/1/duration",
-        "value": 120
-    },
-    {
-        "op": "replace",
-        "path": "/effects/0/1/effect",
-        "value": "pf_mildbiomecoldprotection"
+  {
+    "op": "replace",
+    "path": "/effects/0/1",
+    "value": {
+      "effect": "pf_mildbiomecoldprotection",
+      "duration": 120
     }
-]]
+  },
+  {
+    "op": "remove",
+    "path": "/effects/0/2"
+  }
+]
