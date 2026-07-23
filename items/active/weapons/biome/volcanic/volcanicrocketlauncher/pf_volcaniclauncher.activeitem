@@ -81,6 +81,8 @@
         "weaponRotation" : 0,
         "twoHanded" : true,
 
+        "weaponOffset" : [ -0.12, 0 ],
+
         "animationStates" : {
           "body" : "cooldown"
         },

@@ -17,6 +17,12 @@
 
     {
         "op": "replace",
+        "path": "/muzzleOffset",
+        "value": [2.125, 0.25]
+    },
+
+    {
+        "op": "replace",
         "path": "/animationParts/middle",
         "value": "pf_ironassaultrifle-ani.png"
     },

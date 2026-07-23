@@ -1,4 +1,9 @@
-[
+[   
+    {
+        "op": "replace",
+        "path": "/handPosition",
+        "value": [0, 1.75]
+    },
     {
         "op": "add",
         "path": "/collectablesOnPickup",
