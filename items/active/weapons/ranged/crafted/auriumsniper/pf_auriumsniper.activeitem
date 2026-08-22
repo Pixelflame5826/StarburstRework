@@ -12,7 +12,7 @@
   "itemTags" : ["weapon","ranged","rifle","pf_anvilUpgradeableWeapon"],
   "twoHanded" : true,
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "pf_auriumsniper.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "pf_auriumsniper.png",

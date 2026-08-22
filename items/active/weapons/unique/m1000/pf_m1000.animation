@@ -60,6 +60,31 @@
         }
       },
 
+      "middleFullbright" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [1.2, 0.3],
+          "transformationGroups" : ["weapon"],
+          "fullbright" : true,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+            "cooldown" : {
+              "properties" : {
+                "image" : "<partImage>:cooldown.<frame>"
+              }
+            }
+          }
+        }
+      },
+
       "muzzleFlash" : {
         "properties" : {
           "zLevel" : -1,
@@ -96,7 +121,7 @@
   "particleEmitters" : {
     "muzzleFlash" : {
       "transformationGroups" : ["muzzle"],
-      "particles" : [ { "particle" : "pf_basicbulletcasing", "offset" : [-2.2, 0.125] } ]
+      "particles" : [ { "particle" : "pf_basicbulletcasing", "offset" : [-3, 0.125] } ]
     }
   },
 

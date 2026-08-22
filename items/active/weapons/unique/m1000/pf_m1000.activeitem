@@ -24,20 +24,6 @@
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom" : {
-    "animatedParts" : {
-      "parts" : {
-        "middleFullbright" : {
-          "properties" : {
-            "centered" : true,
-            "image" : "<partImage><paletteSwaps>",
-            "offset" : [1.2, 0.3],
-            "transformationGroups" : ["weapon"],
-            "fullbright" : true,
-            "zLevel" : 1
-          }
-        }
-      }
-    },
     "sounds" : {
       "fire" : ["/sfx/gun/sniper3.ogg"],
 	    "chargedfire" : ["/sfx/gun/pf_m1000_chargeshot.ogg"],
